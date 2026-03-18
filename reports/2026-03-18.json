@@ -1,0 +1,101 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-03-18 14:25 (UTC+8)",
+  "indices": [
+    {
+      "symbol": "^DJI",
+      "name": "道瓊工業指數",
+      "price": 46993.26,
+      "change_pct": 0.1
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "標普 500",
+      "price": 6716.09,
+      "change_pct": 0.25
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "納斯達克",
+      "price": 22479.53,
+      "change_pct": 0.47
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "URNM",
+      "name": "URNM（鈾礦 ETF）",
+      "category": "核能",
+      "price": 65.05,
+      "change_pct": 1.36,
+      "signal": "🟢"
+    },
+    {
+      "symbol": "NLR",
+      "name": "NLR（核能 ETF）",
+      "category": "核能",
+      "price": 139.54,
+      "change_pct": 1.2,
+      "signal": "🟢"
+    },
+    {
+      "symbol": "SMH",
+      "name": "SMH（半導體 ETF）",
+      "category": "科技",
+      "price": 396.88,
+      "change_pct": 0.75,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "AIQ",
+      "name": "AIQ（AI ETF）",
+      "category": "科技",
+      "price": 49.58,
+      "change_pct": 0.49,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "BOTZ",
+      "name": "BOTZ（機器人 ETF）",
+      "category": "科技",
+      "price": 35.38,
+      "change_pct": -0.03,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "GLD",
+      "name": "GLD（黃金 ETF）",
+      "category": "避險",
+      "price": 459.27,
+      "change_pct": -0.25,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "BTC",
+      "category": "加密",
+      "price": 74072.2,
+      "change_pct": -1.05,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "ETH",
+      "category": "加密",
+      "price": 2324.73,
+      "change_pct": -1.12,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "CPER",
+      "name": "CPER（銅 ETF）",
+      "category": "原物料",
+      "price": 35.21,
+      "change_pct": -1.34,
+      "signal": "🔴"
+    }
+  ],
+  "risk_line": "風險燈號：綠（score=0）",
+  "events": "1️⃣ Fed 政策決議臨近：通膨擔憂延遲降息預期，經濟學家預計6月前難有降息，美債收益率面臨上行壓力。\n\n2️⃣ 中東局勢升溫支撐避險：伊朗緊張局勢刺激黃金與銀行股買盤，NLR (+1.20%) 領漲，反映美元強勢受惠。\n\n3️⃣ 科技與能源分化明顯：納指 +0.47% 領漲三大指數，URNM 核能 (+1.36%) 走強，但加密資產（BTC -1.05%）遭重創。",
+  "advice": "📌 整體策略：保持防禦，優先配置避險資產，待 Fed 訊號更明確後再布局成長股。\n• 貴金屬與銀行：中東風險溢價持續支撐，黃金短期有撐，銀行股升息受惠，可適度持有。\n• 核能與清潔能源：URNM 表現強勢供應鏈加持，能源轉型長期向好，可逢低分批布局。\n• 科技與半導體：SMH 芯片 +0.75% 溫和上升，AIQ 小幅走升，建議小額持有，避免追高。\n• 加密資產：BTC、ETH 雙雙下跌，風險情緒下降，短期建議暫停加碼，觀察支撐位。"
+}
