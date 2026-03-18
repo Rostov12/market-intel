@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Intel — 每日美股市場情報</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --bg2: #161b22;
+      --bg3: #21262d;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text2: #8b949e;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --red: #f85149;
+      --blue: #58a6ff;
+      --purple: #bc8cff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--blue); }
+    header .meta { color: var(--text2); font-size: 12px; }
+
+    /* ── Layout ── */
+    .container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 640px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .card h2 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text2);
+      margin-bottom: 12px;
+    }
+
+    /* ── 指數卡片 ── */
+    .index-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+    .index-card .name { font-size: 12px; color: var(--text2); margin-bottom: 4px; }
+    .index-card .price { font-size: 22px; font-weight: 700; margin-bottom: 2px; }
+    .index-card .change { font-size: 14px; font-weight: 600; }
+    .up { color: var(--green); }
+    .down { color: var(--red); }
+    .flat { color: var(--text2); }
+
+    /* ── 燈號 ── */
+    .signal { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+    .signal.green  { background: var(--green); box-shadow: 0 0 6px var(--green); }
+    .signal.yellow { background: var(--yellow); box-shadow: 0 0 6px var(--yellow); }
+    .signal.red    { background: var(--red); box-shadow: 0 0 6px var(--red); }
+    .signal.gray   { background: var(--text2); }
+
+    /* ── 標的列表 ── */
+    .watchlist-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .watchlist-item:last-child { border-bottom: none; }
+    .watchlist-item .left { display: flex; align-items: center; gap: 8px; }
+    .watchlist-item .symbol { font-weight: 600; font-size: 13px; }
+    .watchlist-item .desc { font-size: 11px; color: var(--text2); }
+    .watchlist-item .right { text-align: right; }
+    .watchlist-item .price-val { font-size: 13px; font-weight: 500; }
+    .watchlist-item .pct { font-size: 12px; font-weight: 600; }
+
+    /* ── 文字段落 ── */
+    .text-block {
+      white-space: pre-wrap;
+      font-size: 13px;
+      line-height: 1.8;
+      color: var(--text);
+    }
+    .text-block .event-line { margin-bottom: 6px; }
+
+    /* ── 風險燈號 ── */
+    .risk-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .risk-green  { background: rgba(63,185,80,0.15); color: var(--green); border: 1px solid var(--green); }
+    .risk-yellow { background: rgba(210,153,34,0.15); color: var(--yellow); border: 1px solid var(--yellow); }
+    .risk-red    { background: rgba(248,81,73,0.15); color: var(--red); border: 1px solid var(--red); }
+
+    /* ── CTA ── */
+    .cta-bar {
+      background: linear-gradient(135deg, #1a1f35, #0d1117);
+      border: 1px solid var(--purple);
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      margin-top: 24px;
+    }
+    .cta-bar h3 { color: var(--purple); font-size: 16px; margin-bottom: 8px; }
+    .cta-bar p  { color: var(--text2); font-size: 13px; margin-bottom: 16px; }
+    .btn-primary {
+      display: inline-block;
+      background: var(--blue);
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .btn-primary:hover { background: #4493e8; }
+
+    /* ── Loading / Error ── */
+    .loading { text-align: center; padding: 60px; color: var(--text2); }
+    .error   { text-align: center; padding: 40px; color: var(--red); }
+
+    .section-gap { margin-top: 20px; }
+    .tag {
+      display: inline-block;
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: var(--bg3);
+      color: var(--text2);
+      margin-left: 4px;
+    }
+    footer {
+      text-align: center;
+      color: var(--text2);
+      font-size: 12px;
+      padding: 32px 0 16px;
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📊 Market Intel</h1>
+  <div class="meta" id="report-meta">載入中...</div>
+</header>
+
+<div class="container">
+  <div id="app">
+    <div class="loading">⏳ 載入市場數據中...</div>
+  </div>
+</div>
+
+<script>
+const GITHUB_USER = 'Rostov12';
+const GITHUB_REPO = 'market-intel';
+const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main`;
+
+async function fetchJSON(path) {
+  const res = await fetch(`${RAW_BASE}/${path}?_=${Date.now()}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
+function pctClass(pct) {
+  if (pct === null || pct === undefined) return 'flat';
+  return pct > 0 ? 'up' : pct < 0 ? 'down' : 'flat';
+}
+
+function fmtPct(pct) {
+  if (pct === null || pct === undefined) return 'N/A';
+  const sign = pct >= 0 ? '+' : '';
+  return `${sign}${pct.toFixed(2)}%`;
+}
+
+function fmtPrice(price) {
+  if (price === null || price === undefined) return 'N/A';
+  return price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function signalDot(sig) {
+  if (sig === '🟢') return '<span class="signal green"></span>';
+  if (sig === '🟡') return '<span class="signal yellow"></span>';
+  if (sig === '🔴') return '<span class="signal red"></span>';
+  return '<span class="signal gray"></span>';
+}
+
+function riskBadge(riskLine) {
+  if (!riskLine) return '';
+  const cls = riskLine.includes('紅') ? 'risk-red'
+            : riskLine.includes('黃') ? 'risk-yellow'
+            : 'risk-green';
+  const icon = riskLine.includes('紅') ? '🔴' : riskLine.includes('黃') ? '🟡' : '🟢';
+  return `<span class="risk-badge ${cls}">${icon} ${riskLine}</span>`;
+}
+
+function renderIndices(indices) {
+  return indices.map(i => `
+    <div class="index-card">
+      <div class="name">${i.name}</div>
+      <div class="price ${pctClass(i.change_pct)}">${fmtPrice(i.price)}</div>
+      <div class="change ${pctClass(i.change_pct)}">${fmtPct(i.change_pct)}</div>
+    </div>
+  `).join('');
+}
+
+function renderWatchlist(items) {
+  return items.map(w => {
+    const symbol = w.symbol.replace('-USD', '');
+    const desc = w.name.includes('（') ? w.name.split('（')[1].replace('）','') : w.name;
+    return `
+      <div class="watchlist-item">
+        <div class="left">
+          ${signalDot(w.signal)}
+          <div>
+            <div class="symbol">${symbol}</div>
+            <div class="desc">${desc}<span class="tag">${w.category}</span></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="price-val">${fmtPrice(w.price)}</div>
+          <div class="pct ${pctClass(w.change_pct)}">${fmtPct(w.change_pct)}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderEvents(text) {
+  if (!text || text.includes('失敗')) return '<span style="color:var(--text2)">（暫無資料）</span>';
+  return `<div class="text-block">${text.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`;
+}
+
+function render(data) {
+  document.getElementById('report-meta').textContent =
+    `${data.date}  ·  更新於 ${data.generated_at}`;
+
+  const app = document.getElementById('app');
+  app.innerHTML = `
+    <!-- 風險評分 -->
+    <div class="card" style="margin-bottom:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+      <span style="color:var(--text2);font-size:12px;text-transform:uppercase;letter-spacing:.05em">整體風險</span>
+      ${riskBadge(data.risk_line)}
+      <span style="color:var(--text2);font-size:12px;margin-left:auto">${data.date}</span>
+    </div>
+
+    <!-- 三大指數 -->
+    <div class="grid-3 section-gap">
+      ${renderIndices(data.indices || [])}
+    </div>
+
+    <!-- 標的 + 事件 -->
+    <div class="grid-2 section-gap">
+      <div class="card">
+        <h2>追蹤標的</h2>
+        ${renderWatchlist(data.watchlist || [])}
+      </div>
+      <div>
+        <div class="card">
+          <h2>今日重大事件</h2>
+          ${renderEvents(data.events)}
+        </div>
+        <div class="card section-gap">
+          <h2>明日操作建議</h2>
+          ${renderEvents(data.advice)}
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-bar">
+      <h3>🔔 每日自動推送到你的 Telegram</h3>
+      <p>訂閱後每個交易日 05:00 自動收到完整盤後報告，包含 AI 分析與操作建議</p>
+      <a href="https://t.me/your_channel" class="btn-primary">免費訂閱頻道</a>
+    </div>
+  `;
+}
+
+async function main() {
+  try {
+    const latest = await fetchJSON('reports/latest.json');
+    const data = await fetchJSON(`reports/${latest.latest_date}.json`);
+    render(data);
+  } catch (e) {
+    document.getElementById('app').innerHTML =
+      `<div class="error">❌ 載入失敗：${e.message}<br><small>請稍後再試</small></div>`;
+  }
+}
+
+main();
+</script>
+
+<footer>
+  <div class="container">
+    Market Intel · 每日美股情報 · 資料來源：Yahoo Finance / Reuters / Bloomberg<br>
+    <small>本報告僅供參考，不構成投資建議</small>
+  </div>
+</footer>
+
+</body>
+</html>
