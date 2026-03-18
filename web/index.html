@@ -221,17 +221,20 @@
     .down { color: var(--color-down); }
     .flat { color: var(--text-muted); }
 
-    /* ── 風險燈號 ── */
-    .risk-row {
+    /* ── 風險面板 ── */
+    .risk-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 22px;
+      margin-bottom: 20px;
+    }
+    .risk-top {
       display: flex;
       align-items: center;
       gap: 12px;
       flex-wrap: wrap;
-      padding: 16px 20px;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      margin-bottom: 20px;
+      margin-bottom: 14px;
     }
     .risk-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
     .risk-badge {
@@ -247,7 +250,122 @@
     .risk-green  { background: rgba(16,185,129,0.12); color: var(--color-up);   border: 1px solid rgba(16,185,129,0.4);  box-shadow: 0 0 12px rgba(16,185,129,0.15); }
     .risk-yellow { background: rgba(245,158,11,0.12); color: var(--color-warn); border: 1px solid rgba(245,158,11,0.4);  box-shadow: 0 0 12px rgba(245,158,11,0.15); }
     .risk-red    { background: rgba(239,68,68,0.12);  color: var(--color-down); border: 1px solid rgba(239,68,68,0.4);   box-shadow: 0 0 12px rgba(239,68,68,0.15); }
-    .risk-row .date { margin-left: auto; color: var(--text-muted); font-size: 12px; }
+    .risk-top .date { margin-left: auto; color: var(--text-muted); font-size: 12px; }
+    /* 信號分布列 */
+    .risk-bottom {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+    @media (max-width: 640px) { .risk-bottom { grid-template-columns: 1fr; } }
+    .risk-signals {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .sig-count {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: var(--card-bg2);
+    }
+    .sig-count.green  { color: var(--color-up); }
+    .sig-count.yellow { color: var(--color-warn); }
+    .sig-count.red    { color: var(--color-down); }
+    /* 評分說明 */
+    .risk-explain {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      border-left: 2px solid var(--border);
+      padding-left: 14px;
+    }
+    .risk-explain strong { color: var(--text-main); font-weight: 600; }
+    .risk-thresholds {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .risk-thr {
+      font-size: 11px;
+      padding: 2px 9px;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .risk-thr.green  { background: rgba(16,185,129,0.1); color: var(--color-up); }
+    .risk-thr.yellow { background: rgba(245,158,11,0.1); color: var(--color-warn); }
+    .risk-thr.red    { background: rgba(239,68,68,0.1);  color: var(--color-down); }
+
+    /* ── 今日總結 ── */
+    .summary-card {
+      background: var(--card-bg2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
+    }
+    .summary-card h2 {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .summary-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    @media (max-width: 640px) { .summary-stats { grid-template-columns: repeat(2, 1fr); } }
+    .stat-block {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .stat-block .stat-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .stat-block .stat-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .stat-block .stat-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+    .summary-advice {
+      font-size: 13px;
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 12px 16px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--color-ai);
+      border-radius: 8px;
+    }
+    .summary-advice .advice-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-ai);
+      margin-bottom: 6px;
+    }
 
     /* ── 信號燈點 ── */
     .signal { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; flex-shrink: 0; }
@@ -670,6 +788,119 @@ function renderText(text) {
   return `<div class="text-block">${text.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`;
 }
 
+/* ── 解析 risk_line 取得數字評分 ── */
+function parseRiskScore(riskLine) {
+  if (!riskLine) return null;
+  const m = riskLine.match(/score=(\d+)/i);
+  return m ? parseInt(m[1]) : null;
+}
+
+/* ── 整體風險面板（含評分說明）── */
+function renderRiskPanel(data) {
+  const signals = data.watchlist || [];
+  const greens  = signals.filter(w => w.signal === '🟢').length;
+  const yellows = signals.filter(w => w.signal === '🟡').length;
+  const reds    = signals.filter(w => w.signal === '🔴').length;
+  const score   = parseRiskScore(data.risk_line);
+  const scoreStr = score !== null ? `${score}/10` : '—';
+
+  return `
+    <div class="risk-panel">
+      <div class="risk-top">
+        <span class="risk-label">整體風險評分</span>
+        ${riskBadge(data.risk_line)}
+        <span style="font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--text-muted)">
+          ${scoreStr}
+        </span>
+        <span class="date">${data.date}</span>
+      </div>
+      <div class="risk-bottom">
+        <div class="risk-signals">
+          <span class="sig-count green"><span class="signal green" style="margin:0"></span>${greens}</span>
+          <span class="sig-count yellow"><span class="signal yellow" style="margin:0"></span>${yellows}</span>
+          <span class="sig-count red"><span class="signal red" style="margin:0"></span>${reds}</span>
+        </div>
+        <div class="risk-explain">
+          <strong>評分說明</strong>：綜合掃描 SPX/NQ 趨勢、VIX 波動率、WTI 油價、
+          各板塊信號強弱、多空資金分歧，每項最高 1 分，滿分 10 分。
+          分數越高代表當前市場承壓越大、尾部風險越集中。
+          <div class="risk-thresholds">
+            <span class="risk-thr green">🟢 0–3　市場健康，可積極持倉</span>
+            <span class="risk-thr yellow">🟡 4–6　注意波動，控管部位規模</span>
+            <span class="risk-thr red">🔴 7–10　高風險，建議降低整體曝險</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/* ── 今日總結卡片 ── */
+function renderDailySummary(data) {
+  const watchlist = data.watchlist || [];
+  const indices   = data.indices   || [];
+
+  // 市場偏向
+  const avgIdx = indices.length
+    ? indices.reduce((s, i) => s + (i.change_pct || 0), 0) / indices.length
+    : 0;
+  const biasLabel = avgIdx >= 0.8 ? '多頭偏強' : avgIdx >= 0.2 ? '小幅收漲'
+                  : avgIdx >= -0.2 ? '震盪整理'  : avgIdx >= -0.8 ? '小幅收跌' : '空頭偏弱';
+  const biasClass = avgIdx >= 0.2 ? 'up' : avgIdx <= -0.2 ? 'down' : 'flat';
+
+  // 最強 / 最弱標的
+  const sorted = [...watchlist].filter(w => w.change_pct !== null)
+    .sort((a, b) => (b.change_pct || 0) - (a.change_pct || 0));
+  const best  = sorted[0];
+  const worst = sorted[sorted.length - 1];
+
+  // 信號分布
+  const greens  = watchlist.filter(w => w.signal === '🟢').length;
+  const reds    = watchlist.filter(w => w.signal === '🔴').length;
+  const sigText = greens > reds ? `${greens} 強 / ${reds} 弱` : `${reds} 弱 / ${greens} 強`;
+
+  // AI 操作方向（取 📌 整體策略 那行）
+  const advice = data.advice || '';
+  const strategyLine = advice.split('\n').find(l => l.includes('📌')) || '';
+  const strategyText = strategyLine.replace('📌', '').replace('整體策略：', '').trim()
+    || advice.split('\n').find(l => l.trim().length > 10) || '（暫無建議）';
+
+  const bestSym  = best  ? best.symbol.replace('-USD','')  : '—';
+  const worstSym = worst ? worst.symbol.replace('-USD','') : '—';
+
+  return `
+    <div class="summary-card section-gap">
+      <h2>今日總結</h2>
+      <div class="summary-stats">
+        <div class="stat-block">
+          <div class="stat-label">市場偏向</div>
+          <div class="stat-value ${biasClass}">${biasLabel}</div>
+          <div class="stat-sub">指數均漲跌 ${avgIdx >= 0 ? '+' : ''}${avgIdx.toFixed(2)}%</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-label">最強標的</div>
+          <div class="stat-value up">${bestSym}</div>
+          <div class="stat-sub">${best ? fmtPct(best.change_pct) : '—'}</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-label">最弱標的</div>
+          <div class="stat-value down">${worstSym}</div>
+          <div class="stat-sub">${worst ? fmtPct(worst.change_pct) : '—'}</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-label">信號分布</div>
+          <div class="stat-value ${greens > reds ? 'up' : reds > greens ? 'down' : 'flat'}">${sigText}</div>
+          <div class="stat-sub">共 ${watchlist.length} 個追蹤標的</div>
+        </div>
+      </div>
+      <div class="summary-advice">
+        <div class="advice-label">📌 操作方向</div>
+        ${strategyText.replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+      </div>
+    </div>
+  `;
+}
+
 /* ── 圖表初始化（DOM ready 後呼叫）── */
 function initCharts(data, history = {}) {
   const date = data.date || '';
@@ -709,12 +940,11 @@ function render(data, history = {}) {
   const app = document.getElementById('app');
   app.innerHTML = `
 
-    <!-- 風險評分列 -->
-    <div class="risk-row">
-      <span class="risk-label">整體風險</span>
-      ${riskBadge(data.risk_line)}
-      <span class="date">${data.date}</span>
-    </div>
+    <!-- 風險面板 -->
+    ${renderRiskPanel(data)}
+
+    <!-- 今日總結 -->
+    ${renderDailySummary(data)}
 
     <!-- A区：情緒儀表 + AI 總結 -->
     <div class="grid-gauge section-gap">
