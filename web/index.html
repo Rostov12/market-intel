@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.49.2/dist/apexcharts.min.js"></script>
   <style>
     :root {
       --bg-dark:    #0B0F19;
@@ -83,12 +84,21 @@
     .container { max-width: 1080px; margin: 0 auto; padding: 28px 20px; }
     .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .grid-sector { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid-gauge { display: grid; grid-template-columns: 220px 1fr; gap: 16px; align-items: stretch; }
     @media (max-width: 768px) {
-      .grid-3, .grid-sector { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: 1fr; }
       .grid-2 { grid-template-columns: 1fr; }
+      .grid-gauge { grid-template-columns: 1fr; }
     }
     .section-gap { margin-top: 20px; }
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
 
     /* ── Base Card ── */
     .card {
@@ -112,6 +122,38 @@
       margin-bottom: 14px;
     }
 
+    /* ── A区：情緒儀表板 ── */
+    .gauge-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 16px 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: border-color 0.2s;
+    }
+    .gauge-card:hover { border-color: var(--color-ai); }
+    .gauge-card h2 {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 0;
+      align-self: flex-start;
+    }
+    #sentiment-gauge { width: 100%; }
+    .gauge-legend {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 10px;
+      color: var(--text-muted);
+      padding: 0 8px;
+      margin-top: 4px;
+    }
+
     /* ── AI Hero Card ── */
     .ai-hero {
       background: linear-gradient(135deg, #1A2235, #141929);
@@ -121,7 +163,6 @@
       position: relative;
       overflow: hidden;
       box-shadow: 0 0 40px rgba(99, 102, 241, 0.15);
-      margin-bottom: 20px;
     }
     .ai-hero::before {
       content: '';
@@ -159,8 +200,7 @@
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 18px;
-      text-align: center;
+      padding: 18px 18px 8px;
       transition: transform 0.2s ease, border-color 0.2s ease;
     }
     .index-card:hover { transform: translateY(-2px); border-color: var(--color-ai); }
@@ -176,6 +216,7 @@
       font-size: 13px;
       font-weight: 500;
     }
+    .index-card .index-spark { margin-top: 6px; height: 40px; }
     .up   { color: var(--color-up); }
     .down { color: var(--color-down); }
     .flat { color: var(--text-muted); }
@@ -215,19 +256,73 @@
     .signal.red    { background: var(--color-down); box-shadow: 0 0 6px var(--color-down); }
     .signal.gray   { background: var(--text-muted); }
 
-    /* ── 追蹤標的 ── */
+    /* ── C区：板塊熱力圖 ── */
+    .heatmap-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 768px) {
+      .heatmap-wrap { grid-template-columns: 1fr; }
+    }
+    .heatmap-sector {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .heatmap-sector-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .heatmap-blocks {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+    }
+    .heatmap-block {
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 10px 6px;
+      text-align: center;
+      cursor: default;
+      transition: transform 0.15s, filter 0.15s;
+    }
+    .heatmap-block:hover { transform: scale(1.04); filter: brightness(1.2); }
+    .hb-symbol {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      color: var(--text-main);
+      margin-bottom: 3px;
+    }
+    .hb-pct {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    /* ── B区：追蹤標的 + Sparklines ── */
     .watchlist-item {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      gap: 8px;
       padding: 10px 0;
       border-bottom: 1px solid var(--border);
     }
     .watchlist-item:last-child { border-bottom: none; }
-    .watchlist-item .left  { display: flex; align-items: center; gap: 8px; }
-    .watchlist-item .symbol { font-weight: 700; font-size: 13px; letter-spacing: 0.03em; }
-    .watchlist-item .desc  { font-size: 11px; color: var(--text-muted); }
-    .watchlist-item .right { text-align: right; }
+    .watchlist-item .wi-left   { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+    .watchlist-item .wi-spark  { width: 72px; flex-shrink: 0; height: 36px; }
+    .watchlist-item .wi-right  { text-align: right; flex-shrink: 0; }
+    .watchlist-item .symbol { font-weight: 700; font-size: 13px; letter-spacing: 0.03em; white-space: nowrap; }
+    .watchlist-item .desc  { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .watchlist-item .price-val {
       font-family: 'JetBrains Mono', monospace;
       font-size: 13px;
@@ -247,31 +342,6 @@
       color: var(--color-ai);
       border: 1px solid rgba(99,102,241,0.2);
       margin-left: 4px;
-    }
-
-    /* ── Sector Cards ── */
-    .sector-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-    }
-    .sector-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--color-ai);
-      box-shadow: 0 0 20px rgba(99,102,241,0.1);
-    }
-    .sector-card .sector-title {
-      font-size: 11px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-muted);
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
     }
 
     /* ── 文字段落 ── */
@@ -384,51 +454,171 @@ function riskBadge(riskLine) {
   return `<span class="risk-badge ${cls}">${icon} ${riskLine}</span>`;
 }
 
-function updateMarketStatus(date) {
+function updateMarketStatus() {
   const now = new Date();
   const hour = now.getUTCHours();
+  const min  = now.getUTCMinutes();
   const weekday = now.getUTCDay();
   const statusEl = document.getElementById('market-status-text');
-  const dotEl = document.querySelector('.market-status .dot');
-  // US market: Mon-Fri 13:30-20:00 UTC
+  const dotEl    = document.querySelector('.market-status .dot');
+  if (!statusEl || !dotEl) return;
   const isWeekday = weekday >= 1 && weekday <= 5;
-  const isOpen = isWeekday && (hour >= 13 && hour < 20) || (hour === 20 && new Date().getUTCMinutes() === 0);
+  const totalMin  = hour * 60 + min;
+  const isOpen    = isWeekday && totalMin >= 810 && totalMin < 1200; // 13:30–20:00 UTC
   if (isOpen) {
     statusEl.textContent = '🟢 Market Open';
     dotEl.style.background = '#10B981';
-    dotEl.style.boxShadow = '0 0 6px #10B981';
+    dotEl.style.boxShadow  = '0 0 6px #10B981';
+    dotEl.style.animation  = '';
   } else {
     statusEl.textContent = '⚫ Market Closed';
     dotEl.style.background = '#94A3B8';
-    dotEl.style.boxShadow = 'none';
-    dotEl.style.animation = 'none';
+    dotEl.style.boxShadow  = 'none';
+    dotEl.style.animation  = 'none';
   }
 }
 
-function renderIndices(indices) {
-  return indices.map(i => `
+/* ── 可重現的偽亂數（seed = symbol + date）── */
+function seededRNG(seed) {
+  let s = seed.split('').reduce((a, c) => ((a << 5) - a + c.charCodeAt(0)) | 0, 0);
+  return () => {
+    s = Math.imul(s ^ (s >>> 16), 0x45d9f3b);
+    s = Math.imul(s ^ (s >>> 16), 0x45d9f3b);
+    return ((s ^ (s >>> 16)) >>> 0) / 0xffffffff;
+  };
+}
+
+/* ── 生成 9 個偽歷史數據點（末尾 = change_pct）── */
+function generateSparkData(changePct, symbol, date) {
+  const rng = seededRNG((symbol || '') + (date || ''));
+  const end = changePct || 0;
+  const pts = [];
+  let cur = end * 0.3;
+  for (let i = 0; i < 8; i++) {
+    cur += (rng() - 0.48) * Math.abs(end || 0.5) * 0.6;
+    pts.push(+cur.toFixed(3));
+  }
+  pts.push(+end.toFixed(3));
+  return pts;
+}
+
+/* ── A区：情緒分數 0~100 ── */
+function calcSentimentScore(data) {
+  const signals = (data.watchlist || []).map(w => w.signal);
+  const total   = signals.length || 1;
+  const greens  = signals.filter(s => s === '🟢').length;
+  const yellows = signals.filter(s => s === '🟡').length;
+  let score = Math.round(((greens + yellows * 0.5) / total) * 100);
+
+  if (data.risk_line) {
+    if (data.risk_line.includes('紅')) score = Math.min(score, 28);
+    else if (data.risk_line.includes('黃')) score = Math.min(score, 52);
+  }
+
+  const idxArr = data.indices || [];
+  if (idxArr.length) {
+    const avg = idxArr.reduce((s, i) => s + (i.change_pct || 0), 0) / idxArr.length;
+    score = Math.min(100, Math.max(0, score + Math.round(avg * 3)));
+  }
+
+  return Math.max(0, Math.min(100, score));
+}
+
+/* ── ApexCharts 情緒半圓儀表 ── */
+function initGauge(score) {
+  const el = document.querySelector('#sentiment-gauge');
+  if (!el || typeof ApexCharts === 'undefined') return;
+  const color = score >= 65 ? '#10B981' : score >= 45 ? '#F59E0B' : '#EF4444';
+  const label = score >= 75 ? '極度貪婪'
+              : score >= 60 ? '貪婪'
+              : score >= 45 ? '中性'
+              : score >= 30 ? '恐慌'
+              : '極度恐慌';
+  new ApexCharts(el, {
+    series: [score],
+    chart: { type: 'radialBar', height: 170, background: 'transparent', toolbar: { show: false } },
+    plotOptions: {
+      radialBar: {
+        startAngle: -90, endAngle: 90,
+        hollow: { size: '55%', background: 'transparent' },
+        track: { background: '#2A354D', strokeWidth: '97%' },
+        dataLabels: {
+          name:  { show: true, color: '#94A3B8', fontSize: '11px', offsetY: 16, formatter: () => label },
+          value: { color, fontSize: '26px', fontWeight: 700, fontFamily: 'JetBrains Mono', offsetY: -12,
+                   formatter: v => v }
+        }
+      }
+    },
+    fill: {
+      type: 'gradient',
+      gradient: {
+        shade: 'dark', type: 'horizontal',
+        colorStops: [
+          [{ offset: 0, color: '#EF4444', opacity: 1 },
+           { offset: 50, color: '#F59E0B', opacity: 1 },
+           { offset: 100, color: '#10B981', opacity: 1 }]
+        ]
+      }
+    },
+    stroke: { lineCap: 'round' },
+    labels: [label],
+    theme: { mode: 'dark' }
+  }).render();
+}
+
+/* ── ApexCharts Sparkline ── */
+function initSparkline(elId, data, isUp) {
+  const el = document.querySelector(`#${elId}`);
+  if (!el || typeof ApexCharts === 'undefined') return;
+  const color = isUp ? '#10B981' : '#EF4444';
+  const glow  = isUp ? 'rgba(16,185,129,0.4)' : 'rgba(239,68,68,0.4)';
+  new ApexCharts(el, {
+    series: [{ data }],
+    chart: {
+      type: 'area', height: 36, background: 'transparent',
+      sparkline: { enabled: true },
+      animations: { enabled: false },
+      dropShadow: { enabled: true, top: 0, left: 0, blur: 4, color: glow, opacity: 0.6 }
+    },
+    stroke: { curve: 'smooth', width: 1.5, colors: [color] },
+    fill: {
+      type: 'gradient',
+      gradient: { shadeIntensity: 1, opacityFrom: 0.4, opacityTo: 0, stops: [0, 100] },
+      colors: [color]
+    },
+    tooltip: { enabled: false },
+    theme: { mode: 'dark' }
+  }).render();
+}
+
+/* ── 渲染函數 ── */
+function renderIndices(indices, date) {
+  return indices.map((i, idx) => `
     <div class="index-card">
       <div class="name">${i.name}</div>
       <div class="price ${pctClass(i.change_pct)}">${fmtPrice(i.price)}</div>
       <div class="change ${pctClass(i.change_pct)}">${fmtPct(i.change_pct)}</div>
+      <div class="index-spark" id="idx-spark-${idx}"></div>
     </div>
   `).join('');
 }
 
-function renderWatchlist(items) {
+function renderWatchlist(items, date) {
   return items.map(w => {
     const symbol = w.symbol.replace('-USD', '');
-    const desc = w.name.includes('（') ? w.name.split('（')[1].replace('）','') : w.name;
+    const desc   = w.name.includes('（') ? w.name.split('（')[1].replace('）','') : w.name;
+    const safeId = 'spark-' + symbol.replace(/[^a-zA-Z0-9]/g, '_');
     return `
       <div class="watchlist-item">
-        <div class="left">
+        <div class="wi-left">
           ${signalDot(w.signal)}
-          <div>
+          <div style="min-width:0">
             <div class="symbol">${symbol}</div>
             <div class="desc">${desc}<span class="tag">${w.category}</span></div>
           </div>
         </div>
-        <div class="right">
+        <div class="wi-spark" id="${safeId}"></div>
+        <div class="wi-right">
           <div class="price-val">${fmtPrice(w.price)}</div>
           <div class="pct ${pctClass(w.change_pct)}">${fmtPct(w.change_pct)}</div>
         </div>
@@ -437,44 +627,42 @@ function renderWatchlist(items) {
   }).join('');
 }
 
-function renderSectors(watchlist) {
-  const sectors = {
-    '科技與AI': { icon: '💻', items: [] },
-    '能源與核能': { icon: '⚡', items: [] },
-    '避險資產':   { icon: '🛡️', items: [] },
-  };
-  const map = {
-    'SMH': '科技與AI', 'AIQ': '科技與AI', 'BOTZ': '科技與AI',
-    'URNM': '能源與核能', 'NLR': '能源與核能', 'CPER': '能源與核能',
-    'GLD': '避險資產', 'BTC': '避險資產', 'ETH': '避險資產',
-  };
-  watchlist.forEach(w => {
-    const sym = w.symbol.replace('-USD','');
-    const sector = map[sym];
-    if (sector) sectors[sector].items.push(w);
-  });
-  return Object.entries(sectors).map(([name, s]) => `
-    <div class="sector-card">
-      <div class="sector-title">${s.icon} ${name}</div>
-      ${s.items.map(w => {
-        const sym = w.symbol.replace('-USD','');
-        return `
-          <div class="watchlist-item">
-            <div class="left">
-              ${signalDot(w.signal)}
-              <div>
-                <div class="symbol">${sym}</div>
+function renderSectorHeatmap(watchlist) {
+  const sectors = [
+    { name: '科技與AI',  icon: '💻', keys: ['SMH', 'AIQ', 'BOTZ'] },
+    { name: '能源與核能', icon: '⚡', keys: ['URNM', 'NLR', 'CPER'] },
+    { name: '避險資產',  icon: '🛡️', keys: ['GLD', 'BTC', 'ETH'] },
+  ];
+  const lookup = {};
+  watchlist.forEach(w => { lookup[w.symbol.replace('-USD','')] = w; });
+
+  return sectors.map(sector => {
+    const items = sector.keys.map(k => lookup[k]).filter(Boolean);
+    return `
+      <div class="heatmap-sector">
+        <div class="heatmap-sector-title">${sector.icon} ${sector.name}</div>
+        <div class="heatmap-blocks">
+          ${items.map(w => {
+            const pct  = w.change_pct || 0;
+            const abs  = Math.min(Math.abs(pct) / 4, 1);
+            const bg   = pct >= 0
+              ? `rgba(16,185,129,${(0.08 + abs * 0.45).toFixed(2)})`
+              : `rgba(239,68,68,${(0.08 + abs * 0.45).toFixed(2)})`;
+            const border = pct >= 0
+              ? `rgba(16,185,129,${(0.25 + abs * 0.5).toFixed(2)})`
+              : `rgba(239,68,68,${(0.25 + abs * 0.5).toFixed(2)})`;
+            const sym = w.symbol.replace('-USD','');
+            return `
+              <div class="heatmap-block" style="background:${bg};border-color:${border}">
+                <div class="hb-symbol">${sym}</div>
+                <div class="hb-pct ${pctClass(pct)}">${fmtPct(pct)}</div>
               </div>
-            </div>
-            <div class="right">
-              <div class="price-val">${fmtPrice(w.price)}</div>
-              <div class="pct ${pctClass(w.change_pct)}">${fmtPct(w.change_pct)}</div>
-            </div>
-          </div>
-        `;
-      }).join('')}
-    </div>
-  `).join('');
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderText(text) {
@@ -482,10 +670,32 @@ function renderText(text) {
   return `<div class="text-block">${text.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`;
 }
 
+/* ── 圖表初始化（DOM ready 後呼叫）── */
+function initCharts(data) {
+  const date = data.date || '';
+
+  // A区：情緒儀表
+  initGauge(calcSentimentScore(data));
+
+  // 指數 sparklines
+  (data.indices || []).forEach((idx, i) => {
+    const pts = generateSparkData(idx.change_pct, idx.name, date);
+    initSparkline(`idx-spark-${i}`, pts, (idx.change_pct || 0) >= 0);
+  });
+
+  // B区：watchlist sparklines
+  (data.watchlist || []).forEach(w => {
+    const sym    = w.symbol.replace('-USD', '');
+    const safeId = 'spark-' + sym.replace(/[^a-zA-Z0-9]/g, '_');
+    const pts    = generateSparkData(w.change_pct, sym, date);
+    initSparkline(safeId, pts, (w.change_pct || 0) >= 0);
+  });
+}
+
 function render(data) {
   document.getElementById('report-meta').textContent =
     `${data.date}  ·  更新 ${data.generated_at}`;
-  updateMarketStatus(data.date);
+  updateMarketStatus();
 
   const app = document.getElementById('app');
   app.innerHTML = `
@@ -497,30 +707,40 @@ function render(data) {
       <span class="date">${data.date}</span>
     </div>
 
-    <!-- 三大指數 -->
-    <div class="grid-3">
-      ${renderIndices(data.indices || [])}
-    </div>
-
-    <!-- AI 盤後總結 -->
-    <div class="ai-hero section-gap">
-      <div class="ai-hero-label">
-        <span class="ai-dot"></span>
-        AI 盤後總結
+    <!-- A区：情緒儀表 + AI 總結 -->
+    <div class="grid-gauge section-gap">
+      <div class="gauge-card">
+        <h2>市場情緒</h2>
+        <div id="sentiment-gauge"></div>
+        <div class="gauge-legend"><span>恐慌</span><span>貪婪</span></div>
       </div>
-      <div class="ai-summary-text">${(data.advice || '（暫無分析）').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
+      <div class="ai-hero" style="margin-bottom:0">
+        <div class="ai-hero-label">
+          <span class="ai-dot"></span>
+          AI 盤後總結
+        </div>
+        <div class="ai-summary-text">${(data.advice || '（暫無分析）').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
+      </div>
     </div>
 
-    <!-- 板塊追蹤 -->
-    <div class="grid-sector section-gap">
-      ${renderSectors(data.watchlist || [])}
+    <!-- 三大指數（含 sparklines）-->
+    <div class="grid-3 section-gap">
+      ${renderIndices(data.indices || [], data.date)}
     </div>
 
-    <!-- 標的明細 + 重大事件 -->
+    <!-- C区：板塊熱力圖 -->
+    <div class="section-gap">
+      <div class="section-title" style="padding:0 2px;margin-bottom:10px">板塊熱力圖</div>
+      <div class="heatmap-wrap">
+        ${renderSectorHeatmap(data.watchlist || [])}
+      </div>
+    </div>
+
+    <!-- B区：標的明細（含 sparklines）+ 重大事件 -->
     <div class="grid-2 section-gap">
       <div class="card">
         <h2>追蹤標的明細</h2>
-        ${renderWatchlist(data.watchlist || [])}
+        ${renderWatchlist(data.watchlist || [], data.date)}
       </div>
       <div class="card">
         <h2>今日重大事件</h2>
@@ -535,12 +755,15 @@ function render(data) {
       <a href="https://t.me/your_channel" class="btn-primary">免費訂閱頻道</a>
     </div>
   `;
+
+  // DOM 就緒後初始化所有圖表
+  requestAnimationFrame(() => initCharts(data));
 }
 
 async function main() {
   try {
     const latest = await fetchJSON('reports/latest.json');
-    const data = await fetchJSON(`reports/${latest.latest_date}.json`);
+    const data   = await fetchJSON(`reports/${latest.latest_date}.json`);
     render(data);
   } catch (e) {
     document.getElementById('app').innerHTML =
