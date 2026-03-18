@@ -1,0 +1,144 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-19 05:00 (UTC+8)",
+  "indices": [
+    {
+      "symbol": "^DJI",
+      "name": "道瓊工業指數",
+      "price": 46225.15,
+      "change_pct": -1.63,
+      "volume_ratio": 0.87
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "標普 500",
+      "price": 6624.7,
+      "change_pct": -1.36,
+      "volume_ratio": 0.53
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "納斯達克",
+      "price": 22152.42,
+      "change_pct": -1.46,
+      "volume_ratio": 0.91
+    }
+  ],
+  "macro": [
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "DXY",
+      "desc": "美元指數",
+      "price": null,
+      "change_pct": null
+    },
+    {
+      "symbol": "^TNX",
+      "name": "US10Y",
+      "desc": "10年期公債殖利率",
+      "price": 4.26,
+      "change_pct": 1.36
+    },
+    {
+      "symbol": "^VIX",
+      "name": "VIX",
+      "desc": "波動率指數",
+      "price": 25.09,
+      "change_pct": 12.16
+    }
+  ],
+  "fear_greed": {
+    "score": 18.2,
+    "label": "極度恐慌",
+    "rating_en": "extreme fear",
+    "prev_1_week": 25.1,
+    "week_change": -6.9
+  },
+  "watchlist": [
+    {
+      "symbol": "URNM",
+      "name": "URNM（鈾礦 ETF）",
+      "category": "核能",
+      "price": 62.55,
+      "change_pct": -3.84,
+      "volume_ratio": 0.88,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "NLR",
+      "name": "NLR（核能 ETF）",
+      "category": "核能",
+      "price": 135.76,
+      "change_pct": -2.71,
+      "volume_ratio": 0.8,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "SMH",
+      "name": "SMH（半導體 ETF）",
+      "category": "科技",
+      "price": 393.67,
+      "change_pct": -0.81,
+      "volume_ratio": 0.87,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "AIQ",
+      "name": "AIQ（AI ETF）",
+      "category": "科技",
+      "price": 48.87,
+      "change_pct": -1.43,
+      "volume_ratio": 0.4,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "BOTZ",
+      "name": "BOTZ（機器人 ETF）",
+      "category": "科技",
+      "price": 34.85,
+      "change_pct": -1.5,
+      "volume_ratio": 0.85,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "GLD",
+      "name": "GLD（黃金 ETF）",
+      "category": "避險",
+      "price": 444.74,
+      "change_pct": -3.16,
+      "volume_ratio": 1.48,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "BTC",
+      "category": "加密",
+      "price": 71241.55,
+      "change_pct": -3.63,
+      "volume_ratio": 1.0,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "ETH",
+      "category": "加密",
+      "price": 2188.51,
+      "change_pct": -5.59,
+      "volume_ratio": 1.11,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "CPER",
+      "name": "CPER（銅 ETF）",
+      "category": "原物料",
+      "price": 33.65,
+      "change_pct": -4.43,
+      "volume_ratio": 1.81,
+      "signal": "🔴"
+    }
+  ],
+  "risk_line": "風險燈號：綠（score=0）",
+  "events": "（分析生成失敗）",
+  "advice": "（分析生成失敗）",
+  "prev_review": ""
+}

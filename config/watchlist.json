@@ -6,6 +6,11 @@
     { "symbol": "^GSPC", "name": "標普 500" },
     { "symbol": "^IXIC", "name": "納斯達克" }
   ],
+  "macro": [
+    { "symbol": "DX-Y.NYB", "name": "DXY",   "desc": "美元指數" },
+    { "symbol": "^TNX",     "name": "US10Y",  "desc": "10年期公債殖利率" },
+    { "symbol": "^VIX",     "name": "VIX",    "desc": "波動率指數" }
+  ],
   "watchlist": [
     { "symbol": "URNM",    "name": "URNM（鈾礦 ETF）",      "category": "核能" },
     { "symbol": "NLR",     "name": "NLR（核能 ETF）",        "category": "核能" },
