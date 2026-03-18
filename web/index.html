@@ -849,34 +849,40 @@ function generateSparkData(changePct, symbol, date) {
   return pts;
 }
 
-/* ── A区：情緒分數 0~100 ── */
+/* ── A区：情緒分數（優先用 CNN 真實數據）── */
 function calcSentimentScore(data) {
+  // 有 CNN 真實數據就直接用
+  const fg = data.fear_greed;
+  if (fg && fg.score !== null && fg.score !== undefined) {
+    return Math.round(fg.score);
+  }
+  // fallback：由信號比例 + 風險燈號推算
   const signals = (data.watchlist || []).map(w => w.signal);
   const total   = signals.length || 1;
   const greens  = signals.filter(s => s === '🟢').length;
   const yellows = signals.filter(s => s === '🟡').length;
   let score = Math.round(((greens + yellows * 0.5) / total) * 100);
-
   if (data.risk_line) {
     if (data.risk_line.includes('紅')) score = Math.min(score, 28);
     else if (data.risk_line.includes('黃')) score = Math.min(score, 52);
   }
-
   const idxArr = data.indices || [];
   if (idxArr.length) {
     const avg = idxArr.reduce((s, i) => s + (i.change_pct || 0), 0) / idxArr.length;
     score = Math.min(100, Math.max(0, score + Math.round(avg * 3)));
   }
-
   return Math.max(0, Math.min(100, score));
 }
 
 /* ── ApexCharts 情緒半圓儀表 ── */
-function initGauge(score) {
+function initGauge(score, data) {
   const el = document.querySelector('#sentiment-gauge');
   if (!el || typeof ApexCharts === 'undefined') return;
   const color = score >= 65 ? '#10B981' : score >= 45 ? '#F59E0B' : '#EF4444';
-  const label = score >= 75 ? '極度貪婪'
+  // CNN 有標籤用 CNN，否則推算
+  const fg = (data || {}).fear_greed;
+  const label = (fg && fg.label) ? fg.label
+              : score >= 75 ? '極度貪婪'
               : score >= 60 ? '貪婪'
               : score >= 45 ? '中性'
               : score >= 30 ? '恐慌'
@@ -1175,8 +1181,22 @@ function renderDailySummary(data) {
 function initCharts(data, history = {}) {
   const date = data.date || '';
 
-  // A区：情緒儀表
-  initGauge(calcSentimentScore(data));
+  // A区：情緒儀表（CNN 真實數據）
+  initGauge(calcSentimentScore(data), data);
+  // 來源標注
+  const fgEl = document.getElementById('gauge-source');
+  if (fgEl) {
+    const fg = data.fear_greed;
+    if (fg && fg.score !== null) {
+      const wk = fg.week_change;
+      const wkStr = wk !== null && wk !== undefined
+        ? ` / 近一週 ${wk >= 0 ? '+' : ''}${wk.toFixed(1)}`
+        : '';
+      fgEl.textContent = `CNN Fear & Greed${wkStr}`;
+    } else {
+      fgEl.textContent = '信號推算（CNN 暫不可用）';
+    }
+  }
 
   // 指數 sparklines
   (data.indices || []).forEach((idx, i) => {
@@ -1225,6 +1245,7 @@ function render(data, history = {}) {
         <h2>市場情緒</h2>
         <div id="sentiment-gauge"></div>
         <div class="gauge-legend"><span>恐慌</span><span>貪婪</span></div>
+        <div id="gauge-source" style="font-size:10px;color:var(--text-muted);margin-top:4px;text-align:center"></div>
       </div>
       <div class="ai-hero" style="margin-bottom:0">
         <div class="ai-hero-label">
