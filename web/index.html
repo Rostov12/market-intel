@@ -304,6 +304,69 @@
     .risk-thr.yellow { background: rgba(245,158,11,0.1); color: var(--color-warn); }
     .risk-thr.red    { background: rgba(239,68,68,0.1);  color: var(--color-down); }
 
+    /* ── 宏觀指標列 ── */
+    .macro-strip {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 12px 18px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      align-items: center;
+    }
+    .macro-strip .macro-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+    .macro-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      background: var(--card-bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    .macro-item .m-name {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+    .macro-item .m-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .macro-item .m-chg {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+    }
+    .macro-item .m-desc {
+      font-size: 10px;
+      color: var(--text-muted);
+      border-left: 1px solid var(--border);
+      padding-left: 8px;
+    }
+    /* 量能徽章 */
+    .vol-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 4px;
+      margin-left: 3px;
+    }
+    .vol-spike  { background: rgba(245,158,11,0.15); color: var(--color-warn); border: 1px solid rgba(245,158,11,0.35); }
+    .vol-normal { background: rgba(148,163,184,0.08); color: var(--text-muted); border: 1px solid var(--border); }
+
     /* ── 今日總結 ── */
     .summary-card {
       background: var(--card-bg2);
@@ -726,12 +789,16 @@ function renderWatchlist(items, date) {
     const symbol = w.symbol.replace('-USD', '');
     const desc   = w.name.includes('（') ? w.name.split('（')[1].replace('）','') : w.name;
     const safeId = 'spark-' + symbol.replace(/[^a-zA-Z0-9]/g, '_');
+    const vr = w.volume_ratio;
+    const volBadge = vr
+      ? `<span class="vol-badge ${vr >= 1.5 ? 'vol-spike' : 'vol-normal'}">${vr.toFixed(1)}x</span>`
+      : '';
     return `
       <div class="watchlist-item">
         <div class="wi-left">
           ${signalDot(w.signal)}
           <div style="min-width:0">
-            <div class="symbol">${symbol}</div>
+            <div class="symbol">${symbol}${volBadge}</div>
             <div class="desc">${desc}<span class="tag">${w.category}</span></div>
           </div>
         </div>
@@ -781,6 +848,38 @@ function renderSectorHeatmap(watchlist) {
       </div>
     `;
   }).join('');
+}
+
+/* ── 宏觀指標列 ── */
+function renderMacroStrip(macro) {
+  if (!macro || !macro.length) return '';
+
+  // DXY > 105 強勢；US10Y > 4.5% 高壓；VIX > 20 恐慌
+  const hints = {
+    'DXY':   v => v > 105 ? '強美元' : v < 100 ? '弱美元' : '中性',
+    'US10Y': v => v > 4.5 ? '高壓估值' : v < 3.5 ? '寬鬆' : '中性',
+    'VIX':   v => v > 25 ? '🔴恐慌' : v > 20 ? '🟡警戒' : '🟢平靜',
+  };
+
+  const items = macro.map(m => {
+    const val  = m.price !== null ? m.price.toFixed(2) : 'N/A';
+    const hint = hints[m.name] ? hints[m.name](m.price || 0) : '';
+    return `
+      <div class="macro-item" title="${m.desc || m.name}">
+        <span class="m-name">${m.name}</span>
+        <span class="m-val">${val}</span>
+        <span class="m-chg ${pctClass(m.change_pct)}">${fmtPct(m.change_pct)}</span>
+        ${hint ? `<span class="m-desc">${hint}</span>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="macro-strip section-gap">
+      <span class="macro-label">宏觀</span>
+      ${items}
+    </div>
+  `;
 }
 
 function renderText(text) {
@@ -897,6 +996,11 @@ function renderDailySummary(data) {
         <div class="advice-label">📌 操作方向</div>
         ${strategyText.replace(/</g,'&lt;').replace(/>/g,'&gt;')}
       </div>
+      ${data.prev_review ? `
+      <div class="summary-advice" style="margin-top:10px;border-left-color:var(--text-muted)">
+        <div class="advice-label" style="color:var(--text-muted)">🔍 前日建議檢討</div>
+        ${data.prev_review.replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+      </div>` : ''}
     </div>
   `;
 }
@@ -945,6 +1049,9 @@ function render(data, history = {}) {
 
     <!-- 今日總結 -->
     ${renderDailySummary(data)}
+
+    <!-- 宏觀指標列 -->
+    ${renderMacroStrip(data.macro || [])}
 
     <!-- A区：情緒儀表 + AI 總結 -->
     <div class="grid-gauge section-gap">
