@@ -558,6 +558,72 @@
     }
     .btn-primary:hover { box-shadow: 0 6px 20px rgba(99,102,241,0.5); }
 
+    /* ── 日期導航列 ── */
+    .date-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 10px 0 20px;
+    }
+    .date-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .date-btn:hover:not(:disabled) { border-color: var(--color-ai); color: var(--text-main); }
+    .date-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .date-current {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+      min-width: 110px;
+      text-align: center;
+    }
+    .date-badge {
+      display: inline-block;
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 4px;
+      background: rgba(99,102,241,0.15);
+      color: var(--color-ai);
+      border: 1px solid rgba(99,102,241,0.3);
+      margin-left: 6px;
+      font-family: 'Inter', sans-serif;
+      vertical-align: middle;
+    }
+
+    /* ── D区：30天趨勢折線圖 ── */
+    .trend-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 20px 12px;
+      transition: border-color 0.2s;
+    }
+    .trend-card:hover { border-color: var(--color-ai); }
+    .trend-card h2 {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+    .trend-placeholder {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
     /* ── Loading / Error ── */
     .loading { text-align: center; padding: 80px; color: var(--text-muted); font-size: 15px; }
     .error   { text-align: center; padding: 60px; color: var(--color-down); }
@@ -587,6 +653,7 @@
 </header>
 
 <div class="container">
+  <div id="date-nav"></div>
   <div id="app">
     <div class="loading">⏳ 載入市場數據中...</div>
   </div>
@@ -596,6 +663,105 @@
 const GITHUB_USER = 'Rostov12';
 const GITHUB_REPO = 'market-intel';
 const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main`;
+
+/* ── 全域狀態 ── */
+let allDates      = [];
+let currentIdx    = 0;
+let cachedHistory = {};
+
+/* ── 日期導航 UI ── */
+function renderDateNavUI() {
+  const nav = document.getElementById('date-nav');
+  if (!nav || !allDates.length) return;
+  const isLatest = currentIdx === allDates.length - 1;
+  const isFirst  = currentIdx === 0;
+  const date = allDates[currentIdx];
+  nav.innerHTML = `
+    <div class="date-nav">
+      <button class="date-btn" onclick="loadDate(${currentIdx - 1})" ${isFirst ? 'disabled' : ''}>‹ 前一日</button>
+      <span class="date-current">${date}${isLatest ? '<span class="date-badge">最新</span>' : ''}</span>
+      <button class="date-btn" onclick="loadDate(${currentIdx + 1})" ${isLatest ? 'disabled' : ''}>後一日 ›</button>
+    </div>
+  `;
+}
+
+async function loadDate(idx) {
+  if (idx < 0 || idx >= allDates.length) return;
+  currentIdx = idx;
+  renderDateNavUI();
+  document.getElementById('app').innerHTML = '<div class="loading">⏳ 載入中...</div>';
+  try {
+    const data = await fetchJSON(`reports/${allDates[idx]}.json`);
+    render(data, cachedHistory);
+  } catch (e) {
+    document.getElementById('app').innerHTML =
+      `<div class="error">❌ 載入失敗：${e.message}</div>`;
+  }
+}
+
+/* ── D区：30天趨勢折線圖 ── */
+function initTrendChart(history) {
+  const el = document.querySelector('#trend-chart');
+  if (!el || typeof ApexCharts === 'undefined') return;
+
+  const SYMBOLS = [
+    { key: 'SMH', name: '半導體 SMH', color: '#6366F1' },
+    { key: 'GLD', name: '黃金 GLD',   color: '#F59E0B' },
+    { key: 'BTC', name: 'Bitcoin',    color: '#F97316' },
+  ];
+
+  const series = [];
+  let categories = [];
+
+  SYMBOLS.forEach(s => {
+    const hist = (history[s.key] || []).slice(-30);
+    if (hist.length < 3) return;
+    if (!categories.length) categories = hist.map(h => h.date);
+    const first = hist[0].price || 1;
+    series.push({
+      name:  s.name,
+      color: s.color,
+      data:  hist.map(h => +((h.price - first) / first * 100).toFixed(2)),
+    });
+  });
+
+  if (!series.length) {
+    el.innerHTML = '<div class="trend-placeholder">📊 歷史數據累積中，5個交易日後啟用</div>';
+    return;
+  }
+
+  new ApexCharts(el, {
+    series,
+    chart: {
+      type: 'line', height: 220, background: 'transparent',
+      toolbar: { show: false }, zoom: { enabled: false },
+      animations: { enabled: false },
+    },
+    stroke: { curve: 'smooth', width: 2 },
+    xaxis: {
+      categories,
+      labels: {
+        style: { colors: '#94A3B8', fontSize: '10px', fontFamily: 'Inter' },
+        formatter: v => v ? v.slice(5) : '',
+      },
+      tickAmount: 6, axisBorder: { show: false }, axisTicks: { show: false },
+    },
+    yaxis: {
+      labels: {
+        style: { colors: '#94A3B8', fontSize: '10px', fontFamily: 'JetBrains Mono' },
+        formatter: v => (v >= 0 ? '+' : '') + v.toFixed(1) + '%',
+      },
+    },
+    grid: { borderColor: '#2A354D', strokeDashArray: 3 },
+    legend: { labels: { colors: '#94A3B8' }, fontSize: '12px', fontFamily: 'Inter' },
+    tooltip: {
+      theme: 'dark',
+      y: { formatter: v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%' },
+      x: { show: true },
+    },
+    theme: { mode: 'dark' },
+  }).render();
+}
 
 async function fetchJSON(path) {
   const res = await fetch(`${RAW_BASE}/${path}?_=${Date.now()}`);
@@ -1082,6 +1248,12 @@ function render(data, history = {}) {
       </div>
     </div>
 
+    <!-- D区：30天走勢對比 -->
+    <div class="trend-card section-gap">
+      <h2>30 日走勢對比（相對起點 %）</h2>
+      <div id="trend-chart"></div>
+    </div>
+
     <!-- B区：標的明細（含 sparklines）+ 重大事件 -->
     <div class="grid-2 section-gap">
       <div class="card">
@@ -1103,30 +1275,38 @@ function render(data, history = {}) {
   `;
 
   // DOM 就緒後初始化所有圖表
-  requestAnimationFrame(() => initCharts(data, history));
+  requestAnimationFrame(() => {
+    initCharts(data, history);
+    initTrendChart(history);
+  });
 }
 
 async function main() {
   try {
     const latest = await fetchJSON('reports/latest.json');
-    const data   = await fetchJSON(`reports/${latest.latest_date}.json`);
 
-    // 並行抓取所有 symbol 的歷史數據（失敗不阻塞）
+    // 初始化日期列表
+    allDates   = latest.all_dates || [latest.latest_date];
+    currentIdx = allDates.length - 1;
+
+    const data = await fetchJSON(`reports/${allDates[currentIdx]}.json`);
+
+    // 並行抓取所有 symbol 的歷史數據
     const allSymbols = [
       ...(data.indices   || []).map(i => i.symbol),
       ...(data.watchlist || []).map(w => w.symbol),
     ];
-    const history = {};
     await Promise.allSettled(
       [...new Set(allSymbols)].map(async sym => {
         const key = sym.replace('-USD', '');
         try {
-          history[key] = await fetchJSON(`reports/history/${key}.json`);
-        } catch { history[key] = []; }
+          cachedHistory[key] = await fetchJSON(`reports/history/${key}.json`);
+        } catch { cachedHistory[key] = []; }
       })
     );
 
-    render(data, history);
+    renderDateNavUI();
+    render(data, cachedHistory);
   } catch (e) {
     document.getElementById('app').innerHTML =
       `<div class="error">❌ 載入失敗：${e.message}<br><small>請稍後再試</small></div>`;
