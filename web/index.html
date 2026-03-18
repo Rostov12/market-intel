@@ -671,7 +671,7 @@ function renderText(text) {
 }
 
 /* ── 圖表初始化（DOM ready 後呼叫）── */
-function initCharts(data) {
+function initCharts(data, history = {}) {
   const date = data.date || '';
 
   // A区：情緒儀表
@@ -679,20 +679,29 @@ function initCharts(data) {
 
   // 指數 sparklines
   (data.indices || []).forEach((idx, i) => {
-    const pts = generateSparkData(idx.change_pct, idx.name, date);
-    initSparkline(`idx-spark-${i}`, pts, (idx.change_pct || 0) >= 0);
+    const key  = idx.symbol.replace('-USD', '');
+    const hist = history[key] || [];
+    const pts  = hist.length >= 5
+      ? hist.slice(-30).map(h => h.price)
+      : generateSparkData(idx.change_pct, idx.name, date);
+    const isUp = pts.length >= 2 ? pts[pts.length-1] >= pts[0] : (idx.change_pct || 0) >= 0;
+    initSparkline(`idx-spark-${i}`, pts, isUp);
   });
 
   // B区：watchlist sparklines
   (data.watchlist || []).forEach(w => {
     const sym    = w.symbol.replace('-USD', '');
     const safeId = 'spark-' + sym.replace(/[^a-zA-Z0-9]/g, '_');
-    const pts    = generateSparkData(w.change_pct, sym, date);
-    initSparkline(safeId, pts, (w.change_pct || 0) >= 0);
+    const hist   = history[sym] || [];
+    const pts    = hist.length >= 5
+      ? hist.slice(-30).map(h => h.price)
+      : generateSparkData(w.change_pct, sym, date);
+    const isUp   = pts.length >= 2 ? pts[pts.length-1] >= pts[0] : (w.change_pct || 0) >= 0;
+    initSparkline(safeId, pts, isUp);
   });
 }
 
-function render(data) {
+function render(data, history = {}) {
   document.getElementById('report-meta').textContent =
     `${data.date}  ·  更新 ${data.generated_at}`;
   updateMarketStatus();
@@ -757,14 +766,30 @@ function render(data) {
   `;
 
   // DOM 就緒後初始化所有圖表
-  requestAnimationFrame(() => initCharts(data));
+  requestAnimationFrame(() => initCharts(data, history));
 }
 
 async function main() {
   try {
     const latest = await fetchJSON('reports/latest.json');
     const data   = await fetchJSON(`reports/${latest.latest_date}.json`);
-    render(data);
+
+    // 並行抓取所有 symbol 的歷史數據（失敗不阻塞）
+    const allSymbols = [
+      ...(data.indices   || []).map(i => i.symbol),
+      ...(data.watchlist || []).map(w => w.symbol),
+    ];
+    const history = {};
+    await Promise.allSettled(
+      [...new Set(allSymbols)].map(async sym => {
+        const key = sym.replace('-USD', '');
+        try {
+          history[key] = await fetchJSON(`reports/history/${key}.json`);
+        } catch { history[key] = []; }
+      })
+    );
+
+    render(data, history);
   } catch (e) {
     document.getElementById('app').innerHTML =
       `<div class="error">❌ 載入失敗：${e.message}<br><small>請稍後再試</small></div>`;
