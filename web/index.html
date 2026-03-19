@@ -1209,6 +1209,12 @@ function renderRiskPanel(data) {
           </tbody>
         </table>
       </div>` : ''}
+      <div class="risk-trend-section">
+        <div class="risk-factors-title">📈 30日風險評分走勢</div>
+        <img src="./risk-trend.svg" alt="風險評分走勢圖"
+             style="width:100%;max-width:600px;display:block;margin:8px auto 0;border-radius:8px;background:#0b0f19"
+             onerror="this.style.display='none'"/>
+      </div>
     </div>
   `;
 }
