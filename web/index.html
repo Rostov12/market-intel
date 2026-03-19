@@ -899,6 +899,75 @@
       font-size: 13px;
     }
 
+    /* ── 台股均線框架面板 ── */
+    .tw-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 600px) { .tw-panel { grid-template-columns: 1fr; } }
+    .tw-panel:hover { border-color: rgba(56, 189, 248, 0.4); }
+    .tw-panel-left h2 {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px;
+    }
+    .tw-taiex-row {
+      display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px;
+    }
+    .tw-taiex-price {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 26px; font-weight: 700; color: var(--text-main);
+    }
+    .tw-arr-badge {
+      display: inline-block; font-size: 11px; padding: 2px 8px;
+      border-radius: 6px; font-weight: 600;
+    }
+    .tw-arr-bull  { background: rgba(16,185,129,0.15); color: #10B981; border: 1px solid rgba(16,185,129,0.3); }
+    .tw-arr-bear  { background: rgba(239,68,68,0.15);  color: #EF4444; border: 1px solid rgba(239,68,68,0.3); }
+    .tw-arr-squeeze { background: rgba(99,102,241,0.15); color: #6366F1; border: 1px solid rgba(99,102,241,0.3); }
+    .tw-arr-ranging { background: rgba(245,158,11,0.15); color: #F59E0B; border: 1px solid rgba(245,158,11,0.3); }
+    .tw-ma-row {
+      display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px;
+      color: var(--text-muted); margin-bottom: 10px;
+    }
+    .tw-ma-item { display: flex; flex-direction: column; }
+    .tw-ma-label { font-size: 10px; color: var(--text-muted); margin-bottom: 1px; }
+    .tw-ma-val   { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-main); }
+    .tw-ma-pct   { font-size: 10px; }
+    .tw-abc-block {
+      background: rgba(56,189,248,0.06);
+      border: 1px solid rgba(56,189,248,0.15);
+      border-radius: 8px; padding: 10px 12px;
+    }
+    .tw-abc-pos {
+      font-size: 13px; font-weight: 700; color: var(--color-blue); margin-bottom: 4px;
+    }
+    .tw-abc-desc { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+    .tw-panel-right h2 {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px;
+    }
+    .tw-candidates { display: flex; flex-direction: column; gap: 6px; }
+    .tw-candidate-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 6px 10px; background: var(--card-bg2); border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .tw-cand-sym  { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--color-blue); }
+    .tw-cand-name { font-size: 12px; color: var(--text-main); }
+    .tw-cand-pct  { font-size: 11px; font-family: 'JetBrains Mono', monospace; }
+    .tw-empty     { font-size: 12px; color: var(--text-muted); text-align: center; padding: 20px 0; }
+    .tw-summary   {
+      font-size: 11px; color: var(--text-muted); margin-top: 10px;
+      display: flex; gap: 12px; flex-wrap: wrap;
+    }
+    .tw-sum-item  { display: flex; gap: 4px; }
+    .tw-sum-val   { font-weight: 600; color: var(--text-main); }
+
     /* ── Loading / Error ── */
     .loading { text-align: center; padding: 80px; color: var(--text-muted); font-size: 15px; }
     .error   { text-align: center; padding: 60px; color: var(--color-down); }
@@ -1815,6 +1884,96 @@ function initCharts(data, history = {}) {
   });
 }
 
+/* ── 台股均線操盤框架面板 ── */
+function renderTWMAPanel(twMa) {
+  if (!twMa || !twMa.taiex) return '';
+
+  const t   = twMa.taiex;
+  const abc = t.abc_signal || {};
+  const arr = t.arrangement || 'ranging';
+  const pos = abc.position_pct ?? '—';
+
+  const arrBadgeClass = {
+    bull:    'tw-arr-bull',
+    bear:    'tw-arr-bear',
+    squeeze: 'tw-arr-squeeze',
+    ranging: 'tw-arr-ranging',
+  }[arr] || 'tw-arr-ranging';
+
+  const fmtMa = (v, p) => {
+    if (v == null) return '<span class="tw-ma-val" style="color:var(--text-muted)">N/A</span>';
+    const cls = p > 0 ? 'up' : p < 0 ? 'down' : 'flat';
+    const pctStr = p != null ? `(${p >= 0 ? '+' : ''}${p.toFixed(1)}%)` : '';
+    return `<span class="tw-ma-val">${Math.round(v).toLocaleString()}</span>
+            <span class="tw-ma-pct ${cls}">${pctStr}</span>`;
+  };
+
+  // 佈局候選
+  const candidates = (twMa.layout_candidates || []).slice(0, 6);
+  const candidateRows = candidates.map(c => {
+    const p = c.pct_ma120;
+    const pctCls = p < 0 ? 'down' : 'up';
+    const pctStr = p != null ? `${p >= 0 ? '+' : ''}${p.toFixed(1)}%` : 'N/A';
+    const sym = (c.symbol || '').replace('.TW', '').replace('.TWO', '');
+    return `
+      <div class="tw-candidate-row">
+        <div style="display:flex;gap:8px;align-items:center">
+          <span class="tw-cand-sym">${sym}</span>
+          <span class="tw-cand-name">${c.name || ''}</span>
+        </div>
+        <span class="tw-cand-pct ${pctCls}">半年線 ${pctStr}</span>
+      </div>`;
+  }).join('');
+
+  const sm = twMa.summary || {};
+
+  return `
+    <div class="tw-panel section-gap">
+      <div class="tw-panel-left">
+        <h2>🇹🇼 台股操盤框架（ABC 均線系統）</h2>
+        <div class="tw-taiex-row">
+          <div class="tw-taiex-price">${t.price ? Math.round(t.price).toLocaleString() : '—'}</div>
+          <span class="tw-arr-badge ${arrBadgeClass}">${t.arrangement_label || arr}</span>
+        </div>
+        <div class="tw-ma-row">
+          <div class="tw-ma-item">
+            <span class="tw-ma-label">月線（20）</span>
+            ${fmtMa(t.ma20, t.pct_ma20)}
+          </div>
+          <div class="tw-ma-item">
+            <span class="tw-ma-label">季線（60）</span>
+            ${fmtMa(t.ma60, t.pct_ma60)}
+          </div>
+          <div class="tw-ma-item">
+            <span class="tw-ma-label">半年線（120）</span>
+            ${fmtMa(t.ma120, t.pct_ma120)}
+          </div>
+        </div>
+        <div class="tw-abc-block">
+          <div class="tw-abc-pos">📌 建議持倉：${pos}%</div>
+          <div class="tw-abc-desc">${abc.description || '—'}</div>
+        </div>
+        ${sm.total_scanned ? `
+        <div class="tw-summary">
+          <div class="tw-sum-item">掃描 <span class="tw-sum-val">${sm.total_scanned}</span> 檔</div>
+          <div class="tw-sum-item" style="color:#10B981">多頭 <span class="tw-sum-val" style="color:#10B981">${sm.bull_count || 0}</span></div>
+          <div class="tw-sum-item" style="color:#F59E0B">整理 <span class="tw-sum-val" style="color:#F59E0B">${sm.ranging_count || 0}</span></div>
+          <div class="tw-sum-item" style="color:#EF4444">空頭 <span class="tw-sum-val" style="color:#EF4444">${sm.bear_count || 0}</span></div>
+        </div>` : ''}
+      </div>
+      <div class="tw-panel-right">
+        <h2>🎯 半年線佈局候選</h2>
+        <div class="tw-candidates">
+          ${candidates.length
+            ? candidateRows
+            : '<div class="tw-empty">暫無符合條件的佈局候選<br><span style="font-size:11px">（條件：整理型態 + 半年線 -8%~+5%）</span></div>'
+          }
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function render(data, history = {}) {
   document.getElementById('report-meta').textContent =
     `${data.date}  ·  更新 ${data.generated_at}`;
@@ -1865,6 +2024,9 @@ function render(data, history = {}) {
       <h2>30 日走勢對比（相對起點 %）</h2>
       <div id="trend-chart"></div>
     </div>
+
+    <!-- 台股均線操盤框架 -->
+    ${renderTWMAPanel(data.tw_ma)}
 
     <!-- B区：今日重大事件 + 即時新聞（全寬）-->
     <div class="section-gap">
