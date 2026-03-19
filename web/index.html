@@ -673,6 +673,24 @@
     .hbt-news-title { color: #94a3b8; flex: 1; }
     .hbt-no-news { font-size: 11px; color: #374151; font-style: italic; }
 
+    /* Tooltip 內嵌走勢圖 */
+    .hbt-spark-wrap {
+      padding: 10px 14px 6px;
+      border-bottom: 1px solid #1e2d47;
+    }
+    .hbt-spark-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: #475569;
+      margin-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hbt-spark-range { color: #374151; font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+    .hbt-spark-wrap svg { display: block; width: 100%; border-radius: 3px; }
+
     /* ── 即時新聞區塊 ── */
     .news-flash {
       margin-top: 16px;
@@ -974,7 +992,7 @@ function initTrendChart(history) {
       toolbar: { show: false }, zoom: { enabled: false },
       animations: { enabled: false },
     },
-    stroke: { curve: 'smooth', width: 2 },
+    stroke: { curve: 'straight', width: 1.8 },
     xaxis: {
       categories,
       labels: {
@@ -1168,9 +1186,9 @@ function initSparkline(elId, data, isUp) {
       type: 'area', height: 36, background: 'transparent',
       sparkline: { enabled: true },
       animations: { enabled: false },
-      dropShadow: { enabled: true, top: 0, left: 0, blur: 4, color: glow, opacity: 0.6 }
+      dropShadow: { enabled: true, top: 0, left: 0, blur: 3, color: glow, opacity: 0.5 }
     },
-    stroke: { curve: 'smooth', width: 1.5, colors: [color] },
+    stroke: { curve: 'straight', width: 1.5, colors: [color] },
     fill: {
       type: 'gradient',
       gradient: { shadeIntensity: 1, opacityFrom: 0.4, opacityTo: 0, stops: [0, 100] },
@@ -1364,6 +1382,50 @@ function genAdviceText(sym, pct, volNum, sig, note, cat) {
   return lines.join('。<br>');
 }
 
+/* ── 浮窗用 inline SVG 走勢圖（直接用 cachedHistory 真實數據）── */
+function buildSparkSVG(sym) {
+  const hist = (cachedHistory[sym] || []).slice(-30);
+  const prices = hist.map(h => h.price).filter(p => p != null && !isNaN(p));
+  if (prices.length < 3) return '';
+
+  const W = 268, H = 52;
+  const min = Math.min(...prices);
+  const max = Math.max(...prices);
+  const range = max - min || Math.abs(min) * 0.02 || 1;
+  const isUp  = prices[prices.length - 1] >= prices[0];
+  const color = isUp ? '#10B981' : '#EF4444';
+  const gradId = `hbg-${sym}`;
+
+  const toX = i  => (2 + (i / (prices.length - 1)) * (W - 4)).toFixed(1);
+  const toY = v  => (H - 4 - ((v - min) / range) * (H - 10) + 3).toFixed(1);
+
+  const linePoints = prices.map((p, i) => `${toX(i)},${toY(p)}`).join(' ');
+  const areaPath   =
+    `M${toX(0)},${toY(prices[0])}` +
+    prices.slice(1).map((p, i) => ` L${toX(i + 1)},${toY(p)}`).join('') +
+    ` L${toX(prices.length - 1)},${H} L${toX(0)},${H} Z`;
+
+  // Price range label
+  const fmtP = v => v >= 1000 ? v.toLocaleString('en-US', {maximumFractionDigits: 0})
+                               : v.toFixed(2);
+  const rangeLabel = `$${fmtP(min)} – $${fmtP(max)}`;
+  const days = hist.length;
+
+  return { svg: `
+    <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+      <defs>
+        <linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"   stop-color="${color}" stop-opacity="0.28"/>
+          <stop offset="100%" stop-color="${color}" stop-opacity="0.02"/>
+        </linearGradient>
+      </defs>
+      <path  d="${areaPath}"   fill="url(#${gradId})"/>
+      <polyline points="${linePoints}" fill="none" stroke="${color}"
+        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  `, rangeLabel, days };
+}
+
 function showHbTooltip(e, el) {
   const t     = document.getElementById('hb-tooltip');
   const sym   = el.dataset.sym;
@@ -1391,6 +1453,7 @@ function showHbTooltip(e, el) {
 
   const adviceText  = genAdviceText(sym, pct, volNum, sig, note, cat);
   const relatedNews = findRelatedNews(sym, cat);
+  const sparkResult = buildSparkSVG(sym);
 
   const newsImpactLabel = { bearish: '空', bullish: '多', neutral: '中' };
 
@@ -1421,6 +1484,15 @@ function showHbTooltip(e, el) {
         <div class="hbt-stat-val" style="font-family:'Inter',sans-serif;font-size:11px">${cat}</div>
       </div>
     </div>
+
+    ${sparkResult ? `
+    <div class="hbt-spark-wrap">
+      <div class="hbt-spark-label">
+        <span>近 ${sparkResult.days} 日走勢</span>
+        <span class="hbt-spark-range">${sparkResult.rangeLabel}</span>
+      </div>
+      ${sparkResult.svg}
+    </div>` : ''}
 
     <div class="hbt-advice">
       <div class="hbt-advice-label">📊 操作分析</div>
