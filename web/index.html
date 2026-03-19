@@ -419,6 +419,28 @@
     .sig-watch { background: rgba(56,189,248,0.12); color: #38BDF8; border: 1px solid rgba(56,189,248,0.35); }
     .sig-sell  { background: rgba(239,68,68,0.15);  color: #EF4444; border: 1px solid rgba(239,68,68,0.4); }
 
+    /* ── AI 市場標題 ── */
+    .ai-market-title {
+      font-size: 13px;
+      color: var(--color-ai);
+      font-style: italic;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      border-left: 2px solid var(--color-ai);
+      line-height: 1.5;
+    }
+
+    /* ── 標的短評 ── */
+    .wi-note {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 1px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 160px;
+    }
+
     /* ── 今日總結 ── */
     .summary-card {
       background: var(--card-bg2);
@@ -1024,7 +1046,7 @@ function renderSignalBadge(sigArr, symbol) {
   return `<span class="action-badge ${c.cls}"${title}>${c.label}</span>`;
 }
 
-function renderWatchlist(items, date, signals) {
+function renderWatchlist(items, date, signals, itemNotes) {
   return items.map(w => {
     const symbol = w.symbol.replace('-USD', '');
     const desc   = w.name.includes('（') ? w.name.split('（')[1].replace('）','') : w.name;
@@ -1034,6 +1056,7 @@ function renderWatchlist(items, date, signals) {
       ? `<span class="vol-badge ${vr >= 1.5 ? 'vol-spike' : 'vol-normal'}">${vr.toFixed(1)}x</span>`
       : '';
     const actionBadge = renderSignalBadge(signals, w.symbol);
+    const note = (itemNotes || {})[symbol] || '';
     return `
       <div class="watchlist-item">
         <div class="wi-left">
@@ -1041,6 +1064,7 @@ function renderWatchlist(items, date, signals) {
           <div style="min-width:0">
             <div class="symbol">${symbol}${volBadge}${actionBadge}</div>
             <div class="desc">${desc}<span class="tag">${w.category}</span></div>
+            ${note ? `<div class="wi-note" title="${note}">${note}</div>` : ''}
           </div>
         </div>
         <div class="wi-spark" id="${safeId}"></div>
@@ -1335,6 +1359,7 @@ function render(data, history = {}) {
           <span class="ai-dot"></span>
           AI 盤後總結
         </div>
+        ${data.market_title ? `<div class="ai-market-title">${data.market_title.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>` : ''}
         <div class="ai-summary-text">${(data.advice || '（暫無分析）').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
       </div>
     </div>
@@ -1362,7 +1387,7 @@ function render(data, history = {}) {
     <div class="grid-2 section-gap">
       <div class="card">
         <h2>追蹤標的明細</h2>
-        ${renderWatchlist(data.watchlist || [], data.date, data.signals || [])}
+        ${renderWatchlist(data.watchlist || [], data.date, data.signals || [], data.item_notes || {})}
       </div>
       <div class="card">
         <h2>今日重大事件</h2>

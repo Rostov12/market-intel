@@ -1,6 +1,6 @@
 {
   "date": "2026-03-19",
-  "generated_at": "2026-03-19 05:00 (UTC+8)",
+  "generated_at": "2026-03-19 10:18 (UTC+8)",
   "indices": [
     {
       "symbol": "^DJI",
@@ -21,16 +21,16 @@
       "name": "納斯達克",
       "price": 22152.42,
       "change_pct": -1.46,
-      "volume_ratio": 0.91
+      "volume_ratio": 0.92
     }
   ],
   "macro": [
     {
-      "symbol": "DX-Y.NYB",
+      "symbol": "DX=F",
       "name": "DXY",
       "desc": "美元指數",
-      "price": null,
-      "change_pct": null
+      "price": 99.33,
+      "change_pct": -0.51
     },
     {
       "symbol": "^TNX",
@@ -113,18 +113,18 @@
       "symbol": "BTC-USD",
       "name": "BTC",
       "category": "加密",
-      "price": 71241.55,
-      "change_pct": -3.63,
-      "volume_ratio": 1.0,
+      "price": 71197.87,
+      "change_pct": -3.69,
+      "volume_ratio": 1.02,
       "signal": "🔴"
     },
     {
       "symbol": "ETH-USD",
       "name": "ETH",
       "category": "加密",
-      "price": 2188.51,
-      "change_pct": -5.59,
-      "volume_ratio": 1.11,
+      "price": 2200.34,
+      "change_pct": -5.08,
+      "volume_ratio": 1.13,
       "signal": "🔴"
     },
     {
@@ -138,9 +138,68 @@
     }
   ],
   "risk_line": "風險燈號：黃（score=3）",
-  "events": "（分析生成失敗）",
-  "advice": "（分析生成失敗）",
-  "prev_review": "",
+  "events": "1️⃣ 聯準會按兵不動偏鷹派：[利率不變但通膨措辭偏硬，升息選項未完全排除]\n2️⃣ 美債殖利率走高：[US10Y升至4.26%，壓抑高估值科技股]\n3️⃣ 恐慌情緒急升：[VIX跳升至25.09，恐懼貪婪18顯示極度避險]\n4️⃣ 三大指數同步重挫：[道瓊、標普、那指跌逾1%，風險資產普遍承壓]\n5️⃣ 原物料與加密同步下挫：[CPER放量下跌，BTC/ETH跌勢擴大]",
+  "advice": "📌 整體策略：DXY回落但殖利率上行、VIX高檔，維持防禦與現金彈性。\n• 科技/AI：先降槓桿，等波動收斂再回補\n• 核能/原物料：核能續觀察，銅先避開弱勢\n• 避險資產：黃金破位且放量，暫不抄底\n• 加密貨幣：跌勢未止，小倉或觀望為主",
+  "prev_review": "前日建議大致正確，但核能偏多判斷失準、短線回檔超預期。",
+  "signals": [
+    {
+      "symbol": "URNM",
+      "signal_type": "watch",
+      "note": "回檔但未放量，觀察月線支撐"
+    },
+    {
+      "symbol": "NLR",
+      "signal_type": "watch",
+      "note": "量縮下跌，等待止穩訊號"
+    },
+    {
+      "symbol": "SMH",
+      "signal_type": "watch",
+      "note": "相對抗跌，待重回強勢區"
+    },
+    {
+      "symbol": "AIQ",
+      "signal_type": "sell",
+      "note": "弱於大盤且量能不足"
+    },
+    {
+      "symbol": "BOTZ",
+      "signal_type": "watch",
+      "note": "續弱整理，先看支撐"
+    },
+    {
+      "symbol": "GLD",
+      "signal_type": "sell",
+      "note": "放量破位，短線仍有壓力"
+    },
+    {
+      "symbol": "BTC",
+      "signal_type": "sell",
+      "note": "風險偏好降溫，趨勢轉弱"
+    },
+    {
+      "symbol": "ETH",
+      "signal_type": "sell",
+      "note": "跌幅擴大，短線偏空"
+    },
+    {
+      "symbol": "CPER",
+      "signal_type": "sell",
+      "note": "放量下殺，弱勢延續機率高"
+    }
+  ],
+  "market_title": "殖利率走升與VIX飆高引發全面風險撤退",
+  "item_notes": {
+    "URNM": "核能股回吐漲幅",
+    "NLR": "資金轉防禦觀望",
+    "SMH": "半導體相對抗跌",
+    "AIQ": "AI主題動能降溫",
+    "BOTZ": "機器人ETF續弱",
+    "GLD": "實質利率壓制",
+    "BTC": "風險資產同步跌",
+    "ETH": "高貝塔賣壓更重",
+    "CPER": "景氣疑慮放量殺"
+  },
   "risk_factors": [
     {
       "segment": "E — 新聞信心品質",
