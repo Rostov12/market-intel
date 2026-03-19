@@ -568,39 +568,110 @@
     #hb-tooltip {
       position: fixed;
       z-index: 9999;
-      background: #1a2235;
+      background: #131c2e;
       border: 1px solid #2d3f5e;
-      border-radius: 12px;
-      padding: 14px 16px;
-      min-width: 220px;
-      max-width: 280px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      border-radius: 14px;
+      padding: 0;
+      min-width: 300px;
+      max-width: 360px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.65), 0 0 0 1px rgba(99,102,241,0.08);
       pointer-events: none;
       opacity: 0;
       transition: opacity 0.15s;
       font-size: 13px;
+      overflow: hidden;
     }
     #hb-tooltip.visible { opacity: 1; }
-    .hbt-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
-    .hbt-sym { font-size: 15px; font-weight: 700; color: #e2e8f0; }
-    .hbt-name { font-size: 11px; color: #64748b; margin-top: 2px; }
-    .hbt-price { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; }
-    .hbt-row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #1e2d47; font-size: 12px; }
-    .hbt-row:last-child { border-bottom: none; }
-    .hbt-label { color: #64748b; }
-    .hbt-val { color: #cbd5e1; font-family: 'JetBrains Mono', monospace; }
-    .hbt-signal-badge {
-      margin-top: 10px;
-      padding: 6px 10px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: 600;
-      text-align: center;
+
+    /* Tooltip 頂部 header */
+    .hbt-top {
+      background: #1a2437;
+      padding: 12px 16px 10px;
+      border-bottom: 1px solid #1e2d47;
     }
-    .hbt-signal-buy    { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); }
-    .hbt-signal-sell   { background: rgba(239,68,68,0.15);  color: #ef4444; border: 1px solid rgba(239,68,68,0.3);  }
-    .hbt-signal-watch  { background: rgba(245,158,11,0.15); color: #f59e0b; border: 1px solid rgba(245,158,11,0.3); }
-    .hbt-note { margin-top: 8px; font-size: 11px; color: #94a3b8; line-height: 1.5; }
+    .hbt-header { display: flex; align-items: flex-start; justify-content: space-between; }
+    .hbt-sym-line { display: flex; align-items: center; gap: 6px; }
+    .hbt-sym { font-size: 16px; font-weight: 700; color: #e2e8f0; letter-spacing: 0.03em; }
+    .hbt-name { font-size: 11px; color: #64748b; margin-top: 3px; }
+    .hbt-right { text-align: right; }
+    .hbt-price { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; }
+    .hbt-pct-lg { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; margin-top: 2px; }
+
+    /* Stats 格子 */
+    .hbt-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: #1e2d47;
+      border-bottom: 1px solid #1e2d47;
+    }
+    .hbt-stat {
+      background: #131c2e;
+      padding: 8px 12px;
+    }
+    .hbt-stat-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: #475569; margin-bottom: 3px; }
+    .hbt-stat-val { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #cbd5e1; }
+    .hbt-stat-val small { font-size: 10px; color: #64748b; margin-left: 4px; font-family: 'Inter', sans-serif; }
+
+    /* 操作分析區 */
+    .hbt-advice {
+      padding: 10px 14px;
+      border-bottom: 1px solid #1e2d47;
+    }
+    .hbt-advice-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: #6366f1;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .hbt-advice-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.03em;
+    }
+    .hbt-signal-buy   { background: rgba(16,185,129,0.18); color: #10b981; border: 1px solid rgba(16,185,129,0.35); }
+    .hbt-signal-sell  { background: rgba(239,68,68,0.18);  color: #ef4444; border: 1px solid rgba(239,68,68,0.35);  }
+    .hbt-signal-watch { background: rgba(245,158,11,0.18); color: #f59e0b; border: 1px solid rgba(245,158,11,0.35); }
+    .hbt-advice-text {
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.65;
+    }
+    .hbt-advice-text strong { color: #cbd5e1; font-weight: 600; }
+
+    /* 內嵌新聞 */
+    .hbt-news {
+      padding: 9px 14px 10px;
+    }
+    .hbt-news-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: #475569;
+      margin-bottom: 7px;
+    }
+    .hbt-news-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      padding: 5px 0;
+      border-bottom: 1px solid #1a2437;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+    .hbt-news-item:last-child { border-bottom: none; }
+    .hbt-news-title { color: #94a3b8; flex: 1; }
+    .hbt-no-news { font-size: 11px; color: #374151; font-style: italic; }
 
     /* ── 即時新聞區塊 ── */
     .news-flash {
@@ -1198,17 +1269,21 @@ function renderSectorHeatmap(watchlist, signals, itemNotes) {
               : `rgba(239,68,68,${(0.25 + abs * 0.5).toFixed(2)})`;
             const sym = w.symbol.replace('-USD','');
             const sig = sigLookup[sym] || {};
-            const note = (itemNotes || {})[sym] || '';
+            const note = sig.note || (itemNotes || {})[sym] || '';
+            // desc：括號內的中文說明（e.g. 鈾礦 ETF核能）
+            const descMatch = (w.name || '').match(/（([^）]+)）/);
+            const desc = descMatch ? descMatch[1] : (w.category || sector.name);
             return `
               <div class="heatmap-block"
                 style="background:${bg};border-color:${border}"
                 data-sym="${sym}"
                 data-name="${w.name || sym}"
+                data-desc="${desc.replace(/"/g,'&quot;')}"
                 data-price="${w.price || ''}"
                 data-pct="${pct}"
                 data-vol="${w.volume_ratio || ''}"
                 data-signal="${sig.signal_type || ''}"
-                data-note="${(sig.note || note || '').replace(/"/g,'&quot;')}"
+                data-note="${note.replace(/"/g,'&quot;')}"
                 data-cat="${w.category || sector.name}"
                 onmouseenter="showHbTooltip(event,this)"
                 onmousemove="moveHbTooltip(event)"
@@ -1225,55 +1300,165 @@ function renderSectorHeatmap(watchlist, signals, itemNotes) {
 }
 
 /* ── Heatmap Tooltip 控制 ── */
-function showHbTooltip(e, el) {
-  const t   = document.getElementById('hb-tooltip');
-  const sym  = el.dataset.sym;
-  const name = el.dataset.name;
-  const price = el.dataset.price ? `$${parseFloat(el.dataset.price).toFixed(2)}` : 'N/A';
-  const pct   = parseFloat(el.dataset.pct) || 0;
-  const vol   = el.dataset.vol ? parseFloat(el.dataset.vol).toFixed(2) + 'x' : 'N/A';
-  const sig   = el.dataset.signal;
-  const note  = el.dataset.note;
-  const cat   = el.dataset.cat;
 
-  const sigLabel = { buy: '📈 建議買入', sell: '📉 建議觀望/減碼', watch: '👀 持續觀察' };
-  const sigClass = { buy: 'buy', sell: 'sell', watch: 'watch' };
+/* 關鍵字對應表：symbol → 可能出現在新聞中的關鍵字 */
+const SYM_KEYWORDS = {
+  URNM: ['核能','uranium','鈾','URNM','nuclear','核電'],
+  NLR:  ['核能','nuclear','NLR','核電'],
+  CPER: ['銅','copper','CPER'],
+  SMH:  ['半導體','semiconductor','晶片','chip','SMH','NVIDIA','AMD','英偉達'],
+  AIQ:  ['AI','人工智慧','artificial intelligence','AIQ'],
+  BOTZ: ['機器人','robotics','automation','BOTZ'],
+  GLD:  ['黃金','gold','GLD','避險'],
+  BTC:  ['Bitcoin','比特幣','BTC','加密','crypto'],
+  ETH:  ['Ethereum','以太','ETH'],
+  QQQ:  ['那斯達克','NASDAQ','科技股','QQQ'],
+  SPY:  ['標普','S&P','SPY'],
+  TLT:  ['國債','treasury','殖利率','TLT'],
+};
+
+function findRelatedNews(sym, cat) {
+  const newsData = window._newsData;
+  if (!newsData || !newsData.news) return [];
+  const keywords = [
+    ...(SYM_KEYWORDS[sym] || []),
+    sym,
+    ...(cat || '').split(/[\/，\s]+/).filter(k => k.length > 1),
+  ];
+  return newsData.news.filter(n => {
+    const text = (n.title || '').toLowerCase();
+    return keywords.some(k => text.includes(k.toLowerCase()));
+  }).slice(0, 2);
+}
+
+function genAdviceText(sym, pct, volNum, sig, note, cat) {
+  const absPct    = Math.abs(pct);
+  const dir       = pct >= 0 ? '上漲' : '下跌';
+  const pctStr    = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+  const magnitude = absPct >= 5 ? '大幅' : absPct >= 2 ? '明顯' : absPct >= 0.5 ? '小幅' : '微幅';
+  const volText   = volNum >= 2.5 ? '極大量' : volNum >= 1.8 ? '大量放量' : volNum >= 1.3 ? '量能偏大'
+                  : volNum >= 0.8 ? '量能正常' : volNum >= 0.5 ? '量縮' : '極度縮量';
+
+  const lines = [];
+
+  if (sig === 'buy') {
+    lines.push(`<strong>${magnitude}${dir} ${pctStr}</strong>，${volText}支撐`);
+    if (volNum >= 1.5) lines.push('放量突破，動能偏強，可考慮順勢進場，注意追高風險');
+    else if (volNum >= 1.0) lines.push('量價配合，趨勢向好，可分批布局或持倉待漲');
+    else lines.push('量縮上漲，動能待確認，建議等待放量再加碼確認');
+  } else if (sig === 'sell') {
+    lines.push(`<strong>${magnitude}${dir} ${pctStr}</strong>，${volText}`);
+    if (volNum >= 1.5) lines.push('放量下跌，賣壓明顯，建議減碼降低曝險，嚴設停損');
+    else lines.push('弱勢格局，量能有限但趨勢偏空，觀望為主，避免攤平');
+  } else {
+    // watch or unknown
+    lines.push(`<strong>${magnitude}${dir} ${pctStr}</strong>，${volText}`);
+    if (absPct < 0.5) lines.push('橫盤整理中，多空拉鋸，方向尚未明朗，靜待突破訊號');
+    else if (pct < 0 && volNum < 0.9) lines.push('量縮回測，正常技術整理，支撐未破前維持觀察，不輕易追殺');
+    else if (pct > 0 && volNum < 0.9) lines.push('量縮小漲，動能不足，上攻力道待確認，謹慎追高');
+    else lines.push('留意關鍵技術位，等待方向確認後再行動');
+  }
+
+  if (note) lines.push(`<strong>分析師：</strong>${note}`);
+
+  return lines.join('。<br>');
+}
+
+function showHbTooltip(e, el) {
+  const t     = document.getElementById('hb-tooltip');
+  const sym   = el.dataset.sym;
+  const name  = el.dataset.name || sym;
+  const desc  = el.dataset.desc || el.dataset.cat || '';
+  const price = el.dataset.price ? parseFloat(el.dataset.price) : null;
+  const pct   = parseFloat(el.dataset.pct) || 0;
+  const volRaw= el.dataset.vol ? parseFloat(el.dataset.vol) : null;
+  const sig   = el.dataset.signal || '';
+  const note  = el.dataset.note  || '';
+  const cat   = el.dataset.cat   || '';
+
+  const priceStr = price !== null ? `$${price.toFixed(2)}` : 'N/A';
+  const volStr   = volRaw !== null ? volRaw.toFixed(1) + 'x' : 'N/A';
+  const volNum   = volRaw !== null ? volRaw : 1.0;
+  const volHint  = volNum >= 1.5 ? '放量' : volNum >= 0.8 ? '正常' : '量縮';
+  const pctClass = pct >= 0 ? 'up' : 'down';
+
+  const sigCfg = {
+    buy:   { cls: 'hbt-signal-buy',   icon: '📈', label: 'BUY — 建議買入' },
+    sell:  { cls: 'hbt-signal-sell',  icon: '📉', label: 'SELL — 建議減碼' },
+    watch: { cls: 'hbt-signal-watch', icon: '👀', label: 'WATCH — 持續觀察' },
+  };
+  const sc = sigCfg[sig] || { cls: 'hbt-signal-watch', icon: '—', label: '—' };
+
+  const adviceText  = genAdviceText(sym, pct, volNum, sig, note, cat);
+  const relatedNews = findRelatedNews(sym, cat);
+
+  const newsImpactLabel = { bearish: '空', bullish: '多', neutral: '中' };
 
   t.innerHTML = `
-    <div class="hbt-header">
-      <div>
-        <div class="hbt-sym">${sym}</div>
-        <div class="hbt-name">${name}</div>
+    <div class="hbt-top">
+      <div class="hbt-header">
+        <div>
+          <div class="hbt-sym-line">
+            <span class="hbt-sym">${sym}</span>
+            ${sig ? `<span class="hbt-advice-badge ${sc.cls}">${sc.icon} ${sc.label}</span>` : ''}
+          </div>
+          <div class="hbt-name">${desc || name}</div>
+        </div>
+        <div class="hbt-right">
+          <div class="hbt-price ${pctClass}">${priceStr}</div>
+          <div class="hbt-pct-lg ${pctClass}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</div>
+        </div>
       </div>
-      <div class="hbt-price ${pct >= 0 ? 'up' : 'down'}">${price}</div>
     </div>
-    <div class="hbt-row">
-      <span class="hbt-label">今日漲跌</span>
-      <span class="hbt-val ${pct >= 0 ? 'up' : 'down'}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>
+
+    <div class="hbt-stats">
+      <div class="hbt-stat">
+        <div class="hbt-stat-label">成交量比</div>
+        <div class="hbt-stat-val">${volStr}<small>${volHint}</small></div>
+      </div>
+      <div class="hbt-stat">
+        <div class="hbt-stat-label">主題板塊</div>
+        <div class="hbt-stat-val" style="font-family:'Inter',sans-serif;font-size:11px">${cat}</div>
+      </div>
     </div>
-    <div class="hbt-row">
-      <span class="hbt-label">成交量比</span>
-      <span class="hbt-val">${vol}</span>
+
+    <div class="hbt-advice">
+      <div class="hbt-advice-label">📊 操作分析</div>
+      <div class="hbt-advice-text">${adviceText}</div>
     </div>
-    <div class="hbt-row">
-      <span class="hbt-label">主題板塊</span>
-      <span class="hbt-val">${cat}</span>
-    </div>
-    ${sig ? `<div class="hbt-signal-badge hbt-signal-${sigClass[sig] || 'watch'}">${sigLabel[sig] || sig}</div>` : ''}
-    ${note ? `<div class="hbt-note">${note}</div>` : ''}
+
+    ${relatedNews.length > 0 ? `
+    <div class="hbt-news">
+      <div class="hbt-news-label">📰 相關新聞</div>
+      ${relatedNews.map(n => `
+        <div class="hbt-news-item">
+          <span class="news-impact ${n.impact || 'neutral'}" style="flex-shrink:0;font-size:9px">${newsImpactLabel[n.impact] || '中'}</span>
+          <span class="hbt-news-title">${n.title}</span>
+        </div>
+      `).join('')}
+    </div>` : `
+    <div class="hbt-news">
+      <div class="hbt-no-news">暫無相關即時新聞</div>
+    </div>`}
   `;
+
   moveHbTooltip(e);
   t.classList.add('visible');
 }
+
 function moveHbTooltip(e) {
-  const t = document.getElementById('hb-tooltip');
+  const t  = document.getElementById('hb-tooltip');
   const vw = window.innerWidth, vh = window.innerHeight;
-  let x = e.clientX + 16, y = e.clientY + 16;
-  if (x + 280 > vw) x = e.clientX - 280 - 8;
-  if (y + 200 > vh) y = e.clientY - 200 - 8;
+  const th = t.offsetHeight || 300;
+  let x = e.clientX + 18, y = e.clientY + 14;
+  if (x + 360 > vw) x = e.clientX - 360 - 10;
+  if (y + th  > vh) y = e.clientY - th - 10;
+  if (x < 4) x = 4;
+  if (y < 4) y = 4;
   t.style.left = x + 'px';
   t.style.top  = y + 'px';
 }
+
 function hideHbTooltip() {
   document.getElementById('hb-tooltip').classList.remove('visible');
 }
@@ -1575,12 +1760,8 @@ function render(data, history = {}) {
       <div id="trend-chart"></div>
     </div>
 
-    <!-- B区：標的明細（含 sparklines）+ 重大事件 -->
-    <div class="grid-2 section-gap">
-      <div class="card">
-        <h2>追蹤標的明細</h2>
-        ${renderWatchlist(data.watchlist || [], data.date, data.signals || [], data.item_notes || {})}
-      </div>
+    <!-- B区：今日重大事件 + 即時新聞（全寬）-->
+    <div class="section-gap">
       <div class="card">
         <h2>今日重大事件</h2>
         ${renderText(data.events)}
