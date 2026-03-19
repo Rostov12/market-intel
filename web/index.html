@@ -304,6 +304,44 @@
     .risk-thr.yellow { background: rgba(245,158,11,0.1); color: var(--color-warn); }
     .risk-thr.red    { background: rgba(239,68,68,0.1);  color: var(--color-down); }
 
+    /* ── 風險因子明細 ── */
+    .risk-factors-section {
+      margin-top: 16px;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+    }
+    .risk-factors-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .risk-factors-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    .risk-factors-table th {
+      text-align: left;
+      color: var(--text-muted);
+      font-weight: 500;
+      padding: 5px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .risk-factors-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid rgba(42,53,77,0.5);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+    }
+    .risk-factors-table tr.row-green td { color: var(--color-up); }
+    .risk-factors-table tr.row-yellow td { color: var(--color-warn); }
+    .risk-factors-table tr.row-red td { color: var(--color-down); }
+    .risk-factors-table tr.row-green { background: rgba(16,185,129,0.03); }
+    .risk-factors-table tr.row-yellow { background: rgba(245,158,11,0.05); }
+    .risk-factors-table tr.row-red { background: rgba(239,68,68,0.06); }
+
     /* ── 宏觀指標列 ── */
     .macro-strip {
       display: flex;
@@ -1093,15 +1131,29 @@ function renderRiskPanel(data) {
         </div>
         <div class="risk-explain">
           <strong>評分說明</strong>：綜合掃描 SPX/NQ 趨勢、VIX 波動率、WTI 油價、
-          各板塊信號強弱、多空資金分歧，每項最高 1 分，滿分 10 分。
+          各板塊信號強弱、多空資金分歧，每項最高 2 分，滿分 8 分。
           分數越高代表當前市場承壓越大、尾部風險越集中。
           <div class="risk-thresholds">
             <span class="risk-thr green">🟢 0–3　市場健康，可積極持倉</span>
-            <span class="risk-thr yellow">🟡 4–6　注意波動，控管部位規模</span>
-            <span class="risk-thr red">🔴 7–10　高風險，建議降低整體曝險</span>
+            <span class="risk-thr yellow">🟡 4–5　注意波動，控管部位規模</span>
+            <span class="risk-thr red">🔴 6–8　高風險，建議降低整體曝險</span>
           </div>
         </div>
       </div>
+      ${(data.risk_factors && data.risk_factors.length > 0) ? `
+      <div class="risk-factors-section">
+        <div class="risk-factors-title">風險因子明細（J段掃描）</div>
+        <table class="risk-factors-table">
+          <thead><tr><th>段落</th><th>指標</th><th>本輪狀況</th><th>分數</th></tr></thead>
+          <tbody>
+            ${data.risk_factors.map(f => {
+              const scoreNum = parseInt((f.score || '').replace(/\D/g,'')) || 0;
+              const rowClass = scoreNum >= 2 ? 'row-red' : scoreNum >= 1 ? 'row-yellow' : 'row-green';
+              return `<tr class="${rowClass}"><td>${f.segment}</td><td>${f.indicator}</td><td>${f.status}</td><td>${f.score}</td></tr>`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>` : ''}
     </div>
   `;
 }
