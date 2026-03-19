@@ -504,6 +504,29 @@
       margin-bottom: 6px;
     }
 
+    /* 今日總結 — 風險燈號列 */
+    .summary-risk-bar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .summary-risk-hint {
+      font-size: 12px;
+      color: var(--text-muted);
+      flex: 1;
+      min-width: 0;
+    }
+    .summary-risk-score {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
     /* ── 信號燈點 ── */
     .signal { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; flex-shrink: 0; }
     .signal.green  { background: var(--color-up);   box-shadow: 0 0 6px var(--color-up); }
@@ -1695,9 +1718,23 @@ function renderDailySummary(data) {
   const bestSym  = best  ? best.symbol.replace('-USD','')  : '—';
   const worstSym = worst ? worst.symbol.replace('-USD','') : '—';
 
+  // 風險燈號整合
+  const riskScore = parseRiskScore(data.risk_line);
+  const riskHint  = riskScore !== null
+    ? (riskScore >= 6 ? '高風險 — 建議降低整體曝險'
+     : riskScore >= 4 ? '注意波動 — 控管部位規模'
+     : '市場健康 — 可積極持倉')
+    : '';
+
   return `
     <div class="summary-card section-gap">
       <h2>今日總結</h2>
+      ${data.risk_line ? `
+      <div class="summary-risk-bar">
+        ${riskBadge(data.risk_line)}
+        ${riskHint ? `<span class="summary-risk-hint">${riskHint}</span>` : ''}
+        ${riskScore !== null ? `<span class="summary-risk-score">${riskScore}/8</span>` : ''}
+      </div>` : ''}
       <div class="summary-stats">
         <div class="stat-block">
           <div class="stat-label">市場偏向</div>
@@ -1786,10 +1823,7 @@ function render(data, history = {}) {
   const app = document.getElementById('app');
   app.innerHTML = `
 
-    <!-- 風險面板 -->
-    ${renderRiskPanel(data)}
-
-    <!-- 今日總結 -->
+    <!-- 今日總結（含風險燈號）-->
     ${renderDailySummary(data)}
 
     <!-- 宏觀指標列 -->
