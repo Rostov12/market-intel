@@ -1,32 +1,32 @@
 {
   "news": [
     {
-      "title": "聯準會維持利率於 3.5%-3.75% 區間，鷹派立場調升通膨預期至 2.7%",
+      "title": "Fed Maintains Rates at 3.5%-3.75%, Signals Only One Cut for 2026 Amid Sticky Inflation",
       "impact": "bearish",
-      "source": "PIMCO"
+      "source": "CBS News"
     },
     {
-      "title": "地緣政治衝突升級：卡達液化天然氣設施遭襲，布蘭特原油價格突破 112 美元",
+      "title": "Middle East Geopolitical Conflict Escalates as Iran-Israel Tensions Target Energy Infrastructure",
       "impact": "bearish",
       "source": "Saxo Bank"
     },
     {
-      "title": "美光科技 (Micron) 受惠於 AI 記憶體需求飆升，財報亮眼提振半導體類股",
-      "impact": "bullish",
-      "source": "The Economic Times"
-    },
-    {
-      "title": "避險情緒升溫：VIX 恐慌指數今日飆破 25 關卡，美債殖利率維持高檔",
+      "title": "Brent Crude Surpasses $110 per Barrel as Hormuz Strait Supply Risks Intensify",
       "impact": "bearish",
       "source": "Reuters"
     },
     {
-      "title": "聯邦快遞 (FedEx) 最新財報顯示全球貿易放緩，反映能源成本轉嫁壓力",
-      "impact": "neutral",
-      "source": "LA Times"
+      "title": "S&P 500 and Nasdaq Sink to 2026 Lows as VIX Spikes 12% on Market Uncertainty",
+      "impact": "bearish",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Defense and Energy Sectors Outperform Broad Market as Investors Hedge Against War Risks",
+      "impact": "bullish",
+      "source": "Bloomberg"
     }
   ],
   "date": "2026-03-20",
-  "fetched_at": "2026-03-20 02:31",
+  "fetched_at": "2026-03-20 04:32",
   "source": "gemini-realtime"
 }
