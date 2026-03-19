@@ -1144,12 +1144,12 @@ function renderRiskPanel(data) {
       <div class="risk-factors-section">
         <div class="risk-factors-title">風險因子明細（J段掃描）</div>
         <table class="risk-factors-table">
-          <thead><tr><th>段落</th><th>指標</th><th>本輪狀況</th><th>分數</th></tr></thead>
+          <thead><tr><th>段落</th><th>本輪狀況</th><th>分數</th></tr></thead>
           <tbody>
             ${data.risk_factors.map(f => {
               const scoreNum = parseInt((f.score || '').replace(/\D/g,'')) || 0;
               const rowClass = scoreNum >= 2 ? 'row-red' : scoreNum >= 1 ? 'row-yellow' : 'row-green';
-              return `<tr class="${rowClass}"><td>${f.segment}</td><td>${f.indicator}</td><td>${f.status}</td><td>${f.score}</td></tr>`;
+              return `<tr class="${rowClass}"><td>${f.segment}</td><td>${f.status || f.indicator || ''}</td><td>${f.score}</td></tr>`;
             }).join('')}
           </tbody>
         </table>

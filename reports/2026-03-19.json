@@ -140,5 +140,27 @@
   "risk_line": "風險燈號：黃（score=3）",
   "events": "（分析生成失敗）",
   "advice": "（分析生成失敗）",
-  "prev_review": ""
+  "prev_review": "",
+  "risk_factors": [
+    {
+      "segment": "E — 新聞信心品質",
+      "status": "優 ✅（ab_pct=100%）",
+      "score": "🟢 0"
+    },
+    {
+      "segment": "F — 品質趨勢",
+      "status": "→ 持續優 ✅",
+      "score": "🟢 0"
+    },
+    {
+      "segment": "G — 情緒向量",
+      "status": "偏多/中性 🐂（bullish 13% / bearish 7%）",
+      "score": "🟢 0"
+    },
+    {
+      "segment": "H — 多空分歧",
+      "status": "強分歧 🚨",
+      "score": "🔴 2"
+    }
+  ]
 }
