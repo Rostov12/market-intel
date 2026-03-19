@@ -404,6 +404,20 @@
     }
     .vol-spike  { background: rgba(245,158,11,0.15); color: var(--color-warn); border: 1px solid rgba(245,158,11,0.35); }
     .vol-normal { background: rgba(148,163,184,0.08); color: var(--text-muted); border: 1px solid var(--border); }
+    /* buy / watch / sell badges */
+    .action-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 1px 6px;
+      border-radius: 4px;
+      margin-left: 4px;
+      cursor: default;
+    }
+    .sig-buy   { background: rgba(16,185,129,0.18); color: #10B981; border: 1px solid rgba(16,185,129,0.4); }
+    .sig-watch { background: rgba(56,189,248,0.12); color: #38BDF8; border: 1px solid rgba(56,189,248,0.35); }
+    .sig-sell  { background: rgba(239,68,68,0.15);  color: #EF4444; border: 1px solid rgba(239,68,68,0.4); }
 
     /* ── 今日總結 ── */
     .summary-card {
@@ -994,7 +1008,23 @@ function renderIndices(indices, date) {
   `).join('');
 }
 
-function renderWatchlist(items, date) {
+function renderSignalBadge(sigArr, symbol) {
+  if (!sigArr || !sigArr.length) return '';
+  const sym = symbol.replace('-USD','').toUpperCase();
+  const s = sigArr.find(s => s.symbol === sym);
+  if (!s) return '';
+  const cfg = {
+    buy:   { cls: 'sig-buy',   label: 'BUY' },
+    watch: { cls: 'sig-watch', label: 'WATCH' },
+    sell:  { cls: 'sig-sell',  label: 'SELL' },
+  };
+  const c = cfg[s.signal_type];
+  if (!c) return '';
+  const title = s.note ? ` title="${s.note}"` : '';
+  return `<span class="action-badge ${c.cls}"${title}>${c.label}</span>`;
+}
+
+function renderWatchlist(items, date, signals) {
   return items.map(w => {
     const symbol = w.symbol.replace('-USD', '');
     const desc   = w.name.includes('（') ? w.name.split('（')[1].replace('）','') : w.name;
@@ -1003,12 +1033,13 @@ function renderWatchlist(items, date) {
     const volBadge = vr
       ? `<span class="vol-badge ${vr >= 1.5 ? 'vol-spike' : 'vol-normal'}">${vr.toFixed(1)}x</span>`
       : '';
+    const actionBadge = renderSignalBadge(signals, w.symbol);
     return `
       <div class="watchlist-item">
         <div class="wi-left">
           ${signalDot(w.signal)}
           <div style="min-width:0">
-            <div class="symbol">${symbol}${volBadge}</div>
+            <div class="symbol">${symbol}${volBadge}${actionBadge}</div>
             <div class="desc">${desc}<span class="tag">${w.category}</span></div>
           </div>
         </div>
@@ -1331,7 +1362,7 @@ function render(data, history = {}) {
     <div class="grid-2 section-gap">
       <div class="card">
         <h2>追蹤標的明細</h2>
-        ${renderWatchlist(data.watchlist || [], data.date)}
+        ${renderWatchlist(data.watchlist || [], data.date, data.signals || [])}
       </div>
       <div class="card">
         <h2>今日重大事件</h2>
