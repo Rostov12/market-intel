@@ -1,32 +1,32 @@
 {
   "news": [
     {
-      "title": "聯準會維持利率不變但立場偏鷹，暗示通膨韌性或導致升息選項保留",
+      "title": "聯準會維持利率於 3.5%-3.75% 區間，鷹派立場調升通膨預期至 2.7%",
       "impact": "bearish",
-      "source": "Federal Reserve"
+      "source": "PIMCO"
     },
     {
-      "title": "美國 10 年期公債殖利率攀升至 4.26%，引發高估值科技股拋售潮",
+      "title": "地緣政治衝突升級：卡達液化天然氣設施遭襲，布蘭特原油價格突破 112 美元",
       "impact": "bearish",
-      "source": "Bloomberg"
+      "source": "Saxo Bank"
     },
     {
-      "title": "市場避險情緒急劇升溫，VIX 波動率指數跳升至 25.09 點",
+      "title": "美光科技 (Micron) 受惠於 AI 記憶體需求飆升，財報亮眼提振半導體類股",
+      "impact": "bullish",
+      "source": "The Economic Times"
+    },
+    {
+      "title": "避險情緒升溫：VIX 恐慌指數今日飆破 25 關卡，美債殖利率維持高檔",
       "impact": "bearish",
       "source": "Reuters"
     },
     {
-      "title": "美股三大指數同步重挫逾 1%，道瓊工業指數收跌超過 750 點",
-      "impact": "bearish",
-      "source": "Wall Street Journal"
-    },
-    {
-      "title": "加密貨幣與原物料市場失守關鍵支撐，比特幣跌破 72,000 美元大關",
-      "impact": "bearish",
-      "source": "CNBC"
+      "title": "聯邦快遞 (FedEx) 最新財報顯示全球貿易放緩，反映能源成本轉嫁壓力",
+      "impact": "neutral",
+      "source": "LA Times"
     }
   ],
-  "date": "2026-03-19",
-  "fetched_at": "2026-03-19 14:00",
+  "date": "2026-03-20",
+  "fetched_at": "2026-03-20 02:31",
   "source": "gemini-realtime"
 }
