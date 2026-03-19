@@ -550,7 +550,7 @@
       cursor: default;
       transition: transform 0.15s, filter 0.15s;
     }
-    .heatmap-block:hover { transform: scale(1.04); filter: brightness(1.2); }
+    .heatmap-block:hover { transform: scale(1.04); filter: brightness(1.2); cursor: pointer; }
     .hb-symbol {
       font-size: 11px;
       font-weight: 700;
@@ -563,6 +563,95 @@
       font-size: 11px;
       font-weight: 600;
     }
+
+    /* ── 熱力圖 Tooltip ── */
+    #hb-tooltip {
+      position: fixed;
+      z-index: 9999;
+      background: #1a2235;
+      border: 1px solid #2d3f5e;
+      border-radius: 12px;
+      padding: 14px 16px;
+      min-width: 220px;
+      max-width: 280px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s;
+      font-size: 13px;
+    }
+    #hb-tooltip.visible { opacity: 1; }
+    .hbt-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+    .hbt-sym { font-size: 15px; font-weight: 700; color: #e2e8f0; }
+    .hbt-name { font-size: 11px; color: #64748b; margin-top: 2px; }
+    .hbt-price { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; }
+    .hbt-row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #1e2d47; font-size: 12px; }
+    .hbt-row:last-child { border-bottom: none; }
+    .hbt-label { color: #64748b; }
+    .hbt-val { color: #cbd5e1; font-family: 'JetBrains Mono', monospace; }
+    .hbt-signal-badge {
+      margin-top: 10px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .hbt-signal-buy    { background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); }
+    .hbt-signal-sell   { background: rgba(239,68,68,0.15);  color: #ef4444; border: 1px solid rgba(239,68,68,0.3);  }
+    .hbt-signal-watch  { background: rgba(245,158,11,0.15); color: #f59e0b; border: 1px solid rgba(245,158,11,0.3); }
+    .hbt-note { margin-top: 8px; font-size: 11px; color: #94a3b8; line-height: 1.5; }
+
+    /* ── 即時新聞區塊 ── */
+    .news-flash {
+      margin-top: 16px;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+    }
+    .news-flash-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .news-flash-title::before {
+      content: '';
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #ef4444;
+      animation: blink 1.2s ease-in-out infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+    .news-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 7px 0;
+      border-bottom: 1px solid #1e2d47;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .news-item:last-child { border-bottom: none; }
+    .news-impact {
+      flex-shrink: 0;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-top: 2px;
+    }
+    .news-impact.bearish { background: rgba(239,68,68,0.15); color: #ef4444; }
+    .news-impact.bullish { background: rgba(16,185,129,0.15); color: #10b981; }
+    .news-impact.neutral { background: rgba(100,116,139,0.2); color: #94a3b8; }
+    .news-title { color: #cbd5e1; flex: 1; }
+    .news-source { color: #475569; font-size: 10px; margin-top: 2px; }
+    .news-updated { font-size: 10px; color: #475569; text-align: right; margin-top: 6px; }
 
     /* ── B区：追蹤標的 + Sparklines ── */
     .watchlist-item {
@@ -714,6 +803,9 @@
   </style>
 </head>
 <body>
+
+<!-- Heatmap Tooltip -->
+<div id="hb-tooltip"></div>
 
 <header>
   <div class="header-left">
@@ -1077,7 +1169,7 @@ function renderWatchlist(items, date, signals, itemNotes) {
   }).join('');
 }
 
-function renderSectorHeatmap(watchlist) {
+function renderSectorHeatmap(watchlist, signals, itemNotes) {
   const sectors = [
     { name: '科技與AI',  icon: '💻', keys: ['SMH', 'AIQ', 'BOTZ'] },
     { name: '能源與核能', icon: '⚡', keys: ['URNM', 'NLR', 'CPER'] },
@@ -1085,6 +1177,9 @@ function renderSectorHeatmap(watchlist) {
   ];
   const lookup = {};
   watchlist.forEach(w => { lookup[w.symbol.replace('-USD','')] = w; });
+
+  const sigLookup = {};
+  (signals || []).forEach(s => { sigLookup[s.symbol.replace('-USD','')] = s; });
 
   return sectors.map(sector => {
     const items = sector.keys.map(k => lookup[k]).filter(Boolean);
@@ -1102,8 +1197,22 @@ function renderSectorHeatmap(watchlist) {
               ? `rgba(16,185,129,${(0.25 + abs * 0.5).toFixed(2)})`
               : `rgba(239,68,68,${(0.25 + abs * 0.5).toFixed(2)})`;
             const sym = w.symbol.replace('-USD','');
+            const sig = sigLookup[sym] || {};
+            const note = (itemNotes || {})[sym] || '';
             return `
-              <div class="heatmap-block" style="background:${bg};border-color:${border}">
+              <div class="heatmap-block"
+                style="background:${bg};border-color:${border}"
+                data-sym="${sym}"
+                data-name="${w.name || sym}"
+                data-price="${w.price || ''}"
+                data-pct="${pct}"
+                data-vol="${w.volume_ratio || ''}"
+                data-signal="${sig.signal_type || ''}"
+                data-note="${(sig.note || note || '').replace(/"/g,'&quot;')}"
+                data-cat="${w.category || sector.name}"
+                onmouseenter="showHbTooltip(event,this)"
+                onmousemove="moveHbTooltip(event)"
+                onmouseleave="hideHbTooltip()">
                 <div class="hb-symbol">${sym}</div>
                 <div class="hb-pct ${pctClass(pct)}">${fmtPct(pct)}</div>
               </div>
@@ -1113,6 +1222,83 @@ function renderSectorHeatmap(watchlist) {
       </div>
     `;
   }).join('');
+}
+
+/* ── Heatmap Tooltip 控制 ── */
+function showHbTooltip(e, el) {
+  const t   = document.getElementById('hb-tooltip');
+  const sym  = el.dataset.sym;
+  const name = el.dataset.name;
+  const price = el.dataset.price ? `$${parseFloat(el.dataset.price).toFixed(2)}` : 'N/A';
+  const pct   = parseFloat(el.dataset.pct) || 0;
+  const vol   = el.dataset.vol ? parseFloat(el.dataset.vol).toFixed(2) + 'x' : 'N/A';
+  const sig   = el.dataset.signal;
+  const note  = el.dataset.note;
+  const cat   = el.dataset.cat;
+
+  const sigLabel = { buy: '📈 建議買入', sell: '📉 建議觀望/減碼', watch: '👀 持續觀察' };
+  const sigClass = { buy: 'buy', sell: 'sell', watch: 'watch' };
+
+  t.innerHTML = `
+    <div class="hbt-header">
+      <div>
+        <div class="hbt-sym">${sym}</div>
+        <div class="hbt-name">${name}</div>
+      </div>
+      <div class="hbt-price ${pct >= 0 ? 'up' : 'down'}">${price}</div>
+    </div>
+    <div class="hbt-row">
+      <span class="hbt-label">今日漲跌</span>
+      <span class="hbt-val ${pct >= 0 ? 'up' : 'down'}">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>
+    </div>
+    <div class="hbt-row">
+      <span class="hbt-label">成交量比</span>
+      <span class="hbt-val">${vol}</span>
+    </div>
+    <div class="hbt-row">
+      <span class="hbt-label">主題板塊</span>
+      <span class="hbt-val">${cat}</span>
+    </div>
+    ${sig ? `<div class="hbt-signal-badge hbt-signal-${sigClass[sig] || 'watch'}">${sigLabel[sig] || sig}</div>` : ''}
+    ${note ? `<div class="hbt-note">${note}</div>` : ''}
+  `;
+  moveHbTooltip(e);
+  t.classList.add('visible');
+}
+function moveHbTooltip(e) {
+  const t = document.getElementById('hb-tooltip');
+  const vw = window.innerWidth, vh = window.innerHeight;
+  let x = e.clientX + 16, y = e.clientY + 16;
+  if (x + 280 > vw) x = e.clientX - 280 - 8;
+  if (y + 200 > vh) y = e.clientY - 200 - 8;
+  t.style.left = x + 'px';
+  t.style.top  = y + 'px';
+}
+function hideHbTooltip() {
+  document.getElementById('hb-tooltip').classList.remove('visible');
+}
+
+/* ── 即時新聞渲染 ── */
+function renderNewsFlash(newsData) {
+  if (!newsData || !newsData.news || !newsData.news.length) return '';
+  const impactLabel = { bearish: '空', bullish: '多', neutral: '中' };
+  const items = newsData.news.map(n => `
+    <div class="news-item">
+      <span class="news-impact ${n.impact || 'neutral'}">${impactLabel[n.impact] || '中'}</span>
+      <div>
+        <div class="news-title">${n.title}</div>
+        <div class="news-source">${n.source || ''}</div>
+      </div>
+    </div>
+  `).join('');
+  const updated = newsData.fetched_at || newsData.date || '';
+  return `
+    <div class="news-flash">
+      <div class="news-flash-title">即時新聞摘要</div>
+      ${items}
+      ${updated ? `<div class="news-updated">更新時間：${updated}</div>` : ''}
+    </div>
+  `;
 }
 
 /* ── 宏觀指標列 ── */
@@ -1379,7 +1565,7 @@ function render(data, history = {}) {
     <div class="section-gap">
       <div class="section-title" style="padding:0 2px;margin-bottom:10px">板塊熱力圖</div>
       <div class="heatmap-wrap">
-        ${renderSectorHeatmap(data.watchlist || [])}
+        ${renderSectorHeatmap(data.watchlist || [], data.signals || [], data.item_notes || {})}
       </div>
     </div>
 
@@ -1398,6 +1584,7 @@ function render(data, history = {}) {
       <div class="card">
         <h2>今日重大事件</h2>
         ${renderText(data.events)}
+        ${renderNewsFlash(window._newsData)}
       </div>
     </div>
 
@@ -1421,19 +1608,23 @@ async function main() {
 
     const data = await fetchJSON(`reports/${allDates[currentIdx]}.json`);
 
-    // 並行抓取所有 symbol 的歷史數據
+    // 並行抓取歷史數據 + 新聞
     const allSymbols = [
       ...(data.indices   || []).map(i => i.symbol),
       ...(data.watchlist || []).map(w => w.symbol),
     ];
-    await Promise.allSettled(
-      [...new Set(allSymbols)].map(async sym => {
-        const key = sym.replace('-USD', '');
-        try {
-          cachedHistory[key] = await fetchJSON(`reports/history/${key}.json`);
-        } catch { cachedHistory[key] = []; }
-      })
-    );
+    const [, newsResult] = await Promise.allSettled([
+      Promise.allSettled(
+        [...new Set(allSymbols)].map(async sym => {
+          const key = sym.replace('-USD', '');
+          try { cachedHistory[key] = await fetchJSON(`reports/history/${key}.json`); }
+          catch { cachedHistory[key] = []; }
+        })
+      ),
+      fetchJSON('news-feed.json').catch(() => null),
+    ]);
+
+    window._newsData = newsResult.status === 'fulfilled' ? newsResult.value : null;
 
     renderDateNavUI();
     render(data, cachedHistory);
