@@ -69,9 +69,9 @@ CodeX   Nova  Freya  Vera自做
 | MIT-001 | Telegram 報告推送（每日盤後） | Freya | P1 |
 | MIT-002 | ✅ 每日新聞補充（gemini-news-fetch.sh + market-close-report.py 整合） | Nova | P2 |
 | MIT-003 | 持倉整合（從 Notion 抓成本價、股數） | CodeX | P2 |
-| MIT-004 | 多日 J 段走勢圖（風險評分視覺化） | CodeX | P3 |
-| MIT-005 | Telegram 週報推送 | Freya | P2 |
-| MIT-006 | 報告品質驗證腳本 | Nova | P3 |
+| MIT-004 | ✅ 多日 J 段走勢圖（risk-trend-chart.py + SVG 嵌入 dashboard） | CodeX | P3 |
+| MIT-005 | ✅ Telegram 週報推送（market-weekly-report.py 內建，cron 週五 08:45） | Freya | P2 |
+| MIT-006 | ✅ 報告品質驗證腳本（market-report-validate.py，cron 5:10） | Nova | P3 |
 
 ---
 

@@ -7,10 +7,9 @@
     { "symbol": "^IXIC", "name": "納斯達克" }
   ],
   "macro": [
-    { "symbol": "DX=F",  "name": "DXY",   "desc": "美元指數" },
-    { "symbol": "^IRX",  "name": "US3M",  "desc": "3個月期公債殖利率" },
-    { "symbol": "^TNX",  "name": "US10Y", "desc": "10年期公債殖利率" },
-    { "symbol": "^VIX",  "name": "VIX",   "desc": "波動率指數" }
+    { "symbol": "DX=F", "name": "DXY",   "desc": "美元指數" },
+    { "symbol": "^TNX",     "name": "US10Y",  "desc": "10年期公債殖利率" },
+    { "symbol": "^VIX",     "name": "VIX",    "desc": "波動率指數" }
   ],
   "watchlist": [
     { "symbol": "URNM",    "name": "URNM（鈾礦 ETF）",      "category": "核能" },
@@ -22,6 +21,23 @@
     { "symbol": "BTC-USD", "name": "BTC",                    "category": "加密" },
     { "symbol": "ETH-USD", "name": "ETH",                    "category": "加密" },
     { "symbol": "CPER",    "name": "CPER（銅 ETF）",         "category": "原物料" }
+  ],
+  "tw_stocks": [
+    { "symbol": "2330.TW", "name": "台積電",   "sector": "半導體" },
+    { "symbol": "2454.TW", "name": "聯發科",   "sector": "半導體" },
+    { "symbol": "2382.TW", "name": "廣達",     "sector": "伺服器" },
+    { "symbol": "2308.TW", "name": "台達電",   "sector": "電源" },
+    { "symbol": "2317.TW", "name": "鴻海",     "sector": "電子代工" },
+    { "symbol": "2603.TW", "name": "長榮",     "sector": "航運" },
+    { "symbol": "2609.TW", "name": "陽明",     "sector": "航運" },
+    { "symbol": "3034.TW", "name": "聯詠",     "sector": "IC設計" },
+    { "symbol": "2379.TW", "name": "瑞昱",     "sector": "IC設計" },
+    { "symbol": "2408.TW", "name": "南亞科",   "sector": "記憶體" },
+    { "symbol": "3006.TW", "name": "晶豪科",   "sector": "記憶體" },
+    { "symbol": "6669.TW", "name": "緯穎",     "sector": "伺服器" },
+    { "symbol": "4938.TW", "name": "和碩",     "sector": "電子代工" },
+    { "symbol": "2376.TW", "name": "技嘉",     "sector": "主機板/GPU" },
+    { "symbol": "2377.TW", "name": "微星",     "sector": "主機板/GPU" }
   ],
   "thresholds": {
     "strong_up":   1.0,

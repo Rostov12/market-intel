@@ -1,32 +1,30 @@
 {
+  "date": "2026-03-19",
   "news": [
     {
-      "title": "Fed Maintains Rates at 3.5%-3.75%, Signals Only One Cut for 2026 Amid Sticky Inflation",
+      "title": "Federal Reserve Signals Higher-for-Longer Rates with Only One Cut Projected for 2026",
       "impact": "bearish",
-      "source": "CBS News"
+      "source": "Seeking Alpha"
     },
     {
-      "title": "Middle East Geopolitical Conflict Escalates as Iran-Israel Tensions Target Energy Infrastructure",
+      "title": "US Producer Price Index (PPI) Jumps 0.7% in February, Fueling Inflation Fears",
       "impact": "bearish",
-      "source": "Saxo Bank"
+      "source": "Market News"
     },
     {
-      "title": "Brent Crude Surpasses $110 per Barrel as Hormuz Strait Supply Risks Intensify",
+      "title": "Oil Prices Surge Above $115 as Middle East Conflict Intensifies",
       "impact": "bearish",
-      "source": "Reuters"
+      "source": "Morningstar"
     },
     {
-      "title": "S&P 500 and Nasdaq Sink to 2026 Lows as VIX Spikes 12% on Market Uncertainty",
+      "title": "Micron Technology Shares Fall 4% on Plans for Increased Capital Expenditure",
       "impact": "bearish",
-      "source": "MarketWatch"
+      "source": "TipRanks"
     },
     {
-      "title": "Defense and Energy Sectors Outperform Broad Market as Investors Hedge Against War Risks",
+      "title": "FedEx Beats Third-Quarter Profit Estimates Amid Cost-Cutting Measures",
       "impact": "bullish",
-      "source": "Bloomberg"
+      "source": "FedEx Investor Relations"
     }
-  ],
-  "date": "2026-03-20",
-  "fetched_at": "2026-03-20 04:32",
-  "source": "gemini-realtime"
+  ]
 }
