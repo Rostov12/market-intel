@@ -14,13 +14,14 @@
 <text x="35" y="52.0" fill="#888" font-size="10" text-anchor="end">8</text>
 <line x1="40" y1="20.0" x2="580" y2="20.0" stroke="#ffffff18" stroke-width="1"/>
 <text x="35" y="24.0" fill="#888" font-size="10" text-anchor="end">10</text>
-<polyline points="40.0,160.0 310.0,118.0 580.0,160.0" fill="none" stroke="#4a9eff" stroke-width="2" stroke-linejoin="round"/>
-<polygon points="40.0,160.0 40.0,160.0 310.0,118.0 580.0,160.0 580.0,160.0" fill="#4a9eff18"/>
+<polyline points="40.0,160.0 220.0,118.0 400.0,160.0 580.0,160.0" fill="none" stroke="#4a9eff" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="40.0,160.0 40.0,160.0 220.0,118.0 400.0,160.0 580.0,160.0 580.0,160.0" fill="#4a9eff18"/>
 <circle cx="40.0" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="310.0" cy="118.0" r="3" fill="#ffaa00"/>
+<circle cx="220.0" cy="118.0" r="3" fill="#ffaa00"/>
+<circle cx="400.0" cy="160.0" r="3" fill="#44bb44"/>
 <circle cx="580.0" cy="160.0" r="3" fill="#44bb44"/>
 <text x="40.0" y="195" fill="#666" font-size="9" text-anchor="middle">03-18</text>
-<text x="580.0" y="195" fill="#666" font-size="9" text-anchor="middle">03-20</text>
+<text x="580.0" y="195" fill="#666" font-size="9" text-anchor="middle">03-21</text>
 <text x="575.0" y="152.0" fill="#44bb44" font-size="11" text-anchor="end" font-weight="bold">score=0</text>
 <text x="40" y="14" fill="#aaa" font-size="11">風險評分 30日走勢</text>
 </svg>

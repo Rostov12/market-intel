@@ -1,0 +1,65 @@
+{
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21 04:45",
+  "composite": {
+    "score": -0.5,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
+  },
+  "spy_pcr": {
+    "source": "spy_pcr",
+    "status": "ok",
+    "expiries_used": [
+      "2026-03-20",
+      "2026-03-23",
+      "2026-03-24"
+    ],
+    "total_calls_vol": 5280337,
+    "total_puts_vol": 5213545,
+    "pcr": 0.987,
+    "label": "散戶中性",
+    "signal": "中性"
+  },
+  "wsb": {
+    "source": "reddit_wsb",
+    "status": "ok",
+    "post_count": 25,
+    "bull_words": 3,
+    "bear_words": 5,
+    "bull_pct": 38,
+    "label": "偏空情緒",
+    "top_tickers": [
+      {
+        "symbol": "ALK",
+        "count": 1
+      }
+    ],
+    "top_posts": [
+      {
+        "title": "Weekly Earnings Thread 3/23 - 3/27",
+        "score": 21,
+        "upvote_ratio": 0.7
+      },
+      {
+        "title": "Weekend Discussion Thread for the Weekend of March 20, 2026",
+        "score": 28,
+        "upvote_ratio": 0.86
+      },
+      {
+        "title": "God speed boys",
+        "score": 4133,
+        "upvote_ratio": 0.97
+      },
+      {
+        "title": "Markets bet on Fed rate hike as soon as July",
+        "score": 528,
+        "upvote_ratio": 0.97
+      },
+      {
+        "title": "I lost all my money",
+        "score": 2620,
+        "upvote_ratio": 0.96
+      }
+    ]
+  }
+}

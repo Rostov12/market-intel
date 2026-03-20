@@ -20,7 +20,12 @@
     { "symbol": "GLD",     "name": "GLD（黃金 ETF）",        "category": "避險" },
     { "symbol": "BTC-USD", "name": "BTC",                    "category": "加密" },
     { "symbol": "ETH-USD", "name": "ETH",                    "category": "加密" },
-    { "symbol": "CPER",    "name": "CPER（銅 ETF）",         "category": "原物料" }
+    { "symbol": "CPER",    "name": "CPER（銅 ETF）",         "category": "原物料" },
+    { "symbol": "XLK",     "name": "XLK（科技板塊）",        "category": "板塊輪動" },
+    { "symbol": "XLE",     "name": "XLE（能源板塊）",        "category": "板塊輪動" },
+    { "symbol": "XLF",     "name": "XLF（金融板塊）",        "category": "板塊輪動" },
+    { "symbol": "XLV",     "name": "XLV（醫療板塊）",        "category": "板塊輪動" },
+    { "symbol": "XBI",     "name": "XBI（生技板塊）",        "category": "板塊輪動" }
   ],
   "tw_stocks": [
     { "symbol": "2330.TW", "name": "台積電",   "sector": "半導體" },
