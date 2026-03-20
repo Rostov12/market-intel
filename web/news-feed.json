@@ -7,36 +7,42 @@
   },
   "news": [
     {
-      "title": "以色列總理 Netanyahu 表示暫緩對伊朗能源設施打擊，中東地緣局勢緊張情緒緩解",
+      "title": "以色列總理 Netanyahu 宣布暫緩對伊朗能源設施打擊，中東地緣局勢緊張緩解",
       "impact": "bullish",
       "source": "Investing.com",
       "category": "Geo"
     },
     {
-      "title": "聯準會主席 Powell 警告能源價格上漲可能推遲降息，市場消化高利率維持更久預期",
+      "title": "Fed 主席 Powell 警告能源價格波動可能推遲降息，市場修正高利率維持預期",
       "impact": "bearish",
       "source": "Business Insider",
       "category": "Fed"
     },
     {
-      "title": "FedEx (FDX) 盤前公布財報優於預期，每股盈餘達 $5.25 帶動物流與工業板塊",
+      "title": "FedEx (FDX) 盤前財報每股盈餘 $5.25 優於預期，帶動物流與工業板塊反彈",
       "impact": "bullish",
       "source": "Trading Economics",
       "category": "Earnings"
     },
     {
-      "title": "美 10 年期公債殖利率攀升至 4.28% 創 2025 年以來新高，施壓科技與成長股",
+      "title": "美 10 年期公債殖利率攀升至 4.28% 創 2025 年以來新高，施壓納指科技股",
       "impact": "bearish",
       "source": "Reuters",
+      "category": "Macro"
+    },
+    {
+      "title": "美司法部調查 Super Micro (SMCI) 涉嫌向中國走私晶片，股價盤前大幅下挫",
+      "impact": "bearish",
+      "source": "Reddit/WSB",
       "category": "Macro"
     }
   ],
   "key_drivers": [
-    "中東地緣政治風險階段性降溫，原油價格回落緩解通膨擔憂",
-    "Fed 主席鮑爾釋放鷹派訊號，降息預期受能源價格波動壓制",
-    "美國公債殖利率持續走高，限制了納斯達克指數的盤前漲幅"
+    "中東地緣政治風險階段性降溫，原油價格回落緩解通膨壓力",
+    "Fed 主席鮑爾釋放鷹派訊號，債券殖利率創高壓制科技股估值",
+    "SMCI 走私醜聞拖累 AI 與半導體板塊情緒"
   ],
-  "open_outlook": "預計小幅高開，受地緣局勢緩解帶動，市場試圖結束連續四週的跌勢。然而，高殖利率與 Fed 的謹慎態度將使反彈面臨阻力，預計前 30 分鐘呈現震盪走勢，關注科技股在整數關卡的支撐。",
+  "open_outlook": "預計小幅高開，受地緣局勢緩解帶動，但高殖利率與科技板塊利空（SMCI）將限制漲幅。前 30 分鐘預計呈現震盪走勢，關注 SPX 6550 支撐力道。",
   "watch_levels": {
     "spx_support": [
       6550,
@@ -48,5 +54,5 @@
     ]
   },
   "date": "2026-03-20",
-  "fetched_at": "2026-03-20 21:00"
+  "fetched_at": "2026-03-20 21:30"
 }
