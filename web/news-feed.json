@@ -2,56 +2,61 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "中東局勢驟變推升能源通膨，聯準會 3 月點陣圖暗示 2026 僅剩一次降息空間",
+      "title": "中東地緣政治衝突升級，伊朗局勢推升全球避險情緒與能源價格",
       "impact": "bearish",
       "source": "Bloomberg",
-      "category": "Fed"
-    },
-    {
-      "title": "伊朗能源設施遭襲疑雲引發油價劇震，WTI 一度突破 100 美元大關",
-      "impact": "bearish",
-      "source": "Reuters",
       "category": "Geo"
     },
     {
-      "title": "美債殖利率飆升至 4.38% 創波段新高，高估值科技股承壓出現大輪動",
-      "impact": "bearish",
-      "source": "CNBC",
-      "category": "Flows"
+      "title": "聯準會維持利率於 3.50%-3.75% 區間，鮑爾釋放鷹派暫停訊號",
+      "impact": "neutral",
+      "source": "Reuters",
+      "category": "Fed"
     },
     {
-      "title": "Oracle 與 Adobe 財報揭示 AI 變現速度未達預期，市場重新評估資本支出回報",
+      "title": "美國 2 月 PPI 意外跳升 0.7%，批發端通膨壓力引發滯脹擔憂",
       "impact": "bearish",
-      "source": "Investing.com",
+      "source": "WSJ",
+      "category": "Macro"
+    },
+    {
+      "title": "非農就業人數意外減少 9.2 萬人，勞動力市場出現疲態",
+      "impact": "bearish",
+      "source": "CNBC",
+      "category": "Macro"
+    },
+    {
+      "title": "Uber 與 Nvidia 擴大無人駕駛合作，逆勢帶動 AI 應用板塊熱度",
+      "impact": "bullish",
+      "source": "TechCrunch",
       "category": "Earnings"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派。主因地緣政治導致通膨黏性（PCE 預期上調至 2.7%），Fed 釋放 Higher for Longer 訊號並下修降息預期。",
-    "yield_10y": "4.38%（上升趨勢，單日上漲 12bps）",
-    "dxy": "99.73（週五反彈，受殖利率走強支撐）",
-    "oil_wti": "96.53",
-    "vix": "24.82（偏高，市場焦慮情緒顯著升溫）"
+    "fed_stance": "鷹派暫停；受戰爭引發的能源通膨影響，官員下修降息預期至全年僅一次。",
+    "yield_10y": "4.29%（受避險資金與通膨預期雙重影響，維持高位）",
+    "dxy": "98.5（地緣政治避險買盤推升美元走強）",
+    "oil_wti": "90.2",
+    "vix": "29.49（市場恐慌情緒顯著蔓延）"
   },
   "sector_rotation": {
     "strong": [
       "能源",
-      "基本材料",
-      "工業",
-      "羅素 2000 小盤股"
+      "國防航太",
+      "大宗商品"
     ],
     "weak": [
-      "AI 半導體",
-      "軟體服務",
-      "成長型科技股"
+      "AI半導體",
+      "高成長科技股",
+      "非必需消費"
     ]
   },
   "key_drivers": [
-    "中東衝突升級引發的能源通膨風險",
-    "美債殖利率曲線陡峭化與利率政策重新定價",
-    "資金從 AI 溢價股獲利了結，轉向防禦性及週期性資產"
+    "地緣政治戰爭（伊朗衝突）引發的能源供給焦慮",
+    "PPI 與 CPI 數據顯示通膨具有高度黏性，限縮降息空間",
+    "經濟成長放緩跡象（NFP 負成長）引發市場對滯脹的擔憂"
   ],
-  "market_tone": "市場正處於「地緣政治通膨」引發的劇烈轉型期，高殖利率與能源危機令風險資產蒙塵。",
+  "market_tone": "市場陷入『避險模式 (Risk-off)』，投資者在戰爭通膨與經濟衰退風險之間掙扎。",
   "date": "2026-03-21",
-  "fetched_at": "2026-03-21 02:00"
+  "fetched_at": "2026-03-21 03:00"
 }
