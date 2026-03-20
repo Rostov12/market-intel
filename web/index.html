@@ -420,6 +420,40 @@
     .tech-neutral{ background: rgba(148,163,184,0.08); color: var(--text-muted); border: 1px solid var(--border); }
     .tech-warn   { background: rgba(245,158,11,0.12); color: var(--color-warn); border: 1px solid rgba(245,158,11,0.3); }
 
+    /* ── Premarket Panel ── */
+    .premarket-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--color-blue);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .premarket-header {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap;
+    }
+    .pm-tone-badge {
+      font-size: 11px; font-weight: 700; padding: 2px 9px;
+      border-radius: 10px; border: 1px solid;
+    }
+    .pm-tone-bull { color: var(--color-up); border-color: var(--color-up); background: rgba(16,185,129,0.1); }
+    .pm-tone-bear { color: var(--color-down); border-color: var(--color-down); background: rgba(239,68,68,0.1); }
+    .pm-tone-neutral { color: var(--color-warn); border-color: var(--color-warn); background: rgba(245,158,11,0.1); }
+    .pm-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 8px;
+    }
+    .pm-mover {
+      background: var(--card-bg2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 10px;
+    }
+    .pm-mover-sym { font-size: 10px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+    .pm-mover-name { font-size: 11px; margin: 2px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .pm-mover-pct { font-size: 15px; font-weight: 700; font-family: 'JetBrains Mono', monospace; }
+    .pm-mover-pct.up   { color: var(--color-up); }
+    .pm-mover-pct.down { color: var(--color-down); }
+    .pm-mover-pct.flat { color: var(--text-muted); }
+
     /* buy / watch / sell badges */
     .action-badge {
       font-family: 'JetBrains Mono', monospace;
@@ -1663,6 +1697,40 @@ function hideHbTooltip() {
   document.getElementById('hb-tooltip').classList.remove('visible');
 }
 
+/* ── 盤前掃描渲染 ── */
+function renderPremarket(pm) {
+  if (!pm || !pm.movers || !pm.movers.length) return '';
+  const toneClass = pm.market_tone && pm.market_tone.includes('多') ? 'pm-tone-bull'
+                  : pm.market_tone && pm.market_tone.includes('空') ? 'pm-tone-bear'
+                  : 'pm-tone-neutral';
+  const valid = pm.movers.filter(m => m.premarket_pct !== null && m.premarket_pct !== undefined && !m.error);
+  if (!valid.length) return '';
+
+  const moversHTML = valid.map(m => {
+    const pct = m.premarket_pct;
+    const cls = pct > 0.5 ? 'up' : pct < -0.5 ? 'down' : 'flat';
+    const pctStr = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+    return `
+      <div class="pm-mover">
+        <div class="pm-mover-sym">${m.symbol}</div>
+        <div class="pm-mover-name" title="${m.name}">${m.name}</div>
+        <div class="pm-mover-pct ${cls}">${pctStr}</div>
+        ${m.premarket_time ? `<div style="font-size:9px;color:var(--text-muted)">${m.premarket_time}</div>` : ''}
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="premarket-panel section-gap" id="premarket-panel">
+      <div class="premarket-header">
+        <h2 style="font-size:14px">盤前掃描</h2>
+        <span class="pm-tone-badge ${toneClass}">${pm.market_tone || '—'}</span>
+        ${pm.summary ? `<span style="font-size:11px;color:var(--text-muted)">多${pm.summary.bullish} 空${pm.summary.bearish} 中${pm.summary.neutral}</span>` : ''}
+        <span style="font-size:10px;color:var(--text-muted);margin-left:auto">📡 ${pm.fetched_at || ''}</span>
+      </div>
+      <div class="pm-grid">${moversHTML}</div>
+    </div>`;
+}
+
 /* ── 即時新聞渲染 ── */
 function renderNewsFlash(newsData) {
   if (!newsData || !newsData.news || !newsData.news.length) return '';
@@ -2073,6 +2141,9 @@ function render(data, history = {}) {
     <!-- 宏觀指標列 -->
     ${renderMacroStrip(data.macro || [])}
 
+    <!-- 盤前掃描（台灣時間 20-21 時段顯示）-->
+    ${renderPremarket(window._premkt)}
+
     <!-- A区：情緒儀表 + AI 總結 -->
     <div class="grid-gauge section-gap">
       <div class="gauge-card">
@@ -2147,7 +2218,7 @@ async function main() {
       ...(data.indices   || []).map(i => i.symbol),
       ...(data.watchlist || []).map(w => w.symbol),
     ];
-    const [, newsResult] = await Promise.allSettled([
+    const [, newsResult, premktResult] = await Promise.allSettled([
       Promise.allSettled(
         [...new Set(allSymbols)].map(async sym => {
           const key = sym.replace('-USD', '');
@@ -2156,9 +2227,11 @@ async function main() {
         })
       ),
       fetchJSON('news-feed.json').catch(() => null),
+      fetchJSON('premarket.json').catch(() => null),
     ]);
 
     window._newsData = newsResult.status === 'fulfilled' ? newsResult.value : null;
+    window._premkt   = premktResult.status === 'fulfilled' ? premktResult.value : null;
 
     renderDateNavUI();
     render(data, cachedHistory);
