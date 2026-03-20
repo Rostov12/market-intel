@@ -1667,19 +1667,68 @@ function hideHbTooltip() {
 function renderNewsFlash(newsData) {
   if (!newsData || !newsData.news || !newsData.news.length) return '';
   const impactLabel = { bearish: '空', bullish: '多', neutral: '中' };
-  const items = newsData.news.map(n => `
+  const catColor = { Fed:'#f59e0b', Earnings:'#38bdf8', Macro:'#a78bfa', Geo:'#ef4444', Flows:'#10b981' };
+  const mode = newsData.mode || 'intraday';
+  const isPreopen = mode === 'preopen';
+
+  // 盤前專屬區塊
+  let preopenBlock = '';
+  if (isPreopen) {
+    const fut = newsData.futures || {};
+    const outlook = newsData.open_outlook || '';
+    const drivers = (newsData.key_drivers || []).map(d => `<li>${d}</li>`).join('');
+    const lvl = newsData.watch_levels || {};
+    preopenBlock = `
+      <div style="background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.25);border-radius:8px;padding:10px 12px;margin-bottom:10px">
+        <div style="font-size:11px;font-weight:700;color:#f59e0b;margin-bottom:6px">🌅 盤前快訊</div>
+        ${fut.es_change||fut.nq_change ? `<div style="font-size:11px;color:#94a3b8;margin-bottom:4px">
+          期貨：S&P ${fut.es_change||'—'} &nbsp;|&nbsp; Nasdaq ${fut.nq_change||'—'} &nbsp;|&nbsp; VIX ${fut.vix||'—'}
+        </div>` : ''}
+        ${outlook ? `<div style="font-size:11px;color:#cbd5e1;line-height:1.5;margin-bottom:4px">📐 ${outlook}</div>` : ''}
+        ${drivers ? `<ul style="font-size:11px;color:#94a3b8;margin:4px 0 0 16px;padding:0">${drivers}</ul>` : ''}
+        ${lvl.spx_support ? `<div style="font-size:10px;color:#64748b;margin-top:4px">SPX 支撐：${lvl.spx_support.join(' / ')} &nbsp; 壓力：${(lvl.spx_resist||[]).join(' / ')}</div>` : ''}
+      </div>`;
+  }
+
+  // 宏觀快照（盤中模式）
+  let macroBlock = '';
+  const snap = newsData.macro_snapshot;
+  if (!isPreopen && snap) {
+    const sr = newsData.sector_rotation || {};
+    macroBlock = `
+      <div style="background:rgba(148,163,184,0.05);border:1px solid rgba(148,163,184,0.15);border-radius:6px;padding:8px 10px;margin-bottom:8px;font-size:10px;color:#94a3b8;line-height:1.8">
+        <span style="color:#f59e0b;font-weight:700">Fed</span> ${snap.fed_stance||'—'} &nbsp;
+        <span style="color:#60a5fa">10Y</span> ${snap.yield_10y||'—'} &nbsp;
+        <span style="color:#a78bfa">DXY</span> ${snap.dxy||'—'} &nbsp;
+        <span style="color:#fb923c">WTI</span> ${snap.oil_wti||'—'} &nbsp;
+        <span style="color:#f87171">VIX</span> ${snap.vix||'—'}
+        ${sr.strong ? `<br>強勢：<span style="color:#10b981">${(sr.strong||[]).join('、')}</span> &nbsp; 弱勢：<span style="color:#ef4444">${(sr.weak||[]).join('、')}</span>` : ''}
+      </div>`;
+  }
+
+  const items = newsData.news.map(n => {
+    const cat = n.category || '';
+    const catBadge = cat ? `<span style="font-size:9px;padding:1px 4px;border-radius:3px;background:${catColor[cat]||'#374151'}22;color:${catColor[cat]||'#94a3b8'};border:1px solid ${catColor[cat]||'#374151'}44;margin-left:4px">${cat}</span>` : '';
+    return `
     <div class="news-item">
       <span class="news-impact ${n.impact || 'neutral'}">${impactLabel[n.impact] || '中'}</span>
       <div>
-        <div class="news-title">${n.title}</div>
+        <div class="news-title">${n.title}${catBadge}</div>
         <div class="news-source">${n.source || ''}</div>
       </div>
-    </div>
-  `).join('');
+    </div>`;
+  }).join('');
+
   const updated = newsData.fetched_at || newsData.date || '';
+  const modeLabel = isPreopen ? '盤前情報' : '即時新聞';
   return `
-    <div class="news-flash">
-      <div class="news-flash-title">即時新聞摘要</div>
+    <div class="news-flash" id="news-flash-container">
+      <div class="news-flash-title" style="display:flex;justify-content:space-between;align-items:center">
+        <span>${modeLabel}</span>
+        <span style="font-size:9px;color:#475569;font-weight:400" id="news-refresh-status">每10分鐘自動更新</span>
+      </div>
+      ${preopenBlock}
+      ${macroBlock}
       ${items}
       ${updated ? `<div class="news-updated">更新時間：${updated}</div>` : ''}
     </div>
@@ -2120,6 +2169,31 @@ async function main() {
 }
 
 main();
+
+// ── 新聞 Auto-Refresh（每10分鐘，只更新新聞區塊）──────────────
+async function refreshNews() {
+  try {
+    const nd = await fetchJSON('news-feed.json');
+    if (!nd || !nd.news) return;
+    window._newsData = nd;
+    // 只重繪新聞區塊，不重跑整個 render
+    const container = document.getElementById('news-flash-container');
+    if (container) {
+      const parent = container.parentElement;
+      const temp = document.createElement('div');
+      temp.innerHTML = renderNewsFlash(nd);
+      const newNode = temp.firstElementChild;
+      if (newNode) parent.replaceChild(newNode, container);
+    }
+    const statusEl = document.getElementById('news-refresh-status');
+    if (statusEl) {
+      const now = new Date().toLocaleTimeString('zh-TW', {hour:'2-digit', minute:'2-digit'});
+      statusEl.textContent = `已更新 ${now}`;
+    }
+  } catch (e) { /* 靜默失敗，不影響主頁面 */ }
+}
+// 每10分鐘刷新一次新聞（600000ms）
+setInterval(refreshNews, 600000);
 </script>
 
 <footer>
