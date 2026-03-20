@@ -2267,6 +2267,23 @@ async function refreshNews() {
 }
 // 每10分鐘刷新一次新聞（600000ms）
 setInterval(refreshNews, 600000);
+
+// ── 盤前資料 Auto-Refresh（每5分鐘）──────────────────────────────
+async function refreshPremarket() {
+  try {
+    const pm = await fetchJSON('premarket.json');
+    if (!pm || !pm.movers) return;
+    window._premkt = pm;
+    const existing = document.getElementById('premarket-panel');
+    if (existing) {
+      const temp = document.createElement('div');
+      temp.innerHTML = renderPremarket(pm);
+      const newNode = temp.firstElementChild;
+      if (newNode) existing.replaceWith(newNode);
+    }
+  } catch (e) { /* 靜默失敗 */ }
+}
+setInterval(refreshPremarket, 300000);
 </script>
 
 <footer>
