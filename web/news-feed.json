@@ -1,52 +1,52 @@
 {
   "mode": "preopen",
   "futures": {
-    "es_change": "+0.90%",
-    "nq_change": "+1.02%",
-    "vix": "25.08"
+    "es_change": "+0.2%",
+    "nq_change": "+0.0%",
+    "vix": "25.1"
   },
   "news": [
     {
-      "title": "Super Micro (SMCI) 盤前暴跌 20%，因司法部起訴員工違反出口禁令向中國銷售 AI 伺服器",
-      "impact": "bearish",
-      "source": "Reuters",
-      "category": "Earnings|Legal"
+      "title": "以色列總理 Netanyahu 表示暫緩對伊朗能源設施打擊，中東地緣局勢緊張情緒緩解",
+      "impact": "bullish",
+      "source": "Investing.com",
+      "category": "Geo"
     },
     {
-      "title": "FedEx (FDX) 財報優於預期，盤前大漲逾 9%，提振市場對經濟軟著陸信心",
+      "title": "聯準會主席 Powell 警告能源價格上漲可能推遲降息，市場消化高利率維持更久預期",
+      "impact": "bearish",
+      "source": "Business Insider",
+      "category": "Fed"
+    },
+    {
+      "title": "FedEx (FDX) 盤前公布財報優於預期，每股盈餘達 $5.25 帶動物流與工業板塊",
       "impact": "bullish",
-      "source": "Seeking Alpha",
+      "source": "Trading Economics",
       "category": "Earnings"
     },
     {
-      "title": "中東局勢顯著降溫，納坦雅胡稱正協助重開霍爾木茲海峽，國際油價大幅回落",
-      "impact": "bullish",
-      "source": "TipRanks",
-      "category": "Geo|Macro"
-    },
-    {
-      "title": "美國財政部長貝森特暗示可能放寬對伊朗原油制裁，以進一步平抑能源成本",
-      "impact": "bullish",
-      "source": "Bloomberg",
-      "category": "Macro|Geo"
+      "title": "美 10 年期公債殖利率攀升至 4.28% 創 2025 年以來新高，施壓科技與成長股",
+      "impact": "bearish",
+      "source": "Reuters",
+      "category": "Macro"
     }
   ],
   "key_drivers": [
-    "地緣政治利多：霍爾木茲海峽重新開放預期帶動避險情緒消退",
-    "能源成本回落：布蘭特原油跌至 107 美元，有助緩解通膨壓力",
-    "SMCI 負面事件：司法部調查引發 AI 族群合規性疑慮"
+    "中東地緣政治風險階段性降溫，原油價格回落緩解通膨擔憂",
+    "Fed 主席鮑爾釋放鷹派訊號，降息預期受能源價格波動壓制",
+    "美國公債殖利率持續走高，限制了納斯達克指數的盤前漲幅"
   ],
-  "open_outlook": "受地緣局勢大幅緩和刺激，預計美股跳空高開。雖 SMCI 個股重挫干擾 AI 板塊，但整體市場情緒由極度恐慌回溫。開盤後關注 10 年期美債殖利率是否持穩於 4.27% 以及 NQ 是否能消化 AI 伺服器利空並上攻 21,500 關卡。",
+  "open_outlook": "預計小幅高開，受地緣局勢緩解帶動，市場試圖結束連續四週的跌勢。然而，高殖利率與 Fed 的謹慎態度將使反彈面臨阻力，預計前 30 分鐘呈現震盪走勢，關注科技股在整數關卡的支撐。",
   "watch_levels": {
     "spx_support": [
-      6600,
-      6550
+      6550,
+      6500
     ],
     "spx_resist": [
-      6780,
-      6820
+      6620,
+      6650
     ]
   },
   "date": "2026-03-20",
-  "fetched_at": "2026-03-20 20:00"
+  "fetched_at": "2026-03-20 21:00"
 }
