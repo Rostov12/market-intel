@@ -1,11 +1,82 @@
 {
   "date": "2026-03-20",
-  "fetched_at": "2026-03-20 10:47",
+  "fetched_at": "2026-03-20 10:48",
   "market_tone": "盤前數據不足",
   "summary": {
     "bullish": 0,
     "bearish": 0,
     "neutral": 0
   },
-  "movers": []
+  "movers": [
+    {
+      "symbol": "ES=F",
+      "name": "S&P 500 期貨",
+      "error": "Item wrong length 2660 instead of 660."
+    },
+    {
+      "symbol": "NQ=F",
+      "name": "Nasdaq 期貨",
+      "error": "Item wrong length 2660 instead of 660."
+    },
+    {
+      "symbol": "YM=F",
+      "name": "道瓊期貨",
+      "error": "Item wrong length 2675 instead of 660."
+    },
+    {
+      "symbol": "^VIX",
+      "name": "VIX",
+      "error": "Item wrong length 1544 instead of 652."
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "error": "Item wrong length 1914 instead of 654."
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "error": "Item wrong length 1780 instead of 521."
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "error": "Item wrong length 1842 instead of 582."
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "error": "Item wrong length 1766 instead of 506."
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "error": "Item wrong length 1915 instead of 655."
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "error": "Item wrong length 1836 instead of 577."
+    },
+    {
+      "symbol": "SMH",
+      "name": "半導體ETF",
+      "error": "Item wrong length 1547 instead of 417."
+    },
+    {
+      "symbol": "URNM",
+      "name": "鈾礦ETF",
+      "error": "Item wrong length 1006 instead of 172."
+    },
+    {
+      "symbol": "GLD",
+      "name": "黃金ETF",
+      "error": "Item wrong length 1873 instead of 613."
+    },
+    {
+      "symbol": "BTC-USD",
+      "name": "比特幣",
+      "error": "Item wrong length 1371 instead of 271."
+    }
+  ]
 }
