@@ -2,57 +2,61 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "聯準會 3 月會議維持利率 3.50%-3.75% 不變，鮑爾暗示能源通膨可能推遲降息週期",
+      "title": "聯準會維持利率於 3.50%–3.75% 不變，上調 PCE 通膨預期至 2.7%",
       "impact": "bearish",
-      "source": "Reuters",
+      "source": "Morningstar",
       "category": "Fed"
     },
     {
-      "title": "中東局勢動盪推升 WTI 原油突破 95 美元，市場擔憂通膨黏性將長期化",
+      "title": "中東衝突升溫引發能源供應憂慮，WTI 原油一度逼近 100 美元關卡",
       "impact": "bearish",
       "source": "Bloomberg",
       "category": "Geo"
     },
     {
-      "title": "今日適逢三巫日（Triple Witching）衍生品到期，加劇市場震盪與技術性拋壓",
-      "impact": "neutral",
-      "source": "CNBC",
-      "category": "Flows"
+      "title": "10 年期美債殖利率攀升至 4.39%，創 2025 年 8 月以來新高",
+      "impact": "bearish",
+      "source": "Barchart",
+      "category": "Macro"
     },
     {
-      "title": "資金流向國際與價值板塊，防禦性標的如 KO 與 MCD 表現優於大盤",
+      "title": "AI 相關半導體股（如 Micron）在市場震盪中表現相對具韌性",
       "impact": "bullish",
-      "source": "Investing.com",
+      "source": "Reuters",
+      "category": "Earnings"
+    },
+    {
+      "title": "資金持續流入避險性公用事業與能源板塊，對沖地緣政治風險",
+      "impact": "neutral",
+      "source": "Wall Street Journal",
       "category": "Flows"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派維持。強調因中東衝突引發的能源上漲風險，2026 年降息預期縮減至 1 次。",
-    "yield_10y": "4.37%（攀升趨勢，創 2025 年 8 月以來新高）",
-    "dxy": "99.73（單日走強，反映避險資金回流）",
-    "oil_wti": "95.0",
-    "vix": "24.82（偏向恐慌，顯示市場避險情緒升溫）"
+    "fed_stance": "中性偏鷹（謹慎觀望）。因應能源價格上漲壓力，暗示利率維持高位更久（Higher for Longer）。",
+    "yield_10y": "4.38%（上升趨勢，壓抑科技股估值）",
+    "dxy": "104.2（因避險情緒與高殖利率支撐而走強）",
+    "oil_wti": "96.5",
+    "vix": "23.5（偏高，顯示市場情緒不穩定）"
   },
   "sector_rotation": {
     "strong": [
-      "防禦性板塊",
-      "民生必需品",
       "能源",
-      "價值股",
-      "小型股"
+      "公用事業",
+      "必需消費品"
     ],
     "weak": [
+      "科技成長股",
       "AI半導體",
-      "大型成長股",
-      "科技板塊"
+      "非必需消費品"
     ]
   },
   "key_drivers": [
-    "中東衝突導致能源價格飆升，推升通膨預期",
-    "聯準會轉向更長期的緊縮立場（Higher for longer）",
-    "三巫日引發的收盤前高波動率"
+    "中東地緣政治局勢緊張，威脅霍爾木茲海峽能源運輸安全",
+    "美債殖利率持續攀升，對高估值科技股產生劇烈估值壓縮",
+    "能源價格飆升引發市場對 2026 年通膨二次回升的深度憂慮"
   ],
-  "market_tone": "市場呈現明顯避險格局，資金由高估值 AI 科技股撤向價值與防禦板塊，反映能源通膨與降息延後的雙重壓力。",
-  "date": "2026-03-20",
-  "fetched_at": "2026-03-20 23:30"
+  "market_tone": "市場在地緣政治衝突與通膨復燃的雙重壓力下，呈現明顯的避險偏好與劇烈波動。",
+  "date": "2026-03-21",
+  "fetched_at": "2026-03-21 01:00"
 }
