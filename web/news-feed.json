@@ -1,30 +1,52 @@
 {
-  "date": "2026-03-19",
+  "mode": "preopen",
+  "futures": {
+    "es_change": "+0.90%",
+    "nq_change": "+1.02%",
+    "vix": "25.08"
+  },
   "news": [
     {
-      "title": "Federal Reserve Signals Higher-for-Longer Rates with Only One Cut Projected for 2026",
+      "title": "Super Micro (SMCI) 盤前暴跌 20%，因司法部起訴員工違反出口禁令向中國銷售 AI 伺服器",
       "impact": "bearish",
-      "source": "Seeking Alpha"
+      "source": "Reuters",
+      "category": "Earnings|Legal"
     },
     {
-      "title": "US Producer Price Index (PPI) Jumps 0.7% in February, Fueling Inflation Fears",
-      "impact": "bearish",
-      "source": "Market News"
-    },
-    {
-      "title": "Oil Prices Surge Above $115 as Middle East Conflict Intensifies",
-      "impact": "bearish",
-      "source": "Morningstar"
-    },
-    {
-      "title": "Micron Technology Shares Fall 4% on Plans for Increased Capital Expenditure",
-      "impact": "bearish",
-      "source": "TipRanks"
-    },
-    {
-      "title": "FedEx Beats Third-Quarter Profit Estimates Amid Cost-Cutting Measures",
+      "title": "FedEx (FDX) 財報優於預期，盤前大漲逾 9%，提振市場對經濟軟著陸信心",
       "impact": "bullish",
-      "source": "FedEx Investor Relations"
+      "source": "Seeking Alpha",
+      "category": "Earnings"
+    },
+    {
+      "title": "中東局勢顯著降溫，納坦雅胡稱正協助重開霍爾木茲海峽，國際油價大幅回落",
+      "impact": "bullish",
+      "source": "TipRanks",
+      "category": "Geo|Macro"
+    },
+    {
+      "title": "美國財政部長貝森特暗示可能放寬對伊朗原油制裁，以進一步平抑能源成本",
+      "impact": "bullish",
+      "source": "Bloomberg",
+      "category": "Macro|Geo"
     }
-  ]
+  ],
+  "key_drivers": [
+    "地緣政治利多：霍爾木茲海峽重新開放預期帶動避險情緒消退",
+    "能源成本回落：布蘭特原油跌至 107 美元，有助緩解通膨壓力",
+    "SMCI 負面事件：司法部調查引發 AI 族群合規性疑慮"
+  ],
+  "open_outlook": "受地緣局勢大幅緩和刺激，預計美股跳空高開。雖 SMCI 個股重挫干擾 AI 板塊，但整體市場情緒由極度恐慌回溫。開盤後關注 10 年期美債殖利率是否持穩於 4.27% 以及 NQ 是否能消化 AI 伺服器利空並上攻 21,500 關卡。",
+  "watch_levels": {
+    "spx_support": [
+      6600,
+      6550
+    ],
+    "spx_resist": [
+      6780,
+      6820
+    ]
+  },
+  "date": "2026-03-20",
+  "fetched_at": "2026-03-20 20:00"
 }
