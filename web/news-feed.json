@@ -2,61 +2,54 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "中東地緣政治衝突升級，伊朗局勢推升全球避險情緒與能源價格",
+      "title": "中東局勢升級，伊朗與以色列衝突及荷姆茲海峽受阻引發能源供應擔憂",
       "impact": "bearish",
-      "source": "Bloomberg",
+      "source": "Investing.com",
       "category": "Geo"
     },
     {
-      "title": "聯準會維持利率於 3.50%-3.75% 區間，鮑爾釋放鷹派暫停訊號",
-      "impact": "neutral",
-      "source": "Reuters",
+      "title": "Fed 鮑爾強調能源價格推升通膨，2026年降息空間受限，市場重新定價升息可能",
+      "impact": "bearish",
+      "source": "Barchart",
       "category": "Fed"
     },
     {
-      "title": "美國 2 月 PPI 意外跳升 0.7%，批發端通膨壓力引發滯脹擔憂",
+      "title": "SMCI 美超微因 AI 晶片走私中國指控股價重挫，拖累 AI 半導體板塊",
       "impact": "bearish",
-      "source": "WSJ",
-      "category": "Macro"
-    },
-    {
-      "title": "非農就業人數意外減少 9.2 萬人，勞動力市場出現疲態",
-      "impact": "bearish",
-      "source": "CNBC",
-      "category": "Macro"
-    },
-    {
-      "title": "Uber 與 Nvidia 擴大無人駕駛合作，逆勢帶動 AI 應用板塊熱度",
-      "impact": "bullish",
-      "source": "TechCrunch",
+      "source": "247WallSt",
       "category": "Earnings"
+    },
+    {
+      "title": "最新初請失業金人數 20.5 萬顯示勞動力市場穩健，強化利率更高更久預期",
+      "impact": "bearish",
+      "source": "Bloomberg",
+      "category": "Macro"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派暫停；受戰爭引發的能源通膨影響，官員下修降息預期至全年僅一次。",
-    "yield_10y": "4.29%（受避險資金與通膨預期雙重影響，維持高位）",
-    "dxy": "98.5（地緣政治避險買盤推升美元走強）",
-    "oil_wti": "90.2",
-    "vix": "29.49（市場恐慌情緒顯著蔓延）"
+    "fed_stance": "鷹派。鮑爾強調能源價格帶來的通膨回潮風險，維持利率 3.50%–3.75% 並大幅縮減降息預期。",
+    "yield_10y": "4.38%（上升趨勢，創 2025 年以來新高）",
+    "dxy": "99.6（走強，受益於避險資金流入與能源出口優勢）",
+    "oil_wti": "96.5",
+    "vix": "24.5（恐慌，地緣政治避險情緒顯著增加）"
   },
   "sector_rotation": {
     "strong": [
       "能源",
-      "國防航太",
-      "大宗商品"
+      "國防航太"
     ],
     "weak": [
       "AI半導體",
-      "高成長科技股",
-      "非必需消費"
+      "科技成長",
+      "房地產"
     ]
   },
   "key_drivers": [
-    "地緣政治戰爭（伊朗衝突）引發的能源供給焦慮",
-    "PPI 與 CPI 數據顯示通膨具有高度黏性，限縮降息空間",
-    "經濟成長放緩跡象（NFP 負成長）引發市場對滯脹的擔憂"
+    "地緣政治危機：中東衝突升級引發能源供給衝擊",
+    "通膨預期回升：油價飆漲導致 Fed 政策重心轉向鷹派",
+    "避險情緒：資金流向美元與能源板塊，擠壓科技股估值"
   ],
-  "market_tone": "市場陷入『避險模式 (Risk-off)』，投資者在戰爭通膨與經濟衰退風險之間掙扎。",
+  "market_tone": "市場核心受「能源衝擊與通膨回潮」主導，避險情緒升溫，科技股受債息飆升與政治風險雙重打擊。",
   "date": "2026-03-21",
-  "fetched_at": "2026-03-21 03:00"
+  "fetched_at": "2026-03-21 04:00"
 }
