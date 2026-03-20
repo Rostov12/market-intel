@@ -404,6 +404,22 @@
     }
     .vol-spike  { background: rgba(245,158,11,0.15); color: var(--color-warn); border: 1px solid rgba(245,158,11,0.35); }
     .vol-normal { background: rgba(148,163,184,0.08); color: var(--text-muted); border: 1px solid var(--border); }
+
+    /* ── 技術指標列 ── */
+    .wi-tech {
+      display: flex; gap: 4px; flex-wrap: wrap; margin-top: 3px;
+    }
+    .tech-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px; font-weight: 600;
+      padding: 1px 5px; border-radius: 3px;
+      white-space: nowrap;
+    }
+    .tech-bull   { background: rgba(16,185,129,0.12); color: #10B981; border: 1px solid rgba(16,185,129,0.3); }
+    .tech-bear   { background: rgba(239,68,68,0.12);  color: #EF4444; border: 1px solid rgba(239,68,68,0.3); }
+    .tech-neutral{ background: rgba(148,163,184,0.08); color: var(--text-muted); border: 1px solid var(--border); }
+    .tech-warn   { background: rgba(245,158,11,0.12); color: var(--color-warn); border: 1px solid rgba(245,158,11,0.3); }
+
     /* buy / watch / sell badges */
     .action-badge {
       font-family: 'JetBrains Mono', monospace;
@@ -1330,6 +1346,25 @@ function renderWatchlist(items, date, signals, itemNotes) {
       : '';
     const actionBadge = renderSignalBadge(signals, w.symbol);
     const note = (itemNotes || {})[symbol] || '';
+
+    // 技術指標 badges
+    function techClass(val, bullish, bearish) {
+      if (!val) return 'tech-neutral';
+      if (val === bullish) return 'tech-bull';
+      if (val === bearish) return 'tech-bear';
+      return 'tech-neutral';
+    }
+    const trendBadge = w.trend
+      ? `<span class="tech-badge ${techClass(w.trend,'多頭','空頭')}">${w.trend}</span>` : '';
+    const macdBadge  = w.macd_signal
+      ? `<span class="tech-badge ${w.macd_signal.includes('金叉') ? 'tech-bull' : w.macd_signal.includes('死叉') ? 'tech-bear' : w.macd_signal==='多頭' ? 'tech-bull' : 'tech-bear'}">MACD ${w.macd_signal}</span>` : '';
+    const rsiBadge   = w.rsi_12 != null
+      ? `<span class="tech-badge ${w.rsi_status && w.rsi_status.includes('超賣') ? 'tech-bull' : w.rsi_status && w.rsi_status.includes('超買') ? 'tech-warn' : 'tech-neutral'}">RSI ${w.rsi_12}</span>` : '';
+    const biasBadge  = w.bias_ma5 != null
+      ? `<span class="tech-badge tech-neutral">乖離${w.bias_ma5>0?'+':''}${w.bias_ma5.toFixed(1)}%</span>` : '';
+    const techRow = (trendBadge || macdBadge || rsiBadge || biasBadge)
+      ? `<div class="wi-tech">${trendBadge}${macdBadge}${rsiBadge}${biasBadge}</div>` : '';
+
     return `
       <div class="watchlist-item">
         <div class="wi-left">
@@ -1338,6 +1373,7 @@ function renderWatchlist(items, date, signals, itemNotes) {
             <div class="symbol">${symbol}${volBadge}${actionBadge}</div>
             <div class="desc">${desc}<span class="tag">${w.category}</span></div>
             ${note ? `<div class="wi-note" title="${note}">${note}</div>` : ''}
+            ${techRow}
           </div>
         </div>
         <div class="wi-spark" id="${safeId}"></div>
