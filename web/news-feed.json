@@ -1,58 +1,58 @@
 {
-  "mode": "preopen",
-  "futures": {
-    "es_change": "+0.2%",
-    "nq_change": "+0.0%",
-    "vix": "25.1"
-  },
+  "mode": "intraday",
   "news": [
     {
-      "title": "以色列總理 Netanyahu 宣布暫緩對伊朗能源設施打擊，中東地緣局勢緊張緩解",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "category": "Geo"
-    },
-    {
-      "title": "Fed 主席 Powell 警告能源價格波動可能推遲降息，市場修正高利率維持預期",
+      "title": "聯準會 3 月會議維持利率 3.50%-3.75% 不變，鮑爾暗示能源通膨可能推遲降息週期",
       "impact": "bearish",
-      "source": "Business Insider",
+      "source": "Reuters",
       "category": "Fed"
     },
     {
-      "title": "FedEx (FDX) 盤前財報每股盈餘 $5.25 優於預期，帶動物流與工業板塊反彈",
+      "title": "中東局勢動盪推升 WTI 原油突破 95 美元，市場擔憂通膨黏性將長期化",
+      "impact": "bearish",
+      "source": "Bloomberg",
+      "category": "Geo"
+    },
+    {
+      "title": "今日適逢三巫日（Triple Witching）衍生品到期，加劇市場震盪與技術性拋壓",
+      "impact": "neutral",
+      "source": "CNBC",
+      "category": "Flows"
+    },
+    {
+      "title": "資金流向國際與價值板塊，防禦性標的如 KO 與 MCD 表現優於大盤",
       "impact": "bullish",
-      "source": "Trading Economics",
-      "category": "Earnings"
-    },
-    {
-      "title": "美 10 年期公債殖利率攀升至 4.28% 創 2025 年以來新高，施壓納指科技股",
-      "impact": "bearish",
-      "source": "Reuters",
-      "category": "Macro"
-    },
-    {
-      "title": "美司法部調查 Super Micro (SMCI) 涉嫌向中國走私晶片，股價盤前大幅下挫",
-      "impact": "bearish",
-      "source": "Reddit/WSB",
-      "category": "Macro"
+      "source": "Investing.com",
+      "category": "Flows"
     }
   ],
-  "key_drivers": [
-    "中東地緣政治風險階段性降溫，原油價格回落緩解通膨壓力",
-    "Fed 主席鮑爾釋放鷹派訊號，債券殖利率創高壓制科技股估值",
-    "SMCI 走私醜聞拖累 AI 與半導體板塊情緒"
-  ],
-  "open_outlook": "預計小幅高開，受地緣局勢緩解帶動，但高殖利率與科技板塊利空（SMCI）將限制漲幅。前 30 分鐘預計呈現震盪走勢，關注 SPX 6550 支撐力道。",
-  "watch_levels": {
-    "spx_support": [
-      6550,
-      6500
+  "macro_snapshot": {
+    "fed_stance": "鷹派維持。強調因中東衝突引發的能源上漲風險，2026 年降息預期縮減至 1 次。",
+    "yield_10y": "4.37%（攀升趨勢，創 2025 年 8 月以來新高）",
+    "dxy": "99.73（單日走強，反映避險資金回流）",
+    "oil_wti": "95.0",
+    "vix": "24.82（偏向恐慌，顯示市場避險情緒升溫）"
+  },
+  "sector_rotation": {
+    "strong": [
+      "防禦性板塊",
+      "民生必需品",
+      "能源",
+      "價值股",
+      "小型股"
     ],
-    "spx_resist": [
-      6620,
-      6650
+    "weak": [
+      "AI半導體",
+      "大型成長股",
+      "科技板塊"
     ]
   },
+  "key_drivers": [
+    "中東衝突導致能源價格飆升，推升通膨預期",
+    "聯準會轉向更長期的緊縮立場（Higher for longer）",
+    "三巫日引發的收盤前高波動率"
+  ],
+  "market_tone": "市場呈現明顯避險格局，資金由高估值 AI 科技股撤向價值與防禦板塊，反映能源通膨與降息延後的雙重壓力。",
   "date": "2026-03-20",
-  "fetched_at": "2026-03-20 21:30"
+  "fetched_at": "2026-03-20 23:30"
 }
