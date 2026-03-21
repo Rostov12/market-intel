@@ -27,6 +27,9 @@ jobs:
           mkdir -p _site/reports _site/config
           cp web/index.html _site/index.html
           [ -f web/risk-trend.svg ] && cp web/risk-trend.svg _site/risk-trend.svg || true
+          for f in news-feed.json sentiment.json institutional.json channel-stats.json; do
+            [ -f "web/$f" ] && cp "web/$f" "_site/$f" || true
+          done
           cp -r reports/. _site/reports/
           cp -r config/. _site/config/
 
