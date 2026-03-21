@@ -1889,6 +1889,40 @@ function switchTab(tab, btn) {
   if (btn) btn.classList.add('active');
 }
 
+/* ── 經濟日曆 ── */
+function renderEconCalendar(cal) {
+  if (!cal || (!cal.next_fomc && (!cal.next_7_days || cal.next_7_days.length === 0))) return '';
+
+  const importanceColor = { high: '#EF4444', medium: '#F59E0B', low: '#94A3B8' };
+
+  const fomcHTML = cal.next_fomc ? `
+    <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border)">
+      <span style="font-size:14px">🏦</span>
+      <span style="font-size:12px;color:var(--text-main)">${cal.next_fomc.label}</span>
+    </div>` : '';
+
+  const eventsHTML = (cal.next_14_days || []).map(e => {
+    const color = importanceColor[e.importance] || '#94A3B8';
+    const badge = e.days_away <= 7
+      ? `<span style="background:${color}22;color:${color};border:1px solid ${color}44;border-radius:4px;padding:1px 5px;font-size:9px;font-weight:700">${e.days_away}天後</span>`
+      : `<span style="color:var(--text-muted);font-size:10px">${e.days_away}天後</span>`;
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--border)22">
+      <span style="font-size:12px">${e.event}</span>
+      <div style="display:flex;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text-muted)">${e.date}</span>
+        ${badge}
+      </div>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card section-gap">
+    <h2>📅 經濟日曆（未來 14 天）</h2>
+    ${fomcHTML}
+    ${eventsHTML || '<div style="font-size:12px;color:var(--text-muted);padding:8px 0">未來 14 天無重大數據</div>'}
+  </div>`;
+}
+
 /* ── 台股今日漲跌榜 ── */
 function renderTWSummary(twStocks) {
   if (!twStocks || twStocks.length === 0) return '';
@@ -2538,6 +2572,9 @@ function render(data, history = {}) {
         <h2>J 段風險評分 — 30 日走勢</h2>
         <div id="risk-trend-chart" style="width:100%;overflow-x:auto"></div>
       </div>
+
+      <!-- 經濟日曆 -->
+      ${renderEconCalendar(data.econ_calendar)}
 
       <!-- B区：今日重大事件 + 即時新聞（全寬）-->
       <div class="section-gap">
