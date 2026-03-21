@@ -2547,7 +2547,7 @@ async function loadRiskTrendSVG() {
   const el   = document.getElementById('risk-trend-chart');
   if (!wrap || !el) return;
   try {
-    const resp = await fetch('web/risk-trend.svg?' + Date.now());
+    const resp = await fetch('risk-trend.svg?' + Date.now());
     if (!resp.ok) return;
     const svg = await resp.text();
     el.innerHTML = svg;

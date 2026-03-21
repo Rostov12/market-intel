@@ -26,6 +26,7 @@ jobs:
         run: |
           mkdir -p _site/reports _site/config
           cp web/index.html _site/index.html
+          [ -f web/risk-trend.svg ] && cp web/risk-trend.svg _site/risk-trend.svg || true
           cp -r reports/. _site/reports/
           cp -r config/. _site/config/
 
