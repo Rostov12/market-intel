@@ -728,6 +728,41 @@
       "signal": "🟡"
     }
   ],
+  "econ_calendar": {
+    "next_fomc": {
+      "date": "2026-05-07",
+      "days_away": 48,
+      "label": "下次 FOMC：05/07（48天後）"
+    },
+    "next_7_days": [
+      {
+        "date": "2026-03-27",
+        "event": "PCE（2月）",
+        "importance": "high",
+        "source": "BEA",
+        "days_away": 7,
+        "label": "🔴 PCE（2月）（7天後）"
+      }
+    ],
+    "next_14_days": [
+      {
+        "date": "2026-03-27",
+        "event": "PCE（2月）",
+        "importance": "high",
+        "source": "BEA",
+        "days_away": 7,
+        "label": "🔴 PCE（2月）（7天後）"
+      },
+      {
+        "date": "2026-04-03",
+        "event": "NFP（3月就業）",
+        "importance": "high",
+        "source": "BLS",
+        "days_away": 14,
+        "label": "🔴 NFP（3月就業）（14天後）"
+      }
+    ]
+  },
   "risk_factors": [
     {
       "segment": "E — 新聞信心品質",
