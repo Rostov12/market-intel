@@ -1068,6 +1068,80 @@
     .tw-sum-item  { display: flex; gap: 4px; }
     .tw-sum-val   { font-weight: 600; color: var(--text-main); }
 
+    /* ── Tab Navigation ── */
+    .tab-nav {
+      display: flex;
+      gap: 4px;
+      padding: 0 2px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab-btn {
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+      margin-bottom: -1px;
+      letter-spacing: 0.02em;
+    }
+    .tab-btn:hover { color: var(--text-main); }
+    .tab-btn.active {
+      color: var(--color-ai);
+      border-bottom-color: var(--color-ai);
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    /* ── 台股個股熱力圖 ── */
+    .tw-heatmap-wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 768px) {
+      .tw-heatmap-wrap { grid-template-columns: 1fr 1fr; }
+    }
+    .tw-heatmap-sector {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+    .tw-heatmap-sector-title {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .tw-stock-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .tw-stock-block {
+      border-radius: 8px;
+      border: 1px solid transparent;
+      padding: 8px 10px;
+      cursor: pointer;
+      transition: transform 0.15s, filter 0.15s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .tw-stock-block:hover { transform: scale(1.02); filter: brightness(1.15); }
+    .tw-stock-name { font-size: 12px; font-weight: 600; color: #fff; }
+    .tw-stock-sym  { font-size: 10px; color: rgba(255,255,255,0.6); }
+    .tw-stock-right { text-align: right; }
+    .tw-stock-price { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #fff; }
+    .tw-stock-pct   { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; }
+
     /* ── Loading / Error ── */
     .loading { text-align: center; padding: 80px; color: var(--text-muted); font-size: 15px; }
     .error   { text-align: center; padding: 60px; color: var(--color-down); }
@@ -1101,6 +1175,10 @@
 
 <div class="container">
   <div id="date-nav"></div>
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="switchTab('us', this)">🇺🇸 美股總經</button>
+    <button class="tab-btn" onclick="switchTab('tw', this)">🇹🇼 台股</button>
+  </div>
   <div id="app">
     <div class="loading">⏳ 載入市場數據中...</div>
   </div>
@@ -1802,6 +1880,88 @@ function renderSentimentStrip(sent) {
     </div>`;
 }
 
+/* ── Tab 切換 ── */
+function switchTab(tab, btn) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  const target = document.getElementById('tab-' + tab);
+  if (target) target.classList.add('active');
+  if (btn) btn.classList.add('active');
+}
+
+/* ── 台股個股熱力圖 ── */
+function renderTWStocksHeatmap(twStocks) {
+  if (!twStocks || twStocks.length === 0) {
+    return '<div style="color:var(--text-muted);padding:20px;text-align:center">（台股個股資料載入中，明日報告生成後顯示）</div>';
+  }
+
+  // 依 sector 分組
+  const sectorMap = {};
+  twStocks.forEach(s => {
+    const sec = s.sector || '其他';
+    if (!sectorMap[sec]) sectorMap[sec] = [];
+    sectorMap[sec].push(s);
+  });
+
+  const THRESHOLDS = { strong_up: 1.0, neutral_up: 0.0, neutral_down: -1.0 };
+
+  function heatBg(pct) {
+    if (pct === null || pct === undefined) return ['#1A2235', '#2A354D'];
+    if (pct >= 2.0)  return ['rgba(16,185,129,0.45)', 'rgba(16,185,129,0.8)'];
+    if (pct >= THRESHOLDS.strong_up) return ['rgba(16,185,129,0.25)', 'rgba(16,185,129,0.5)'];
+    if (pct >= THRESHOLDS.neutral_up) return ['rgba(148,163,184,0.15)', 'rgba(148,163,184,0.3)'];
+    if (pct >= THRESHOLDS.neutral_down) return ['rgba(239,68,68,0.15)', 'rgba(239,68,68,0.35)'];
+    if (pct >= -2.0) return ['rgba(239,68,68,0.25)', 'rgba(239,68,68,0.55)'];
+    return ['rgba(239,68,68,0.40)', 'rgba(239,68,68,0.75)'];
+  }
+
+  return Object.entries(sectorMap).map(([sector, stocks]) => {
+    const blocksHTML = stocks.map(s => {
+      const pct   = s.change_pct;
+      const price = s.price;
+      const sym   = s.symbol.replace('.TW', '');
+      const [bg, border] = heatBg(pct);
+      const pctStr  = pct !== null && pct !== undefined ? `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%` : 'N/A';
+      const pctCls  = pct >= 0 ? 'up' : 'down';
+      const priceStr = price !== null && price !== undefined ? price.toLocaleString('zh-TW') : 'N/A';
+      const volRatio = s.volume_ratio || null;
+      const trend    = s.trend || '';
+      const rsi12    = s.rsi_12 || '';
+
+      return `
+        <div class="tw-stock-block"
+          style="background:${bg};border-color:${border}"
+          data-sym="${sym}"
+          data-name="${s.name}"
+          data-price="${price !== null ? price : ''}"
+          data-pct="${pct !== null ? pct : 0}"
+          data-vol="${volRatio !== null ? volRatio : ''}"
+          data-cat="${sector}"
+          data-desc="${sector} · ${trend}"
+          data-signal="${pct >= 1 ? 'buy' : pct <= -1 ? 'sell' : 'watch'}"
+          data-note="RSI(12)=${rsi12 || 'N/A'} 趨勢=${trend || 'N/A'}"
+          onmouseenter="showHbTooltip(event,this)"
+          onmousemove="moveHbTooltip(event)"
+          onmouseleave="hideHbTooltip()">
+          <div>
+            <div class="tw-stock-name">${s.name}</div>
+            <div class="tw-stock-sym">${sym}</div>
+          </div>
+          <div class="tw-stock-right">
+            <div class="tw-stock-price">${priceStr}</div>
+            <div class="tw-stock-pct ${pctCls}">${pctStr}</div>
+          </div>
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="tw-heatmap-sector">
+        <div class="tw-heatmap-sector-title">${sector}</div>
+        <div class="tw-stock-grid">${blocksHTML}</div>
+      </div>`;
+  }).join('');
+}
+
 /* ── 台股三大法人 ── */
 function renderInstitutional(inst) {
   if (!inst) return '';
@@ -2283,71 +2443,87 @@ function render(data, history = {}) {
   const app = document.getElementById('app');
   app.innerHTML = `
 
-    <!-- 今日總結（含風險燈號）-->
-    ${renderDailySummary(data)}
+    <!-- ── Tab 1: 美股總經 ── -->
+    <div id="tab-us" class="tab-content active">
 
-    <!-- 宏觀指標列 -->
-    ${renderMacroStrip(data.macro || [])}
+      <!-- 今日總結（含風險燈號）-->
+      ${renderDailySummary(data)}
 
-    <!-- 盤前掃描（台灣時間 20-21 時段顯示）-->
-    ${renderPremarket(window._premkt)}
+      <!-- 宏觀指標列 -->
+      ${renderMacroStrip(data.macro || [])}
 
-    <!-- 散戶情緒指標 (SPY PCR + WSB) -->
-    ${renderSentimentStrip(window._sentData)}
+      <!-- 盤前掃描（台灣時間 20-21 時段顯示）-->
+      ${renderPremarket(window._premkt)}
 
-    <!-- A区：情緒儀表 + AI 總結 -->
-    <div class="grid-gauge section-gap">
-      <div class="gauge-card">
-        <h2>市場情緒</h2>
-        <div id="sentiment-gauge"></div>
-        <div class="gauge-legend"><span>恐慌</span><span>貪婪</span></div>
-        <div id="gauge-source" style="font-size:10px;color:var(--text-muted);margin-top:4px;text-align:center"></div>
-      </div>
-      <div class="ai-hero" style="margin-bottom:0">
-        <div class="ai-hero-label">
-          <span class="ai-dot"></span>
-          AI 盤後總結
+      <!-- 散戶情緒指標 (SPY PCR + WSB) -->
+      ${renderSentimentStrip(window._sentData)}
+
+      <!-- A区：情緒儀表 + AI 總結 -->
+      <div class="grid-gauge section-gap">
+        <div class="gauge-card">
+          <h2>市場情緒</h2>
+          <div id="sentiment-gauge"></div>
+          <div class="gauge-legend"><span>恐慌</span><span>貪婪</span></div>
+          <div id="gauge-source" style="font-size:10px;color:var(--text-muted);margin-top:4px;text-align:center"></div>
         </div>
-        ${data.market_title ? `<div class="ai-market-title">${data.market_title.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>` : ''}
-        <div class="ai-summary-text">${(data.advice || '（暫無分析）').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
+        <div class="ai-hero" style="margin-bottom:0">
+          <div class="ai-hero-label">
+            <span class="ai-dot"></span>
+            AI 盤後總結
+          </div>
+          ${data.market_title ? `<div class="ai-market-title">${data.market_title.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>` : ''}
+          <div class="ai-summary-text">${(data.advice || '（暫無分析）').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
+        </div>
       </div>
-    </div>
 
-    <!-- 三大指數（含 sparklines）-->
-    <div class="grid-3 section-gap">
-      ${renderIndices(data.indices || [], data.date)}
-    </div>
-
-    <!-- C区：板塊熱力圖 -->
-    <div class="section-gap">
-      <div class="section-title" style="padding:0 2px;margin-bottom:10px">板塊熱力圖</div>
-      <div class="heatmap-wrap">
-        ${renderSectorHeatmap(data.watchlist || [], data.signals || [], data.item_notes || {})}
+      <!-- 三大指數（含 sparklines）-->
+      <div class="grid-3 section-gap">
+        ${renderIndices(data.indices || [], data.date)}
       </div>
-    </div>
 
-    <!-- D区：30天走勢對比 -->
-    <div class="trend-card section-gap">
-      <h2>30 日走勢對比（相對起點 %）</h2>
-      <div id="trend-chart"></div>
-    </div>
-
-    <!-- 台股均線操盤框架 -->
-    ${renderTWMAPanel(data.tw_ma)}
-
-    <!-- 台股三大法人 -->
-    ${renderInstitutional(window._instData)}
-
-    <!-- B区：今日重大事件 + 即時新聞（全寬）-->
-    <div class="section-gap">
-      <div class="card">
-        <h2>今日重大事件</h2>
-        ${renderText(data.events)}
-        ${renderNewsFlash(window._newsData)}
+      <!-- C区：板塊熱力圖 -->
+      <div class="section-gap">
+        <div class="section-title" style="padding:0 2px;margin-bottom:10px">板塊熱力圖</div>
+        <div class="heatmap-wrap">
+          ${renderSectorHeatmap(data.watchlist || [], data.signals || [], data.item_notes || {})}
+        </div>
       </div>
-    </div>
 
-    <!-- CTA placeholder removed -->
+      <!-- D区：30天走勢對比 -->
+      <div class="trend-card section-gap">
+        <h2>30 日走勢對比（相對起點 %）</h2>
+        <div id="trend-chart"></div>
+      </div>
+
+      <!-- B区：今日重大事件 + 即時新聞（全寬）-->
+      <div class="section-gap">
+        <div class="card">
+          <h2>今日重大事件</h2>
+          ${renderText(data.events)}
+          ${renderNewsFlash(window._newsData)}
+        </div>
+      </div>
+
+    </div><!-- /tab-us -->
+
+    <!-- ── Tab 2: 台股 ── -->
+    <div id="tab-tw" class="tab-content">
+
+      <!-- 台股個股熱力圖 -->
+      <div class="section-gap">
+        <div class="section-title" style="padding:0 2px;margin-bottom:10px">台股個股</div>
+        <div class="tw-heatmap-wrap">
+          ${renderTWStocksHeatmap(data.tw_stocks || [])}
+        </div>
+      </div>
+
+      <!-- 台股均線操盤框架 -->
+      ${renderTWMAPanel(data.tw_ma)}
+
+      <!-- 台股三大法人 -->
+      ${renderInstitutional(window._instData)}
+
+    </div><!-- /tab-tw -->
   `;
 
   // DOM 就緒後初始化所有圖表
