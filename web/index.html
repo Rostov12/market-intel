@@ -1919,7 +1919,8 @@ function renderTWStocksHeatmap(twStocks) {
     const blocksHTML = stocks.map(s => {
       const pct   = s.change_pct;
       const price = s.price;
-      const sym   = s.symbol.replace('.TW', '');
+      const sym   = s.symbol; // 保留 .TW 以對應 history key
+      const symDisplay = s.symbol.replace('.TW', '');
       const [bg, border] = heatBg(pct);
       const pctStr  = pct !== null && pct !== undefined ? `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%` : 'N/A';
       const pctCls  = pct >= 0 ? 'up' : 'down';
@@ -1945,7 +1946,7 @@ function renderTWStocksHeatmap(twStocks) {
           onmouseleave="hideHbTooltip()">
           <div>
             <div class="tw-stock-name">${s.name}</div>
-            <div class="tw-stock-sym">${sym}</div>
+            <div class="tw-stock-sym">${symDisplay}</div>
           </div>
           <div class="tw-stock-right">
             <div class="tw-stock-price">${priceStr}</div>
@@ -2547,6 +2548,7 @@ async function main() {
     const allSymbols = [
       ...(data.indices   || []).map(i => i.symbol),
       ...(data.watchlist || []).map(w => w.symbol),
+      ...(data.tw_stocks || []).map(s => s.symbol),
     ];
     const [, newsResult, premktResult, sentResult, instResult] = await Promise.allSettled([
       Promise.allSettled(
