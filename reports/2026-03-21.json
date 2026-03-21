@@ -528,7 +528,7 @@
       "signal": "🔴"
     }
   ],
-  "risk_line": "風險燈號：綠（score=0）",
+  "risk_line": "風險燈號：紅（score=6）",
   "events": "1️⃣ 油價推升通膨預期：油價續漲打擊降息預期，風險資產全面承壓。\n2️⃣ 殖利率上行壓估值：US10Y 升至4.39%，半導體與AI股估值遭下修。\n3️⃣ 恐慌快速升溫：VIX 飆至26.78、恐懼貪婪15，市場轉向防守。\n4️⃣ 經濟日曆校正：下次FOMC為4/28-4/29，並非5/7。\n5️⃣ 數據發布校正：3月NFP為4/3，2月PCE為4/9。",
   "advice": "💰 建議現金比例：60%（VIX高檔、殖利率走升，且PCE/NFP前不宜重押成長股）\n📌 整體策略：DXY資料缺口下，先看US10Y 4.39與VIX 26.78主導，短線防守優先。\n• 科技/AI：SMH、AIQ續弱，反彈先減碼\n• 核能/原物料：URNM、NLR超賣，等止穩\n• 避險資產：GLD爆量下跌，暫不急接\n• 加密貨幣：BTC較強，ETH偏跟隨，小倉\n• 板塊輪動：最強XLE；最弱XLK/SMH",
   "prev_review": "前日偏觀望建議正確，科技與高波動資產續受殖利率與恐慌壓制。",
@@ -591,6 +591,143 @@
     "ETH": "跟漲力略弱",
     "CPER": "銅價映景氣憂慮"
   },
+  "tw_stocks": [
+    {
+      "symbol": "2330.TW",
+      "name": "台積電",
+      "sector": "半導體",
+      "price": 1840.0,
+      "change_pct": -0.54,
+      "volume_ratio": 1.82,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "2454.TW",
+      "name": "聯發科",
+      "sector": "半導體",
+      "price": 1700.0,
+      "change_pct": 1.19,
+      "volume_ratio": 1.51,
+      "signal": "🟢"
+    },
+    {
+      "symbol": "2382.TW",
+      "name": "廣達",
+      "sector": "伺服器",
+      "price": 283.5,
+      "change_pct": -1.05,
+      "volume_ratio": 0.94,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "2308.TW",
+      "name": "台達電",
+      "sector": "電源",
+      "price": 1475.0,
+      "change_pct": 1.37,
+      "volume_ratio": 1.68,
+      "signal": "🟢"
+    },
+    {
+      "symbol": "2317.TW",
+      "name": "鴻海",
+      "sector": "電子代工",
+      "price": 203.0,
+      "change_pct": -0.98,
+      "volume_ratio": 1.23,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "2603.TW",
+      "name": "長榮",
+      "sector": "航運",
+      "price": 214.0,
+      "change_pct": -1.61,
+      "volume_ratio": 1.18,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "2609.TW",
+      "name": "陽明",
+      "sector": "航運",
+      "price": 56.1,
+      "change_pct": -0.71,
+      "volume_ratio": 1.72,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "3034.TW",
+      "name": "聯詠",
+      "sector": "IC設計",
+      "price": 385.0,
+      "change_pct": 3.08,
+      "volume_ratio": 5.25,
+      "signal": "🟢"
+    },
+    {
+      "symbol": "2379.TW",
+      "name": "瑞昱",
+      "sector": "IC設計",
+      "price": 479.5,
+      "change_pct": 0.63,
+      "volume_ratio": 5.73,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "2408.TW",
+      "name": "南亞科",
+      "sector": "記憶體",
+      "price": 234.0,
+      "change_pct": -10.0,
+      "volume_ratio": 1.57,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "3006.TW",
+      "name": "晶豪科",
+      "sector": "記憶體",
+      "price": 195.5,
+      "change_pct": -9.91,
+      "volume_ratio": 0.29,
+      "signal": "🔴"
+    },
+    {
+      "symbol": "6669.TW",
+      "name": "緯穎",
+      "sector": "伺服器",
+      "price": 3805.0,
+      "change_pct": 1.06,
+      "volume_ratio": 0.66,
+      "signal": "🟢"
+    },
+    {
+      "symbol": "4938.TW",
+      "name": "和碩",
+      "sector": "電子代工",
+      "price": 77.0,
+      "change_pct": -0.39,
+      "volume_ratio": 0.78,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "2376.TW",
+      "name": "技嘉",
+      "sector": "主機板/GPU",
+      "price": 248.5,
+      "change_pct": 0.4,
+      "volume_ratio": 0.77,
+      "signal": "🟡"
+    },
+    {
+      "symbol": "2377.TW",
+      "name": "微星",
+      "sector": "主機板/GPU",
+      "price": 93.5,
+      "change_pct": -0.85,
+      "volume_ratio": 0.61,
+      "signal": "🟡"
+    }
+  ],
   "risk_factors": [
     {
       "segment": "E — 新聞信心品質",
@@ -604,7 +741,7 @@
     },
     {
       "segment": "G — 情緒向量",
-      "status": "偏多/中性 🐂（bullish 35% / bearish 5%）",
+      "status": "偏多/中性 🐂（bullish 29% / bearish 4%）",
       "score": "🟢 0"
     },
     {
