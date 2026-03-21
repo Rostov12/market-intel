@@ -1902,11 +1902,22 @@ function renderSentimentStrip(sent) {
 }
 
 /* ── Tab 切換 ── */
+let _activeTab = 'us';
 function switchTab(tab, btn) {
+  _activeTab = tab;
   document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
   const target = document.getElementById('tab-' + tab);
   if (target) target.classList.add('active');
+  if (btn) btn.classList.add('active');
+}
+function restoreTab() {
+  const target = document.getElementById('tab-' + _activeTab);
+  if (!target) return;
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  target.classList.add('active');
+  const btn = document.querySelector(`.tab-btn[onclick*="'${_activeTab}'"]`);
   if (btn) btn.classList.add('active');
 }
 
@@ -2677,8 +2688,9 @@ function render(data, history = {}) {
     </div><!-- /tab-tw -->
   `;
 
-  // DOM 就緒後初始化所有圖表
+  // DOM 就緒後初始化所有圖表，並還原 tab 狀態
   requestAnimationFrame(() => {
+    restoreTab();
     initCharts(data, history);
     initTrendChart(history);
     loadRiskTrendSVG();
