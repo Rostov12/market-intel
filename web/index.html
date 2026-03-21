@@ -1594,6 +1594,9 @@ function renderSectorHeatmap(watchlist, signals, itemNotes) {
                 data-signal="${sig.signal_type || ''}"
                 data-note="${note.replace(/"/g,'&quot;')}"
                 data-cat="${w.category || sector.name}"
+                data-w52pos="${w.w52_pos !== null && w.w52_pos !== undefined ? w.w52_pos : ''}"
+                data-w52high="${w.w52_high || ''}"
+                data-w52low="${w.w52_low || ''}"
                 onmouseenter="showHbTooltip(event,this)"
                 onmousemove="moveHbTooltip(event)"
                 onmouseleave="hideHbTooltip()">
@@ -1725,9 +1728,12 @@ function showHbTooltip(e, el) {
   const price = el.dataset.price ? parseFloat(el.dataset.price) : null;
   const pct   = parseFloat(el.dataset.pct) || 0;
   const volRaw= el.dataset.vol ? parseFloat(el.dataset.vol) : null;
-  const sig   = el.dataset.signal || '';
-  const note  = el.dataset.note  || '';
-  const cat   = el.dataset.cat   || '';
+  const sig    = el.dataset.signal || '';
+  const note   = el.dataset.note  || '';
+  const cat    = el.dataset.cat   || '';
+  const w52pos = el.dataset.w52pos  ? parseFloat(el.dataset.w52pos)  : null;
+  const w52hi  = el.dataset.w52high ? parseFloat(el.dataset.w52high) : null;
+  const w52lo  = el.dataset.w52low  ? parseFloat(el.dataset.w52low)  : null;
 
   const priceStr = price !== null ? `$${price.toFixed(2)}` : 'N/A';
   const volStr   = volRaw !== null ? volRaw.toFixed(1) + 'x' : 'N/A';
@@ -1775,6 +1781,18 @@ function showHbTooltip(e, el) {
         <div class="hbt-stat-val" style="font-family:'Inter',sans-serif;font-size:11px">${cat}</div>
       </div>
     </div>
+
+    ${w52pos !== null ? `
+    <div style="padding:6px 0;border-bottom:1px solid #ffffff10">
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#94a3b8;margin-bottom:4px">
+        <span>52週低 ${w52lo !== null ? '$'+w52lo.toFixed(2) : 'N/A'}</span>
+        <span style="color:${w52pos >= 80 ? '#10b981' : w52pos <= 20 ? '#ef4444' : '#94a3b8'};font-weight:600">年位 ${w52pos.toFixed(0)}%</span>
+        <span>52週高 ${w52hi !== null ? '$'+w52hi.toFixed(2) : 'N/A'}</span>
+      </div>
+      <div style="background:#ffffff15;border-radius:4px;height:6px;overflow:hidden">
+        <div style="width:${w52pos.toFixed(1)}%;height:100%;background:${w52pos >= 80 ? '#10b981' : w52pos <= 20 ? '#ef4444' : '#38bdf8'};border-radius:4px;transition:width 0.3s"></div>
+      </div>
+    </div>` : ''}
 
     ${sparkResult ? `
     <div class="hbt-spark-wrap">
