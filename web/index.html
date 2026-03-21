@@ -2670,6 +2670,15 @@ function render(data, history = {}) {
       <!-- 經濟日曆 -->
       ${renderEconCalendar(data.econ_calendar)}
 
+      <!-- 持倉深度解讀（NEBULA 風格） -->
+      ${data.holdings_analysis ? `
+      <div class="section-gap">
+        <div class="card">
+          <h2>📋 持倉深度解讀</h2>
+          <div style="white-space:pre-wrap;line-height:1.7;font-size:13px;color:var(--text-secondary)">${data.holdings_analysis.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
+        </div>
+      </div>` : ''}
+
       <!-- B区：今日重大事件 + 即時新聞（全寬）-->
       <div class="section-gap">
         <div class="card">
