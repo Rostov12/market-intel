@@ -2626,6 +2626,42 @@ function renderTWMAPanel(twMa) {
   `;
 }
 
+function renderOkxContracts(contracts) {
+  if (!contracts || !contracts.length) return '';
+  const cats = {};
+  contracts.forEach(c => {
+    const cat = c.category || '其他';
+    if (!cats[cat]) cats[cat] = [];
+    cats[cat].push(c);
+  });
+  let cards = '';
+  for (const [cat, items] of Object.entries(cats)) {
+    items.forEach(c => {
+      const pct = c.change_pct;
+      const color = pct > 0.5 ? '#22c55e' : pct < -0.5 ? '#ef4444' : '#eab308';
+      const bg = pct > 0.5 ? 'rgba(34,197,94,0.08)' : pct < -0.5 ? 'rgba(239,68,68,0.08)' : 'rgba(234,179,8,0.05)';
+      const arrow = pct > 0 ? '▲' : pct < 0 ? '▼' : '–';
+      const price = c.price ? `$${c.price.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})}` : 'N/A';
+      const pctStr = pct != null ? `${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%` : 'N/A';
+      cards += `
+        <div style="background:${bg};border:1px solid ${color}33;border-radius:10px;padding:12px 14px;min-width:130px">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:2px">${cat}</div>
+          <div style="font-size:14px;font-weight:600">${c.name}</div>
+          <div style="font-size:18px;font-weight:700;color:${color};margin:4px 0">${price}</div>
+          <div style="font-size:13px;color:${color}">${arrow} ${pctStr}</div>
+        </div>`;
+    });
+  }
+  return `
+    <div class="section-gap">
+      <div class="section-title" style="padding:0 2px;margin-bottom:10px">🪙 OKX 永續合約標的</div>
+      <div style="display:flex;gap:10px;overflow-x:auto;padding-bottom:6px">
+        ${cards}
+      </div>
+      <div style="font-size:10px;color:var(--text-muted);margin-top:6px;text-align:right">資料來源：OKX API 即時報價</div>
+    </div>`;
+}
+
 function render(data, history = {}) {
   document.getElementById('report-meta').textContent =
     `${data.date}  ·  更新 ${data.generated_at}`;
@@ -2683,6 +2719,9 @@ function render(data, history = {}) {
 
       <!-- 板塊輪動排行 -->
       ${renderSectorRotationBar(data.watchlist || [])}
+
+      <!-- OKX 永續合約標的 -->
+      ${renderOkxContracts(data.okx_contracts || [])}
 
       <!-- D区：30天走勢對比 -->
       <div class="trend-card section-gap">
