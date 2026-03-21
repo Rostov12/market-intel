@@ -2306,6 +2306,34 @@ function renderMacroStrip(macro) {
   `;
 }
 
+/* ── FRED 總經指標列 ── */
+function renderFredStrip(fred) {
+  if (!fred || !Object.keys(fred).length) return '';
+  const show = [
+    {key:'DGS10', label:'10Y殖利率', fmt:v=>`${v.toFixed(2)}%`},
+    {key:'SPREAD_2Y10Y', label:'2Y-10Y利差', fmt:v=>`${v>=0?'+':''}${v.toFixed(2)}%`,
+     cls:v=>v<0?'neg':'pos', tag:v=>v<0?'倒掛':'正常'},
+    {key:'FEDFUNDS', label:'基金利率', fmt:v=>`${v.toFixed(2)}%`},
+    {key:'T5YIE', label:'通膨預期', fmt:v=>`${v.toFixed(2)}%`},
+    {key:'WALCL', label:'Fed資產', fmt:v=>`${(v/1e6).toFixed(2)}兆`},
+  ];
+  const items = show.map(s => {
+    const d = fred[s.key];
+    if (!d) return '';
+    const val = s.fmt(d.value);
+    const cls = s.cls ? s.cls(d.value) : '';
+    const tag = s.tag ? s.tag(d.value) : '';
+    return `
+      <div class="macro-item" title="${d.name || s.label} (${d.date || ''})">
+        <span class="m-name">${s.label}</span>
+        <span class="m-val">${val}</span>
+        ${tag ? `<span class="m-desc" style="color:${cls==='neg'?'var(--red)':'var(--green)'}">${tag}</span>` : ''}
+      </div>`;
+  }).join('');
+  if (!items.trim()) return '';
+  return `<div class="macro-strip" style="margin-top:-8px"><span class="macro-label">FRED</span>${items}</div>`;
+}
+
 function renderText(text) {
   if (!text || text.includes('失敗')) return '<span style="color:var(--text-muted)">（暫無資料）</span>';
   return `<div class="text-block">${text.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`;
@@ -2614,6 +2642,7 @@ function render(data, history = {}) {
 
       <!-- 宏觀指標列 -->
       ${renderMacroStrip(data.macro || [])}
+      ${renderFredStrip(data.fred_macro || {})}
 
       <!-- 盤前掃描（台灣時間 20-21 時段顯示）-->
       ${renderPremarket(window._premkt)}
