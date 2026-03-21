@@ -1,37 +1,56 @@
 {
-  "date": "2026-03-21",
-  "fetched_at": "2026-03-21 23:00",
-  "mode": "fallback",
+  "mode": "intraday",
   "news": [
     {
-      "title": "How to navigate uncertain markets during the Iranian conflict",
-      "impact": "neutral",
-      "source": "Yahoo Finance Video"
+      "title": "中東局勢惡化，伊朗以色列衝突升級引發能源供應中斷擔憂",
+      "impact": "bearish",
+      "source": "Bloomberg",
+      "category": "Geo"
     },
     {
-      "title": "If You'd Invested $1,000 in Costco Stock 10 Years Ago, Here's How Much You'd Have Today",
-      "impact": "neutral",
-      "source": "Motley Fool"
+      "title": "美債 10 年期殖利率飆升至 4.39%，創 2025 年以來新高",
+      "impact": "bearish",
+      "source": "Morningstar",
+      "category": "Macro"
     },
     {
-      "title": "Dow Jones Jumps Late After Sell-Off As Trump Mulls 'Winding Down' Iran War",
-      "impact": "neutral",
-      "source": "Investor's Business Daily"
+      "title": "S&P 500 跌破 200 日均線，技術面轉弱引發拋售壓力",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "category": "Flows"
     },
     {
-      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "Retirees Are Using EWT to Ride Taiwan’s Semiconductor Dominance",
-      "impact": "neutral",
-      "source": "24/7 Wall St."
+      "title": "聯準會維持利率不變，市場取消 2026 上半年降息預期",
+      "impact": "hawkish",
+      "source": "Trading Economics",
+      "category": "Fed"
     }
-  ]
+  ],
+  "macro_snapshot": {
+    "fed_stance": "鷹派偏中性，因中東局勢導致能源價格上漲引發黏性通膨擔憂，市場定價 Higher-for-longer",
+    "yield_10y": "4.39%（飆升趨勢）",
+    "dxy": "100.5（走強，受避險資金支撐）",
+    "oil_wti": "98.3",
+    "vix": "26.5（進入高波動狀態，避險情緒濃厚）"
+  },
+  "sector_rotation": {
+    "strong": [
+      "能源",
+      "防禦性公用事業",
+      "必需消費品"
+    ],
+    "weak": [
+      "AI半導體",
+      "大型科技股",
+      "金融"
+    ]
+  },
+  "key_drivers": [
+    "地緣政治衝突（伊朗-以色列）導致能源通膨風險",
+    "美債殖利率飆升壓制高估值成長股",
+    "市場情緒從 AI 變現期待轉向危機管理"
+  ],
+  "market_tone": "受地緣政治衝突與通膨回溫雙重夾擊，市場呈現顯著的避險與族群大輪動。",
+  "date": "2026-03-21",
+  "fetched_at": "2026-03-21 23:30"
 }
