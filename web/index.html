@@ -1889,6 +1889,43 @@ function switchTab(tab, btn) {
   if (btn) btn.classList.add('active');
 }
 
+/* ── 台股今日漲跌榜 ── */
+function renderTWSummary(twStocks) {
+  if (!twStocks || twStocks.length === 0) return '';
+  const valid = twStocks.filter(s => s.change_pct !== null && s.change_pct !== undefined);
+  if (valid.length === 0) return '';
+  const sorted = [...valid].sort((a, b) => b.change_pct - a.change_pct);
+  const top3    = sorted.slice(0, 3);
+  const bot3    = sorted.slice(-3).reverse();
+  const avgPct  = valid.reduce((s, x) => s + x.change_pct, 0) / valid.length;
+  const upCount = valid.filter(x => x.change_pct >= 0).length;
+
+  function row(s) {
+    const pct = s.change_pct;
+    const cls = pct >= 0 ? 'up' : 'down';
+    const sym = s.symbol.replace('.TW','');
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-bottom:1px solid var(--border)">
+      <span style="font-size:12px">${s.name} <span style="color:var(--text-muted);font-size:10px">${sym}</span></span>
+      <span class="${cls}" style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>
+    </div>`;
+  }
+
+  return `
+  <div class="grid-2 section-gap">
+    <div class="card" style="padding:16px">
+      <h2>💪 今日強勢（Top 3）</h2>
+      ${top3.map(row).join('')}
+    </div>
+    <div class="card" style="padding:16px">
+      <h2>📉 今日弱勢（Bottom 3）</h2>
+      ${bot3.map(row).join('')}
+    </div>
+  </div>
+  <div style="text-align:center;font-size:11px;color:var(--text-muted);margin-bottom:4px">
+    追蹤 ${valid.length} 支　上漲 ${upCount} / 下跌 ${valid.length - upCount}　平均 ${avgPct >= 0 ? '+' : ''}${avgPct.toFixed(2)}%
+  </div>`;
+}
+
 /* ── 台股個股熱力圖 ── */
 function renderTWStocksHeatmap(twStocks) {
   if (!twStocks || twStocks.length === 0) {
@@ -2515,6 +2552,9 @@ function render(data, history = {}) {
 
     <!-- ── Tab 2: 台股 ── -->
     <div id="tab-tw" class="tab-content">
+
+      <!-- 今日台股漲跌榜 -->
+      ${renderTWSummary(data.tw_stocks || [])}
 
       <!-- 台股個股熱力圖 -->
       <div class="section-gap">
