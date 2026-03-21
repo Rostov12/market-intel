@@ -1889,6 +1889,46 @@ function switchTab(tab, btn) {
   if (btn) btn.classList.add('active');
 }
 
+/* ── 板塊輪動排行 ── */
+function renderSectorRotationBar(watchlist) {
+  const SECTOR_MAP = {
+    'XLK': '科技', 'XLE': '能源', 'XLF': '金融', 'XLV': '醫療', 'XBI': '生技'
+  };
+  const lookup = {};
+  watchlist.forEach(w => { lookup[w.symbol] = w; });
+
+  const items = Object.entries(SECTOR_MAP)
+    .map(([sym, label]) => ({ sym, label, item: lookup[sym] }))
+    .filter(x => x.item && x.item.change_pct !== null && x.item.change_pct !== undefined)
+    .sort((a, b) => b.item.change_pct - a.item.change_pct);
+
+  if (items.length === 0) return '';
+
+  const maxAbs = Math.max(...items.map(x => Math.abs(x.item.change_pct)), 1);
+
+  const rows = items.map((x, i) => {
+    const pct  = x.item.change_pct;
+    const w    = Math.abs(pct) / maxAbs * 60;
+    const color = pct >= 0 ? 'var(--color-up)' : 'var(--color-down)';
+    const rank  = i === 0 ? '🔥' : i === items.length - 1 ? '❄️' : `${i+1}.`;
+    return `<div style="display:flex;align-items:center;gap:10px;padding:5px 0">
+      <span style="width:22px;font-size:11px;text-align:center">${rank}</span>
+      <span style="width:32px;font-size:11px;color:var(--text-muted);font-family:'JetBrains Mono',monospace">${x.sym}</span>
+      <span style="width:28px;font-size:11px">${x.label}</span>
+      <div style="flex:1;background:var(--card-bg2);border-radius:3px;height:10px;overflow:hidden">
+        <div style="width:${w.toFixed(1)}%;height:100%;background:${color};border-radius:3px;transition:width 0.3s"></div>
+      </div>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:${color};width:52px;text-align:right">${pct >= 0 ? '+' : ''}${pct.toFixed(2)}%</span>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card section-gap">
+    <h2>🔄 板塊輪動排行（S&P 500 板塊 ETF）</h2>
+    ${rows}
+  </div>`;
+}
+
 /* ── 經濟日曆 ── */
 function renderEconCalendar(cal) {
   if (!cal || (!cal.next_fomc && (!cal.next_7_days || cal.next_7_days.length === 0))) return '';
@@ -2560,6 +2600,9 @@ function render(data, history = {}) {
           ${renderSectorHeatmap(data.watchlist || [], data.signals || [], data.item_notes || {})}
         </div>
       </div>
+
+      <!-- 板塊輪動排行 -->
+      ${renderSectorRotationBar(data.watchlist || [])}
 
       <!-- D区：30天走勢對比 -->
       <div class="trend-card section-gap">
