@@ -1170,7 +1170,13 @@
       <span id="market-status-text">載入中</span>
     </div>
   </div>
-  <div class="header-meta" id="report-meta">—</div>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <div class="header-meta" id="report-meta">—</div>
+    <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+       style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:4px;white-space:nowrap;">
+      ✈️ 免費訂閱
+    </a>
+  </div>
 </header>
 
 <div class="container">
@@ -2663,6 +2669,18 @@ function render(data, history = {}) {
         </div>
       </div>
 
+      <!-- Telegram CTA -->
+      <div class="section-gap" style="text-align:center;padding:24px 0">
+        <div style="background:linear-gradient(135deg,#0088cc22,#6366f122);border:1px solid #0088cc44;border-radius:12px;padding:20px;max-width:480px;margin:0 auto">
+          <div style="font-size:16px;font-weight:600;margin-bottom:8px">📱 每日推送到你的 Telegram</div>
+          <div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">三大指數 + 風險燈號 + 操作建議，30秒掌握市場</div>
+          <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+             style="background:#0088cc;color:#fff;padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;display:inline-block">
+            免費訂閱頻道 →
+          </a>
+        </div>
+      </div>
+
     </div><!-- /tab-us -->
 
     <!-- ── Tab 2: 台股 ── -->
@@ -2684,6 +2702,18 @@ function render(data, history = {}) {
 
       <!-- 台股三大法人 -->
       ${renderInstitutional(window._instData)}
+
+      <!-- Telegram CTA -->
+      <div class="section-gap" style="text-align:center;padding:24px 0">
+        <div style="background:linear-gradient(135deg,#0088cc22,#6366f122);border:1px solid #0088cc44;border-radius:12px;padding:20px;max-width:480px;margin:0 auto">
+          <div style="font-size:16px;font-weight:600;margin-bottom:8px">📱 每日推送到你的 Telegram</div>
+          <div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">完整分析 + AI 操作建議 + 即時推播</div>
+          <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+             style="background:#0088cc;color:#fff;padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;display:inline-block">
+            免費訂閱頻道 →
+          </a>
+        </div>
+      </div>
 
     </div><!-- /tab-tw -->
   `;
