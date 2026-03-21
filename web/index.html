@@ -2496,6 +2496,12 @@ function render(data, history = {}) {
         <div id="trend-chart"></div>
       </div>
 
+      <!-- 風險評分走勢圖 -->
+      <div class="trend-card section-gap" id="risk-trend-wrap" style="display:none">
+        <h2>J 段風險評分 — 30 日走勢</h2>
+        <div id="risk-trend-chart" style="width:100%;overflow-x:auto"></div>
+      </div>
+
       <!-- B区：今日重大事件 + 即時新聞（全寬）-->
       <div class="section-gap">
         <div class="card">
@@ -2531,7 +2537,22 @@ function render(data, history = {}) {
   requestAnimationFrame(() => {
     initCharts(data, history);
     initTrendChart(history);
+    loadRiskTrendSVG();
   });
+}
+
+/* ── 風險評分走勢圖（嵌入 SVG）── */
+async function loadRiskTrendSVG() {
+  const wrap = document.getElementById('risk-trend-wrap');
+  const el   = document.getElementById('risk-trend-chart');
+  if (!wrap || !el) return;
+  try {
+    const resp = await fetch('web/risk-trend.svg?' + Date.now());
+    if (!resp.ok) return;
+    const svg = await resp.text();
+    el.innerHTML = svg;
+    wrap.style.display = '';
+  } catch (e) { /* 靜默失敗 */ }
 }
 
 async function main() {
