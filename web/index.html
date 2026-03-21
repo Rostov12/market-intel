@@ -1735,7 +1735,10 @@ function showHbTooltip(e, el) {
   const w52hi  = el.dataset.w52high ? parseFloat(el.dataset.w52high) : null;
   const w52lo  = el.dataset.w52low  ? parseFloat(el.dataset.w52low)  : null;
 
-  const priceStr = price !== null ? `$${price.toFixed(2)}` : 'N/A';
+  const isTW = sym.includes('.TW');
+  const priceStr = price !== null
+    ? (isTW ? `NT$${price.toLocaleString('zh-TW')}` : `$${price.toFixed(2)}`)
+    : 'N/A';
   const volStr   = volRaw !== null ? volRaw.toFixed(1) + 'x' : 'N/A';
   const volNum   = volRaw !== null ? volRaw : 1.0;
   const volHint  = volNum >= 1.5 ? '放量' : volNum >= 0.8 ? '正常' : '量縮';
@@ -2070,6 +2073,9 @@ function renderTWStocksHeatmap(twStocks) {
           data-desc="${sector} · ${trend}"
           data-signal="${pct >= 1 ? 'buy' : pct <= -1 ? 'sell' : 'watch'}"
           data-note="RSI(12)=${rsi12 || 'N/A'} 趨勢=${trend || 'N/A'}"
+          data-w52pos="${s.w52_pos !== null && s.w52_pos !== undefined ? s.w52_pos : ''}"
+          data-w52high="${s.w52_high || ''}"
+          data-w52low="${s.w52_low || ''}"
           onmouseenter="showHbTooltip(event,this)"
           onmousemove="moveHbTooltip(event)"
           onmouseleave="hideHbTooltip()">
