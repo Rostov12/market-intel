@@ -1182,7 +1182,7 @@
   </div>
   <div style="display:flex;align-items:center;gap:12px;">
     <div class="header-meta" id="report-meta">—</div>
-    <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+    <a href="https://t.me/+0SdI86Tm8fAwZWQ9" target="_blank" rel="noopener"
        style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:4px;white-space:nowrap;">
       ✈️ 免費訂閱
     </a>
@@ -1801,17 +1801,23 @@ function showHbTooltip(e, el) {
       </div>
     </div>
 
-    ${w52pos !== null ? `
+    ${w52pos !== null ? (() => {
+      const isCrypto = sym.includes('BTC') || sym.includes('ETH') || cat === '加密';
+      const rangeLabel = isCrypto ? '90日' : '52週';
+      const posLabel = isCrypto ? '區間位置' : '年位';
+      return `
     <div style="padding:6px 0;border-bottom:1px solid #ffffff10">
       <div style="display:flex;justify-content:space-between;font-size:10px;color:#94a3b8;margin-bottom:4px">
-        <span>52週低 ${w52lo !== null ? '$'+w52lo.toFixed(2) : 'N/A'}</span>
-        <span style="color:${w52pos >= 80 ? '#10b981' : w52pos <= 20 ? '#ef4444' : '#94a3b8'};font-weight:600">年位 ${w52pos.toFixed(0)}%</span>
-        <span>52週高 ${w52hi !== null ? '$'+w52hi.toFixed(2) : 'N/A'}</span>
+        <span>${rangeLabel}低 ${w52lo !== null ? '$'+w52lo.toFixed(2) : 'N/A'}</span>
+        <span style="color:${w52pos >= 80 ? '#10b981' : w52pos <= 20 ? '#ef4444' : '#94a3b8'};font-weight:600">${posLabel} ${w52pos.toFixed(0)}%</span>
+        <span>${rangeLabel}高 ${w52hi !== null ? '$'+w52hi.toFixed(2) : 'N/A'}</span>
       </div>
       <div style="background:#ffffff15;border-radius:4px;height:6px;overflow:hidden">
         <div style="width:${w52pos.toFixed(1)}%;height:100%;background:${w52pos >= 80 ? '#10b981' : w52pos <= 20 ? '#ef4444' : '#38bdf8'};border-radius:4px;transition:width 0.3s"></div>
       </div>
-    </div>` : ''}
+      ${isCrypto ? '<div style="font-size:9px;color:#64748b;margin-top:2px;text-align:center">加密貨幣採用 90 日區間（交易頻率高，52週過長）</div>' : ''}
+    </div>`;
+    })() : ''}
 
     ${sparkResult ? `
     <div class="hbt-spark-wrap">
@@ -1977,7 +1983,45 @@ function renderSectorRotationBar(watchlist) {
   </div>`;
 }
 
-/* ── 經濟日曆 ── */
+/* ── 經濟日曆（含預期值+影響分析彈窗）── */
+const ECON_KNOWLEDGE = {
+  'PCE':  { metric:'核心PCE年增率', prev:'2.6%', expect:'2.5-2.7%',
+    bull:'低於預期 → 通膨降溫 → 降息預期升 → 利好科技/成長股',
+    bear:'高於預期 → 通膨頑固 → 降息延後 → 利空高估值 + 債市',
+    watch:'Fed 最看重的通膨指標。超預期 0.1% 以上通常引發劇烈反應。' },
+  'NFP':  { metric:'非農就業人數(萬)', prev:'+15.1萬', expect:'+14-16萬',
+    bull:'低於預期 → 就業降溫 → 降息機率升 → 利好債/科技',
+    bear:'高於預期 → 經濟過熱 → 升息風險 → 利空股市',
+    watch:'同時觀察失業率和薪資增速。若失業率意外升高，市場反而可能上漲（壞消息=好消息）。' },
+  'CPI':  { metric:'核心CPI年增率', prev:'3.1%', expect:'3.0-3.2%',
+    bull:'低於預期 → 通膨下降 → 利好風險資產',
+    bear:'高於預期 → 通膨回升 → Fed 鷹派 → 利空全面',
+    watch:'若核心CPI連續下降，市場對降息定價會加速。' },
+  'FOMC': { metric:'利率決議', prev:'4.25-4.50%', expect:'維持不變',
+    bull:'降息或鴿派聲明 → 流動性預期改善 → 全面利好',
+    bear:'升息或鷹派前瞻 → 緊縮預期 → 利空全面',
+    watch:'重點看點陣圖(dot plot)和鮑威爾記者會措辭，比利率本身更重要。' },
+  'GDP':  { metric:'GDP季增年率', prev:'2.3%', expect:'2.0-2.5%',
+    bull:'溫和成長 → 軟著陸敘事 → 利好大盤',
+    bear:'過熱或衰退 → 不確定性上升',
+    watch:'初值→修正值→終值，市場對修正幅度很敏感。' },
+  'ISM':  { metric:'ISM製造業PMI', prev:'50.3', expect:'49-51',
+    bull:'高於50（擴張）→ 製造業復甦 → 利好工業/原物料',
+    bear:'低於50（收縮）→ 經濟放緩訊號',
+    watch:'新訂單指數比總PMI更具前瞻性。' },
+  '初領失業': { metric:'初領失業救濟金人數', prev:'22.3萬', expect:'22-24萬',
+    bull:'高於預期 → 就業轉弱 → 降息 → 短期利好',
+    bear:'持續上升 → 衰退風險 → 中期利空',
+    watch:'連續數據比單週更重要，注意4週移動平均。' },
+};
+
+function getEconInsight(eventName) {
+  for (const [key, info] of Object.entries(ECON_KNOWLEDGE)) {
+    if (eventName.includes(key)) return info;
+  }
+  return null;
+}
+
 function renderEconCalendar(cal) {
   if (!cal || (!cal.next_fomc && (!cal.next_7_days || cal.next_7_days.length === 0))) return '';
 
@@ -1989,26 +2033,61 @@ function renderEconCalendar(cal) {
       <span style="font-size:12px;color:var(--text-main)">${cal.next_fomc.label}</span>
     </div>` : '';
 
-  const eventsHTML = (cal.next_14_days || []).map(e => {
+  const eventsHTML = (cal.next_14_days || []).map((e, idx) => {
     const color = importanceColor[e.importance] || '#94A3B8';
     const badge = e.days_away <= 7
       ? `<span style="background:${color}22;color:${color};border:1px solid ${color}44;border-radius:4px;padding:1px 5px;font-size:9px;font-weight:700">${e.days_away}天後</span>`
       : `<span style="color:var(--text-muted);font-size:10px">${e.days_away}天後</span>`;
-    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--border)22">
-      <span style="font-size:12px">${e.event}</span>
-      <div style="display:flex;align-items:center;gap:6px">
-        <span style="font-size:10px;color:var(--text-muted)">${e.date}</span>
-        ${badge}
+    const insight = getEconInsight(e.event);
+    const hasInsight = insight !== null;
+    const clickAttr = hasInsight ? `onclick="toggleEconDetail('econ-detail-${idx}')" style="cursor:pointer"` : '';
+    const expandIcon = hasInsight ? '<span style="font-size:10px;color:var(--text-muted);margin-left:4px">ⓘ</span>' : '';
+
+    let detailHTML = '';
+    if (hasInsight) {
+      detailHTML = `
+      <div id="econ-detail-${idx}" class="econ-detail" style="display:none;padding:10px 12px;background:var(--card-bg2);border-radius:8px;margin:4px 0 8px;font-size:11px;line-height:1.7">
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin-bottom:8px">
+          <span style="color:var(--text-muted)">指標</span><span>${insight.metric}</span>
+          <span style="color:var(--text-muted)">前值</span><span>${insight.prev}</span>
+          <span style="color:var(--text-muted)">預期</span><span style="font-weight:600">${insight.expect}</span>
+        </div>
+        <div style="background:#10b98115;border-left:3px solid #10b981;padding:6px 10px;border-radius:0 6px 6px 0;margin-bottom:6px">
+          <strong style="color:#10b981">📈 低於/符合預期：</strong>${insight.bull}
+        </div>
+        <div style="background:#ef444415;border-left:3px solid #ef4444;padding:6px 10px;border-radius:0 6px 6px 0;margin-bottom:6px">
+          <strong style="color:#ef4444">📉 高於預期：</strong>${insight.bear}
+        </div>
+        <div style="color:var(--text-muted);font-size:10px;padding-top:4px;border-top:1px solid var(--border)">
+          💡 ${insight.watch}
+        </div>
+      </div>`;
+    }
+
+    return `<div>
+      <div ${clickAttr} style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--border)22${hasInsight ? ';transition:background 0.2s' : ''}"
+           ${hasInsight ? 'onmouseenter="this.style.background=\'rgba(99,102,241,0.08)\'" onmouseleave="this.style.background=\'transparent\'"' : ''}>
+        <span style="font-size:12px">${e.event}${expandIcon}</span>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span style="font-size:10px;color:var(--text-muted)">${e.date}</span>
+          ${badge}
+        </div>
       </div>
+      ${detailHTML}
     </div>`;
   }).join('');
 
   return `
   <div class="card section-gap">
-    <h2>📅 經濟日曆（未來 14 天）</h2>
+    <h2>📅 經濟日曆（未來 14 天）<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">點擊事件查看影響分析</span></h2>
     ${fomcHTML}
     ${eventsHTML || '<div style="font-size:12px;color:var(--text-muted);padding:8px 0">未來 14 天無重大數據</div>'}
   </div>`;
+}
+
+function toggleEconDetail(id) {
+  const el = document.getElementById(id);
+  if (el) el.style.display = el.style.display === 'none' ? 'block' : 'none';
 }
 
 /* ── 台股今日漲跌榜 ── */
@@ -2099,7 +2178,7 @@ function renderTWStocksHeatmap(twStocks) {
           data-cat="${sector}"
           data-desc="${sector} · ${trend}"
           data-signal="${pct >= 1 ? 'buy' : pct <= -1 ? 'sell' : 'watch'}"
-          data-note="RSI(12)=${rsi12 || 'N/A'} 趨勢=${trend || 'N/A'}"
+          data-note="${[rsi12 ? `RSI(12)=${rsi12}` : '', trend ? `趨勢=${trend}` : ''].filter(Boolean).join(' ') || ''}"
           data-w52pos="${s.w52_pos !== null && s.w52_pos !== undefined ? s.w52_pos : ''}"
           data-w52high="${s.w52_high || ''}"
           data-w52low="${s.w52_low || ''}"
@@ -2396,12 +2475,7 @@ function renderRiskPanel(data) {
           </tbody>
         </table>
       </div>` : ''}
-      <div class="risk-trend-section">
-        <div class="risk-factors-title">📈 30日風險評分走勢</div>
-        <img src="./risk-trend.svg" alt="風險評分走勢圖"
-             style="width:100%;max-width:600px;display:block;margin:8px auto 0;border-radius:8px;background:#0b0f19"
-             onerror="this.style.display='none'"/>
-      </div>
+      <!-- 30日風險走勢已移至今日總結區塊 -->
     </div>
   `;
 }
@@ -2451,10 +2525,20 @@ function renderDailySummary(data) {
     <div class="summary-card section-gap">
       <h2>今日總結</h2>
       ${data.risk_line ? `
-      <div class="summary-risk-bar">
-        ${riskBadge(data.risk_line)}
-        ${riskHint ? `<span class="summary-risk-hint">${riskHint}</span>` : ''}
-        ${riskScore !== null ? `<span class="summary-risk-score">${riskScore}/8</span>` : ''}
+      <div class="summary-risk-row" style="display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap">
+        <div style="flex:1;min-width:200px">
+          <div class="summary-risk-bar">
+            ${riskBadge(data.risk_line)}
+            ${riskHint ? `<span class="summary-risk-hint">${riskHint}</span>` : ''}
+            ${riskScore !== null ? `<span class="summary-risk-score">${riskScore}/8</span>` : ''}
+          </div>
+        </div>
+        <div style="flex:1;min-width:280px;max-width:420px" id="summary-risk-trend">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:4px">📈 30日風險走勢</div>
+          <img src="./risk-trend.svg" alt="風險走勢"
+               style="width:100%;border-radius:6px;background:#0b0f19"
+               onerror="this.parentElement.style.display='none'"/>
+        </div>
       </div>` : ''}
       <div class="summary-stats">
         <div class="stat-block">
@@ -2480,7 +2564,7 @@ function renderDailySummary(data) {
       </div>
       <div class="summary-advice">
         <div class="advice-label">📌 操作方向</div>
-        ${strategyText.replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+        <div style="white-space:pre-wrap;line-height:1.8;font-size:12px">${(data.advice || '（暫無建議）').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
       </div>
       ${data.prev_review ? `
       <div class="summary-advice" style="margin-top:10px;border-left-color:var(--text-muted)">
@@ -2626,6 +2710,145 @@ function renderTWMAPanel(twMa) {
   `;
 }
 
+/* ── 台股操作方向建議 ── */
+function renderTWAdvice(twMa, twStocks, fearGreed) {
+  if (!twMa || !twMa.taiex) return '';
+  const t = twMa.taiex;
+  const abc = t.abc_signal || {};
+  const arr = t.arrangement || 'ranging';
+  const pos = abc.position_pct ?? 50;
+  const fg = fearGreed || {};
+
+  // 計算台股整體狀況
+  const valid = twStocks.filter(s => s.change_pct !== null);
+  const avgPct = valid.length ? (valid.reduce((s,x) => s + x.change_pct, 0) / valid.length) : 0;
+  const upCount = valid.filter(x => x.change_pct >= 0).length;
+  const strongVol = valid.filter(x => (x.volume_ratio || 0) >= 1.5);
+
+  // 均線排列判斷
+  const arrLabel = {bull:'多頭排列',bear:'空頭排列',squeeze:'收斂整理',ranging:'區間盤整'}[arr] || '盤整';
+
+  // 生成建議
+  const lines = [];
+
+  // 大盤判斷
+  lines.push(`💰 <strong>建議持倉：${pos}%</strong>（${abc.description || arrLabel}）`);
+
+  // 整體策略
+  if (arr === 'bull') {
+    lines.push(`📌 均線${arrLabel}，趨勢偏多，順勢操作為主。回測月線為佈局機會，半年線以上可加碼。`);
+  } else if (arr === 'bear') {
+    lines.push(`📌 均線${arrLabel}，趨勢偏空，防守優先。反彈至季線以上考慮減碼，嚴守停損紀律。`);
+  } else if (arr === 'squeeze') {
+    lines.push(`📌 均線收斂中，即將變盤。等待方向確認再行動，勿過度猜測方向。`);
+  } else {
+    lines.push(`📌 區間盤整格局，高出低進為主。關注月線和季線之間的支撐壓力。`);
+  }
+
+  // 恐慌指數影響
+  if (fg.score !== null && fg.score !== undefined) {
+    if (fg.score <= 20) {
+      lines.push(`⚠️ 全球恐慌指數 ${fg.score.toFixed(0)}（極度恐慌），外資可能加速賣超台股，短線留意下殺風險，但也是中期佈局契機。`);
+    } else if (fg.score <= 35) {
+      lines.push(`⚠️ 全球恐慌指數 ${fg.score.toFixed(0)}（恐慌），市場情緒偏弱，台股跟跌風險高，建議控管部位。`);
+    }
+  }
+
+  // 板塊建議
+  const sectors = {};
+  valid.forEach(s => {
+    const sec = s.sector || '其他';
+    if (!sectors[sec]) sectors[sec] = [];
+    sectors[sec].push(s);
+  });
+  const sectorAdvice = [];
+  for (const [sec, stocks] of Object.entries(sectors)) {
+    const secAvg = stocks.reduce((s,x) => s + x.change_pct, 0) / stocks.length;
+    const names = stocks.map(s => s.name).join('、');
+    if (secAvg >= 1.0) sectorAdvice.push(`• <span style="color:var(--color-up)">${sec}（${names}）</span>：表現強勢，量能充足可留意追蹤`);
+    else if (secAvg <= -1.0) sectorAdvice.push(`• <span style="color:var(--color-down)">${sec}（${names}）</span>：明顯走弱，避免逆勢操作`);
+    else sectorAdvice.push(`• ${sec}（${names}）：盤整格局，觀望等待方向`);
+  }
+  if (sectorAdvice.length) {
+    lines.push('');
+    lines.push('<strong>板塊操作建議：</strong>');
+    lines.push(...sectorAdvice);
+  }
+
+  // 放量股提醒
+  if (strongVol.length) {
+    lines.push('');
+    lines.push(`🔔 今日放量股（量比≥1.5x）：${strongVol.map(s => `${s.name}(${(s.volume_ratio||0).toFixed(1)}x)`).join('、')} — 留意主力動向`);
+  }
+
+  return `
+  <div class="summary-card section-gap">
+    <h2>📌 台股操作方向建議</h2>
+    <div class="summary-advice" style="border-left-color:var(--color-ai)">
+      <div style="white-space:pre-wrap;line-height:1.8;font-size:12px">${lines.join('\n')}</div>
+    </div>
+  </div>`;
+}
+
+/* ── 台股新聞及重大事件 ── */
+function renderTWNews(newsData, eventsText) {
+  const TW_KEYWORDS = ['台積電','tsmc','聯發科','mediatek','鴻海','foxconn','廣達','台灣','taiwan',
+    '台股','taiex','半導體','semiconductor','AI晶片','nvidia','輝達','美超微','伺服器','記憶體',
+    '聯詠','瑞昱','南亞科','技嘉','微星','緯穎','和碩','台達電','長榮','陽明','航運','封測',
+    '加權指數','外資','三大法人','融資','融券','晶豪科','2330','2454','2382','2317','2603'];
+
+  let twNews = [];
+  if (newsData && newsData.news) {
+    twNews = newsData.news.filter(n => {
+      const text = ((n.title || '') + ' ' + (n.source || '')).toLowerCase();
+      return TW_KEYWORDS.some(k => text.includes(k.toLowerCase()));
+    });
+  }
+
+  // 從事件文字中提取台股相關段落
+  let twEvents = '';
+  if (eventsText && !eventsText.includes('失敗')) {
+    const lines = eventsText.split('\n').filter(l =>
+      TW_KEYWORDS.some(k => l.toLowerCase().includes(k.toLowerCase()))
+    );
+    if (lines.length) {
+      twEvents = lines.map(l => `<div style="font-size:12px;padding:4px 0;border-bottom:1px solid var(--border)22">${l.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`).join('');
+    }
+  }
+
+  if (!twNews.length && !twEvents) {
+    return `
+    <div class="card section-gap">
+      <h2>📰 台股新聞及重大事件</h2>
+      <div style="font-size:12px;color:var(--text-muted);padding:12px 0">暫無台股相關新聞，全球新聞請切換至美股總經頁面查看</div>
+    </div>`;
+  }
+
+  const impactLabel = { bearish: '空', bullish: '多', neutral: '中' };
+  const catColor = { Fed:'#f59e0b', Earnings:'#38bdf8', Macro:'#a78bfa', Geo:'#ef4444', Flows:'#10b981' };
+
+  const newsHTML = twNews.map(n => {
+    const cat = n.category || '';
+    const catBadge = cat ? `<span style="font-size:9px;padding:1px 4px;border-radius:3px;background:${catColor[cat]||'#374151'}22;color:${catColor[cat]||'#94a3b8'};border:1px solid ${catColor[cat]||'#374151'}44;margin-left:4px">${cat}</span>` : '';
+    return `
+    <div class="news-item">
+      <span class="news-impact ${n.impact || 'neutral'}">${impactLabel[n.impact] || '中'}</span>
+      <div>
+        <div class="news-title">${n.title}${catBadge}</div>
+        <div class="news-source">${n.source || ''}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card section-gap">
+    <h2>📰 台股新聞及重大事件</h2>
+    ${twEvents}
+    ${newsHTML}
+    ${newsData ? `<div class="news-updated" style="font-size:10px;color:var(--text-muted);margin-top:6px">更新時間：${newsData.fetched_at || newsData.date || ''}</div>` : ''}
+  </div>`;
+}
+
 function renderOkxContracts(contracts) {
   if (!contracts || !contracts.length) return '';
   const cats = {};
@@ -2693,6 +2916,7 @@ function render(data, history = {}) {
           <div id="sentiment-gauge"></div>
           <div class="gauge-legend"><span>恐慌</span><span>貪婪</span></div>
           <div id="gauge-source" style="font-size:10px;color:var(--text-muted);margin-top:4px;text-align:center"></div>
+          <div id="fg-trend" style="margin-top:8px"></div>
         </div>
         <div class="ai-hero" style="margin-bottom:0">
           <div class="ai-hero-label">
@@ -2729,14 +2953,19 @@ function render(data, history = {}) {
         <div id="trend-chart"></div>
       </div>
 
-      <!-- 風險評分走勢圖 -->
-      <div class="trend-card section-gap" id="risk-trend-wrap" style="display:none">
-        <h2>J 段風險評分 — 30 日走勢</h2>
-        <div id="risk-trend-chart" style="width:100%;overflow-x:auto"></div>
-      </div>
+      <!-- 風險評分走勢圖（已整合到今日總結區塊）-->
 
       <!-- 經濟日曆 -->
       ${renderEconCalendar(data.econ_calendar)}
+
+      <!-- B区：今日重大事件 + 即時新聞 -->
+      <div class="section-gap">
+        <div class="card">
+          <h2>📰 今日重大事件 & 即時新聞</h2>
+          ${renderText(data.events)}
+          ${renderNewsFlash(window._newsData)}
+        </div>
+      </div>
 
       <!-- 持倉深度解讀（NEBULA 風格） -->
       ${data.holdings_analysis ? `
@@ -2747,21 +2976,12 @@ function render(data, history = {}) {
         </div>
       </div>` : ''}
 
-      <!-- B区：今日重大事件 + 即時新聞（全寬）-->
-      <div class="section-gap">
-        <div class="card">
-          <h2>今日重大事件</h2>
-          ${renderText(data.events)}
-          ${renderNewsFlash(window._newsData)}
-        </div>
-      </div>
-
       <!-- Telegram CTA -->
       <div class="section-gap" style="text-align:center;padding:24px 0">
         <div style="background:linear-gradient(135deg,#0088cc22,#6366f122);border:1px solid #0088cc44;border-radius:12px;padding:20px;max-width:480px;margin:0 auto">
           <div style="font-size:16px;font-weight:600;margin-bottom:8px">📱 每日推送到你的 Telegram</div>
           <div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">三大指數 + 風險燈號 + 操作建議，30秒掌握市場</div>
-          <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+          <a href="https://t.me/+0SdI86Tm8fAwZWQ9" target="_blank" rel="noopener"
              style="background:#0088cc;color:#fff;padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;display:inline-block">
             免費訂閱頻道 →
           </a>
@@ -2772,6 +2992,12 @@ function render(data, history = {}) {
 
     <!-- ── Tab 2: 台股 ── -->
     <div id="tab-tw" class="tab-content">
+
+      <!-- 台股均線操盤框架（置頂）-->
+      ${renderTWMAPanel(data.tw_ma)}
+
+      <!-- 台股操作方向建議 -->
+      ${renderTWAdvice(data.tw_ma, data.tw_stocks || [], data.fear_greed)}
 
       <!-- 今日台股漲跌榜 -->
       ${renderTWSummary(data.tw_stocks || [])}
@@ -2784,18 +3010,18 @@ function render(data, history = {}) {
         </div>
       </div>
 
-      <!-- 台股均線操盤框架 -->
-      ${renderTWMAPanel(data.tw_ma)}
-
       <!-- 台股三大法人 -->
       ${renderInstitutional(window._instData)}
+
+      <!-- 台股相關新聞及重大事件 -->
+      ${renderTWNews(window._newsData, data.events)}
 
       <!-- Telegram CTA -->
       <div class="section-gap" style="text-align:center;padding:24px 0">
         <div style="background:linear-gradient(135deg,#0088cc22,#6366f122);border:1px solid #0088cc44;border-radius:12px;padding:20px;max-width:480px;margin:0 auto">
           <div style="font-size:16px;font-weight:600;margin-bottom:8px">📱 每日推送到你的 Telegram</div>
           <div style="color:var(--text-muted);font-size:13px;margin-bottom:14px">完整分析 + AI 操作建議 + 即時推播</div>
-          <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+          <a href="https://t.me/+0SdI86Tm8fAwZWQ9" target="_blank" rel="noopener"
              style="background:#0088cc;color:#fff;padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;display:inline-block">
             免費訂閱頻道 →
           </a>
@@ -2873,6 +3099,60 @@ async function main() {
 
 main();
 
+// ── 恐慌指數歷史走勢圖 ──────────────────────────────────────
+async function loadFGTrend() {
+  try {
+    const data = await fetchJSON('fear-greed-history.json');
+    if (!data || data.length < 2) return;
+    const el = document.getElementById('fg-trend');
+    if (!el) return;
+    const recent = data.slice(-14);  // 最近 14 天
+    const W = 200, H = 50, PAD = 2;
+    const scores = recent.map(d => d.score);
+    const min = Math.min(...scores, 0);
+    const max = Math.max(...scores, 100);
+    const range = max - min || 1;
+    const toX = i => PAD + (i / (scores.length - 1)) * (W - PAD * 2);
+    const toY = v => H - PAD - ((v - min) / range) * (H - PAD * 2);
+    const pts = scores.map((s, i) => `${toX(i).toFixed(1)},${toY(s).toFixed(1)}`).join(' ');
+    const last = scores[scores.length - 1];
+    const prev = scores[scores.length - 2];
+    const color = last <= 25 ? '#ef4444' : last <= 50 ? '#f59e0b' : '#10b981';
+    const trend = last > prev ? '↑' : last < prev ? '↓' : '→';
+    const trendColor = last > prev ? '#10b981' : last < prev ? '#ef4444' : '#94a3b8';
+    // Area path
+    const area = `M${toX(0).toFixed(1)},${toY(scores[0]).toFixed(1)} ` +
+      scores.slice(1).map((s,i) => `L${toX(i+1).toFixed(1)},${toY(s).toFixed(1)}`).join(' ') +
+      ` L${toX(scores.length-1).toFixed(1)},${H} L${toX(0).toFixed(1)},${H} Z`;
+
+    el.innerHTML = `
+      <div style="text-align:center">
+        <div style="font-size:10px;color:var(--text-muted);margin-bottom:2px">
+          恐慌指數走勢（${recent.length}天）
+          <span style="color:${trendColor};font-weight:600">${trend} ${last.toFixed(0)}</span>
+        </div>
+        <svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" style="display:block;margin:0 auto">
+          <defs><linearGradient id="fg-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="${color}" stop-opacity="0.3"/>
+            <stop offset="100%" stop-color="${color}" stop-opacity="0.02"/>
+          </linearGradient></defs>
+          <path d="${area}" fill="url(#fg-grad)"/>
+          <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="${toX(scores.length-1).toFixed(1)}" cy="${toY(last).toFixed(1)}" r="3" fill="${color}"/>
+          <!-- 25/50/75 threshold lines -->
+          <line x1="0" y1="${toY(25).toFixed(1)}" x2="${W}" y2="${toY(25).toFixed(1)}" stroke="#ef444433" stroke-dasharray="2,3"/>
+          <line x1="0" y1="${toY(50).toFixed(1)}" x2="${W}" y2="${toY(50).toFixed(1)}" stroke="#94a3b833" stroke-dasharray="2,3"/>
+        </svg>
+        <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--text-muted);padding:0 4px">
+          <span>${recent[0].date.slice(5)}</span>
+          <span>${recent[recent.length-1].date.slice(5)}</span>
+        </div>
+      </div>`;
+  } catch (e) { /* 靜默失敗 */ }
+}
+// 在 main 完成後載入
+setTimeout(loadFGTrend, 500);
+
 // ── 新聞 Auto-Refresh（每10分鐘，只更新新聞區塊）──────────────
 async function refreshNews() {
   try {
@@ -2919,7 +3199,7 @@ setInterval(refreshPremarket, 300000);
 <footer>
   <div class="container">
     <div style="margin-bottom:12px">
-      <a href="https://t.me/market_intel_tw" target="_blank" rel="noopener"
+      <a href="https://t.me/+0SdI86Tm8fAwZWQ9" target="_blank" rel="noopener"
          style="color:#0088cc;text-decoration:none;margin-right:16px">📱 免費 Telegram 頻道</a>
       <a href="https://github.com/Rostov12/market-intel" target="_blank" rel="noopener"
          style="color:var(--text-muted);text-decoration:none">GitHub</a>
