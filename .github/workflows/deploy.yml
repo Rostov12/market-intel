@@ -32,6 +32,7 @@ jobs:
           done
           cp -r reports/. _site/reports/
           cp -r config/. _site/config/
+          [ -d web/grid-bot ] && cp -r web/grid-bot _site/grid-bot || true
 
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
