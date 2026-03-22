@@ -1,37 +1,63 @@
 {
-  "date": "2026-03-23",
-  "fetched_at": "2026-03-23 01:30",
-  "mode": "fallback",
+  "mode": "intraday",
   "news": [
     {
-      "title": "3 weeks of war, possible rate hikes, and AI's 'show me' phase: What to watch this week",
-      "impact": "neutral",
-      "source": "Yahoo Finance"
+      "title": "伊朗衝突引發能源供應風險，布蘭特原油突破 110 美元關口",
+      "impact": "bearish",
+      "source": "Bloomberg",
+      "category": "Geo"
     },
     {
-      "title": "This Investor Exited a $22 Million GRAIL Stake Before a 50% One-Day Stock Crash Last Month",
-      "impact": "neutral",
-      "source": "Motley Fool"
+      "title": "10 年期美債收益率飆升至 4.39%，創 2025 年以來新高壓抑科技股估值",
+      "impact": "bearish",
+      "source": "CNBC",
+      "category": "Macro"
     },
     {
-      "title": "Get Ready For Dow Jones Futures After Trump Threatens To 'Obliterate' Iran's Power Plants",
-      "impact": "neutral",
-      "source": "Investor's Business Daily"
+      "title": "2 月 PPI 數據年增 3.4% 高於預期，市場擔憂通膨二次抬頭",
+      "impact": "bearish",
+      "source": "Reuters",
+      "category": "Macro"
     },
     {
-      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
-      "impact": "neutral",
-      "source": "Motley Fool"
+      "title": "聯準會 3 月點陣圖暗示 Higher for Longer，降息預期再度推遲",
+      "impact": "bearish",
+      "source": "Wall Street Journal",
+      "category": "Fed"
     },
     {
-      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
-      "impact": "neutral",
-      "source": "Zacks"
+      "title": "資金流向具定價能力的實體資產，能源與工業板塊表現亮眼",
+      "impact": "bullish",
+      "source": "Investing.com",
+      "category": "Flows"
     }
-  ]
+  ],
+  "macro_snapshot": {
+    "fed_stance": "鷹派。Fed 上調通膨預期至 2.7%，因中東局勢與 PPI 過熱，官員強調需維持利率在 3.5%-3.75% 區間更長時間。",
+    "yield_10y": "4.39%（上升趨勢）",
+    "dxy": "99.50（走強）",
+    "oil_wti": "98.0",
+    "vix": "25.5（高於平均，劇烈波動）"
+  },
+  "sector_rotation": {
+    "strong": [
+      "能源",
+      "工業",
+      "材料",
+      "公用事業"
+    ],
+    "weak": [
+      "科技 (AI龍頭)",
+      "非必需消費品",
+      "成長股"
+    ]
+  },
+  "key_drivers": [
+    "地緣政治風險引發的「戰爭通膨」預期",
+    "美債收益率急拉導致成長股殺估值",
+    "PPI 數據揭示批發成本上升風險"
+  ],
+  "market_tone": "市場目前處於典型的避險與通膨定價模式，資金加速從高倍數科技股撤出，轉向具備抗通膨屬性的舊經濟價值股。",
+  "date": "2026-03-23",
+  "fetched_at": "2026-03-23 02:00"
 }
