@@ -2,55 +2,55 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "中東局勢惡化，伊朗以色列衝突升級引發能源供應中斷擔憂",
+      "title": "中東地緣政治衝突升溫導致波斯灣能源出口中斷，國際油價飆升加劇通膨擔憂。",
       "impact": "bearish",
       "source": "Bloomberg",
       "category": "Geo"
     },
     {
-      "title": "美債 10 年期殖利率飆升至 4.39%，創 2025 年以來新高",
+      "title": "10年期美債殖利率觸及2025年以來新高，市場對聯準會2026年降息預期大幅降溫。",
       "impact": "bearish",
-      "source": "Morningstar",
+      "source": "Investing.com",
       "category": "Macro"
     },
     {
-      "title": "S&P 500 跌破 200 日均線，技術面轉弱引發拋售壓力",
+      "title": "美光(MU)指引未達預期，且美當局調查SMCI走私晶片指控，AI與半導體族群延續跌勢。",
       "impact": "bearish",
-      "source": "Investing.com",
-      "category": "Flows"
+      "source": "The Street",
+      "category": "Earnings"
     },
     {
-      "title": "聯準會維持利率不變，市場取消 2026 上半年降息預期",
-      "impact": "hawkish",
-      "source": "Trading Economics",
-      "category": "Fed"
+      "title": "特斯拉(TSLA)因FSD系統安全調查擴大股價走弱，科技七巨頭早盤普遍承壓。",
+      "impact": "bearish",
+      "source": "CNBC",
+      "category": "Earnings"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派偏中性，因中東局勢導致能源價格上漲引發黏性通膨擔憂，市場定價 Higher-for-longer",
-    "yield_10y": "4.39%（飆升趨勢）",
-    "dxy": "100.5（走強，受避險資金支撐）",
-    "oil_wti": "98.3",
-    "vix": "26.5（進入高波動狀態，避險情緒濃厚）"
+    "fed_stance": "鷹派。油價推升通膨壓力，市場轉向預期2026年內可能面臨升息壓力而非降息。",
+    "yield_10y": "4.38% (上升趨勢)",
+    "dxy": "104.2 (走強，避險資金流入)",
+    "oil_wti": "102.5",
+    "vix": "22.5 (恐慌情緒顯著升溫)"
   },
   "sector_rotation": {
     "strong": [
       "能源",
-      "防禦性公用事業",
-      "必需消費品"
+      "軍工國防",
+      "公用事業"
     ],
     "weak": [
       "AI半導體",
-      "大型科技股",
-      "金融"
+      "科技成長股",
+      "小型股"
     ]
   },
   "key_drivers": [
-    "地緣政治衝突（伊朗-以色列）導致能源通膨風險",
-    "美債殖利率飆升壓制高估值成長股",
-    "市場情緒從 AI 變現期待轉向危機管理"
+    "地緣政治引發的能源供應中斷風險",
+    "利率長期維持高位的「Higher for Longer」預期升溫",
+    "科技股在通膨與高殖利率環境下的估值修正"
   ],
-  "market_tone": "受地緣政治衝突與通膨回溫雙重夾擊，市場呈現顯著的避險與族群大輪動。",
-  "date": "2026-03-21",
-  "fetched_at": "2026-03-21 23:30"
+  "market_tone": "地緣政治焦慮與通膨壓力交織，避險情緒主導開盤，市場正對成長股進行劇烈去槓桿。",
+  "date": "2026-03-23",
+  "fetched_at": "2026-03-23 00:00"
 }
