@@ -1,62 +1,37 @@
 {
-  "mode": "intraday",
+  "date": "2026-03-23",
+  "fetched_at": "2026-03-23 03:00",
+  "mode": "fallback",
   "news": [
     {
-      "title": "中東衝突升級：以色列與伊朗衝突進入第四週，荷姆茲海峽面臨封鎖風險，油價持續高企",
-      "impact": "bearish",
-      "source": "Bloomberg",
-      "category": "Geo"
+      "title": "3 weeks of war, possible rate hikes, and AI's 'show me' phase: What to watch this week",
+      "impact": "neutral",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "通膨黏性憂慮：2月PPI高於預期，市場對Fed降息預期大幅降溫，甚至開始定價2026年再升息風險",
-      "impact": "bearish",
-      "source": "Investing.com",
-      "category": "Fed|Macro"
+      "title": "Get Ready For Dow Jones Futures After Trump Threatens To 'Obliterate' Iran's Power Plants",
+      "impact": "neutral",
+      "source": "Investor's Business Daily"
     },
     {
-      "title": "美債殖利率飆升：10年期公債殖利率攀升至4.38%創近期新高，反映「高利率維持更久」預期",
-      "impact": "bearish",
-      "source": "Schwab",
-      "category": "Macro"
+      "title": "Is This Under-the-Radar Index Signaling Disaster for Stocks This Week? Here's What History Tells Us.",
+      "impact": "neutral",
+      "source": "Motley Fool"
     },
     {
-      "title": "企業財報：聯邦快遞 (FedEx) 因財報優於預期成為市場少數亮點，但整體企業展望受成本上升壓制",
-      "impact": "bullish",
-      "source": "BNN Bloomberg",
-      "category": "Earnings"
+      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
+      "impact": "neutral",
+      "source": "Motley Fool"
     },
     {
-      "title": "避險情緒濃厚：VIX 恐慌指數飆升至 26.78，標普 500 指數跌破 200 日均線技術面轉弱",
-      "impact": "bearish",
-      "source": "Investing.com",
-      "category": "Flows"
+      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
+      "impact": "neutral",
+      "source": "Zacks"
+    },
+    {
+      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
+      "impact": "neutral",
+      "source": "Zacks"
     }
-  ],
-  "macro_snapshot": {
-    "fed_stance": "鷹派。通膨數據強韌導致市場放棄上半年降息預期，Fed 官員發言偏向維持高利率。",
-    "yield_10y": "4.38%（上升趨勢）",
-    "dxy": "99.5（避險買盤支撐，但受長期利差預期交織影響）",
-    "oil_wti": "98.0",
-    "vix": "26.78（恐慌/高波動）"
-  },
-  "sector_rotation": {
-    "strong": [
-      "能源",
-      "防禦性價值股",
-      "高股息 ETF (如 SCHD)"
-    ],
-    "weak": [
-      "AI 半導體 (如 Nvidia)",
-      "成長股",
-      "航空與旅遊"
-    ]
-  },
-  "key_drivers": [
-    "地緣政治衝突導致荷姆茲海峽封鎖風險與能源通膨",
-    "美債殖利率飆升壓制科技股估值",
-    "市場情緒從「逢低買進」轉向「防禦性避險」"
-  ],
-  "market_tone": "中東戰火與通膨焦慮雙重夾擊，市場避險情緒急升，資金大規模轉向能源與防禦板塊。",
-  "date": "2026-03-23",
-  "fetched_at": "2026-03-23 02:30"
+  ]
 }
