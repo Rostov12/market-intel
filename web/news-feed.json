@@ -2,55 +2,55 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "中東地緣政治衝突升溫導致波斯灣能源出口中斷，國際油價飆升加劇通膨擔憂。",
+      "title": "中東局勢急劇惡化：美以與伊朗衝突加劇，避險資金全面轉向國防與能源板塊",
       "impact": "bearish",
       "source": "Bloomberg",
       "category": "Geo"
     },
     {
-      "title": "10年期美債殖利率觸及2025年以來新高，市場對聯準會2026年降息預期大幅降溫。",
+      "title": "聯準會鮑爾釋放鷹派訊號：強調受油價及關稅影響通膨具韌性，2026年降息預期大幅萎縮",
       "impact": "bearish",
+      "source": "Federal Reserve",
+      "category": "Fed"
+    },
+    {
+      "title": "GameStop (GME) 及 Braze (BRZE) 即將於今日盤後公布財報，市場聚焦成長型企業指引",
+      "impact": "neutral",
       "source": "Investing.com",
+      "category": "Earnings"
+    },
+    {
+      "title": "10年期美債殖利率衝上 4.39% 創近年新高，科技股估值面臨嚴峻修正壓力",
+      "impact": "bearish",
+      "source": "Financial Times",
       "category": "Macro"
-    },
-    {
-      "title": "美光(MU)指引未達預期，且美當局調查SMCI走私晶片指控，AI與半導體族群延續跌勢。",
-      "impact": "bearish",
-      "source": "The Street",
-      "category": "Earnings"
-    },
-    {
-      "title": "特斯拉(TSLA)因FSD系統安全調查擴大股價走弱，科技七巨頭早盤普遍承壓。",
-      "impact": "bearish",
-      "source": "CNBC",
-      "category": "Earnings"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派。油價推升通膨壓力，市場轉向預期2026年內可能面臨升息壓力而非降息。",
-    "yield_10y": "4.38% (上升趨勢)",
-    "dxy": "104.2 (走強，避險資金流入)",
-    "oil_wti": "102.5",
-    "vix": "22.5 (恐慌情緒顯著升溫)"
+    "fed_stance": "鷹派。Fed維持3.5%-3.75%利率不變，並暗示2026年內可能僅有一次降息空間。",
+    "yield_10y": "4.39%（持續上升並創下2025年以來新高）",
+    "dxy": "99.45（受避險買盤支撐呈現走強趨勢）",
+    "oil_wti": "94.2（地緣政治導致荷姆茲海峽封閉風險，油價極度波動）",
+    "vix": "25.4（顯著攀升，反映市場對地緣戰爭與通膨的恐懼）"
   },
   "sector_rotation": {
     "strong": [
       "能源",
-      "軍工國防",
-      "公用事業"
+      "國防防禦",
+      "民生必需品"
     ],
     "weak": [
       "AI半導體",
-      "科技成長股",
-      "小型股"
+      "高成長科技股",
+      "非必需消費"
     ]
   },
   "key_drivers": [
-    "地緣政治引發的能源供應中斷風險",
-    "利率長期維持高位的「Higher for Longer」預期升溫",
-    "科技股在通膨與高殖利率環境下的估值修正"
+    "地緣政治衝突導致能源供給中斷風險與避險情緒升溫",
+    "美債殖利率飆升對高估值成長股的流動性擠壓",
+    "聯準會對於長期高利率（Higher for longer）的堅定立場"
   ],
-  "market_tone": "地緣政治焦慮與通膨壓力交織，避險情緒主導開盤，市場正對成長股進行劇烈去槓桿。",
+  "market_tone": "市場進入「戰爭與高殖利率」雙重擠壓模式，整體氛圍極度謹慎並向防禦性資產傾斜。",
   "date": "2026-03-23",
-  "fetched_at": "2026-03-23 00:00"
+  "fetched_at": "2026-03-23 00:30"
 }
