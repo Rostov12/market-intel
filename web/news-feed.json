@@ -1,37 +1,50 @@
 {
-  "date": "2026-03-23",
-  "fetched_at": "2026-03-23 04:00",
-  "mode": "fallback",
+  "mode": "intraday",
   "news": [
     {
-      "title": "3 weeks of war, possible rate hikes, and AI's 'show me' phase: What to watch this week",
-      "impact": "neutral",
-      "source": "Yahoo Finance"
+      "title": "伊朗戰爭引發荷姆茲海峽封鎖威脅，布蘭特原油突破112美元",
+      "impact": "bearish",
+      "source": "Bloomberg",
+      "category": "Geo"
     },
     {
-      "title": "Get Ready For Dow Jones Futures After Trump Threatens To 'Obliterate' Iran's Power Plants",
-      "impact": "neutral",
-      "source": "Investor's Business Daily"
+      "title": "聯準會官員警告能源價格引發二次通膨，市場定價年底前升息機率上升",
+      "impact": "bearish",
+      "source": "CME FedWatch",
+      "category": "Fed"
     },
     {
-      "title": "Is This Under-the-Radar Index Signaling Disaster for Stocks This Week? Here's What History Tells Us.",
-      "impact": "neutral",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
-      "impact": "neutral",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
-      "impact": "neutral",
-      "source": "Zacks"
+      "title": "2月PPI連續兩月超預期，顯示通膨具有極強黏性",
+      "impact": "bearish",
+      "source": "Bureau of Labor Statistics",
+      "category": "Macro"
     }
-  ]
+  ],
+  "macro_snapshot": {
+    "fed_stance": "鷹派。主因為中東衝突引發能源通膨，迫使官員放棄降息預期並重申長期高利率（Higher for Longer）。",
+    "yield_10y": "4.38%（上升趨勢）",
+    "dxy": "99.4（受避險資金支撐走強）",
+    "oil_wti": "98.0",
+    "vix": "26.78（恐慌情緒蔓延）"
+  },
+  "sector_rotation": {
+    "strong": [
+      "能源",
+      "國防航太",
+      "避險美元"
+    ],
+    "weak": [
+      "AI半導體",
+      "科技成長股",
+      "非必需消費"
+    ]
+  },
+  "key_drivers": [
+    "地緣政治衝突（伊朗戰爭）導致供應鏈中斷風險",
+    "通膨預期回升壓抑聯準會降息空間",
+    "美債殖利率飆升對高估值科技股的評價壓力"
+  ],
+  "market_tone": "市場受地緣政治戰雲及通膨回溫雙重打擊，情緒極度不安，資金全面轉向防禦性與避險資產。",
+  "date": "2026-03-23",
+  "fetched_at": "2026-03-23 04:30"
 }
