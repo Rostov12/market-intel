@@ -2710,7 +2710,7 @@ function renderTWMAPanel(twMa) {
   `;
 }
 
-/* ── 台股操作方向建議 ── */
+/* ── 台股操作方向建議（大盤+整體方向）── */
 function renderTWAdvice(twMa, twStocks, fearGreed) {
   if (!twMa || !twMa.taiex) return '';
   const t = twMa.taiex;
@@ -2719,66 +2719,41 @@ function renderTWAdvice(twMa, twStocks, fearGreed) {
   const pos = abc.position_pct ?? 50;
   const fg = fearGreed || {};
 
-  // 計算台股整體狀況
   const valid = twStocks.filter(s => s.change_pct !== null);
   const avgPct = valid.length ? (valid.reduce((s,x) => s + x.change_pct, 0) / valid.length) : 0;
   const upCount = valid.filter(x => x.change_pct >= 0).length;
-  const strongVol = valid.filter(x => (x.volume_ratio || 0) >= 1.5);
 
-  // 均線排列判斷
   const arrLabel = {bull:'多頭排列',bear:'空頭排列',squeeze:'收斂整理',ranging:'區間盤整'}[arr] || '盤整';
 
-  // 生成建議
   const lines = [];
 
-  // 大盤判斷
+  // 大盤持倉建議
   lines.push(`💰 <strong>建議持倉：${pos}%</strong>（${abc.description || arrLabel}）`);
 
   // 整體策略
   if (arr === 'bull') {
-    lines.push(`📌 均線${arrLabel}，趨勢偏多，順勢操作為主。回測月線為佈局機會，半年線以上可加碼。`);
+    lines.push(`📌 大盤均線${arrLabel}，趨勢偏多，順勢操作為主。回測月線可視為佈局機會，跌破季線才需警戒。`);
   } else if (arr === 'bear') {
-    lines.push(`📌 均線${arrLabel}，趨勢偏空，防守優先。反彈至季線以上考慮減碼，嚴守停損紀律。`);
+    lines.push(`📌 大盤均線${arrLabel}，趨勢偏空，防守優先。反彈至季線考慮減碼，嚴守停損紀律，等待均線止跌翻揚再積極進場。`);
   } else if (arr === 'squeeze') {
-    lines.push(`📌 均線收斂中，即將變盤。等待方向確認再行動，勿過度猜測方向。`);
+    lines.push(`📌 大盤均線收斂中，即將選擇方向。不宜過度猜測，減少操作頻率，等待突破後再跟進。`);
   } else {
-    lines.push(`📌 區間盤整格局，高出低進為主。關注月線和季線之間的支撐壓力。`);
+    lines.push(`📌 大盤區間盤整，高出低進為主。月線為短期多空分界，季線為中期支撐，半年線為強弱分水嶺。`);
   }
 
-  // 恐慌指數影響
+  // 大盤氣氛
+  const biasStr = avgPct >= 0.5 ? '偏多' : avgPct <= -0.5 ? '偏空' : '持平';
+  lines.push(`📊 今日追蹤股整體 ${biasStr}（均漲跌 ${avgPct >= 0 ? '+' : ''}${avgPct.toFixed(2)}%，上漲 ${upCount}/${valid.length} 檔）`);
+
+  // 恐慌指數
   if (fg.score !== null && fg.score !== undefined) {
     if (fg.score <= 20) {
-      lines.push(`⚠️ 全球恐慌指數 ${fg.score.toFixed(0)}（極度恐慌），外資可能加速賣超台股，短線留意下殺風險，但也是中期佈局契機。`);
+      lines.push(`⚠️ 全球恐慌指數 ${fg.score.toFixed(0)}（極度恐慌）— 外資避險情緒濃厚，台股跟跌風險高，但也是中期佈局契機。短線控管部位、拉長佈局週期。`);
     } else if (fg.score <= 35) {
-      lines.push(`⚠️ 全球恐慌指數 ${fg.score.toFixed(0)}（恐慌），市場情緒偏弱，台股跟跌風險高，建議控管部位。`);
+      lines.push(`⚠️ 全球恐慌指數 ${fg.score.toFixed(0)}（恐慌）— 市場情緒偏弱，建議控管整體曝險，避免單筆重押。`);
+    } else if (fg.score >= 75) {
+      lines.push(`🟢 全球恐慌指數 ${fg.score.toFixed(0)}（貪婪）— 市場樂觀但需留意過熱，逢高可適度獲利了結。`);
     }
-  }
-
-  // 板塊建議
-  const sectors = {};
-  valid.forEach(s => {
-    const sec = s.sector || '其他';
-    if (!sectors[sec]) sectors[sec] = [];
-    sectors[sec].push(s);
-  });
-  const sectorAdvice = [];
-  for (const [sec, stocks] of Object.entries(sectors)) {
-    const secAvg = stocks.reduce((s,x) => s + x.change_pct, 0) / stocks.length;
-    const names = stocks.map(s => s.name).join('、');
-    if (secAvg >= 1.0) sectorAdvice.push(`• <span style="color:var(--color-up)">${sec}（${names}）</span>：表現強勢，量能充足可留意追蹤`);
-    else if (secAvg <= -1.0) sectorAdvice.push(`• <span style="color:var(--color-down)">${sec}（${names}）</span>：明顯走弱，避免逆勢操作`);
-    else sectorAdvice.push(`• ${sec}（${names}）：盤整格局，觀望等待方向`);
-  }
-  if (sectorAdvice.length) {
-    lines.push('');
-    lines.push('<strong>板塊操作建議：</strong>');
-    lines.push(...sectorAdvice);
-  }
-
-  // 放量股提醒
-  if (strongVol.length) {
-    lines.push('');
-    lines.push(`🔔 今日放量股（量比≥1.5x）：${strongVol.map(s => `${s.name}(${(s.volume_ratio||0).toFixed(1)}x)`).join('、')} — 留意主力動向`);
   }
 
   return `
@@ -3102,7 +3077,10 @@ main();
 // ── 恐慌指數歷史走勢圖 ──────────────────────────────────────
 async function loadFGTrend() {
   try {
-    const data = await fetchJSON('fear-greed-history.json');
+    let data;
+    try { data = await fetchJSON('reports/history/fear-greed.json'); }
+    catch { try { data = await (await fetch('./fear-greed-history.json?' + Date.now())).json(); } catch { return; } }
+    if (!data) return;
     if (!data || data.length < 2) return;
     const el = document.getElementById('fg-trend');
     if (!el) return;
