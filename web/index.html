@@ -2927,7 +2927,7 @@ function renderCryptoPrices(watchlist, signals, itemNotes) {
   <div class="section-gap">
     <div class="section-title" style="padding:0 2px;margin-bottom:10px">🪙 即時行情</div>
     <div style="display:flex;gap:14px;flex-wrap:wrap">${cards}</div>
-    <div style="font-size:10px;color:var(--text-muted);margin-top:8px;text-align:right">資料來源：Yahoo Finance / OKX API</div>
+    <div style="font-size:10px;color:var(--text-muted);margin-top:8px;text-align:right">資料來源：<span style="color:#f59e0b;font-weight:600">OKX</span> 即時報價</div>
   </div>`;
 }
 
@@ -3050,18 +3050,35 @@ function renderGridBotPanel(gridData) {
 
 function renderCryptoNews(newsData) {
   if (!newsData || !newsData.news) return '';
-  const cryptoKw = ['比特幣','BTC','Bitcoin','以太坊','ETH','Ethereum','加密','crypto','幣圈','穩定幣','DeFi','NFT','區塊鏈','blockchain','Coinbase','幣安','Binance','OKX','合約','礦工','減半','halving'];
+  const cryptoKw = ['比特幣','BTC','Bitcoin','以太坊','ETH','Ethereum','加密','crypto','幣圈','穩定幣','DeFi','NFT','區塊鏈','blockchain','Coinbase','幣安','Binance','OKX','合約','礦工','減半','halving','SOL','Solana','BNB','USDT','Tether','川普','Trump','SEC','監管','央行','降息','聯準會','Fed'];
   const cryptoNews = newsData.news.filter(n => {
     const text = (n.title || '') + (n.summary || '');
     return cryptoKw.some(kw => text.toLowerCase().includes(kw.toLowerCase()));
   });
-  if (!cryptoNews.length) return `
+
+  // Also include general macro news that impacts crypto
+  const macroKw = ['川普','Trump','關稅','tariff','制裁','sanction','戰爭','war','聯準會','Fed','降息','升息','CPI','通膨','inflation'];
+  const macroNews = newsData.news.filter(n => {
+    const text = (n.title || '') + (n.summary || '');
+    return macroKw.some(kw => text.toLowerCase().includes(kw.toLowerCase())) && !cryptoNews.includes(n);
+  });
+
+  if (!cryptoNews.length && !macroNews.length) return `
   <div class="section-gap">
-    <div class="card"><h2>📰 加密貨幣新聞</h2><div style="color:var(--text-muted);padding:10px">今日暫無加密相關新聞</div></div>
+    <div class="card"><h2>⚡ 加密貨幣快訊</h2><div style="color:var(--text-muted);padding:10px">今日暫無加密相關新聞</div></div>
   </div>`;
 
   const impactLabel = { bearish: '空', bullish: '多', neutral: '中' };
-  const html = cryptoNews.slice(0, 8).map(n => `
+
+  // Breaking news highlight (bearish crypto news)
+  const breaking = cryptoNews.filter(n => n.impact === 'bearish');
+  const breakingHTML = breaking.length ? `
+    <div style="background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.3);border-radius:10px;padding:12px;margin-bottom:12px">
+      <div style="font-size:12px;font-weight:700;color:#ef4444;margin-bottom:6px">🚨 重要快訊</div>
+      ${breaking.slice(0,3).map(n => `<div style="font-size:13px;color:var(--text-primary);margin-bottom:4px">• ${n.title}</div>`).join('')}
+    </div>` : '';
+
+  const cryptoHTML = cryptoNews.slice(0, 8).map(n => `
     <div class="news-item">
       <span class="news-impact ${n.impact || 'neutral'}">${impactLabel[n.impact] || '中'}</span>
       <div>
@@ -3070,11 +3087,27 @@ function renderCryptoNews(newsData) {
       </div>
     </div>`).join('');
 
+  const macroHTML = macroNews.length ? `
+    <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border)">
+      <div style="font-size:12px;font-weight:600;color:var(--text-muted);margin-bottom:8px">🌐 影響幣圈的總經動態</div>
+      ${macroNews.slice(0,5).map(n => `
+      <div class="news-item">
+        <span class="news-impact ${n.impact || 'neutral'}">${impactLabel[n.impact] || '中'}</span>
+        <div>
+          <div class="news-title">${n.title}</div>
+          <div class="news-source">${n.source || ''} · ${n.time || ''}</div>
+        </div>
+      </div>`).join('')}
+    </div>` : '';
+
   return `
   <div class="section-gap">
     <div class="card">
-      <h2>📰 加密貨幣新聞</h2>
-      ${html}
+      <h2>⚡ 加密貨幣快訊</h2>
+      ${breakingHTML}
+      ${cryptoHTML}
+      ${macroHTML}
+      ${newsData ? `<div style="font-size:10px;color:var(--text-muted);margin-top:8px;text-align:right">更新：${newsData.fetched_at || newsData.date || ''}</div>` : ''}
     </div>
   </div>`;
 }
@@ -3272,14 +3305,14 @@ function render(data, history = {}) {
       <!-- 操作方向建議 -->
       ${renderCryptoAdvice(data)}
 
-      <!-- BTC / ETH 即時行情卡片 -->
+      <!-- BTC / ETH / BNB / SOL / USDT 即時行情卡片 -->
       ${renderCryptoPrices(data.watchlist, data.signals, data.item_notes)}
+
+      <!-- 加密貨幣快訊（置於上方，時效優先）-->
+      ${renderCryptoNews(window._newsData)}
 
       <!-- 網格機器人狀態 -->
       ${renderGridBotPanel(window._gridBotData || {})}
-
-      <!-- 加密貨幣相關新聞 -->
-      ${renderCryptoNews(window._newsData)}
 
       <!-- Telegram CTA -->
       <div class="section-gap" style="text-align:center;padding:24px 0">
