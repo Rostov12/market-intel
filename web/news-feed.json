@@ -1,57 +1,37 @@
 {
-  "mode": "intraday",
+  "date": "2026-03-23",
+  "fetched_at": "2026-03-23 01:30",
+  "mode": "fallback",
   "news": [
     {
-      "title": "中東局勢急劇惡化：美以與伊朗衝突加劇，避險資金全面轉向國防與能源板塊",
-      "impact": "bearish",
-      "source": "Bloomberg",
-      "category": "Geo"
-    },
-    {
-      "title": "聯準會鮑爾釋放鷹派訊號：強調通膨具韌性，2026年降息預期大幅萎縮",
-      "impact": "bearish",
-      "source": "Federal Reserve",
-      "category": "Fed"
-    },
-    {
-      "title": "10年期美債殖利率衝上 4.39% 創近年新高，科技股估值面臨嚴峻修正壓力",
-      "impact": "bearish",
-      "source": "Financial Times",
-      "category": "Macro"
-    },
-    {
-      "title": "GameStop (GME) 及 Braze (BRZE) 即將於今日盤後公布財報，市場聚焦成長型企業指引",
+      "title": "3 weeks of war, possible rate hikes, and AI's 'show me' phase: What to watch this week",
       "impact": "neutral",
-      "source": "Investing.com",
-      "category": "Earnings"
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "This Investor Exited a $22 Million GRAIL Stake Before a 50% One-Day Stock Crash Last Month",
+      "impact": "neutral",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Get Ready For Dow Jones Futures After Trump Threatens To 'Obliterate' Iran's Power Plants",
+      "impact": "neutral",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
+      "impact": "neutral",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
+      "impact": "neutral",
+      "source": "Zacks"
+    },
+    {
+      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
+      "impact": "neutral",
+      "source": "Zacks"
     }
-  ],
-  "macro_snapshot": {
-    "fed_stance": "鷹派。Fed維持3.5%-3.75%利率，鮑爾強調受油價及關稅影響，2026年降息空間受限。",
-    "yield_10y": "4.39%（上升趨勢，利差 2Y/10Y 約 +0.60%）",
-    "dxy": "99.45（走強，受避險買盤支撐）",
-    "oil_wti": "94.2（飆升，受中東衝突與供給中斷風險驅動）",
-    "gold": "4,490（高位震盪，避險買盤因聯準會鷹派預期而受限）",
-    "vix": "25.4（顯著攀升，反映恐慌情緒）"
-  },
-  "sector_rotation": {
-    "strong": [
-      "能源",
-      "國防防禦",
-      "民生必需品"
-    ],
-    "weak": [
-      "AI半導體",
-      "高成長科技股",
-      "非必需消費"
-    ]
-  },
-  "key_drivers": [
-    "地緣政治衝突導致能源供給風險與避險情緒升溫",
-    "美債殖利率飆升對高估值 AI 及成長股的流動性擠壓",
-    "聯準會對於長期高利率（Higher for longer）的堅定立場"
-  ],
-  "market_tone": "市場受「戰爭風險」與「高殖利率」雙重擠壓，整體氛圍轉向極度謹慎與防禦性佈局。",
-  "date": "2026-03-23",
-  "fetched_at": "2026-03-23 01:00"
+  ]
 }
