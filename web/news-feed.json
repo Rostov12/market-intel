@@ -2,59 +2,55 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "中東局勢現外交轉機，川普稱與伊朗談判「富有成效」，美軍暫緩打擊行動",
+      "title": "川普宣布推遲對伊朗軍事打擊並下令「五日停火」，中東緊張局勢暫時降溫",
       "impact": "bullish",
-      "source": "MarketScreener",
+      "source": "Bloomberg",
       "category": "Geo"
     },
     {
-      "title": "Fed 古爾斯比警告：PPI 通膨數據超預期，若物價失控不排除重啟升息",
+      "title": "Super Micro (SMCI) 涉嫌違規向中國出口 AI 技術遭調查，股價崩跌逾 33%",
       "impact": "bearish",
-      "source": "The Motley Fool",
-      "category": "Fed"
-    },
-    {
-      "title": "原油期貨在衝破 100 美元大關後，隨避險情緒降溫回落至 98.5 美元附近",
-      "impact": "bullish",
-      "source": "Reuters",
-      "category": "Macro"
-    },
-    {
-      "title": "GameStop (GME) 今日盤後發布財報，迷因股波動性再度成為市場焦點",
-      "impact": "neutral",
       "source": "Finviz",
+      "category": "Flows"
+    },
+    {
+      "title": "FedEx (FDX) 第三季財報 EPS 達 5.25 美元遠超預期，物流板塊逆勢走強",
+      "impact": "bullish",
+      "source": "Zacks",
       "category": "Earnings"
     },
     {
-      "title": "科技股出現顯著空頭回補壓力，支撐盤中技術性反彈",
-      "impact": "bullish",
-      "source": "Internal",
-      "category": "Flows"
+      "title": "美國 2 月 PPI 達 0.7% 遠超預期，通膨壓力導致市場降息預期大幅縮減至 15% 以下",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "category": "Macro"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派：古爾斯比警告 PPI 通膨具粘性，若通膨失控不排除重啟升息以控制物價",
-    "yield_10y": "4.25%（利差 +0.46%，收益率曲線呈正常走勢）",
-    "dxy": "120.55（維持強勢高位，廣義美元指數）",
-    "oil_wti": "98.5（自 100 美元高位回吐漲幅）",
-    "vix": "30.0（盤前反彈，仍處於恐慌高位，顯示底部不穩）"
+    "fed_stance": "中性偏鷹：維持利率於 3.5%-3.75%，受 PPI 數據強勁影響，官員強調需更長時間觀察通膨趨勢",
+    "yield_10y": "4.36%（盤中一度觸及 4.44% 高點，隨後因地緣政治降溫回落）",
+    "dxy": "99.55（美元維持強勢，市場關注 100 心理關卡）",
+    "oil_wti": "88.85（受停火消息影響，自 100 美元關口劇烈回吐）",
+    "vix": "27.5（高位震盪，反映市場對外交觀察期之不確定性）"
   },
   "sector_rotation": {
     "strong": [
-      "科技/成長股（空頭回補）",
-      "旅遊/運輸（受惠油價回落）"
+      "物流運輸",
+      "公用事業",
+      "必需消費"
     ],
     "weak": [
-      "能源板塊（獲利了結）",
-      "傳統避險債券（需求隨外交轉機降溫）"
+      "能源",
+      "AI 半導體",
+      "貴金屬"
     ]
   },
   "key_drivers": [
-    "美伊衝突轉向外交斡旋，引發市場盤前暴力反彈與空頭回補",
-    "PPI 數據超預期顯示通膨仍具挑戰，限制了 Fed 降息的政策空間",
-    "原油價格從極端高位回落，緩解了市場對於二次通膨的立即恐懼"
+    "美伊衝突轉入 5 天外交調停期，暫時化解霍爾木茲海峽封鎖危機",
+    "PPI 數據展現通膨黏性，推升美債殖利率並壓制成長股估值",
+    "SMCI 法律風險引發 AI 族群資金撤離與恐慌性拋售"
   ],
-  "market_tone": "地緣政治降溫驅動的技術性暴力反彈，但通膨隱憂與 30 以上的高 VIX 顯示市場情緒仍極度脆弱。",
+  "market_tone": "市場情緒從戰爭邊緣轉向外交觀察，油價與殖利率回落為大盤提供短暫喘息，但 AI 龍頭利空與通膨隱憂仍令買盤克制。",
   "date": "2026-03-23",
-  "fetched_at": "2026-03-23 22:30"
+  "fetched_at": "2026-03-23 23:00"
 }
