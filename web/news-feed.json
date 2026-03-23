@@ -1,55 +1,37 @@
 {
-  "mode": "intraday",
+  "date": "2026-03-24",
+  "fetched_at": "2026-03-24 00:00",
+  "mode": "fallback",
   "news": [
     {
-      "title": "川普宣布暫緩對伊朗能源設施打擊，開啟五天觀察期，地緣避險情緒緩解",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "category": "Geo"
-    },
-    {
-      "title": "聯準會 3 月會議維持利率 3.5%-3.75% 不變，官員對 2026 年路徑分歧嚴重",
+      "title": "Stocks flash warning signs as Fed outlook, credit worries grow",
       "impact": "neutral",
-      "source": "GS",
-      "category": "Fed"
+      "source": "Yahoo Finance Video"
     },
     {
-      "title": "核心 PCE 回升至 3.1% 且受關稅影響，通膨壓力限制聯準會降息空間",
-      "impact": "bearish",
-      "source": "Bloomberg",
-      "category": "Macro"
+      "title": "Market's winners & losers last week: Why these 2 sectors stand out",
+      "impact": "neutral",
+      "source": "Yahoo Finance Video"
     },
     {
-      "title": "伊朗官方否認與美進行建設性對話，市場對「TACO 交易」持續性存疑",
-      "impact": "bearish",
-      "source": "TradingEconomics",
-      "category": "Geo"
+      "title": "Stock Market Today: Dow Surges As Trump Delays Iran Strikes; Yields Fall, Homebuilders Jump (Live Coverage)",
+      "impact": "neutral",
+      "source": "Investor's Business Daily"
+    },
+    {
+      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
+      "impact": "neutral",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
+      "impact": "neutral",
+      "source": "Zacks"
+    },
+    {
+      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
+      "impact": "neutral",
+      "source": "Zacks"
     }
-  ],
-  "macro_snapshot": {
-    "fed_stance": "中性偏鷹：維持利率不變，核心通膨受關稅推升，官員對後續是否升息存有分歧",
-    "yield_10y": "4.34%（避險需求回落導致收益率自高點下行）",
-    "dxy": "101.2（需求強勁，技術面看好挑戰 102）",
-    "oil_wti": "89.0（因地緣局勢緩解大幅暴跌逾 10%）",
-    "vix": "24.36（自 30 以上高位大幅回落 9%）"
-  },
-  "sector_rotation": {
-    "strong": [
-      "超跌科技龍頭 (AI/半導體)",
-      "非必需消費"
-    ],
-    "weak": [
-      "能源",
-      "黃金/避險資產",
-      "防禦性公用事業"
-    ]
-  },
-  "key_drivers": [
-    "中東局勢暫時緩解觸發風險資產去槓桿後的大規模反彈",
-    "市場重新定價 2026 年聯準會利率路徑，預期全年維持現狀",
-    "資金從能源與黃金流向超跌的科技股（NVIDIA、Tesla）"
-  ],
-  "market_tone": "避險情緒極度釋放後的地緣政治緩解型反彈，但通膨與政策不確定性仍支撐高波動率。",
-  "date": "2026-03-23",
-  "fetched_at": "2026-03-23 23:30"
+  ]
 }
