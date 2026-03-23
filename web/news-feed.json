@@ -1,59 +1,37 @@
 {
-  "mode": "intraday",
+  "date": "2026-03-24",
+  "fetched_at": "2026-03-24 03:30",
+  "mode": "fallback",
   "news": [
     {
-      "title": "Trump signals 5-day pause in Iran military action following 'productive' dialogue",
-      "impact": "bullish",
-      "source": "Bloomberg",
-      "category": "Geo"
-    },
-    {
-      "title": "WTI Crude falls to $89 as geopolitical tensions show signs of de-escalation",
-      "impact": "bullish",
-      "source": "Reuters",
-      "category": "Macro"
-    },
-    {
-      "title": "US PPI rises 0.7% MoM, fueling concerns over sticky inflation and delayed Fed cuts",
-      "impact": "bearish",
-      "source": "CNBC",
-      "category": "Macro"
-    },
-    {
-      "title": "Nauticus Robotics (KITT) hosts UAE expansion talk; GameStop (GME) earnings in focus post-market",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq surge as Trump postpones Iran strike for now",
       "impact": "neutral",
-      "source": "MarketWatch",
-      "category": "Earnings"
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Market's winners & losers last week: Why these 2 sectors stand out",
+      "impact": "neutral",
+      "source": "Yahoo Finance Video"
+    },
+    {
+      "title": "Okta (OKTA) Stock Trades Up, Here Is Why",
+      "impact": "neutral",
+      "source": "StockStory"
+    },
+    {
+      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
+      "impact": "neutral",
+      "source": "Motley Fool"
+    },
+    {
+      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
+      "impact": "neutral",
+      "source": "Zacks"
+    },
+    {
+      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
+      "impact": "neutral",
+      "source": "Zacks"
     }
-  ],
-  "macro_snapshot": {
-    "fed_stance": "中性偏鷹：維持利率於 3.50%–3.75% 並因 PPI 強韌暗示延後降息",
-    "yield_10y": "4.34%（高位回落）",
-    "yield_2y": "4.00%",
-    "dxy": "99.2（避險需求降溫）",
-    "oil_wti": "89.0",
-    "gold": "4450",
-    "vix": "24.9（自高點 27 回落）"
-  },
-  "sector_rotation": {
-    "strong": [
-      "能源",
-      "航空",
-      "郵輪",
-      "工業"
-    ],
-    "weak": [
-      "AI半導體",
-      "軟體服務",
-      "金融"
-    ]
-  },
-  "key_drivers": [
-    "美伊衝突出現 5 天暫緩窗口，市場情緒轉向風險偏好",
-    "油價大幅回落緩解滯脹擔憂，提振能源敏感型板塊",
-    "通膨數據強韌使美債殖利率維持高位，壓制成長股估值"
-  ],
-  "market_tone": "地緣政治緊張局勢暫時降溫引發報復性反彈，但通膨與高利率環境仍是中長期隱憂。",
-  "date": "2026-03-24",
-  "fetched_at": "2026-03-24 03:00"
+  ]
 }
