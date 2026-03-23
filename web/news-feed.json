@@ -2,55 +2,55 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "中東地緣政治危機升級：伊朗封鎖荷姆茲海峽，美國發出 48 小時軍事通牒",
-      "impact": "bearish",
-      "source": "Bloomberg",
+      "title": "川普宣布暫緩對伊軍事行動，全球市場上演「大反轉」",
+      "impact": "bullish",
+      "source": "Investing.com",
       "category": "Geo"
     },
     {
-      "title": "聯準會暗示 2026 年降息空間受限，通膨預期因能源飆升上調至 2.7%",
-      "impact": "bearish",
-      "source": "Reuters",
+      "title": "聯準會維持利率於 3.50%–3.75% 不變，鮑爾重申鷹派立場對抗通膨",
+      "impact": "neutral",
+      "source": "Federal Reserve",
       "category": "Fed"
     },
     {
-      "title": "2 月 PPI 數據顯示通膨黏性強勁，市場擔憂經濟進入「滯脹」週期",
-      "impact": "bearish",
-      "source": "CNBC",
-      "category": "Macro"
+      "title": "FedEx 財報大幅超越預期並上修 2026 指引，股價飆升 7.6%",
+      "impact": "bullish",
+      "source": "Bloomberg",
+      "category": "Earnings"
     },
     {
-      "title": "AI 投資回報率（ROI）遭機構質疑，科技巨頭出現自 2025 年以來最大單日拋售",
+      "title": "Lululemon 盈餘達標但利潤率承壓，北美市場增長疲軟引發警訊",
       "impact": "bearish",
-      "source": "Bloomberg",
-      "category": "Flows"
+      "source": "Zacks",
+      "category": "Earnings"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "鷹派。利率維持在 3.50%–3.75%，受地緣政治推升油價影響，年內降息預期推遲至 2027 年。",
-    "yield_10y": "4.3%（上升趨勢，反映利率長期維持高位預期）",
-    "dxy": "104.5（走強，受避險資金流入與利差優勢支撐）",
-    "oil_wti": "105.5（大幅飆升，因中東供應中斷風險）",
-    "vix": "30.04（極度恐慌，市場跌破 200 日均線）"
+    "fed_stance": "偏鷹派。雖地緣政治降溫，但主席鮑爾強調優先對抗通膨，點陣圖顯示 2026 年僅預計降息 1 次。",
+    "yield_10y": "4.33%（自高位回落）",
+    "dxy": "98.9（避險情緒降溫後走弱）",
+    "oil_wti": "89.5（大跌 10%）",
+    "vix": "24.5（從 31 回落，但仍處高位）"
   },
   "sector_rotation": {
     "strong": [
-      "能源",
-      "軍工防禦"
+      "AI半導體",
+      "科技成長",
+      "物流運輸"
     ],
     "weak": [
-      "AI半導體",
-      "科技成長股",
-      "房地產",
-      "通訊服務"
+      "能源",
+      "零售消費",
+      "房地產"
     ]
   },
   "key_drivers": [
-    "中東軍事衝突引發的能源價格失控",
-    "聯準會對抗黏性通膨的鷹派立場不變",
-    "AI 權值股估值修正與避險資金流向防禦性資產"
+    "美伊緊張局勢降溫帶動風險情緒回暖",
+    "能源價格劇烈回落緩解通膨與成本壓力",
+    "企業盈餘表現分化，物流龍頭對 2026 年展望樂觀"
   ],
-  "market_tone": "戰爭陰影與滯脹憂慮籠罩，市場情緒極度恐慌，資金正從高估值科技股向能源與避險資產逃離。",
+  "market_tone": "地緣政治降溫引發風險資產大反彈，市場焦點從避險轉向盈餘韌性與聯準會政策路徑。",
   "date": "2026-03-24",
-  "fetched_at": "2026-03-24 02:00"
+  "fetched_at": "2026-03-24 02:30"
 }
