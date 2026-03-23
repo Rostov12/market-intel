@@ -1,37 +1,56 @@
 {
-  "date": "2026-03-24",
-  "fetched_at": "2026-03-24 00:30",
-  "mode": "fallback",
+  "mode": "intraday",
   "news": [
     {
-      "title": "Stocks flash warning signs as Fed outlook, credit worries grow",
+      "title": "川普總統宣布暫停對伊朗能源設施打擊 5 天，地緣政治緊張局勢暫時緩解",
       "impact": "neutral",
-      "source": "Yahoo Finance Video"
+      "source": "Bloomberg",
+      "category": "Geo"
     },
     {
-      "title": "Market's winners & losers last week: Why these 2 sectors stand out",
-      "impact": "neutral",
-      "source": "Yahoo Finance Video"
+      "title": "美國 2 月 PPI 增長 0.7% 超出預期，通膨壓力持續高漲",
+      "impact": "bearish",
+      "source": "Reuters",
+      "category": "Macro"
     },
     {
-      "title": "This Vanguard ETF Could Be the Best for Growth Stock Investors",
-      "impact": "neutral",
-      "source": "Motley Fool"
+      "title": "市場對 Fed 年內降息預期驟降至 15% 以下，部分交易員開始定價升息風險",
+      "impact": "bearish",
+      "source": "CNBC",
+      "category": "Fed"
     },
     {
-      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
-      "impact": "neutral",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
-      "impact": "neutral",
-      "source": "Zacks"
+      "title": "能源板塊隨油價維持高位持續走強，科技股受高利率與 AI 獲利了結壓力下挫",
+      "impact": "bearish",
+      "source": "Wall Street Journal",
+      "category": "Flows"
     }
-  ]
+  ],
+  "macro_snapshot": {
+    "fed_stance": "鷹派。受高於預期的 PPI 與油價推動，官員對通膨回落缺乏信心，市場降息預期幾近消失。",
+    "yield_10y": "4.35%（自高位小幅回落但維持高檔）",
+    "dxy": "99.4（避險需求隨地緣政治暫緩而稍降）",
+    "oil_wti": "98.0",
+    "vix": "28.5（極度恐慌，處於一年高位）"
+  },
+  "sector_rotation": {
+    "strong": [
+      "能源",
+      "金融",
+      "必需消費品"
+    ],
+    "weak": [
+      "AI科技",
+      "房地產",
+      "公用事業"
+    ]
+  },
+  "key_drivers": [
+    "中東地緣政治局勢（川普政府對伊朗政策的動態變化）",
+    "通膨粘性（PPI 超預期）與聯準會轉鷹風險",
+    "資金從高估值成長股轉向防禦性與能源板塊"
+  ],
+  "market_tone": "地緣政治緩解帶來的短暫回升被強勁通膨數據抵銷，市場在避險情緒與高利率壓力下劇烈震盪。",
+  "date": "2026-03-24",
+  "fetched_at": "2026-03-24 01:00"
 }
