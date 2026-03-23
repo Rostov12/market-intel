@@ -1,50 +1,52 @@
 {
-  "mode": "intraday",
+  "mode": "preopen",
+  "futures": {
+    "es_change": "+2.7%",
+    "nq_change": "+2.6%",
+    "vix": "30.0"
+  },
   "news": [
     {
-      "title": "伊朗戰爭引發荷姆茲海峽封鎖威脅，布蘭特原油突破112美元",
-      "impact": "bearish",
-      "source": "Bloomberg",
+      "title": "中東局勢現外交轉機，川普稱與伊朗談判「富有成效」，美軍暫緩打擊行動",
+      "impact": "bullish",
+      "source": "MarketScreener",
       "category": "Geo"
     },
     {
-      "title": "聯準會官員警告能源價格引發二次通膨，市場定價年底前升息機率上升",
+      "title": "Fed 古爾斯比警告：PPI 通膨數據超預期，若物價失控不排除重啟升息",
       "impact": "bearish",
-      "source": "CME FedWatch",
+      "source": "The Motley Fool",
       "category": "Fed"
     },
     {
-      "title": "2月PPI連續兩月超預期，顯示通膨具有極強黏性",
-      "impact": "bearish",
-      "source": "Bureau of Labor Statistics",
+      "title": "原油期貨在衝破 100 美元大關後，隨避險情緒降溫回落至 98 美元附近",
+      "impact": "bullish",
+      "source": "Reuters",
       "category": "Macro"
+    },
+    {
+      "title": "GameStop (GME) 今日盤後發布財報，迷因股波動性再度成為市場焦點",
+      "impact": "neutral",
+      "source": "Finviz",
+      "category": "Earnings"
     }
   ],
-  "macro_snapshot": {
-    "fed_stance": "鷹派。主因為中東衝突引發能源通膨，迫使官員放棄降息預期並重申長期高利率（Higher for Longer）。",
-    "yield_10y": "4.38%（上升趨勢）",
-    "dxy": "99.4（受避險資金支撐走強）",
-    "oil_wti": "98.0",
-    "vix": "26.78（恐慌情緒蔓延）"
-  },
-  "sector_rotation": {
-    "strong": [
-      "能源",
-      "國防航太",
-      "避險美元"
+  "key_drivers": [
+    "地緣政治暴力反轉：伊朗衝突由升級轉向外交斡旋，引發盤前強勁空頭回補",
+    "通膨粘性憂慮：2月PPI年增3.4%高於預期，限縮了市場對 Fed 降息的想像空間",
+    "能源成本壓力緩解：油價高位回吐漲幅，降低了對工業與交通運輸板塊的利潤衝擊"
+  ],
+  "open_outlook": "預計將跳空高開。因地緣政治緊張局勢劇烈降溫，盤前出現暴力反彈，但 VIX 指數仍維持在 30 以上的高位，顯示市場底部尚未完全確認。開盤前 30 分鐘預計波動極大，需警惕高開後的獲利了結賣壓及對跳空缺口的回測。",
+  "watch_levels": {
+    "spx_support": [
+      5120,
+      5050
     ],
-    "weak": [
-      "AI半導體",
-      "科技成長股",
-      "非必需消費"
+    "spx_resist": [
+      5250,
+      5300
     ]
   },
-  "key_drivers": [
-    "地緣政治衝突（伊朗戰爭）導致供應鏈中斷風險",
-    "通膨預期回升壓抑聯準會降息空間",
-    "美債殖利率飆升對高估值科技股的評價壓力"
-  ],
-  "market_tone": "市場受地緣政治戰雲及通膨回溫雙重打擊，情緒極度不安，資金全面轉向防禦性與避險資產。",
   "date": "2026-03-23",
-  "fetched_at": "2026-03-23 04:30"
+  "fetched_at": "2026-03-23 21:30"
 }
