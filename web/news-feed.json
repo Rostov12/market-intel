@@ -1,37 +1,57 @@
 {
-  "date": "2026-03-24",
-  "fetched_at": "2026-03-24 04:00",
-  "mode": "fallback",
+  "mode": "intraday",
   "news": [
     {
-      "title": "Stock market today: Dow jumps 600 points, S&P 500, Nasdaq surge as Trump signals talks with Iran; oil tumbles",
-      "impact": "neutral",
-      "source": "Yahoo Finance"
+      "title": "川普宣布與伊朗實施五日停火並進行建設性對話，地緣政治風險大幅降溫",
+      "impact": "bullish",
+      "source": "Bloomberg",
+      "category": "Geo"
     },
     {
-      "title": "Market's winners & losers last week: Why these 2 sectors stand out",
-      "impact": "neutral",
-      "source": "Yahoo Finance Video"
+      "title": "油價與金價因避險資金撤出與通膨預期下降而同步崩跌",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "category": "Macro"
     },
     {
-      "title": "Jefferies, Sezzle, Shift4, LendingClub, and Invesco Shares Are Soaring, What You Need To Know",
+      "title": "聯準會副主席巴爾今日將就銀行監管發表談話，市場緊盯政策路徑",
       "impact": "neutral",
-      "source": "StockStory"
+      "source": "Reuters",
+      "category": "Fed"
     },
     {
-      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
+      "title": "GameStop 與 KB Home 今日將公布財報，考驗零售消費與房地產韌性",
       "impact": "neutral",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
-      "impact": "neutral",
-      "source": "Zacks"
+      "source": "MarketWatch",
+      "category": "Earnings"
     }
-  ]
+  ],
+  "macro_snapshot": {
+    "fed_stance": "中性偏鷹：維持基準利率 3.50%-3.75%，鮑爾傾向在任期結束前按兵不動以觀望通膨進展",
+    "yield_10y": "4.35%（受地緣風險降溫驅動回落）",
+    "dxy": "98.96（走弱，避險需求消退）",
+    "oil_wti": "87.5",
+    "vix": "24.2（從極端恐慌回落至中度波動）"
+  },
+  "sector_rotation": {
+    "strong": [
+      "工業",
+      "材料",
+      "公用事業",
+      "小型股"
+    ],
+    "weak": [
+      "能源",
+      "AI大型科技股",
+      "貴金屬相關"
+    ]
+  },
+  "key_drivers": [
+    "中東停火協議引發原油與黃金劇烈修正",
+    "避險資金重回週期性與防禦性板塊",
+    "美債殖利率從高點回落緩解成長股壓力"
+  ],
+  "market_tone": "地緣政治溢價劇烈消退，市場正經歷從避險資產向週期性板塊的大規模資金遷移。",
+  "date": "2026-03-24",
+  "fetched_at": "2026-03-24 04:30"
 }
