@@ -2861,6 +2861,124 @@ function renderOkxContracts(contracts) {
     </div>`;
 }
 
+/* ── 情緒類比（Memory Analogy）── */
+function renderSentimentAnalogy(data) {
+  const sa = data.sentiment_analogy;
+  if (!sa || !sa.current_score) return '';
+
+  const score = sa.current_score;
+  const scoreColor = score <= 25 ? '#ef4444' : score <= 40 ? '#f59e0b' : score <= 60 ? '#eab308' : score <= 75 ? '#22c55e' : '#10b981';
+  const scoreLabel = score <= 15 ? '極度恐慌' : score <= 30 ? '恐慌' : score <= 50 ? '偏空' : score <= 70 ? '中性偏多' : score <= 85 ? '貪婪' : '極度貪婪';
+
+  const detail = sa.detail || {};
+  const detailHTML = Object.entries(detail).map(([k, v]) => {
+    const labels = { RSI: 'RSI', 'F&G': '恐慌指數', VIX_inv: 'VIX反轉', '52W': '52W位置' };
+    return `<span style="background:var(--bg);padding:2px 8px;border-radius:4px;font-size:11px">${labels[k]||k}: ${typeof v === 'number' ? v.toFixed(0) : v}</span>`;
+  }).join(' ');
+
+  const analogues = sa.analogues || [];
+  const summary = sa.summary || {};
+
+  let analogueHTML = '';
+  if (analogues.length) {
+    const rows = analogues.map(a => {
+      const f20 = a.fwd_20d;
+      const f20Color = f20 > 0 ? '#22c55e' : f20 < 0 ? '#ef4444' : 'var(--text-muted)';
+      return `<tr style="border-bottom:1px solid var(--border)">
+        <td style="padding:6px 8px;font-size:12px">${a.date}</td>
+        <td style="padding:6px 8px;font-size:12px;text-align:center">${a.score}</td>
+        <td style="padding:6px 8px;font-size:12px;text-align:center">${a.fwd_5d != null ? (a.fwd_5d > 0 ? '+' : '') + a.fwd_5d + '%' : '—'}</td>
+        <td style="padding:6px 8px;font-size:12px;text-align:center">${a.fwd_10d != null ? (a.fwd_10d > 0 ? '+' : '') + a.fwd_10d + '%' : '—'}</td>
+        <td style="padding:6px 8px;font-size:12px;text-align:center;color:${f20Color};font-weight:600">${f20 != null ? (f20 > 0 ? '+' : '') + f20 + '%' : '—'}</td>
+      </tr>`;
+    }).join('');
+
+    const winRate = summary.win_rate_20d;
+    const avgRet = summary.avg_fwd_20d;
+    const winColor = winRate >= 60 ? '#22c55e' : winRate >= 40 ? '#eab308' : '#ef4444';
+
+    analogueHTML = `
+    <div style="margin-top:14px">
+      <div style="font-size:12px;font-weight:600;color:var(--text-secondary);margin-bottom:8px">📅 歷史相似日（±3分，共 ${summary.n_similar || '?'} 筆）</div>
+      <table style="width:100%;border-collapse:collapse">
+        <thead><tr style="border-bottom:2px solid var(--border)">
+          <th style="padding:6px 8px;font-size:11px;text-align:left;color:var(--text-muted)">日期</th>
+          <th style="padding:6px 8px;font-size:11px;text-align:center;color:var(--text-muted)">分數</th>
+          <th style="padding:6px 8px;font-size:11px;text-align:center;color:var(--text-muted)">5日後</th>
+          <th style="padding:6px 8px;font-size:11px;text-align:center;color:var(--text-muted)">10日後</th>
+          <th style="padding:6px 8px;font-size:11px;text-align:center;color:var(--text-muted)">20日後</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      ${winRate != null ? `<div style="display:flex;gap:16px;margin-top:10px;justify-content:center">
+        <div style="text-align:center">
+          <div style="font-size:10px;color:var(--text-muted)">20日勝率</div>
+          <div style="font-size:18px;font-weight:700;color:${winColor}">${winRate}%</div>
+        </div>
+        <div style="text-align:center">
+          <div style="font-size:10px;color:var(--text-muted)">平均報酬</div>
+          <div style="font-size:18px;font-weight:700;color:${avgRet > 0 ? '#22c55e' : '#ef4444'}">${avgRet > 0 ? '+' : ''}${avgRet}%</div>
+        </div>
+      </div>` : ''}
+    </div>`;
+  } else {
+    analogueHTML = '<div style="color:var(--text-muted);font-size:12px;margin-top:10px;text-align:center">歷史數據累積中，30 天後開始比對</div>';
+  }
+
+  return `
+  <div class="card section-gap">
+    <h2>🔮 情緒類比（Memory Analogy）</h2>
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:12px;flex-wrap:wrap">
+      <div style="text-align:center">
+        <div style="width:70px;height:70px;border-radius:50%;border:3px solid ${scoreColor};display:flex;align-items:center;justify-content:center;flex-direction:column">
+          <div style="font-size:22px;font-weight:800;color:${scoreColor}">${score}</div>
+        </div>
+        <div style="font-size:11px;color:${scoreColor};font-weight:600;margin-top:4px">${scoreLabel}</div>
+      </div>
+      <div style="flex:1">
+        <div style="font-size:13px;color:var(--text-secondary);margin-bottom:6px">綜合情緒分數（多指標加權）</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">${detailHTML}</div>
+      </div>
+    </div>
+    ${analogueHTML}
+  </div>`;
+}
+
+/* ── 地緣政治風險追蹤 ── */
+function renderGeoRisk(newsData) {
+  if (!newsData || !newsData.news) return '';
+  const geoKw = ['戰爭','war','軍事','military','飛彈','missile','制裁','sanction','伊朗','Iran','以色列','Israel','俄羅斯','Russia','烏克蘭','Ukraine','北韓','North Korea','台海','Taiwan Strait','南海','South China Sea','關稅','tariff','貿易戰','trade war','地緣','geopolitical','北約','NATO','核武','nuclear','石油','oil','天然氣','LNG','OPEC','中東','Middle East','海峽','strait','封鎖','blockade','空襲','airstrike','入侵','invasion','川普','Trump'];
+  const geoNews = newsData.news.filter(n => {
+    const text = (n.title || '') + (n.summary || '');
+    return geoKw.some(kw => text.toLowerCase().includes(kw.toLowerCase()));
+  });
+  if (!geoNews.length) return '';
+
+  const impactLabel = { bearish: '空', bullish: '多', neutral: '中' };
+  const riskLevel = geoNews.filter(n => n.impact === 'bearish').length;
+  const riskColor = riskLevel >= 3 ? '#ef4444' : riskLevel >= 1 ? '#f59e0b' : '#22c55e';
+  const riskText = riskLevel >= 3 ? '高風險' : riskLevel >= 1 ? '關注中' : '低風險';
+
+  const html = geoNews.slice(0, 6).map(n => `
+    <div class="news-item">
+      <span class="news-impact ${n.impact || 'neutral'}">${impactLabel[n.impact] || '中'}</span>
+      <div>
+        <div class="news-title">${n.title}</div>
+        <div class="news-source">${n.source || ''} · ${n.time || ''}</div>
+      </div>
+    </div>`).join('');
+
+  return `
+  <div class="card section-gap">
+    <h2>🌍 地緣政治風險追蹤</h2>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <span style="font-size:14px;font-weight:700;color:${riskColor}">● ${riskText}</span>
+      <span style="font-size:11px;color:var(--text-muted)">${geoNews.length} 則相關事件</span>
+    </div>
+    ${html}
+  </div>`;
+}
+
 /* ── 加密貨幣 Tab 渲染函式 ── */
 
 function renderCryptoPrices(watchlist, signals, itemNotes) {
@@ -3244,6 +3362,12 @@ function render(data, history = {}) {
           <div style="white-space:pre-wrap;line-height:1.7;font-size:13px;color:var(--text-secondary)">${data.holdings_analysis.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>
         </div>
       </div>` : ''}
+
+      <!-- 情緒類比（Memory Analogy）-->
+      ${renderSentimentAnalogy(data)}
+
+      <!-- 地緣政治風險追蹤 -->
+      ${renderGeoRisk(window._newsData)}
 
       <!-- Telegram CTA -->
       <div class="section-gap" style="text-align:center;padding:24px 0">
