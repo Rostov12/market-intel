@@ -2,55 +2,58 @@
   "mode": "intraday",
   "news": [
     {
-      "title": "川普宣布暫緩對伊軍事行動，全球市場上演「大反轉」",
+      "title": "Trump signals 5-day pause in Iran military action following 'productive' dialogue",
       "impact": "bullish",
-      "source": "Investing.com",
+      "source": "Bloomberg",
       "category": "Geo"
     },
     {
-      "title": "聯準會維持利率於 3.50%–3.75% 不變，鮑爾重申鷹派立場對抗通膨",
-      "impact": "neutral",
-      "source": "Federal Reserve",
-      "category": "Fed"
-    },
-    {
-      "title": "FedEx 財報大幅超越預期並上修 2026 指引，股價飆升 7.6%",
+      "title": "WTI Crude falls to $89 as geopolitical tensions show signs of de-escalation",
       "impact": "bullish",
-      "source": "Bloomberg",
-      "category": "Earnings"
+      "source": "Reuters",
+      "category": "Macro"
     },
     {
-      "title": "Lululemon 盈餘達標但利潤率承壓，北美市場增長疲軟引發警訊",
+      "title": "US PPI rises 0.7% MoM, fueling concerns over sticky inflation and delayed Fed cuts",
       "impact": "bearish",
-      "source": "Zacks",
+      "source": "CNBC",
+      "category": "Macro"
+    },
+    {
+      "title": "Nauticus Robotics (KITT) hosts UAE expansion talk; GameStop (GME) earnings in focus post-market",
+      "impact": "neutral",
+      "source": "MarketWatch",
       "category": "Earnings"
     }
   ],
   "macro_snapshot": {
-    "fed_stance": "偏鷹派。雖地緣政治降溫，但主席鮑爾強調優先對抗通膨，點陣圖顯示 2026 年僅預計降息 1 次。",
-    "yield_10y": "4.33%（自高位回落）",
-    "dxy": "98.9（避險情緒降溫後走弱）",
-    "oil_wti": "89.5（大跌 10%）",
-    "vix": "24.5（從 31 回落，但仍處高位）"
+    "fed_stance": "中性偏鷹：維持利率於 3.50%–3.75% 並因 PPI 強韌暗示延後降息",
+    "yield_10y": "4.34%（高位回落）",
+    "yield_2y": "4.00%",
+    "dxy": "99.2（避險需求降溫）",
+    "oil_wti": "89.0",
+    "gold": "4450",
+    "vix": "24.9（自高點 27 回落）"
   },
   "sector_rotation": {
     "strong": [
-      "AI半導體",
-      "科技成長",
-      "物流運輸"
+      "能源",
+      "航空",
+      "郵輪",
+      "工業"
     ],
     "weak": [
-      "能源",
-      "零售消費",
-      "房地產"
+      "AI半導體",
+      "軟體服務",
+      "金融"
     ]
   },
   "key_drivers": [
-    "美伊緊張局勢降溫帶動風險情緒回暖",
-    "能源價格劇烈回落緩解通膨與成本壓力",
-    "企業盈餘表現分化，物流龍頭對 2026 年展望樂觀"
+    "美伊衝突出現 5 天暫緩窗口，市場情緒轉向風險偏好",
+    "油價大幅回落緩解滯脹擔憂，提振能源敏感型板塊",
+    "通膨數據強韌使美債殖利率維持高位，壓制成長股估值"
   ],
-  "market_tone": "地緣政治降溫引發風險資產大反彈，市場焦點從避險轉向盈餘韌性與聯準會政策路徑。",
+  "market_tone": "地緣政治緊張局勢暫時降溫引發報復性反彈，但通膨與高利率環境仍是中長期隱憂。",
   "date": "2026-03-24",
-  "fetched_at": "2026-03-24 02:30"
+  "fetched_at": "2026-03-24 03:00"
 }
