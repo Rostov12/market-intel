@@ -3386,6 +3386,9 @@ function render(data, history = {}) {
       <!-- 經濟日曆 -->
       ${renderEconCalendar(data.econ_calendar)}
 
+      <!-- 突發新聞 -->
+      ${renderBreakingNews(window._breakingNews)}
+
       <!-- B区：今日重大事件 + 即時新聞 -->
       <div class="section-gap">
         <div class="card">
@@ -3394,6 +3397,15 @@ function render(data, history = {}) {
           ${renderNewsFlash(window._newsData)}
         </div>
       </div>
+
+      <!-- FRED 總經指標 -->
+      ${renderFredMacroPanel(window._fredData)}
+
+      <!-- 經濟日曆（獨立數據源） -->
+      ${renderEconCalendarStandalone(window._econCalData)}
+
+      <!-- SEC 內部人交易 + 國會議員交易 -->
+      ${renderInsiderTrades(window._insiderData, window._congressData)}
 
       <!-- 持倉深度解讀（NEBULA 風格） -->
       ${data.holdings_analysis ? `
@@ -3473,8 +3485,11 @@ function render(data, history = {}) {
       <!-- BTC / ETH / BNB / SOL / USDT 即時行情卡片 -->
       ${renderCryptoPrices(data.watchlist, data.signals, data.item_notes)}
 
-      <!-- 加密貨幣快訊（置於上方，時效優先）-->
+      <!-- 加密貨幣快訊（從盤後報告新聞中過濾）-->
       ${renderCryptoNews(window._newsData)}
+
+      <!-- 加密貨幣專用新聞（from crypto-news.json，多源即時）-->
+      ${renderCryptoNewsFeed(window._cryptoNews)}
 
       <!-- 網格機器人狀態 -->
       ${renderGridBotPanel(window._gridBotData || {})}
@@ -3501,6 +3516,173 @@ function render(data, history = {}) {
     initTrendChart(history);
     loadRiskTrendSVG();
   });
+}
+
+/* ── 突發新聞區塊（breaking-news.json）── */
+function renderBreakingNews(data) {
+  if (!data || !data.news || !data.news.length) return '';
+  const news = data.news.slice(0, 8);
+  const levelColors = { high: '#EF4444', medium: '#F59E0B', low: '#94A3B8' };
+  const levelIcons = { high: '🔴', medium: '🟡', low: '⚪' };
+  const items = news.map(n => {
+    const c = levelColors[n.level] || '#94A3B8';
+    const icon = levelIcons[n.level] || '⚪';
+    const timeAgo = n.detected_at ? formatTimeAgo(n.detected_at) : '';
+    return `<div style="display:flex;gap:8px;padding:8px 0;border-bottom:1px solid var(--border)22;align-items:flex-start">
+      <span style="font-size:12px;flex-shrink:0;margin-top:2px">${icon}</span>
+      <div style="flex:1;min-width:0">
+        <div style="font-size:13px;color:var(--text-primary);line-height:1.5">${(n.title||'').replace(/</g,'&lt;')}</div>
+        <div style="font-size:10px;color:var(--text-muted);margin-top:2px">
+          ${n.source || ''} ${timeAgo ? '· ' + timeAgo : ''}
+          ${n.summary ? `<span style="color:var(--text-secondary);margin-left:4px">— ${(n.summary||'').slice(0,80).replace(/</g,'&lt;')}…</span>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  return `
+  <div class="card section-gap">
+    <h2>⚡ 突發新聞<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">更新：${data.updated_at || ''}</span></h2>
+    ${items}
+  </div>`;
+}
+
+function formatTimeAgo(isoStr) {
+  try {
+    const d = new Date(isoStr);
+    const now = new Date();
+    const mins = Math.floor((now - d) / 60000);
+    if (mins < 60) return mins + '分鐘前';
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return hrs + '小時前';
+    return Math.floor(hrs / 24) + '天前';
+  } catch { return ''; }
+}
+
+/* ── 加密貨幣專用新聞區塊（crypto-news.json）── */
+function renderCryptoNewsFeed(data) {
+  if (!data || !data.news || !data.news.length) return '';
+  const news = data.news.slice(0, 10);
+  const items = news.map(n => {
+    const coinTags = (n.coins || []).map(c =>
+      `<span style="background:#f59e0b22;color:#f59e0b;border-radius:3px;padding:1px 5px;font-size:9px;font-weight:600">${c}</span>`
+    ).join(' ');
+    return `<div style="display:flex;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)22">
+      <div style="flex:1;min-width:0">
+        <div style="font-size:13px;color:var(--text-primary);line-height:1.4">${(n.title||'').replace(/</g,'&lt;')}</div>
+        <div style="font-size:10px;color:var(--text-muted);margin-top:3px">
+          ${n.source || ''} ${coinTags} ${n.summary ? `<span style="color:var(--text-secondary)">— ${(n.summary||'').slice(0,60).replace(/</g,'&lt;')}…</span>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+  return `
+  <div class="card section-gap">
+    <h2>🪙 加密貨幣新聞<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.sources ? data.sources.join(' · ') : ''} · ${data.updated_at || ''}</span></h2>
+    ${items}
+  </div>`;
+}
+
+/* ── SEC 內部人交易 + 國會議員交易 ── */
+function renderInsiderTrades(insider, congress) {
+  const hasInsider = insider && insider.trades && insider.trades.length > 0;
+  const hasCongress = congress && congress.watchlist_hits && congress.watchlist_hits.length > 0;
+  if (!hasInsider && !hasCongress) return '';
+
+  const typeColor = { '買入': '#10b981', '賣出': '#ef4444', '選擇權/獎勵': '#6366f1', '未知': '#94a3b8' };
+
+  let insiderHTML = '';
+  if (hasInsider) {
+    insiderHTML = insider.trades.slice(0, 8).map(t => {
+      const c = typeColor[t.type] || '#94a3b8';
+      return `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--border)22">
+        <div>
+          <span style="font-weight:600;color:var(--text-primary)">${t.ticker}</span>
+          <span style="color:var(--text-muted);font-size:11px;margin-left:6px">${t.company}</span>
+        </div>
+        <span style="background:${c}18;color:${c};border:1px solid ${c}44;border-radius:4px;padding:1px 8px;font-size:11px;font-weight:600">${t.type}</span>
+      </div>`;
+    }).join('');
+  }
+
+  let congressHTML = '';
+  if (hasCongress) {
+    congressHTML = `
+    <div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--border)">
+      <div style="font-size:12px;font-weight:600;color:var(--text-muted);margin-bottom:6px">🏛️ 國會議員交易</div>
+      ${congress.watchlist_hits.slice(0, 5).map(t =>
+        `<div style="padding:4px 0;font-size:12px;color:var(--text-secondary)">${t.politician || ''} — ${t.ticker || ''} ${t.type || ''}</div>`
+      ).join('')}
+    </div>`;
+  }
+
+  return `
+  <div class="card section-gap">
+    <h2>🏛️ 內部人交易${hasInsider ? ` <span style="font-size:10px;color:var(--text-muted);font-weight:400">${insider.updated_at || ''} · ${insider.total_scanned}筆掃描 · ${insider.watchlist_matches}筆命中</span>` : ''}</h2>
+    ${insiderHTML || '<div style="font-size:12px;color:var(--text-muted);padding:8px 0">今日無 watchlist 命中</div>'}
+    ${congressHTML}
+  </div>`;
+}
+
+/* ── FRED 總經數據獨立區塊（from fred-macro.json）── */
+function renderFredMacroPanel(data) {
+  if (!data || !data.indicators) return '';
+  const ind = data.indicators;
+  const keys = Object.keys(ind);
+  if (!keys.length) return '';
+
+  const items = keys.map(k => {
+    const d = ind[k];
+    const chg = d.change || 0;
+    const arrow = chg > 0 ? '▲' : chg < 0 ? '▼' : '—';
+    const color = chg > 0 ? '#ef4444' : chg < 0 ? '#10b981' : '#94a3b8';
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--border)22">
+      <span style="font-size:12px;color:var(--text-secondary)">${d.name}</span>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-weight:600;font-size:13px;color:var(--text-primary)">${d.value}${d.unit || ''}</span>
+        <span style="color:${color};font-size:11px">${arrow} ${Math.abs(chg).toFixed(2)}</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card section-gap">
+    <h2>📊 FRED 總經指標<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.fetched_at || ''}</span></h2>
+    ${items}
+  </div>`;
+}
+
+/* ── 獨立經濟日曆區塊（from economic-calendar.json）── */
+function renderEconCalendarStandalone(data) {
+  if (!data || (!data.next_fomc && (!data.next_7_days || !data.next_7_days.length) && (!data.next_14_days || !data.next_14_days.length))) return '';
+  const importanceColor = { high: '#EF4444', medium: '#F59E0B', low: '#94A3B8' };
+
+  const fomcHTML = data.next_fomc ? `
+    <div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);margin-bottom:4px">
+      <span style="font-size:14px">🏦</span>
+      <span style="font-size:13px;font-weight:600;color:var(--text-primary)">${data.next_fomc.label}</span>
+    </div>` : '';
+
+  const events = (data.next_14_days || data.next_7_days || []).slice(0, 10);
+  const eventsHTML = events.map(e => {
+    const c = importanceColor[e.importance] || '#94A3B8';
+    const badge = e.days_away <= 3
+      ? `<span style="background:${c}22;color:${c};border:1px solid ${c}44;border-radius:4px;padding:1px 5px;font-size:9px;font-weight:700">${e.days_away}天後</span>`
+      : `<span style="color:var(--text-muted);font-size:10px">${e.days_away}天後</span>`;
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid var(--border)22">
+      <span style="font-size:12px;color:var(--text-primary)">${e.event}</span>
+      <div style="display:flex;align-items:center;gap:6px">
+        <span style="font-size:10px;color:var(--text-muted)">${e.date}</span>
+        ${badge}
+      </div>
+    </div>`;
+  }).join('');
+
+  return `
+  <div class="card section-gap">
+    <h2>📅 經濟日曆<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.generated_at || ''}</span></h2>
+    ${fomcHTML}
+    ${eventsHTML || '<div style="font-size:12px;color:var(--text-muted);padding:8px 0">未來 14 天無重大數據</div>'}
+  </div>`;
 }
 
 /* ── 風險評分走勢圖（嵌入 SVG）── */
@@ -3533,7 +3715,7 @@ async function main() {
       ...(data.watchlist || []).map(w => w.symbol),
       ...(data.tw_stocks || []).map(s => s.symbol),
     ];
-    const [, newsResult, premktResult, sentResult, instResult, gridBtcResult, gridEthResult] = await Promise.allSettled([
+    const [, newsResult, premktResult, sentResult, instResult, gridBtcResult, gridEthResult, breakingResult, cryptoNewsResult, insiderResult, congressResult, econCalResult, fredResult] = await Promise.allSettled([
       Promise.allSettled(
         [...new Set(allSymbols)].map(async sym => {
           const key = sym.replace('-USD', '');
@@ -3547,6 +3729,12 @@ async function main() {
       fetchJSON('institutional.json').catch(() => null),
       fetchJSON('grid-bot/BTC-USDT.json').catch(() => null),
       fetchJSON('grid-bot/ETH-USDT.json').catch(() => null),
+      fetchJSON('breaking-news.json').catch(() => null),
+      fetchJSON('crypto-news.json').catch(() => null),
+      fetchJSON('insider-trades.json').catch(() => null),
+      fetchJSON('congress-trades.json').catch(() => null),
+      fetchJSON('economic-calendar.json').catch(() => null),
+      fetchJSON('fred-macro.json').catch(() => null),
     ]);
 
     window._newsData = newsResult.status === 'fulfilled' ? newsResult.value : null;
@@ -3557,6 +3745,12 @@ async function main() {
       btc: gridBtcResult.status === 'fulfilled' ? gridBtcResult.value : null,
       eth: gridEthResult.status === 'fulfilled' ? gridEthResult.value : null,
     };
+    window._breakingNews = breakingResult.status === 'fulfilled' ? breakingResult.value : null;
+    window._cryptoNews   = cryptoNewsResult.status === 'fulfilled' ? cryptoNewsResult.value : null;
+    window._insiderData  = insiderResult.status === 'fulfilled' ? insiderResult.value : null;
+    window._congressData = congressResult.status === 'fulfilled' ? congressResult.value : null;
+    window._econCalData  = econCalResult.status === 'fulfilled' ? econCalResult.value : null;
+    window._fredData     = fredResult.status === 'fulfilled' ? fredResult.value : null;
 
     renderDateNavUI();
     render(data, cachedHistory);
