@@ -1,13 +1,31 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 00:30",
+  "fetched_at": "2026-03-25 01:00",
   "mode": "intraday",
   "news": [
+    {
+      "title": "Jamie Dimon says Iran war makes Middle East peace prospects better in the long term",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "傑米戴蒙表示，從長遠來看，伊朗戰爭使中東和平前景更好"
+    },
+    {
+      "title": "Pakistan offers to facilitate U.S.-Iran war talks as Trump, Tehran give mixed signals",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "川普和德黑蘭發出混合訊號，巴基斯坦提出協助美伊戰爭談判"
+    },
     {
       "title": "Moody's cuts rating on private credit fund run by KKR and Future Standard to junk as bad loans grow",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "由於不良貸款增加，穆迪將 KKR 和未來標準營運的私人信貸基金評級下調至垃圾級"
+    },
+    {
+      "title": "Stocks making the biggest moves midday: Circle Internet Group, SAP, Netgear, Jefferies & more",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "中午漲幅最大的股票：Circle Internet Group、SAP、Netgear、Jefferies 等"
     },
     {
       "title": "Pentagon ban of Anthropic faces judge; Claude AI maker seeks injunction",
@@ -16,40 +34,22 @@
       "title_cn": "五角大廈對 Anthropic 的禁令面臨法官；克勞德人工智慧製造商尋求禁令"
     },
     {
-      "title": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
+      "title": "This industry group is the star of 2026, besides energy. Trivariate says these stocks are a buy",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "美聯航放棄更多經濟艙座位，為採用新佈局的更大高級客艙騰出空間"
+      "title_cn": "除了能源之外，這個產業群是2026年的明星。 Trivariate 表示這些股票值得買入"
     },
     {
-      "title": "Circle heads for its worst day on record as stablecoin rival Tether announces audit milestone",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "隨著穩定幣競爭對手 Tether 宣布審計里程碑，Circle 迎來了有史以來最糟糕的一天"
-    },
-    {
-      "title": "S&P 500 is little changed as Wall Street tries to build on Monday's rally: Live updates",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "華爾街試圖在周一的反彈基礎上再接再厲，標普 500 指數幾乎沒有變化：即時更新"
-    },
-    {
-      "title": "These stocks are cheaper than they were during the pandemic. Evercore ISI says buy them",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "這些股票比大流行期間便宜。 Evercore ISI 表示購買它們"
-    },
-    {
-      "title": "Elizabeth Warren raises alarm over MrBeast&#x2019;s teen banking app encouraging &#x2018;risky investments&#x2019;",
+      "title": "&#x2018;This guy has no manners&#x2019;: My Airbnb guest requested I buy bacon and beer. The $30 bill remains unpaid. Do I insist?",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "伊麗莎白沃倫 (Elizabeth Warren) 對 MrBeast 的青少年銀行應用程式鼓勵「風險投資」發出警告"
+      "title_cn": "「這傢伙沒有禮貌」：我的 Airbnb 房客要我買培根和啤酒。 30 美元的帳單仍未支付。我堅持嗎？"
     },
     {
-      "title": "The surprising reason Americans are working longer than they used to",
+      "title": "History shows investors are right to worry about 2026 being a bad year for U.S. stocks",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "美國人工作時間比以前更長的令人驚訝的原因"
+      "title_cn": "歷史表明，投資者對 2026 年美國股市糟糕的一年的擔憂是正確的"
     }
   ]
 }
