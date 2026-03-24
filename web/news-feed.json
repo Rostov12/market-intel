@@ -1,52 +1,55 @@
 {
+  "date": "2026-03-24",
+  "fetched_at": "2026-03-24 20:44",
   "mode": "preopen",
-  "futures": {
-    "es_change": "+0.12%",
-    "nq_change": "+0.28%",
-    "vix": "18.8"
-  },
   "news": [
     {
-      "title": "伊朗戰爭局勢僵持，美股期貨在昨日大漲後呈現震盪走勢",
+      "title": "Moody's cuts rating on private credit fund run by KKR and Future Standard to junk as bad loans grow",
       "impact": "neutral",
-      "source": "Yahoo Finance",
-      "category": "Geo"
+      "source": "CNBC",
+      "title_cn": "由於不良貸款增加，穆迪將 KKR 和未來標準營運的私人信貸基金評級下調至垃圾級"
     },
     {
-      "title": "川普釋出與伊朗談判信號帶動油價跳水，惟伊朗官方隨後否認並拒絕所有談判",
+      "title": "Oil rises with Brent climbing back above $100 as optimism fades over Iran war de-escalation",
       "impact": "bearish",
-      "source": "Reddit/WSB",
-      "category": "Geo"
+      "source": "CNBC",
+      "title_cn": "由於伊朗戰爭緩和的樂觀情緒消退，布蘭特原油價格重回 100 美元上方，油價上漲"
     },
     {
-      "title": "NVIDIA 展望 2027 年晶片訂單將達 1 兆美元，支撐半導體族群盤前走強",
+      "title": "Gap becomes the first major fashion company to offer checkout within Google's Gemini",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "Gap 成為第一家在 Google Gemini 內提供結帳服務的大型時尚公司"
+    },
+    {
+      "title": "EV battery startup pivots to defense industry amid Iran war, weak electric vehicle market",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "伊朗戰爭、電動車市場疲軟之際，電動車電池新創公司轉向國防工業"
+    },
+    {
+      "title": "S&P 500 futures pull back after Monday's rally as oil prices rebound, Iran conflict continues: Live updates",
       "impact": "bullish",
-      "source": "Zacks",
-      "category": "Earnings"
+      "source": "CNBC",
+      "title_cn": "由於油價反彈、伊朗衝突持續，標準普爾 500 指數期貨在周一上漲後回檔：即時更新"
     },
     {
-      "title": "10年期美債殖利率跳升至 4.39%，創近期新高，壓制成長股反彈力道",
-      "impact": "bearish",
-      "source": "FRED",
-      "category": "Macro"
+      "title": "Here are Tuesday's biggest analyst calls: Apple, Tesla, Microsoft, Oracle, CoreWeave, Ralph Lauren & more",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "以下是周二最重要的分析師電話會議：蘋果、特斯拉、微軟、甲骨文、CoreWeave、Ralph Lauren 等"
+    },
+    {
+      "title": "The U.S. government is about to define what junk food is. But comparing soy milk and gummy bears is complicated.",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "美國政府即將定義什麼是垃圾食物。但豆奶和小熊軟糖的比較很複雜。"
+    },
+    {
+      "title": "Apollo&#x2019;s private-credit fund is the latest to not give some investors their money back",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "阿波羅的私人信貸基金是最新一家不向部分投資者返還資金的基金"
     }
-  ],
-  "key_drivers": [
-    "地緣政治拉鋸：川普暫緩軍事打擊 vs 伊朗強硬拒絕談判，荷姆茲海峽封鎖風險仍存",
-    "債市壓力：10年期殖利率單日跳升 14bp，對高估值科技股形成顯著壓力",
-    "宏觀數據空窗期：市場靜待 3 天後的 2 月 PCE 數據，盤前情緒趨於謹慎"
-  ],
-  "open_outlook": "預計平開震盪。NVIDIA 的樂觀指引支撐納指表現優於標普，但殖利率飆升與地緣政治的不確定性限制了漲幅。開盤後 30 分鐘預計維持在昨日收盤價附近盤整，尋找支撐。",
-  "watch_levels": {
-    "spx_support": [
-      5200,
-      5180
-    ],
-    "spx_resist": [
-      5280,
-      5320
-    ]
-  },
-  "date": "2026-03-24",
-  "fetched_at": "2026-03-24 20:30"
+  ]
 }
