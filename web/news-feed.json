@@ -1,6 +1,6 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 03:30",
+  "fetched_at": "2026-03-25 04:00",
   "mode": "intraday",
   "news": [
     {
@@ -10,10 +10,28 @@
       "title_cn": "傑米戴蒙表示，從長遠來看，伊朗戰爭使中東和平前景更好"
     },
     {
+      "title": "World has 'never experienced' soaring refining margins like this, TotalEnergies CEO tells CNBC",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "TotalEnergies 執行長告訴 CNBC，世界「從未經歷過」如此飆升的煉油利潤"
+    },
+    {
+      "title": "Trump says U.S. and Iran are 'in negotiations right now,' Tehran is 'talking sense'",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "川普稱美國和伊朗“正在談判”，德黑蘭“說的是有道理的”"
+    },
+    {
       "title": "Kuwait says Strait of Hormuz closure is beyond catastrophic, will trigger domino effect across global economy",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "科威特表示霍爾木茲海峽的關閉不僅僅是災難性的，將引發全球經濟的骨牌效應"
+    },
+    {
+      "title": "Market sell-off lets investors turn straw into gold with these tax-smart moves",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "市場拋售讓投資者透過這些節稅措施將稻草變成黃金"
     },
     {
       "title": "Pakistan offers to facilitate U.S.-Iran war talks as Trump and Tehran give mixed signals",
@@ -22,34 +40,16 @@
       "title_cn": "川普和德黑蘭發出混合訊號，巴基斯坦提出協助美伊戰爭談判"
     },
     {
-      "title": "Senate Republicans, White House move toward ending DHS shutdown amid TSA delays",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "參議院共和黨人和白宮在運輸安全管理局延誤的情況下採取行動結束國土安全部關閉"
-    },
-    {
-      "title": "Delta suspends 'specialty services' perk for members of Congress, cites DHS shutdown",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "達美航空以國土安全部關閉為由暫停向國會議員提供「專業服務」福利"
-    },
-    {
-      "title": "The charts to watch in tech, gold and emerging market stocks as volatility persists",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "隨著波動持續存在，科技、黃金和新興市場股票值得關注的圖表"
-    },
-    {
-      "title": "Long airport lines may soon disappear as senators sound hopeful on funding deal",
-      "impact": "neutral",
+      "title": "Software stocks fall as fear of AI disruption is back in full force",
+      "impact": "bearish",
       "source": "MarketWatch",
-      "title_cn": "由於參議員對融資協議充滿希望，機場長隊可能很快就會消失"
+      "title_cn": "由於對人工智慧顛覆的擔憂再次全面爆發，軟體股下跌"
     },
     {
-      "title": "Oil prices rally as Pentagon reportedly plans to deploy 3,000 troops to the Middle East",
+      "title": "Medicare is cracking down on  rising fraud and improper care at hospice as admissions soar",
       "impact": "bullish",
       "source": "MarketWatch",
-      "title_cn": "據報道五角大廈計劃向中東部署 3,000 名士兵，油價上漲"
+      "title_cn": "隨著入院人數激增，醫療保險正在打擊臨終關懷中心不斷增加的詐欺和不當護理行為"
     }
   ]
 }
