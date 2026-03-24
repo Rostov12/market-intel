@@ -1,37 +1,52 @@
 {
-  "date": "2026-03-24",
-  "fetched_at": "2026-03-24 20:00",
-  "mode": "fallback",
+  "mode": "preopen",
+  "futures": {
+    "es_change": "+0.12%",
+    "nq_change": "+0.28%",
+    "vix": "18.8"
+  },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures waver after rally as Iran war drags on",
+      "title": "伊朗戰爭局勢僵持，美股期貨在昨日大漲後呈現震盪走勢",
       "impact": "neutral",
-      "source": "Yahoo Finance"
+      "source": "Yahoo Finance",
+      "category": "Geo"
     },
     {
-      "title": "Stock market today: Dow jumps 600 points, S&P 500, Nasdaq surge as Trump signals talks with Iran; oil tumbles",
-      "impact": "neutral",
-      "source": "Yahoo Finance"
+      "title": "川普釋出與伊朗談判信號帶動油價跳水，惟伊朗官方隨後否認並拒絕所有談判",
+      "impact": "bearish",
+      "source": "Reddit/WSB",
+      "category": "Geo"
     },
     {
-      "title": "Market's winners & losers last week: Why these 2 sectors stand out",
-      "impact": "neutral",
-      "source": "Yahoo Finance Video"
+      "title": "NVIDIA 展望 2027 年晶片訂單將達 1 兆美元，支撐半導體族群盤前走強",
+      "impact": "bullish",
+      "source": "Zacks",
+      "category": "Earnings"
     },
     {
-      "title": "Bold Prediction: SMH Is About to Soar. Here's Why.",
-      "impact": "neutral",
-      "source": "Motley Fool"
-    },
-    {
-      "title": "Forget Iran War: Bet Big on Tech ETFs on Earnings Strength",
-      "impact": "neutral",
-      "source": "Zacks"
-    },
-    {
-      "title": "ETFs to Gain as NVIDIA Views $1 Trillion in Chip Orders by 2027",
-      "impact": "neutral",
-      "source": "Zacks"
+      "title": "10年期美債殖利率跳升至 4.39%，創近期新高，壓制成長股反彈力道",
+      "impact": "bearish",
+      "source": "FRED",
+      "category": "Macro"
     }
-  ]
+  ],
+  "key_drivers": [
+    "地緣政治拉鋸：川普暫緩軍事打擊 vs 伊朗強硬拒絕談判，荷姆茲海峽封鎖風險仍存",
+    "債市壓力：10年期殖利率單日跳升 14bp，對高估值科技股形成顯著壓力",
+    "宏觀數據空窗期：市場靜待 3 天後的 2 月 PCE 數據，盤前情緒趨於謹慎"
+  ],
+  "open_outlook": "預計平開震盪。NVIDIA 的樂觀指引支撐納指表現優於標普，但殖利率飆升與地緣政治的不確定性限制了漲幅。開盤後 30 分鐘預計維持在昨日收盤價附近盤整，尋找支撐。",
+  "watch_levels": {
+    "spx_support": [
+      5200,
+      5180
+    ],
+    "spx_resist": [
+      5280,
+      5320
+    ]
+  },
+  "date": "2026-03-24",
+  "fetched_at": "2026-03-24 20:30"
 }
