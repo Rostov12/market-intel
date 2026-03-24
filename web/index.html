@@ -3479,6 +3479,9 @@ function render(data, history = {}) {
     <!-- ── Tab 3: 加密貨幣 ── -->
     <div id="tab-crypto" class="tab-content">
 
+      <!-- KPI 摘要卡 -->
+      ${renderCryptoKPI(data, window._cryptoAlerts, window._gridBotData)}
+
       <!-- 操作方向建議 -->
       ${renderCryptoAdvice(data)}
 
@@ -3518,6 +3521,80 @@ function render(data, history = {}) {
   });
 }
 
+/* ── 加密貨幣 KPI 摘要卡 ── */
+function renderCryptoKPI(data, alerts, gridBot) {
+  // Extract BTC/ETH from watchlist
+  const btc = (data.watchlist || []).find(w => w.symbol === 'BTC-USD') || {};
+  const eth = (data.watchlist || []).find(w => w.symbol === 'ETH-USD') || {};
+  const fg = data.fear_greed || {};
+
+  // Recent alert
+  const recentAlerts = Array.isArray(alerts) ? alerts : [];
+  const latestAlert = recentAlerts.length > 0 ? recentAlerts[0] : null;
+
+  // Grid bot P&L
+  const btcGrid = gridBot?.btc;
+  const ethGrid = gridBot?.eth;
+
+  const kpis = [
+    {
+      label: 'BTC',
+      value: btc.price ? '$' + Number(btc.price).toLocaleString() : '—',
+      sub: btc.change_pct ? (btc.change_pct > 0 ? '+' : '') + btc.change_pct.toFixed(2) + '%' : '',
+      color: (btc.change_pct || 0) >= 0 ? '#10b981' : '#ef4444',
+      icon: '₿'
+    },
+    {
+      label: 'ETH',
+      value: eth.price ? '$' + Number(eth.price).toLocaleString() : '—',
+      sub: eth.change_pct ? (eth.change_pct > 0 ? '+' : '') + eth.change_pct.toFixed(2) + '%' : '',
+      color: (eth.change_pct || 0) >= 0 ? '#10b981' : '#ef4444',
+      icon: 'Ξ'
+    },
+    {
+      label: '恐慌指數',
+      value: fg.score ? fg.score.toFixed(0) : '—',
+      sub: fg.label || '',
+      color: (fg.score || 50) <= 25 ? '#ef4444' : (fg.score || 50) <= 50 ? '#f59e0b' : '#10b981',
+      icon: '😱'
+    },
+    {
+      label: '異動',
+      value: latestAlert ? latestAlert.coin : '無',
+      sub: latestAlert ? latestAlert.direction + ' ' + latestAlert.change_pct?.toFixed(1) + '%' : '24h 內無異動',
+      color: latestAlert ? '#f59e0b' : '#94a3b8',
+      icon: '⚡'
+    }
+  ];
+
+  const html = kpis.map(k => `
+    <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:12px 14px;text-align:center;min-width:0">
+      <div style="font-size:18px;margin-bottom:2px">${k.icon}</div>
+      <div style="font-size:10px;color:var(--text-muted)">${k.label}</div>
+      <div style="font-size:16px;font-weight:700;color:var(--text-primary);margin:2px 0">${k.value}</div>
+      <div style="font-size:11px;color:${k.color};font-weight:600">${k.sub}</div>
+    </div>
+  `).join('');
+
+  return `<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px">${html}</div>`;
+}
+
+/* ── 資料新鮮度標籤 ── */
+function freshnessBadge(updatedAt) {
+  if (!updatedAt) return '';
+  try {
+    const d = new Date(updatedAt.replace(' ', 'T') + (updatedAt.includes('+') ? '' : '+08:00'));
+    const mins = Math.floor((Date.now() - d.getTime()) / 60000);
+    if (mins < 0 || isNaN(mins)) return '';
+    let label, color;
+    if (mins <= 15) { label = '即時'; color = '#10b981'; }
+    else if (mins <= 60) { label = mins + '分鐘前'; color = '#f59e0b'; }
+    else if (mins <= 360) { label = Math.floor(mins/60) + '小時前'; color = '#f59e0b'; }
+    else { label = Math.floor(mins/60) + '小時前'; color = '#ef4444'; }
+    return `<span style="font-size:9px;background:${color}18;color:${color};border:1px solid ${color}33;border-radius:3px;padding:1px 5px;margin-left:6px;font-weight:600">${label}</span>`;
+  } catch { return ''; }
+}
+
 /* ── 突發新聞區塊（breaking-news.json）── */
 function renderBreakingNews(data) {
   if (!data || !data.news || !data.news.length) return '';
@@ -3541,7 +3618,7 @@ function renderBreakingNews(data) {
   }).join('');
   return `
   <div class="card section-gap">
-    <h2>⚡ 突發新聞<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">更新：${data.updated_at || ''}</span></h2>
+    <h2>⚡ 突發新聞${freshnessBadge(data.updated_at)}<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.updated_at || ''}</span></h2>
     ${items}
   </div>`;
 }
@@ -3577,7 +3654,7 @@ function renderCryptoNewsFeed(data) {
   }).join('');
   return `
   <div class="card section-gap">
-    <h2>🪙 加密貨幣新聞<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.sources ? data.sources.join(' · ') : ''} · ${data.updated_at || ''}</span></h2>
+    <h2>🪙 加密貨幣新聞${freshnessBadge(data.updated_at)}<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.sources ? data.sources.join(' · ') : ''} · ${data.updated_at || ''}</span></h2>
     ${items}
   </div>`;
 }
@@ -3646,7 +3723,7 @@ function renderFredMacroPanel(data) {
 
   return `
   <div class="card section-gap">
-    <h2>📊 FRED 總經指標<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.fetched_at || ''}</span></h2>
+    <h2>📊 FRED 總經指標${freshnessBadge(data.fetched_at)}<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.fetched_at || ''}</span></h2>
     ${items}
   </div>`;
 }
@@ -3867,6 +3944,7 @@ async function loadCryptoTicker() {
     const res = await fetch(BASE + 'web/crypto-alerts.json');
     if (!res.ok) return;
     const alerts = await res.json();
+    window._cryptoAlerts = alerts; // Store for KPI reuse
     if (!alerts || !alerts.length) return;
 
     // Only show alerts from last 24 hours
