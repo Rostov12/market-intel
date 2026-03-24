@@ -3494,6 +3494,9 @@ function render(data, history = {}) {
       <!-- 加密貨幣專用新聞（from crypto-news.json，多源即時）-->
       ${renderCryptoNewsFeed(window._cryptoNews)}
 
+      <!-- Crypto Regime 風險判斷 -->
+      ${renderCryptoRegime(data)}
+
       <!-- 網格機器人狀態 -->
       ${renderGridBotPanel(window._gridBotData || {})}
 
@@ -3519,6 +3522,100 @@ function render(data, history = {}) {
     initTrendChart(history);
     loadRiskTrendSVG();
   });
+}
+
+/* ── Crypto Regime 風險開/關判斷 ── */
+function renderCryptoRegime(data) {
+  const fg = data.fear_greed || {};
+  const btc = (data.watchlist || []).find(w => w.symbol === 'BTC-USD') || {};
+  const eth = (data.watchlist || []).find(w => w.symbol === 'ETH-USD') || {};
+  const riskLine = data.risk_line || '';
+
+  // Calculate regime score (0-100, higher = more risk-on)
+  let score = 50;
+  const factors = [];
+
+  // Factor 1: Fear & Greed (0-100)
+  if (fg.score != null) {
+    score = fg.score * 0.35 + score * 0.65;
+    const fgLabel = fg.score <= 20 ? '極度恐慌' : fg.score <= 40 ? '恐慌' : fg.score <= 60 ? '中性' : fg.score <= 80 ? '貪婪' : '極度貪婪';
+    factors.push({ name: '恐慌指數', value: fg.score.toFixed(0), label: fgLabel, color: fg.score <= 25 ? '#ef4444' : fg.score <= 50 ? '#f59e0b' : '#10b981' });
+  }
+
+  // Factor 2: BTC trend
+  if (btc.change_pct != null) {
+    const btcBias = btc.change_pct > 2 ? 20 : btc.change_pct > 0 ? 10 : btc.change_pct > -2 ? -10 : -20;
+    score += btcBias * 0.3;
+    factors.push({ name: 'BTC 日漲跌', value: (btc.change_pct > 0 ? '+' : '') + btc.change_pct.toFixed(2) + '%', label: btc.change_pct > 0 ? '偏多' : '偏空', color: btc.change_pct >= 0 ? '#10b981' : '#ef4444' });
+  }
+
+  // Factor 3: ETH/BTC relative strength
+  if (eth.change_pct != null && btc.change_pct != null) {
+    const ethBtcRel = eth.change_pct - btc.change_pct;
+    factors.push({ name: 'ETH/BTC 強弱', value: (ethBtcRel > 0 ? '+' : '') + ethBtcRel.toFixed(2) + '%', label: ethBtcRel > 1 ? '山寨強勢' : ethBtcRel < -1 ? 'BTC 主導' : '均衡', color: ethBtcRel > 0 ? '#6366f1' : '#f59e0b' });
+  }
+
+  // Factor 4: Risk signal from report
+  if (riskLine) {
+    const riskMatch = riskLine.match(/score=(\d+)/);
+    if (riskMatch) {
+      const riskScore = parseInt(riskMatch[1]);
+      const riskBias = riskScore <= 3 ? 15 : riskScore <= 5 ? 0 : -15;
+      score += riskBias * 0.2;
+      const riskLabel = riskScore <= 3 ? '低風險' : riskScore <= 5 ? '中風險' : '高風險';
+      factors.push({ name: '總經風險', value: 'Lv.' + riskScore, label: riskLabel, color: riskScore <= 3 ? '#10b981' : riskScore <= 5 ? '#f59e0b' : '#ef4444' });
+    }
+  }
+
+  score = Math.max(0, Math.min(100, score));
+
+  // Determine regime
+  let regime, regimeColor, regimeIcon, regimeAdvice;
+  if (score >= 65) {
+    regime = 'Risk ON'; regimeColor = '#10b981'; regimeIcon = '🟢';
+    regimeAdvice = '市場風險偏好回升，可適度配置山寨幣。但注意不追高，控制倉位。';
+  } else if (score >= 40) {
+    regime = '觀望'; regimeColor = '#f59e0b'; regimeIcon = '🟡';
+    regimeAdvice = '市場方向不明確，建議以 BTC/ETH 為主，減少山寨曝險，等待明確訊號。';
+  } else {
+    regime = 'Risk OFF'; regimeColor = '#ef4444'; regimeIcon = '🔴';
+    regimeAdvice = '市場恐慌，避險為主。降低倉位，持有穩定幣，等待極端恐慌時分批佈局。';
+  }
+
+  const factorsHTML = factors.map(f => `
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0">
+      <span style="font-size:11px;color:var(--text-muted)">${f.name}</span>
+      <div style="display:flex;align-items:center;gap:6px">
+        <span style="font-size:12px;font-weight:600;color:${f.color}">${f.value}</span>
+        <span style="font-size:10px;color:${f.color};background:${f.color}15;border-radius:3px;padding:1px 5px">${f.label}</span>
+      </div>
+    </div>
+  `).join('');
+
+  // Score bar
+  const barWidth = score;
+
+  return `
+  <div class="card section-gap">
+    <h2>🎯 Crypto Regime</h2>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+      <span style="font-size:28px">${regimeIcon}</span>
+      <div>
+        <div style="font-size:18px;font-weight:700;color:${regimeColor}">${regime}</div>
+        <div style="font-size:11px;color:var(--text-muted)">綜合評分 ${score.toFixed(0)}/100</div>
+      </div>
+    </div>
+    <div style="background:var(--card-bg2);border-radius:6px;height:8px;overflow:hidden;margin-bottom:12px">
+      <div style="height:100%;width:${barWidth}%;background:linear-gradient(90deg,#ef4444,#f59e0b,#10b981);border-radius:6px;transition:width 0.5s"></div>
+    </div>
+    <div style="font-size:12px;color:var(--text-secondary);line-height:1.6;margin-bottom:12px;padding:8px 10px;background:${regimeColor}08;border-left:3px solid ${regimeColor};border-radius:0 6px 6px 0">
+      💡 ${regimeAdvice}
+    </div>
+    <div style="border-top:1px solid var(--border);padding-top:8px">
+      <div style="font-size:10px;color:var(--text-muted);margin-bottom:4px">判斷依據</div>
+      ${factorsHTML}
+    </div>
+  </div>`;
 }
 
 /* ── 加密貨幣 KPI 摘要卡 ── */
