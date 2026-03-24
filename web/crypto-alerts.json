@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 70505.0,
+    "change_pct": -2.35,
+    "direction": "🔻 急跌",
+    "news": "- [Reuters] 伊朗拒絕談判，霍爾木茲海峽風險升高",
+    "timestamp": "2026-03-24T14:06:44.229157+08:00",
+    "epoch": 1774332404
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2141.82,
+    "change_pct": 2.8,
+    "direction": "🔺 急漲",
+    "news": "- [CoinDesk] ETH Layer2 升級消息帶動反彈",
+    "timestamp": "2026-03-24T14:06:44.229157+08:00",
+    "epoch": 1774332404
+  }
+]

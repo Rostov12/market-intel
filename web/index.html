@@ -101,6 +101,43 @@
       .grid-gauge { grid-template-columns: 1fr; }
     }
     .section-gap { margin-top: 20px; }
+
+    /* ── Crypto Alert Ticker ── */
+    .ticker-bar {
+      background: linear-gradient(90deg, rgba(99,102,241,0.1), rgba(56,189,248,0.1));
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+      height: 36px;
+      position: relative;
+    }
+    .ticker-bar.empty { display: none; }
+    .ticker-track {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      animation: ticker-scroll 30s linear infinite;
+      white-space: nowrap;
+      width: max-content;
+    }
+    .ticker-track:hover { animation-play-state: paused; }
+    @keyframes ticker-scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 24px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .ticker-item .coin { font-weight: 600; color: var(--text-main); }
+    .ticker-item .up { color: var(--color-up); font-weight: 600; }
+    .ticker-item .down { color: var(--color-down); font-weight: 600; }
+    .ticker-item .news { color: var(--text-muted); font-size: 11px; max-width: 300px; overflow: hidden; text-overflow: ellipsis; }
+    .ticker-item .time { color: var(--color-blue); font-size: 11px; }
+    .ticker-sep { color: var(--border); padding: 0 8px; }
     .section-title {
       font-size: 11px;
       font-weight: 600;
@@ -1188,6 +1225,10 @@
     </a>
   </div>
 </header>
+
+<div class="ticker-bar empty" id="crypto-ticker">
+  <div class="ticker-track" id="ticker-track"></div>
+</div>
 
 <div class="container">
   <div id="date-nav"></div>
@@ -3625,6 +3666,52 @@ async function refreshPremarket() {
   } catch (e) { /* 靜默失敗 */ }
 }
 setInterval(refreshPremarket, 300000);
+
+/* ── Crypto Alert Ticker ── */
+async function loadCryptoTicker() {
+  try {
+    const res = await fetch(BASE + 'web/crypto-alerts.json');
+    if (!res.ok) return;
+    const alerts = await res.json();
+    if (!alerts || !alerts.length) return;
+
+    // Only show alerts from last 24 hours
+    const cutoff = Date.now() / 1000 - 86400;
+    const recent = alerts.filter(a => a.epoch > cutoff);
+    if (!recent.length) return;
+
+    const bar = document.getElementById('crypto-ticker');
+    const track = document.getElementById('ticker-track');
+    bar.classList.remove('empty');
+
+    // Build ticker items (duplicate for seamless loop)
+    const buildItems = (list) => list.map(a => {
+      const cls = a.change_pct > 0 ? 'up' : 'down';
+      const arrow = a.change_pct > 0 ? '▲' : '▼';
+      const time = a.timestamp ? a.timestamp.split('T')[1]?.substring(0,5) : '';
+      const newsShort = (a.news || '').split('\n')[0].substring(0, 80);
+      return `<span class="ticker-item">
+        <span class="coin">${a.coin}</span>
+        <span class="${cls}">${arrow} ${Math.abs(a.change_pct).toFixed(2)}%</span>
+        <span>$${a.price?.toLocaleString()}</span>
+        <span class="news">${newsShort}</span>
+        <span class="time">${time}</span>
+      </span><span class="ticker-sep">|</span>`;
+    }).join('');
+
+    const items = buildItems(recent);
+    track.innerHTML = items + items; // duplicate for seamless scroll
+
+    // Adjust animation speed based on content width
+    requestAnimationFrame(() => {
+      const w = track.scrollWidth / 2;
+      const speed = Math.max(20, w / 50); // ~50px per second
+      track.style.animationDuration = speed + 's';
+    });
+  } catch (e) { /* silent */ }
+}
+loadCryptoTicker();
+setInterval(loadCryptoTicker, 300000);
 </script>
 
 <footer>
