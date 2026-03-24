@@ -1,6 +1,6 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 00:00",
+  "fetched_at": "2026-03-25 00:30",
   "mode": "intraday",
   "news": [
     {
@@ -22,16 +22,16 @@
       "title_cn": "美聯航放棄更多經濟艙座位，為採用新佈局的更大高級客艙騰出空間"
     },
     {
+      "title": "Circle heads for its worst day on record as stablecoin rival Tether announces audit milestone",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "隨著穩定幣競爭對手 Tether 宣布審計里程碑，Circle 迎來了有史以來最糟糕的一天"
+    },
+    {
       "title": "S&P 500 is little changed as Wall Street tries to build on Monday's rally: Live updates",
       "impact": "bullish",
       "source": "CNBC",
       "title_cn": "華爾街試圖在周一的反彈基礎上再接再厲，標普 500 指數幾乎沒有變化：即時更新"
-    },
-    {
-      "title": "Home flippers see smallest profits since the Great Recession, real estate data firm says",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "房地產數據公司稱，自大衰退以來，炒房者的利潤最小"
     },
     {
       "title": "These stocks are cheaper than they were during the pandemic. Evercore ISI says buy them",
@@ -40,16 +40,16 @@
       "title_cn": "這些股票比大流行期間便宜。 Evercore ISI 表示購買它們"
     },
     {
-      "title": "Cases of fraud and improper care are soaring at hospice. Medicare is cracking down.",
-      "impact": "bullish",
-      "source": "MarketWatch",
-      "title_cn": "臨終關懷中心的詐欺和不當護理案件不斷增加。醫療保險正在嚴厲打擊。"
-    },
-    {
-      "title": "Tesla finally catches a break in Europe",
+      "title": "Elizabeth Warren raises alarm over MrBeast&#x2019;s teen banking app encouraging &#x2018;risky investments&#x2019;",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "特斯拉終於在歐洲獲得突破"
+      "title_cn": "伊麗莎白沃倫 (Elizabeth Warren) 對 MrBeast 的青少年銀行應用程式鼓勵「風險投資」發出警告"
+    },
+    {
+      "title": "The surprising reason Americans are working longer than they used to",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "美國人工作時間比以前更長的令人驚訝的原因"
     }
   ]
 }
