@@ -3617,7 +3617,7 @@ function renderBreakingNews(data) {
     </div>`;
   }).join('');
   return `
-  <div class="card section-gap">
+  <div class="card section-gap breaking-news-block">
     <h2>⚡ 突發新聞${freshnessBadge(data.updated_at)}<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.updated_at || ''}</span></h2>
     ${items}
   </div>`;
@@ -3653,7 +3653,7 @@ function renderCryptoNewsFeed(data) {
     </div>`;
   }).join('');
   return `
-  <div class="card section-gap">
+  <div class="card section-gap crypto-news-block">
     <h2>🪙 加密貨幣新聞${freshnessBadge(data.updated_at)}<span style="font-size:10px;color:var(--text-muted);font-weight:400;margin-left:8px">${data.sources ? data.sources.join(' · ') : ''} · ${data.updated_at || ''}</span></h2>
     ${items}
   </div>`;
@@ -3937,6 +3937,35 @@ async function refreshPremarket() {
   } catch (e) { /* 靜默失敗 */ }
 }
 setInterval(refreshPremarket, 300000);
+
+// ── 突發新聞 + 加密新聞 Auto-Refresh（每5分鐘）──────────────
+async function refreshBreakingAndCrypto() {
+  try {
+    const [bn, cn] = await Promise.allSettled([
+      fetchJSON('breaking-news.json'),
+      fetchJSON('crypto-news.json'),
+    ]);
+    // Update breaking news
+    if (bn.status === 'fulfilled' && bn.value?.news) {
+      window._breakingNews = bn.value;
+      document.querySelectorAll('.breaking-news-block').forEach(el => {
+        const temp = document.createElement('div');
+        temp.innerHTML = renderBreakingNews(bn.value);
+        if (temp.firstElementChild) el.replaceWith(temp.firstElementChild);
+      });
+    }
+    // Update crypto news
+    if (cn.status === 'fulfilled' && cn.value?.news) {
+      window._cryptoNews = cn.value;
+      document.querySelectorAll('.crypto-news-block').forEach(el => {
+        const temp = document.createElement('div');
+        temp.innerHTML = renderCryptoNewsFeed(cn.value);
+        if (temp.firstElementChild) el.replaceWith(temp.firstElementChild);
+      });
+    }
+  } catch { /* silent */ }
+}
+setInterval(refreshBreakingAndCrypto, 300000);
 
 /* ── Crypto Alert Ticker ── */
 async function loadCryptoTicker() {
