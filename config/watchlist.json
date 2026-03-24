@@ -20,9 +20,6 @@
     { "symbol": "GLD",     "name": "GLD（黃金 ETF）",        "category": "避險" },
     { "symbol": "BTC-USD", "name": "BTC",                    "category": "加密" },
     { "symbol": "ETH-USD", "name": "ETH",                    "category": "加密" },
-    { "symbol": "BNB-USD", "name": "BNB",                    "category": "加密" },
-    { "symbol": "SOL-USD", "name": "SOL",                    "category": "加密" },
-    { "symbol": "USDT-USD","name": "USDT",                   "category": "加密" },
     { "symbol": "CPER",    "name": "CPER（銅 ETF）",         "category": "原物料" },
     { "symbol": "XLK",     "name": "XLK（科技板塊）",        "category": "板塊輪動" },
     { "symbol": "XLE",     "name": "XLE（能源板塊）",        "category": "板塊輪動" },
@@ -46,6 +43,16 @@
     { "symbol": "4938.TW", "name": "和碩",     "sector": "電子代工" },
     { "symbol": "2376.TW", "name": "技嘉",     "sector": "主機板/GPU" },
     { "symbol": "2377.TW", "name": "微星",     "sector": "主機板/GPU" }
+  ],
+  "okx_contracts": [
+    { "symbol": "TSM/USDT:USDT",   "name": "台積電合約",   "category": "美股代幣化" },
+    { "symbol": "TSLA/USDT:USDT",  "name": "特斯拉合約",   "category": "美股代幣化" },
+    { "symbol": "NVDA/USDT:USDT",  "name": "輝達合約",     "category": "美股代幣化" },
+    { "symbol": "GOOGL/USDT:USDT", "name": "Google合約",   "category": "美股代幣化" },
+    { "symbol": "XAU/USDT:USDT",   "name": "黃金合約",     "category": "貴金屬" },
+    { "symbol": "BTC/USDT",        "name": "BTC",          "category": "加密主流" },
+    { "symbol": "ETH/USDT",        "name": "ETH",          "category": "加密主流" },
+    { "symbol": "SOL/USDT",        "name": "SOL",          "category": "加密主流" }
   ],
   "thresholds": {
     "strong_up":   1.0,

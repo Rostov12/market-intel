@@ -30,13 +30,6 @@
   "initial_price": 2157.95,
   "buy_orders": [
     {
-      "id": "3408978128119320576",
-      "price": 2028.47,
-      "amount": 0.039439,
-      "side": "buy",
-      "status": "open"
-    },
-    {
       "id": "3408978131273437184",
       "price": 1985.31,
       "amount": 0.040296,
@@ -49,6 +42,22 @@
       "amount": 0.041191,
       "side": "buy",
       "status": "open"
+    },
+    {
+      "id": "3414841610056290304",
+      "price": 2071.63,
+      "amount": 0.038617,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 2157.95
+    },
+    {
+      "id": "3414841613311070208",
+      "price": 2028.47,
+      "amount": 0.039439,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 2114.79
     }
   ],
   "sell_orders": [
@@ -94,14 +103,6 @@
       "side": "sell",
       "status": "open",
       "paired_buy": 2114.79
-    },
-    {
-      "id": "3410372222997549056",
-      "price": 2157.95,
-      "amount": 0.038617,
-      "side": "sell",
-      "status": "open",
-      "paired_buy": 2071.63
     }
   ],
   "filled_buys": [
@@ -118,13 +119,37 @@
       "amount": 0.038617,
       "side": "buy",
       "status": "filled"
+    },
+    {
+      "id": "3408978128119320576",
+      "price": 2028.47,
+      "amount": 0.039439,
+      "side": "buy",
+      "status": "filled"
     }
   ],
-  "filled_sells": [],
-  "total_profit": 0,
+  "filled_sells": [
+    {
+      "id": "3410372222997549056",
+      "price": 2157.95,
+      "amount": 0.038617,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 2071.63
+    },
+    {
+      "id": "3412908889402822656",
+      "price": 2114.79,
+      "amount": 0.039439,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 2028.47
+    }
+  ],
+  "total_profit": 6.7378,
   "mode": "demo",
-  "updated_at": "2026-03-22 14:30:11",
-  "current_price": 2112.53,
-  "last_check": "2026-03-22 14:30:11",
-  "total_filled": 2
+  "updated_at": "2026-03-24 10:00:11",
+  "current_price": 2138.88,
+  "last_check": "2026-03-24 10:00:11",
+  "total_filled": 5
 }

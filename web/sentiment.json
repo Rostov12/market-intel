@@ -1,63 +1,58 @@
 {
-  "date": "2026-03-21",
-  "generated_at": "2026-03-21 04:45",
+  "date": "2026-03-24",
+  "generated_at": "2026-03-24 04:45",
   "composite": {
-    "score": -0.5,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": -1.0,
+    "label": "散戶偏空",
+    "contrarian_signal": "🟡注意反彈"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-03-20",
       "2026-03-23",
-      "2026-03-24"
+      "2026-03-24",
+      "2026-03-25"
     ],
-    "total_calls_vol": 5280337,
-    "total_puts_vol": 5213545,
-    "pcr": 0.987,
-    "label": "散戶中性",
-    "signal": "中性"
+    "total_calls_vol": 4593553,
+    "total_puts_vol": 5159286,
+    "pcr": 1.123,
+    "label": "散戶偏空",
+    "signal": "略偏看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 3,
-    "bear_words": 5,
-    "bull_pct": 38,
+    "bull_words": 1,
+    "bear_words": 4,
+    "bull_pct": 20,
     "label": "偏空情緒",
-    "top_tickers": [
-      {
-        "symbol": "ALK",
-        "count": 1
-      }
-    ],
+    "top_tickers": [],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 3/23 - 3/27",
-        "score": 21,
+        "score": 57,
         "upvote_ratio": 0.7
       },
       {
-        "title": "Weekend Discussion Thread for the Weekend of March 20, 2026",
-        "score": 28,
-        "upvote_ratio": 0.86
+        "title": "What Are Your Moves Tomorrow, March 24, 2026",
+        "score": 50,
+        "upvote_ratio": 0.92
       },
       {
-        "title": "God speed boys",
-        "score": 4133,
-        "upvote_ratio": 0.97
+        "title": "Iran denies claims: 'We reject all negotiations – US has failed and Hormuz will ",
+        "score": 25335,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "Markets bet on Fed rate hike as soon as July",
-        "score": 528,
-        "upvote_ratio": 0.97
+        "title": "I lost everything. Lost all I have. I never felt this broken.",
+        "score": 4434,
+        "upvote_ratio": 0.83
       },
       {
-        "title": "I lost all my money",
-        "score": 2620,
+        "title": "Trump postpones military strikes on Iranian power plants after 'good and product",
+        "score": 8375,
         "upvote_ratio": 0.96
       }
     ]
