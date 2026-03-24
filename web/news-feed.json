@@ -1,6 +1,6 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 01:00",
+  "fetched_at": "2026-03-25 01:30",
   "mode": "intraday",
   "news": [
     {
@@ -16,40 +16,40 @@
       "title_cn": "川普和德黑蘭發出混合訊號，巴基斯坦提出協助美伊戰爭談判"
     },
     {
+      "title": "Arm releases first in-house chip, with Meta as debut customer",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "Arm 發表首款自研晶片，Meta 成為首款客戶"
+    },
+    {
+      "title": "Senate, White House start to coalesce around ending DHS shutdown amid TSA delays",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "由於運輸安全管理局 (TSA) 延誤，參議院和白宮開始就結束國土安全部 (DHS) 關閉問題進行聯合"
+    },
+    {
       "title": "Moody's cuts rating on private credit fund run by KKR and Future Standard to junk as bad loans grow",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "由於不良貸款增加，穆迪將 KKR 和未來標準營運的私人信貸基金評級下調至垃圾級"
     },
     {
-      "title": "Stocks making the biggest moves midday: Circle Internet Group, SAP, Netgear, Jefferies & more",
-      "impact": "neutral",
+      "title": "Iran war has altered the global natural gas market. Goldman says these 3 stocks will benefit",
+      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "中午漲幅最大的股票：Circle Internet Group、SAP、Netgear、Jefferies 等"
+      "title_cn": "伊朗戰爭改變了全球天然氣市場。高盛表示這三隻股票將受益"
     },
     {
-      "title": "Pentagon ban of Anthropic faces judge; Claude AI maker seeks injunction",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "五角大廈對 Anthropic 的禁令面臨法官；克勞德人工智慧製造商尋求禁令"
+      "title": "The Iran crisis is making this retirement strategy look better than it has in decades",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "伊朗危機使這項退休策略看起來比幾十年來更好"
     },
     {
-      "title": "This industry group is the star of 2026, besides energy. Trivariate says these stocks are a buy",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "除了能源之外，這個產業群是2026年的明星。 Trivariate 表示這些股票值得買入"
-    },
-    {
-      "title": "&#x2018;This guy has no manners&#x2019;: My Airbnb guest requested I buy bacon and beer. The $30 bill remains unpaid. Do I insist?",
+      "title": "&#x2018;We&#x2019;re living the simple life&#x2019;: I was a fisherman and my wife was a nurse. We retired with $6 million. Here&#x2019;s how we did it.",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "「這傢伙沒有禮貌」：我的 Airbnb 房客要我買培根和啤酒。 30 美元的帳單仍未支付。我堅持嗎？"
-    },
-    {
-      "title": "History shows investors are right to worry about 2026 being a bad year for U.S. stocks",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "歷史表明，投資者對 2026 年美國股市糟糕的一年的擔憂是正確的"
+      "title_cn": "「我們過著簡單的生活」：我是一名漁民，我的妻子是一名護士。我們帶著 600 萬美元退休了。我們是這樣做的。"
     }
   ]
 }
