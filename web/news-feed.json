@@ -1,55 +1,55 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 04:30",
-  "mode": "intraday",
+  "fetched_at": "2026-03-25 20:00",
+  "mode": "preopen",
   "news": [
     {
-      "title": "Jamie Dimon says Iran war makes Middle East peace prospects better in the long term",
+      "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
       "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "傑米戴蒙表示，從長遠來看，伊朗戰爭使中東和平前景更好"
+      "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
     },
     {
-      "title": "World has 'never experienced' soaring refining margins like this, TotalEnergies CEO tells CNBC",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "TotalEnergies 執行長告訴 CNBC，世界「從未經歷過」如此飆升的煉油利潤"
-    },
-    {
-      "title": "Trump says U.S. and Iran are 'in negotiations right now,' Tehran is 'talking sense'",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "川普稱美國和伊朗“正在談判”，德黑蘭“說的是有道理的”"
-    },
-    {
-      "title": "Kuwait says Strait of Hormuz closure is beyond catastrophic, will trigger domino effect across global economy",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "科威特表示霍爾木茲海峽的關閉不僅僅是災難性的，將引發全球經濟的骨牌效應"
-    },
-    {
-      "title": "Short bets in software peak but tension still builds in stocks such as UiPath",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "軟體空頭押注見頂，但 UiPath 等股票的緊張局勢仍在加劇"
-    },
-    {
-      "title": "Pakistan offers to facilitate U.S.-Iran war talks as Trump and Tehran give mixed signals",
+      "title": "Oil prices fall as Iran signals safe passage for ‘non-hostile’ ships through Strait of Hormuz",
       "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "川普和德黑蘭發出混合訊號，巴基斯坦提出協助美伊戰爭談判"
+      "title_cn": "隨著伊朗發出「非敵對」船隻安全通過霍爾木茲海峽的信號，油價下跌"
     },
     {
-      "title": "Pentagon reportedly plans to deploy 3,000 troops to the Middle East, lifting oil prices by nearly 5%",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "據報道五角大廈計劃部署3000名士兵，油價上漲近5%"
+      "title": "Mortgage demand drops more than 10% as rates hit the highest level since October",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "利率觸及 10 月以來的最高水平，抵押貸款需求下降超過 10%"
     },
     {
-      "title": "History shows investors are right to worry about 2026 being a bad year for U.S. stocks",
+      "title": "Stocks making the biggest moves premarket: Chewy, EchoStar, Arm, KB Home & more",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "盤前漲幅最大的股票：Chewy、EchoStar、Arm、KB Home 等"
+    },
+    {
+      "title": "Iran has received Trump's 15-point plan to end war, report says; President says 'in negotiations right now'",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "報道稱，伊朗已收到川普結束戰爭的15點計劃；總統表示“目前正在談判中”"
+    },
+    {
+      "title": "Arm just unveiled its first in-house chip. Raymond James says buy the stock",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "Arm 剛剛推出了首款內部晶片。雷蒙詹姆斯說買股票"
+    },
+    {
+      "title": "Merck makes a big move into new cancer treatments with a $6.7 billion buyout deal",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "歷史表明，投資者對 2026 年美國股市糟糕的一年的擔憂是正確的"
+      "title_cn": "默克 (Merck) 斥資 67 億美元收購新癌症治療藥物"
+    },
+    {
+      "title": "KB Home says the war is already hurting home sales as it cuts guidance",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "KB Home 表示，戰爭已經損害了房屋銷售，因為它削減了指導"
     }
   ]
 }
