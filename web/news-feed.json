@@ -1,6 +1,6 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 20:30",
+  "fetched_at": "2026-03-25 21:00",
   "mode": "preopen",
   "news": [
     {
@@ -8,6 +8,12 @@
       "impact": "bearish",
       "source": "CNBC",
       "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
+    },
+    {
+      "title": "Iran won't accept U.S. effort at ceasefire in war, state media reports",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "官方媒體報道，伊朗不會接受美國在戰爭中停火的努力"
     },
     {
       "title": "Oil prices fall as Iran signals safe passage for ‘non-hostile’ ships through Strait of Hormuz",
@@ -28,28 +34,22 @@
       "title_cn": "報道稱，伊朗已收到川普結束戰爭的15點計劃；總統表示“目前正在談判中”"
     },
     {
-      "title": "Mortgage demand drops more than 10% as rates hit the highest level since October",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "利率觸及 10 月以來的最高水平，抵押貸款需求下降超過 10%"
-    },
-    {
       "title": "Here are Wednesday's biggest analyst calls: Tesla, Amazon, General Motors, Netflix, Microsoft, Arm & more",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "以下是周三最重要的分析師電話會議：特斯拉、亞馬遜、通用汽車、Netflix、微軟、Arm 等"
     },
     {
-      "title": "Global oil prices slide below $95 a barrel after reports of a U.S. cease-fire proposal with Iran",
+      "title": "Citrini made a famous call about AI. The new bet is that the market is wrong on the Fed.",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "美國與伊朗提出停火提案後，全球油價跌破每桶 95 美元"
+      "title_cn": "西特里尼就人工智慧做出了著名的呼籲。新的賭注是市場對聯準會的看法是錯誤的。"
     },
     {
-      "title": "Temu parent&#x2019;s stock drops as end of &#x2018;de minimis&#x2019; import rule comes at a cost",
+      "title": "A bad Treasury auction is offering a glimpse into the anxiety on Wall Street over the Iran war",
       "impact": "bearish",
       "source": "MarketWatch",
-      "title_cn": "Temu母公司的股票隨著「最低限度」結束而下跌進口規則是有代價的"
+      "title_cn": "糟糕的國債拍賣讓我們得以一窺華爾街對伊朗戰爭的焦慮"
     }
   ]
 }
