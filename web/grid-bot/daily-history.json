@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-03-25",
+    "bots": [
+      {
+        "symbol": "BTC/USDT",
+        "profit": 3.3064,
+        "roi": 0.33064,
+        "fills": 3,
+        "price": 71052.1
+      },
+      {
+        "symbol": "ETH/USDT",
+        "profit": 6.7378,
+        "roi": 0.8422249999999999,
+        "fills": 5,
+        "price": 2169.05
+      }
+    ],
+    "total_profit": 10.0442
+  }
+]
