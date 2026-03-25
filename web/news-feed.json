@@ -1,6 +1,6 @@
 {
   "date": "2026-03-26",
-  "fetched_at": "2026-03-26 01:00",
+  "fetched_at": "2026-03-26 01:30",
   "mode": "intraday",
   "news": [
     {
@@ -10,16 +10,16 @@
       "title_cn": "伊朗拒絕美國停火提議，要求對霍爾木茲海峽擁有主權"
     },
     {
+      "title": "Jury in Los Angeles finds Meta, YouTube negligent in social media addiction trial",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "洛杉磯陪審團發現 Meta 和 YouTube 在社群媒體成癮審判中存在疏忽"
+    },
+    {
       "title": "Meta cutting several hundred jobs across Reality Labs, Facebook and other departments",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "Meta 削減了現實實驗室、Facebook 和其他部門的數百個工作機會"
-    },
-    {
-      "title": "Trump says he could send National Guard to airports 'for more help'",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "川普表示他可以派遣國民警衛隊前往機場“尋求更多幫助”"
     },
     {
       "title": "Dow jumps 300 points as oil falls after U.S. reportedly sends Iran peace plan: Live updates",
@@ -28,28 +28,28 @@
       "title_cn": "據報道，美國向伊朗發出和平計畫後，油價下跌，道瓊指數上漲 300 點：即時更新"
     },
     {
-      "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
+      "title": "Trump says he could send National Guard to airports 'for more help'",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "川普表示他可以派遣國民警衛隊前往機場“尋求更多幫助”"
+    },
+    {
+      "title": "Stocks making the biggest moves midday: Generac, Intuitive Machines, EchoStar, Meta, Braze & more",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "中午漲幅最大的股票：Generac、Intuitive Machines、EchoStar、Meta、Braze 等"
+    },
+    {
+      "title": "Oil pares losses as traders weigh cease-fire prospects and try to &#x2018;price in light at the end of the tunnel&#x2019;",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "隨著交易商權衡停火前景並試圖“根據隧道盡頭的情況定價”，石油減少了損失。"
+    },
+    {
+      "title": "Here&#x2019;s how much it could cost to fix Mideast oil and gas production damaged by the Iran war",
       "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
-    },
-    {
-      "title": "Former SEC Chair Jay Clayton says regulators would scrutinize trading ahead of Trump post",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "美國證券交易委員會前主席傑伊克萊頓表示，監管機構將在川普上任前審查交易"
-    },
-    {
-      "title": "&#x2018;We&#x2019;re living the simple life&#x2019;: I was a fisherman and my wife was a nurse. We retired with $6 million. Here&#x2019;s how we did it.",
-      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "「我們過著簡單的生活」：我是一名漁民，我的妻子是一名護士。我們帶著 600 萬美元退休了。我們是這樣做的。"
-    },
-    {
-      "title": "&#x2018;This is a first-world problem&#x2019;: I can&#x2019;t roll over my $800,000 401(k) from my prior employer. What did I do wrong?",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "「這是一個第一世界的問題」：我無法將我之前雇主提供的 80 萬美元 401(k) 轉存。我做錯了什麼？"
+      "title_cn": "這是修復因伊朗戰爭而受損的中東石油和天然氣生產所需的費用"
     }
   ]
 }
