@@ -1,59 +1,59 @@
 {
-  "date": "2026-03-24",
-  "generated_at": "2026-03-24 04:45",
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25 04:45",
   "composite": {
-    "score": -1.0,
-    "label": "散戶偏空",
-    "contrarian_signal": "🟡注意反彈"
+    "score": -0.5,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-03-23",
       "2026-03-24",
-      "2026-03-25"
+      "2026-03-25",
+      "2026-03-26"
     ],
-    "total_calls_vol": 4593553,
-    "total_puts_vol": 5159286,
-    "pcr": 1.123,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 4104077,
+    "total_puts_vol": 5475770,
+    "pcr": 1.334,
+    "label": "散戶極度恐慌🟢",
+    "signal": "逆向看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 1,
-    "bear_words": 4,
-    "bull_pct": 20,
-    "label": "偏空情緒",
+    "bull_words": 3,
+    "bear_words": 2,
+    "bull_pct": 60,
+    "label": "偏多情緒",
     "top_tickers": [],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 3/23 - 3/27",
-        "score": 57,
-        "upvote_ratio": 0.7
+        "score": 70,
+        "upvote_ratio": 0.72
       },
       {
-        "title": "What Are Your Moves Tomorrow, March 24, 2026",
-        "score": 50,
-        "upvote_ratio": 0.92
+        "title": "What Are Your Moves Tomorrow, March 25, 2026",
+        "score": 51,
+        "upvote_ratio": 0.88
       },
       {
-        "title": "Iran denies claims: 'We reject all negotiations – US has failed and Hormuz will ",
-        "score": 25335,
-        "upvote_ratio": 0.96
+        "title": "2019 to 2026 investing = $1,967,858.27 in realized gains. Officially sold everyt",
+        "score": 2183,
+        "upvote_ratio": 0.94
       },
       {
-        "title": "I lost everything. Lost all I have. I never felt this broken.",
-        "score": 4434,
-        "upvote_ratio": 0.83
+        "title": "Global Supply of Crop Fertilizer Tightens as Russia Curbs Exports",
+        "score": 544,
+        "upvote_ratio": 0.98
       },
       {
-        "title": "Trump postpones military strikes on Iranian power plants after 'good and product",
-        "score": 8375,
-        "upvote_ratio": 0.96
+        "title": "Red Every Fucking Day",
+        "score": 89,
+        "upvote_ratio": 0.95
       }
     ]
   }

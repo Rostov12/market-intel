@@ -1,10 +1,10 @@
 {
-  "date": "2026-03-24",
-  "generated_at": "2026-03-24 13:56",
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25 08:27",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 44,
-    "label": "下次 FOMC：05/07（44天後）"
+    "days_away": 43,
+    "label": "下次 FOMC：05/07（43天後）"
   },
   "next_7_days": [
     {
@@ -12,8 +12,8 @@
       "event": "PCE（2月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 3,
-      "label": "🔴 PCE（2月）（3天後）"
+      "days_away": 2,
+      "label": "🔴 PCE（2月）（2天後）"
     }
   ],
   "next_14_days": [
@@ -22,16 +22,16 @@
       "event": "PCE（2月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 3,
-      "label": "🔴 PCE（2月）（3天後）"
+      "days_away": 2,
+      "label": "🔴 PCE（2月）（2天後）"
     },
     {
       "date": "2026-04-03",
       "event": "NFP（3月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 10,
-      "label": "🔴 NFP（3月就業）（10天後）"
+      "days_away": 9,
+      "label": "🔴 NFP（3月就業）（9天後）"
     }
   ]
 }

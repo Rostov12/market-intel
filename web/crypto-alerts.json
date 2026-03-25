@@ -18,5 +18,15 @@
     "news": "- [CoinDesk] ETH Layer2 升級消息帶動反彈",
     "timestamp": "2026-03-24T14:06:44.229157+08:00",
     "epoch": 1774332404
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 89.7,
+    "change_pct": -2.05,
+    "direction": "🔻 急跌",
+    "news": "- [CoinDesk] Solana Foundation taps Mastercard, Western Union, Worldpay for institutional developer platform\n- [CoinTelegraph] Solana lands Mastercard, Western Union on new dev platform",
+    "timestamp": "2026-03-24T21:55:10.176475+08:00",
+    "epoch": 1774360507
   }
 ]
