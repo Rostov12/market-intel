@@ -1,14 +1,8 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 21:30",
-  "mode": "preopen",
+  "fetched_at": "2026-03-25 22:00",
+  "mode": "intraday",
   "news": [
-    {
-      "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
-    },
     {
       "title": "Iran won't accept U.S. effort at ceasefire in war, state media reports",
       "impact": "neutral",
@@ -16,10 +10,10 @@
       "title_cn": "官方媒體報道，伊朗不會接受美國在戰爭中停火的努力"
     },
     {
-      "title": "Oil prices fall as Iran signals safe passage for ‘non-hostile’ ships through Strait of Hormuz",
+      "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
       "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "隨著伊朗發出「非敵對」船隻安全通過霍爾木茲海峽的信號，油價下跌"
+      "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
     },
     {
       "title": "Hugo Barra's return to Meta 5 years after exit underscores Zuckerberg's AI urgency",
@@ -28,10 +22,10 @@
       "title_cn": "Hugo Barra 退出 5 年後重返 Meta，凸顯了祖克柏人工智慧的緊迫性"
     },
     {
-      "title": "Here are Wednesday's biggest analyst calls: Tesla, Amazon, General Motors, Netflix, Microsoft, Arm & more",
-      "impact": "neutral",
+      "title": "Dow jumps 300 points as oil falls after U.S. reportedly sends Iran peace plan: Live updates",
+      "impact": "bullish",
       "source": "CNBC",
-      "title_cn": "以下是周三最重要的分析師電話會議：特斯拉、亞馬遜、通用汽車、Netflix、微軟、Arm 等"
+      "title_cn": "據報道，美國向伊朗發出和平計畫後，油價下跌，道瓊指數上漲 300 點：即時更新"
     },
     {
       "title": "Mortgage demand drops more than 10% as rates hit the highest level since October",
@@ -40,16 +34,22 @@
       "title_cn": "利率觸及 10 月以來的最高水平，抵押貸款需求下降超過 10%"
     },
     {
+      "title": "Here are Wednesday's biggest analyst calls: Tesla, Amazon, General Motors, Netflix, Microsoft, Arm & more",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "以下是周三最重要的分析師電話會議：特斯拉、亞馬遜、通用汽車、Netflix、微軟、Arm 等"
+    },
+    {
+      "title": "Intel&#x2019;s stock is climbing. Here&#x2019;s why the company&#x2019;s new chip launch is so significant.",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "英特爾的股價正在攀升。這就是為什麼該公司的新晶片發佈如此重要。"
+    },
+    {
       "title": "SpaceX could soon file for an IPO. Why EchoStar and other space stocks are rising.",
       "impact": "neutral",
       "source": "MarketWatch",
       "title_cn": "SpaceX 可能很快就會申請 IPO。為什麼 EchoStar 和其他太空股正在上漲。"
-    },
-    {
-      "title": "&#x2018;I want safe returns&#x2019;: I&#x2019;m 73 with $300,000 saved. I&#x2019;m not interested in the stock market. What should I do?",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "“我想要安全回报”：我今年 73 岁，节省了 30 万美元。我对股票市场不感兴趣。我該怎麼辦？"
     }
   ]
 }
