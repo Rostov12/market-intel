@@ -1,13 +1,19 @@
 {
   "date": "2026-03-25",
-  "fetched_at": "2026-03-25 23:00",
+  "fetched_at": "2026-03-25 23:30",
   "mode": "intraday",
   "news": [
     {
-      "title": "Iran won't accept U.S. effort at ceasefire in war, state media reports",
+      "title": "Iran rejects U.S. ceasefire offer, demands sovereignty over Strait of Hormuz",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "官方媒體報道，伊朗不會接受美國在戰爭中停火的努力"
+      "title_cn": "伊朗拒絕美國停火提議，要求對霍爾木茲海峽擁有主權"
+    },
+    {
+      "title": "Meta cutting several hundred jobs across Reality Labs, Facebook and other departments",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "Meta 削減了現實實驗室、Facebook 和其他部門的數百個工作機會"
     },
     {
       "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
@@ -16,40 +22,34 @@
       "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
     },
     {
+      "title": "Dow jumps 250 points as oil falls after U.S. reportedly sends Iran peace plan: Live updates",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "據報道，美國向伊朗發出和平計畫後，油價下跌，道瓊指數上漲 250 點：即時更新"
+    },
+    {
+      "title": "New Mexico seeking changes to Meta's platform after jury finds company liable",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "陪審團認定公司負有責任後，新墨西哥州尋求對 Meta 平台進行更改"
+    },
+    {
       "title": "Hugo Barra's return to Meta 5 years after exit underscores Zuckerberg's AI urgency",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "Hugo Barra 退出 5 年後重返 Meta，凸顯了祖克柏人工智慧的緊迫性"
     },
     {
-      "title": "Dow jumps 400 points as oil falls after U.S. reportedly sends Iran peace plan: Live updates",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "據報道，美國向伊朗發出和平計畫後，油價下跌，道瓊指數上漲 400 點：即時更新"
-    },
-    {
-      "title": "Former SEC chair Jay Clayton says regulators would scrutinize trading ahead of Trump post",
+      "title": "Higher inflation is coming &#x2014; import prices show biggest increase in four years",
       "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "美國證券交易委員會前主席傑伊克萊頓表示，監管機構將在川普上任前審查交易"
-    },
-    {
-      "title": "This AI marketing stock is a top gainer today. Goldman says there's much more to go",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "這隻人工智慧行銷股票今天漲幅最大。高盛稱還有更多工作要做"
+      "source": "MarketWatch",
+      "title_cn": "更高的通膨即將到來&#2014;進口價格創四年來最大漲幅"
     },
     {
       "title": "Arm&#x2019;s stock shoots toward best day in a year as an Nvidia-like chapter may be starting",
       "impact": "neutral",
       "source": "MarketWatch",
       "title_cn": "隨著類似 Nvidia 的篇章可能開始，Arm 的股價飆升至一年中最好的一天"
-    },
-    {
-      "title": "Oil prices slide after reports of U.S. cease-fire proposal with Iran",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "美國與伊朗提出停火提議後油價下跌"
     }
   ]
 }
