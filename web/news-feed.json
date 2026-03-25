@@ -1,6 +1,6 @@
 {
   "date": "2026-03-26",
-  "fetched_at": "2026-03-26 00:30",
+  "fetched_at": "2026-03-26 01:00",
   "mode": "intraday",
   "news": [
     {
@@ -16,16 +16,22 @@
       "title_cn": "Meta 削減了現實實驗室、Facebook 和其他部門的數百個工作機會"
     },
     {
+      "title": "Trump says he could send National Guard to airports 'for more help'",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "川普表示他可以派遣國民警衛隊前往機場“尋求更多幫助”"
+    },
+    {
+      "title": "Dow jumps 300 points as oil falls after U.S. reportedly sends Iran peace plan: Live updates",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "據報道，美國向伊朗發出和平計畫後，油價下跌，道瓊指數上漲 300 點：即時更新"
+    },
+    {
       "title": "Recession odds climb on Wall Street as economy shows cracks beneath the surface",
       "impact": "bearish",
       "source": "CNBC",
       "title_cn": "隨著經濟出現表面裂縫，華爾街經濟衰退的可能性上升"
-    },
-    {
-      "title": "Dow jumps 200 points as oil falls after U.S. reportedly sends Iran peace plan: Live updates",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "據報道，美國向伊朗發出和平計畫後，油價下跌，道瓊指數上漲 200 點：即時更新"
     },
     {
       "title": "Former SEC Chair Jay Clayton says regulators would scrutinize trading ahead of Trump post",
@@ -34,22 +40,16 @@
       "title_cn": "美國證券交易委員會前主席傑伊克萊頓表示，監管機構將在川普上任前審查交易"
     },
     {
-      "title": "New Mexico seeking changes to Meta's platform after jury finds company liable",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "陪審團認定公司負有責任後，新墨西哥州尋求對 Meta 平台進行更改"
-    },
-    {
-      "title": "Nvidia&#x2019;s stock is cheaper than Exxon&#x2019;s. Are investors ditching tech for energy?",
+      "title": "&#x2018;We&#x2019;re living the simple life&#x2019;: I was a fisherman and my wife was a nurse. We retired with $6 million. Here&#x2019;s how we did it.",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "英偉達的股票比埃克森美孚的股票便宜。投資人是否正在放棄科技而轉向能源？"
+      "title_cn": "「我們過著簡單的生活」：我是一名漁民，我的妻子是一名護士。我們帶著 600 萬美元退休了。我們是這樣做的。"
     },
     {
-      "title": "GameStop&#x2019;s move to add bitcoin as a treasury asset turns 1. It hasn&#x2019;t paid off yet.",
+      "title": "&#x2018;This is a first-world problem&#x2019;: I can&#x2019;t roll over my $800,000 401(k) from my prior employer. What did I do wrong?",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "GameStop 將比特幣加入為庫存資產的舉措已過 1 週年。但尚未獲得回報。"
+      "title_cn": "「這是一個第一世界的問題」：我無法將我之前雇主提供的 80 萬美元 401(k) 轉存。我做錯了什麼？"
     }
   ]
 }
