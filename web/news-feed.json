@@ -1,13 +1,13 @@
 {
   "date": "2026-03-27",
-  "fetched_at": "2026-03-27 04:00",
+  "fetched_at": "2026-03-27 04:30",
   "mode": "intraday",
   "news": [
     {
-      "title": "Trump says Iran let 10 oil ships through Strait of Hormuz as 'present' to U.S.",
+      "title": "Trump says Iran let 10 oil ships through Strait of Hormuz as a 'present' to U.S.",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "川普稱伊朗允許10艘油船通過霍爾木茲海峽作為向美國“獻禮”"
+      "title_cn": "川普稱伊朗允許10艘油船通過霍爾木茲海峽作為送給美國的“禮物”"
     },
     {
       "title": "Major outgoing CEOs are citing AI as a factor in their decisions to step down",
@@ -16,40 +16,40 @@
       "title_cn": "主要即將離任的執行長都將人工智慧作為他們決定辭職的因素"
     },
     {
+      "title": "Trump extends pause on attacking Iran energy facilities to April 6",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "川普將暫停攻擊伊朗能源設施的時間延長至4月6日"
+    },
+    {
       "title": "Meta boosts investment in West Texas AI data center by over sixfold to $10 billion",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "Meta 將西德州人工智慧資料中心的投資增加六倍多，達到 100 億美元"
     },
     {
-      "title": "MLB faces a historic shift as potential lockout, media rights and other league changes loom",
-      "impact": "neutral",
+      "title": "Market guide: Where the S&P 500 may be headed, depending on how the Iran war goes",
+      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "隨著潛在停擺、媒體權利和其他聯盟變化的臨近，美國職棒大聯盟面臨歷史性轉變"
+      "title_cn": "市場指南：標普500指數可能走向何方，取決於伊朗戰爭的進展"
     },
     {
-      "title": "Federal Reserve urges judge to deny bid to revive Jerome Powell probe subpoenas",
+      "title": "Netflix raises prices across all streaming plans",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "聯準會敦促法官拒絕重啟傑羅姆鮑威爾調查傳票的請求"
+      "title_cn": "Netflix 提高所有串流媒體套餐的價格"
     },
     {
-      "title": "This emerging market is sizzling while U.S. stocks falter, charts show",
+      "title": "Big Tech&#x2019;s AI fantasy hits a nuclear wall: No fuel, no welders &#x2014; and no Plan B",
       "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "圖表顯示，這個新興市場正在炙手可熱，而美國股市卻步履蹣跚"
+      "source": "MarketWatch",
+      "title_cn": "大型科技公司的人工智慧幻想遇到了核牆：沒有燃料，沒有焊工；並且沒有B計劃"
     },
     {
       "title": "Brown-Forman&#x2019;s stock is soaring. Has it finally gotten cheap enough to attract a suitor?",
       "impact": "bullish",
       "source": "MarketWatch",
       "title_cn": "Brown-Forman 的股價正在飆升。它終於便宜到足以吸引追求者了嗎？"
-    },
-    {
-      "title": "Here&#x2019;s the big risk facing markets &#x2014; besides inflation &#x2014; as the Iran conflict drags on",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "這是市場面臨的巨大風險——除了通貨膨脹——隨著伊朗衝突的持續"
     }
   ]
 }
