@@ -1,0 +1,114 @@
+{
+  "symbol": "ETH/BTC",
+  "status": "running",
+  "started_at": "2026-03-26 16:47:43",
+  "params": {
+    "range_pct": 10.0,
+    "grid_count": 5,
+    "per_grid_usdt": 0.05
+  },
+  "grid": {
+    "upper": 0.03128,
+    "lower": 0.0256,
+    "mid": 0.02844,
+    "step": 0.00057,
+    "buy_levels": [
+      0.02787,
+      0.0273,
+      0.02673,
+      0.02616,
+      0.0256
+    ],
+    "sell_levels": [
+      0.02901,
+      0.02958,
+      0.03015,
+      0.03072,
+      0.03128
+    ],
+    "decimals": 5
+  },
+  "initial_price": 0.02844,
+  "buy_orders": [
+    {
+      "id": "3422970260093984768",
+      "price": 0.02787,
+      "amount": 1.794044,
+      "side": "buy",
+      "status": "open"
+    },
+    {
+      "id": "3422970263885635584",
+      "price": 0.0273,
+      "amount": 1.831502,
+      "side": "buy",
+      "status": "open"
+    },
+    {
+      "id": "3422970267710840832",
+      "price": 0.02673,
+      "amount": 1.870557,
+      "side": "buy",
+      "status": "open"
+    },
+    {
+      "id": "3422970271569600512",
+      "price": 0.02616,
+      "amount": 1.911315,
+      "side": "buy",
+      "status": "open"
+    },
+    {
+      "id": "3422970275193479168",
+      "price": 0.0256,
+      "amount": 1.953125,
+      "side": "buy",
+      "status": "open"
+    }
+  ],
+  "sell_orders": [
+    {
+      "id": "3422970282910998528",
+      "price": 0.02901,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "open"
+    },
+    {
+      "id": "3422970286434213888",
+      "price": 0.02958,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "open"
+    },
+    {
+      "id": "3422970290024538112",
+      "price": 0.03015,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "open"
+    },
+    {
+      "id": "3422970293547753472",
+      "price": 0.03072,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "open"
+    },
+    {
+      "id": "3422970297070968832",
+      "price": 0.03128,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "open"
+    }
+  ],
+  "filled_buys": [],
+  "filled_sells": [],
+  "total_profit": 0,
+  "mode": "demo",
+  "updated_at": "2026-03-26 22:13:06",
+  "current_price": 0.02843,
+  "last_check": "2026-03-26 22:13:06",
+  "total_filled": 0
+}

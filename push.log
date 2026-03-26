@@ -94,3 +94,18 @@ To https://github.com/Rostov12/market-intel.git
 [2026-03-25 23:03] 開始 push...
   風險數據已注入：風險燈號：綠（score=2）
 [2026-03-25 23:03] 風險注入完成
+[main 2e741ce] report: 2026-03-25 盤後報告
+ 9 files changed, 474 insertions(+), 302 deletions(-)
+ create mode 100644 web/grid-bot/daily-history.json
+To https://github.com/Rostov12/market-intel.git
+   60d2199..2e741ce  main -> main
+[2026-03-25 23:03] ✅ Push 完成
+[2026-03-25 23:03] ✅ Push 完成
+✅ 已放入 outbox：/home/adminadminubuntu/shared/discord-outbox/20260325-230309-413265128.json
+[2026-03-26 05:20] 開始 push...
+[2026-03-26 05:20] ⚠️  找不到今日報告，跳過
+[2026-03-26 08:05] 開始 push...
+[2026-03-26 08:05] ⚠️  找不到今日報告，跳過
+[2026-03-26 23:03] 開始 push...
+  風險數據已注入：風險燈號：黃（score=4）
+[2026-03-26 23:03] 風險注入完成
