@@ -1,6 +1,6 @@
 {
   "date": "2026-03-27",
-  "fetched_at": "2026-03-27 03:00",
+  "fetched_at": "2026-03-27 03:30",
   "mode": "intraday",
   "news": [
     {
@@ -16,6 +16,12 @@
       "title_cn": "主要即將離任的執行長都將人工智慧作為他們決定辭職的因素"
     },
     {
+      "title": "Meta boosts investment in West Texas AI data center by over sixfold to $10 billion",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "Meta 將西德州人工智慧資料中心的投資增加六倍多，達到 100 億美元"
+    },
+    {
       "title": "MLB faces a historic shift as potential lockout, media rights and other league changes loom",
       "impact": "neutral",
       "source": "CNBC",
@@ -28,28 +34,22 @@
       "title_cn": "聯準會敦促法官拒絕重啟傑羅姆鮑威爾調查傳票的請求"
     },
     {
-      "title": "S&P 500 falls as oil jumps and Trump warns Iran negotiators to 'get serious': Live updates",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "隨著油價上漲，標準普爾 500 指數下跌，川普警告伊朗談判代表「認真對待」：即時更新"
-    },
-    {
       "title": "This emerging market is sizzling while U.S. stocks falter, charts show",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "圖表顯示，這個新興市場正在炙手可熱，而美國股市卻步履蹣跚"
     },
     {
-      "title": "Arm&#x2019;s stock nabs another upgrade. It&#x2019;s never been this loved by analysts.",
+      "title": "Americans are now providing more than $1 trillion in unpaid family caregiving a year",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "Arm 的股票再次升級。它從未如此受到分析師的喜愛。"
+      "title_cn": "美國人現在每年提供超過 1 兆美元的無償家庭護理"
     },
     {
-      "title": "A buzzy fund offering access to pre-IPO AI companies like Anthropic and OpenAI is plummeting",
-      "impact": "neutral",
+      "title": "Mortgage rates climb for the fourth week in a row &#x2014; and they won&#x2019;t drop back down until this happens",
+      "impact": "bearish",
       "source": "MarketWatch",
-      "title_cn": "一家為 Anthropic 和 OpenAI 等 IPO 前人工智慧公司提供投資機會的熱門基金正在暴跌"
+      "title_cn": "抵押貸款利率連續第四周攀昇在這種情況發生之前他們不會回落"
     }
   ]
 }
