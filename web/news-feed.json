@@ -1,7 +1,7 @@
 {
   "date": "2026-03-26",
-  "fetched_at": "2026-03-26 21:30",
-  "mode": "preopen",
+  "fetched_at": "2026-03-26 22:00",
+  "mode": "intraday",
   "news": [
     {
       "title": "Trump says Iranian negotiators 'better get serious soon, before it is too late'",
@@ -22,10 +22,16 @@
       "title_cn": "全球預測組織預計今年美國通膨率為4.2%，遠高於聯準會預期"
     },
     {
-      "title": "Dow futures fall 300 points as oil jumps and Trump warns Iran negotiators to 'get serious': Live updates",
+      "title": "S&P 500 falls as oil jumps and Trump warns Iran negotiators to 'get serious': Live updates",
       "impact": "bullish",
       "source": "CNBC",
-      "title_cn": "隨著油價上漲，道瓊工業指數期貨下跌 300 點，川普警告伊朗談判代表「認真對待」：即時更新"
+      "title_cn": "隨著油價上漲，標準普爾 500 指數下跌，川普警告伊朗談判代表「認真對待」：即時更新"
+    },
+    {
+      "title": "Iran war will spare no major economy, says OECD — but the UK is more vulnerable than others",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "經合組織表示，伊朗戰爭不會讓主要經濟體倖免，但英國比其他國家更脆弱"
     },
     {
       "title": "Here are Thursday's biggest analyst calls: Apple, Dell, Cava, Tyson, Wells Fargo, Robinhood, Nucor & more",
@@ -34,22 +40,16 @@
       "title_cn": "以下是周四最大的分析師電話會議：蘋果、戴爾、Cava、泰森、富國銀行、羅賓漢、紐柯等"
     },
     {
-      "title": "What comes next? Three attack scenarios as U.S. sends thousands more troops to Middle East",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "接下來會發生什麼事？美國向中東增兵數千人的三種攻擊情景"
+      "title": "Micron&#x2019;s stock falls further, but this analyst says bears are missing the point",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "美光科技股價進一步下跌，但這位分析師表示，看空者沒有抓到重點"
     },
     {
-      "title": "I&#x2019;m 30 and haven&#x2019;t paid my dad for my cellphone bill for a year. He charged me $975. Is that fair?",
+      "title": "This &#x2018;single greatest&#x2019; stock-market predictor has never been more bearish",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "我已經 30 歲了，已經一年沒有付手機費給爸爸了。他向我收取了 975 美元。這樣公平嗎？"
-    },
-    {
-      "title": "Trump gets the blame as investors snub Iran pause. Even Truth Social posts may not save stocks.",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "由於投資人冷落伊朗暫停，川普受到指責。即使是「真相社交」貼文也可能無法挽救股票。"
+      "title_cn": "這個「最偉大的單曲」股市預測者從未如此悲觀"
     }
   ]
 }
