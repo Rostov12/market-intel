@@ -1,6 +1,6 @@
 {
-  "date": "2026-03-25",
-  "fetched_at": "2026-03-25 21:30",
+  "date": "2026-03-26",
+  "fetched_at": "2026-03-26 20:00",
   "market_tone": "盤前數據不足",
   "summary": {
     "bullish": 0,
@@ -11,72 +11,72 @@
     {
       "symbol": "ES=F",
       "name": "S&P 500 期貨",
-      "error": "Item wrong length 1922 instead of 651."
+      "error": "Item wrong length 1832 instead of 561."
     },
     {
       "symbol": "NQ=F",
       "name": "Nasdaq 期貨",
-      "error": "Item wrong length 1922 instead of 651."
+      "error": "Item wrong length 1832 instead of 561."
     },
     {
       "symbol": "YM=F",
       "name": "道瓊期貨",
-      "error": "Item wrong length 1933 instead of 651."
+      "error": "Item wrong length 1830 instead of 561."
     },
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "error": "Item wrong length 1136 instead of 642."
+      "error": "Item wrong length 1045 instead of 552."
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "error": "Item wrong length 1274 instead of 644."
+      "error": "Item wrong length 1194 instead of 564."
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
-      "error": "Item wrong length 1078 instead of 451."
+      "error": "Item wrong length 1010 instead of 387."
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
-      "error": "Item wrong length 1220 instead of 590."
+      "error": "Item wrong length 1168 instead of 538."
     },
     {
       "symbol": "META",
       "name": "Meta",
-      "error": "Item wrong length 1117 instead of 487."
+      "error": "Item wrong length 1061 instead of 431."
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
-      "error": "Item wrong length 1283 instead of 652."
+      "error": "Item wrong length 1192 instead of 562."
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
-      "error": "Item wrong length 1166 instead of 535."
+      "error": "Item wrong length 1103 instead of 476."
     },
     {
       "symbol": "SMH",
       "name": "半導體ETF",
-      "error": "Item wrong length 947 instead of 361."
+      "error": "Item wrong length 799 instead of 278."
     },
     {
       "symbol": "URNM",
       "name": "鈾礦ETF",
-      "error": "Item wrong length 495 instead of 141."
+      "error": "Item wrong length 435 instead of 106."
     },
     {
       "symbol": "GLD",
       "name": "黃金ETF",
-      "error": "Item wrong length 1275 instead of 644."
+      "error": "Item wrong length 1181 instead of 551."
     },
     {
       "symbol": "BTC-USD",
       "name": "比特幣",
-      "error": "Item wrong length 2087 instead of 602."
+      "error": "Item wrong length 2016 instead of 508."
     }
   ]
 }
