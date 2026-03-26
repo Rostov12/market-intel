@@ -1,25 +1,31 @@
 {
   "date": "2026-03-27",
-  "fetched_at": "2026-03-27 00:30",
+  "fetched_at": "2026-03-27 01:00",
   "mode": "intraday",
   "news": [
     {
-      "title": "Trump says oil and stock market reaction to Iran conflict not as severe as he expected",
+      "title": "Trump says Iran let 10 oil ships through Strait of Hormuz as 'present' to U.S.",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "川普稱石油和股市對伊朗衝突的反應沒有他預期的那麼嚴重"
+      "title_cn": "川普稱伊朗允許10艘油船通過霍爾木茲海峽作為向美國“獻禮”"
     },
     {
       "title": "Major outgoing CEOs are citing AI as a factor in their decisions to step down",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "主要即將卸任的執行長都將人工智慧作為他們決定辭職的一個因素"
+      "title_cn": "主要即將離任的執行長都將人工智慧作為他們決定辭職的因素"
     },
     {
-      "title": "Meta's court defeats add to Zuckerberg's recent woes, represent 'watershed event' for social media",
+      "title": "MLB faces a historic shift as potential lockout, media rights and other league changes loom",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "Meta 在法庭上的失敗加劇了祖克柏最近的困境，代表著社群媒體的“分水嶺事件”"
+      "title_cn": "隨著潛在停擺、媒體權利和其他聯盟變化的臨近，美國職棒大聯盟面臨歷史性轉變"
+    },
+    {
+      "title": "Fed urges judge to deny bid to resurrect Jerome Powell probe subpoenas",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "聯準會敦促法官拒絕重啟傑羅姆鮑威爾調查傳票"
     },
     {
       "title": "S&P 500 falls as oil jumps and Trump warns Iran negotiators to 'get serious': Live updates",
@@ -28,28 +34,22 @@
       "title_cn": "隨著油價上漲，標準普爾 500 指數下跌，川普警告伊朗談判代表「認真對待」：即時更新"
     },
     {
-      "title": "Iran war will spare no major economy, says OECD — but the UK is more vulnerable than others",
-      "impact": "bearish",
+      "title": "Trump volatility fatigue: Retail traders aren't buying the dips like they used to",
+      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "經合組織表示，伊朗戰爭不會讓主要經濟體倖免，但英國比其他國家更脆弱"
+      "title_cn": "川普波動疲勞：散戶不再像以前那樣逢低買入"
     },
     {
-      "title": "Dell is back on Josh Brown's Best Stocks list. Why more gains are ahead",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "戴爾重返喬許布朗的最佳股票名單。為什麼未來會有更多收益"
-    },
-    {
-      "title": "An older relative wants to give my daughter $19,000 when she turns 18. I said no. Who&#x2019;s right?",
+      "title": "Investors are snubbing Trump&#x2019;s Iran pause. Even his Truth Social posts may not save the market.",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "一位年長的親戚想在我女兒 18 歲時給她 19,000 美元。我拒絕了。誰是對的？"
+      "title_cn": "投資人正在冷落川普的伊朗暫停計畫。即使他的《真相社會》貼文也可能無法拯救市場。"
     },
     {
-      "title": "Mortgage rates climb for the fourth week in a row &#x2014; and they won&#x2019;t drop back down until this happens",
-      "impact": "bearish",
+      "title": "&#x2018;It feels slimy&#x2019;: My friend offered to be my adviser, but didn&#x2019;t tell me he&#x2019;s paid to push financial products. Can I trust him?",
+      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "抵押貸款利率連續第四周攀昇在這種情況發生之前他們不會回落"
+      "title_cn": "「感覺很黏」：我的朋友提出做我的顧問，但沒有告訴我他是拿錢來推銷金融產品的。我可以相信他嗎？"
     }
   ]
 }
