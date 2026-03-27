@@ -38,5 +38,32 @@
       }
     ],
     "total_profit": 13.2963
+  },
+  {
+    "date": "2026-03-27",
+    "bots": [
+      {
+        "symbol": "BTC/USDT",
+        "profit": 6.5585,
+        "roi": 0.65585,
+        "fills": 15,
+        "price": 68834.9
+      },
+      {
+        "symbol": "ETH/BTC",
+        "profit": 0,
+        "roi": 0.0,
+        "fills": 1,
+        "price": 0.02735
+      },
+      {
+        "symbol": "ETH/USDT",
+        "profit": 16.886,
+        "roi": 2.11075,
+        "fills": 20,
+        "price": 2060.92
+      }
+    ],
+    "total_profit": 23.444499999999998
   }
 ]

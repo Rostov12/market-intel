@@ -1,93 +1,85 @@
 {
-  "date": "2026-03-26",
-  "generated_at": "2026-03-26 09:28",
+  "date": "2026-03-27",
+  "generated_at": "2026-03-27 04:00",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 42,
-    "label": "下次 FOMC：05/07（42天後）"
+    "days_away": 41,
+    "label": "下次 FOMC：05/07（41天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-03-26",
-      "event": "GDP Q4 終值",
-      "importance": "medium",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🟡 GDP Q4 終值（0天後）"
-    },
-    {
       "date": "2026-03-27",
       "event": "PCE（2月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 1,
-      "label": "🔴 PCE（2月）（1天後）"
+      "days_away": 0,
+      "label": "🔴 PCE（2月）（0天後）"
     },
     {
       "date": "2026-03-27",
       "event": "密西根消費者信心（3月終值）",
       "importance": "medium",
       "source": "UMich",
-      "days_away": 1,
-      "label": "🟡 密西根消費者信心（3月終值）（1天後）"
-    },
-    {
-      "date": "2026-04-01",
-      "event": "ISM 製造業 PMI（3月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 6,
-      "label": "🔴 ISM 製造業 PMI（3月）（6天後）"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-03-26",
-      "event": "GDP Q4 終值",
-      "importance": "medium",
-      "source": "BEA",
       "days_away": 0,
-      "label": "🟡 GDP Q4 終值（0天後）"
-    },
-    {
-      "date": "2026-03-27",
-      "event": "PCE（2月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 1,
-      "label": "🔴 PCE（2月）（1天後）"
-    },
-    {
-      "date": "2026-03-27",
-      "event": "密西根消費者信心（3月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 1,
-      "label": "🟡 密西根消費者信心（3月終值）（1天後）"
+      "label": "🟡 密西根消費者信心（3月終值）（0天後）"
     },
     {
       "date": "2026-04-01",
       "event": "ISM 製造業 PMI（3月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 6,
-      "label": "🔴 ISM 製造業 PMI（3月）（6天後）"
+      "days_away": 5,
+      "label": "🔴 ISM 製造業 PMI（3月）（5天後）"
     },
     {
       "date": "2026-04-03",
       "event": "NFP（3月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 8,
-      "label": "🔴 NFP（3月就業）（8天後）"
+      "days_away": 7,
+      "label": "🔴 NFP（3月就業）（7天後）"
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-03-27",
+      "event": "PCE（2月）",
+      "importance": "high",
+      "source": "BEA",
+      "days_away": 0,
+      "label": "🔴 PCE（2月）（0天後）"
+    },
+    {
+      "date": "2026-03-27",
+      "event": "密西根消費者信心（3月終值）",
+      "importance": "medium",
+      "source": "UMich",
+      "days_away": 0,
+      "label": "🟡 密西根消費者信心（3月終值）（0天後）"
+    },
+    {
+      "date": "2026-04-01",
+      "event": "ISM 製造業 PMI（3月）",
+      "importance": "high",
+      "source": "ISM",
+      "days_away": 5,
+      "label": "🔴 ISM 製造業 PMI（3月）（5天後）"
+    },
+    {
+      "date": "2026-04-03",
+      "event": "NFP（3月就業）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 7,
+      "label": "🔴 NFP（3月就業）（7天後）"
     },
     {
       "date": "2026-04-09",
       "event": "CPI（3月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 14,
-      "label": "🔴 CPI（3月）（14天後）"
+      "days_away": 13,
+      "label": "🔴 CPI（3月）（13天後）"
     }
   ]
 }

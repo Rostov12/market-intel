@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-26",
-  "generated_at": "2026-03-26 04:45",
+  "date": "2026-03-27",
+  "generated_at": "2026-03-27 04:45",
   "composite": {
-    "score": -0.5,
+    "score": 0.0,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,54 +10,54 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-03-25",
       "2026-03-26",
-      "2026-03-27"
+      "2026-03-27",
+      "2026-03-30"
     ],
-    "total_calls_vol": 4117483,
-    "total_puts_vol": 5452843,
-    "pcr": 1.324,
-    "label": "散戶極度恐慌🟢",
-    "signal": "逆向看多"
+    "total_calls_vol": 5044158,
+    "total_puts_vol": 5416006,
+    "pcr": 1.074,
+    "label": "散戶偏空",
+    "signal": "略偏看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 5,
+    "bull_words": 4,
     "bear_words": 2,
-    "bull_pct": 71,
+    "bull_pct": 67,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "ZM",
+        "symbol": "RCAT",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 3/23 - 3/27",
-        "score": 83,
-        "upvote_ratio": 0.74
+        "score": 86,
+        "upvote_ratio": 0.76
       },
       {
-        "title": "What Are Your Moves Tomorrow, March 26, 2026",
-        "score": 43,
-        "upvote_ratio": 0.89
+        "title": "What Are Your Moves Tomorrow, March 27, 2026",
+        "score": 79,
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Every CEO is about to say \"unexpected headwinds\" 47 times this earnings season 💀",
-        "score": 5260,
-        "upvote_ratio": 0.97
+        "title": "Wife will divorce me if she finds out",
+        "score": 588,
+        "upvote_ratio": 0.68
       },
       {
-        "title": "Options changed my life pt. 4.2",
-        "score": 696,
-        "upvote_ratio": 0.92
+        "title": "“Just buy shares” they said.",
+        "score": 656,
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Jury awards $3M in social media addiction case, finds Meta 70% and YouTube 30% l",
-        "score": 209,
+        "title": "Exclusive: Musk rewrites IPO playbook with large slice of SpaceX stock for retai",
+        "score": 394,
         "upvote_ratio": 0.94
       }
     ]
