@@ -1,55 +1,55 @@
 {
-  "date": "2026-03-27",
-  "fetched_at": "2026-03-27 04:30",
+  "date": "2026-03-28",
+  "fetched_at": "2026-03-28 01:00",
   "mode": "intraday",
   "news": [
     {
-      "title": "Trump says Iran let 10 oil ships through Strait of Hormuz as a 'present' to U.S.",
-      "impact": "neutral",
+      "title": "Brent oil tops $110 again after Chinese ships are turned away from Strait of Hormuz",
+      "impact": "bullish",
       "source": "CNBC",
-      "title_cn": "川普稱伊朗允許10艘油船通過霍爾木茲海峽作為送給美國的“禮物”"
+      "title_cn": "中國船隻被霍爾木茲海峽拒於門外後，布倫特油價再次突破110美元"
     },
     {
-      "title": "Major outgoing CEOs are citing AI as a factor in their decisions to step down",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "主要即將離任的執行長都將人工智慧作為他們決定辭職的因素"
-    },
-    {
-      "title": "Trump extends pause on attacking Iran energy facilities to April 6",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "川普將暫停攻擊伊朗能源設施的時間延長至4月6日"
-    },
-    {
-      "title": "Meta boosts investment in West Texas AI data center by over sixfold to $10 billion",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "Meta 將西德州人工智慧資料中心的投資增加六倍多，達到 100 億美元"
-    },
-    {
-      "title": "Market guide: Where the S&P 500 may be headed, depending on how the Iran war goes",
+      "title": "Markets now see the Fed's next move as a potential rate hike as inflation fears mount",
       "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "市場指南：標普500指數可能走向何方，取決於伊朗戰爭的進展"
+      "title_cn": "隨著通膨擔憂加劇，市場現在認為聯準會的下一步行動可能是升息"
     },
     {
-      "title": "Netflix raises prices across all streaming plans",
+      "title": "Cybersecurity stocks fall on report Anthropic is testing a powerful new model",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "報告指出網路安全股票下跌 Anthropic 正在測試強大的新模型"
+    },
+    {
+      "title": "Dow tumbles 500 points, enters correction territory as Trump's Iran extension fails to soothe markets: Live updates",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "由於川普的伊朗延期未能安撫市場，道瓊斯指數暴跌 500 點，進入回檔區域：即時更新"
+    },
+    {
+      "title": "Stocks making the biggest moves midday: Brown-Forman, Entergy, Meta Platforms, Carnival, Argan & more",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "Netflix 提高所有串流媒體套餐的價格"
+      "title_cn": "中午漲幅最大的股票：Brown-Forman、Entergy、Meta Platforms、Carnival、Argan 等"
     },
     {
-      "title": "Big Tech&#x2019;s AI fantasy hits a nuclear wall: No fuel, no welders &#x2014; and no Plan B",
+      "title": "This bargain fintech stock is stuck in a five-year rut. A turnaround is coming",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "這檔廉價的金融科技股陷入了五年的困境。轉機即將來臨"
+    },
+    {
+      "title": "These 16 stocks are a short seller&#x2019;s dream &#x2014; likely losers no matter what the market does",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "大型科技公司的人工智慧幻想遇到了核牆：沒有燃料，沒有焊工；並且沒有B計劃"
+      "title_cn": "這16檔股票是做空者的夢想無論市場如何變化，都有可能成為輸家"
     },
     {
-      "title": "Brown-Forman&#x2019;s stock is soaring. Has it finally gotten cheap enough to attract a suitor?",
-      "impact": "bullish",
+      "title": "Social media is now a massive liability for Meta, Google and the rest of Big Tech",
+      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "Brown-Forman 的股價正在飆升。它終於便宜到足以吸引追求者了嗎？"
+      "title_cn": "社群媒體現在對 Meta、谷歌和其他大型科技公司來說是一個巨大的負擔"
     }
   ]
 }
