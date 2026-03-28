@@ -159,6 +159,7 @@ a:hover { text-decoration:underline; }
     <span class="live">&#9679; LIVE</span>
     <span id="clock"></span>
     <span id="reportDate">--</span>
+    <span id="dataStatus" class="dm" style="font-size:9px"></span>
     <span>MARKET INTEL TERMINAL v2</span>
   </div>
 </div>
@@ -654,27 +655,43 @@ async function renderSignals() {
 // MAIN
 // ════════════════════════════════════════════════════════
 
-async function main() {
+// ── 每個 Tab 獨立載入，互不影響 ──
+
+async function loadCoreData() {
+  const latest = await fj('reports/latest.json');
+  if (!latest) return null;
+  const allDates = latest.all_dates || [latest.latest_date];
+  const reportDate = allDates[allDates.length - 1];
+  // 資料新鮮度檢查
+  const today = new Date().toISOString().slice(0, 10);
+  const statusEl = document.getElementById('dataStatus');
+  if (statusEl) {
+    const age = Math.round((new Date(today) - new Date(reportDate)) / 86400000);
+    if (age > 1) statusEl.innerHTML = `<span style="color:var(--red)">DATA ${age}d OLD</span>`;
+    else if (age === 1) statusEl.innerHTML = `<span style="color:var(--orange)">DATA 1d OLD</span>`;
+    else statusEl.innerHTML = `<span style="color:var(--green)">DATA FRESH</span>`;
+  }
+  const el = document.getElementById('reportDate');
+  if (el) el.textContent = reportDate;
+  return await fj(`reports/${reportDate}.json`);
+}
+
+function showTabError(tabId, msg) {
+  const el = document.getElementById(tabId);
+  if (el) el.innerHTML += `<div class="pnl span-4"><div class="pnl-b"><div class="dm" style="padding:12px;font-size:11px">⚠ ${msg}</div></div></div>`;
+}
+
+async function initUS() {
   try {
-    // Load report index
-    const latest = await fj('reports/latest.json');
-    if (!latest) throw new Error('Cannot load latest.json');
-
-    const allDates = latest.all_dates || [latest.latest_date];
-    const data = await fj(`reports/${allDates[allDates.length-1]}.json`);
-    if (!data) throw new Error('Cannot load report');
-
-    // Parallel data fetch
-    const [news, sent, inst, gridBtc, gridEth, breaking, cryptoNews, insider, congress, econCal, fred, fg] = await Promise.all([
-      fj('news-feed.json'), fj('sentiment.json'), fj('institutional.json'),
-      fj('grid-bot/BTC-USDT.json'), fj('grid-bot/ETH-USDT.json'),
-      fj('breaking-news.json'), fj('crypto-news.json'),
+    const data = await loadCoreData();
+    if (!data) { showTabError('tab-us', 'Report data unavailable'); return; }
+    const [news, sent, breaking, insider, congress, econCal, fred, fg] = await Promise.all([
+      fj('news-feed.json'), fj('sentiment.json'),
+      fj('breaking-news.json'),
       fj('insider-trades.json'), fj('congress-trades.json'),
       fj('economic-calendar.json'), fj('fred-macro.json'),
       fj('fear-greed-history.json'),
     ]);
-
-    // US Tab
     renderTickerStrip(data);
     renderUSSummary(data);
     renderIndices(data);
@@ -685,22 +702,32 @@ async function main() {
     renderCalendar(econCal);
     renderNews(news, breaking);
     renderInsider(insider, congress);
-
-    // TW Tab
-    renderTW(data, inst, news);
-
-    // Crypto Tab
-    renderCrypto(data, cryptoNews, {btc: gridBtc, eth: gridEth});
-
-    // Signals Tab
-    renderSignals();
-
-  } catch(e) {
-    document.getElementById('tab-us').innerHTML = `<div class="pnl span-4"><div class="pnl-b"><div class="dn" style="padding:20px">Error: ${e.message}</div></div></div>`;
-  }
+  } catch(e) { showTabError('tab-us', 'US tab error: ' + e.message); }
 }
 
-main();
+async function initTW() {
+  try {
+    const data = await loadCoreData();
+    if (!data) { showTabError('tab-tw', 'Report data unavailable'); return; }
+    const [inst, news] = await Promise.all([fj('institutional.json'), fj('news-feed.json')]);
+    renderTW(data, inst, news);
+  } catch(e) { showTabError('tab-tw', 'TW tab error: ' + e.message); }
+}
+
+async function initCrypto() {
+  try {
+    const data = await loadCoreData();
+    if (!data) { showTabError('tab-crypto', 'Report data unavailable'); return; }
+    const [cryptoNews, gridBtc, gridEth] = await Promise.all([
+      fj('crypto-news.json'), fj('grid-bot/BTC-USDT.json'), fj('grid-bot/ETH-USDT.json'),
+    ]);
+    renderCrypto(data, cryptoNews, {btc: gridBtc, eth: gridEth});
+  } catch(e) { showTabError('tab-crypto', 'Crypto tab error: ' + e.message); }
+}
+
+// 啟動：所有 tab 並行載入，互不阻塞
+Promise.all([initUS(), initTW(), initCrypto(), renderSignals()])
+  .catch(e => console.error('Init error:', e));
 </script>
 </body>
 </html>
