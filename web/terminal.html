@@ -2,7 +2,10 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0d1117">
 <title>MKTL &lt;GO&gt; | 市場情報終端</title>
 <meta name="description" content="Bloomberg Terminal 風格市場情報儀表板。美股、台股、加密貨幣、AI 信號一站看齊。">
 <link rel="stylesheet" href="shared.css">
@@ -133,10 +136,21 @@ a:hover { text-decoration:underline; }
 @media (max-width:1024px) {
   .g-4 { grid-template-columns:repeat(2,1fr); }
   .span-3,.span-4 { grid-column:span 2; }
+  .cmd { width:180px; }
+  #mktConditions { flex-wrap:wrap; }
 }
 @media (max-width:600px) {
   .g-4,.g-3,.g-2 { grid-template-columns:1fr; }
   .span-2,.span-3,.span-4 { grid-column:span 1; }
+  .topbar { height:auto; flex-wrap:wrap; padding:4px 8px; gap:4px; }
+  .cmd { width:100%; }
+  .ticker-strip { font-size:10px; padding:2px 8px; }
+  .tab { padding:4px 10px; font-size:10px; }
+  .pnl-b { padding:3px 4px; }
+  .dt td,.dt th { padding:1px 3px; font-size:10px; }
+  .hm-cell { min-width:50px; font-size:9px; }
+  .tip-pop { min-width:200px !important; max-width:280px; left:-20px; }
+  .statusbar { flex-wrap:wrap; gap:4px; }
 }
 
 /* ═══════ Scrollbar ═══════ */
@@ -394,6 +408,7 @@ document.querySelectorAll('.tab').forEach(t => {
     t.classList.add('active');
     document.getElementById('tab-'+t.dataset.tab).classList.add('active');
     localStorage.setItem('mktl-tab', t.dataset.tab);
+    window.scrollTo({top:0,behavior:'smooth'});
   });
 });
 // Restore tab
