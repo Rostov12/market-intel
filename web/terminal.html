@@ -577,7 +577,7 @@ function renderTW(data, inst, news) {
 }
 
 // ── Crypto Tab ──
-function renderCrypto(data, cryptoNews, gridBot) {
+function renderCrypto(data, cryptoNews, gridBot, regime, alerts) {
   // Prices
   const cryptos = (data.watchlist||[]).filter(w=>w.symbol?.includes('-USD'));
   if(cryptos.length) {
@@ -592,15 +592,25 @@ function renderCrypto(data, cryptoNews, gridBot) {
       </tbody></table>`;
   }
 
-  // Regime
+  // Regime（使用 market-regime.json 豐富資料）
   const fg=data.fear_greed||{};
   const btc=(data.watchlist||[]).find(w=>w.symbol==='BTC-USD')||{};
-  document.getElementById('crRegime').innerHTML = `
-    <div style="text-align:center;padding:8px">
-      <div style="font-size:20px;font-weight:700" class="${fg.score>50?'up':'dn'}">${fg.score>50?'風險偏好':'風險趨避'}</div>
-      <div class="dm" style="margin-top:4px">F&G: ${fg.score||'--'} | BTC: ${pct(btc.change_pct)}</div>
-    </div>
-  `;
+  if(regime) {
+    const rc = regime.regime==='bull'?'up':regime.regime==='bear'||regime.regime==='crisis'?'dn':'org';
+    document.getElementById('crRegime').innerHTML = `
+      <div style="text-align:center;padding:6px">
+        <div style="font-size:16px;font-weight:700" class="${rc}">${esc(regime.label||regime.regime)}</div>
+        <div class="dm" style="font-size:10px;margin:2px 0">${esc(regime.desc||'')}</div>
+        <div style="margin-top:4px;font-size:10px">F&G: <span class="${fg.score>50?'up':'dn'} bold">${fg.score||'--'}</span> | BTC: <span class="${cls(btc.change_pct)}">${pct(btc.change_pct)}</span></div>
+        ${(regime.signals||[]).length?`<div style="margin-top:4px;text-align:left;font-size:9px">${regime.signals.slice(0,4).map(s=>`<div style="padding:1px 0">${esc(s)}</div>`).join('')}</div>`:''}
+      </div>`;
+  } else {
+    document.getElementById('crRegime').innerHTML = `
+      <div style="text-align:center;padding:8px">
+        <div style="font-size:20px;font-weight:700" class="${fg.score>50?'up':'dn'}">${fg.score>50?'風險偏好':'風險趨避'}</div>
+        <div class="dm" style="margin-top:4px">F&G: ${fg.score||'--'} | BTC: ${pct(btc.change_pct)}</div>
+      </div>`;
+  }
 
   // Grid Bot
   if(gridBot?.btc||gridBot?.eth) {
@@ -628,11 +638,19 @@ function renderCrypto(data, cryptoNews, gridBot) {
     ).join('')||'<div class="dm">無加密新聞</div>';
   }
 
-  // AI Advice
+  // AI Advice + Crypto Alerts
   const advice = data.crypto_advice || data.advice || '';
-  document.getElementById('crAdvice').innerHTML = advice ?
-    `<div class="ai-box"><div class="ai-label">加密 AI 分析</div>${esc(advice)}</div>` :
-    '<div class="dm">無加密分析</div>';
+  let adviceHtml = '';
+  if(advice) adviceHtml += `<div class="ai-box"><div class="ai-label">AI 分析</div>${esc(advice)}</div>`;
+  if(alerts && Array.isArray(alerts) && alerts.length) {
+    adviceHtml += `<div style="margin-top:6px"><div style="font-size:9px;color:var(--dim);margin-bottom:4px">加密貨幣警報 (${alerts.length})</div>`;
+    adviceHtml += alerts.slice(0,6).map(a => {
+      const t = a.alert_type||'';
+      const bc = t.includes('buy')||t.includes('突破')?'badge-up':t.includes('sell')||t.includes('跌')?'badge-dn':'badge-org';
+      return `<div class="row-item"><span class="amb bold" style="min-width:60px">${esc(a.symbol||'')}</span><span class="badge ${bc}" style="min-width:50px">${esc(t)}</span><span class="wh" style="flex:1;font-size:10px">${esc(a.message||'')}</span></div>`;
+    }).join('') + '</div>';
+  }
+  document.getElementById('crAdvice').innerHTML = adviceHtml || '<div class="dm">無加密分析</div>';
 }
 
 // ── Signals Tab ──
@@ -692,7 +710,9 @@ async function renderSignals() {
 
 // ── 每個 Tab 獨立載入，互不影響 ──
 
+let _coreDataCache = null;
 async function loadCoreData() {
+  if (_coreDataCache) return _coreDataCache;
   const latest = await fj('reports/latest.json');
   if (!latest) return null;
   const allDates = latest.all_dates || [latest.date || latest.latest_date];
@@ -708,7 +728,8 @@ async function loadCoreData() {
   }
   const el = document.getElementById('reportDate');
   if (el) el.textContent = reportDate;
-  return await fj(`reports/${reportDate}.json`);
+  _coreDataCache = await fj(`reports/${reportDate}.json`);
+  return _coreDataCache;
 }
 
 function showTabError(tabId, msg) {
@@ -756,10 +777,11 @@ async function initCrypto() {
   try {
     const data = await loadCoreData();
     if (!data) { showTabError('tab-crypto', '報告資料無法取得'); return; }
-    const [cryptoNews, gridBtc, gridEth] = await Promise.all([
+    const [cryptoNews, gridBtc, gridEth, regime, alerts] = await Promise.all([
       fj('crypto-news.json'), fj('grid-bot/BTC-USDT.json'), fj('grid-bot/ETH-USDT.json'),
+      fj('market-regime.json'), fj('crypto-alerts.json'),
     ]);
-    renderCrypto(data, cryptoNews, {btc: gridBtc, eth: gridEth});
+    renderCrypto(data, cryptoNews, {btc: gridBtc, eth: gridEth}, regime, alerts);
   } catch(e) { showTabError('tab-crypto', '加密分頁錯誤：' + e.message); }
 }
 
