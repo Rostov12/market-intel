@@ -553,6 +553,9 @@ function renderHmCell(w, sp) {
         <div class="tip-row"><span class="tip-label">52週位置</span><span class="tip-val">${w.w52_pos||'--'}%</span></div>
         <div class="tip-row"><span class="tip-label">量比</span><span class="tip-val">${w.volume_ratio?.toFixed(2)||'--'}</span></div>
         ${w.category?`<div class="tip-row"><span class="tip-label">類別</span><span class="tip-val org">${esc(w.category)}</span></div>`:''}
+        ${w.next_earnings?`<div class="tip-row"><span class="tip-label">下次財報</span><span class="tip-val cyn">${w.next_earnings}</span></div>`:''}
+        ${w.ex_dividend?`<div class="tip-row"><span class="tip-label">除息日</span><span class="tip-val prp">${w.ex_dividend}</span></div>`:''}
+        ${w.eps_estimate?`<div class="tip-row"><span class="tip-label">EPS 預估</span><span class="tip-val">${w.eps_estimate}</span></div>`:''}
         <div class="tip-divider"></div>
         <div style="margin-top:4px;padding:4px 6px;background:rgba(255,140,0,.08);border-radius:3px">
           <div style="font-size:9px;color:var(--orange);margin-bottom:2px">📊 AI 操盤建議</div>
