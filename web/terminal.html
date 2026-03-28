@@ -461,7 +461,7 @@ function renderMacro(data, fred) {
 
 function renderCalendar(cal) {
   if(!cal){document.getElementById('usCalendar').innerHTML='<div class="dm">無資料</div>';return;}
-  if(cal.next_fomc) document.getElementById('fomcTag').textContent=`FOMC ${cal.next_fomc.days_away}d`;
+  if(cal.next_fomc) document.getElementById('fomcTag').textContent=`FOMC ${cal.next_fomc.days_away}天`;
   document.getElementById('usCalendar').innerHTML = (cal.next_7_days||[]).slice(0,10).map(e => {
     const dot = e.importance==='high'?'<span class="dn">&#9679;</span>':e.importance==='medium'?'<span class="org">&#9679;</span>':'<span class="dm">&#9679;</span>';
     return `<div class="row-item">${dot}<span class="dm" style="min-width:40px">${(e.date||'').slice(5)}</span><span class="wh" style="flex:1;font-size:10px">${e.event||''}</span></div>`;
@@ -663,7 +663,7 @@ async function renderSignals() {
       const ec=evo==='strengthened'?'up':evo==='weakened'?'org':evo==='falsified'?'dn':'nt';
       const cc=conf>=.7?'up':conf>=.4?'org':'dn';
       return `<div style="display:grid;grid-template-columns:70px 1fr 50px 80px;gap:4px;padding:2px 4px;border-bottom:1px solid rgba(30,37,48,.3);font-size:11px">
-        <span class="amb bold">${s.ticker}</span><span class="dm">${s.name||''}</span><span class="${cc} bold">${(conf*100).toFixed(0)}%</span><span class="badge badge-${ec==='up'?'up':ec==='dn'?'dn':'nt'}">${evo.toUpperCase()}</span>
+        <span class="amb bold">${s.ticker}</span><span class="dm">${s.name||''}</span><span class="${cc} bold">${(conf*100).toFixed(0)}%</span><span class="badge badge-${ec==='up'?'up':ec==='dn'?'dn':'nt'}">${({strengthened:'增強',weakened:'減弱',falsified:'失效',unchanged:'不變'})[evo]||evo}</span>
       </div>`;
     }).join('');
   }
@@ -737,6 +737,9 @@ async function initUS() {
     renderCalendar(econCal);
     renderNews(news, breaking);
     renderInsider(insider, congress);
+    // 確保更新時間有值
+    const tsEl = document.getElementById('updateTs');
+    if(tsEl && tsEl.textContent === '--') tsEl.textContent = '更新時間：' + (data.generated_at || data.date || '');
   } catch(e) { showTabError('tab-us', '美股分頁錯誤：' + e.message); }
 }
 
