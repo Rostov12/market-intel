@@ -81,6 +81,10 @@ a:hover { text-decoration:underline; }
 .pnl-h { background:#000; border-bottom:1px solid var(--border); padding:2px 8px; display:flex; justify-content:space-between; align-items:center; }
 .pnl-t { color:var(--orange); font-size:10px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; }
 .pnl-tag { color:var(--dim); font-size:9px; }
+.wl-tabs { display:flex; gap:2px; margin-left:auto; }
+.wl-tab { background:transparent; border:1px solid var(--border); color:var(--muted); font-family:var(--mono); font-size:9px; padding:1px 6px; cursor:pointer; border-radius:2px; }
+.wl-tab:hover { color:var(--white); border-color:var(--dim); }
+.wl-tab.active { background:var(--orange); color:#000; border-color:var(--orange); font-weight:700; }
 .pnl-b { padding:4px 6px; overflow-y:auto; }
 
 /* ═══════ Data Table ═══════ */
@@ -251,8 +255,10 @@ a:hover { text-decoration:underline; }
   </div>
   <!-- Sector Heatmap -->
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">板塊熱力圖</span><span class="pnl-tag">觀察名單</span></div>
+    <div class="pnl-h"><span class="pnl-t">觀察名單</span><span class="wl-tabs"><button class="wl-tab active" data-wlv="heatmap">熱力圖</button><button class="wl-tab" data-wlv="table">表格</button><button class="wl-tab" data-wlv="earnings">財報</button></span></div>
     <div class="pnl-b" id="usHeatmap"></div>
+    <div class="pnl-b" id="usWlTable" style="display:none;max-height:360px;overflow-y:auto"></div>
+    <div class="pnl-b" id="usWlEarnings" style="display:none;max-height:360px;overflow-y:auto"></div>
   </div>
   <!-- Sentiment -->
   <div class="pnl">
@@ -538,6 +544,7 @@ function renderIndices(data) {
 }
 
 function renderWatchlistHeatmap(data) {
+  _wlData = data;
   const items = (data.watchlist||[]).filter(w=>!w.symbol?.includes('-USD')&&!w.symbol?.includes('.TW')&&!w.symbol?.includes('.TWO'));
   const sp = data.sparklines || {};
   if(!items.length){document.getElementById('usHeatmap').innerHTML='<div class="dm">無資料</div>';return;}
@@ -602,6 +609,84 @@ function renderHmCell(w, sp) {
       </div>
     </div>`;
 }
+
+// ── Watchlist Table View ──
+function renderWatchlistTable(data) {
+  const items = (data.watchlist||[]).filter(w=>!w.symbol?.includes('-USD')&&!w.symbol?.includes('.TW')&&!w.symbol?.includes('.TWO'));
+  const sp = data.sparklines || {};
+  if(!items.length){document.getElementById('usWlTable').innerHTML='<div class="dm">無資料</div>';return;}
+  const sorted = [...items].sort((a,b)=>(b.change_pct||0)-(a.change_pct||0));
+  document.getElementById('usWlTable').innerHTML = `<table style="width:100%;border-collapse:collapse;font-size:10px">
+    <thead><tr style="color:var(--muted);border-bottom:1px solid var(--border)">
+      <th style="text-align:left;padding:3px 4px">標的</th><th style="text-align:right;padding:3px 4px">價格</th>
+      <th style="text-align:right;padding:3px 4px">漲跌%</th><th style="text-align:center;padding:3px 4px">走勢</th>
+      <th style="text-align:right;padding:3px 4px">RSI</th><th style="text-align:center;padding:3px 4px">趨勢</th>
+      <th style="text-align:right;padding:3px 4px">量比</th>
+    </tr></thead><tbody>
+    ${sorted.map(w=>{
+      const chg=w.change_pct||0; const price=w.price||w.close||0; const c=cls(chg);
+      const spark=sp[w.symbol]||[]; const rsi=w.rsi_12||w.rsi_6||0;
+      const rsiC=rsi>70?'dn':rsi<30?'up':'wh';
+      const tCls=w.trend?.includes('多')?'up':w.trend?.includes('空')?'dn':'dm';
+      return `<tr style="border-bottom:1px solid var(--border);cursor:pointer" onclick="window.open('https://rostov12.github.io/stock-analyzer/#${w.symbol}','_blank')" onmouseenter="this.style.background='var(--bg-hover)'" onmouseleave="this.style.background=''">
+        <td style="padding:3px 4px"><span class="amb">${w.symbol}</span> <span class="dm">${esc((w.name||'').slice(0,6))}</span></td>
+        <td style="text-align:right;padding:3px 4px" class="wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</td>
+        <td style="text-align:right;padding:3px 4px" class="${c} bold">${pct(chg)}</td>
+        <td style="text-align:center;padding:3px 4px">${spark.length?miniSpark(spark,60,16):''}</td>
+        <td style="text-align:right;padding:3px 4px" class="${rsiC}">${rsi?rsi.toFixed(0):'--'}</td>
+        <td style="text-align:center;padding:3px 4px" class="${tCls}">${esc((w.trend||'--').slice(0,4))}</td>
+        <td style="text-align:right;padding:3px 4px">${w.volume_ratio?.toFixed(1)||'--'}</td>
+      </tr>`;
+    }).join('')}</tbody></table>`;
+}
+
+// ── Watchlist Earnings View ──
+function renderWatchlistEarnings(data) {
+  const items = (data.watchlist||[]).filter(w=>!w.symbol?.includes('-USD')&&!w.symbol?.includes('.TW')&&!w.symbol?.includes('.TWO'));
+  if(!items.length){document.getElementById('usWlEarnings').innerHTML='<div class="dm">無資料</div>';return;}
+  // Sort: those with earnings dates first, then by date
+  const withEarnings = items.filter(w=>w.next_earnings);
+  const withDividend = items.filter(w=>w.ex_dividend&&!w.next_earnings);
+  const rest = items.filter(w=>!w.next_earnings&&!w.ex_dividend);
+  const sorted = [...withEarnings.sort((a,b)=>a.next_earnings.localeCompare(b.next_earnings)), ...withDividend.sort((a,b)=>a.ex_dividend.localeCompare(b.ex_dividend)), ...rest];
+  document.getElementById('usWlEarnings').innerHTML = `<table style="width:100%;border-collapse:collapse;font-size:10px">
+    <thead><tr style="color:var(--muted);border-bottom:1px solid var(--border)">
+      <th style="text-align:left;padding:3px 4px">標的</th><th style="text-align:right;padding:3px 4px">價格</th>
+      <th style="text-align:center;padding:3px 4px">下次財報</th><th style="text-align:right;padding:3px 4px">EPS 預估</th>
+      <th style="text-align:center;padding:3px 4px">除息日</th><th style="text-align:right;padding:3px 4px">殖利率</th>
+    </tr></thead><tbody>
+    ${sorted.map(w=>{
+      const price=w.price||w.close||0; const chg=w.change_pct||0;
+      const earnDate=w.next_earnings||'--'; const earnDays=w.next_earnings?Math.ceil((new Date(w.next_earnings)-new Date())/(86400000))+'天':'';
+      const divDate=w.ex_dividend||'--'; const yld=w.dividend_yield?w.dividend_yield.toFixed(2)+'%':'--';
+      return `<tr style="border-bottom:1px solid var(--border);cursor:pointer" onclick="window.open('https://rostov12.github.io/stock-analyzer/#${w.symbol}','_blank')" onmouseenter="this.style.background='var(--bg-hover)'" onmouseleave="this.style.background=''">
+        <td style="padding:3px 4px"><span class="amb">${w.symbol}</span> <span class="${cls(chg)}">${pct(chg)}</span></td>
+        <td style="text-align:right;padding:3px 4px" class="wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</td>
+        <td style="text-align:center;padding:3px 4px">${w.next_earnings?`<span class="cyn">${earnDate}</span> <span class="dm">${earnDays}</span>`:'<span class="dm">--</span>'}</td>
+        <td style="text-align:right;padding:3px 4px">${w.eps_estimate?`<span class="wh">${w.eps_estimate}</span>`:'<span class="dm">--</span>'}</td>
+        <td style="text-align:center;padding:3px 4px">${w.ex_dividend?`<span class="prp">${divDate}</span>`:'<span class="dm">--</span>'}</td>
+        <td style="text-align:right;padding:3px 4px">${yld!=='--'?`<span class="up">${yld}</span>`:'<span class="dm">--</span>'}</td>
+      </tr>`;
+    }).join('')}</tbody></table>
+    ${!withEarnings.length&&!withDividend.length?'<div class="dm" style="padding:8px;font-size:9px">財報/除息資料將於下次報告生成後出現（market-close-report.py 已加入 yfinance calendar）</div>':''}`;
+}
+
+// ── Watchlist Tab Switching ──
+let _wlData = null;
+document.querySelectorAll('.wl-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.wl-tab').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const v = btn.dataset.wlv;
+    document.getElementById('usHeatmap').style.display = v==='heatmap'?'':'none';
+    document.getElementById('usWlTable').style.display = v==='table'?'':'none';
+    document.getElementById('usWlEarnings').style.display = v==='earnings'?'':'none';
+    if(_wlData) {
+      if(v==='table') renderWatchlistTable(_wlData);
+      if(v==='earnings') renderWatchlistEarnings(_wlData);
+    }
+  });
+});
 
 function renderMovers(data) {
   const sp = data.sparklines || {};
@@ -692,7 +777,8 @@ function renderCalendar(cal) {
     const dot = e.importance==='high'?'<span class="dn">&#9679;</span>':e.importance==='medium'?'<span class="org">&#9679;</span>':'<span class="dm">&#9679;</span>';
     const imp = e.importance==='high'?'高度關注':e.importance==='medium'?'中度關注':'低度關注';
     const impCls = e.importance==='high'?'dn':e.importance==='medium'?'org':'dm';
-    return `<div class="row-item tip-wrap">${dot}<span class="dm" style="min-width:40px">${(e.date||'').slice(5)}</span><span class="wh" style="flex:1;font-size:10px">${e.event||''}</span><span class="dm" style="font-size:9px">${e.days_away!=null?e.days_away+'天後':''}</span>
+    const calChips = [e.previous?`<span class="dm" style="font-size:8px">前:${e.previous}</span>`:'', e.forecast?`<span class="org" style="font-size:8px">預:${e.forecast}</span>`:'', e.actual?`<span class="${'bold '+(parseFloat(e.actual)>parseFloat(e.forecast)?'up':'dn')}" style="font-size:8px">實:${e.actual}</span>`:'' ].filter(Boolean).join(' ');
+    return `<div class="row-item tip-wrap">${dot}<span class="dm" style="min-width:40px">${(e.date||'').slice(5)}</span><span class="wh" style="flex:1;font-size:10px">${e.event||''}</span>${calChips?`<span style="margin-left:4px">${calChips}</span>`:''}<span class="dm" style="font-size:9px;margin-left:4px">${e.days_away!=null?e.days_away+'天後':''}</span>
       <div class="tip-pop" style="min-width:220px">
         <div style="font-weight:700;color:var(--amber);margin-bottom:4px">${esc(e.event||'')}</div>
         <div class="tip-row"><span class="tip-label">日期</span><span class="tip-val">${e.date||''}</span></div>
