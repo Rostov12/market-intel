@@ -1,85 +1,83 @@
 {
-  "date": "2026-03-27",
-  "generated_at": "2026-03-27 04:00",
+  "date": "2026-03-28",
+  "generated_at": "2026-03-28 20:41",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 41,
-    "label": "下次 FOMC：05/07（41天後）"
+    "days_away": 40,
+    "label": "下次 FOMC：05/07（40天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-03-27",
-      "event": "PCE（2月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🔴 PCE（2月）（0天後）"
-    },
-    {
-      "date": "2026-03-27",
-      "event": "密西根消費者信心（3月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 0,
-      "label": "🟡 密西根消費者信心（3月終值）（0天後）"
-    },
     {
       "date": "2026-04-01",
       "event": "ISM 製造業 PMI（3月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 5,
-      "label": "🔴 ISM 製造業 PMI（3月）（5天後）"
+      "days_away": 4,
+      "label": "🔴 ISM 製造業 PMI（3月）（4天後）",
+      "impact_guide": {
+        "name": "ISM 製造業 PMI",
+        "above": ">50 擴張，超預期 → 偏多",
+        "below": "<50 收縮，低於預期 → 偏空",
+        "watch": "新訂單和就業分項是領先指標"
+      }
     },
     {
       "date": "2026-04-03",
       "event": "NFP（3月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 7,
-      "label": "🔴 NFP（3月就業）（7天後）"
+      "days_away": 6,
+      "label": "🔴 NFP（3月就業）（6天後）",
+      "impact_guide": {
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      }
     }
   ],
   "next_14_days": [
     {
-      "date": "2026-03-27",
-      "event": "PCE（2月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🔴 PCE（2月）（0天後）"
-    },
-    {
-      "date": "2026-03-27",
-      "event": "密西根消費者信心（3月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 0,
-      "label": "🟡 密西根消費者信心（3月終值）（0天後）"
-    },
-    {
       "date": "2026-04-01",
       "event": "ISM 製造業 PMI（3月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 5,
-      "label": "🔴 ISM 製造業 PMI（3月）（5天後）"
+      "days_away": 4,
+      "label": "🔴 ISM 製造業 PMI（3月）（4天後）",
+      "impact_guide": {
+        "name": "ISM 製造業 PMI",
+        "above": ">50 擴張，超預期 → 偏多",
+        "below": "<50 收縮，低於預期 → 偏空",
+        "watch": "新訂單和就業分項是領先指標"
+      }
     },
     {
       "date": "2026-04-03",
       "event": "NFP（3月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 7,
-      "label": "🔴 NFP（3月就業）（7天後）"
+      "days_away": 6,
+      "label": "🔴 NFP（3月就業）（6天後）",
+      "impact_guide": {
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      }
     },
     {
       "date": "2026-04-09",
       "event": "CPI（3月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 13,
-      "label": "🔴 CPI（3月）（13天後）"
+      "days_away": 12,
+      "label": "🔴 CPI（3月）（12天後）",
+      "impact_guide": {
+        "name": "消費者物價指數",
+        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+      }
     }
   ]
 }
