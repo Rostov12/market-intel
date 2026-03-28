@@ -745,7 +745,7 @@ function renderSentiment(sent) {
   if(sent.wsb?.top_tickers) {
     rows.push(`<tr><td colspan="3" class="dm" style="font-size:9px;padding-top:4px">WSB 熱門標的</td></tr>`);
     sent.wsb.top_tickers.slice(0,6).forEach(t => {
-      rows.push(`<tr><td class="cyn">$${t.s||t.ticker}</td><td>${t.n||t.count}x</td><td></td></tr>`);
+      rows.push(`<tr><td class="cyn">$${t.s||t.ticker||t.symbol||'?'}</td><td>${t.n||t.count||0}x</td><td></td></tr>`);
     });
   }
   document.getElementById('usSentiment').innerHTML=`<table class="dt"><thead><tr><th>來源</th><th>數值</th><th>訊號</th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
