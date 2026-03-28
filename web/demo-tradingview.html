@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Intel — TradingView Style</title>
+<style>
+/* ═══════════════════════════════════════════
+   TradingView — Dark Pro Theme
+   ═══════════════════════════════════════════ */
+:root {
+  --bg-main: #131722;
+  --bg-card: #1e222d;
+  --bg-input: #2a2e39;
+  --bg-hover: #363a45;
+  --border: #2a2e39;
+  --border-light: #363a45;
+  --text-0: #d1d4dc;
+  --text-1: #787b86;
+  --text-2: #4a4e57;
+  --accent: #2962ff;
+  --accent-hover: #1e53e4;
+  --green: #26a69a;
+  --green-bright: #00e676;
+  --red: #ef5350;
+  --red-bright: #ff5252;
+  --orange: #ff9800;
+  --purple: #ab47bc;
+  --blue-light: #42a5f5;
+  --font: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', 'Noto Sans TC', sans-serif;
+  --mono: 'Trebuchet MS', -apple-system, sans-serif;
+  --radius: 6px;
+  --transition: 100ms ease;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-main);
+  color: var(--text-0);
+  font-family: var(--font);
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ═══════ Header ═══════ */
+.header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 0 16px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-tv {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-0);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-tv .icon {
+  width: 28px;
+  height: 28px;
+  background: var(--accent);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 1px;
+  background: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.nav-tab {
+  padding: 6px 14px;
+  background: var(--bg-card);
+  color: var(--text-1);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all var(--transition);
+  cursor: pointer;
+}
+
+.nav-tab:hover { background: var(--bg-hover); color: var(--text-0); }
+.nav-tab.active { background: var(--accent); color: #fff; }
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-1);
+  font-size: 12px;
+}
+
+.live-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--green-bright);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* ═══════ Watchlist Bar ═══════ */
+.watchlist-bar {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 16px;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.watch-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.watch-chip:hover { border-color: var(--border-light); background: var(--bg-hover); }
+
+.watch-sym { font-weight: 700; color: var(--text-0); }
+.watch-price { color: var(--text-1); }
+.watch-chg { font-size: 11px; font-weight: 600; }
+.watch-chg.up { color: var(--green); }
+.watch-chg.down { color: var(--red); }
+
+/* ═══════ Layout ═══════ */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  min-height: calc(100vh - 48px);
+}
+
+.main-area { padding: 16px; }
+
+.sidebar {
+  border-left: 1px solid var(--border);
+  background: var(--bg-card);
+  overflow-y: auto;
+}
+
+/* ═══════ Chart Area (placeholder) ═══════ */
+.chart-area {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.chart-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.chart-symbol {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.chart-interval {
+  display: flex;
+  gap: 2px;
+}
+
+.chart-interval span {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--text-1);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.chart-interval span:hover { background: var(--bg-hover); color: var(--text-0); }
+.chart-interval span.active { background: var(--accent); color: #fff; }
+
+/* Candlestick visualization */
+.candles {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 200px;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+.candle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 3px;
+}
+
+.candle-wick {
+  width: 1px;
+  background: currentColor;
+}
+
+.candle-body {
+  width: 100%;
+  max-width: 8px;
+  min-height: 2px;
+  border-radius: 1px;
+}
+
+.candle.up { color: var(--green); }
+.candle.up .candle-body { background: var(--green); }
+.candle.down { color: var(--red); }
+.candle.down .candle-body { background: var(--red); }
+
+/* ═══════ Panels ═══════ */
+.panel-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.panel-head {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-title {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.panel-title .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.panel-count {
+  font-size: 11px;
+  color: var(--text-2);
+  background: var(--bg-input);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.panel-body { padding: 8px 0; }
+
+/* ═══════ Gauge (Fear & Greed) ═══════ */
+.tv-gauge {
+  padding: 16px;
+  text-align: center;
+}
+
+.gauge-arc {
+  position: relative;
+  width: 180px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gauge-arc svg { width: 180px; height: 100px; }
+
+.gauge-arc-track {
+  fill: none;
+  stroke: var(--bg-input);
+  stroke-width: 12;
+}
+
+.gauge-arc-fill {
+  fill: none;
+  stroke-width: 12;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gauge-value {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.gauge-text {
+  font-size: 12px;
+  color: var(--text-1);
+  margin-top: 2px;
+}
+
+/* Mini sparkline */
+.sparkline {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 30px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.spark-bar {
+  width: 6px;
+  border-radius: 2px 2px 0 0;
+  transition: height 0.5s ease;
+}
+
+/* ═══════ List items ═══════ */
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  gap: 10px;
+  border-bottom: 1px solid rgba(42,46,57,0.5);
+  transition: background var(--transition);
+  cursor: default;
+}
+
+.list-item:last-child { border-bottom: none; }
+.list-item:hover { background: var(--bg-hover); }
+
+.list-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.list-icon.green { background: rgba(38,166,154,0.15); color: var(--green); }
+.list-icon.red { background: rgba(239,83,80,0.15); color: var(--red); }
+.list-icon.orange { background: rgba(255,152,0,0.15); color: var(--orange); }
+.list-icon.blue { background: rgba(66,165,245,0.15); color: var(--blue-light); }
+
+.list-info { flex: 1; min-width: 0; }
+.list-title { font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list-sub { font-size: 11px; color: var(--text-1); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.list-right { text-align: right; flex-shrink: 0; }
+.list-value { font-size: 13px; font-weight: 600; }
+.list-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-top: 2px;
+}
+
+.tag-up { background: rgba(38,166,154,0.15); color: var(--green); }
+.tag-down { background: rgba(239,83,80,0.15); color: var(--red); }
+.tag-neutral { background: rgba(120,123,134,0.15); color: var(--text-1); }
+
+/* ═══════ Sidebar sections ═══════ */
+.sb-section {
+  border-bottom: 1px solid var(--border);
+}
+
+.sb-head {
+  padding: 10px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-1);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ═══════ Backtest mini table ═══════ */
+.bt-mini {
+  display: grid;
+  grid-template-columns: 20px 1fr 45px 45px 50px;
+  gap: 2px;
+  align-items: center;
+  padding: 5px 14px;
+  font-size: 11px;
+  border-bottom: 1px solid rgba(42,46,57,0.3);
+  transition: background var(--transition);
+}
+
+.bt-mini:hover { background: var(--bg-hover); }
+
+.bt-mini.header {
+  color: var(--text-2);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.bt-rank { text-align: center; color: var(--text-2); }
+
+/* ═══════ Responsive ═══════ */
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { border-left: none; border-top: 1px solid var(--border); }
+  .panel-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <div class="logo-tv">
+      <div class="icon">M</div>
+      Market Intel
+    </div>
+    <div class="nav-tabs">
+      <span class="nav-tab active">Dashboard</span>
+      <span class="nav-tab" onclick="location.href='signals.html'">Signals</span>
+      <span class="nav-tab" onclick="location.href='demo-bloomberg.html'">Terminal</span>
+      <span class="nav-tab" onclick="location.href='demo-linear.html'">Minimal</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="live-dot"></div>
+    <span id="tvClock"></span>
+  </div>
+</div>
+
+<!-- Watchlist Bar -->
+<div class="watchlist-bar" id="watchBar"></div>
+
+<div class="layout">
+
+  <!-- Main Area -->
+  <div class="main-area">
+
+    <!-- Chart -->
+    <div class="chart-area">
+      <div class="chart-header">
+        <div class="chart-symbol">Fear & Greed Index</div>
+        <div class="chart-interval">
+          <span>1D</span><span class="active">1W</span><span>1M</span><span>3M</span>
+        </div>
+      </div>
+      <div class="candles" id="fgCandles"></div>
+    </div>
+
+    <!-- Panels -->
+    <div class="panel-grid">
+
+      <!-- DeepEar Signals -->
+      <div class="panel">
+        <div class="panel-head">
+          <div class="panel-title"><div class="dot" style="background:var(--purple)"></div>DeepEar AI Signals</div>
+          <div class="panel-count" id="tvSigCount">0</div>
+        </div>
+        <div class="panel-body" id="tvSignals"></div>
+      </div>
+
+      <!-- Economic Calendar -->
+      <div class="panel">
+        <div class="panel-head">
+          <div class="panel-title"><div class="dot" style="background:var(--blue-light)"></div>Economic Calendar</div>
+          <div class="panel-count" id="tvFomcTag">--</div>
+        </div>
+        <div class="panel-body" id="tvCalendar"></div>
+      </div>
+
+      <!-- Backtest Ranking -->
+      <div class="panel" style="grid-column:span 2">
+        <div class="panel-head">
+          <div class="panel-title"><div class="dot" style="background:var(--orange)"></div>Indicator Backtest Ranking</div>
+          <div class="panel-count">BTC-USD 2Y</div>
+        </div>
+        <div class="panel-body" id="tvBacktest"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <!-- Fear & Greed Gauge -->
+    <div class="sb-section">
+      <div class="sb-head"><span>Fear & Greed</span><span id="tvFgDate"></span></div>
+      <div class="tv-gauge">
+        <div class="gauge-arc">
+          <svg viewBox="0 0 180 100">
+            <path class="gauge-arc-track" d="M 15 90 A 75 75 0 0 1 165 90" />
+            <path class="gauge-arc-fill" id="tvGaugeFill" d="M 15 90 A 75 75 0 0 1 165 90"
+              stroke-dasharray="236" stroke-dashoffset="236" />
+          </svg>
+        </div>
+        <div class="gauge-value" id="tvGaugeVal">--</div>
+        <div class="gauge-text" id="tvGaugeLabel">Loading</div>
+        <div class="sparkline" id="tvSparkline"></div>
+      </div>
+    </div>
+
+    <!-- Signal Tracker -->
+    <div class="sb-section">
+      <div class="sb-head"><span>Signal Tracker</span></div>
+      <div id="tvTracker"></div>
+    </div>
+
+    <!-- Sentiment -->
+    <div class="sb-section">
+      <div class="sb-head"><span>Sentiment</span></div>
+      <div id="tvSentiment"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+async function loadJSON(url) {
+  try { const r = await fetch(url+'?t='+Date.now()); return r.ok ? await r.json() : null; } catch { return null; }
+}
+
+function fgColor(s) {
+  if (s<=25) return 'var(--red)';
+  if (s<=45) return 'var(--orange)';
+  if (s<=55) return 'var(--text-1)';
+  return 'var(--green)';
+}
+
+// Clock
+function tvClock() {
+  const now = new Date();
+  const tw = new Date(now.toLocaleString('en-US',{timeZone:'Asia/Taipei'}));
+  document.getElementById('tvClock').textContent =
+    tw.toLocaleString('zh-TW',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+}
+setInterval(tvClock,1000); tvClock();
+
+async function render() {
+  const [sent, cal, fg, deepear, tracker, bt] = await Promise.all([
+    loadJSON('sentiment.json'),
+    loadJSON('economic-calendar.json'),
+    loadJSON('fear-greed-history.json'),
+    loadJSON('deepear-signals.json'),
+    loadJSON('signal-tracker.json'),
+    loadJSON('indicator-backtest.json'),
+  ]);
+
+  // Watchlist bar from tracker
+  const bar = document.getElementById('watchBar');
+  if (tracker?.signals) {
+    bar.innerHTML = tracker.signals.slice(0,15).map(s => {
+      const conf = s.confidence||0;
+      const cls = conf >= 0.5 ? 'up' : 'down';
+      return `<div class="watch-chip">
+        <span class="watch-sym">${s.ticker}</span>
+        <span class="watch-price">${s.name||''}</span>
+        <span class="watch-chg ${cls}">${(conf*100).toFixed(0)}%</span>
+      </div>`;
+    }).join('');
+  }
+
+  // Fear & Greed
+  if (fg?.length) {
+    const latest = fg[fg.length-1];
+    const score = latest.score||0;
+    document.getElementById('tvGaugeVal').textContent = score.toFixed(0);
+    document.getElementById('tvGaugeVal').style.color = fgColor(score);
+    document.getElementById('tvGaugeLabel').textContent = latest.label||'';
+    document.getElementById('tvFgDate').textContent = latest.date||'';
+
+    // Arc gauge (semi-circle)
+    const arcLen = 236;
+    const offset = arcLen - (score/100)*arcLen;
+    const fill = document.getElementById('tvGaugeFill');
+    fill.style.stroke = fgColor(score);
+    setTimeout(() => { fill.style.strokeDashoffset = offset; }, 200);
+
+    // Sparkline
+    const spark = document.getElementById('tvSparkline');
+    spark.innerHTML = fg.slice(-14).map(f => {
+      const h = Math.max(3, (f.score/100)*30);
+      return `<div class="spark-bar" style="height:${h}px;background:${fgColor(f.score)}"></div>`;
+    }).join('');
+
+    // Candles (fake candlestick from FG data)
+    const candles = document.getElementById('fgCandles');
+    candles.innerHTML = fg.slice(-60).map((f,i,arr) => {
+      const prev = i > 0 ? arr[i-1].score : f.score;
+      const isUp = f.score >= prev;
+      const bodyH = Math.max(2, Math.abs(f.score - prev) * 1.5);
+      const wickH = Math.random() * 10 + 3;
+      return `<div class="candle ${isUp?'up':'down'}">
+        <div class="candle-wick" style="height:${wickH}px"></div>
+        <div class="candle-body" style="height:${bodyH}px"></div>
+        <div class="candle-wick" style="height:${wickH*0.6}px"></div>
+      </div>`;
+    }).join('');
+  }
+
+  // Signals
+  if (deepear?.signals) {
+    document.getElementById('tvSigCount').textContent = deepear.signals.length;
+    document.getElementById('tvSignals').innerHTML = deepear.signals.slice(0,6).map(s => {
+      const conf = s.confidence||0;
+      const iconCls = conf>=0.7?'green':conf>=0.4?'orange':'red';
+      const tagCls = conf>=0.7?'tag-up':conf>=0.4?'tag-neutral':'tag-down';
+      return `<div class="list-item">
+        <div class="list-icon ${iconCls}">${(conf*100).toFixed(0)}</div>
+        <div class="list-info">
+          <div class="list-title">${s.title||s.id}</div>
+          <div class="list-sub">${(s.summary||'').slice(0,60)}...</div>
+        </div>
+        <div class="list-right">
+          <div class="list-value">${(conf*100).toFixed(0)}%</div>
+          <div class="list-tag ${tagCls}">${conf>=0.7?'HIGH':'MED'}</div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Calendar
+  if (cal) {
+    if (cal.next_fomc) document.getElementById('tvFomcTag').textContent = `FOMC ${cal.next_fomc.days_away}d`;
+    document.getElementById('tvCalendar').innerHTML = (cal.next_7_days||[]).slice(0,8).map(e => {
+      const impCls = e.importance==='high'?'red':e.importance==='medium'?'orange':'blue';
+      return `<div class="list-item">
+        <div class="list-icon ${impCls}" style="font-size:9px">${(e.date||'').slice(5)}</div>
+        <div class="list-info"><div class="list-title">${e.event||''}</div><div class="list-sub">${e.source||''}</div></div>
+        <div class="list-right"><div class="list-tag ${e.importance==='high'?'tag-down':e.importance==='medium'?'tag-neutral':'tag-up'}">${(e.importance||'').toUpperCase()}</div></div>
+      </div>`;
+    }).join('');
+  }
+
+  // Tracker sidebar
+  if (tracker?.signals) {
+    document.getElementById('tvTracker').innerHTML = tracker.signals.slice(0,10).map(s => {
+      const conf = s.confidence||0;
+      const hist = s.evolution_history||[];
+      const lastEvo = hist.length ? hist[hist.length-1].evolution : 'unchanged';
+      const tagCls = lastEvo==='strengthened'?'tag-up':lastEvo==='weakened'?'tag-neutral':'tag-down';
+      const iconCls = conf>=0.7?'green':conf>=0.4?'orange':'blue';
+      return `<div class="list-item">
+        <div class="list-icon ${iconCls}" style="font-size:10px">${(conf*100).toFixed(0)}</div>
+        <div class="list-info">
+          <div class="list-title">${s.ticker}</div>
+          <div class="list-sub">${s.name||''}</div>
+        </div>
+        <div class="list-right">
+          <div class="list-tag ${tagCls}">${lastEvo}</div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Sentiment sidebar
+  if (sent) {
+    const items = [];
+    if (sent.spy_pcr) items.push({name:'SPY P/C', val:sent.spy_pcr.pcr?.toFixed(3), sub:sent.spy_pcr.signal||'', cls:sent.spy_pcr.pcr>1?'red':'green'});
+    if (sent.wsb) items.push({name:'WSB Bull%', val:`${sent.wsb.bull_pct}%`, sub:sent.wsb.label||'', cls:sent.wsb.bull_pct>60?'green':'orange'});
+    if (sent.composite) items.push({name:'Composite', val:sent.composite.score?.toFixed(1), sub:sent.composite.label||'', cls:'blue'});
+    document.getElementById('tvSentiment').innerHTML = items.map(it =>
+      `<div class="list-item">
+        <div class="list-icon ${it.cls}">${it.name.charAt(0)}</div>
+        <div class="list-info"><div class="list-title">${it.name}</div><div class="list-sub">${it.sub}</div></div>
+        <div class="list-right"><div class="list-value">${it.val}</div></div>
+      </div>`
+    ).join('');
+  }
+
+  // Backtest
+  if (bt?.ranking) {
+    const header = '<div class="bt-mini header"><span>#</span><span>Indicator</span><span>Win%</span><span>R:R</span><span>Expect</span></div>';
+    document.getElementById('tvBacktest').innerHTML = header + bt.ranking.map(r => {
+      const expCls = r.expectancy>0?'val-up':'val-down';
+      return `<div class="bt-mini">
+        <span class="bt-rank">${r.rank}</span>
+        <span style="color:var(--text-0);font-weight:500">${r.name}</span>
+        <span>${r.win_rate}%</span>
+        <span>${r.risk_reward_ratio}</span>
+        <span style="color:${r.expectancy>0?'var(--green)':'var(--red)'};font-weight:600">${r.expectancy>0?'+':''}${r.expectancy}</span>
+      </div>`;
+    }).join('');
+  }
+}
+
+// Add CSS for val classes
+const style = document.createElement('style');
+style.textContent = '.val-up{color:var(--green)}.val-down{color:var(--red)}';
+document.head.appendChild(style);
+
+render();
+</script>
+</body>
+</html>

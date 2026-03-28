@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MKTL &lt;GO&gt; | Market Intel Terminal</title>
+<style>
+/* ═══════════════════════════════════════════
+   Bloomberg Terminal — Dark + Orange
+   ═══════════════════════════════════════════ */
+:root {
+  --bg: #0d1117;
+  --bg-panel: #0a0e14;
+  --bg-row: #0f1319;
+  --bg-hover: #161c24;
+  --border: #1e2530;
+  --orange: #ff8c00;
+  --orange-dim: #b36200;
+  --amber: #ffb347;
+  --green: #00d26a;
+  --red: #ff3b30;
+  --blue: #1e90ff;
+  --cyan: #00e5ff;
+  --white: #e6edf3;
+  --muted: #8b949e;
+  --dim: #484f58;
+  --mono: 'Cascadia Code', 'SF Mono', 'Fira Code', 'Consolas', 'Courier New', monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.4;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ═══════ Top Bar ═══════ */
+.topbar {
+  background: #000;
+  border-bottom: 2px solid var(--orange);
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-bb {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.cmd-input {
+  background: #111;
+  border: 1px solid var(--orange-dim);
+  color: var(--orange);
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 2px 8px;
+  width: 300px;
+  outline: none;
+}
+
+.cmd-input::placeholder { color: var(--orange-dim); }
+.cmd-input:focus { border-color: var(--orange); }
+
+.topbar-right {
+  color: var(--muted);
+  font-size: 11px;
+  display: flex;
+  gap: 16px;
+}
+
+.topbar-right .live { color: var(--green); }
+
+/* ═══════ Grid Layout ═══════ */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 1px;
+  background: var(--border);
+  min-height: calc(100vh - 32px);
+}
+
+/* ═══════ Panel ═══════ */
+.panel {
+  background: var(--bg-panel);
+  overflow: hidden;
+}
+
+.panel-header {
+  background: #000;
+  border-bottom: 1px solid var(--border);
+  padding: 3px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-title {
+  color: var(--orange);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.panel-tag {
+  color: var(--dim);
+  font-size: 10px;
+}
+
+.panel-body {
+  padding: 6px 8px;
+}
+
+/* ═══════ Wide panels ═══════ */
+.span-2 { grid-column: span 2; }
+.span-3 { grid-column: span 3; }
+.span-4 { grid-column: span 4; }
+
+/* ═══════ Data Table ═══════ */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  color: var(--dim);
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  padding: 2px 6px;
+  border-bottom: 1px solid var(--border);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.data-table td {
+  padding: 3px 6px;
+  border-bottom: 1px solid rgba(30,37,48,0.5);
+  font-size: 11px;
+}
+
+.data-table tr:hover { background: var(--bg-hover); }
+
+.val-up { color: var(--green); }
+.val-down { color: var(--red); }
+.val-neutral { color: var(--muted); }
+.val-orange { color: var(--orange); }
+.val-cyan { color: var(--cyan); }
+.val-amber { color: var(--amber); }
+
+/* ═══════ Ticker Row ═══════ */
+.ticker-strip {
+  background: #000;
+  border-bottom: 1px solid var(--border);
+  padding: 4px 12px;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  grid-column: span 4;
+  white-space: nowrap;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.ticker-sym { color: var(--amber); font-weight: 700; }
+.ticker-price { color: var(--white); }
+.ticker-chg { font-size: 10px; }
+
+/* ═══════ Fear Greed Meter ═══════ */
+.fg-meter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.fg-bar-track {
+  flex: 1;
+  height: 8px;
+  background: linear-gradient(90deg, var(--red), var(--orange), #ffd700, var(--green));
+  border-radius: 4px;
+  position: relative;
+}
+
+.fg-needle {
+  position: absolute;
+  top: -4px;
+  width: 3px;
+  height: 16px;
+  background: #fff;
+  border-radius: 1px;
+  transition: left 1s ease;
+}
+
+.fg-score {
+  font-size: 24px;
+  font-weight: 700;
+  min-width: 40px;
+  text-align: center;
+}
+
+/* ═══════ Calendar Row ═══════ */
+.cal-row {
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(30,37,48,0.3);
+  gap: 8px;
+}
+
+.cal-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.cal-dot.high { background: var(--red); }
+.cal-dot.medium { background: var(--orange); }
+.cal-dot.low { background: var(--dim); }
+
+.cal-date { color: var(--dim); min-width: 45px; font-size: 10px; }
+.cal-event { color: var(--white); font-size: 11px; flex: 1; }
+
+/* ═══════ Signal Card ═══════ */
+.signal-row {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(30,37,48,0.3);
+  gap: 8px;
+}
+
+.signal-conf {
+  font-weight: 700;
+  min-width: 30px;
+  text-align: right;
+}
+
+.signal-title {
+  flex: 1;
+  color: var(--white);
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.signal-badge {
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge-high { background: rgba(0,210,106,0.2); color: var(--green); }
+.badge-mid { background: rgba(255,140,0,0.2); color: var(--orange); }
+.badge-low { background: rgba(255,59,48,0.2); color: var(--red); }
+
+/* ═══════ Backtest Ranking ═══════ */
+.bt-row {
+  display: grid;
+  grid-template-columns: 20px 1fr 50px 50px 55px 55px 60px;
+  gap: 4px;
+  align-items: center;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(30,37,48,0.3);
+  font-size: 11px;
+}
+
+.bt-row.header {
+  color: var(--dim);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bt-rank { text-align: center; color: var(--dim); }
+
+/* ═══════ Sentiment Bar ═══════ */
+.sent-bar {
+  display: flex;
+  height: 20px;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+
+.sent-bar .bull { background: var(--green); }
+.sent-bar .bear { background: var(--red); }
+.sent-bar .neutral { background: var(--dim); }
+
+.sent-legend {
+  display: flex;
+  gap: 12px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.sent-legend span::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* ═══════ Tracker ═══════ */
+.trk-row {
+  display: grid;
+  grid-template-columns: 70px 1fr 50px 70px;
+  gap: 4px;
+  align-items: center;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(30,37,48,0.3);
+  font-size: 11px;
+}
+
+.trk-row.header {
+  color: var(--dim);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+/* ═══════ Status Bar ═══════ */
+.statusbar {
+  grid-column: span 4;
+  background: #000;
+  border-top: 1px solid var(--border);
+  padding: 2px 12px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--dim);
+  font-size: 10px;
+}
+
+.statusbar .active { color: var(--green); }
+
+/* ═══════ Responsive ═══════ */
+@media (max-width: 1024px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .span-3, .span-4, .ticker-strip, .statusbar { grid-column: span 2; }
+}
+
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+  .span-2, .span-3, .span-4, .ticker-strip, .statusbar { grid-column: span 1; }
+}
+</style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="topbar">
+  <div class="topbar-left">
+    <div class="logo-bb">MKTL &lt;GO&gt;</div>
+    <input class="cmd-input" placeholder="Enter command..." readonly>
+  </div>
+  <div class="topbar-right">
+    <span class="live">&#9679; LIVE</span>
+    <span id="clock"></span>
+    <span>MARKET INTEL TERMINAL</span>
+  </div>
+</div>
+
+<div class="grid">
+
+  <!-- Ticker Strip -->
+  <div class="ticker-strip" id="tickerStrip">
+    <div class="ticker-item"><span class="ticker-sym">Loading...</span></div>
+  </div>
+
+  <!-- Panel 1: Market Overview -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <span class="panel-title">Market Overview</span>
+      <span class="panel-tag">SENTIMENT</span>
+    </div>
+    <div class="panel-body">
+      <div class="fg-meter">
+        <div style="text-align:center">
+          <div class="fg-score" id="fgScoreVal">--</div>
+          <div style="color:var(--dim);font-size:9px" id="fgLabel">LOADING</div>
+        </div>
+        <div class="fg-bar-track">
+          <div class="fg-needle" id="fgNeedle" style="left:50%"></div>
+        </div>
+      </div>
+      <table class="data-table" id="sentimentTable">
+        <thead><tr><th>Source</th><th>Value</th><th>Signal</th></tr></thead>
+        <tbody id="sentimentBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Panel 2: Economic Calendar -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <span class="panel-title">Econ Calendar</span>
+      <span class="panel-tag" id="fomcTag">FOMC --d</span>
+    </div>
+    <div class="panel-body" id="calendarBody"></div>
+  </div>
+
+  <!-- Panel 3: DeepEar AI Signals -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <span class="panel-title">DeepEar AI Signals</span>
+      <span class="panel-tag" id="sigCount">0 SIGNALS</span>
+    </div>
+    <div class="panel-body" id="signalBody"></div>
+  </div>
+
+  <!-- Panel 4: Signal Tracker -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <span class="panel-title">Signal Tracker</span>
+      <span class="panel-tag">WATCHLIST</span>
+    </div>
+    <div class="panel-body" id="trackerBody"></div>
+  </div>
+
+  <!-- Panel 5: Backtest Ranking -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <span class="panel-title">Indicator Backtest</span>
+      <span class="panel-tag">BTC-USD 2Y</span>
+    </div>
+    <div class="panel-body" id="backtestBody"></div>
+  </div>
+
+  <!-- Panel 6: WSB + Sentiment -->
+  <div class="panel span-2">
+    <div class="panel-header">
+      <span class="panel-title">Retail Sentiment</span>
+      <span class="panel-tag">WSB / PCR</span>
+    </div>
+    <div class="panel-body" id="retailBody"></div>
+  </div>
+
+  <!-- Status Bar -->
+  <div class="statusbar">
+    <span><span class="active">&#9679;</span> Connected | Vera + Freya + CodeX</span>
+    <span id="updateTime">Updated: --</span>
+  </div>
+
+</div>
+
+<script>
+// ═══════ Utilities ═══════
+async function loadJSON(url) {
+  try {
+    const r = await fetch(url + '?t=' + Date.now());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+function fgColor(s) {
+  if (s <= 25) return 'var(--red)';
+  if (s <= 45) return 'var(--orange)';
+  if (s <= 55) return 'var(--muted)';
+  return 'var(--green)';
+}
+
+// Clock
+function updateClock() {
+  const now = new Date();
+  const tw = new Date(now.toLocaleString('en-US', {timeZone:'Asia/Taipei'}));
+  const ny = new Date(now.toLocaleString('en-US', {timeZone:'America/New_York'}));
+  document.getElementById('clock').textContent =
+    `TPE ${tw.getHours().toString().padStart(2,'0')}:${tw.getMinutes().toString().padStart(2,'0')} | NYC ${ny.getHours().toString().padStart(2,'0')}:${ny.getMinutes().toString().padStart(2,'0')}`;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+// ═══════ Render ═══════
+async function render() {
+  const [sent, cal, fg, deepear, tracker, bt] = await Promise.all([
+    loadJSON('sentiment.json'),
+    loadJSON('economic-calendar.json'),
+    loadJSON('fear-greed-history.json'),
+    loadJSON('deepear-signals.json'),
+    loadJSON('signal-tracker.json'),
+    loadJSON('indicator-backtest.json'),
+  ]);
+
+  // Ticker strip
+  const strip = document.getElementById('tickerStrip');
+  const tickers = [
+    {sym:'SPY',price:'--',chg:''},
+    {sym:'QQQ',price:'--',chg:''},
+    {sym:'BTC',price:'--',chg:''},
+    {sym:'ETH',price:'--',chg:''},
+    {sym:'VIX',price:'--',chg:''},
+    {sym:'DXY',price:'--',chg:''},
+    {sym:'GOLD',price:'--',chg:''},
+    {sym:'10Y',price:'--',chg:''},
+  ];
+  strip.innerHTML = tickers.map(t =>
+    `<div class="ticker-item"><span class="ticker-sym">${t.sym}</span><span class="ticker-price">${t.price}</span><span class="ticker-chg val-neutral">${t.chg}</span></div>`
+  ).join('');
+
+  // Fear & Greed
+  if (fg && fg.length) {
+    const latest = fg[fg.length - 1];
+    const score = latest.score || 0;
+    document.getElementById('fgScoreVal').textContent = score.toFixed(0);
+    document.getElementById('fgScoreVal').style.color = fgColor(score);
+    document.getElementById('fgLabel').textContent = (latest.label || '').toUpperCase();
+    document.getElementById('fgNeedle').style.left = score + '%';
+  }
+
+  // Sentiment table
+  if (sent) {
+    document.getElementById('updateTime').textContent = 'Updated: ' + (sent.generated_at || sent.date || '');
+    const rows = [];
+    if (sent.spy_pcr) rows.push({src:'SPY P/C Ratio', val:sent.spy_pcr.pcr?.toFixed(3), sig:sent.spy_pcr.signal||'', cls: sent.spy_pcr.pcr>1?'val-down':'val-up'});
+    if (sent.wsb) rows.push({src:'WSB Sentiment', val:`${sent.wsb.bull_pct}% Bull`, sig:sent.wsb.label||'', cls: sent.wsb.bull_pct>60?'val-up':'val-neutral'});
+    if (sent.composite) rows.push({src:'Composite', val:sent.composite.score?.toFixed(1), sig:sent.composite.label||'', cls:'val-orange'});
+
+    // WSB top tickers
+    if (sent.wsb?.top_tickers) {
+      sent.wsb.top_tickers.slice(0,5).forEach(t => {
+        rows.push({src:'WSB $'+( t.s||t.ticker), val:(t.n||t.count)+'x mentions', sig:'', cls:'val-cyan'});
+      });
+    }
+
+    document.getElementById('sentimentBody').innerHTML = rows.map(r =>
+      `<tr><td>${r.src}</td><td class="${r.cls}">${r.val}</td><td class="val-neutral">${r.sig}</td></tr>`
+    ).join('');
+
+    // Retail panel
+    const retail = document.getElementById('retailBody');
+    const bullPct = sent.wsb?.bull_pct || 50;
+    const bearPct = 100 - bullPct;
+    retail.innerHTML = `
+      <div style="color:var(--dim);font-size:10px;margin-bottom:4px">WSB BULL / BEAR RATIO</div>
+      <div class="sent-bar">
+        <div class="bull" style="width:${bullPct}%"></div>
+        <div class="bear" style="width:${bearPct}%"></div>
+      </div>
+      <div class="sent-legend">
+        <span style="color:var(--green)">Bull ${bullPct}%</span>
+        <span style="color:var(--red)">Bear ${bearPct}%</span>
+      </div>
+      <div style="margin-top:8px;color:var(--dim);font-size:10px">TOP MENTIONED TICKERS</div>
+      <table class="data-table"><thead><tr><th>Ticker</th><th>Count</th></tr></thead><tbody>
+      ${(sent.wsb?.top_tickers||[]).slice(0,8).map(t =>
+        `<tr><td class="val-amber">$${t.s||t.ticker}</td><td>${t.n||t.count}</td></tr>`
+      ).join('')}
+      </tbody></table>
+    `;
+  }
+
+  // Calendar
+  if (cal) {
+    if (cal.next_fomc) document.getElementById('fomcTag').textContent = `FOMC ${cal.next_fomc.days_away}d`;
+    const body = document.getElementById('calendarBody');
+    body.innerHTML = (cal.next_7_days||[]).slice(0,10).map(e =>
+      `<div class="cal-row"><div class="cal-dot ${e.importance||'low'}"></div><div class="cal-date">${(e.date||'').slice(5)}</div><div class="cal-event">${e.event||''}</div></div>`
+    ).join('') || '<div style="color:var(--dim)">No events</div>';
+  }
+
+  // DeepEar Signals
+  if (deepear && deepear.signals) {
+    document.getElementById('sigCount').textContent = deepear.signals.length + ' SIGNALS';
+    const body = document.getElementById('signalBody');
+    body.innerHTML = deepear.signals.slice(0,8).map(s => {
+      const conf = (s.confidence||0);
+      const cls = conf >= 0.7 ? 'badge-high' : conf >= 0.4 ? 'badge-mid' : 'badge-low';
+      const confColor = conf >= 0.7 ? 'val-up' : conf >= 0.4 ? 'val-orange' : 'val-down';
+      return `<div class="signal-row">
+        <span class="signal-conf ${confColor}">${(conf*100).toFixed(0)}</span>
+        <span class="signal-title">${s.title||s.id}</span>
+        <span class="signal-badge ${cls}">${conf>=0.7?'HIGH':conf>=0.4?'MED':'LOW'}</span>
+      </div>`;
+    }).join('');
+  }
+
+  // Signal Tracker
+  if (tracker && tracker.signals) {
+    const body = document.getElementById('trackerBody');
+    const header = '<div class="trk-row header"><span>TICKER</span><span>NAME</span><span>CONF</span><span>STATUS</span></div>';
+    body.innerHTML = header + tracker.signals.slice(0,12).map(s => {
+      const conf = s.confidence||0;
+      const hist = s.evolution_history||[];
+      const lastEvo = hist.length ? hist[hist.length-1].evolution : 'unchanged';
+      const evoColor = lastEvo==='strengthened'?'val-up':lastEvo==='weakened'?'val-orange':lastEvo==='falsified'?'val-down':'val-neutral';
+      const confColor = conf>=0.7?'val-up':conf>=0.4?'val-orange':'val-down';
+      return `<div class="trk-row">
+        <span class="val-amber">${s.ticker}</span>
+        <span style="color:var(--muted)">${s.name||''}</span>
+        <span class="${confColor}">${(conf*100).toFixed(0)}%</span>
+        <span class="${evoColor}">${lastEvo.toUpperCase()}</span>
+      </div>`;
+    }).join('');
+  }
+
+  // Backtest
+  if (bt && bt.ranking) {
+    const body = document.getElementById('backtestBody');
+    const header = '<div class="bt-row header"><span>#</span><span>INDICATOR</span><span>TRADES</span><span>WIN%</span><span>R:R</span><span>EXPECT</span><span>RETURN</span></div>';
+    body.innerHTML = header + bt.ranking.map(r => {
+      const expCls = r.expectancy > 0 ? 'val-up' : 'val-down';
+      const retCls = r.total_return_pct > 0 ? 'val-up' : 'val-down';
+      return `<div class="bt-row">
+        <span class="bt-rank">${r.rank}</span>
+        <span class="val-amber">${r.name}</span>
+        <span>${r.total_trades}</span>
+        <span>${r.win_rate}%</span>
+        <span>${r.risk_reward_ratio}</span>
+        <span class="${expCls}">${r.expectancy>0?'+':''}${r.expectancy}</span>
+        <span class="${retCls}">${r.total_return_pct>0?'+':''}${r.total_return_pct}%</span>
+      </div>`;
+    }).join('');
+  }
+}
+
+render();
+</script>
+</body>
+</html>

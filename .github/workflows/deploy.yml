@@ -30,6 +30,8 @@ jobs:
           [ -f web/signals.html ] && cp web/signals.html _site/signals.html || true
           [ -f web/demo-finviz.html ] && cp web/demo-finviz.html _site/demo-finviz.html || true
           [ -f web/demo-linear.html ] && cp web/demo-linear.html _site/demo-linear.html || true
+          [ -f web/demo-bloomberg.html ] && cp web/demo-bloomberg.html _site/demo-bloomberg.html || true
+          [ -f web/demo-tradingview.html ] && cp web/demo-tradingview.html _site/demo-tradingview.html || true
           # SVG/圖片
           [ -f web/risk-trend.svg ] && cp web/risk-trend.svg _site/risk-trend.svg || true
           # JSON 數據（全部複製）
