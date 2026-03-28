@@ -514,7 +514,6 @@ function renderWatchlistHeatmap(data) {
   document.getElementById('usHeatmap').innerHTML = hmHTML;
 }
 function renderHmCell(w, sp) {
-  {
     const chg = w.change_pct||0;
     const price = w.price||w.close||0;
     const chgPt = price * chg / 100;
@@ -560,7 +559,6 @@ function renderHmCell(w, sp) {
         </div>
       </div>
     </div>`;
-  }
 }
 
 function renderMovers(data) {
@@ -1077,6 +1075,28 @@ async function initUS() {
       (data.watchlist||[]).forEach(w => _acSymbols.push({sym:w.symbol,name:w.name||'',cat:w.category||''}));
       (data.tw_stocks||[]).forEach(w => _acSymbols.push({sym:w.symbol?.replace('.TW','').replace('.TWO','')||'',name:w.name||'',cat:'台股'}));
       (data.indices||[]).forEach(w => _acSymbols.push({sym:w.symbol?.replace('^','')||'',name:w.name||'',cat:'指數'}));
+      // Popular US stocks for broader search
+      const popular = [
+        {sym:'AAPL',name:'Apple 蘋果',cat:'科技'},{sym:'MSFT',name:'Microsoft 微軟',cat:'科技'},
+        {sym:'GOOGL',name:'Alphabet 谷歌',cat:'科技'},{sym:'AMZN',name:'Amazon 亞馬遜',cat:'科技'},
+        {sym:'TSLA',name:'Tesla 特斯拉',cat:'科技'},{sym:'META',name:'Meta Platforms',cat:'科技'},
+        {sym:'NVDA',name:'NVIDIA 輝達',cat:'科技'},{sym:'AMD',name:'AMD 超微',cat:'科技'},
+        {sym:'AVGO',name:'Broadcom 博通',cat:'科技'},{sym:'TSM',name:'台積電 ADR',cat:'科技'},
+        {sym:'INTC',name:'Intel 英特爾',cat:'科技'},{sym:'ARM',name:'ARM Holdings',cat:'科技'},
+        {sym:'PLTR',name:'Palantir',cat:'科技'},{sym:'SNOW',name:'Snowflake',cat:'科技'},
+        {sym:'JPM',name:'JPMorgan 摩根大通',cat:'金融'},{sym:'GS',name:'Goldman Sachs 高盛',cat:'金融'},
+        {sym:'V',name:'Visa',cat:'金融'},{sym:'MA',name:'Mastercard',cat:'金融'},
+        {sym:'BRK.B',name:'Berkshire 波克夏',cat:'金融'},{sym:'BAC',name:'Bank of America',cat:'金融'},
+        {sym:'XOM',name:'ExxonMobil 埃克森',cat:'能源'},{sym:'CVX',name:'Chevron 雪佛龍',cat:'能源'},
+        {sym:'LLY',name:'Eli Lilly 禮來',cat:'醫療'},{sym:'UNH',name:'UnitedHealth',cat:'醫療'},
+        {sym:'JNJ',name:'Johnson & Johnson',cat:'醫療'},{sym:'PFE',name:'Pfizer 輝瑞',cat:'醫療'},
+        {sym:'WMT',name:'Walmart 沃爾瑪',cat:'消費'},{sym:'COST',name:'Costco 好市多',cat:'消費'},
+        {sym:'DIS',name:'Disney 迪士尼',cat:'消費'},{sym:'NKE',name:'Nike',cat:'消費'},
+        {sym:'SPY',name:'S&P 500 ETF',cat:'ETF'},{sym:'QQQ',name:'Nasdaq 100 ETF',cat:'ETF'},
+        {sym:'IWM',name:'Russell 2000 ETF',cat:'ETF'},{sym:'TLT',name:'20年國債 ETF',cat:'ETF'},
+      ];
+      const existing = new Set(_acSymbols.map(s=>s.sym));
+      popular.forEach(p => { if(!existing.has(p.sym)) _acSymbols.push(p); });
     }
     renderFG(fg);
     renderSentiment(sent);
