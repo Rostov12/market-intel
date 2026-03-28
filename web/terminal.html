@@ -147,6 +147,15 @@ a:hover { text-decoration:underline; }
 .loading { padding:20px; text-align:center; color:var(--orange); font-size:12px; }
 .loading::after { content:''; display:inline-block; width:12px; height:12px; border:2px solid var(--orange); border-top-color:transparent; border-radius:50%; animation:spin .8s linear infinite; margin-left:8px; vertical-align:middle; }
 @keyframes spin { to { transform:rotate(360deg); } }
+
+/* ═══════ Tooltip ═══════ */
+.tip-wrap { position:relative; cursor:pointer; }
+.tip-pop { display:none; position:absolute; z-index:300; left:0; top:100%; min-width:260px; max-width:360px; background:#111820; border:1px solid var(--orange-dim); border-radius:6px; padding:10px 12px; box-shadow:0 8px 24px rgba(0,0,0,.6); font-size:11px; line-height:1.5; }
+.tip-wrap:hover .tip-pop { display:block; }
+.tip-pop .tip-row { display:flex; justify-content:space-between; padding:2px 0; }
+.tip-pop .tip-label { color:var(--dim); }
+.tip-pop .tip-val { font-weight:700; }
+.tip-pop .tip-divider { border-top:1px solid var(--border); margin:4px 0; }
 </style>
 </head>
 <body>
@@ -154,7 +163,7 @@ a:hover { text-decoration:underline; }
 <div class="topbar">
   <div class="tb-left">
     <span class="logo">MKTL &lt;GO&gt;</span>
-    <input class="cmd" id="cmdInput" placeholder="搜尋代碼或指令..." readonly>
+    <input class="cmd" id="cmdInput" placeholder="輸入代碼查詢個股分析（如 AAPL、2330）..." autocomplete="off">
   </div>
   <div class="tb-right">
     <span class="live">&#9679; 即時</span>
@@ -362,6 +371,14 @@ document.querySelectorAll('.tab').forEach(t => {
 const savedTab = localStorage.getItem('mktl-tab');
 if(savedTab) { const t=document.querySelector(`.tab[data-tab="${savedTab}"]`); if(t) t.click(); }
 
+// ── Search → Stock Analyzer ──
+document.getElementById('cmdInput').addEventListener('keydown', e => {
+  if(e.key==='Enter') {
+    const q = e.target.value.trim().toUpperCase();
+    if(q) window.open('https://rostov12.github.io/stock-analyzer/?q=' + encodeURIComponent(q), '_blank');
+  }
+});
+
 // ════════════════════════════════════════════════════════
 // RENDER FUNCTIONS
 // ════════════════════════════════════════════════════════
@@ -398,26 +415,63 @@ function renderIndices(data) {
   const indices = data.indices || [];
   if (!indices.length) { document.getElementById('usIndices').innerHTML='<div class="dm">無資料</div>'; return; }
   document.getElementById('usIndices').innerHTML = `
-    <table class="dt"><thead><tr><th>指數</th><th>收盤</th><th>漲跌</th><th>%</th><th>量</th></tr></thead><tbody>
-    ${indices.map(i => `<tr>
-      <td class="amb bold">${i.symbol?.replace('^','')||''}</td>
-      <td class="wh">${(i.price||i.close)?.toFixed(2)||'--'}</td>
-      <td class="${cls(i.change)}">${i.change>=0?'+':''}${i.change?.toFixed(2)||'--'}</td>
+    <table class="dt"><thead><tr><th>指數</th><th>收盤</th><th>漲跌點</th><th>漲跌幅</th><th>RSI</th><th>趨勢</th></tr></thead><tbody>
+    ${indices.map(i => {
+      const price = i.price||i.close||0;
+      const chgPt = i.change != null ? i.change : (price * (i.change_pct||0) / 100);
+      const trend = i.trend||'';
+      const tCls = trend.includes('多')?'up':trend.includes('空')?'dn':'nt';
+      const rsi = i.rsi_12||i.rsi_6||null;
+      const rsiCls = rsi!=null?(rsi<30?'up':rsi>70?'dn':'nt'):'dm';
+      return `<tr class="tip-wrap">
+      <td class="amb bold">${i.name||i.symbol?.replace('^','')||''}</td>
+      <td class="wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</td>
+      <td class="${cls(chgPt)}">${chgPt>=0?'+':''}${chgPt.toFixed(2)}</td>
       <td class="${cls(i.change_pct)} bold">${pct(i.change_pct)}</td>
-      <td class="dm">${i.volume?(i.volume/1e6).toFixed(1)+'M':'--'}</td>
-    </tr>`).join('')}
+      <td class="${rsiCls}">${rsi!=null?rsi.toFixed(1)+(i.rsi_status?' '+i.rsi_status:''):'--'}</td>
+      <td class="${tCls} bold">${esc(trend)}</td>
+      <div class="tip-pop">
+        <div class="tip-row"><span class="tip-label">MA5</span><span class="tip-val ${cls(i.bias_ma5)}">${i.ma5?.toLocaleString(undefined,{maximumFractionDigits:2})||'--'} (${pct(i.bias_ma5)})</span></div>
+        <div class="tip-row"><span class="tip-label">MA20</span><span class="tip-val">${i.ma20?.toLocaleString(undefined,{maximumFractionDigits:2})||'--'}</span></div>
+        <div class="tip-row"><span class="tip-label">MACD</span><span class="tip-val ${cls(i.macd_bar)}">${i.macd_signal||''} (BAR ${i.macd_bar?.toFixed(1)||'--'})</span></div>
+        <div class="tip-row"><span class="tip-label">52週區間</span><span class="tip-val">${i.w52_low?.toLocaleString()} ~ ${i.w52_high?.toLocaleString()} (${i.w52_pos||'--'}%)</span></div>
+        <div class="tip-row"><span class="tip-label">量比</span><span class="tip-val">${i.volume_ratio?.toFixed(2)||'--'}</span></div>
+      </div>
+    </tr>`;}).join('')}
     </tbody></table>
   `;
 }
 
 function renderWatchlistHeatmap(data) {
-  const items = (data.watchlist||[]).filter(w=>!w.symbol?.includes('-USD')&&!w.symbol?.includes('.TW'));
+  const items = (data.watchlist||[]).filter(w=>!w.symbol?.includes('-USD')&&!w.symbol?.includes('.TW')&&!w.symbol?.includes('.TWO'));
   if(!items.length){document.getElementById('usHeatmap').innerHTML='<div class="dm">無資料</div>';return;}
   document.getElementById('usHeatmap').innerHTML = `<div class="hm-grid">${items.map(w => {
     const chg = w.change_pct||0;
+    const price = w.price||w.close||0;
+    const chgPt = price * chg / 100;
     const bg = chg>2?'rgba(0,210,106,.25)':chg>0?'rgba(0,210,106,.12)':chg<-2?'rgba(255,59,48,.25)':chg<0?'rgba(255,59,48,.12)':'rgba(139,148,158,.08)';
     const c = cls(chg);
-    return `<div class="hm-cell" style="background:${bg}"><div class="amb" style="font-size:10px">${w.symbol||''}</div><div class="${c} bold">${pct(chg)}</div></div>`;
+    const trend = w.trend||'';
+    const tCls = trend.includes('多')?'up':trend.includes('空')?'dn':'nt';
+    return `<div class="hm-cell tip-wrap" style="background:${bg}">
+      <div class="amb" style="font-size:10px">${w.symbol||''}</div>
+      <div style="font-size:9px;color:var(--muted)">${esc((w.name||'').slice(0,8))}</div>
+      <div class="${c} bold">${pct(chg)}</div>
+      <div class="tip-pop" style="min-width:240px">
+        <div style="font-weight:700;color:var(--amber);margin-bottom:4px">${esc(w.name||w.symbol||'')} (${w.symbol})</div>
+        <div class="tip-row"><span class="tip-label">最新價</span><span class="tip-val wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>
+        <div class="tip-row"><span class="tip-label">漲跌點</span><span class="tip-val ${c}">${chgPt>=0?'+':''}${chgPt.toFixed(2)}</span></div>
+        <div class="tip-row"><span class="tip-label">漲跌幅</span><span class="tip-val ${c}">${pct(chg)}</span></div>
+        <div class="tip-divider"></div>
+        <div class="tip-row"><span class="tip-label">趨勢</span><span class="tip-val ${tCls}">${esc(trend)}</span></div>
+        <div class="tip-row"><span class="tip-label">RSI</span><span class="tip-val">${w.rsi_12?.toFixed(1)||w.rsi_6?.toFixed(1)||'--'} ${esc(w.rsi_status||'')}</span></div>
+        <div class="tip-row"><span class="tip-label">MA5 偏離</span><span class="tip-val ${cls(w.bias_ma5)}">${pct(w.bias_ma5)}</span></div>
+        <div class="tip-row"><span class="tip-label">MACD</span><span class="tip-val">${esc(w.macd_signal||'')} (BAR ${w.macd_bar?.toFixed(1)||'--'})</span></div>
+        <div class="tip-row"><span class="tip-label">52週位置</span><span class="tip-val">${w.w52_pos||'--'}%</span></div>
+        <div class="tip-row"><span class="tip-label">量比</span><span class="tip-val">${w.volume_ratio?.toFixed(2)||'--'}</span></div>
+        ${w.category?`<div class="tip-row"><span class="tip-label">類別</span><span class="tip-val org">${esc(w.category)}</span></div>`:''}
+      </div>
+    </div>`;
   }).join('')}</div>`;
 }
 
@@ -462,7 +516,8 @@ function renderSentiment(sent) {
 function renderMacro(data, fred) {
   const rows = [];
   (data.macro||[]).forEach(m => {
-    rows.push(`<tr><td class="wh">${esc(m.name||m.label||'')}</td><td class="${cls(m.change)} bold">${m.value||'--'}</td></tr>`);
+    const chg = m.change_pct||m.change||0;
+    rows.push(`<tr><td class="wh">${esc(m.desc||m.name||m.label||'')}</td><td class="${cls(chg)} bold">${m.price!=null?m.price:m.value||'--'}</td><td class="${cls(chg)}" style="font-size:10px">${pct(chg)}</td></tr>`);
   });
   if(fred) {
     const indicators = fred.indicators || fred;
@@ -470,12 +525,12 @@ function renderMacro(data, fred) {
       if(k==='date'||k==='generated_at'||k==='fetched_at'||k==='count'||k==='summary') return;
       if(typeof v==='object'&&v) {
         const chg = v.change||0;
-        rows.push(`<tr><td class="wh">${esc(v.name||v.label||k)}</td><td class="${cls(chg)} bold">${v.value!=null?v.value:'--'}${v.unit||''}</td></tr>`);
+        rows.push(`<tr><td class="wh">${esc(v.name||v.label||k)}</td><td class="${cls(chg)} bold">${v.value!=null?v.value:'--'} ${v.unit||''}</td><td class="${cls(chg)}" style="font-size:10px">${chg?((chg>=0?'+':'')+chg.toFixed(2)):'--'}</td></tr>`);
       }
     });
   }
   document.getElementById('usMacro').innerHTML = rows.length ?
-    `<table class="dt"><thead><tr><th>指標</th><th>數值</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
+    `<table class="dt"><thead><tr><th>指標</th><th>數值</th><th>變動</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
     '<div class="dm">無總經資料</div>';
 }
 
@@ -484,7 +539,21 @@ function renderCalendar(cal) {
   if(cal.next_fomc) document.getElementById('fomcTag').textContent=`FOMC ${cal.next_fomc.days_away}天`;
   document.getElementById('usCalendar').innerHTML = (cal.next_7_days||[]).slice(0,10).map(e => {
     const dot = e.importance==='high'?'<span class="dn">&#9679;</span>':e.importance==='medium'?'<span class="org">&#9679;</span>':'<span class="dm">&#9679;</span>';
-    return `<div class="row-item">${dot}<span class="dm" style="min-width:40px">${(e.date||'').slice(5)}</span><span class="wh" style="flex:1;font-size:10px">${e.event||''}</span></div>`;
+    const imp = e.importance==='high'?'高度關注':e.importance==='medium'?'中度關注':'低度關注';
+    const impCls = e.importance==='high'?'dn':e.importance==='medium'?'org':'dm';
+    return `<div class="row-item tip-wrap">${dot}<span class="dm" style="min-width:40px">${(e.date||'').slice(5)}</span><span class="wh" style="flex:1;font-size:10px">${e.event||''}</span><span class="dm" style="font-size:9px">${e.days_away!=null?e.days_away+'天後':''}</span>
+      <div class="tip-pop" style="min-width:220px">
+        <div style="font-weight:700;color:var(--amber);margin-bottom:4px">${esc(e.event||'')}</div>
+        <div class="tip-row"><span class="tip-label">日期</span><span class="tip-val">${e.date||''}</span></div>
+        <div class="tip-row"><span class="tip-label">來源</span><span class="tip-val">${esc(e.source||'')}</span></div>
+        <div class="tip-row"><span class="tip-label">重要性</span><span class="tip-val ${impCls}">${imp}</span></div>
+        ${e.previous!=null?`<div class="tip-divider"></div><div class="tip-row"><span class="tip-label">上期</span><span class="tip-val">${e.previous}</span></div>`:''}
+        ${e.forecast!=null?`<div class="tip-row"><span class="tip-label">市場預期</span><span class="tip-val org">${e.forecast}</span></div>`:''}
+        ${e.actual!=null?`<div class="tip-row"><span class="tip-label">實際</span><span class="tip-val bold ${e.actual>e.forecast?'up':'dn'}">${e.actual}</span></div>`:''}
+        <div class="tip-divider"></div>
+        <div style="font-size:9px;color:var(--dim)">高於預期 → 通常利空（緊縮預期）<br>低於預期 → 通常利多（寬鬆預期）</div>
+      </div>
+    </div>`;
   }).join('')||'<div class="dm">無事件</div>';
 }
 
@@ -539,8 +608,10 @@ function renderCorrelation(corr) {
 function renderTechScan(scan) {
   const el = document.getElementById('usTechScan');
   if(!scan?.results?.length) { el.innerHTML='<div class="dm">無觸發訊號</div>'; return; }
-  document.getElementById('techScanTag').textContent = `${scan.triggered||scan.results.length} 檔觸發`;
-  el.innerHTML = scan.results.slice(0,12).map(r => {
+  // 過濾台股標的，只顯示美股
+  const usResults = scan.results.filter(r => !(r.symbol||'').includes('.TW') && !(r.symbol||'').includes('.TWO'));
+  document.getElementById('techScanTag').textContent = `${usResults.length} 檔觸發`;
+  el.innerHTML = usResults.slice(0,12).map(r => {
     const sigs = (r.signals||[]).map(s => `<span class="badge badge-org" style="margin-right:2px">${esc(s.emoji||'')} ${esc(s.type||'')}</span>`).join('');
     return `<div class="row-item">
       <span class="amb bold" style="min-width:50px">${esc(r.symbol||'')}</span>
