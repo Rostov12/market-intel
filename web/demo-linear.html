@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Intel</title>
+<style>
+/* ═══════════════════════════════════════════════════
+   Token System — Linear/Vercel inspired
+   ═══════════════════════════════════════════════════ */
+:root {
+  --bg-0: #000000;
+  --bg-1: #0a0a0a;
+  --bg-2: #111111;
+  --bg-3: #191919;
+  --bg-4: #222222;
+  --border: rgba(255,255,255,0.06);
+  --border-hover: rgba(255,255,255,0.12);
+  --text-0: #ededed;
+  --text-1: #a1a1a1;
+  --text-2: #666666;
+  --text-3: #444444;
+  --accent: #7c3aed;
+  --accent-dim: rgba(124,58,237,0.15);
+  --green: #00c853;
+  --green-dim: rgba(0,200,83,0.12);
+  --red: #ff4444;
+  --red-dim: rgba(255,68,68,0.12);
+  --yellow: #f5a623;
+  --yellow-dim: rgba(245,166,35,0.12);
+  --blue: #0070f3;
+  --blue-dim: rgba(0,112,243,0.12);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Noto Sans TC', sans-serif;
+  --mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  --transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 15px; }
+
+body {
+  background: var(--bg-0);
+  color: var(--text-0);
+  font-family: var(--font);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ═══════════════════════════════════════════════════
+   Layout
+   ═══════════════════════════════════════════════════ */
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ═══════════════════════════════════════════════════
+   Top Bar
+   ═══════════════════════════════════════════════════ */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(0,0,0,0.72);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.93rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-0);
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, var(--accent), #a78bfa);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.nav a {
+  padding: 6px 12px;
+  color: var(--text-1);
+  text-decoration: none;
+  font-size: 0.87rem;
+  border-radius: var(--radius-xs);
+  transition: all var(--transition);
+}
+
+.nav a:hover { color: var(--text-0); background: var(--bg-3); }
+.nav a.active { color: var(--text-0); }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 9px;
+  margin-left: 6px;
+}
+
+/* ═══════════════════════════════════════════════════
+   Hero / Status Bar
+   ═══════════════════════════════════════════════════ */
+.hero {
+  padding: 48px 0 32px;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  background: linear-gradient(to right, var(--text-0), var(--text-1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+  color: var(--text-2);
+  font-size: 0.93rem;
+  margin-top: 8px;
+}
+
+/* ═══════════════════════════════════════════════════
+   Metric Row
+   ═══════════════════════════════════════════════════ */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.metric {
+  background: var(--bg-1);
+  padding: 20px 24px;
+  transition: background var(--transition);
+}
+
+.metric:hover { background: var(--bg-2); }
+
+.metric-label {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.metric-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-family: var(--mono);
+}
+
+.metric-delta {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.metric-delta.up { color: var(--green); }
+.metric-delta.down { color: var(--red); }
+.metric-delta.neutral { color: var(--text-2); }
+
+/* ═══════════════════════════════════════════════════
+   Section
+   ═══════════════════════════════════════════════════ */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-title {
+  font-size: 0.87rem;
+  font-weight: 600;
+  color: var(--text-1);
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-action {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  transition: all var(--transition);
+}
+
+.section-action:hover {
+  color: var(--text-1);
+  border-color: var(--border-hover);
+  background: var(--bg-3);
+}
+
+/* ═══════════════════════════════════════════════════
+   Cards
+   ═══════════════════════════════════════════════════ */
+.card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: all var(--transition);
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-2);
+}
+
+/* ═══════════════════════════════════════════════════
+   Fear & Greed Gauge
+   ═══════════════════════════════════════════════════ */
+.gauge-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 28px;
+}
+
+.gauge {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.gauge svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+
+.gauge-track {
+  fill: none;
+  stroke: var(--bg-3);
+  stroke-width: 8;
+}
+
+.gauge-fill {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gauge-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gauge-score {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--mono);
+  letter-spacing: -0.04em;
+}
+
+.gauge-label-text {
+  font-size: 0.75rem;
+  color: var(--text-2);
+  margin-top: 2px;
+}
+
+.gauge-info { flex: 1; }
+
+.gauge-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.gauge-history {
+  display: flex;
+  gap: 3px;
+  align-items: flex-end;
+  height: 40px;
+  margin-top: 12px;
+}
+
+.gauge-bar {
+  flex: 1;
+  border-radius: 2px;
+  min-width: 4px;
+  transition: height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ═══════════════════════════════════════════════════
+   Signal List
+   ═══════════════════════════════════════════════════ */
+.signal-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.signal-item {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 14px;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+  cursor: default;
+}
+
+.signal-item:last-child { border-bottom: none; }
+.signal-item:hover { background: var(--bg-2); }
+
+.signal-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: var(--mono);
+}
+
+.signal-dot.high { background: var(--green-dim); color: var(--green); }
+.signal-dot.medium { background: var(--yellow-dim); color: var(--yellow); }
+.signal-dot.low { background: var(--red-dim); color: var(--red); }
+
+.signal-title {
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--text-0);
+  margin-bottom: 2px;
+}
+
+.signal-meta {
+  font-size: 0.75rem;
+  color: var(--text-2);
+}
+
+.signal-right {
+  text-align: right;
+}
+
+.signal-conf {
+  font-size: 0.93rem;
+  font-weight: 600;
+  font-family: var(--mono);
+}
+
+.signal-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.tag-bullish { background: var(--green-dim); color: var(--green); }
+.tag-bearish { background: var(--red-dim); color: var(--red); }
+.tag-neutral { background: var(--yellow-dim); color: var(--yellow); }
+
+/* ═══════════════════════════════════════════════════
+   Calendar List
+   ═══════════════════════════════════════════════════ */
+.calendar-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cal-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 14px;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+
+.cal-item:last-child { border-bottom: none; }
+.cal-item:hover { background: var(--bg-2); }
+
+.cal-date {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--text-2);
+  min-width: 56px;
+}
+
+.cal-event {
+  font-size: 0.87rem;
+  color: var(--text-0);
+}
+
+.cal-importance {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.cal-importance.high { background: var(--red); box-shadow: 0 0 8px var(--red-dim); }
+.cal-importance.medium { background: var(--yellow); }
+.cal-importance.low { background: var(--text-3); }
+
+/* ═══════════════════════════════════════════════════
+   Tracker Table
+   ═══════════════════════════════════════════════════ */
+.tracker-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.tracker-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 80px 100px;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.87rem;
+  transition: background var(--transition);
+}
+
+.tracker-row:hover { background: var(--bg-2); }
+.tracker-row:last-child { border-bottom: none; }
+
+.tracker-row.header {
+  font-size: 0.75rem;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.tracker-row.header:hover { background: transparent; }
+
+.ticker-tag {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+.conf-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.conf-bar {
+  flex: 1;
+  height: 4px;
+  background: var(--bg-4);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.conf-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.evo-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.evo-strengthened { background: var(--green-dim); color: var(--green); }
+.evo-weakened { background: var(--yellow-dim); color: var(--yellow); }
+.evo-falsified { background: var(--red-dim); color: var(--red); }
+.evo-unchanged { background: rgba(255,255,255,0.04); color: var(--text-2); }
+
+/* ═══════════════════════════════════════════════════
+   Sentiment Chip Row
+   ═══════════════════════════════════════════════════ */
+.chip-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--text-1);
+  transition: all var(--transition);
+}
+
+.chip:hover { border-color: var(--border-hover); background: var(--bg-3); }
+
+.chip-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+/* ═══════════════════════════════════════════════════
+   Two-Column Layout
+   ═══════════════════════════════════════════════════ */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .grid-2 { grid-template-columns: 1fr; }
+  .topbar-inner { padding: 0 16px; }
+  .app { padding: 0 16px; }
+  .hero h1 { font-size: 1.6rem; }
+  .metrics { grid-template-columns: repeat(2, 1fr); }
+  .gauge-container { flex-direction: column; gap: 16px; }
+  .tracker-row { grid-template-columns: 80px 1fr 60px; }
+  .tracker-row .conf-bar-wrap { display: none; }
+}
+
+/* ═══════════════════════════════════════════════════
+   Loading skeleton
+   ═══════════════════════════════════════════════════ */
+.skeleton {
+  background: linear-gradient(90deg, var(--bg-2) 25%, var(--bg-3) 50%, var(--bg-2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-xs);
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ═══════════════════════════════════════════════════
+   Footer
+   ═══════════════════════════════════════════════════ */
+.footer {
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  margin-top: 48px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-3);
+}
+
+/* ═══════════════════════════════════════════════════
+   Fade-in Animation
+   ═══════════════════════════════════════════════════ */
+.fade-in {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeUp 0.5s ease forwards;
+}
+
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+
+/* ═══════════════════════════════════════════════════
+   Scrollbar
+   ═══════════════════════════════════════════════════ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--bg-4); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-3); }
+</style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="logo" href="#">
+      <div class="logo-icon">M</div>
+      Market Intel
+    </a>
+    <div class="nav">
+      <a href="#" class="active">Dashboard</a>
+      <a href="signals.html">Signals<span class="badge" id="signalCount">0</span></a>
+      <a href="index.html">Legacy</a>
+    </div>
+  </div>
+</div>
+
+<div class="app">
+
+  <!-- Hero -->
+  <div class="hero fade-in">
+    <h1>Market Intelligence</h1>
+    <div class="hero-sub" id="updatedAt">Loading...</div>
+  </div>
+
+  <!-- Metrics Row -->
+  <div class="metrics fade-in delay-1" id="metricsRow">
+    <div class="metric">
+      <div class="metric-label">Fear & Greed</div>
+      <div class="metric-value" id="fgScore">--</div>
+      <div class="metric-delta neutral" id="fgDelta">Loading</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Put/Call Ratio</div>
+      <div class="metric-value" id="pcrValue">--</div>
+      <div class="metric-delta neutral" id="pcrSignal">Loading</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">WSB Sentiment</div>
+      <div class="metric-value" id="wsbValue">--</div>
+      <div class="metric-delta neutral" id="wsbLabel">Loading</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Next FOMC</div>
+      <div class="metric-value" id="fomcDays">--</div>
+      <div class="metric-delta neutral" id="fomcDate">Loading</div>
+    </div>
+  </div>
+
+  <!-- Fear & Greed + Calendar -->
+  <div class="grid-2 fade-in delay-2">
+
+    <!-- Fear & Greed Gauge -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">
+          <span style="color:var(--yellow)">&#9679;</span> Fear & Greed Index
+        </div>
+      </div>
+      <div class="card">
+        <div class="gauge-container">
+          <div class="gauge">
+            <svg viewBox="0 0 140 140">
+              <circle class="gauge-track" cx="70" cy="70" r="58"/>
+              <circle class="gauge-fill" id="gaugeFill" cx="70" cy="70" r="58"
+                stroke-dasharray="364.42" stroke-dashoffset="364.42"/>
+            </svg>
+            <div class="gauge-center">
+              <div class="gauge-score" id="gaugeScore">--</div>
+              <div class="gauge-label-text" id="gaugeLabel">Loading</div>
+            </div>
+          </div>
+          <div class="gauge-info">
+            <h3 id="gaugeTitle">Market Sentiment</h3>
+            <div style="font-size:0.8rem;color:var(--text-2)" id="gaugeDesc">7-day trend</div>
+            <div class="gauge-history" id="gaugeHistory"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Economic Calendar -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">
+          <span style="color:var(--blue)">&#9679;</span> Economic Calendar
+        </div>
+      </div>
+      <div class="card">
+        <div class="calendar-list" id="calendarList">
+          <div class="cal-item">
+            <div class="cal-date skeleton" style="width:56px;height:16px"></div>
+            <div class="skeleton" style="width:200px;height:16px"></div>
+            <div class="skeleton" style="width:8px;height:8px;border-radius:50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DeepEar AI Signals -->
+  <div class="section fade-in delay-3">
+    <div class="section-header">
+      <div class="section-title">
+        <span style="color:var(--accent)">&#9679;</span> DeepEar AI Signals
+      </div>
+      <a href="signals.html" class="section-action">View all &rarr;</a>
+    </div>
+    <div class="card">
+      <div class="signal-list" id="signalList">
+        <div class="signal-item">
+          <div class="skeleton" style="width:32px;height:32px;border-radius:50%"></div>
+          <div><div class="skeleton" style="width:300px;height:16px;margin-bottom:6px"></div><div class="skeleton" style="width:150px;height:12px"></div></div>
+          <div class="skeleton" style="width:40px;height:20px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sentiment + Signal Tracker -->
+  <div class="grid-2 fade-in delay-4">
+
+    <!-- Sentiment Breakdown -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">
+          <span style="color:var(--green)">&#9679;</span> Sentiment Breakdown
+        </div>
+      </div>
+      <div class="card">
+        <div class="chip-row" id="sentimentChips">
+          <div class="chip"><div class="chip-dot skeleton" style="width:6px;height:6px;border-radius:50%"></div><span class="skeleton" style="width:100px;height:14px;display:inline-block"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signal Tracker -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-title">
+          <span style="color:var(--yellow)">&#9679;</span> Signal Tracker
+        </div>
+      </div>
+      <div class="card">
+        <div class="tracker-grid" id="trackerGrid">
+          <div class="tracker-row header">
+            <span>Ticker</span>
+            <span>Name</span>
+            <span>Confidence</span>
+            <span>Evolution</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  Market Intel &mdash; Multi-agent Financial Intelligence Platform<br>
+  Powered by Vera + Freya + CodeX
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════
+   Data Loader
+   ═══════════════════════════════════════════════════ */
+
+async function loadJSON(url) {
+  try {
+    const r = await fetch(url + '?t=' + Date.now());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+function fgColor(score) {
+  if (score <= 25) return 'var(--red)';
+  if (score <= 45) return 'var(--yellow)';
+  if (score <= 55) return 'var(--text-2)';
+  if (score <= 75) return 'var(--green)';
+  return 'var(--green)';
+}
+
+/* ═══════════════════════════════════════════════════
+   Render Functions
+   ═══════════════════════════════════════════════════ */
+
+async function renderMetrics() {
+  const [sent, cal, fg] = await Promise.all([
+    loadJSON('sentiment.json'),
+    loadJSON('economic-calendar.json'),
+    loadJSON('fear-greed-history.json'),
+  ]);
+
+  if (sent) {
+    const d = sent;
+    document.getElementById('updatedAt').textContent = `Updated ${d.generated_at || d.date || ''}`;
+
+    if (d.spy_pcr) {
+      document.getElementById('pcrValue').textContent = d.spy_pcr.pcr?.toFixed(3) || '--';
+      const sig = d.spy_pcr.signal || '';
+      document.getElementById('pcrSignal').textContent = sig;
+      document.getElementById('pcrSignal').className = 'metric-delta ' + (sig.includes('多') ? 'up' : sig.includes('空') ? 'down' : 'neutral');
+    }
+
+    if (d.wsb) {
+      document.getElementById('wsbValue').textContent = `${d.wsb.bull_pct || 0}%`;
+      document.getElementById('wsbLabel').textContent = d.wsb.label || '';
+      document.getElementById('wsbLabel').className = 'metric-delta ' + ((d.wsb.bull_pct || 0) > 60 ? 'up' : 'neutral');
+    }
+
+    // Sentiment chips
+    const chips = document.getElementById('sentimentChips');
+    const sources = [];
+    if (d.spy_pcr) sources.push({ name: 'SPY P/C', value: d.spy_pcr.pcr?.toFixed(2), label: d.spy_pcr.label, color: d.spy_pcr.pcr > 1 ? 'var(--red)' : 'var(--green)' });
+    if (d.wsb) sources.push({ name: 'WSB', value: `${d.wsb.bull_pct}% bull`, label: d.wsb.label, color: d.wsb.bull_pct > 60 ? 'var(--green)' : 'var(--yellow)' });
+    if (d.composite) sources.push({ name: 'Composite', value: d.composite.score?.toFixed(1), label: d.composite.label, color: 'var(--accent)' });
+    if (d.wsb?.top_tickers) {
+      d.wsb.top_tickers.slice(0, 5).forEach(t => {
+        sources.push({ name: t.s || t.ticker, value: `${t.n || t.count}x`, label: 'WSB mentions', color: 'var(--blue)' });
+      });
+    }
+    chips.innerHTML = sources.map(s =>
+      `<div class="chip"><div class="chip-dot" style="background:${s.color}"></div>${s.name}: ${s.value}</div>`
+    ).join('');
+  }
+
+  if (cal) {
+    if (cal.next_fomc) {
+      document.getElementById('fomcDays').textContent = `${cal.next_fomc.days_away}d`;
+      document.getElementById('fomcDate').textContent = cal.next_fomc.date || '';
+    }
+
+    const list = document.getElementById('calendarList');
+    const events = cal.next_7_days || [];
+    list.innerHTML = events.slice(0, 8).map(e => {
+      const imp = e.importance || 'low';
+      return `<div class="cal-item">
+        <div class="cal-date">${e.date?.slice(5) || ''}</div>
+        <div class="cal-event">${e.event || ''}</div>
+        <div class="cal-importance ${imp}"></div>
+      </div>`;
+    }).join('') || '<div style="padding:20px;color:var(--text-2);font-size:0.87rem">No upcoming events</div>';
+  }
+
+  if (fg && fg.length) {
+    const latest = fg[fg.length - 1];
+    const prev = fg.length > 1 ? fg[fg.length - 2] : null;
+    const score = latest.score || 0;
+    document.getElementById('fgScore').textContent = score.toFixed(0);
+    document.getElementById('fgScore').style.color = fgColor(score);
+    if (prev) {
+      const delta = score - prev.score;
+      document.getElementById('fgDelta').textContent = `${delta > 0 ? '+' : ''}${delta.toFixed(1)} from yesterday`;
+      document.getElementById('fgDelta').className = 'metric-delta ' + (delta > 0 ? 'up' : delta < 0 ? 'down' : 'neutral');
+    }
+    document.getElementById('fgDelta').textContent = latest.label || '';
+
+    // Gauge
+    const circumference = 2 * Math.PI * 58;
+    const offset = circumference - (score / 100) * circumference;
+    const fill = document.getElementById('gaugeFill');
+    fill.style.stroke = fgColor(score);
+    setTimeout(() => { fill.style.strokeDashoffset = offset; }, 100);
+    document.getElementById('gaugeScore').textContent = score.toFixed(0);
+    document.getElementById('gaugeScore').style.color = fgColor(score);
+    document.getElementById('gaugeLabel').textContent = latest.label || '';
+    document.getElementById('gaugeTitle').textContent = latest.label || 'Market Sentiment';
+
+    // History bars
+    const hist = document.getElementById('gaugeHistory');
+    hist.innerHTML = fg.slice(-7).map(f => {
+      const h = Math.max(4, (f.score / 100) * 40);
+      return `<div class="gauge-bar" style="height:${h}px;background:${fgColor(f.score)}"></div>`;
+    }).join('');
+  }
+}
+
+async function renderSignals() {
+  const data = await loadJSON('deepear-signals.json');
+  if (!data || !data.signals) return;
+
+  document.getElementById('signalCount').textContent = data.signal_count || data.signals.length;
+
+  const list = document.getElementById('signalList');
+  list.innerHTML = data.signals.slice(0, 6).map(s => {
+    const conf = (s.confidence || 0);
+    const cls = conf >= 0.7 ? 'high' : conf >= 0.4 ? 'medium' : 'low';
+    const sent = s.sentiment_score || 0;
+    const tagCls = sent > 0.1 ? 'tag-bullish' : sent < -0.1 ? 'tag-bearish' : 'tag-neutral';
+    const tagText = sent > 0.1 ? 'Bullish' : sent < -0.1 ? 'Bearish' : 'Neutral';
+    return `<div class="signal-item">
+      <div class="signal-dot ${cls}">${(conf * 100).toFixed(0)}</div>
+      <div>
+        <div class="signal-title">${s.title || s.id}</div>
+        <div class="signal-meta">${(s.summary || '').slice(0, 80)}...</div>
+      </div>
+      <div class="signal-right">
+        <div class="signal-conf" style="color:${cls === 'high' ? 'var(--green)' : cls === 'medium' ? 'var(--yellow)' : 'var(--red)'}">${(conf * 100).toFixed(0)}%</div>
+        <div class="signal-tag ${tagCls}">${tagText}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+async function renderTracker() {
+  const data = await loadJSON('signal-tracker.json');
+  if (!data || !data.signals) return;
+
+  const grid = document.getElementById('trackerGrid');
+  const headerHTML = grid.querySelector('.header').outerHTML;
+
+  grid.innerHTML = headerHTML + data.signals.slice(0, 10).map(s => {
+    const conf = s.confidence || 0;
+    const color = conf >= 0.7 ? 'var(--green)' : conf >= 0.4 ? 'var(--yellow)' : 'var(--red)';
+    const hist = s.evolution_history || [];
+    const lastEvo = hist.length ? hist[hist.length - 1].evolution : 'unchanged';
+    return `<div class="tracker-row">
+      <span class="ticker-tag">${s.ticker}</span>
+      <span style="color:var(--text-1)">${s.name || ''}</span>
+      <div class="conf-bar-wrap">
+        <div class="conf-bar"><div class="conf-bar-fill" style="width:${conf * 100}%;background:${color}"></div></div>
+        <span style="font-family:var(--mono);font-size:0.75rem;color:var(--text-2)">${(conf * 100).toFixed(0)}</span>
+      </div>
+      <span class="evo-tag evo-${lastEvo}">${lastEvo}</span>
+    </div>`;
+  }).join('');
+}
+
+// Init
+Promise.all([renderMetrics(), renderSignals(), renderTracker()]);
+</script>
+</body>
+</html>
