@@ -561,19 +561,48 @@ function renderCalendar(cal) {
 function filterCNHK(title) {
   return /A股|港股|恒生|恆生|滬深|上證|深證|中概股|香港交易所|HKEX|HSI|上交所|深交所|人民幣匯率/.test(title);
 }
+function detectSectors(title) {
+  const t = (title||'').toLowerCase();
+  const sectors = [];
+  if(/tech|科技|ai|半導體|nvidia|nvda|apple|google|microsoft|tsmc|台積|輝達|蘋果/.test(t)) sectors.push('科技');
+  if(/energy|能源|oil|原油|石油|opec|iran|伊朗/.test(t)) sectors.push('能源');
+  if(/bank|金融|fed|聯準|利率|rate|treasury|公債/.test(t)) sectors.push('金融');
+  if(/crypto|bitcoin|btc|eth|比特幣|以太|加密/.test(t)) sectors.push('加密');
+  if(/defense|軍工|war|戰爭|missile|飛彈|國防/.test(t)) sectors.push('軍工');
+  if(/pharma|醫藥|biotech|生技/.test(t)) sectors.push('醫療');
+  return sectors;
+}
 function renderNews(news, breaking) {
   const items = [];
   if(breaking) {
     const bItems = Array.isArray(breaking)?breaking:breaking.items||breaking.news||[];
-    bItems.filter(n=>!filterCNHK(n.title||'')).slice(0,5).forEach(n => items.push({title:n.title||'',src:'快訊',time:n.time||n.publish_time||'',cls:'dn'}));
+    bItems.filter(n=>!filterCNHK(n.title||'')).forEach(n => items.push({title:n.title||'',src:n.source||'快訊',time:n.time||n.publish_time||'',cls:'dn',level:n.level||0}));
   }
   if(news) {
     const nItems = Array.isArray(news)?news:news.items||news.news||[];
-    nItems.filter(n=>!filterCNHK(n.title||'')).slice(0,12).forEach(n => items.push({title:n.title||'',src:n.source||'',time:n.time||n.publish_time||'',cls:'nt'}));
+    nItems.filter(n=>!filterCNHK(n.title||'')).forEach(n => items.push({title:n.title||'',src:n.source||'',time:n.time||n.publish_time||'',cls:'nt',level:n.level||0}));
   }
-  document.getElementById('usNews').innerHTML = items.length ? items.map(n =>
-    `<div class="row-item"><span class="badge badge-${n.cls==='dn'?'dn':'nt'}" style="min-width:55px">${esc(n.src).slice(0,8)}</span><span class="wh" style="flex:1;font-size:10px">${esc(n.title)}</span><span class="dm" style="font-size:9px">${esc(n.time).slice(0,16)}</span></div>`
-  ).join('') : '<div class="dm">無新聞</div>';
+  // 繁中優先排序
+  items.sort((a,b) => {
+    const aZH = /[\u4e00-\u9fff]/.test(a.title);
+    const bZH = /[\u4e00-\u9fff]/.test(b.title);
+    if(aZH && !bZH) return -1;
+    if(!aZH && bZH) return 1;
+    return (b.level||0) - (a.level||0);
+  });
+  document.getElementById('usNews').innerHTML = items.length ? items.slice(0,15).map(n => {
+    const sectors = detectSectors(n.title);
+    const sectorTags = sectors.map(s => `<span class="badge badge-org" style="font-size:8px;margin-right:2px">${s}</span>`).join('');
+    return `<div class="row-item tip-wrap"><span class="badge badge-${n.cls==='dn'?'dn':'nt'}" style="min-width:55px">${esc(n.src).slice(0,8)}</span><span class="wh" style="flex:1;font-size:10px">${esc(n.title)}</span><span style="font-size:8px">${sectorTags}</span><span class="dm" style="font-size:9px;min-width:40px">${esc(n.time).slice(11,16)||''}</span>
+      ${sectors.length?`<div class="tip-pop" style="min-width:200px">
+        <div style="font-weight:700;color:var(--amber);margin-bottom:4px">${esc(n.title)}</div>
+        <div class="tip-row"><span class="tip-label">來源</span><span class="tip-val">${esc(n.src)}</span></div>
+        <div class="tip-row"><span class="tip-label">影響板塊</span><span class="tip-val org">${sectors.join(' / ')}</span></div>
+        <div class="tip-divider"></div>
+        <div style="font-size:9px;color:var(--dim)">懸停顯示影響分析（需 AI 模型支援）</div>
+      </div>`:''}
+    </div>`;
+  }).join('') : '<div class="dm">無新聞</div>';
 }
 
 function renderInsider(insider, congress) {
