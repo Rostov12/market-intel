@@ -31,14 +31,6 @@
   "buy_orders": [],
   "sell_orders": [
     {
-      "id": "3422874577450094592",
-      "price": 70722.21,
-      "amount": 0.001461,
-      "side": "sell",
-      "status": "open",
-      "paired_buy": 68459.09
-    },
-    {
       "id": "3422874582852358144",
       "price": 71853.76,
       "amount": 0.001437,
@@ -167,12 +159,20 @@
       "amount": 0.001414,
       "side": "sell",
       "status": "filled"
+    },
+    {
+      "id": "3422874577450094592",
+      "price": 70722.21,
+      "amount": 0.001461,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 68459.09
     }
   ],
-  "total_profit": 6.5585,
+  "total_profit": 9.8649,
   "mode": "demo",
-  "updated_at": "2026-03-27 09:00:09",
-  "current_price": 68804.5,
-  "last_check": "2026-03-27 09:00:09",
-  "total_filled": 15
+  "updated_at": "2026-03-28 09:00:06",
+  "current_price": 66417.5,
+  "last_check": "2026-03-28 09:00:06",
+  "total_filled": 16
 }
