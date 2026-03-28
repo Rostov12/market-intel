@@ -28,7 +28,16 @@
     ]
   },
   "initial_price": 2157.95,
-  "buy_orders": [],
+  "buy_orders": [
+    {
+      "id": "3429759934347141120",
+      "price": 1985.31,
+      "amount": 0.040296,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 2071.63
+    }
+  ],
   "sell_orders": [
     {
       "id": "3422874572920246272",
@@ -61,14 +70,6 @@
       "side": "sell",
       "status": "open",
       "paired_buy": 2114.79
-    },
-    {
-      "id": "3426739921046519808",
-      "price": 2071.63,
-      "amount": 0.040296,
-      "side": "sell",
-      "status": "open",
-      "paired_buy": 1985.31
     },
     {
       "id": "3426739924133527552",
@@ -247,12 +248,20 @@
       "side": "sell",
       "status": "filled",
       "paired_buy": 2028.47
+    },
+    {
+      "id": "3426739921046519808",
+      "price": 2071.63,
+      "amount": 0.040296,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 1985.31
     }
   ],
-  "total_profit": 16.886,
+  "total_profit": 20.3644,
   "mode": "demo",
-  "updated_at": "2026-03-28 20:30:09",
-  "current_price": 2001.76,
-  "last_check": "2026-03-28 20:30:09",
-  "total_filled": 22
+  "updated_at": "2026-03-29 01:30:10",
+  "current_price": 2021.31,
+  "last_check": "2026-03-29 01:30:10",
+  "total_filled": 23
 }

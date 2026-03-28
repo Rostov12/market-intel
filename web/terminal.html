@@ -978,7 +978,14 @@ function renderTW(data, inst, news) {
         `<div class="row-item"><span class="amb bold" style="min-width:60px">${c.symbol?.replace('.TW','')}</span><span class="wh" style="flex:1">${esc(c.name||'')}</span><span class="dm">${esc(c.sector||'')}</span><span class="${cls(c.pct_ma60)}" style="min-width:50px;text-align:right">${pct(c.pct_ma60)}</span></div>`
       ).join('');
     }
-    if(ma.summary) html += `<div class="ai-box" style="margin-top:4px"><div class="ai-label">摘要</div>${esc(ma.summary)}</div>`;
+    if(ma.summary) {
+      const s = ma.summary;
+      if(typeof s==='object') {
+        html += `<div class="ai-box" style="margin-top:4px"><div class="ai-label">均線掃描</div>掃描 ${s.total_scanned||0} 檔 | <span class="up">${s.bull_count||0} 多頭</span> <span class="dn">${s.bear_count||0} 空頭</span> <span class="dm">${s.ranging_count||0} 盤整</span> <span class="org">${s.squeeze_count||0} 收斂</span> | 候選 ${s.layout_candidate_count||0} 檔</div>`;
+      } else {
+        html += `<div class="ai-box" style="margin-top:4px"><div class="ai-label">摘要</div>${esc(s)}</div>`;
+      }
+    }
     document.getElementById('twMA').innerHTML = html || '<div class="dm">無均線資料</div>';
   }
 
