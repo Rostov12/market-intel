@@ -1,0 +1,60 @@
+{
+  "positions": {
+    "AVAX/USDT:USDT": {
+      "spot_symbol": "AVAX/USDT",
+      "contracts": 52.3,
+      "contract_size": 1.0,
+      "amount": 52.3,
+      "entry_price": 9.55,
+      "entry_time": "2026-03-26 15:48:36",
+      "size_usdt": 500,
+      "funding_collected": 29.2536,
+      "funding_count": 6
+    },
+    "XRP/USDT:USDT": {
+      "spot_symbol": "XRP/USDT",
+      "contracts": 3.66,
+      "contract_size": 100.0,
+      "amount": 366.0,
+      "entry_price": 1.3642,
+      "entry_time": "2026-03-27 09:11:38",
+      "size_usdt": 500,
+      "spot_order_id": "3424951222122106880",
+      "perp_order_id": "3424951217491595264",
+      "funding_collected": 11.449395,
+      "funding_count": 3
+    }
+  },
+  "history": [
+    {
+      "spot_symbol": "LINK/USDT",
+      "contracts": 1,
+      "contract_size": 1.0,
+      "amount": 1,
+      "entry_price": 10.33,
+      "entry_time": "2026-03-26 15:48:36",
+      "size_usdt": 10,
+      "funding_collected": 0,
+      "funding_count": 0,
+      "close_time": "2026-03-27 09:11:36",
+      "close_reason": "sync_orphan"
+    },
+    {
+      "spot_symbol": "DOGE/USDT",
+      "contracts": 1,
+      "contract_size": 1000.0,
+      "amount": 1000,
+      "entry_price": 0.0927,
+      "entry_time": "2026-03-26 15:48:36",
+      "size_usdt": 93,
+      "funding_collected": 0.028081,
+      "funding_count": 3,
+      "close_time": "2026-03-27 12:28:02",
+      "close_price": 0.09205,
+      "price_pnl_pct": -0.7012,
+      "total_funding": 0.028081,
+      "close_reason": "partial_perp_only"
+    }
+  ],
+  "total_funding_earned": 0.028081
+}

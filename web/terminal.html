@@ -344,6 +344,10 @@ a:hover { text-decoration:underline; }
     <div class="pnl-h"><span class="pnl-t">加密新聞</span><span class="pnl-tag">多源</span></div>
     <div class="pnl-b" id="crNews" style="max-height:280px;overflow-y:auto"></div>
   </div>
+  <div class="pnl">
+    <div class="pnl-h"><span class="pnl-t">Funding 套利</span><span class="pnl-tag">OKX 模擬盤</span></div>
+    <div class="pnl-b" id="crFunding"></div>
+  </div>
   <div class="pnl span-2">
     <div class="pnl-h"><span class="pnl-t">AI 分析</span><span class="pnl-tag">加密分析</span></div>
     <div class="pnl-b" id="crAdvice"></div>
@@ -1129,6 +1133,33 @@ function renderCrypto(data, cryptoNews, gridBot, regime, alerts) {
   document.getElementById('crAdvice').innerHTML = adviceHtml || '<div class="dm">無加密分析</div>';
 }
 
+// ── Funding Rate Arbitrage ──
+function renderFundingArb(data) {
+  const el = document.getElementById('crFunding');
+  if(!data?.positions||!Object.keys(data.positions).length) { el.innerHTML='<div class="dm">無持倉</div>'; return; }
+  const pos = Object.entries(data.positions);
+  const totalFunding = pos.reduce((s,[,p])=>s+(p.funding_collected||0), 0);
+  const totalSize = pos.reduce((s,[,p])=>s+(p.size_usdt||0), 0);
+  el.innerHTML = `
+    <div style="text-align:center;padding:4px 0;margin-bottom:4px;border-bottom:1px solid var(--border)">
+      <span class="up bold" style="font-size:13px">$${totalFunding.toFixed(2)}</span>
+      <span class="dm" style="font-size:9px"> 累計收益</span>
+      <span class="dm" style="font-size:9px;margin-left:8px">本金 $${totalSize.toLocaleString()}</span>
+    </div>
+    <table class="dt" style="font-size:10px"><thead><tr><th>幣種</th><th>部位</th><th>收益</th><th>次數</th></tr></thead><tbody>
+    ${pos.map(([sym, p]) => {
+      const coin = (p.spot_symbol||sym).replace('/USDT:USDT','').replace('/USDT','');
+      const apy = p.size_usdt&&p.funding_count ? ((p.funding_collected/(p.size_usdt))*365/(p.funding_count/3)*100).toFixed(1) : '--';
+      return `<tr>
+        <td class="amb bold">${coin}</td>
+        <td class="wh">$${(p.size_usdt||0).toLocaleString()}</td>
+        <td class="up">$${(p.funding_collected||0).toFixed(2)}</td>
+        <td class="dm">${p.funding_count||0}次 <span class="org" style="font-size:8px">${apy}% APY</span></td>
+      </tr>`;
+    }).join('')}</tbody></table>
+    ${data.history?.length?`<div class="dm" style="font-size:9px;padding:4px">歷史：${data.history.length} 筆已平倉</div>`:''}`;
+}
+
 // ── Signals Tab ──
 async function renderSignals() {
   const [deepear, tracker, bt] = await Promise.all([fj('deepear-signals.json'), fj('signal-tracker.json'), fj('indicator-backtest.json')]);
@@ -1289,11 +1320,12 @@ async function initCrypto() {
   try {
     const data = await loadCoreData();
     if (!data) { showTabError('tab-crypto', '報告資料無法取得'); return; }
-    const [cryptoNews, gridBtc, gridEth, regime, alerts] = await Promise.all([
+    const [cryptoNews, gridBtc, gridEth, regime, alerts, fundingArb] = await Promise.all([
       fj('crypto-news.json'), fj('grid-bot/BTC-USDT.json'), fj('grid-bot/ETH-USDT.json'),
-      fj('market-regime.json'), fj('crypto-alerts.json'),
+      fj('market-regime.json'), fj('crypto-alerts.json'), fj('funding-arb/positions.json'),
     ]);
     renderCrypto(data, cryptoNews, {btc: gridBtc, eth: gridEth}, regime, alerts);
+    renderFundingArb(fundingArb);
   } catch(e) { showTabError('tab-crypto', '加密分頁錯誤：' + e.message); }
 }
 
