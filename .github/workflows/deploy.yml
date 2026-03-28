@@ -33,6 +33,9 @@ jobs:
           [ -f web/demo-bloomberg.html ] && cp web/demo-bloomberg.html _site/demo-bloomberg.html || true
           [ -f web/demo-tradingview.html ] && cp web/demo-tradingview.html _site/demo-tradingview.html || true
           [ -f web/terminal.html ] && cp web/terminal.html _site/terminal.html || true
+          # 共用 CSS/JS
+          [ -f web/shared.css ] && cp web/shared.css _site/shared.css || true
+          [ -f web/shared.js ] && cp web/shared.js _site/shared.js || true
           # SVG/圖片
           [ -f web/risk-trend.svg ] && cp web/risk-trend.svg _site/risk-trend.svg || true
           # JSON 數據（全部複製）

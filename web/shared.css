@@ -1,0 +1,82 @@
+/* ═══════════════════════════════════════════════════════
+   Market Intel — Shared Styles
+   Common variables, resets, navigation, utility classes
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Color Tokens (unified across all pages) ── */
+:root {
+  --mi-bg: #0B0F19;
+  --mi-bg-card: #1A2235;
+  --mi-bg-row: #0f1319;
+  --mi-bg-hover: #161c24;
+  --mi-border: #1e2530;
+  --mi-text: #e2e8f0;
+  --mi-text-dim: #64748b;
+  --mi-text-muted: #94a3b8;
+  --mi-green: #10b981;
+  --mi-red: #ef4444;
+  --mi-orange: #ff8c00;
+  --mi-amber: #ffb347;
+  --mi-blue: #1e90ff;
+  --mi-cyan: #00e5ff;
+  --mi-purple: #b388ff;
+}
+
+/* ── Navigation Bar ── */
+.mi-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px 12px;
+  background: #080b10;
+  border-bottom: 1px solid var(--mi-border, #1e2530);
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 11px;
+  z-index: 9999;
+}
+.mi-nav-link {
+  color: var(--mi-text-dim, #64748b);
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 3px;
+  transition: all 0.15s;
+}
+.mi-nav-link:hover {
+  color: var(--mi-text, #e2e8f0);
+  background: var(--mi-bg-hover, #161c24);
+}
+.mi-nav-link.active {
+  color: var(--mi-orange, #ff8c00);
+  background: rgba(255, 140, 0, 0.1);
+  font-weight: 600;
+}
+
+/* ── Utility Classes ── */
+.up { color: var(--mi-green, #10b981); }
+.dn { color: var(--mi-red, #ef4444); }
+.nt { color: var(--mi-text-dim, #64748b); }
+.org { color: var(--mi-orange, #ff8c00); }
+.bold { font-weight: 600; }
+.dm { color: var(--mi-text-dim, #64748b); }
+.wh { color: var(--mi-text, #e2e8f0); }
+.amb { color: var(--mi-amber, #ffb347); }
+
+/* ── Badge Styles ── */
+.badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.badge-up { background: rgba(16, 185, 129, 0.15); color: var(--mi-green); }
+.badge-dn { background: rgba(239, 68, 68, 0.15); color: var(--mi-red); }
+.badge-nt { background: rgba(100, 116, 139, 0.15); color: var(--mi-text-dim); }
+.badge-org { background: rgba(255, 140, 0, 0.15); color: var(--mi-orange); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .mi-nav { font-size: 10px; padding: 3px 6px; }
+  .mi-nav-link { padding: 3px 6px; }
+}

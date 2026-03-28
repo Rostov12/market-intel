@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MKTL &lt;GO&gt; | Market Intel Terminal</title>
 <meta name="description" content="Bloomberg Terminal 風格市場情報儀表板。美股、台股、加密貨幣、AI 信號一站看齊。">
+<link rel="stylesheet" href="shared.css">
 <style>
 /* ═══════════════════════════════════════════════════════
    Bloomberg Terminal Design System
@@ -295,6 +296,7 @@ a:hover { text-decoration:underline; }
   <span id="updateTs">--</span>
 </div>
 
+<script src="shared.js"></script>
 <script>
 /* ════════════════════════════════════════════════════════
    Bloomberg Terminal — Data Engine
@@ -725,7 +727,8 @@ async function initCrypto() {
   } catch(e) { showTabError('tab-crypto', 'Crypto tab error: ' + e.message); }
 }
 
-// 啟動：所有 tab 並行載入，互不阻塞
+// 啟動：導覽列 + 所有 tab 並行載入
+renderNav();
 Promise.all([initUS(), initTW(), initCrypto(), renderSignals()])
   .catch(e => console.error('Init error:', e));
 </script>
