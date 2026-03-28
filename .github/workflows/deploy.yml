@@ -24,15 +24,21 @@ jobs:
 
       - name: Copy web files and reports
         run: |
-          mkdir -p _site/reports _site/config
+          mkdir -p _site/reports _site/config _site/grid-bot
+          # HTML 頁面
           cp web/index.html _site/index.html
+          [ -f web/signals.html ] && cp web/signals.html _site/signals.html || true
+          [ -f web/demo-finviz.html ] && cp web/demo-finviz.html _site/demo-finviz.html || true
+          # SVG/圖片
           [ -f web/risk-trend.svg ] && cp web/risk-trend.svg _site/risk-trend.svg || true
-          for f in news-feed.json sentiment.json institutional.json channel-stats.json premarket.json fear-greed-history.json sentiment-scores.json; do
-            [ -f "web/$f" ] && cp "web/$f" "_site/$f" || true
+          # JSON 數據（全部複製）
+          for f in web/*.json; do
+            [ -f "$f" ] && cp "$f" "_site/$(basename $f)" || true
           done
+          # 子目錄
           cp -r reports/. _site/reports/
           cp -r config/. _site/config/
-          [ -d web/grid-bot ] && cp -r web/grid-bot _site/grid-bot || true
+          [ -d web/grid-bot ] && cp -r web/grid-bot/. _site/grid-bot/ || true
 
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
