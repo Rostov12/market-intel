@@ -322,6 +322,14 @@ a:hover { text-decoration:underline; }
     <div class="pnl-h"><span class="pnl-t">台股新聞</span><span class="pnl-tag">台股相關</span></div>
     <div class="pnl-b" id="twNews" style="max-height:300px;overflow-y:auto"></div>
   </div>
+  <div class="pnl span-2">
+    <div class="pnl-h"><span class="pnl-t">融資融券</span><span class="pnl-tag">FinMind</span></div>
+    <div class="pnl-b" id="twMargin" style="max-height:320px;overflow-y:auto"></div>
+  </div>
+  <div class="pnl span-2">
+    <div class="pnl-h"><span class="pnl-t">外資持股 + 籌碼</span><span class="pnl-tag">FinMind</span></div>
+    <div class="pnl-b" id="twChips" style="max-height:320px;overflow-y:auto"></div>
+  </div>
 </div>
 
 <!-- ══════════════════════════════════════════════
@@ -1048,6 +1056,49 @@ function renderTW(data, inst, news) {
   }
 }
 
+// ── FinMind 台股進階數據 ──
+function renderFinMind(fm) {
+  // 融資融券面板
+  const stocks = fm.stocks || {};
+  const ids = Object.keys(stocks);
+  let mRows = ids.map(sid => {
+    const s = stocks[sid];
+    const m = s.margin;
+    if(!m) return '';
+    const chg = m.margin_change || 0;
+    return `<tr><td class="wh">${sid}</td><td class="dm">${esc(s.name||'')}</td><td class="${cls(chg)} bold">${chg>0?'+':''}${chg.toLocaleString()}</td><td class="nt">${(m.margin_balance||0).toLocaleString()}</td><td class="nt">${(m.short_balance||0).toLocaleString()}</td></tr>`;
+  }).filter(Boolean);
+  // 全市場趨勢
+  const trend = fm.market_margin_trend || [];
+  let trendHtml = '';
+  if(trend.length) {
+    const latest = trend[trend.length-1];
+    const prev = trend.length>1 ? trend[trend.length-2] : latest;
+    const mChg = latest.margin_balance - prev.margin_balance;
+    trendHtml = `<div class="ai-box" style="margin-bottom:6px"><div class="ai-label">全市場融資餘額</div><span class="wh bold">${(latest.margin_balance/1e8).toFixed(0)}</span><span class="dm"> 億</span> <span class="${cls(mChg)}" style="font-size:10px">(${mChg>0?'+':''}${(mChg/1e8).toFixed(0)}億)</span></div>`;
+  }
+  document.getElementById('twMargin').innerHTML = trendHtml + (mRows.length ?
+    `<table class="dt"><thead><tr><th>代號</th><th>名稱</th><th>融資增減</th><th>融資餘額</th><th>融券餘額</th></tr></thead><tbody>${mRows.join('')}</tbody></table>` :
+    '<div class="dm">無融資融券資料</div>');
+
+  // 外資持股 + 籌碼面板
+  let cRows = ids.map(sid => {
+    const s = stocks[sid];
+    const fh = s.foreign_holding;
+    const inst = s.institutional;
+    if(!fh && !inst) return '';
+    const ratio = fh ? fh.ratio : '--';
+    const fNet = inst?.foreign_net || 0;
+    const tNet = inst?.trust_net || 0;
+    const dNet = inst?.dealer_net || 0;
+    const fmtNet = v => { const a=Math.abs(v); const str=a>1e6?(a/1e6).toFixed(1)+'M':a>1e3?(a/1e3).toFixed(0)+'K':a.toString(); return (v>=0?'+':'-')+str; };
+    return `<tr><td class="wh">${sid}</td><td class="dm">${esc(s.name||'')}</td><td class="org bold">${typeof ratio==='number'?ratio.toFixed(1)+'%':ratio}</td><td class="${cls(fNet)}">${fmtNet(fNet)}</td><td class="${cls(tNet)}">${fmtNet(tNet)}</td><td class="${cls(dNet)}">${fmtNet(dNet)}</td></tr>`;
+  }).filter(Boolean);
+  document.getElementById('twChips').innerHTML = cRows.length ?
+    `<table class="dt"><thead><tr><th>代號</th><th>名稱</th><th>外資%</th><th>外資</th><th>投信</th><th>自營</th></tr></thead><tbody>${cRows.join('')}</tbody></table>` :
+    '<div class="dm">無籌碼資料</div>';
+}
+
 // ── Crypto Tab ──
 function renderCrypto(data, cryptoNews, gridBot, regime, alerts) {
   // Prices with sparklines
@@ -1318,8 +1369,9 @@ async function initTW() {
   try {
     const data = await loadCoreData();
     if (!data) { showTabError('tab-tw', '報告資料無法取得'); return; }
-    const [inst, news] = await Promise.all([fj('institutional.json'), fj('news-feed.json')]);
+    const [inst, news, finmind] = await Promise.all([fj('institutional.json'), fj('news-feed.json'), fj('tw-finmind.json')]);
     renderTW(data, inst, news);
+    if(finmind) renderFinMind(finmind);
   } catch(e) { showTabError('tab-tw', '台股分頁錯誤：' + e.message); }
 }
 
