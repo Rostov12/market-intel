@@ -1,10 +1,85 @@
 {
-  "date": "2026-03-27",
-  "fetched_at": "2026-03-27 04:40",
-  "sources": [],
-  "total_trades": 0,
-  "summary": [],
+  "date": "2026-03-28",
+  "fetched_at": "2026-03-28 15:46",
+  "sources": [
+    "quiverquant-house"
+  ],
+  "total_trades": 6,
+  "summary": [
+    {
+      "symbol": "GEHC",
+      "politician": "Warren Davidson",
+      "type": "賣出",
+      "type_raw": "Sale",
+      "date": "2026-03-23",
+      "amount": "$1,001 - $15,000",
+      "emoji": "🔴",
+      "source": "quiverquant-house",
+      "in_watchlist": false,
+      "text": "🔴 Warren Davidson 賣出 GEHC ($1,001 - $15,000) 2026-03-23 "
+    },
+    {
+      "symbol": "CBRL",
+      "politician": "Tim Moore",
+      "type": "買入",
+      "type_raw": "Purchase",
+      "date": "2026-03-23",
+      "amount": "$15,001 - $50,000",
+      "emoji": "🟢",
+      "source": "quiverquant-house",
+      "in_watchlist": false,
+      "text": "🟢 Tim Moore 買入 CBRL ($15,001 - $50,000) 2026-03-23 "
+    },
+    {
+      "symbol": "LGIH",
+      "politician": "Tim Moore",
+      "type": "買入",
+      "type_raw": "Purchase",
+      "date": "2026-03-20",
+      "amount": "$15,001 - $50,000",
+      "emoji": "🟢",
+      "source": "quiverquant-house",
+      "in_watchlist": false,
+      "text": "🟢 Tim Moore 買入 LGIH ($15,001 - $50,000) 2026-03-20 "
+    },
+    {
+      "symbol": "LGIH",
+      "politician": "Tim Moore",
+      "type": "買入",
+      "type_raw": "Purchase",
+      "date": "2026-03-19",
+      "amount": "$50,001 - $100,000",
+      "emoji": "🟢",
+      "source": "quiverquant-house",
+      "in_watchlist": false,
+      "text": "🟢 Tim Moore 買入 LGIH ($50,001 - $100,000) 2026-03-19 "
+    },
+    {
+      "symbol": "LGIH",
+      "politician": "Tim Moore",
+      "type": "買入",
+      "type_raw": "Purchase",
+      "date": "2026-03-18",
+      "amount": "$15,001 - $50,000",
+      "emoji": "🟢",
+      "source": "quiverquant-house",
+      "in_watchlist": false,
+      "text": "🟢 Tim Moore 買入 LGIH ($15,001 - $50,000) 2026-03-18 "
+    },
+    {
+      "symbol": "DNUT",
+      "politician": "Tim Moore",
+      "type": "賣出",
+      "type_raw": "Sale",
+      "date": "2026-03-17",
+      "amount": "$15,001 - $50,000",
+      "emoji": "🔴",
+      "source": "quiverquant-house",
+      "in_watchlist": false,
+      "text": "🔴 Tim Moore 賣出 DNUT ($15,001 - $50,000) 2026-03-17 "
+    }
+  ],
   "watchlist_hits": [],
-  "status": "no_data",
-  "telegram_text": ""
+  "status": "ok",
+  "telegram_text": "🏛️ 國會議員近期交易\n🔴 Warren Davidson 賣出 GEHC ($1,001 - $15,000) 2026-03-23 \n🟢 Tim Moore 買入 CBRL ($15,001 - $50,000) 2026-03-23 \n🟢 Tim Moore 買入 LGIH ($15,001 - $50,000) 2026-03-20 \n🟢 Tim Moore 買入 LGIH ($50,001 - $100,000) 2026-03-19 \n🟢 Tim Moore 買入 LGIH ($15,001 - $50,000) 2026-03-18 "
 }

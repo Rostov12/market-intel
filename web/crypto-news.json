@@ -1,16 +1,16 @@
 {
   "date": "2026-03-28",
-  "updated_at": "2026-03-28 10:40",
+  "updated_at": "2026-03-28 15:40",
   "count": 30,
   "sources": [
+    "google-news-crypto",
     "cointelegraph",
-    "coindesk",
     "cointelegraph-rss",
-    "google-news-crypto"
+    "coindesk"
   ],
   "news": [
     {
-      "id": "gn-35873",
+      "id": "gn-57185",
       "title": "Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG",
       "source": "KCRG",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0ZPMjVpVjRjUmZVRVVRUEh6dG1GbmFkYmM0NmlodDBaYTJiY3JFblRqb3pkTmtlMUxodzJqLW1ocG5KeEdVa3FpVUNuVVl4eUFXWURMY212Uk50bUNfZHFrb1d5WnJMU1Vqcm1UOGhZQkRFMWl0WnM1U2Z2YkRpbFBndFJhN1Y2OFl5M3ZtUlA0Mm5iLXVpZ1RzbFpveVhlTHgxWktmNUU5ZWp6d1HSAcIBQVVfeXFMUEhmZEoxQXdXMWN3RE9nWlM0alZLVjgxemNNY0U3bVozNlB1U3FQbmllRWdVc19makZ3dDVSQXY1MF9zUWRPTWRmVC1hUFc4djJfSlVoQ1JnNEZNU0FZZnB4WTdXR0I2d3plMVEwMUhJZmxMcFVjc1BiTm1vel90QVRwODlxQ0RoWlZMSkVRcERfeVRmSkl0Ym1zbVFOVVhKZDl4bnd1SkZyNGxfYVlYck5TLUJyVHhMU0tGQ0l1azlsYVE?oc=5",
@@ -21,7 +21,95 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-81086",
+      "id": "gn-27974",
+      "title": "Goldman Sachs: Bitcoin And Crypto May Be Nearing A Bottom - Bitcoin Magazine",
+      "source": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd0hpNmZrRnlvSGdpVmlnU1drTzM3YnhnV2ZLWkNScDVxNWFxQUo1UlJZRWd4VFM0T2ZQb2IxTExtZUpudEpkczFSZENaMHUzOHJBTnBmVkFVZ3JSWlF3aDJRcnQta3h6M20zblRLNWJVQ1BKdl94U0xwU2pheEVQdFRJVQ?oc=5",
+      "published": "Thu, 26 Mar 2026 18:16:17 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-49154",
+      "title": "XRP risk-reward improves as whale accumulation rises: Will price follow?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/xrp-risk-reward-improves-as-whale-accumulation-rises-will-price-follow?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 05:56:37 +0000",
+      "coins": [
+        "XRP"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-20899",
+      "title": "XRP risk-reward improves as whale accumulation rises: Will price follow?",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/xrp-risk-reward-improves-as-whale-accumulation-rises-will-price-follow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 05:56:37 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-36746",
+      "title": "Ripple turns to AI to stress-test the XRP Ledger as institutional use cases scale",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/03/27/ripple-turns-to-ai-to-stress-test-the-xrp-ledger-as-institutional-use-cases-scale",
+      "published": "Sat, 28 Mar 2026 05:30:00 +0000",
+      "summary": "The next XRP Ledger release will be dedicated entirely to bug fixes and improvements.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-70615",
+      "title": "Lummis says CLARITY Act will deliver 'strongest' developer protections",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/lummis-says-clarity-act-offers-strong-defi-protections?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 05:04:55 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-75200",
+      "title": "Lummis says CLARITY Act will deliver 'strongest' developer protections",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/lummis-says-clarity-act-offers-strong-defi-protections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 05:04:55 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-78453",
+      "title": "Stablecoins will be crypto’s ‘ChatGPT moment’ for businesses: Ripple",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/stablecoins-will-be-cryptos-chatgpt-moment-ripple-garlinghouse?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 03:04:12 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-35280",
+      "title": "Stablecoins will be crypto’s ‘ChatGPT moment’ for businesses: Ripple",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/stablecoins-will-be-cryptos-chatgpt-moment-ripple-garlinghouse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 03:04:12 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-20933",
+      "title": "Bitcoin miners are becoming AI companies and selling their BTC to fund the transition - coindesk.com",
+      "source": "coindesk.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObktyeC1kWnR5R0ltb2VpeV84Y1cyNkh6Q3FNaXRWNzdqWmg0NlFHWC1JWVNBQ0JaS3Mzb3JEeUlqQXNLNUxibU1UQ0IzQ2RSTndMbjBXRXhfNmRNdS1ZTEpITDJYN18tdlZGX3NReTM3bHVCTmlJTnBVaUgxa1o3MGlfSVBSVHhtR0QxWE5PQjRQNkYwRnlCY09DRmp5UUdtRnZGc2RENC1zeDdNa3l2OWNSRkYwZHVBN284Ry12RDVZOUVkLUpnNA?oc=5",
+      "published": "Sat, 28 Mar 2026 02:33:08 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-415",
       "title": "Bitcoin miners are becoming AI companies and selling their BTC to fund the transition",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/27/bitcoin-miners-are-becoming-ai-companies-and-selling-their-btc-to-fund-the-transition",
@@ -33,19 +121,19 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-17764",
+      "id": "gn-94782",
       "title": "Ethereum and Solana Just Got a Huge Catalyst. Should You Buy Them With $1,000? - The Motley Fool",
       "source": "The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORVVBNmdmX3diUVZweFFUcHVyRmpBR1kwVG15VlVnaGtaWlJZcUN6Y1p5Ti1UZ0w4bVR0Y3N2UTVzbXZvN2N0WWZaUGR4VHVRbkhWc2Rmb0RjeTlYOXpYcXFrVThXeXhtSEdCZUY5bzRQY21VWFR6V3VoQ2JQNFN5ckxKYlRDQzNkQmZPdE5HdDU2SURaR21iOA?oc=5",
       "published": "Sat, 28 Mar 2026 01:45:00 GMT",
       "coins": [
-        "SOL",
-        "ETH"
+        "ETH",
+        "SOL"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-45547",
+      "id": "ct-rss-66373",
       "title": "Morgan Stanley sets 0.14% Bitcoin ETF fee, lowest in market if approved",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/morgan-stanley-sets-ultra-low-fee-for-bitcoin-etf?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -56,7 +144,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-1426",
+      "id": "ct-73129",
       "title": "Morgan Stanley sets 0.14% Bitcoin ETF fee, lowest in market if approved",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/morgan-stanley-sets-ultra-low-fee-for-bitcoin-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -67,7 +155,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-42699",
+      "id": "gn-54931",
       "title": "'Bitcoin Should Be $280,000,' Grant Cardone Says As BTC Continues Outperformance In Iran War - Yahoo Finance",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVFZoYWtXbWsyU1BNY2xlN2VsN0FObkRlcnExVDYteFEyU1Y5QklyRzRTTFNGUjEzUU00bW54NS0ycU9qV2VjMzdibE8xZnQ1Qlp0RUk3SVhWYy1yamxHcWV4a0xfYlJPXzdPbENKOFloSGt3NGpMdUVicHA1dEQwejNrdHFPQkZaTUszdW8zLWxIS1ZMeHFtNHdR?oc=5",
@@ -78,7 +166,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-95020",
+      "id": "gn-31311",
       "title": "Bitcoin Skids, $14 Bil. In Options Due; Cathie Wood Raises Cash - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdnowUEhuT25xX1RfS0lTcmd3V1FNb0ppY1gzLVdqWnVCQV9ramlDOE9pZ19sUWhubGtXRU8tV2pXajNtTkYzSS1SZ3JmTnJwcmtXYUk1YzRacENvLVJVUkkyajh2ZjNrTFpVZXo2NExFRzdYREpLeDdQa253Q3Q4ZzhtZHgzTGRrQkJkSUtCRDFfcGVFYW96aWhrTklKejRWTURvMTNEV0h5NUk?oc=5",
@@ -89,7 +177,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-7472",
+      "id": "ct-rss-73334",
       "title": "California governor signs order banning prediction market insider trading",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/california-governor-executive-order-government-insider-trading-prediction-markets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -98,7 +186,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-23521",
+      "id": "ct-58910",
       "title": "California governor signs order banning prediction market insider trading",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/california-governor-executive-order-government-insider-trading-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -107,19 +195,19 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-75275",
+      "id": "ct-rss-53378",
       "title": "Bitcoin traders see 53% odds of sub-$66K BTC by April 24",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-traders-see-53-odds-of-sub-66k-btc-by-april-24?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
       "published": "Fri, 27 Mar 2026 21:15:00 +0000",
       "coins": [
-        "BIT",
-        "BTC"
+        "BTC",
+        "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-9682",
+      "id": "ct-31791",
       "title": "Bitcoin traders see 53% odds of sub-$66K BTC by April 24",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-traders-see-53-odds-of-sub-66k-btc-by-april-24?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -130,18 +218,18 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-71378",
-      "title": "Bitcoin Slumps With Options Showing Traders Turning Defensive - bloomberg.com",
-      "source": "bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVHV3Ujd6QW5DTGJ3RVY1dk83bkFQS3RDOHZQV0l1X3pfVGZKT1hvUUtscTBGSUZtUFQyNGU1RFRaLVJtRGtwRTJKWktTNXJjdmh5Q1U0VjBsU0dpNnMxejd3TzkxS2F4blBjWnNwNTJMdmtjaHkzWGF0Q0NFU093QmxlS0Z1MDVqOXlGTXk3SHFZbGx1Nk9OOXJGSnpNMTRwcTYzYmtQOC1zeFhHcjNGZGx3?oc=5",
-      "published": "Fri, 27 Mar 2026 20:31:21 GMT",
+      "id": "gn-50935",
+      "title": "Crypto Market Update: Bitcoin Price Slides to March Low Amid Rising Yields - Investing News Network",
+      "source": "Investing News Network",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
+      "published": "Fri, 27 Mar 2026 21:05:00 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-25264",
+      "id": "ct-rss-40044",
       "title": "Crypto Biz: Stablecoin jitters meet institutional momentum",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/crypto-biz-stablecoin-regulation-institutions-ai-micropayments?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -150,7 +238,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-81999",
+      "id": "ct-84294",
       "title": "Crypto Biz: Stablecoin jitters meet institutional momentum",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/crypto-biz-stablecoin-regulation-institutions-ai-micropayments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -159,7 +247,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-3174",
+      "id": "cd-61044",
       "title": "Morgan Stanley enters bitcoin ETF race with market-leading low fee",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/27/morgan-stanley-enters-bitcoin-etf-race-with-market-leading-low-fee",
@@ -171,7 +259,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-48883",
+      "id": "ct-rss-91884",
       "title": "P2P.me team discloses and apologizes for prediction market bets",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/p2p-me-apologizes-prediction-bets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -180,7 +268,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-94939",
+      "id": "ct-27319",
       "title": "P2P.me team discloses and apologizes for prediction market bets",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/p2p-me-apologizes-prediction-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -189,35 +277,35 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-50984",
+      "id": "ct-rss-43198",
       "title": "Price predictions 3/27: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/price-predictions-3-27-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
       "published": "Fri, 27 Mar 2026 20:06:32 +0000",
       "coins": [
-        "XRP",
         "ETH",
-        "BNB",
+        "SOL",
+        "XRP",
         "BTC",
-        "SOL"
+        "BNB"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-19067",
+      "id": "ct-19431",
       "title": "Price predictions 3/27: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/price-predictions-3-27-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 27 Mar 2026 20:06:32 +0000",
       "coins": [
-        "BNB",
+        "ETH",
         "BTC",
-        "ETH"
+        "BNB"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-9916",
+      "id": "ct-rss-594",
       "title": "Detroit set to enter Michigan‘s battle against Coinbase prediction markets",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/detroit-michigan-lawsuit-coinbase-prediction-market?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -226,102 +314,13 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-71292",
+      "id": "ct-33398",
       "title": "Detroit set to enter Michigan‘s battle against Coinbase prediction markets",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/detroit-michigan-lawsuit-coinbase-prediction-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published": "Fri, 27 Mar 2026 19:37:22 +0000",
       "coins": [],
       "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-67660",
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 27 Mar 2026 18:56:38 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-22165",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 27 Mar 2026 18:56:38 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-40271",
-      "title": "Bitcoin drops, crypto-linked stocks follow: What’s behind the sell-off? (BTC-USD:Cryptocurrency) - Seeking Alpha",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdUpUU3hnalY4REpUNEZ2RXM2TUxrNTFybGV3Ql84MmNUYVBHZ3lHNkNpOFpfY21VRjhGc0xQUkkxOHJlTlV2Uk5qOFowQU5wY1NOdGp0MXpnSEZRT3p2dTNFZWZJSHdpY0VGdGppTXFrOGFsbnQ3U3RRMUxvd0tXVjdOZDdXUVJ2Y0dMWW1fWi1MWXRaNUxabWtBVlVPV3pReEhGQTZSdDMtRUE?oc=5",
-      "published": "Fri, 27 Mar 2026 17:46:35 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-12126",
-      "title": "US lawmakers publish crypto tax proposal without Bitcoin tax exemption",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/us-lawmakers-crypto-tax-no-bitcoin-exemption?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 27 Mar 2026 17:38:09 +0000",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-71962",
-      "title": "US lawmakers publish crypto tax proposal without Bitcoin tax exemption",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-lawmakers-crypto-tax-no-bitcoin-exemption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 27 Mar 2026 17:38:09 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-46481",
-      "title": "Coinbase users push back against prediction markets notifications",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/coinbase-users-prediction-markets-notifications-march-madness?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 27 Mar 2026 16:38:44 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-79677",
-      "title": "Coinbase users push back against prediction markets notifications",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/coinbase-users-prediction-markets-notifications-march-madness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 27 Mar 2026 16:38:44 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-58329",
-      "title": "Why Mastercard paid double for stablecoin infrastructure it could have built",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/03/27/why-mastercard-paid-double-for-stablecoin-infrastructure-it-could-have-built",
-      "published": "Fri, 27 Mar 2026 16:30:00 +0000",
-      "summary": "The credit card giant’s pricey payment to buy stablecoin platform, BVNK, says more than any strategy deck or earnings call ever could.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-65139",
-      "title": "Crypto stocks battered as Nasdaq enters correction in $17 trillion market rout",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/27/crypto-stocks-battered-as-nasdaq-enters-correction-in-usd17-trillion-market-rout",
-      "published": "Fri, 27 Mar 2026 16:00:04 +0000",
-      "summary": "The Friday plunge fits into a pattern since the war in Iran broke out, with gains on Monday turning into losses by the end of the week.",
-      "coins": [],
-      "provider": "coindesk"
     }
   ]
 }
