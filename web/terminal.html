@@ -223,6 +223,16 @@ a:hover { text-decoration:underline; }
     <div class="pnl-h"><span class="pnl-t">內部人與國會交易</span><span class="pnl-tag">SEC</span></div>
     <div class="pnl-b" id="usInsider" style="max-height:260px;overflow-y:auto"></div>
   </div>
+  <!-- Correlation -->
+  <div class="pnl span-2">
+    <div class="pnl-h"><span class="pnl-t">相關性矩陣</span><span class="pnl-tag">20日/60日</span></div>
+    <div class="pnl-b" id="usCorrelation"></div>
+  </div>
+  <!-- Technical Scan -->
+  <div class="pnl span-2">
+    <div class="pnl-h"><span class="pnl-t">技術面掃描</span><span class="pnl-tag" id="techScanTag">觸發訊號</span></div>
+    <div class="pnl-b" id="usTechScan" style="max-height:260px;overflow-y:auto"></div>
+  </div>
 </div>
 
 <!-- ══════════════════════════════════════════════
@@ -505,6 +515,32 @@ function renderInsider(insider, congress) {
     '<div class="dm">無內部人資料</div>';
 }
 
+function renderCorrelation(corr) {
+  const el = document.getElementById('usCorrelation');
+  if(!corr?.pairs?.length) { el.innerHTML='<div class="dm">無資料</div>'; return; }
+  el.innerHTML = `<table class="dt"><thead><tr><th>配對</th><th>20日</th><th>60日</th><th>變化</th><th></th></tr></thead><tbody>
+    ${corr.pairs.map(p => {
+      const anom = p.anomaly ? '<span class="badge badge-dn">異常</span>' : '';
+      return `<tr><td class="wh" style="font-size:10px">${esc(p.pair)}</td><td class="${cls(p.corr_20d)} bold">${(p.corr_20d||0).toFixed(2)}</td><td class="dm">${(p.corr_60d||0).toFixed(2)}</td><td class="${cls(p.change_20d)}">${p.change_20d>=0?'+':''}${(p.change_20d||0).toFixed(2)}</td><td>${anom}</td></tr>`;
+    }).join('')}
+  </tbody></table>`;
+}
+
+function renderTechScan(scan) {
+  const el = document.getElementById('usTechScan');
+  if(!scan?.results?.length) { el.innerHTML='<div class="dm">無觸發訊號</div>'; return; }
+  document.getElementById('techScanTag').textContent = `${scan.triggered||scan.results.length} 檔觸發`;
+  el.innerHTML = scan.results.slice(0,12).map(r => {
+    const sigs = (r.signals||[]).map(s => `<span class="badge badge-org" style="margin-right:2px">${esc(s.emoji||'')} ${esc(s.type||'')}</span>`).join('');
+    return `<div class="row-item">
+      <span class="amb bold" style="min-width:50px">${esc(r.symbol||'')}</span>
+      <span class="wh" style="min-width:60px;font-size:10px">${esc((r.name||'').slice(0,6))}</span>
+      <span class="${cls(r.change_pct)}" style="min-width:45px">${pct(r.change_pct)}</span>
+      <span style="flex:1;font-size:9px">${sigs}</span>
+    </div>`;
+  }).join('');
+}
+
 // ── TW Tab ──
 function renderTW(data, inst, news) {
   // MA Framework
@@ -741,12 +777,13 @@ async function initUS() {
   try {
     const data = await loadCoreData();
     if (!data) { showTabError('tab-us', '報告資料無法取得'); return; }
-    const [news, sent, breaking, insider, congress, econCal, fred, fg] = await Promise.all([
+    const [news, sent, breaking, insider, congress, econCal, fred, fg, corr, techScan] = await Promise.all([
       fj('news-feed.json'), fj('sentiment.json'),
       fj('breaking-news.json'),
       fj('insider-trades.json'), fj('congress-trades.json'),
       fj('economic-calendar.json'), fj('fred-macro.json'),
       fj('fear-greed-history.json'),
+      fj('correlation-matrix.json'), fj('technical-scan.json'),
     ]);
     renderTickerStrip(data);
     renderUSSummary(data);
@@ -758,6 +795,8 @@ async function initUS() {
     renderCalendar(econCal);
     renderNews(news, breaking);
     renderInsider(insider, congress);
+    renderCorrelation(corr);
+    renderTechScan(techScan);
     // 確保更新時間有值
     const tsEl = document.getElementById('updateTs');
     if(tsEl && tsEl.textContent === '--') tsEl.textContent = '更新時間：' + (data.generated_at || data.date || '');
