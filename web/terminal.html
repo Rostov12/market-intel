@@ -154,22 +154,22 @@ a:hover { text-decoration:underline; }
 <div class="topbar">
   <div class="tb-left">
     <span class="logo">MKTL &lt;GO&gt;</span>
-    <input class="cmd" id="cmdInput" placeholder="Search ticker or command..." readonly>
+    <input class="cmd" id="cmdInput" placeholder="搜尋代碼或指令..." readonly>
   </div>
   <div class="tb-right">
-    <span class="live">&#9679; LIVE</span>
+    <span class="live">&#9679; 即時</span>
     <span id="clock"></span>
     <span id="reportDate">--</span>
     <span id="dataStatus" class="dm" style="font-size:9px"></span>
-    <span>MARKET INTEL TERMINAL v2</span>
+    <span>市場情報終端 v2</span>
   </div>
 </div>
 
 <div class="tab-bar">
-  <div class="tab active" data-tab="us">US EQUITIES</div>
-  <div class="tab" data-tab="tw">TW STOCKS</div>
-  <div class="tab" data-tab="crypto">CRYPTO</div>
-  <div class="tab" data-tab="signals">AI SIGNALS</div>
+  <div class="tab active" data-tab="us">美股</div>
+  <div class="tab" data-tab="tw">台股</div>
+  <div class="tab" data-tab="crypto">加密貨幣</div>
+  <div class="tab" data-tab="signals">AI 訊號</div>
 </div>
 
 <div class="ticker-strip" id="tickerStrip"></div>
@@ -180,47 +180,47 @@ a:hover { text-decoration:underline; }
 <div class="tab-content active g-4" id="tab-us">
   <!-- AI Summary -->
   <div class="pnl span-4">
-    <div class="pnl-h"><span class="pnl-t">AI Market Analysis</span><span class="pnl-tag" id="usReportMeta"></span></div>
-    <div class="pnl-b" id="usSummary"><div class="loading">Loading report...</div></div>
+    <div class="pnl-h"><span class="pnl-t">AI 市場分析</span><span class="pnl-tag" id="usReportMeta"></span></div>
+    <div class="pnl-b" id="usSummary"><div class="loading">載入報告中...</div></div>
   </div>
   <!-- Indices -->
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Major Indices</span><span class="pnl-tag">INTRADAY</span></div>
+    <div class="pnl-h"><span class="pnl-t">主要指數</span><span class="pnl-tag">盤中</span></div>
     <div class="pnl-b" id="usIndices"></div>
   </div>
   <!-- Fear & Greed + Sentiment -->
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">Fear & Greed</span><span class="pnl-tag" id="fgTag"></span></div>
+    <div class="pnl-h"><span class="pnl-t">恐懼與貪婪指數</span><span class="pnl-tag" id="fgTag"></span></div>
     <div class="pnl-b" id="usFG"></div>
   </div>
   <!-- Macro -->
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">Macro Indicators</span><span class="pnl-tag">FRED</span></div>
+    <div class="pnl-h"><span class="pnl-t">總經指標</span><span class="pnl-tag">FRED</span></div>
     <div class="pnl-b" id="usMacro"></div>
   </div>
   <!-- Sector Heatmap -->
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Sector Heatmap</span><span class="pnl-tag">WATCHLIST</span></div>
+    <div class="pnl-h"><span class="pnl-t">板塊熱力圖</span><span class="pnl-tag">觀察名單</span></div>
     <div class="pnl-b" id="usHeatmap"></div>
   </div>
   <!-- Sentiment -->
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">Retail Sentiment</span><span class="pnl-tag">WSB / PCR</span></div>
+    <div class="pnl-h"><span class="pnl-t">散戶情緒</span><span class="pnl-tag">WSB / PCR</span></div>
     <div class="pnl-b" id="usSentiment"></div>
   </div>
   <!-- Econ Calendar -->
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">Econ Calendar</span><span class="pnl-tag" id="fomcTag">FOMC --</span></div>
+    <div class="pnl-h"><span class="pnl-t">經濟日曆</span><span class="pnl-tag" id="fomcTag">FOMC --</span></div>
     <div class="pnl-b" id="usCalendar"></div>
   </div>
   <!-- News -->
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Breaking News</span><span class="pnl-tag">REALTIME</span></div>
+    <div class="pnl-h"><span class="pnl-t">即時新聞</span><span class="pnl-tag">即時</span></div>
     <div class="pnl-b" id="usNews" style="max-height:260px;overflow-y:auto"></div>
   </div>
   <!-- Insider + Congress -->
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Insider & Congress Trades</span><span class="pnl-tag">SEC</span></div>
+    <div class="pnl-h"><span class="pnl-t">內部人與國會交易</span><span class="pnl-tag">SEC</span></div>
     <div class="pnl-b" id="usInsider" style="max-height:260px;overflow-y:auto"></div>
   </div>
 </div>
@@ -230,19 +230,19 @@ a:hover { text-decoration:underline; }
      ══════════════════════════════════════════════ -->
 <div class="tab-content g-4" id="tab-tw">
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">TW MA Framework</span><span class="pnl-tag">操盤框架</span></div>
+    <div class="pnl-h"><span class="pnl-t">台股均線架構</span><span class="pnl-tag">操盤框架</span></div>
     <div class="pnl-b" id="twMA"></div>
   </div>
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">TW Stocks</span><span class="pnl-tag">HEATMAP</span></div>
+    <div class="pnl-h"><span class="pnl-t">台股觀察</span><span class="pnl-tag">熱力圖</span></div>
     <div class="pnl-b" id="twHeatmap"></div>
   </div>
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Institutional Flow</span><span class="pnl-tag">三大法人</span></div>
+    <div class="pnl-h"><span class="pnl-t">法人動向</span><span class="pnl-tag">三大法人</span></div>
     <div class="pnl-b" id="twInst"></div>
   </div>
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">TW News</span><span class="pnl-tag">台股相關</span></div>
+    <div class="pnl-h"><span class="pnl-t">台股新聞</span><span class="pnl-tag">台股相關</span></div>
     <div class="pnl-b" id="twNews" style="max-height:300px;overflow-y:auto"></div>
   </div>
 </div>
@@ -252,23 +252,23 @@ a:hover { text-decoration:underline; }
      ══════════════════════════════════════════════ -->
 <div class="tab-content g-4" id="tab-crypto">
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Crypto Prices</span><span class="pnl-tag">REALTIME</span></div>
+    <div class="pnl-h"><span class="pnl-t">加密貨幣報價</span><span class="pnl-tag">即時</span></div>
     <div class="pnl-b" id="crPrices"></div>
   </div>
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">Regime</span><span class="pnl-tag">RISK ON/OFF</span></div>
+    <div class="pnl-h"><span class="pnl-t">市場狀態</span><span class="pnl-tag">風險偏好</span></div>
     <div class="pnl-b" id="crRegime"></div>
   </div>
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">Grid Bot</span><span class="pnl-tag">OKX DEMO</span></div>
+    <div class="pnl-h"><span class="pnl-t">網格機器人</span><span class="pnl-tag">OKX 模擬盤</span></div>
     <div class="pnl-b" id="crGrid"></div>
   </div>
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Crypto News</span><span class="pnl-tag">MULTI-SOURCE</span></div>
+    <div class="pnl-h"><span class="pnl-t">加密新聞</span><span class="pnl-tag">多源</span></div>
     <div class="pnl-b" id="crNews" style="max-height:280px;overflow-y:auto"></div>
   </div>
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">AI Analysis</span><span class="pnl-tag">加密分析</span></div>
+    <div class="pnl-h"><span class="pnl-t">AI 分析</span><span class="pnl-tag">加密分析</span></div>
     <div class="pnl-b" id="crAdvice"></div>
   </div>
 </div>
@@ -278,21 +278,21 @@ a:hover { text-decoration:underline; }
      ══════════════════════════════════════════════ -->
 <div class="tab-content g-4" id="tab-signals">
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">DeepEar AI Signals</span><span class="pnl-tag" id="sigCountTag">0</span></div>
+    <div class="pnl-h"><span class="pnl-t">DeepEar AI 訊號</span><span class="pnl-tag" id="sigCountTag">0</span></div>
     <div class="pnl-b" id="sigDeepear" style="max-height:400px;overflow-y:auto"></div>
   </div>
   <div class="pnl span-2">
-    <div class="pnl-h"><span class="pnl-t">Signal Tracker</span><span class="pnl-tag">WATCHLIST</span></div>
+    <div class="pnl-h"><span class="pnl-t">訊號追蹤器</span><span class="pnl-tag">觀察名單</span></div>
     <div class="pnl-b" id="sigTracker" style="max-height:400px;overflow-y:auto"></div>
   </div>
   <div class="pnl span-4">
-    <div class="pnl-h"><span class="pnl-t">Indicator Backtest Ranking</span><span class="pnl-tag" id="btTag">BTC-USD</span></div>
+    <div class="pnl-h"><span class="pnl-t">指標回測排行</span><span class="pnl-tag" id="btTag">BTC-USD</span></div>
     <div class="pnl-b" id="sigBacktest"></div>
   </div>
 </div>
 
 <div class="statusbar">
-  <span><span class="up">&#9679;</span> Connected | Vera + Freya + CodeX | Multi-Agent Intelligence Platform</span>
+  <span><span class="up">&#9679;</span> 已連線 | 薇拉 + 芙蕾雅 + CodeX | 多 Agent 情報平台</span>
   <span id="updateTs">--</span>
 </div>
 
@@ -363,12 +363,12 @@ function renderTickerStrip(data) {
 function renderUSSummary(data) {
   const el = document.getElementById('usSummary');
   const title = data.market_title || '';
-  const advice = data.advice || '(No analysis available)';
+  const advice = data.advice || '（暫無分析）';
   const risk = data.risk_line || '';
   el.innerHTML = `
     ${title?`<div style="margin-bottom:4px"><span class="bold org">${esc(title)}</span></div>`:''}
     ${risk?`<div class="badge ${risk.includes('低')?'badge-up':risk.includes('高')?'badge-dn':'badge-org'}" style="margin-bottom:4px">${esc(risk)}</div>`:''}
-    <div class="ai-box"><div class="ai-label">AI ANALYSIS</div>${esc(advice)}</div>
+    <div class="ai-box"><div class="ai-label">AI 分析</div>${esc(advice)}</div>
   `;
   document.getElementById('usReportMeta').textContent = `${data.date} | ${data.generated_at||''}`;
   document.getElementById('reportDate').textContent = data.date || '--';
@@ -376,9 +376,9 @@ function renderUSSummary(data) {
 
 function renderIndices(data) {
   const indices = data.indices || [];
-  if (!indices.length) { document.getElementById('usIndices').innerHTML='<div class="dm">No data</div>'; return; }
+  if (!indices.length) { document.getElementById('usIndices').innerHTML='<div class="dm">無資料</div>'; return; }
   document.getElementById('usIndices').innerHTML = `
-    <table class="dt"><thead><tr><th>Index</th><th>Close</th><th>Change</th><th>%</th><th>Vol</th></tr></thead><tbody>
+    <table class="dt"><thead><tr><th>指數</th><th>收盤</th><th>漲跌</th><th>%</th><th>量</th></tr></thead><tbody>
     ${indices.map(i => `<tr>
       <td class="amb bold">${i.symbol?.replace('^','')||''}</td>
       <td class="wh">${(i.price||i.close)?.toFixed(2)||'--'}</td>
@@ -402,7 +402,7 @@ function renderWatchlistHeatmap(data) {
 }
 
 function renderFG(fg) {
-  if(!fg?.length){document.getElementById('usFG').innerHTML='<div class="dm">No data</div>';return;}
+  if(!fg?.length){document.getElementById('usFG').innerHTML='<div class="dm">無資料</div>';return;}
   const latest=fg[fg.length-1], score=latest.score||0;
   const prev=fg.length>1?fg[fg.length-2]:latest;
   const delta=score-(prev.score||0);
@@ -412,31 +412,31 @@ function renderFG(fg) {
       <div class="fg-val" style="color:${fgColor(score)}">${score.toFixed(0)}</div>
       <div class="fg-track"><div class="fg-needle" style="left:${score}%"></div></div>
     </div>
-    <div style="display:flex;justify-content:space-between;color:var(--dim);font-size:9px;padding:0 2px"><span>EXTREME FEAR</span><span>EXTREME GREED</span></div>
+    <div style="display:flex;justify-content:space-between;color:var(--dim);font-size:9px;padding:0 2px"><span>極度恐懼</span><span>極度貪婪</span></div>
     <div style="margin-top:6px;font-size:10px">
-      <span class="${cls(delta)}">${delta>=0?'+':''}${delta.toFixed(1)}</span> <span class="dm">vs yesterday</span>
+      <span class="${cls(delta)}">${delta>=0?'+':''}${delta.toFixed(1)}</span> <span class="dm">較昨日</span>
     </div>
     <div style="margin-top:6px;display:flex;gap:2px;align-items:flex-end;height:24px">
       ${fg.slice(-14).map(f=>`<div style="flex:1;height:${Math.max(2,f.score/100*24)}px;background:${fgColor(f.score)};border-radius:1px"></div>`).join('')}
     </div>
-    <div style="font-size:9px;color:var(--dim);margin-top:2px">14-day trend</div>
+    <div style="font-size:9px;color:var(--dim);margin-top:2px">14 日趨勢</div>
   `;
 }
 
 function renderSentiment(sent) {
-  if(!sent){document.getElementById('usSentiment').innerHTML='<div class="dm">No data</div>';return;}
+  if(!sent){document.getElementById('usSentiment').innerHTML='<div class="dm">無資料</div>';return;}
   const rows = [];
   if(sent.spy_pcr) rows.push(`<tr><td class="wh">SPY P/C</td><td class="${sent.spy_pcr.pcr>1?'dn':'up'} bold">${sent.spy_pcr.pcr?.toFixed(3)}</td><td class="nt">${sent.spy_pcr.signal||''}</td></tr>`);
   if(sent.wsb) rows.push(`<tr><td class="wh">WSB Bull</td><td class="${sent.wsb.bull_pct>60?'up':'nt'} bold">${sent.wsb.bull_pct}%</td><td class="nt">${sent.wsb.label||''}</td></tr>`);
   if(sent.composite) rows.push(`<tr><td class="wh">Composite</td><td class="org bold">${sent.composite.score?.toFixed(1)}</td><td class="nt">${sent.composite.label||''}</td></tr>`);
   if(sent.wsb?.top_tickers) {
-    rows.push(`<tr><td colspan="3" class="dm" style="font-size:9px;padding-top:4px">WSB TOP TICKERS</td></tr>`);
+    rows.push(`<tr><td colspan="3" class="dm" style="font-size:9px;padding-top:4px">WSB 熱門標的</td></tr>`);
     sent.wsb.top_tickers.slice(0,6).forEach(t => {
       rows.push(`<tr><td class="cyn">$${t.s||t.ticker}</td><td>${t.n||t.count}x</td><td></td></tr>`);
     });
   }
-  document.getElementById('usSentiment').innerHTML=`<table class="dt"><thead><tr><th>Source</th><th>Value</th><th>Signal</th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
-  document.getElementById('updateTs').textContent='Updated: '+(sent.generated_at||sent.date||'');
+  document.getElementById('usSentiment').innerHTML=`<table class="dt"><thead><tr><th>來源</th><th>數值</th><th>訊號</th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
+  document.getElementById('updateTs').textContent='更新時間：'+(sent.generated_at||sent.date||'');
 }
 
 function renderMacro(data, fred) {
@@ -453,32 +453,35 @@ function renderMacro(data, fred) {
     });
   }
   document.getElementById('usMacro').innerHTML = rows.length ?
-    `<table class="dt"><thead><tr><th>Indicator</th><th>Value</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
-    '<div class="dm">No macro data</div>';
+    `<table class="dt"><thead><tr><th>指標</th><th>數值</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
+    '<div class="dm">無總經資料</div>';
 }
 
 function renderCalendar(cal) {
-  if(!cal){document.getElementById('usCalendar').innerHTML='<div class="dm">No data</div>';return;}
+  if(!cal){document.getElementById('usCalendar').innerHTML='<div class="dm">無資料</div>';return;}
   if(cal.next_fomc) document.getElementById('fomcTag').textContent=`FOMC ${cal.next_fomc.days_away}d`;
   document.getElementById('usCalendar').innerHTML = (cal.next_7_days||[]).slice(0,10).map(e => {
     const dot = e.importance==='high'?'<span class="dn">&#9679;</span>':e.importance==='medium'?'<span class="org">&#9679;</span>':'<span class="dm">&#9679;</span>';
     return `<div class="row-item">${dot}<span class="dm" style="min-width:40px">${(e.date||'').slice(5)}</span><span class="wh" style="flex:1;font-size:10px">${e.event||''}</span></div>`;
-  }).join('')||'<div class="dm">No events</div>';
+  }).join('')||'<div class="dm">無事件</div>';
 }
 
+function filterCNHK(title) {
+  return /A股|港股|恒生|恆生|滬深|上證|深證|中概股|香港交易所|HKEX|HSI|上交所|深交所|人民幣匯率/.test(title);
+}
 function renderNews(news, breaking) {
   const items = [];
   if(breaking) {
     const bItems = Array.isArray(breaking)?breaking:breaking.items||breaking.news||[];
-    bItems.slice(0,5).forEach(n => items.push({title:n.title||'',src:'BREAKING',time:n.time||n.publish_time||'',cls:'dn'}));
+    bItems.filter(n=>!filterCNHK(n.title||'')).slice(0,5).forEach(n => items.push({title:n.title||'',src:'快訊',time:n.time||n.publish_time||'',cls:'dn'}));
   }
   if(news) {
     const nItems = Array.isArray(news)?news:news.items||news.news||[];
-    nItems.slice(0,12).forEach(n => items.push({title:n.title||'',src:n.source||'',time:n.time||n.publish_time||'',cls:'nt'}));
+    nItems.filter(n=>!filterCNHK(n.title||'')).slice(0,12).forEach(n => items.push({title:n.title||'',src:n.source||'',time:n.time||n.publish_time||'',cls:'nt'}));
   }
   document.getElementById('usNews').innerHTML = items.length ? items.map(n =>
     `<div class="row-item"><span class="badge badge-${n.cls==='dn'?'dn':'nt'}" style="min-width:55px">${esc(n.src).slice(0,8)}</span><span class="wh" style="flex:1;font-size:10px">${esc(n.title)}</span><span class="dm" style="font-size:9px">${esc(n.time).slice(0,16)}</span></div>`
-  ).join('') : '<div class="dm">No news</div>';
+  ).join('') : '<div class="dm">無新聞</div>';
 }
 
 function renderInsider(insider, congress) {
@@ -496,8 +499,8 @@ function renderInsider(insider, congress) {
     });
   }
   document.getElementById('usInsider').innerHTML = rows.length ?
-    `<table class="dt"><thead><tr><th>Ticker</th><th>Type</th><th>Name</th><th>Amount</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
-    '<div class="dm">No insider data</div>';
+    `<table class="dt"><thead><tr><th>代碼</th><th>類型</th><th>姓名</th><th>金額</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
+    '<div class="dm">無內部人資料</div>';
 }
 
 // ── TW Tab ──
@@ -509,7 +512,7 @@ function renderTW(data, inst, news) {
       if(typeof v==='object') return `<tr><td class="wh">${esc(k)}</td><td class="${v.trend==='多'||v.trend==='up'?'up':'dn'} bold">${esc(JSON.stringify(v))}</td></tr>`;
       return `<tr><td class="wh">${esc(k)}</td><td class="org">${esc(String(v))}</td></tr>`;
     }).join('');
-    document.getElementById('twMA').innerHTML = rows ? `<table class="dt"><tbody>${rows}</tbody></table>` : '<div class="dm">No MA data</div>';
+    document.getElementById('twMA').innerHTML = rows ? `<table class="dt"><tbody>${rows}</tbody></table>` : '<div class="dm">無均線資料</div>';
   }
 
   // TW Stocks heatmap
@@ -532,7 +535,7 @@ function renderTW(data, inst, news) {
         rows.push(`<tr><td class="wh">${esc(k)}</td><td class="org">${esc(typeof v==='object'?JSON.stringify(v):String(v))}</td></tr>`);
       });
     }
-    document.getElementById('twInst').innerHTML = rows.length ? `<table class="dt"><tbody>${rows.join('')}</tbody></table>` : '<div class="dm">No data</div>';
+    document.getElementById('twInst').innerHTML = rows.length ? `<table class="dt"><tbody>${rows.join('')}</tbody></table>` : '<div class="dm">無資料</div>';
   }
 
   // TW News
@@ -540,11 +543,11 @@ function renderTW(data, inst, news) {
     const items = Array.isArray(news)?news:news.items||news.news||[];
     const twItems = items.filter(n => {
       const txt = (n.title||'')+(n.summary||'');
-      return /台|TWSE|加權|台積|鴻海|聯發科/.test(txt);
+      return /台|TWSE|加權|台積|鴻海|聯發科/.test(txt) && !filterCNHK(n.title||'');
     }).slice(0,10);
     document.getElementById('twNews').innerHTML = twItems.length ? twItems.map(n =>
       `<div class="row-item"><span class="dm" style="font-size:9px;min-width:40px">${(n.time||'').slice(0,10)}</span><span class="wh" style="flex:1;font-size:10px">${esc(n.title)}</span></div>`
-    ).join('') : '<div class="dm">No TW news</div>';
+    ).join('') : '<div class="dm">無台股新聞</div>';
   }
 }
 
@@ -554,7 +557,7 @@ function renderCrypto(data, cryptoNews, gridBot) {
   const cryptos = (data.watchlist||[]).filter(w=>w.symbol?.includes('-USD'));
   if(cryptos.length) {
     document.getElementById('crPrices').innerHTML = `
-      <table class="dt"><thead><tr><th>Symbol</th><th>Price</th><th>Change</th><th>24h Vol</th></tr></thead><tbody>
+      <table class="dt"><thead><tr><th>幣種</th><th>價格</th><th>漲跌</th><th>24h 量</th></tr></thead><tbody>
       ${cryptos.map(c => `<tr>
         <td class="amb bold">${c.symbol?.replace('-USD','')||''}</td>
         <td class="wh bold">${(c.price||c.close)?.toLocaleString(undefined,{maximumFractionDigits:(c.price||c.close)>100?0:2})||'--'}</td>
@@ -569,7 +572,7 @@ function renderCrypto(data, cryptoNews, gridBot) {
   const btc=(data.watchlist||[]).find(w=>w.symbol==='BTC-USD')||{};
   document.getElementById('crRegime').innerHTML = `
     <div style="text-align:center;padding:8px">
-      <div style="font-size:20px;font-weight:700" class="${fg.score>50?'up':'dn'}">${fg.score>50?'RISK ON':'RISK OFF'}</div>
+      <div style="font-size:20px;font-weight:700" class="${fg.score>50?'up':'dn'}">${fg.score>50?'風險偏好':'風險趨避'}</div>
       <div class="dm" style="margin-top:4px">F&G: ${fg.score||'--'} | BTC: ${pct(btc.change_pct)}</div>
     </div>
   `;
@@ -583,23 +586,23 @@ function renderCrypto(data, cryptoNews, gridBot) {
       rows.push(`<tr><td class="amb">${k.toUpperCase()}</td><td class="${g.unrealized_pnl>=0?'up':'dn'}">${g.unrealized_pnl?.toFixed(2)||'--'}</td><td class="wh">${g.total_trades||'--'}</td><td class="org">${g.grid_profit?.toFixed(2)||'--'}</td></tr>`);
     });
     document.getElementById('crGrid').innerHTML = rows.length ?
-      `<table class="dt"><thead><tr><th>Pair</th><th>uPnL</th><th>Trades</th><th>Grid$</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
-      '<div class="dm">No grid data</div>';
+      `<table class="dt"><thead><tr><th>交易對</th><th>未實現損益</th><th>筆數</th><th>網格利潤</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
+      '<div class="dm">無網格資料</div>';
   }
 
   // Crypto news
   if(cryptoNews) {
-    const items = Array.isArray(cryptoNews)?cryptoNews:cryptoNews.items||cryptoNews.news||[];
+    const items = (Array.isArray(cryptoNews)?cryptoNews:cryptoNews.items||cryptoNews.news||[]).filter(n=>!filterCNHK(n.title||''));
     document.getElementById('crNews').innerHTML = items.slice(0,15).map(n =>
       `<div class="row-item"><span class="badge badge-org" style="min-width:40px">${esc(n.source||'').slice(0,6)}</span><span class="wh" style="flex:1;font-size:10px">${esc(n.title)}</span></div>`
-    ).join('')||'<div class="dm">No crypto news</div>';
+    ).join('')||'<div class="dm">無加密新聞</div>';
   }
 
   // AI Advice
   const advice = data.crypto_advice || data.advice || '';
   document.getElementById('crAdvice').innerHTML = advice ?
-    `<div class="ai-box"><div class="ai-label">CRYPTO AI</div>${esc(advice)}</div>` :
-    '<div class="dm">No crypto analysis</div>';
+    `<div class="ai-box"><div class="ai-label">加密 AI 分析</div>${esc(advice)}</div>` :
+    '<div class="dm">無加密分析</div>';
 }
 
 // ── Signals Tab ──
@@ -608,21 +611,21 @@ async function renderSignals() {
 
   // DeepEar
   if(deepear?.signals) {
-    document.getElementById('sigCountTag').textContent = deepear.signals.length+' SIGNALS';
+    document.getElementById('sigCountTag').textContent = deepear.signals.length+' 訊號';
     document.getElementById('sigDeepear').innerHTML = deepear.signals.map(s => {
       const conf=s.confidence||0;
       const c=conf>=.7?'up':conf>=.4?'org':'dn';
       return `<div class="row-item" style="padding:4px 2px">
         <span class="${c} bold" style="min-width:28px;text-align:right">${(conf*100).toFixed(0)}</span>
         <span style="flex:1"><div class="wh" style="font-size:11px">${esc(s.title||s.id)}</div><div class="dm" style="font-size:9px">${esc((s.summary||'').slice(0,100))}</div></span>
-        <span class="badge ${conf>=.7?'badge-up':conf>=.4?'badge-org':'badge-dn'}">${conf>=.7?'HIGH':conf>=.4?'MED':'LOW'}</span>
+        <span class="badge ${conf>=.7?'badge-up':conf>=.4?'badge-org':'badge-dn'}">${conf>=.7?'高':conf>=.4?'中':'低'}</span>
       </div>`;
     }).join('');
   }
 
   // Tracker
   if(tracker?.signals) {
-    const header = '<div style="display:grid;grid-template-columns:70px 1fr 50px 80px;gap:4px;padding:2px 4px;font-size:9px;color:var(--dim)"><span>TICKER</span><span>NAME</span><span>CONF</span><span>STATUS</span></div>';
+    const header = '<div style="display:grid;grid-template-columns:70px 1fr 50px 80px;gap:4px;padding:2px 4px;font-size:9px;color:var(--dim)"><span>代碼</span><span>名稱</span><span>信心度</span><span>狀態</span></div>';
     document.getElementById('sigTracker').innerHTML = header + tracker.signals.map(s => {
       const conf=s.confidence||0;
       const hist=s.evolution_history||[];
@@ -638,7 +641,7 @@ async function renderSignals() {
   // Backtest
   if(bt?.ranking) {
     document.getElementById('btTag').textContent = `${bt.symbol||'BTC-USD'} ${bt.period||'2Y'}`;
-    const header = '<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:2px 4px;font-size:9px;color:var(--dim)"><span>#</span><span>INDICATOR</span><span>TRADES</span><span>WIN%</span><span>R:R</span><span>EXPECT</span><span>RETURN</span></div>';
+    const header = '<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:2px 4px;font-size:9px;color:var(--dim)"><span>#</span><span>指標</span><span>交易</span><span>勝率</span><span>風報比</span><span>期望值</span><span>報酬</span></div>';
     document.getElementById('sigBacktest').innerHTML = header + bt.ranking.map(r =>
       `<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:3px 4px;border-bottom:1px solid rgba(30,37,48,.3);font-size:11px">
         <span class="dm">${r.rank}</span>
@@ -669,9 +672,9 @@ async function loadCoreData() {
   const statusEl = document.getElementById('dataStatus');
   if (statusEl) {
     const age = Math.round((new Date(today) - new Date(reportDate)) / 86400000);
-    if (age > 1) statusEl.innerHTML = `<span style="color:var(--red)">DATA ${age}d OLD</span>`;
-    else if (age === 1) statusEl.innerHTML = `<span style="color:var(--orange)">DATA 1d OLD</span>`;
-    else statusEl.innerHTML = `<span style="color:var(--green)">DATA FRESH</span>`;
+    if (age > 1) statusEl.innerHTML = `<span style="color:var(--red)">資料 ${age} 天前</span>`;
+    else if (age === 1) statusEl.innerHTML = `<span style="color:var(--orange)">資料 1 天前</span>`;
+    else statusEl.innerHTML = `<span style="color:var(--green)">資料最新</span>`;
   }
   const el = document.getElementById('reportDate');
   if (el) el.textContent = reportDate;
@@ -686,7 +689,7 @@ function showTabError(tabId, msg) {
 async function initUS() {
   try {
     const data = await loadCoreData();
-    if (!data) { showTabError('tab-us', 'Report data unavailable'); return; }
+    if (!data) { showTabError('tab-us', '報告資料無法取得'); return; }
     const [news, sent, breaking, insider, congress, econCal, fred, fg] = await Promise.all([
       fj('news-feed.json'), fj('sentiment.json'),
       fj('breaking-news.json'),
@@ -704,27 +707,27 @@ async function initUS() {
     renderCalendar(econCal);
     renderNews(news, breaking);
     renderInsider(insider, congress);
-  } catch(e) { showTabError('tab-us', 'US tab error: ' + e.message); }
+  } catch(e) { showTabError('tab-us', '美股分頁錯誤：' + e.message); }
 }
 
 async function initTW() {
   try {
     const data = await loadCoreData();
-    if (!data) { showTabError('tab-tw', 'Report data unavailable'); return; }
+    if (!data) { showTabError('tab-tw', '報告資料無法取得'); return; }
     const [inst, news] = await Promise.all([fj('institutional.json'), fj('news-feed.json')]);
     renderTW(data, inst, news);
-  } catch(e) { showTabError('tab-tw', 'TW tab error: ' + e.message); }
+  } catch(e) { showTabError('tab-tw', '台股分頁錯誤：' + e.message); }
 }
 
 async function initCrypto() {
   try {
     const data = await loadCoreData();
-    if (!data) { showTabError('tab-crypto', 'Report data unavailable'); return; }
+    if (!data) { showTabError('tab-crypto', '報告資料無法取得'); return; }
     const [cryptoNews, gridBtc, gridEth] = await Promise.all([
       fj('crypto-news.json'), fj('grid-bot/BTC-USDT.json'), fj('grid-bot/ETH-USDT.json'),
     ]);
     renderCrypto(data, cryptoNews, {btc: gridBtc, eth: gridEth});
-  } catch(e) { showTabError('tab-crypto', 'Crypto tab error: ' + e.message); }
+  } catch(e) { showTabError('tab-crypto', '加密分頁錯誤：' + e.message); }
 }
 
 // 啟動：導覽列 + 所有 tab 並行載入
