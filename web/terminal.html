@@ -850,13 +850,31 @@ function renderTW(data, inst, news) {
     document.getElementById('twMA').innerHTML = html || '<div class="dm">無均線資料</div>';
   }
 
-  // TW Stocks heatmap
+  // TW Stocks heatmap with tooltips
+  const twSp = data.sparklines || {};
   const tw = data.tw_stocks||[];
   if(tw.length) {
     document.getElementById('twHeatmap').innerHTML = `<div class="hm-grid">${tw.map(s => {
       const chg=s.change_pct||0;
+      const price=s.price||s.close||0;
       const bg=chg>2?'rgba(0,210,106,.25)':chg>0?'rgba(0,210,106,.12)':chg<-2?'rgba(255,59,48,.25)':chg<0?'rgba(255,59,48,.12)':'rgba(139,148,158,.08)';
-      return `<div class="hm-cell" style="background:${bg}"><div class="amb" style="font-size:9px">${s.symbol?.replace('.TW','').replace('.TWO','')||''}</div><div style="font-size:9px;color:var(--muted)">${esc((s.name||'').slice(0,4))}</div><div class="${cls(chg)} bold">${pct(chg)}</div></div>`;
+      const spark = twSp[s.symbol] || [];
+      const code = (s.symbol||'').replace('.TW','').replace('.TWO','');
+      return `<div class="hm-cell tip-wrap" style="background:${bg};cursor:pointer" onclick="window.open('https://rostov12.github.io/stock-analyzer/#${code}','_blank')">
+        <div class="amb" style="font-size:9px">${code}</div>
+        <div style="font-size:9px;color:var(--muted)">${esc((s.name||'').slice(0,4))}</div>
+        <div class="${cls(chg)} bold">${pct(chg)}</div>
+        <div class="tip-pop" style="min-width:240px">
+          <div style="font-weight:700;color:var(--amber);margin-bottom:4px">${esc(s.name||'')} (${code})</div>
+          ${spark.length?`<div style="margin:4px 0 6px;text-align:center">${miniSpark(spark,200,32)}<div class="dm" style="font-size:9px">90日走勢</div></div>`:''}
+          <div class="tip-row"><span class="tip-label">收盤價</span><span class="tip-val wh">${price.toLocaleString()}</span></div>
+          <div class="tip-row"><span class="tip-label">漲跌幅</span><span class="tip-val ${cls(chg)}">${pct(chg)}</span></div>
+          <div class="tip-row"><span class="tip-label">趨勢</span><span class="tip-val">${esc(s.trend||'--')}</span></div>
+          <div class="tip-row"><span class="tip-label">RSI</span><span class="tip-val">${s.rsi_12?.toFixed(1)||s.rsi_6?.toFixed(1)||'--'}</span></div>
+          <div class="tip-row"><span class="tip-label">MA5 偏離</span><span class="tip-val ${cls(s.bias_ma5)}">${pct(s.bias_ma5)}</span></div>
+          <div style="margin-top:4px;font-size:9px;color:var(--dim)">點擊開啟個股分析</div>
+        </div>
+      </div>`;
     }).join('')}</div>`;
   }
 
@@ -893,17 +911,32 @@ function renderTW(data, inst, news) {
 
 // ── Crypto Tab ──
 function renderCrypto(data, cryptoNews, gridBot, regime, alerts) {
-  // Prices
+  // Prices with sparklines
+  const sp = data.sparklines || {};
   const cryptos = (data.watchlist||[]).filter(w=>w.symbol?.includes('-USD'));
   if(cryptos.length) {
     document.getElementById('crPrices').innerHTML = `
-      <table class="dt"><thead><tr><th>幣種</th><th>價格</th><th>漲跌</th><th>24h 量</th></tr></thead><tbody>
-      ${cryptos.map(c => `<tr>
+      <table class="dt"><thead><tr><th>幣種</th><th>走勢</th><th>價格</th><th>漲跌</th><th>RSI</th><th>趨勢</th></tr></thead><tbody>
+      ${cryptos.map(c => {
+        const spark = sp[c.symbol] || [];
+        const rsi = c.rsi_12||c.rsi_6||null;
+        const trend = c.trend||'';
+        const tCls = trend.includes('多')?'up':trend.includes('空')?'dn':'nt';
+        return `<tr class="tip-wrap">
         <td class="amb bold">${c.symbol?.replace('-USD','')||''}</td>
+        <td>${miniSpark(spark,70,16)}</td>
         <td class="wh bold">${(c.price||c.close)?.toLocaleString(undefined,{maximumFractionDigits:(c.price||c.close)>100?0:2})||'--'}</td>
         <td class="${cls(c.change_pct)} bold">${pct(c.change_pct)}</td>
-        <td class="dm">${c.volume?(c.volume/1e6).toFixed(1)+'M':'--'}</td>
-      </tr>`).join('')}
+        <td class="dm">${rsi!=null?rsi.toFixed(1):'--'}</td>
+        <td class="${tCls}">${esc(trend)}</td>
+        <div class="tip-pop">
+          ${spark.length?`<div style="margin-bottom:6px;text-align:center">${miniSpark(spark,200,40)}<div class="dm" style="font-size:9px">90日走勢</div></div>`:''}
+          <div class="tip-row"><span class="tip-label">MA5 偏離</span><span class="tip-val ${cls(c.bias_ma5)}">${pct(c.bias_ma5)}</span></div>
+          <div class="tip-row"><span class="tip-label">MACD</span><span class="tip-val">${esc(c.macd_signal||'')} (BAR ${c.macd_bar?.toFixed(1)||'--'})</span></div>
+          <div class="tip-row"><span class="tip-label">52週位置</span><span class="tip-val">${c.w52_pos||'--'}%</span></div>
+          <div class="tip-row"><span class="tip-label">量比</span><span class="tip-val">${c.volume_ratio?.toFixed(2)||'--'}</span></div>
+        </div>
+      </tr>`;}).join('')}
       </tbody></table>`;
   }
 
