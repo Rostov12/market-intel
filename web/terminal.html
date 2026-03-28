@@ -233,6 +233,16 @@ a:hover { text-decoration:underline; }
     <div class="pnl-h"><span class="pnl-t">技術面掃描</span><span class="pnl-tag" id="techScanTag">觸發訊號</span></div>
     <div class="pnl-b" id="usTechScan" style="max-height:260px;overflow-y:auto"></div>
   </div>
+  <!-- Market Breadth -->
+  <div class="pnl span-2">
+    <div class="pnl-h"><span class="pnl-t">市場廣度</span><span class="pnl-tag">漲跌家數</span></div>
+    <div class="pnl-b" id="usBreadth"></div>
+  </div>
+  <!-- Sector Rotation -->
+  <div class="pnl span-2">
+    <div class="pnl-h"><span class="pnl-t">板塊輪動</span><span class="pnl-tag" id="sectorWeek">週報</span></div>
+    <div class="pnl-b" id="usSectorRotation"></div>
+  </div>
 </div>
 
 <!-- ══════════════════════════════════════════════
@@ -541,6 +551,43 @@ function renderTechScan(scan) {
   }).join('');
 }
 
+function renderBreadth(breadth) {
+  const el = document.getElementById('usBreadth');
+  if(!breadth) { el.innerHTML='<div class="dm">無資料</div>'; return; }
+  const adv=breadth.advancing||0, dec=breadth.declining||0, unc=breadth.unchanged||0;
+  const total=adv+dec+unc||1;
+  const advPct=(adv/total*100).toFixed(0), decPct=(dec/total*100).toFixed(0);
+  const aboveMa50=breadth.above_ma50||0, abovePct=(aboveMa50/breadth.sample_size*100).toFixed(0);
+  el.innerHTML = `
+    <div style="display:flex;gap:12px;padding:4px 0;align-items:center">
+      <div style="text-align:center;min-width:60px"><div class="up bold" style="font-size:18px">${adv}</div><div class="dm" style="font-size:9px">上漲</div></div>
+      <div style="text-align:center;min-width:60px"><div class="dn bold" style="font-size:18px">${dec}</div><div class="dm" style="font-size:9px">下跌</div></div>
+      <div style="text-align:center;min-width:60px"><div class="nt" style="font-size:18px">${unc}</div><div class="dm" style="font-size:9px">持平</div></div>
+      <div style="flex:1">
+        <div style="display:flex;height:8px;border-radius:4px;overflow:hidden">
+          <div style="width:${advPct}%;background:var(--green)"></div>
+          <div style="width:${decPct}%;background:var(--red)"></div>
+          <div style="flex:1;background:var(--dim)"></div>
+        </div>
+        <div style="font-size:9px;color:var(--dim);margin-top:2px">漲跌比 ${(breadth.ad_ratio||0).toFixed(2)} | 站上 MA50：${abovePct}%（${aboveMa50}/${breadth.sample_size}）</div>
+      </div>
+    </div>`;
+}
+
+function renderSectorRotation(sector) {
+  const el = document.getElementById('usSectorRotation');
+  if(!sector?.sectors?.length) { el.innerHTML='<div class="dm">無資料</div>'; return; }
+  if(sector.week) document.getElementById('sectorWeek').textContent = sector.week;
+  const bmk = sector.benchmark_pct||0;
+  el.innerHTML = `
+    <div style="font-size:10px;margin-bottom:4px"><span class="dm">基準 (SPY):</span> <span class="${cls(bmk)} bold">${pct(bmk)}</span> <span class="dm" style="margin-left:8px">${esc(sector.theme||'')}</span></div>
+    <div class="hm-grid">${sector.sectors.map(s => {
+      const chg=s.week_pct||0;
+      const bg=chg>2?'rgba(0,210,106,.25)':chg>0?'rgba(0,210,106,.12)':chg<-2?'rgba(255,59,48,.25)':chg<0?'rgba(255,59,48,.12)':'rgba(139,148,158,.08)';
+      return `<div class="hm-cell" style="background:${bg}"><div class="amb" style="font-size:9px">${esc(s.name)}</div><div class="${cls(chg)} bold">${pct(chg)}</div></div>`;
+    }).join('')}</div>`;
+}
+
 // ── TW Tab ──
 function renderTW(data, inst, news) {
   // MA Framework
@@ -777,13 +824,14 @@ async function initUS() {
   try {
     const data = await loadCoreData();
     if (!data) { showTabError('tab-us', '報告資料無法取得'); return; }
-    const [news, sent, breaking, insider, congress, econCal, fred, fg, corr, techScan] = await Promise.all([
+    const [news, sent, breaking, insider, congress, econCal, fred, fg, corr, techScan, breadth, sector] = await Promise.all([
       fj('news-feed.json'), fj('sentiment.json'),
       fj('breaking-news.json'),
       fj('insider-trades.json'), fj('congress-trades.json'),
       fj('economic-calendar.json'), fj('fred-macro.json'),
       fj('fear-greed-history.json'),
       fj('correlation-matrix.json'), fj('technical-scan.json'),
+      fj('market-breadth.json'), fj('sector-rotation.json'),
     ]);
     renderTickerStrip(data);
     renderUSSummary(data);
@@ -797,6 +845,8 @@ async function initUS() {
     renderInsider(insider, congress);
     renderCorrelation(corr);
     renderTechScan(techScan);
+    renderBreadth(breadth);
+    renderSectorRotation(sector);
     // 確保更新時間有值
     const tsEl = document.getElementById('updateTs');
     if(tsEl && tsEl.textContent === '--') tsEl.textContent = '更新時間：' + (data.generated_at || data.date || '');
