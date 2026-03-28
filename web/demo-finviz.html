@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Intel — Finviz 熱力圖風格 Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card: #141414;
+      --border: #222;
+      --text: #e0e0e0;
+      --muted: #777;
+      --up: #26a69a;
+      --up-strong: #00e676;
+      --down: #ef5350;
+      --down-strong: #ff1744;
+      --neutral: #333;
+      --accent: #ffd54f;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+
+    /* ── Header ── */
+    .header {
+      padding: 16px 24px;
+      display: flex; justify-content: space-between; align-items: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .header h1 {
+      font-size: 20px; font-weight: 800;
+      background: linear-gradient(90deg, #ffd54f, #ff6f00);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .header .meta { font-size: 12px; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+
+    /* ── Top Bar ── */
+    .top-bar {
+      display: flex; gap: 12px; padding: 12px 24px; flex-wrap: wrap;
+      border-bottom: 1px solid var(--border); background: #0d0d0d;
+    }
+    .idx-chip {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 14px; border-radius: 6px;
+      background: var(--card); border: 1px solid var(--border);
+      font-family: 'JetBrains Mono', monospace; font-size: 13px;
+    }
+    .idx-chip .name { color: var(--muted); font-size: 11px; margin-right: 4px; }
+    .idx-chip .pct { font-weight: 600; }
+    .idx-chip .pct.up { color: var(--up); }
+    .idx-chip .pct.down { color: var(--down); }
+
+    .stat-chip {
+      padding: 6px 14px; border-radius: 6px;
+      background: var(--card); border: 1px solid var(--border);
+      font-size: 12px; display: flex; align-items: center; gap: 6px;
+    }
+    .stat-chip .label { color: var(--muted); }
+    .stat-chip .val { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+
+    /* ── Treemap ── */
+    .section-label {
+      padding: 14px 24px 6px; font-size: 13px; font-weight: 700;
+      color: var(--accent); text-transform: uppercase; letter-spacing: 1px;
+    }
+    .treemap-container {
+      padding: 8px 24px 16px;
+    }
+    .treemap {
+      display: grid; gap: 3px; width: 100%;
+    }
+    .treemap-us {
+      grid-template-columns: repeat(7, 1fr);
+      grid-auto-rows: minmax(90px, auto);
+    }
+    .treemap-tw {
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-rows: minmax(80px, auto);
+    }
+    .treemap-crypto {
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: minmax(80px, auto);
+    }
+    .tm-cell {
+      border-radius: 4px; padding: 8px 10px;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      cursor: pointer; position: relative; overflow: hidden;
+      transition: transform 0.15s, box-shadow 0.15s;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .tm-cell:hover {
+      transform: scale(1.03); z-index: 10;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+    .tm-cell .sym { font-size: 15px; font-weight: 700; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+    .tm-cell .pct { font-size: 20px; font-weight: 800; font-family: 'JetBrains Mono', monospace; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+    .tm-cell .price { font-size: 11px; color: rgba(255,255,255,0.7); font-family: 'JetBrains Mono', monospace; }
+    .tm-cell .cat { font-size: 10px; color: rgba(255,255,255,0.5); position: absolute; top: 4px; right: 6px; }
+    .tm-cell .signal-tag { font-size: 10px; position: absolute; bottom: 4px; right: 6px; }
+
+    /* Tooltip */
+    .tooltip {
+      display: none; position: fixed; z-index: 1000;
+      background: #1a1a1a; border: 1px solid #444; border-radius: 8px;
+      padding: 12px 16px; font-size: 12px; max-width: 280px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.8);
+    }
+    .tooltip .tt-sym { font-size: 16px; font-weight: 700; }
+    .tooltip .tt-row { display: flex; justify-content: space-between; padding: 2px 0; }
+    .tooltip .tt-label { color: var(--muted); }
+    .tooltip .tt-val { font-family: 'JetBrains Mono', monospace; font-weight: 500; }
+
+    /* ── AI Insight Panel ── */
+    .ai-panel {
+      margin: 16px 24px; padding: 16px 20px;
+      background: linear-gradient(135deg, #1a1025, #0d1117);
+      border: 1px solid #6366f155; border-radius: 10px;
+    }
+    .ai-panel h3 { font-size: 14px; color: #a78bfa; margin-bottom: 8px; }
+    .ai-panel .events { font-size: 13px; line-height: 1.7; color: #ccc; }
+    .ai-panel .advice { font-size: 13px; line-height: 1.7; color: #a0d0ff; margin-top: 10px; white-space: pre-line; }
+
+    /* ── Signals Strip ── */
+    .signals-strip {
+      display: flex; gap: 8px; padding: 12px 24px; flex-wrap: wrap;
+    }
+    .sig-badge {
+      padding: 5px 12px; border-radius: 20px; font-size: 12px;
+      font-family: 'JetBrains Mono', monospace; font-weight: 600;
+      border: 1px solid;
+    }
+    .sig-badge.buy { background: rgba(38,166,154,0.15); border-color: var(--up); color: var(--up-strong); }
+    .sig-badge.sell { background: rgba(239,83,80,0.15); border-color: var(--down); color: var(--down-strong); }
+    .sig-badge.watch { background: rgba(255,213,79,0.1); border-color: #665522; color: var(--accent); }
+
+    /* ── Footer ── */
+    .footer {
+      padding: 20px 24px; text-align: center;
+      font-size: 11px; color: var(--muted); border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 768px) {
+      .treemap-us { grid-template-columns: repeat(3, 1fr); }
+      .treemap-tw { grid-template-columns: repeat(3, 1fr); }
+      .treemap-crypto { grid-template-columns: repeat(2, 1fr); }
+      .top-bar { gap: 6px; padding: 8px 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MARKET INTEL</h1>
+  <div class="meta" id="report-date">載入中...</div>
+</div>
+
+<div class="top-bar" id="top-bar"></div>
+
+<div class="section-label">📊 US 追蹤標的</div>
+<div class="treemap-container">
+  <div class="treemap treemap-us" id="tm-us"></div>
+</div>
+
+<div class="section-label">🇹🇼 台股個股</div>
+<div class="treemap-container">
+  <div class="treemap treemap-tw" id="tm-tw"></div>
+</div>
+
+<div class="section-label">🪙 加密貨幣 / OKX 合約</div>
+<div class="treemap-container">
+  <div class="treemap treemap-crypto" id="tm-crypto"></div>
+</div>
+
+<div class="section-label">📡 AI 操作信號</div>
+<div class="signals-strip" id="signals"></div>
+
+<div class="ai-panel" id="ai-panel"></div>
+
+<div class="footer">
+  Market Intel — Finviz-style Demo | 數據來自每日盤後報告<br>
+  <a href="index.html" style="color:var(--accent)">← 回到完整 Dashboard</a>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+function pctColor(pct) {
+  if (pct >= 3)  return '#00c853';
+  if (pct >= 1.5) return '#26a69a';
+  if (pct >= 0.3) return '#2e7d6e';
+  if (pct >= -0.3) return '#333';
+  if (pct >= -1.5) return '#8d3838';
+  if (pct >= -3)  return '#ef5350';
+  return '#d50000';
+}
+
+function fmtPct(v) {
+  if (v == null) return '—';
+  return (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+}
+
+function fmtPrice(p) {
+  if (p == null) return '—';
+  return p >= 1000 ? p.toLocaleString('en-US', {maximumFractionDigits:0})
+       : p >= 10 ? p.toFixed(2) : p.toFixed(4);
+}
+
+function renderCell(item, extraClass) {
+  const pct = item.change_pct || 0;
+  const bg = pctColor(pct);
+  const sym = (item.symbol || '').replace('-USD','').replace('.TW','');
+  const cat = item.category || '';
+  const sig = item.signal || '';
+  const sigTag = sig === '🟢' ? '▲' : sig === '🔴' ? '▼' : '';
+
+  const div = document.createElement('div');
+  div.className = 'tm-cell ' + (extraClass||'');
+  div.style.background = bg;
+  div.innerHTML = `
+    <span class="cat">${cat}</span>
+    <span class="sym">${sym}</span>
+    <span class="pct">${fmtPct(pct)}</span>
+    <span class="price">$${fmtPrice(item.price)}</span>
+    ${sigTag ? `<span class="signal-tag">${sigTag}</span>` : ''}
+  `;
+
+  // Tooltip
+  div.addEventListener('mouseenter', (e) => {
+    const tt = document.getElementById('tooltip');
+    tt.style.display = 'block';
+    tt.innerHTML = `
+      <div class="tt-sym" style="color:${pct>=0?'var(--up)':'var(--down)'}">${sym} ${fmtPct(pct)}</div>
+      <div class="tt-row"><span class="tt-label">價格</span><span class="tt-val">$${fmtPrice(item.price)}</span></div>
+      ${item.ma5 ? `<div class="tt-row"><span class="tt-label">MA5</span><span class="tt-val">${item.ma5?.toFixed(2)}</span></div>` : ''}
+      ${item.ma20 ? `<div class="tt-row"><span class="tt-label">MA20</span><span class="tt-val">${item.ma20?.toFixed(2)}</span></div>` : ''}
+      ${item.rsi_6 != null ? `<div class="tt-row"><span class="tt-label">RSI(6)</span><span class="tt-val">${item.rsi_6?.toFixed(1)}</span></div>` : ''}
+      ${item.volume_ratio ? `<div class="tt-row"><span class="tt-label">量比</span><span class="tt-val">${item.volume_ratio?.toFixed(1)}x</span></div>` : ''}
+      ${item.w52_pos != null ? `<div class="tt-row"><span class="tt-label">52週位置</span><span class="tt-val">${item.w52_pos?.toFixed(0)}%</span></div>` : ''}
+      ${item.trend ? `<div class="tt-row"><span class="tt-label">趨勢</span><span class="tt-val">${item.trend}</span></div>` : ''}
+      ${cat ? `<div class="tt-row"><span class="tt-label">類別</span><span class="tt-val">${cat}</span></div>` : ''}
+    `;
+    tt.style.left = Math.min(e.clientX + 12, window.innerWidth - 300) + 'px';
+    tt.style.top = (e.clientY + 12) + 'px';
+  });
+  div.addEventListener('mousemove', (e) => {
+    const tt = document.getElementById('tooltip');
+    tt.style.left = Math.min(e.clientX + 12, window.innerWidth - 300) + 'px';
+    tt.style.top = (e.clientY + 12) + 'px';
+  });
+  div.addEventListener('mouseleave', () => {
+    document.getElementById('tooltip').style.display = 'none';
+  });
+  return div;
+}
+
+async function init() {
+  // Load latest report
+  let data;
+  try {
+    const latestRes = await fetch('latest.json?' + Date.now());
+    const latest = await latestRes.json();
+    const reportRes = await fetch(latest.report + '?' + Date.now());
+    data = await reportRes.json();
+  } catch(e) {
+    // Fallback: try direct
+    try {
+      const res = await fetch('reports/2026-03-28.json?' + Date.now());
+      data = await res.json();
+    } catch(e2) {
+      document.getElementById('report-date').textContent = '無法載入報告';
+      return;
+    }
+  }
+
+  // Header
+  document.getElementById('report-date').innerHTML =
+    `${data.date} | ${data.market_title || ''}<br>${data.risk_line || ''}`;
+
+  // Top bar — indices + fear/greed
+  const topBar = document.getElementById('top-bar');
+  (data.indices || []).forEach(idx => {
+    const pct = idx.change_pct || 0;
+    const cls = pct >= 0 ? 'up' : 'down';
+    topBar.innerHTML += `
+      <div class="idx-chip">
+        <span class="name">${idx.symbol || idx.name}</span>
+        <span class="pct ${cls}">${fmtPct(pct)}</span>
+      </div>`;
+  });
+  const fg = data.fear_greed || {};
+  if (fg.score != null) {
+    const fgColor = fg.score <= 25 ? 'var(--down)' : fg.score <= 50 ? 'var(--accent)' : 'var(--up)';
+    topBar.innerHTML += `
+      <div class="stat-chip">
+        <span class="label">恐懼貪婪</span>
+        <span class="val" style="color:${fgColor}">${fg.score.toFixed(0)} ${fg.label||''}</span>
+      </div>`;
+  }
+  topBar.innerHTML += `
+    <div class="stat-chip">
+      <span class="label">風險</span>
+      <span class="val" style="color:var(--down)">${data.risk_line?.match(/score=(\d+)/)?.[1] || '—'}/8</span>
+    </div>`;
+
+  // US Treemap
+  const tmUs = document.getElementById('tm-us');
+  (data.watchlist || []).forEach(w => tmUs.appendChild(renderCell(w)));
+
+  // TW Treemap
+  const tmTw = document.getElementById('tm-tw');
+  (data.tw_stocks || []).forEach(w => tmTw.appendChild(renderCell(w)));
+
+  // Crypto Treemap
+  const tmCrypto = document.getElementById('tm-crypto');
+  (data.okx_contracts || []).forEach(w => tmCrypto.appendChild(renderCell(w)));
+
+  // Signals
+  const sigDiv = document.getElementById('signals');
+  (data.signals || []).forEach(s => {
+    const cls = s.signal_type === 'buy' ? 'buy' : s.signal_type === 'sell' ? 'sell' : 'watch';
+    const arrow = s.signal_type === 'buy' ? '▲' : s.signal_type === 'sell' ? '▼' : '◆';
+    sigDiv.innerHTML += `<span class="sig-badge ${cls}">${arrow} ${s.symbol.replace('-USD','')} ${s.note || ''}</span>`;
+  });
+
+  // AI Panel
+  const aiPanel = document.getElementById('ai-panel');
+  aiPanel.innerHTML = `
+    <h3>🤖 AI 市場分析</h3>
+    <div class="events">${(data.events||'').replace(/\n/g,'<br>')}</div>
+    <div class="advice">${(data.advice||'').replace(/\n/g,'<br>')}</div>
+  `;
+}
+
+init();
+</script>
+</body>
+</html>
