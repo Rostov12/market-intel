@@ -375,7 +375,8 @@ if(savedTab) { const t=document.querySelector(`.tab[data-tab="${savedTab}"]`); i
 document.getElementById('cmdInput').addEventListener('keydown', e => {
   if(e.key==='Enter') {
     const q = e.target.value.trim().toUpperCase();
-    if(q) window.open('https://rostov12.github.io/stock-analyzer/?q=' + encodeURIComponent(q), '_blank');
+    if(q) window.open('https://rostov12.github.io/stock-analyzer/#' + encodeURIComponent(q), '_blank');
+    e.target.value = '';
   }
 });
 
