@@ -192,7 +192,7 @@ a:hover { text-decoration:underline; }
     <span id="clock"></span>
     <span id="reportDate">--</span>
     <span id="dataStatus" class="dm" style="font-size:9px"></span>
-    <span>市場情報終端 v2</span>
+    <span>市場情報終端 v3</span>
   </div>
 </div>
 
@@ -204,6 +204,7 @@ a:hover { text-decoration:underline; }
 </div>
 
 <div class="ticker-strip" id="tickerStrip"></div>
+<div id="mktConditions" style="background:#000;border-bottom:1px solid var(--border);padding:2px 12px;display:none;gap:16px;font-size:10px;align-items:center"></div>
 
 <!-- ══════════════════════════════════════════════
      TAB: US EQUITIES
@@ -435,6 +436,27 @@ cmdEl.addEventListener('blur', () => setTimeout(()=>acEl.classList.remove('show'
 // ════════════════════════════════════════════════════════
 // RENDER FUNCTIONS
 // ════════════════════════════════════════════════════════
+
+function renderMarketConditions(data, fg) {
+  const el = document.getElementById('mktConditions');
+  if(!el) return;
+  const fgScore = fg?.[fg.length-1]?.score || data.fear_greed?.score;
+  const risk = data.risk_line || '';
+  const vix = (data.macro||[]).find(m=>(m.name||'').includes('VIX'));
+  const dxy = (data.macro||[]).find(m=>(m.name||'').includes('DXY')||(m.symbol||'').includes('DX'));
+  const us10y = (data.macro||[]).find(m=>(m.name||'').includes('10Y')||(m.symbol||'').includes('TNX'));
+  const items = [];
+  if(fgScore!=null) items.push(`<span>恐貪：<span class="${fgScore>50?'up':'dn'} bold">${fgScore.toFixed(0)}</span></span>`);
+  if(risk) items.push(`<span class="badge ${risk.includes('低')?'badge-up':risk.includes('高')?'badge-dn':'badge-org'}" style="font-size:9px">${esc(risk)}</span>`);
+  if(vix?.price) items.push(`<span>VIX：<span class="${vix.price>25?'dn':vix.price>18?'org':'up'} bold">${vix.price.toFixed(1)}</span></span>`);
+  if(dxy?.price) items.push(`<span>美元：<span class="wh">${dxy.price.toFixed(1)}</span> <span class="${cls(dxy.change_pct)}">${pct(dxy.change_pct)}</span></span>`);
+  if(us10y?.price) items.push(`<span>10Y：<span class="wh">${us10y.price.toFixed(2)}%</span></span>`);
+  if(data.econ_calendar?.next_fomc) items.push(`<span class="dm">FOMC ${data.econ_calendar.next_fomc.days_away}天</span>`);
+  if(items.length) {
+    el.innerHTML = items.join('<span class="dm">|</span>');
+    el.style.display = 'flex';
+  }
+}
 
 function renderTickerStrip(data) {
   const items = [];
@@ -1103,6 +1125,7 @@ async function initUS() {
       fj('market-breadth.json'), fj('sector-rotation.json'),
     ]);
     renderTickerStrip(data);
+    renderMarketConditions(data, fg);
     renderUSSummary(data);
     renderIndices(data);
     renderWatchlistHeatmap(data);
