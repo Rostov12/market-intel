@@ -346,11 +346,11 @@ if(savedTab) { const t=document.querySelector(`.tab[data-tab="${savedTab}"]`); i
 function renderTickerStrip(data) {
   const items = [];
   (data.indices||[]).forEach(idx => {
-    items.push({sym:idx.symbol.replace('^',''),price:idx.close?.toFixed(2)||'--',chg:pct(idx.change_pct),c:cls(idx.change_pct)});
+    items.push({sym:idx.symbol.replace('^',''),price:(idx.price||idx.close)?.toFixed(2)||'--',chg:pct(idx.change_pct),c:cls(idx.change_pct)});
   });
   // Add crypto from watchlist
   (data.watchlist||[]).filter(w=>w.symbol?.includes('-USD')).slice(0,4).forEach(w => {
-    items.push({sym:w.symbol.replace('-USD',''),price:w.close?.toFixed(w.close>100?0:2)||'--',chg:pct(w.change_pct),c:cls(w.change_pct)});
+    items.push({sym:w.symbol.replace('-USD',''),price:(w.price||w.close)?.toFixed((w.price||w.close)>100?0:2)||'--',chg:pct(w.change_pct),c:cls(w.change_pct)});
   });
   document.getElementById('tickerStrip').innerHTML = items.map(t =>
     `<span class="tk"><span class="tk-sym">${t.sym}</span><span class="tk-price">${t.price}</span><span class="tk-chg ${t.c}">${t.chg}</span></span>`
@@ -378,7 +378,7 @@ function renderIndices(data) {
     <table class="dt"><thead><tr><th>Index</th><th>Close</th><th>Change</th><th>%</th><th>Vol</th></tr></thead><tbody>
     ${indices.map(i => `<tr>
       <td class="amb bold">${i.symbol?.replace('^','')||''}</td>
-      <td class="wh">${i.close?.toFixed(2)||'--'}</td>
+      <td class="wh">${(i.price||i.close)?.toFixed(2)||'--'}</td>
       <td class="${cls(i.change)}">${i.change>=0?'+':''}${i.change?.toFixed(2)||'--'}</td>
       <td class="${cls(i.change_pct)} bold">${pct(i.change_pct)}</td>
       <td class="dm">${i.volume?(i.volume/1e6).toFixed(1)+'M':'--'}</td>
@@ -554,7 +554,7 @@ function renderCrypto(data, cryptoNews, gridBot) {
       <table class="dt"><thead><tr><th>Symbol</th><th>Price</th><th>Change</th><th>24h Vol</th></tr></thead><tbody>
       ${cryptos.map(c => `<tr>
         <td class="amb bold">${c.symbol?.replace('-USD','')||''}</td>
-        <td class="wh bold">${c.close?.toLocaleString(undefined,{maximumFractionDigits:c.close>100?0:2})||'--'}</td>
+        <td class="wh bold">${(c.price||c.close)?.toLocaleString(undefined,{maximumFractionDigits:(c.price||c.close)>100?0:2})||'--'}</td>
         <td class="${cls(c.change_pct)} bold">${pct(c.change_pct)}</td>
         <td class="dm">${c.volume?(c.volume/1e6).toFixed(1)+'M':'--'}</td>
       </tr>`).join('')}

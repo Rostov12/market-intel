@@ -118,8 +118,6 @@ h2 { font-size: 1.1em; color: var(--accent); margin: 16px 0 8px; }
 </div>
 
 <script>
-const BASE = window.location.href.includes('github.io') ? '' : '';
-
 async function loadJSON(file) {
   try {
     const r = await fetch(file + '?t=' + Date.now());

@@ -4075,7 +4075,7 @@ setInterval(refreshBreakingAndCrypto, 300000);
 /* ── Crypto Alert Ticker ── */
 async function loadCryptoTicker() {
   try {
-    const res = await fetch(BASE + 'web/crypto-alerts.json');
+    const res = await fetch(`${RAW_BASE}/web/crypto-alerts.json?_=${Date.now()}`);
     if (!res.ok) return;
     const alerts = await res.json();
     window._cryptoAlerts = alerts; // Store for KPI reuse
