@@ -392,7 +392,7 @@ function renderIndices(data) {
 
 function renderWatchlistHeatmap(data) {
   const items = (data.watchlist||[]).filter(w=>!w.symbol?.includes('-USD')&&!w.symbol?.includes('.TW'));
-  if(!items.length){document.getElementById('usHeatmap').innerHTML='<div class="dm">No data</div>';return;}
+  if(!items.length){document.getElementById('usHeatmap').innerHTML='<div class="dm">無資料</div>';return;}
   document.getElementById('usHeatmap').innerHTML = `<div class="hm-grid">${items.map(w => {
     const chg = w.change_pct||0;
     const bg = chg>2?'rgba(0,210,106,.25)':chg>0?'rgba(0,210,106,.12)':chg<-2?'rgba(255,59,48,.25)':chg<0?'rgba(255,59,48,.12)':'rgba(139,148,158,.08)';
@@ -445,10 +445,12 @@ function renderMacro(data, fred) {
     rows.push(`<tr><td class="wh">${esc(m.name||m.label||'')}</td><td class="${cls(m.change)} bold">${m.value||'--'}</td></tr>`);
   });
   if(fred) {
-    Object.entries(fred).forEach(([k,v]) => {
-      if(k==='date'||k==='generated_at') return;
+    const indicators = fred.indicators || fred;
+    Object.entries(indicators).forEach(([k,v]) => {
+      if(k==='date'||k==='generated_at'||k==='fetched_at'||k==='count'||k==='summary') return;
       if(typeof v==='object'&&v) {
-        rows.push(`<tr><td class="wh">${esc(v.label||k)}</td><td class="org">${v.value||'--'}</td></tr>`);
+        const chg = v.change||0;
+        rows.push(`<tr><td class="wh">${esc(v.name||v.label||k)}</td><td class="${cls(chg)} bold">${v.value!=null?v.value:'--'}${v.unit||''}</td></tr>`);
       }
     });
   }
@@ -508,11 +510,29 @@ function renderTW(data, inst, news) {
   // MA Framework
   const ma = data.tw_ma;
   if(ma) {
-    const rows = Object.entries(ma).filter(([k])=>k!=='date'&&k!=='generated_at').map(([k,v]) => {
-      if(typeof v==='object') return `<tr><td class="wh">${esc(k)}</td><td class="${v.trend==='多'||v.trend==='up'?'up':'dn'} bold">${esc(JSON.stringify(v))}</td></tr>`;
-      return `<tr><td class="wh">${esc(k)}</td><td class="org">${esc(String(v))}</td></tr>`;
-    }).join('');
-    document.getElementById('twMA').innerHTML = rows ? `<table class="dt"><tbody>${rows}</tbody></table>` : '<div class="dm">無均線資料</div>';
+    let html = '';
+    const t = ma.taiex;
+    if(t) {
+      const abc = t.abc_signal||{};
+      html += `<div style="padding:4px 0;border-bottom:1px solid var(--border)">
+        <div class="amb bold" style="font-size:13px">加權指數 ${t.price?.toLocaleString()||'--'}</div>
+        <div style="margin:4px 0;font-size:10px">
+          <span class="${cls(t.pct_ma20)}">MA20 ${pct(t.pct_ma20)}</span> &nbsp;
+          <span class="${cls(t.pct_ma60)}">MA60 ${pct(t.pct_ma60)}</span> &nbsp;
+          <span class="${cls(t.pct_ma120)}">MA120 ${pct(t.pct_ma120)}</span>
+        </div>
+        <div style="font-size:10px">${esc(t.arrangement_label||t.arrangement||'')}</div>
+        ${abc.description?`<div class="ai-box" style="margin-top:4px"><div class="ai-label">操作建議</div>${esc(abc.description)}</div>`:''}
+      </div>`;
+    }
+    if(ma.layout_candidates?.length) {
+      html += `<div style="font-size:9px;color:var(--dim);padding:4px 0 2px">佈局候選標的</div>`;
+      html += ma.layout_candidates.slice(0,6).map(c =>
+        `<div class="row-item"><span class="amb bold" style="min-width:60px">${c.symbol?.replace('.TW','')}</span><span class="wh" style="flex:1">${esc(c.name||'')}</span><span class="dm">${esc(c.sector||'')}</span><span class="${cls(c.pct_ma60)}" style="min-width:50px;text-align:right">${pct(c.pct_ma60)}</span></div>`
+      ).join('');
+    }
+    if(ma.summary) html += `<div class="ai-box" style="margin-top:4px"><div class="ai-label">摘要</div>${esc(ma.summary)}</div>`;
+    document.getElementById('twMA').innerHTML = html || '<div class="dm">無均線資料</div>';
   }
 
   // TW Stocks heatmap
@@ -528,14 +548,19 @@ function renderTW(data, inst, news) {
   // Institutional
   if(inst) {
     const rows = [];
+    const labelMap = {foreign_bn:'外資',trust_bn:'投信',dealer_bn:'自營商',total_bn:'合計',summary:'摘要',interpret:'解讀',data_date:'資料日期'};
     if(Array.isArray(inst)) {
       inst.slice(0,10).forEach(i => rows.push(`<tr><td class="wh">${esc(i.name||i.type||'')}</td><td class="${cls(i.buy_sell)} bold">${i.buy_sell>=0?'+':''}${i.buy_sell?.toFixed(0)||'--'}</td></tr>`));
     } else if(typeof inst==='object') {
-      Object.entries(inst).filter(([k])=>k!=='date'&&k!=='generated_at').forEach(([k,v]) => {
-        rows.push(`<tr><td class="wh">${esc(k)}</td><td class="org">${esc(typeof v==='object'?JSON.stringify(v):String(v))}</td></tr>`);
+      ['foreign_bn','trust_bn','dealer_bn','total_bn'].forEach(k => {
+        if(inst[k]!=null) {
+          const v=inst[k];
+          rows.push(`<tr><td class="wh">${labelMap[k]||k}</td><td class="${cls(v)} bold">${v>=0?'+':''}${Number(v).toFixed(2)} 億</td></tr>`);
+        }
       });
+      if(inst.summary) rows.push(`<tr><td colspan="2" class="dm" style="font-size:10px;padding-top:4px;white-space:pre-wrap">${esc(inst.summary)}</td></tr>`);
     }
-    document.getElementById('twInst').innerHTML = rows.length ? `<table class="dt"><tbody>${rows.join('')}</tbody></table>` : '<div class="dm">無資料</div>';
+    document.getElementById('twInst').innerHTML = rows.length ? `<table class="dt"><thead><tr><th>法人</th><th>買賣超（億）</th></tr></thead><tbody>${rows.join('')}</tbody></table>` : '<div class="dm">無資料</div>';
   }
 
   // TW News
@@ -665,7 +690,7 @@ async function renderSignals() {
 async function loadCoreData() {
   const latest = await fj('reports/latest.json');
   if (!latest) return null;
-  const allDates = latest.all_dates || [latest.latest_date];
+  const allDates = latest.all_dates || [latest.date || latest.latest_date];
   const reportDate = allDates[allDates.length - 1];
   // 資料新鮮度檢查
   const today = new Date().toISOString().slice(0, 10);
