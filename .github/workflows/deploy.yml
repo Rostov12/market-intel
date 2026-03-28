@@ -46,6 +46,7 @@ jobs:
           cp -r reports/. _site/reports/
           cp -r config/. _site/config/
           [ -d web/grid-bot ] && cp -r web/grid-bot/. _site/grid-bot/ || true
+          [ -d web/funding-arb ] && mkdir -p _site/funding-arb && cp -r web/funding-arb/. _site/funding-arb/ || true
 
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
