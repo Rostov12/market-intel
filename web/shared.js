@@ -33,9 +33,9 @@ function startClock(elId) {
 function renderNav() {
   const page = location.pathname.split('/').pop() || 'index.html';
   const links = [
-    { href: 'index.html', label: 'Dashboard', icon: '📊' },
-    { href: 'terminal.html', label: 'Terminal', icon: '💻' },
-    { href: 'signals.html', label: 'Signals', icon: '📡' },
+    { href: 'index.html', label: '儀表板', icon: '📊' },
+    { href: 'terminal.html', label: '終端', icon: '💻' },
+    { href: 'signals.html', label: '訊號', icon: '📡' },
   ];
   const nav = document.createElement('nav');
   nav.className = 'mi-nav';

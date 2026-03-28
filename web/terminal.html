@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MKTL &lt;GO&gt; | Market Intel Terminal</title>
+<title>MKTL &lt;GO&gt; | 市場情報終端</title>
 <meta name="description" content="Bloomberg Terminal 風格市場情報儀表板。美股、台股、加密貨幣、AI 信號一站看齊。">
 <link rel="stylesheet" href="shared.css">
 <style>
@@ -427,8 +427,8 @@ function renderSentiment(sent) {
   if(!sent){document.getElementById('usSentiment').innerHTML='<div class="dm">無資料</div>';return;}
   const rows = [];
   if(sent.spy_pcr) rows.push(`<tr><td class="wh">SPY P/C</td><td class="${sent.spy_pcr.pcr>1?'dn':'up'} bold">${sent.spy_pcr.pcr?.toFixed(3)}</td><td class="nt">${sent.spy_pcr.signal||''}</td></tr>`);
-  if(sent.wsb) rows.push(`<tr><td class="wh">WSB Bull</td><td class="${sent.wsb.bull_pct>60?'up':'nt'} bold">${sent.wsb.bull_pct}%</td><td class="nt">${sent.wsb.label||''}</td></tr>`);
-  if(sent.composite) rows.push(`<tr><td class="wh">Composite</td><td class="org bold">${sent.composite.score?.toFixed(1)}</td><td class="nt">${sent.composite.label||''}</td></tr>`);
+  if(sent.wsb) rows.push(`<tr><td class="wh">WSB 多頭</td><td class="${sent.wsb.bull_pct>60?'up':'nt'} bold">${sent.wsb.bull_pct}%</td><td class="nt">${sent.wsb.label||''}</td></tr>`);
+  if(sent.composite) rows.push(`<tr><td class="wh">綜合情緒</td><td class="org bold">${sent.composite.score?.toFixed(1)}</td><td class="nt">${sent.composite.label||''}</td></tr>`);
   if(sent.wsb?.top_tickers) {
     rows.push(`<tr><td colspan="3" class="dm" style="font-size:9px;padding-top:4px">WSB 熱門標的</td></tr>`);
     sent.wsb.top_tickers.slice(0,6).forEach(t => {
@@ -608,10 +608,15 @@ function renderCrypto(data, cryptoNews, gridBot) {
     ['btc','eth'].forEach(k => {
       const g = gridBot[k];
       if(!g) return;
-      rows.push(`<tr><td class="amb">${k.toUpperCase()}</td><td class="${g.unrealized_pnl>=0?'up':'dn'}">${g.unrealized_pnl?.toFixed(2)||'--'}</td><td class="wh">${g.total_trades||'--'}</td><td class="org">${g.grid_profit?.toFixed(2)||'--'}</td></tr>`);
+      const fills = g.filled_buys?.length || 0;
+      const sells = g.filled_sells?.length || 0;
+      const status = g.status === 'running' ? '<span class="up">運行中</span>' : '<span class="dn">已停止</span>';
+      const range = g.params?.range_pct ? g.params.range_pct+'%' : '--';
+      const grids = g.params?.grid_count || '--';
+      rows.push(`<tr><td class="amb bold">${(g.symbol||k.toUpperCase()+'/USDT')}</td><td>${status}</td><td class="wh">${fills+sells}</td><td class="org">${grids}格 / ${range}</td></tr>`);
     });
     document.getElementById('crGrid').innerHTML = rows.length ?
-      `<table class="dt"><thead><tr><th>交易對</th><th>未實現損益</th><th>筆數</th><th>網格利潤</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
+      `<table class="dt"><thead><tr><th>交易對</th><th>狀態</th><th>成交筆數</th><th>網格設定</th></tr></thead><tbody>${rows.join('')}</tbody></table>` :
       '<div class="dm">無網格資料</div>';
   }
 
