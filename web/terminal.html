@@ -348,6 +348,7 @@ a:hover { text-decoration:underline; }
 
 <div class="statusbar">
   <span><span class="up">&#9679;</span> 已連線 | 薇拉 + 芙蕾雅 + CodeX | 多 Agent 情報平台</span>
+  <span class="dm" style="font-size:8px">快捷鍵：1-4 切換分頁 | / 搜尋 | R 重新整理</span>
   <span id="updateTs">--</span>
 </div>
 
@@ -1168,9 +1169,39 @@ async function initCrypto() {
   } catch(e) { showTabError('tab-crypto', '加密分頁錯誤：' + e.message); }
 }
 
+// ── Keyboard Shortcuts ──
+document.addEventListener('keydown', e => {
+  if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA') return;
+  const tabs = ['us','tw','crypto','signals'];
+  if(e.key>='1'&&e.key<='4') { const t=document.querySelector(`.tab[data-tab="${tabs[e.key-1]}"]`); if(t) t.click(); }
+  if(e.key==='/') { e.preventDefault(); cmdEl.focus(); }
+  if(e.key==='r'&&!e.ctrlKey&&!e.metaKey) refreshAll();
+});
+
+// ── Auto-refresh every 5 minutes ──
+let _lastRefresh = Date.now();
+async function refreshAll() {
+  _coreDataCache = null; // clear cache
+  document.getElementById('dataStatus').textContent = '更新中...';
+  await Promise.all([initUS(), initTW(), initCrypto(), renderSignals()]);
+  _lastRefresh = Date.now();
+  document.getElementById('dataStatus').textContent = '已更新';
+  setTimeout(() => updateFreshness(), 1000);
+}
+function updateFreshness() {
+  const mins = Math.floor((Date.now()-_lastRefresh)/60000);
+  const el = document.getElementById('dataStatus');
+  if(mins<1) el.textContent = '剛更新';
+  else if(mins<60) el.textContent = `${mins}分鐘前更新`;
+  else el.textContent = `${Math.floor(mins/60)}小時前更新`;
+}
+setInterval(updateFreshness, 30000);
+setInterval(refreshAll, 300000); // 5 min
+
 // 啟動：導覽列 + 所有 tab 並行載入
 renderNav();
 Promise.all([initUS(), initTW(), initCrypto(), renderSignals()])
+  .then(() => { _lastRefresh=Date.now(); updateFreshness(); })
   .catch(e => console.error('Init error:', e));
 </script>
 </body>
