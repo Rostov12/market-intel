@@ -1486,7 +1486,7 @@ async function loadChartData(symbol, range) {
   // Fetch from Supabase first, fallback to local JSON
   let data = [];
   try {
-    const sbUrl = `${SUPABASE_URL}/rest/v1/ohlcv?symbol=eq.${encodeURIComponent(symbol)}&date=gte.${from}&order=date.asc&limit=1000`;
+    const sbUrl = `${SUPABASE_URL}/rest/v1/ohlcv?select=date,open,high,low,close,volume&symbol=eq.${encodeURIComponent(symbol)}&date=gte.${from}&order=date.asc&limit=1000`;
     const resp = await fetch(sbUrl, {
       headers: { 'apikey': SUPABASE_ANON, 'Authorization': `Bearer ${SUPABASE_ANON}` },
       signal: AbortSignal.timeout(8000),
