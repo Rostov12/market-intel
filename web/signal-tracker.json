@@ -1,6 +1,126 @@
 {
   "signals": [
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605250+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605258+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "TSM",
+      "name": "台積電 ADR",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605279+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605280+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605299+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605301+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605319+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605320+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605337+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605339+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Google",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605355+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605357+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605374+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605375+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605393+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605400+08:00",
+      "related_news_count": 2,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605418+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605419+08:00",
+      "related_news_count": 0,
+      "deepear_matches": 0
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "direction": "long",
+      "thesis": "",
+      "confidence": 0.5,
+      "created_at": "2026-03-29T08:05:05.605437+08:00",
+      "evolution_history": [],
+      "last_checked": "2026-03-29T08:05:05.605440+08:00",
+      "related_news_count": 1,
+      "deepear_matches": 0
+    },
+    {
       "ticker": "URNM",
       "name": "URNM（鈾礦 ETF）",
       "direction": "long",
@@ -8,7 +128,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.497905+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532149+08:00",
+      "last_checked": "2026-03-29T08:05:05.605457+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -20,7 +140,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.497973+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532170+08:00",
+      "last_checked": "2026-03-29T08:05:05.605474+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -32,7 +152,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.497993+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532186+08:00",
+      "last_checked": "2026-03-29T08:05:05.605491+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -44,7 +164,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498011+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532201+08:00",
+      "last_checked": "2026-03-29T08:05:05.605508+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -56,7 +176,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498028+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532215+08:00",
+      "last_checked": "2026-03-29T08:05:05.605525+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -68,7 +188,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498046+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532229+08:00",
+      "last_checked": "2026-03-29T08:05:05.605541+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -80,7 +200,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498063+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532244+08:00",
+      "last_checked": "2026-03-29T08:05:05.605559+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -92,7 +212,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498086+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532259+08:00",
+      "last_checked": "2026-03-29T08:05:05.605577+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -104,7 +224,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498104+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532272+08:00",
+      "last_checked": "2026-03-29T08:05:05.605594+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -116,7 +236,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498121+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532285+08:00",
+      "last_checked": "2026-03-29T08:05:05.605611+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -128,7 +248,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498138+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532298+08:00",
+      "last_checked": "2026-03-29T08:05:05.605628+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -140,7 +260,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498156+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532311+08:00",
+      "last_checked": "2026-03-29T08:05:05.605644+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -152,7 +272,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498172+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532324+08:00",
+      "last_checked": "2026-03-29T08:05:05.605660+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -164,11 +284,11 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498189+08:00",
       "evolution_history": [],
-      "last_checked": "2026-03-29T01:42:17.532337+08:00",
+      "last_checked": "2026-03-29T08:05:05.605677+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     }
   ],
-  "last_updated": "2026-03-29T01:42:17.532339+08:00",
+  "last_updated": "2026-03-29T08:05:05.605678+08:00",
   "version": 1
 }

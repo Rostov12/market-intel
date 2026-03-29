@@ -1,16 +1,27 @@
 {
   "date": "2026-03-29",
-  "updated_at": "2026-03-29 01:40",
+  "updated_at": "2026-03-29 08:00",
   "count": 30,
   "sources": [
-    "cointelegraph-rss",
     "google-news-crypto",
     "coindesk",
+    "cointelegraph-rss",
     "cointelegraph"
   ],
   "news": [
     {
-      "id": "gn-95882",
+      "id": "gn-96894",
+      "title": "Bitcoin inches toward $71,000 as hopes for U.S.-Iran talks push oil prices lower: CNBC Crypto World - CNBC",
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNllPdkF3ZTdtVEw5am9ucFBSZGFCUkVJWHlMak9xWk9QdmcwT3FBdkpiY2ZxQWlBMEJwdWQyWlM2Zm8xTXZZN25mTFdOMU5UUjBWeWsxbmFNaVJHcHNsN21wTEhSOUFYTDJzWDZHeDFKZ1JXbEpvZDljejcxcml4QnNJcVFhdEgyVi1JNGQteUJTTU40Q05KSWFFMGczNHFudHRzdk5aczVfcDRlYTk0ekpmanB6ZzVVa0ZyY2xiRjhUb0FHeFE3WjRIcjI0d0ItYTRr?oc=5",
+      "published": "Wed, 25 Mar 2026 19:10:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-44131",
       "title": "Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG",
       "source": "KCRG",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0ZPMjVpVjRjUmZVRVVRUEh6dG1GbmFkYmM0NmlodDBaYTJiY3JFblRqb3pkTmtlMUxodzJqLW1ocG5KeEdVa3FpVUNuVVl4eUFXWURMY212Uk50bUNfZHFrb1d5WnJMU1Vqcm1UOGhZQkRFMWl0WnM1U2Z2YkRpbFBndFJhN1Y2OFl5M3ZtUlA0Mm5iLXVpZ1RzbFpveVhlTHgxWktmNUU5ZWp6d1HSAcIBQVVfeXFMUEhmZEoxQXdXMWN3RE9nWlM0alZLVjgxemNNY0U3bVozNlB1U3FQbmllRWdVc19makZ3dDVSQXY1MF9zUWRPTWRmVC1hUFc4djJfSlVoQ1JnNEZNU0FZZnB4WTdXR0I2d3plMVEwMUhJZmxMcFVjc1BiTm1vel90QVRwODlxQ0RoWlZMSkVRcERfeVRmSkl0Ym1zbVFOVVhKZDl4bnd1SkZyNGxfYVlYck5TLUJyVHhMU0tGQ0l1azlsYVE?oc=5",
@@ -21,7 +32,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-81853",
+      "id": "gn-52921",
       "title": "Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune",
       "source": "Fortune",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkNWTnBOUEFldThlSG1nckdETnhCY1c5eXB1akcxcktMeTliYzBPRmdrOElZM19sSlVKR0lhNkctUlBMR2FQSzZVcGZtQVJoY2ZpSnBHYjJybDhlR2JhanZBbks3NDBva09CcjFnVzF6WF95ejdIalpWOU8tSThldHRLOWd6bFBfZlpfd0VmWEkzUmplLWlvc3FjZERqdzNLc05jQmR3QQ?oc=5",
@@ -32,7 +43,103 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-70527",
+      "id": "ct-rss-53742",
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 20:57:05 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-78266",
+      "title": "Here’s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 20:57:05 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-54940",
+      "title": "Kalshi legal woes grow with Washington state gambling suit",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/kalshi-legal-woes-grow?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 20:39:03 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-87739",
+      "title": "Kalshi legal woes grow with Washington state gambling suit",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/kalshi-legal-woes-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 20:39:03 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-42490",
+      "title": "Tokenized platform xStocks brings new private shares fund on-chain",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tokeniz?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 19:43:14 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-27048",
+      "title": "Tokenized platform xStocks brings new private shares fund on-chain",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/tokeniz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 28 Mar 2026 19:43:14 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-39521",
+      "title": "Bitcoin Faces Familiar Crossroads As Midterm Cycle Turns Bearish: Analyst - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQel9yMmVmTno0bXpJb0hadFBGYTJ1M1FqdHN4VlAzcVBXS3BSRkNOTWNMaElyczZzT3ZqaHdXUTNCYWo5NGtNZi1CWFI2enNyb1dzZ19Bb2FpTzd3VEtlOFRkbmNnRm9pR3JGREktUXd6aHJHdGMwSGx6ZlpXS2NSYWQwc184Nk0xa0kyRU16TDdSOE5SaldxX3k0UV9sS0FrelQwSDNQRzlrTkVwUUxqRlB4aTA4NEFPcHB4TzBtcTFkbHVIczNULTlR?oc=5",
+      "published": "Sat, 28 Mar 2026 19:30:30 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-27480",
+      "title": "Crypto needs a reset before the next bull run",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/03/28/crypto-needs-a-reset-before-the-next-bull-run",
+      "published": "Sat, 28 Mar 2026 18:27:00 +0000",
+      "summary": "The industry’s most significant opportunities are being forged during this period of uncomfortable volatility. Here’s why, argues Grider.\n",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-81430",
+      "title": "Ethereum’s Incredible Position - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXQybzZLaDBoMzRibUdMcE11ekhNQ0lfNm1LRFJqNGRRT3RiTmZhWGFnM3Z1SXdyOVJ3UElwSGVVWV9mS1N1NUFEZWVTRGEtbTUxT0w0Q1dRLTU1VXR3aWpaZ1k0NnRlUXBOSFBhQTRWb24wWkwyVkstNFFTTjA3OTBLOV9SUXI5emZiYUE1X2xIbTlYNGppUA?oc=5",
+      "published": "Sat, 28 Mar 2026 18:01:49 GMT",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-814",
+      "title": "Washington sues Kalshi as states ramp up legal pressure against prediction markets",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/03/28/washington-sues-kalshi-as-states-ramp-up-legal-pressure-against-prediction-markets",
+      "published": "Sat, 28 Mar 2026 17:43:47 +0000",
+      "summary": "The Washington state attorney general alleged Kalshi offers \"gambling products\" products dressed up as prediction markets in a lawsuit Friday.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-44908",
       "title": "Kalshi secures license to offer margin trading to institutional investors",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/28/kalshi-secures-license-to-offer-margin-trading-to-institutional-investors",
@@ -42,7 +149,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "cd-54693",
+      "id": "cd-52003",
       "title": "Canada moves to ban crypto donations for election campaigns following UK",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/03/28/canada-moves-to-ban-crypto-donations-for-election-campaigns-following-uk",
@@ -52,18 +159,18 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-24025",
-      "title": "Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks - CoinDesk",
-      "source": "CoinDesk",
+      "id": "gn-81887",
+      "title": "Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks - coindesk.com",
+      "source": "coindesk.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTjB2S2w1T2xucHNvYS0wbjdzQVNwc05UMTFVMU9XbnZsLUcwMlc2cW92T3B4bXlHVDFvOTdyVUlOU1M3cEcwZ2hVd0hZMHBhU2JkUmFRTjY5Q2NFQm5OYlZHaTV4Y0E0ZTF5R2N3NE1uS1JEdkRObld4SkRieFBtQ2UwUFI3a1RONGVIWjVHOWIzckloZENkcEUzMG9hMTY1YldQN1pCSnZBcG4zOEZBdGN1d09La1FtMXEtRE13?oc=5",
-      "published": "Sat, 28 Mar 2026 16:41:23 GMT",
+      "published": "Sat, 28 Mar 2026 16:43:35 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-43717",
+      "id": "cd-91351",
       "title": "Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/28/why-bitcoin-s-compressed-valuation-offers-reduced-downside-risk-versus-stocks",
@@ -75,45 +182,21 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-93206",
-      "title": "Why GameStop Put $315 Million in Bitcoin Into a Covered Call Options Strategy - Decrypt",
-      "source": "Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1oUmZjNGRCSVFkVGxuVEVFN2VVdDEtbnN3NDB6N2tUUEV0MWdhNVF2cjFtTnlESmJkVXYzOE9DZlJQWmYyelFkSHVCbG5KLU95Z3ZINFlZeU42OFJ0WEVIZHlyT2RIanUyRmxOVDNXUlFRRGctOVFV0gF_QVVfeXFMT0lBZ2x0ZzlfUlpXVGVOOHRVMFdqdWlpWHJQdlppbnZ1Z2ZwY3IwOW41R2VtRTcxeG10M1YxRnhHam5qemdGdUVxbkRvazZ6a2ltdmwwTEx4R0I0QkRaX1AxM1Z6RTJjbno2MzBOVzktelI4RXhNZjk1ZUlfRVZrQQ?oc=5",
-      "published": "Sat, 28 Mar 2026 16:32:04 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-35789",
-      "title": "Crypto's quantum threat is real and its driving diverging strategies across Bitcoin, Ethereum, Solana - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVy1vckpfa3VaV3hmdi0xSjVycTc0ZHYzSmZiTzRLTHFNbE42Q1drQnZPYXlBanlKZzRjdUZHWW9fUzBLbEJTM0FmZTNZeVRMcGl6OXd5Sl9GanpER0h0YWQ1QjRjcExFM0g1cUgzaF9OSUlIZE1wdzRKRW5GOUZfMGk3X0wzRjVvNWlLY1lYM1NlaV9TNjBzc1d4MUdTUGZtWmE5eTUtdXdkeElGTEQ0dGRWS1NiLWtrVk5TQ3l4el95ZmxOTjhnQ3VNRFE?oc=5",
-      "published": "Sat, 28 Mar 2026 16:03:25 GMT",
-      "coins": [
-        "SOL",
-        "BTC",
-        "ETH"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-69449",
+      "id": "cd-12123",
       "title": "Here's how bitcoin, Ethereum and other networks are preparing for the looming quantum threat",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/03/28/here-s-how-bitcoin-ethereum-and-other-networks-are-preparing-for-the-looming-quantum-threat",
       "published": "Sat, 28 Mar 2026 16:00:00 +0000",
       "summary": "Across many of the most well-known ecosystems like Bitcoin, Ethereum, and Solana, responses are diverging along familiar lines: what to do on social consensus and technical iteration, and community me",
       "coins": [
+        "ETH",
         "SOL",
-        "BTC",
-        "ETH"
+        "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "cd-47592",
+      "id": "cd-91112",
       "title": "Crypto's future is bright in the context of AI's assault on software firms, says Kraken-backed investment firm",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/03/28/crypto-s-future-is-bright-in-the-context-of-ai-s-assault-on-software-firms-says-kraken-backed-investment-firm",
@@ -123,7 +206,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-42223",
+      "id": "ct-rss-23369",
       "title": "Google plans to back $5B data center for Anthropic: Report",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/google-banks-back-5b-texas-data-center-anthropic?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -132,7 +215,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-23687",
+      "id": "ct-31764",
       "title": "Google plans to back $5B data center for Anthropic: Report",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/google-banks-back-5b-texas-data-center-anthropic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -141,21 +224,21 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-41510",
-      "title": "Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOTdwcjdHbUF1czk3QV9YQXFLN181ZUNkNDc4YlBJZEpGRUdWbS0tdGJqMFNYUVNmY05kbXBuY1BLOGVEQzlnR05kUVVXVW5YYnR3RV9wTXo4dUJLc1BSbmhaeFNFVm9OZjNpRzhNUElVM0Y0UlZubE40ZGd1dkFEbnBQZjFqN3ludjVGTUVrRzFGYmFEVW03eEVFbGI?oc=5",
+      "id": "gn-26418",
+      "title": "Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOF9UU0FwTlQzdjJES0JGRjVNbVJac3dVdnhWVUZ0LXVybjV5ZHNPem5RY2wwQ0hjUDZfUlBLN3BObzV4MktnczNxSndMekxoUU16NHFVbWNlNWk0NnZ1dXFEWWNvUW91SExkT3J3OGVNcC01clhEUG9lRHp1QVRjS01WM3NZUktnaWhGVDhITTJQM2VPS0ZncHlySGlGLTdSOGY4MHVrQXBZcVh3ZzhZUzZOeHRNZkFE?oc=5",
       "published": "Sat, 28 Mar 2026 14:01:26 GMT",
       "coins": [
+        "ETH",
         "SOL",
         "BTC",
-        "ETH",
         "XRP"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-49338",
+      "id": "ct-rss-75276",
       "title": "How AI agents can reshape arbitrage in prediction markets",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/ai-agents-can-reshape-arbitrage-prediction-markets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -164,7 +247,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-7576",
+      "id": "ct-34768",
       "title": "How AI agents can reshape arbitrage in prediction markets",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/ai-agents-can-reshape-arbitrage-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -173,25 +256,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-84697",
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 13:22:43 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-23452",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 13:22:43 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-55471",
+      "id": "cd-16933",
       "title": "Here's what next as Anthropic's most powerful AI model leaked via unsecured data cache",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/03/28/here-s-what-next-as-anthropic-s-most-powerful-ai-model-leaked-via-unsecured-data-cache",
@@ -201,40 +266,41 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-75150",
-      "title": "This Glorious Cryptocurrency Is Up Almost 17,000% in 10 Years: Here Are the 5 Biggest Risks You Need to Know. - The Motley Fool",
-      "source": "The Motley Fool",
+      "id": "gn-55680",
+      "title": "$10,000 in XRP and Bitcoin vs $10,000 in Nvidia: What Each Could Be Worth by the End of 2026 - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONkhfZGpXQ0QtaC1BcmRmdHFVYlU1T1pfd3hGeVU2MVZwdHFzdTVZcnAwd3d5SnpxOHluQTJ0Y0FPcmVzX1ZiTmRNWFZ2djdXZU92QkpLR2Jtb05ZTXJBSTFqNTFhQ1lWV1lQb0FreFU2R3ZVVG9oRnh5V01KR1NLSkZPQ0lGbDNuWG1hcV90MXdvM2RmdEF3QkRZbm5ncFBITHZaazc4MHg1dXJoVmp6VDc1Ti1fOEhBd3NzbXFwZE9ORnRwRTRndy0xaw?oc=5",
+      "published": "Sat, 28 Mar 2026 12:23:08 GMT",
+      "coins": [
+        "BTC",
+        "XRP"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-82554",
+      "title": "This Glorious Cryptocurrency Is Up Almost 17,000% in 10 Years: Here Are the 5 Biggest Risks You Need to Know. - fool.com",
+      "source": "fool.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnVTVTVrT0xpdEt2Qk41WFJUUnlwLWREdTI4ejQtR0hWcTAtY2FnZkFtWHE5ZGlSZXBTc2FzcEhkQUROWHA2RUVKZWVpaEpVWHl2N2IxYUo0VW9scC1qZEhWNXpuN2NtLThuc2o5YUwzeFViZi1VN1M1a0o5ci1oY012RlVSZzRmS2NvTTdEbkktbE82cU1z?oc=5",
       "published": "Sat, 28 Mar 2026 12:10:00 GMT",
       "coins": [],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-17438",
+      "id": "cd-47460",
       "title": "Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/03/28/watch-out-bitcoin-devs-google-says-post-quantum-migration-needs-to-happen-by-2029",
       "published": "Sat, 28 Mar 2026 12:00:00 +0000",
       "summary": "The search giant set a corporate deadline to migrate all authentication services to quantum-resistant cryptography, validating the timeline Ethereum has been building toward for eight years. Bitcoin's",
       "coins": [
-        "BTC",
-        "ETH"
+        "ETH",
+        "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "gn-65882",
-      "title": "Goldman Sachs Just Quietly Called The Bitcoin Price Bottom—But There’s A Nasty Catch - Forbes",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcU9VRUlxalh3d09hVDR3blpKNlUyMktFVy1NZXFwSUtHTUFCaW1aV0tXQm5iZ2V2X0J2LXB3djNXLUhjRFppOUQ5UU1kbXNLZ2x1bE0zYlBtNjBwcGJqeTNZQmJjNEtRUzdUdXU0MnlDdXhlRHR2VmZseFJBVW9mczJscHdWdkh1VUFaSU9aZHBiUEplWEdWbDY4bzE4WEQwbFJWQjRjb2hmVE13a3A1aGZxWjdyNnZONjNvczZWZHRXanItVzZuOFNjS3JBLU5VdnYtRThB?oc=5",
-      "published": "Sat, 28 Mar 2026 11:30:58 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-72240",
+      "id": "gn-59295",
       "title": "God and bitcoin: Why some Christians are going all in on cryptocurrency - NBC News",
       "source": "NBC News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM2xZTlBVS2d5ZkpCVGt0a0JqakVRSEltY3JLOFQwTmdQUVdsOWJqVnhfNzhZa0xYNE1XdHBOVGZad2VqU2x1TzVIUTE0WXo0ODNMb2g1NWoxUFpQd3FaM25fcld3aUFZSzFxakptQk81QTB5WExmSTZnSkhuNVVnMF9HdDhnaFV2cmpRdU9tOTloRmM?oc=5",
@@ -245,89 +311,13 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-28648",
+      "id": "ct-rss-36546",
       "title": "Warren probes China-based Bitmain over US security concerns: Report",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/warren-bitmain-us-security-concerns-probe-report?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
       "published": "Sat, 28 Mar 2026 10:35:13 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-44641",
-      "title": "Warren probes China-based Bitmain over US security concerns: Report",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/warren-bitmain-us-security-concerns-probe-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 10:35:13 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-65601",
-      "title": "Ethereum vs. Solana: Which Crypto Has More Upside? - The Motley Fool",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2psMnkxb3l4RVpMNFdfbUl0SU94ZS1rTktGNEE0bkVrR3pSLVpTN2w3UGdOdFJ2bjdweHpGLUlBNDlaQ2ppSmxDZUV5eHIxZ2ZyZnNENldnU256Z05haDZmY2RyZWJVcWJHbE1hRHFZeEs0UGtkYzhXOVNEY0xzTmRBVHI2Q3d6b3ZsOUlGTXVMV3pY?oc=5",
-      "published": "Sat, 28 Mar 2026 09:59:00 GMT",
-      "coins": [
-        "SOL",
-        "ETH"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-60896",
-      "title": "Crypto Trader Predicts Bitcoin Price Will Hit $100,000 Again When This Happens - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdG51ZXJRSE4zNmpkQ051NnhQekItdXVyaVZmY2ltakZ1dzM0ekdNYjlsV3pZaTltX3VKd3lqMmw1ekNwQ0dFNGk2Q0JwZ0xndldEUFZNcmI1SXVrc25MbEV1OEVwYkVMd1VTWFEtRWdFTEJqYzZnc05zS1p2QjlUUTdPQmVuVnZyeEY2T3UxTmNvVnhteXhaS2JsTFRHQlNDNjczbXVvN0REaFpWZ3BpbWQ1UDBoa2xUWVVmNGtMR1RqVi1idTBOUnZCRFlWUHAt?oc=5",
-      "published": "Sat, 28 Mar 2026 09:30:49 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-49775",
-      "title": "Potential Bitcoin crash below $60K may delay recovery to 2027: Data",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/potential-bitcoin-crash-below-dollar60k-may-delay-recovery-to-2027-data?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 08:00:00 +0000",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-22124",
-      "title": "Potential Bitcoin crash below $60K may delay recovery to 2027: Data",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/potential-bitcoin-crash-below-dollar60k-may-delay-recovery-to-2027-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 08:00:00 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-84115",
-      "title": "Spot Bitcoin ETFs break 4-week inflow streak as capital avoids ‘directional risk’",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-break-4-week-inflow-streak-outflows-directional-risk?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 07:30:21 +0000",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-24170",
-      "title": "Spot Bitcoin ETFs break 4-week inflow streak as capital avoids ‘directional risk’",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-etfs-break-4-week-inflow-streak-outflows-directional-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sat, 28 Mar 2026 07:30:21 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
     }
   ]
 }
