@@ -812,7 +812,7 @@ function renderCalendar(cal) {
 }
 
 function filterCNHK(title) {
-  return /A股|港股|恒生|恆生|滬深|上證|深證|中概股|香港交易所|HKEX|HSI|上交所|深交所|人民幣匯率/.test(title);
+  return /A股|港股|恒生|恆生|滬深|上證|深證|中概股|香港交易所|HKEX|HSI|上交所|深交所|人民幣匯率|陸股|陸企|A shares|H shares|中國[股市經濟]|中港|北京[當局監管]|大陸[股市經濟]|上海[股指綜]|深圳[股成]|國企改革|人行[降準降息]|PBOC|CSI\s?\d|SSEC|中國[央人]民銀行|紅籌|藍籌股|科創板|創業板|北交所|富時中國|FTSE China/.test(title);
 }
 function detectSectors(title) {
   const t = (title||'').toLowerCase();
