@@ -57,6 +57,14 @@
       "amount": 1.953125,
       "side": "buy",
       "status": "open"
+    },
+    {
+      "id": "3430994031627264000",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 0.03
     }
   ],
   "sell_orders": [
@@ -82,7 +90,7 @@
       "status": "open"
     },
     {
-      "id": "3426766166148825088",
+      "id": "3431114871438106624",
       "price": 0.03,
       "amount": 1.666667,
       "side": "sell",
@@ -90,15 +98,7 @@
       "paired_buy": 0.03
     },
     {
-      "id": "3426766169638486016",
-      "price": 0.03,
-      "amount": 1.666667,
-      "side": "sell",
-      "status": "open",
-      "paired_buy": 0.03
-    },
-    {
-      "id": "3426887019079450624",
+      "id": "3431114876941033472",
       "price": 0.03,
       "amount": 1.666667,
       "side": "sell",
@@ -137,6 +137,22 @@
       "side": "buy",
       "status": "filled",
       "paired_sell": 0.03
+    },
+    {
+      "id": "3430994020688519168",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "filled",
+      "paired_sell": 0.03
+    },
+    {
+      "id": "3430994025990119424",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "filled",
+      "paired_sell": 0.03
     }
   ],
   "filled_sells": [
@@ -161,12 +177,36 @@
       "side": "sell",
       "status": "filled",
       "paired_buy": 0.02787
+    },
+    {
+      "id": "3426766166148825088",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
+    },
+    {
+      "id": "3426766169638486016",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
+    },
+    {
+      "id": "3426887019079450624",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
     }
   ],
   "total_profit": 0.0038,
   "mode": "demo",
-  "updated_at": "2026-03-29 10:13:09",
-  "current_price": 0.02986,
-  "last_check": "2026-03-29 10:13:09",
-  "total_filled": 7
+  "updated_at": "2026-03-29 12:13:09",
+  "current_price": 0.03007,
+  "last_check": "2026-03-29 12:13:09",
+  "total_filled": 12
 }
