@@ -1,16 +1,16 @@
 {
   "date": "2026-03-29",
-  "updated_at": "2026-03-29 12:50",
+  "updated_at": "2026-03-29 13:00",
   "count": 30,
   "sources": [
     "google-news-crypto",
+    "cointelegraph-rss",
     "coindesk",
-    "cointelegraph",
-    "cointelegraph-rss"
+    "cointelegraph"
   ],
   "news": [
     {
-      "id": "gn-53049",
+      "id": "gn-81365",
       "title": "Bitcoin inches toward $71,000 as hopes for U.S.-Iran talks push oil prices lower: CNBC Crypto World - CNBC",
       "source": "CNBC",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNllPdkF3ZTdtVEw5am9ucFBSZGFCUkVJWHlMak9xWk9QdmcwT3FBdkpiY2ZxQWlBMEJwdWQyWlM2Zm8xTXZZN25mTFdOMU5UUjBWeWsxbmFNaVJHcHNsN21wTEhSOUFYTDJzWDZHeDFKZ1JXbEpvZDljejcxcml4QnNJcVFhdEgyVi1JNGQteUJTTU40Q05KSWFFMGczNHFudHRzdk5aczVfcDRlYTk0ekpmanB6ZzVVa0ZyY2xiRjhUb0FHeFE3WjRIcjI0d0ItYTRr?oc=5",
@@ -21,7 +21,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-26356",
+      "id": "gn-96622",
       "title": "Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - kcrg.com",
       "source": "kcrg.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0ZPMjVpVjRjUmZVRVVRUEh6dG1GbmFkYmM0NmlodDBaYTJiY3JFblRqb3pkTmtlMUxodzJqLW1ocG5KeEdVa3FpVUNuVVl4eUFXWURMY212Uk50bUNfZHFrb1d5WnJMU1Vqcm1UOGhZQkRFMWl0WnM1U2Z2YkRpbFBndFJhN1Y2OFl5M3ZtUlA0Mm5iLXVpZ1RzbFpveVhlTHgxWktmNUU5ZWp6d1HSAcIBQVVfeXFMUEhmZEoxQXdXMWN3RE9nWlM0alZLVjgxemNNY0U3bVozNlB1U3FQbmllRWdVc19makZ3dDVSQXY1MF9zUWRPTWRmVC1hUFc4djJfSlVoQ1JnNEZNU0FZZnB4WTdXR0I2d3plMVEwMUhJZmxMcFVjc1BiTm1vel90QVRwODlxQ0RoWlZMSkVRcERfeVRmSkl0Ym1zbVFOVVhKZDl4bnd1SkZyNGxfYVlYck5TLUJyVHhMU0tGQ0l1azlsYVE?oc=5",
@@ -32,7 +32,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-53148",
+      "id": "gn-3782",
       "title": "Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune",
       "source": "Fortune",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkNWTnBOUEFldThlSG1nckdETnhCY1c5eXB1akcxcktMeTliYzBPRmdrOElZM19sSlVKR0lhNkctUlBMR2FQSzZVcGZtQVJoY2ZpSnBHYjJybDhlR2JhanZBbks3NDBva09CcjFnVzF6WF95ejdIalpWOU8tSThldHRLOWd6bFBfZlpfd0VmWEkzUmplLWlvc3FjZERqdzNLc05jQmR3QQ?oc=5",
@@ -43,7 +43,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-682",
+      "id": "ct-rss-78082",
       "title": "Canada proposes crypto political donation ban over foreign interference fears",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/canada-crypto-donation-deepfake-election-ban?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -52,7 +52,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-88555",
+      "id": "ct-94640",
       "title": "Canada proposes crypto political donation ban over foreign interference fears",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/canada-crypto-donation-deepfake-election-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -61,7 +61,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-24222",
+      "id": "gn-34283",
       "title": "Bitcoin Last Line Of Defense Revealed: Can BTC Price Still Go To $40,000? - TradingView",
       "source": "TradingView",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYzdIYzd5dm5oN3doRkFqX3RTcEdaZ2FJX1ZBYTVBZ0lmdmlWQjNKNWdlZEtwdThJNVk2ZUNYM1ZiTk9CdXBORmFwWjg3RzRuemN1TTQzUE10Z1NkVlNldG9YMVItblhqRE5BaWNXTXVjTTJ2Y3p3anRVVmZyd3JEYmJNZmdHMmlrQVdQWG00QkFYOVc0eHczcHRTOHFGYWtWNEhQWnZUNlQxR3FfUVl2S1k4S0puQURkZ1NzVHdRSmtIODF4MDJv?oc=5",
@@ -72,7 +72,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-54267",
+      "id": "ct-rss-22720",
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -81,7 +81,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-45950",
+      "id": "ct-61808",
       "title": "Here’s what happened in crypto today",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -90,7 +90,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-74077",
+      "id": "ct-rss-43958",
       "title": "Kalshi legal woes grow with Washington state gambling suit",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/kalshi-legal-woes-grow?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -99,7 +99,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-44595",
+      "id": "ct-16905",
       "title": "Kalshi legal woes grow with Washington state gambling suit",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/kalshi-legal-woes-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -108,7 +108,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-47079",
+      "id": "gn-16976",
       "title": "Trump: 'Bitcoin's Very Powerful, It's All Becoming Powerful' - Bitbo",
       "source": "Bitbo",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaclVwQVlmWFFIbkF2RVNPelN1Z2lPYkdwbnBDQkN3NDRUVllycjVHT1padVE2cURUOWo0OVlYbW5kdkw3TS1kYUNDMk5MSnVmR2h4YUUtUDV6dmNpNEJwSVRua2p2ZkV0dzI2VUFPRzkzRXhnRDdr?oc=5",
@@ -119,7 +119,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-61836",
+      "id": "ct-rss-4503",
       "title": "Tokenized platform xStocks brings new private shares fund on-chain",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/tokeniz?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -128,7 +128,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-975",
+      "id": "ct-94845",
       "title": "Tokenized platform xStocks brings new private shares fund on-chain",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/tokeniz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -137,7 +137,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-90175",
+      "id": "cd-828",
       "title": "Crypto needs a reset before the next bull run",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/opinion/2026/03/28/crypto-needs-a-reset-before-the-next-bull-run",
@@ -147,7 +147,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-2338",
+      "id": "gn-83408",
       "title": "Ethereum’s Incredible Position - finance.yahoo.com",
       "source": "finance.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXQybzZLaDBoMzRibUdMcE11ekhNQ0lfNm1LRFJqNGRRT3RiTmZhWGFnM3Z1SXdyOVJ3UElwSGVVWV9mS1N1NUFEZWVTRGEtbTUxT0w0Q1dRLTU1VXR3aWpaZ1k0NnRlUXBOSFBhQTRWb24wWkwyVkstNFFTTjA3OTBLOV9SUXI5emZiYUE1X2xIbTlYNGppUA?oc=5",
@@ -158,7 +158,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-5297",
+      "id": "cd-62999",
       "title": "Washington sues Kalshi as states ramp up legal pressure against prediction markets",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/03/28/washington-sues-kalshi-as-states-ramp-up-legal-pressure-against-prediction-markets",
@@ -168,7 +168,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "cd-68967",
+      "id": "cd-8913",
       "title": "Kalshi secures license to offer margin trading to institutional investors",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/28/kalshi-secures-license-to-offer-margin-trading-to-institutional-investors",
@@ -178,7 +178,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "cd-74746",
+      "id": "cd-97330",
       "title": "Canada moves to ban crypto donations for election campaigns following UK",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/03/28/canada-moves-to-ban-crypto-donations-for-election-campaigns-following-uk",
@@ -188,7 +188,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-34426",
+      "id": "gn-26564",
       "title": "Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTjB2S2w1T2xucHNvYS0wbjdzQVNwc05UMTFVMU9XbnZsLUcwMlc2cW92T3B4bXlHVDFvOTdyVUlOU1M3cEcwZ2hVd0hZMHBhU2JkUmFRTjY5Q2NFQm5OYlZHaTV4Y0E0ZTF5R2N3NE1uS1JEdkRObld4SkRieFBtQ2UwUFI3a1RONGVIWjVHOWIzckloZENkcEUzMG9hMTY1YldQN1pCSnZBcG4zOEZBdGN1d09La1FtMXEtRE13?oc=5",
@@ -199,7 +199,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-67488",
+      "id": "cd-65789",
       "title": "Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/03/28/why-bitcoin-s-compressed-valuation-offers-reduced-downside-risk-versus-stocks",
@@ -211,21 +211,21 @@
       "provider": "coindesk"
     },
     {
-      "id": "cd-71512",
+      "id": "cd-79354",
       "title": "Here's how bitcoin, Ethereum and other networks are preparing for the looming quantum threat",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/03/28/here-s-how-bitcoin-ethereum-and-other-networks-are-preparing-for-the-looming-quantum-threat",
       "published": "Sat, 28 Mar 2026 16:00:00 +0000",
       "summary": "Across many of the most well-known ecosystems like Bitcoin, Ethereum, and Solana, responses are diverging along familiar lines: what to do on social consensus and technical iteration, and community me",
       "coins": [
-        "BTC",
         "ETH",
-        "SOL"
+        "SOL",
+        "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "cd-44605",
+      "id": "cd-49816",
       "title": "Crypto's future is bright in the context of AI's assault on software firms, says Kraken-backed investment firm",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/business/2026/03/28/crypto-s-future-is-bright-in-the-context-of-ai-s-assault-on-software-firms-says-kraken-backed-investment-firm",
@@ -235,7 +235,7 @@
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-39401",
+      "id": "ct-rss-62254",
       "title": "Google plans to back $5B data center for Anthropic: Report",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/google-banks-back-5b-texas-data-center-anthropic?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -244,7 +244,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-66574",
+      "id": "ct-2188",
       "title": "Google plans to back $5B data center for Anthropic: Report",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/google-banks-back-5b-texas-data-center-anthropic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -253,7 +253,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-97067",
+      "id": "ct-rss-37347",
       "title": "How AI agents can reshape arbitrage in prediction markets",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/ai-agents-can-reshape-arbitrage-prediction-markets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -262,7 +262,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-57565",
+      "id": "ct-46345",
       "title": "How AI agents can reshape arbitrage in prediction markets",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/ai-agents-can-reshape-arbitrage-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -271,7 +271,7 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-92764",
+      "id": "cd-13509",
       "title": "Here's what next as Anthropic's most powerful AI model leaked via unsecured data cache",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/03/28/here-s-what-next-as-anthropic-s-most-powerful-ai-model-leaked-via-unsecured-data-cache",
@@ -281,9 +281,9 @@
       "provider": "coindesk"
     },
     {
-      "id": "gn-2359",
-      "title": "$10,000 in XRP and Bitcoin vs $10,000 in Nvidia: What Each Could Be Worth by the End of 2026 - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
+      "id": "gn-63191",
+      "title": "$10,000 in XRP and Bitcoin vs $10,000 in Nvidia: What Each Could Be Worth by the End of 2026 - 247wallst.com",
+      "source": "247wallst.com",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONkhfZGpXQ0QtaC1BcmRmdHFVYlU1T1pfd3hGeVU2MVZwdHFzdTVZcnAwd3d5SnpxOHluQTJ0Y0FPcmVzX1ZiTmRNWFZ2djdXZU92QkpLR2Jtb05ZTXJBSTFqNTFhQ1lWV1lQb0FreFU2R3ZVVG9oRnh5V01KR1NLSkZPQ0lGbDNuWG1hcV90MXdvM2RmdEF3QkRZbm5ncFBITHZaazc4MHg1dXJoVmp6VDc1Ti1fOEhBd3NzbXFwZE9ORnRwRTRndy0xaw?oc=5",
       "published": "Sat, 28 Mar 2026 12:23:08 GMT",
       "coins": [
@@ -293,20 +293,20 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-64744",
+      "id": "cd-78204",
       "title": "Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/tech/2026/03/28/watch-out-bitcoin-devs-google-says-post-quantum-migration-needs-to-happen-by-2029",
       "published": "Sat, 28 Mar 2026 12:00:00 +0000",
       "summary": "The search giant set a corporate deadline to migrate all authentication services to quantum-resistant cryptography, validating the timeline Ethereum has been building toward for eight years. Bitcoin's",
       "coins": [
-        "BTC",
-        "ETH"
+        "ETH",
+        "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "gn-58800",
+      "id": "gn-76777",
       "title": "Goldman Sachs Just Quietly Called The Bitcoin Price Bottom—But There’s A Nasty Catch - Forbes",
       "source": "Forbes",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcU9VRUlxalh3d09hVDR3blpKNlUyMktFVy1NZXFwSUtHTUFCaW1aV0tXQm5iZ2V2X0J2LXB3djNXLUhjRFppOUQ5UU1kbXNLZ2x1bE0zYlBtNjBwcGJqeTNZQmJjNEtRUzdUdXU0MnlDdXhlRHR2VmZseFJBVW9mczJscHdWdkh1VUFaSU9aZHBiUEplWEdWbDY4bzE4WEQwbFJWQjRjb2hmVE13a3A1aGZxWjdyNnZONjNvczZWZHRXanItVzZuOFNjS3JBLU5VdnYtRThB?oc=5",
