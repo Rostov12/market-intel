@@ -1483,17 +1483,26 @@ async function loadChartData(symbol, range) {
   const days = rangeMap[range] || 180;
   const from = new Date(now - days * 86400000).toISOString().slice(0, 10);
 
-  // Fetch from Supabase
-  const url = `${SUPABASE_URL}/rest/v1/ohlcv?symbol=eq.${encodeURIComponent(symbol)}&date=gte.${from}&order=date.asc&limit=1000`;
+  // Fetch from Supabase first, fallback to local JSON
   let data = [];
   try {
-    const resp = await fetch(url, {
+    const sbUrl = `${SUPABASE_URL}/rest/v1/ohlcv?symbol=eq.${encodeURIComponent(symbol)}&date=gte.${from}&order=date.asc&limit=1000`;
+    const resp = await fetch(sbUrl, {
       headers: { 'apikey': SUPABASE_ANON, 'Authorization': `Bearer ${SUPABASE_ANON}` },
-      signal: AbortSignal.timeout(10000),
+      signal: AbortSignal.timeout(8000),
     });
     if (resp.ok) data = await resp.json();
-  } catch (e) {
-    console.error('Chart data fetch failed:', e);
+  } catch (e) { console.log('Supabase fetch failed, trying local:', e); }
+
+  // Fallback: local JSON files
+  if (!data.length) {
+    try {
+      const localResp = await fetch(`ohlcv/${encodeURIComponent(symbol)}.json`, { signal: AbortSignal.timeout(5000) });
+      if (localResp.ok) {
+        const all = await localResp.json();
+        data = all.filter(d => d.date >= from);
+      }
+    } catch (e) { console.log('Local OHLCV not available:', e); }
   }
 
   if (!data.length) {
