@@ -196,6 +196,19 @@ a:hover { text-decoration:underline; }
 
 /* ═══════ Heatmap Category Headers ═══════ */
 .hm-cat-label { color:var(--dim); font-size:9px; font-weight:400; letter-spacing:.5px; padding:4px 2px 1px; text-transform:uppercase; width:100%; }
+/* ═══════ K-Line Chart Modal ═══════ */
+.chart-modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:500; background:rgba(0,0,0,.7); backdrop-filter:blur(4px); }
+.chart-modal.show { display:flex; align-items:center; justify-content:center; }
+.chart-box { background:#0d1117; border:1px solid var(--orange-dim); border-radius:8px; width:90vw; max-width:900px; height:70vh; max-height:600px; display:flex; flex-direction:column; box-shadow:0 16px 48px rgba(0,0,0,.8); }
+.chart-header { display:flex; justify-content:space-between; align-items:center; padding:8px 14px; border-bottom:1px solid var(--border); }
+.chart-title { font-weight:700; color:var(--amber); font-size:14px; }
+.chart-close { background:none; border:none; color:var(--muted); font-size:18px; cursor:pointer; padding:4px 8px; }
+.chart-close:hover { color:var(--red); }
+.chart-body { flex:1; position:relative; }
+.chart-range { display:flex; gap:4px; }
+.chart-range button { background:transparent; border:1px solid var(--border); color:var(--muted); font-size:9px; padding:2px 8px; cursor:pointer; border-radius:2px; font-family:var(--mono); }
+.chart-range button.active { border-color:var(--orange); color:var(--orange); }
+@media(max-width:600px) { .chart-box { width:98vw; height:60vh; } }
 </style>
 </head>
 <body>
@@ -388,6 +401,25 @@ a:hover { text-decoration:underline; }
   <span id="updateTs">--</span>
 </div>
 
+<!-- K-Line Chart Modal -->
+<div id="chartModal" class="chart-modal" onclick="if(event.target===this)closeChart()">
+  <div class="chart-box">
+    <div class="chart-header">
+      <span class="chart-title" id="chartSymbol">--</span>
+      <div class="chart-range">
+        <button data-range="1mo">1M</button>
+        <button data-range="3mo">3M</button>
+        <button data-range="6mo" class="active">6M</button>
+        <button data-range="1y">1Y</button>
+        <button data-range="2y">2Y</button>
+      </div>
+      <button class="chart-close" onclick="closeChart()">&times;</button>
+    </div>
+    <div class="chart-body" id="chartContainer"></div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
 <script src="shared.js"></script>
 <script>
 /* ════════════════════════════════════════════════════════
@@ -594,7 +626,7 @@ function renderHmCell(w, sp) {
     else if(trend.includes('多')&&chg>0){aiAdvice='多頭趨勢持續，順勢持有';aiCls='up';}
     else if(trend.includes('空')&&chg<0){aiAdvice='空頭趨勢，觀望為宜';aiCls='dn';}
     else{aiAdvice='盤整區間，等待方向確認';aiCls='dm';}
-    return `<div class="hm-cell tip-wrap" style="background:${bg};cursor:pointer" onclick="if(!event.target.closest('.tip-pop'))window.open('https://rostov12.github.io/stock-analyzer/#${w.symbol}','_blank')">
+    return `<div class="hm-cell tip-wrap" style="background:${bg};cursor:pointer" onclick="if(!event.target.closest('.tip-pop'))openChart('${w.symbol}','${esc(w.name||w.symbol||'')}')">
       <div class="amb" style="font-size:10px">${w.symbol||''}</div>
       <div style="font-size:9px;color:var(--muted)">${esc((w.name||'').slice(0,8))}</div>
       <div class="${c} bold">${pct(chg)}</div>
@@ -620,6 +652,7 @@ function renderHmCell(w, sp) {
           <div style="font-size:9px;color:var(--orange);margin-bottom:2px">📊 AI 操盤建議</div>
           <div class="${aiCls}" style="font-size:10px">${aiAdvice}</div>
         </div>
+        <div style="margin-top:4px;font-size:9px;color:var(--dim)">點擊開啟 K 線圖 | <a href="https://rostov12.github.io/stock-analyzer/#${w.symbol}" target="_blank" style="color:var(--cyan);text-decoration:none">智慧分析 →</a></div>
       </div>
     </div>`;
 }
@@ -1009,7 +1042,7 @@ function renderTW(data, inst, news) {
       const bg=chg>2?'rgba(0,210,106,.25)':chg>0?'rgba(0,210,106,.12)':chg<-2?'rgba(255,59,48,.25)':chg<0?'rgba(255,59,48,.12)':'rgba(139,148,158,.08)';
       const spark = twSp[s.symbol] || [];
       const code = (s.symbol||'').replace('.TW','').replace('.TWO','');
-      return `<div class="hm-cell tip-wrap" style="background:${bg};cursor:pointer" onclick="if(!event.target.closest('.tip-pop'))window.open('https://rostov12.github.io/stock-analyzer/#${code}','_blank')">
+      return `<div class="hm-cell tip-wrap" style="background:${bg};cursor:pointer" onclick="if(!event.target.closest('.tip-pop'))openChart('${code}','${esc(s.name||code)}')">
         <div class="amb" style="font-size:9px">${code}</div>
         <div style="font-size:9px;color:var(--muted)">${esc((s.name||'').slice(0,4))}</div>
         <div class="${cls(chg)} bold">${pct(chg)}</div>
@@ -1021,7 +1054,7 @@ function renderTW(data, inst, news) {
           <div class="tip-row"><span class="tip-label">趨勢</span><span class="tip-val">${esc(s.trend||'--')}</span></div>
           <div class="tip-row"><span class="tip-label">RSI</span><span class="tip-val">${s.rsi_12?.toFixed(1)||s.rsi_6?.toFixed(1)||'--'}</span></div>
           <div class="tip-row"><span class="tip-label">MA5 偏離</span><span class="tip-val ${cls(s.bias_ma5)}">${pct(s.bias_ma5)}</span></div>
-          <div style="margin-top:4px;font-size:9px;color:var(--dim)">點擊開啟個股分析</div>
+          <div style="margin-top:4px;font-size:9px;color:var(--dim)">點擊開啟 K 線圖 | <a href="https://rostov12.github.io/stock-analyzer/#${code}" target="_blank" style="color:var(--cyan);text-decoration:none">智慧分析 →</a></div>
         </div>
       </div>`;
     }).join('')}</div>`;
@@ -1418,6 +1451,114 @@ function updateFreshness() {
 }
 setInterval(updateFreshness, 30000);
 setInterval(refreshAll, 300000); // 5 min
+
+// ═══════ K-Line Chart ═══════
+const SUPABASE_URL = 'https://vvrtmvgtgckvmyvvnsxv.supabase.co';
+const SUPABASE_ANON = 'sb_publishable_dyUI3M5vu9MlagONon_ETQ_m1LIYuwN';
+let _chart = null, _candleSeries = null, _volumeSeries = null, _currentSymbol = '';
+
+async function openChart(symbol, name) {
+  _currentSymbol = symbol;
+  document.getElementById('chartSymbol').textContent = `${name || symbol} — K 線圖`;
+  document.getElementById('chartModal').classList.add('show');
+  document.body.style.overflow = 'hidden';
+  // Set active range button
+  document.querySelectorAll('.chart-range button').forEach(b => b.classList.toggle('active', b.dataset.range === '6mo'));
+  await loadChartData(symbol, '6mo');
+}
+
+function closeChart() {
+  document.getElementById('chartModal').classList.remove('show');
+  document.body.style.overflow = '';
+  if (_chart) { _chart.remove(); _chart = null; }
+}
+
+async function loadChartData(symbol, range) {
+  const container = document.getElementById('chartContainer');
+  if (_chart) { _chart.remove(); _chart = null; }
+
+  // Calculate date range
+  const now = new Date();
+  const rangeMap = { '1mo': 30, '3mo': 90, '6mo': 180, '1y': 365, '2y': 730 };
+  const days = rangeMap[range] || 180;
+  const from = new Date(now - days * 86400000).toISOString().slice(0, 10);
+
+  // Fetch from Supabase
+  const url = `${SUPABASE_URL}/rest/v1/ohlcv?symbol=eq.${encodeURIComponent(symbol)}&date=gte.${from}&order=date.asc&limit=1000`;
+  let data = [];
+  try {
+    const resp = await fetch(url, {
+      headers: { 'apikey': SUPABASE_ANON, 'Authorization': `Bearer ${SUPABASE_ANON}` },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (resp.ok) data = await resp.json();
+  } catch (e) {
+    console.error('Chart data fetch failed:', e);
+  }
+
+  if (!data.length) {
+    container.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--dim)">暫無 K 線數據（資料同步中）</div>';
+    return;
+  }
+
+  container.innerHTML = '';
+  _chart = LightweightCharts.createChart(container, {
+    width: container.clientWidth,
+    height: container.clientHeight,
+    layout: { background: { color: '#0d1117' }, textColor: '#8b949e' },
+    grid: { vertLines: { color: '#1e2530' }, horzLines: { color: '#1e2530' } },
+    crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    timeScale: { borderColor: '#1e2530', timeVisible: false },
+    rightPriceScale: { borderColor: '#1e2530' },
+  });
+
+  _candleSeries = _chart.addCandlestickSeries({
+    upColor: '#00d26a', downColor: '#ff3b30',
+    borderUpColor: '#00d26a', borderDownColor: '#ff3b30',
+    wickUpColor: '#00d26a', wickDownColor: '#ff3b30',
+  });
+
+  _candleSeries.setData(data.map(d => ({
+    time: d.date,
+    open: +d.open,
+    high: +d.high,
+    low: +d.low,
+    close: +d.close,
+  })));
+
+  _volumeSeries = _chart.addHistogramSeries({
+    color: '#26a69a',
+    priceFormat: { type: 'volume' },
+    priceScaleId: '',
+  });
+  _chart.priceScale('').applyOptions({ scaleMargins: { top: 0.8, bottom: 0 } });
+
+  _volumeSeries.setData(data.map(d => ({
+    time: d.date,
+    value: d.volume,
+    color: +d.close >= +d.open ? 'rgba(0,210,106,.3)' : 'rgba(255,59,48,.3)',
+  })));
+
+  _chart.timeScale().fitContent();
+
+  // Resize handler
+  const ro = new ResizeObserver(() => {
+    if (_chart) _chart.applyOptions({ width: container.clientWidth, height: container.clientHeight });
+  });
+  ro.observe(container);
+}
+
+// Range buttons
+document.querySelectorAll('.chart-range button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.chart-range button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    loadChartData(_currentSymbol, btn.dataset.range);
+  });
+});
+
+// ESC to close
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeChart(); });
 
 // 啟動：導覽列 + 所有 tab 並行載入
 renderNav();
