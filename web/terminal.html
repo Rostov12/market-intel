@@ -430,7 +430,7 @@ a:hover { text-decoration:underline; }
 async function fj(url) {
   try { const r = await fetch(url+'?t='+Date.now()); return r.ok ? await r.json() : null; } catch { return null; }
 }
-function esc(s) { return s ? String(s).replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
+function esc(s) { return s ? String(s).replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;').replace(/"/g,'&quot;') : ''; }
 function pct(v) { return v != null ? (v >= 0 ? '+' : '') + Number(v).toFixed(2) + '%' : '--'; }
 function cls(v) { return v > 0 ? 'up' : v < 0 ? 'dn' : 'nt'; }
 function fgColor(s) { return s<=25?'var(--red)':s<=45?'var(--orange)':s<=55?'var(--muted)':'var(--green)'; }
