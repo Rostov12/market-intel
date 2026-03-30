@@ -861,7 +861,7 @@ function renderCalendar(cal) {
 }
 
 function filterCNHK(title) {
-  return /A股|港股|恒生|恆生|滬深|上證|深證|中概股|香港交易所|HKEX|HSI|上交所|深交所|人民幣匯率|陸股|陸企|A shares|H shares|中國[股市經濟]|中港|北京[當局監管]|大陸[股市經濟]|上海[股指綜]|深圳[股成]|國企改革|人行[降準降息]|PBOC|CSI\s?\d|SSEC|中國[央人]民銀行|紅籌|藍籌股|科創板|創業板|北交所|富時中國|FTSE China/.test(title);
+  return /A股|港股|恒生|恆生|滬深|沪深|上證|上证|深證|深证|中概股|香港交易所|HKEX|HSI|上交所|深交所|人民幣匯率|人民币汇率|陸股|陆股|陸企|陆企|A shares|H shares|中國[股市經濟]|中国[股市经济]|中港|北京[當局監管]|北京[当局监管]|大陸[股市經濟]|大陆[股市经济]|上海[股指綜]|上海[股指综]|深圳[股成]|國企改革|国企改革|人行[降準降息]|人行[降准降息]|PBOC|CSI\s?\d|SSEC|中國[央人]民銀行|中国[央人]民银行|紅籌|红筹|藍籌股|蓝筹股|科創板|科创板|創業板|创业板|北交所|富時中國|富时中国|FTSE China|工商银行|ICBC|交通银行|BCM|建设银行|农业银行|中信证券|招商银行/.test(title);
 }
 function detectSectors(title) {
   const t = (title||'').toLowerCase();
@@ -1275,11 +1275,16 @@ function isAHKSignal(s) {
   const id = (s.id||'').toUpperCase();
   if (/^(SH|SZ)\d/.test(id)) return true;
   if (/^HK\d/.test(id)) return true;
+  if (/^\d{7}$/.test(id)) return true;  // 7-digit news IDs (A-stock sources)
   const title = (s.title||'')+(s.summary||'');
   if (filterCNHK(title)) return true;
+  if (isSimplifiedCN(title)) return true;
   const tickers = s.impact_tickers||[];
   if (tickers.length && tickers.every(t => /^\d{5,6}$/.test(t.ticker))) return true;
   return false;
+}
+function isSimplifiedCN(t) {
+  return /[买卖涨跌盘银证监龙头优质热门赛道减持增持停牌复牌]/.test(t);
 }
 
 const _indicatorInfo = {
