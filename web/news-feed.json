@@ -1,25 +1,13 @@
 {
   "date": "2026-03-31",
-  "fetched_at": "2026-03-31 03:00",
+  "fetched_at": "2026-03-31 03:30",
   "mode": "intraday",
   "news": [
     {
-      "title": "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
-      "impact": "neutral",
+      "title": "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022",
+      "impact": "bullish",
       "source": "CNBC",
-      "title_cn": "鮑威爾認為通膨前景受到控制，無需因石油衝擊而升息"
-    },
-    {
-      "title": "Trump says U.S. will destroy Iran’s oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "川普稱美國將摧毀伊朗油井和哈爾格島，但未達成協議「立即」重新開放霍爾木茲海峽"
-    },
-    {
-      "title": "Bill Ackman says it’s one of the best times in a long time to buy quality stocks",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "比爾阿克曼表示，這是長期以來購買優質股票的最佳時機之一"
+      "title_cn": "布蘭特原油月度漲幅創歷史新高，WTI自2022年以來首次突破100美元"
     },
     {
       "title": "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
@@ -28,10 +16,10 @@
       "title_cn": "中國供應商警告稱，由於霍爾木茲海峽關閉，美國的價格將上漲"
     },
     {
-      "title": "Top insiders sold shares of Nvidia, Dell Technologies and Five Below last week",
+      "title": "Bill Ackman says it’s one of the best times in a long time to buy quality stocks",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "頂級內部人士上週出售了 Nvidia、Dell Technologies 和 Five Below 的股票"
+      "title_cn": "比爾阿克曼表示，這是長期以來購買優質股票的最佳時機之一"
     },
     {
       "title": "401(k) alternative asset rule proposed by Labor Department",
@@ -40,16 +28,28 @@
       "title_cn": "勞工部提出的 401(k) 另類資產規則"
     },
     {
-      "title": "HSAs are being touted as a way to make healthcare more affordable. But it&#x2019;s more complicated than that.",
+      "title": "These are Barclays’ top defensive stocks. They also pay solid dividends",
       "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "HSA 被吹捧為一種讓醫療保健變得更加實惠的方法。但事情比這更複雜。"
+      "source": "CNBC",
+      "title_cn": "這些是巴克萊的頂級防禦性股票。他們還支付豐厚的股息"
     },
     {
-      "title": "401(k) accounts are one step closer to fully embracing crypto, private equity",
+      "title": "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "鮑威爾認為通膨前景受到控制，無需因石油衝擊而升息"
+    },
+    {
+      "title": "A more than 50% rise in oil prices over the past month may be more than just a &#x2018;short-lived shock&#x2019;",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "401(k) 帳戶距離完全擁抱加密貨幣、私募股權又近了一步"
+      "title_cn": "過去一個月油價上漲超過 50% 可能不僅僅是「短暫的衝擊」。"
+    },
+    {
+      "title": "Microsoft&#x2019;s stock may extend a record stretch of lagging performance that&#x2019;s ignited fierce debate",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "微軟股票可能會延續創紀錄的滯後表現，這引發了激烈的爭論"
     }
   ]
 }
