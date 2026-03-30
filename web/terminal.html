@@ -269,8 +269,8 @@ a:hover { text-decoration:underline; }
   </div>
   <!-- Fear & Greed + Sentiment -->
   <div class="pnl">
-    <div class="pnl-h"><span class="pnl-t">恐懼與貪婪指數</span><span class="pnl-tag" id="fgTag"></span></div>
-    <div class="pnl-b" id="usFG"></div>
+    <div class="pnl-h" style="cursor:pointer" onclick="showFGModal()"><span class="pnl-t">恐懼與貪婪指數</span><span class="pnl-tag" id="fgTag"></span></div>
+    <div class="pnl-b" id="usFG" style="cursor:pointer" onclick="showFGModal()"></div>
   </div>
   <!-- Macro -->
   <div class="pnl">
@@ -431,6 +431,28 @@ a:hover { text-decoration:underline; }
   </div>
 </div>
 
+<!-- F&G Detail Modal -->
+<div id="fgModal" class="chart-modal" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="chart-box" style="max-width:600px;max-height:500px">
+    <div class="chart-header">
+      <span class="chart-title">恐懼與貪婪指數</span>
+      <button class="chart-close" onclick="document.getElementById('fgModal').classList.remove('show')">&times;</button>
+    </div>
+    <div class="pnl-b" id="fgModalBody" style="padding:14px;overflow-y:auto;flex:1"></div>
+  </div>
+</div>
+
+<!-- Macro Detail Modal -->
+<div id="macroModal" class="chart-modal" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="chart-box" style="max-width:650px;max-height:520px">
+    <div class="chart-header">
+      <span class="chart-title" id="macroModalTitle">總經指標</span>
+      <button class="chart-close" onclick="document.getElementById('macroModal').classList.remove('show')">&times;</button>
+    </div>
+    <div class="pnl-b" id="macroModalBody" style="padding:14px;overflow-y:auto;flex:1"></div>
+  </div>
+</div>
+
 <script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
 <script src="shared.js"></script>
 <script>
@@ -526,11 +548,11 @@ function renderMarketConditions(data, fg) {
   const dxy = (data.macro||[]).find(m=>(m.name||'').includes('DXY')||(m.symbol||'').includes('DX'));
   const us10y = (data.macro||[]).find(m=>(m.name||'').includes('10Y')||(m.symbol||'').includes('TNX'));
   const items = [];
-  if(fgScore!=null) items.push(`<span>恐貪：<span class="${fgScore>50?'up':'dn'} bold">${fgScore.toFixed(0)}</span></span>`);
+  if(fgScore!=null) items.push(`<span style="cursor:pointer" onclick="showFGModal()" title="點擊查看詳情">恐貪：<span class="${fgScore>50?'up':'dn'} bold">${fgScore.toFixed(0)}</span></span>`);
   if(risk) items.push(`<span class="badge ${risk.includes('低')?'badge-up':risk.includes('高')?'badge-dn':'badge-org'}" style="font-size:9px">${esc(risk)}</span>`);
-  if(vix?.price) items.push(`<span>VIX：<span class="${vix.price>25?'dn':vix.price>18?'org':'up'} bold">${vix.price.toFixed(1)}</span></span>`);
-  if(dxy?.price) items.push(`<span>美元：<span class="wh">${dxy.price.toFixed(1)}</span> <span class="${cls(dxy.change_pct)}">${pct(dxy.change_pct)}</span></span>`);
-  if(us10y?.price) items.push(`<span>10Y：<span class="wh">${us10y.price.toFixed(2)}%</span></span>`);
+  if(vix?.price) items.push(`<span style="cursor:pointer" onclick="showMacroDetail('VIX','${vix.price.toFixed(1)}',${vix.change_pct||0})" title="點擊查看詳情">VIX：<span class="${vix.price>25?'dn':vix.price>18?'org':'up'} bold">${vix.price.toFixed(1)}</span></span>`);
+  if(dxy?.price) items.push(`<span style="cursor:pointer" onclick="showMacroDetail('DXY 美元指數','${dxy.price.toFixed(1)}',${dxy.change_pct||0})" title="點擊查看詳情">美元：<span class="wh">${dxy.price.toFixed(1)}</span> <span class="${cls(dxy.change_pct)}">${pct(dxy.change_pct)}</span></span>`);
+  if(us10y?.price) items.push(`<span style="cursor:pointer" onclick="showMacroDetail('10Y 公債殖利率','${us10y.price.toFixed(2)}%',0)" title="點擊查看詳情">10Y：<span class="wh">${us10y.price.toFixed(2)}%</span></span>`);
   if(data.econ_calendar?.next_fomc) items.push(`<span class="dm">FOMC ${data.econ_calendar.next_fomc.days_away}天</span>`);
   if(items.length) {
     el.innerHTML = items.join('<span class="dm">|</span>');
@@ -541,14 +563,14 @@ function renderMarketConditions(data, fg) {
 function renderTickerStrip(data) {
   const items = [];
   (data.indices||[]).forEach(idx => {
-    items.push({sym:idx.symbol.replace('^',''),price:(idx.price||idx.close)?.toFixed(2)||'--',chg:pct(idx.change_pct),c:cls(idx.change_pct)});
+    items.push({sym:idx.symbol.replace('^',''),fullSym:idx.symbol,name:idx.name||idx.symbol,price:(idx.price||idx.close)?.toFixed(2)||'--',chg:pct(idx.change_pct),c:cls(idx.change_pct)});
   });
   // Add crypto from watchlist
   (data.watchlist||[]).filter(w=>w.symbol?.includes('-USD')).slice(0,4).forEach(w => {
-    items.push({sym:w.symbol.replace('-USD',''),price:(w.price||w.close)?.toFixed((w.price||w.close)>100?0:2)||'--',chg:pct(w.change_pct),c:cls(w.change_pct)});
+    items.push({sym:w.symbol.replace('-USD',''),fullSym:w.symbol,name:w.name||w.symbol,price:(w.price||w.close)?.toFixed((w.price||w.close)>100?0:2)||'--',chg:pct(w.change_pct),c:cls(w.change_pct)});
   });
   document.getElementById('tickerStrip').innerHTML = items.map(t =>
-    `<span class="tk" style="cursor:pointer" onclick="window.open('https://rostov12.github.io/stock-analyzer/#${t.sym}','_blank')"><span class="tk-sym">${t.sym}</span><span class="tk-price">${t.price}</span><span class="tk-chg ${t.c}">${t.chg}</span></span>`
+    `<span class="tk" style="cursor:pointer" onclick="openChart('${esc(t.fullSym)}','${esc(t.name)}')"><span class="tk-sym">${t.sym}</span><span class="tk-price">${t.price}</span><span class="tk-chg ${t.c}">${t.chg}</span></span>`
   ).join('');
 }
 
@@ -813,7 +835,9 @@ function renderMacro(data, fred) {
   const rows = [];
   (data.macro||[]).forEach(m => {
     const chg = m.change_pct||m.change||0;
-    rows.push(`<tr><td class="wh">${esc(m.desc||m.name||m.label||'')}</td><td class="${cls(chg)} bold">${m.price!=null?m.price:m.value||'--'}</td><td class="${cls(chg)}" style="font-size:10px">${pct(chg)}</td></tr>`);
+    const name = esc(m.desc||m.name||m.label||'');
+    const val = m.price!=null?m.price:m.value||'--';
+    rows.push(`<tr style="cursor:pointer" onclick="showMacroDetail('${name}','${val}',${chg})"><td class="wh">${name}</td><td class="${cls(chg)} bold">${val}</td><td class="${cls(chg)}" style="font-size:10px">${pct(chg)}</td></tr>`);
   });
   if(fred) {
     const indicators = fred.indicators || fred;
@@ -821,7 +845,9 @@ function renderMacro(data, fred) {
       if(k==='date'||k==='generated_at'||k==='fetched_at'||k==='count'||k==='summary') return;
       if(typeof v==='object'&&v) {
         const chg = v.change||0;
-        rows.push(`<tr><td class="wh">${esc(v.name||v.label||k)}</td><td class="${cls(chg)} bold">${v.value!=null?v.value:'--'} ${v.unit||''}</td><td class="${cls(chg)}" style="font-size:10px">${chg?((chg>=0?'+':'')+chg.toFixed(2)):'--'}</td></tr>`);
+        const name = esc(v.name||v.label||k);
+        const val = (v.value!=null?v.value:'--')+' '+(v.unit||'');
+        rows.push(`<tr style="cursor:pointer" onclick="showMacroDetail('${name}','${val.trim()}',${chg})"><td class="wh">${name}</td><td class="${cls(chg)} bold">${val}</td><td class="${cls(chg)}" style="font-size:10px">${chg?((chg>=0?'+':'')+chg.toFixed(2)):'--'}</td></tr>`);
       }
     });
   }
@@ -1477,6 +1503,9 @@ async function initUS() {
       const existing = new Set(_acSymbols.map(s=>s.sym));
       popular.forEach(p => { if(!existing.has(p.sym)) _acSymbols.push(p); });
     }
+    _fgData = fg;
+    _macroData = data;
+    _fredData = fred;
     renderFG(fg);
     renderSentiment(sent);
     renderMacro(data, fred);
@@ -1550,6 +1579,7 @@ const SUPABASE_URL = 'https://vvrtmvgtgckvmyvvnsxv.supabase.co';
 const SUPABASE_ANON = 'sb_publishable_dyUI3M5vu9MlagONon_ETQ_m1LIYuwN';
 let _chart = null, _candleSeries = null, _volumeSeries = null, _currentSymbol = '';
 let _stockDataMap = {}, _sparkDataMap = {};
+let _fgData = null, _macroData = null, _fredData = null;
 
 function calcEMA(closes, period) {
   const k = 2 / (period + 1);
@@ -1643,6 +1673,86 @@ function closeChart() {
   document.getElementById('chartModal').classList.remove('show');
   document.body.style.overflow = '';
   if (_chart) { _chart.remove(); _chart = null; }
+}
+
+function showFGModal() {
+  const fg = _fgData;
+  const modal = document.getElementById('fgModal');
+  const body = document.getElementById('fgModalBody');
+  if (!fg?.length) { body.innerHTML = '<div class="dm">無資料</div>'; modal.classList.add('show'); return; }
+  const latest = fg[fg.length - 1], score = latest.score || 0;
+  const prev = fg.length > 1 ? fg[fg.length - 2] : latest;
+  const delta = score - (prev.score || 0);
+  const label = latest.label || (score <= 25 ? '極度恐懼' : score <= 45 ? '恐懼' : score <= 55 ? '中性' : score <= 75 ? '貪婪' : '極度貪婪');
+  const interpretation = score <= 25 ? '市場極度恐慌，歷史上往往是逢低布局的好時機。但需確認是否有系統性風險。'
+    : score <= 45 ? '市場偏向恐懼，投資人普遍保守。可關注超跌反彈機會。'
+    : score <= 55 ? '市場情緒中性，多空均衡。建議觀望等待方向明確。'
+    : score <= 75 ? '市場偏向貪婪，追漲風險增加。注意獲利了結訊號。'
+    : '市場極度貪婪，泡沫風險升高。歷史上往往是回調前兆，宜保守。';
+
+  body.innerHTML = `
+    <div style="text-align:center;margin-bottom:16px">
+      <div style="font-size:48px;font-weight:700;color:${fgColor(score)}">${score.toFixed(0)}</div>
+      <div style="font-size:14px;color:${fgColor(score)};margin-top:4px">${esc(label)}</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:2px">${delta >= 0 ? '+' : ''}${delta.toFixed(1)} 較昨日</div>
+    </div>
+    <div class="fg-bar-wrap" style="margin-bottom:12px">
+      <div class="fg-track" style="height:10px"><div class="fg-needle" style="left:${score}%;height:16px;top:-3px"></div></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;color:var(--dim);font-size:9px;margin-bottom:16px"><span>0 極度恐懼</span><span>25</span><span>50 中性</span><span>75</span><span>100 極度貪婪</span></div>
+    <div style="background:rgba(255,140,0,.08);border-radius:4px;padding:10px 12px;margin-bottom:16px">
+      <div class="ai-label" style="margin-bottom:4px">解讀</div>
+      <div style="font-family:var(--sans);font-size:12px;line-height:1.6;color:var(--white)">${interpretation}</div>
+    </div>
+    <div style="margin-bottom:8px;color:var(--dim);font-size:10px">近 30 日趨勢</div>
+    <div style="display:flex;gap:2px;align-items:flex-end;height:60px;margin-bottom:4px">
+      ${fg.slice(-30).map(f => `<div title="${f.date || ''}: ${f.score?.toFixed(0)}" style="flex:1;height:${Math.max(3, f.score / 100 * 60)}px;background:${fgColor(f.score)};border-radius:1px;transition:opacity .1s;cursor:default" onmouseenter="this.style.opacity='.7'" onmouseleave="this.style.opacity='1'"></div>`).join('')}
+    </div>
+    <div style="display:flex;justify-content:space-between;color:var(--dim);font-size:9px"><span>${fg.slice(-30)[0]?.date || ''}</span><span>${fg[fg.length - 1]?.date || ''}</span></div>
+  `;
+  modal.classList.add('show');
+}
+
+const MACRO_INFO = {
+  VIX: { full: 'CBOE 波動率指數', desc: '衡量 S&P 500 選擇權隱含波動率，被稱為「恐慌指數」。', levels: 'VIX < 15 低波動（市場平靜）\nVIX 15-25 正常區間\nVIX 25-35 高波動（市場緊張）\nVIX > 35 極高波動（恐慌）', tip: '當 VIX 急升時，通常對應市場急跌；反之 VIX 低檔可能暗示自滿。' },
+  DXY: { full: '美元指數', desc: '追蹤美元對一籃子六國貨幣的匯率強弱。', levels: 'DXY > 105 美元強勢（壓制新興市場與商品）\nDXY 95-105 正常區間\nDXY < 95 美元弱勢（利好商品與新興市場）', tip: '美元走強往往壓制以美元計價的大宗商品和海外盈利。' },
+  '10Y': { full: '美國 10 年期公債殖利率', desc: '全球資產定價之錨，影響股票估值和房貸利率。', levels: '> 5% 極高（嚴重壓制股票估值）\n4-5% 偏高（成長股承壓）\n3-4% 中性\n< 3% 偏低（利好成長股）', tip: '殖利率上升時，高估值成長股最先受壓；殖利率下降通常利好科技股。' },
+  'GDP': { full: 'GDP 年增率', desc: '衡量經濟整體產出增速，是判斷景氣循環的核心指標。', levels: '> 3% 經濟擴張\n1-3% 溫和成長\n0-1% 趨緩\n< 0% 衰退', tip: 'GDP 數據為落後指標，公布時市場通常已反映預期。關注預期差。' },
+  'CPI': { full: '消費者物價指數年增率', desc: '衡量通膨水準，是 Fed 決策的核心參考。', levels: '> 4% 高通膨（Fed 鷹派）\n2-4% 正常偏高\n< 2% 通膨受控（Fed 有降息空間）', tip: '核心 CPI（排除食品能源）比整體 CPI 更受 Fed 重視。' },
+  'Unemployment': { full: '失業率', desc: '勞動市場健康度指標，影響消費和 Fed 政策。', levels: '< 4% 充分就業\n4-5% 正常\n5-7% 就業市場疲軟\n> 7% 嚴重衰退', tip: '失業率是落後指標。初領失業金人數（weekly jobless claims）更即時。' },
+  'Fed Rate': { full: '聯邦基金利率', desc: 'Fed 的政策利率，影響所有借貸成本和資產估值。', levels: '> 5% 限制性（壓制經濟）\n3-5% 中性偏緊\n1-3% 寬鬆\n< 1% 極度寬鬆', tip: '市場關注的是利率方向（升/降息預期），而非絕對水準。' },
+};
+
+function showMacroDetail(name, value, change) {
+  const modal = document.getElementById('macroModal');
+  const body = document.getElementById('macroModalBody');
+  const title = document.getElementById('macroModalTitle');
+
+  // Match key
+  let info = null;
+  for (const [k, v] of Object.entries(MACRO_INFO)) {
+    if (name.includes(k)) { info = v; break; }
+  }
+
+  title.textContent = info?.full || name;
+  body.innerHTML = `
+    <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:16px">
+      <span style="font-size:32px;font-weight:700;color:var(--white)">${value}</span>
+      <span class="${cls(change)}" style="font-size:14px">${change != null ? (change >= 0 ? '+' : '') + (typeof change === 'number' ? change.toFixed(2) : change) + '%' : ''}</span>
+    </div>
+    ${info ? `
+    <div style="margin-bottom:12px;font-family:var(--sans);font-size:12px;line-height:1.6;color:var(--muted)">${info.desc}</div>
+    <div style="background:rgba(255,140,0,.08);border-radius:4px;padding:10px 12px;margin-bottom:12px">
+      <div class="ai-label" style="margin-bottom:4px">區間判讀</div>
+      <pre style="font-family:var(--mono);font-size:11px;color:var(--white);white-space:pre-wrap;margin:0">${info.levels}</pre>
+    </div>
+    <div style="background:rgba(0,229,255,.06);border-radius:4px;padding:10px 12px">
+      <div style="color:var(--cyan);font-size:9px;font-weight:700;letter-spacing:1px;margin-bottom:4px">操作提示</div>
+      <div style="font-family:var(--sans);font-size:12px;line-height:1.6;color:var(--white)">${info.tip}</div>
+    </div>
+    ` : '<div class="dm">暫無該指標的詳細解讀資料</div>'}
+  `;
+  modal.classList.add('show');
 }
 
 async function loadChartData(symbol, range) {
