@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════
    Market Intel — Shared Utilities
-   Used by: terminal.html, signals.html, index.html
+   Used by: terminal.html, index.html
    ═══════════════════════════════════════════════════════ */
 
 // ── Data Loading ──
@@ -35,7 +35,7 @@ function renderNav() {
   const links = [
     { href: 'index.html', label: '儀表板', icon: '📊' },
     { href: 'terminal.html', label: '終端', icon: '💻' },
-    { href: 'signals.html', label: '訊號', icon: '📡' },
+    /* signals.html removed — AI訊號 tab merged into terminal.html */
   ];
   const nav = document.createElement('nav');
   nav.className = 'mi-nav';

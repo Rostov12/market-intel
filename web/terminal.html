@@ -170,7 +170,7 @@ a:hover { text-decoration:underline; }
 /* ═══════ Tooltip ═══════ */
 .tip-wrap { position:relative; cursor:pointer; }
 .tip-pop { display:none; position:absolute; z-index:300; left:0; top:100%; min-width:260px; max-width:360px; background:#0d1117; border:1px solid var(--orange-dim); border-radius:6px; padding:10px 12px; box-shadow:0 8px 24px rgba(0,0,0,.85); font-size:11px; line-height:1.5; opacity:1 !important; }
-.tip-wrap:hover .tip-pop { display:block; }
+/* hover popup disabled — info integrated into K-line chart modal */
 .tip-pop .tip-row { display:flex; justify-content:space-between; padding:2px 0; }
 .tip-pop .tip-label { color:var(--dim); }
 .tip-pop .tip-val { font-weight:700; }
@@ -199,7 +199,16 @@ a:hover { text-decoration:underline; }
 /* ═══════ K-Line Chart Modal ═══════ */
 .chart-modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:500; background:rgba(0,0,0,.7); backdrop-filter:blur(4px); }
 .chart-modal.show { display:flex; align-items:center; justify-content:center; }
-.chart-box { background:#0d1117; border:1px solid var(--orange-dim); border-radius:8px; width:90vw; max-width:900px; height:70vh; max-height:600px; display:flex; flex-direction:column; box-shadow:0 16px 48px rgba(0,0,0,.8); }
+.chart-box { background:#0d1117; border:1px solid var(--orange-dim); border-radius:8px; width:95vw; max-width:1200px; height:80vh; max-height:700px; display:flex; flex-direction:column; box-shadow:0 16px 48px rgba(0,0,0,.8); }
+.chart-content { display:flex; flex:1; overflow:hidden; }
+.chart-info { width:280px; border-left:1px solid var(--border); padding:10px 12px; overflow-y:auto; font-size:11px; line-height:1.5; }
+.chart-info .ci-row { display:flex; justify-content:space-between; padding:2px 0; }
+.chart-info .ci-label { color:var(--dim); }
+.chart-info .ci-val { font-weight:700; }
+.chart-info .ci-divider { border-top:1px solid var(--border); margin:6px 0; }
+.chart-info .ci-spark { text-align:center; margin:4px 0 8px; }
+.chart-info .ci-ai { margin-top:6px; padding:6px 8px; background:rgba(255,140,0,.08); border-radius:4px; }
+.sig-detail.show { display:block !important; }
 .chart-header { display:flex; justify-content:space-between; align-items:center; padding:8px 14px; border-bottom:1px solid var(--border); }
 .chart-title { font-weight:700; color:var(--amber); font-size:14px; }
 .chart-close { background:none; border:none; color:var(--muted); font-size:18px; cursor:pointer; padding:4px 8px; }
@@ -208,7 +217,7 @@ a:hover { text-decoration:underline; }
 .chart-range { display:flex; gap:4px; }
 .chart-range button { background:transparent; border:1px solid var(--border); color:var(--muted); font-size:9px; padding:2px 8px; cursor:pointer; border-radius:2px; font-family:var(--mono); }
 .chart-range button.active { border-color:var(--orange); color:var(--orange); }
-@media(max-width:600px) { .chart-box { width:98vw; height:60vh; } }
+@media(max-width:600px) { .chart-box { width:98vw; height:85vh; } .chart-content { flex-direction:column; } .chart-info { width:100%; max-height:200px; border-left:none; border-top:1px solid var(--border); } }
 </style>
 </head>
 <body>
@@ -415,7 +424,10 @@ a:hover { text-decoration:underline; }
       </div>
       <button class="chart-close" onclick="closeChart()">&times;</button>
     </div>
-    <div class="chart-body" id="chartContainer"></div>
+    <div class="chart-content">
+      <div class="chart-body" id="chartContainer"></div>
+      <div class="chart-info" id="chartInfo"><div class="dm" style="padding:8px">點擊個股查看詳細資訊</div></div>
+    </div>
   </div>
 </div>
 
@@ -558,6 +570,7 @@ function renderIndices(data) {
   const indices = data.indices || [];
   const sp = data.sparklines || {};
   if (!indices.length) { document.getElementById('usIndices').innerHTML='<div class="dm">無資料</div>'; return; }
+  indices.forEach(i => { _stockDataMap[i.symbol]=i; _sparkDataMap[i.symbol]=sp[i.symbol]||[]; });
   document.getElementById('usIndices').innerHTML = `
     <table class="dt"><thead><tr><th>指數</th><th>走勢</th><th>收盤</th><th>漲跌點</th><th>漲跌幅</th><th>RSI</th><th>趨勢</th></tr></thead><tbody>
     ${indices.map(i => {
@@ -568,7 +581,7 @@ function renderIndices(data) {
       const rsi = i.rsi_12||i.rsi_6||null;
       const rsiCls = rsi!=null?(rsi<30?'up':rsi>70?'dn':'nt'):'dm';
       const spark = sp[i.symbol] || [];
-      return `<tr class="tip-wrap">
+      return `<tr style="cursor:pointer" onclick="openChart('${i.symbol}','${esc(i.name||i.symbol?.replace('^','')||'')}')">
       <td class="amb bold">${i.name||i.symbol?.replace('^','')||''}</td>
       <td>${miniSpark(spark,80,18)}</td>
       <td class="wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</td>
@@ -597,6 +610,7 @@ function renderWatchlistHeatmap(data) {
   // Group by category
   const cats = {};
   items.forEach(w => { const cat=w.category||'其他'; if(!cats[cat]) cats[cat]=[]; cats[cat].push(w); });
+  items.forEach(w => { _stockDataMap[w.symbol]=w; _sparkDataMap[w.symbol]=sp[w.symbol]||[]; });
   const catOrder = ['科技','核能','原物料','板塊輪動','避險','加密','其他'];
   const sortedCats = Object.keys(cats).sort((a,b)=>(catOrder.indexOf(a)===-1?99:catOrder.indexOf(a))-(catOrder.indexOf(b)===-1?99:catOrder.indexOf(b)));
   let hmHTML = '';
@@ -1035,6 +1049,7 @@ function renderTW(data, inst, news) {
   // TW Stocks heatmap with tooltips
   const twSp = data.sparklines || {};
   const tw = data.tw_stocks||[];
+  tw.forEach(s => { const code=(s.symbol||'').replace('.TW','').replace('.TWO',''); _stockDataMap[code]=s; _sparkDataMap[code]=twSp[s.symbol]||[]; });
   if(tw.length) {
     document.getElementById('twHeatmap').innerHTML = `<div class="hm-grid">${tw.map(s => {
       const chg=s.change_pct||0;
@@ -1139,6 +1154,7 @@ function renderCrypto(data, cryptoNews, gridBot, regime, alerts) {
   // Prices with sparklines
   const sp = data.sparklines || {};
   const cryptos = (data.watchlist||[]).filter(w=>w.symbol?.includes('-USD'));
+  cryptos.forEach(c => { const sym=c.symbol?.replace('-USD','')||''; _stockDataMap[sym]=c; _sparkDataMap[sym]=sp[c.symbol]||[]; });
   if(cryptos.length) {
     document.getElementById('crPrices').innerHTML = `
       <table class="dt"><thead><tr><th>幣種</th><th>走勢</th><th>價格</th><th>漲跌</th><th>RSI</th><th>趨勢</th></tr></thead><tbody>
@@ -1147,8 +1163,9 @@ function renderCrypto(data, cryptoNews, gridBot, regime, alerts) {
         const rsi = c.rsi_12||c.rsi_6||null;
         const trend = c.trend||'';
         const tCls = trend.includes('多')?'up':trend.includes('空')?'dn':'nt';
-        return `<tr class="tip-wrap">
-        <td class="amb bold">${c.symbol?.replace('-USD','')||''}</td>
+        const coin = c.symbol?.replace('-USD','')||'';
+        return `<tr style="cursor:pointer" onclick="openChart('${coin}','${coin}')">
+        <td class="amb bold">${coin}</td>
         <td>${miniSpark(spark,70,16)}</td>
         <td class="wh bold">${(c.price||c.close)?.toLocaleString(undefined,{maximumFractionDigits:(c.price||c.close)>100?0:2})||'--'}</td>
         <td class="${cls(c.change_pct)} bold">${pct(c.change_pct)}</td>
@@ -1254,53 +1271,124 @@ function renderFundingArb(data) {
 }
 
 // ── Signals Tab ──
+function isAHKSignal(s) {
+  const id = (s.id||'').toUpperCase();
+  if (/^(SH|SZ)\d/.test(id)) return true;
+  if (/^HK\d/.test(id)) return true;
+  const title = (s.title||'')+(s.summary||'');
+  if (filterCNHK(title)) return true;
+  const tickers = s.impact_tickers||[];
+  if (tickers.length && tickers.every(t => /^\d{5,6}$/.test(t.ticker))) return true;
+  return false;
+}
+
+const _indicatorInfo = {
+  'RSI (14, 30/70)': 'RSI 相對強弱指標：14 週期計算，RSI<30 超賣買入、RSI>70 超買賣出。適合震盪市場的反轉交易。',
+  'Triple EMA + RSI': '三重指數均線（EMA 9/21/55）排列方向判斷趨勢，搭配 RSI 過濾假信號。趨勢跟蹤型策略。',
+  'EMA Cross (9/21)': 'EMA 9 與 EMA 21 黃金/死亡交叉。短線趨勢跟蹤策略，反應快但假信號多。',
+  'Ichimoku Cloud': '一目均衡表：雲層判斷趨勢、TK 線交叉進出場。日線以上效果較佳，多維度綜合指標。',
+  'Bollinger Bounce': '布林通道反彈策略：價格觸及下軌買入、觸及上軌賣出。適合區間震盪行情。',
+  'MACD Cross': 'MACD 指標交叉策略：MACD 線上穿信號線做多、下穿做空。趨勢確認型指標。',
+  'Stochastic (14,3)': '隨機指標：14 週期 K 值與 3 週期 D 值交叉，超賣區(<20)買入、超買區(>80)賣出。',
+  'Supertrend': '超級趨勢線：基於 ATR 波動率的動態支撐/阻力線。趨勢跟蹤型，止損明確。',
+};
+
 async function renderSignals() {
-  const [deepear, tracker, bt] = await Promise.all([fj('deepear-signals.json'), fj('signal-tracker.json'), fj('indicator-backtest.json')]);
+  const [deepear, tracker, bt, mktNews, crNews] = await Promise.all([
+    fj('deepear-signals.json'), fj('signal-tracker.json'), fj('indicator-backtest.json'),
+    fj('market-news-today.json'), fj('crypto-news-today.json'),
+  ]);
 
-  // DeepEar
+  // DeepEar — filter out A-stock / HK-stock
+  const deEl = document.getElementById('sigDeepear');
+  let deHtml = '';
   if(deepear?.signals) {
-    document.getElementById('sigCountTag').textContent = deepear.signals.length+' 訊號';
-    document.getElementById('sigDeepear').innerHTML = deepear.signals.map(s => {
-      const conf=s.confidence||0;
-      const c=conf>=.7?'up':conf>=.4?'org':'dn';
-      return `<div class="row-item" style="padding:4px 2px">
-        <span class="${c} bold" style="min-width:28px;text-align:right">${(conf*100).toFixed(0)}</span>
-        <span style="flex:1"><div class="wh" style="font-size:11px">${esc(s.title||s.id)}</div><div class="dm" style="font-size:9px">${esc((s.summary||'').slice(0,100))}</div></span>
-        <span class="badge ${conf>=.7?'badge-up':conf>=.4?'badge-org':'badge-dn'}">${conf>=.7?'高':conf>=.4?'中':'低'}</span>
-      </div>`;
-    }).join('');
+    const filtered = deepear.signals.filter(s => !isAHKSignal(s));
+    document.getElementById('sigCountTag').textContent = filtered.length+' 訊號';
+    if(filtered.length) {
+      deHtml += filtered.map(s => {
+        const conf=s.confidence||0;
+        const c=conf>=.7?'up':conf>=.4?'org':'dn';
+        return `<div class="row-item" style="padding:4px 2px">
+          <span class="${c} bold" style="min-width:28px;text-align:right">${(conf*100).toFixed(0)}</span>
+          <span style="flex:1"><div class="wh" style="font-size:11px">${esc(s.title||s.id)}</div><div class="dm" style="font-size:9px">${esc((s.summary||'').slice(0,100))}</div></span>
+          <span class="badge ${conf>=.7?'badge-up':conf>=.4?'badge-org':'badge-dn'}">${conf>=.7?'高':conf>=.4?'中':'低'}</span>
+        </div>`;
+      }).join('');
+    }
   }
+  // Supplement with market news (US/TW/crypto)
+  const newsItems = [];
+  if(mktNews) {
+    const items = Array.isArray(mktNews)?mktNews:mktNews.items||mktNews.news||[];
+    items.filter(n => !filterCNHK(n.title||'')).slice(0,8).forEach(n => newsItems.push(n));
+  }
+  if(crNews) {
+    const items = Array.isArray(crNews)?crNews:crNews.items||crNews.news||[];
+    items.filter(n => !filterCNHK(n.title||'')).slice(0,4).forEach(n => newsItems.push(n));
+  }
+  if(newsItems.length) {
+    deHtml += `<div style="border-top:1px solid var(--border);margin-top:6px;padding-top:6px"><div class="dm" style="font-size:9px;margin-bottom:4px">📰 市場快訊</div>`;
+    deHtml += newsItems.slice(0,10).map(n =>
+      `<div class="row-item"><span class="badge badge-org" style="min-width:40px;font-size:8px">${esc((n.source||'').slice(0,6))}</span><span class="wh" style="flex:1;font-size:10px">${esc(n.title)}</span></div>`
+    ).join('') + '</div>';
+  }
+  deEl.innerHTML = deHtml || '<div class="dm">無訊號</div>';
 
-  // Tracker
+  // Tracker — sorted by confidence, clickable for reasoning
   if(tracker?.signals) {
+    const sorted = [...tracker.signals].sort((a,b) => (b.confidence||0) - (a.confidence||0));
     const header = '<div style="display:grid;grid-template-columns:70px 1fr 50px 80px;gap:4px;padding:2px 4px;font-size:9px;color:var(--dim)"><span>代碼</span><span>名稱</span><span>信心度</span><span>狀態</span></div>';
-    document.getElementById('sigTracker').innerHTML = header + tracker.signals.map(s => {
+    document.getElementById('sigTracker').innerHTML = header + sorted.map((s,idx) => {
       const conf=s.confidence||0;
       const hist=s.evolution_history||[];
       const evo=hist.length?hist[hist.length-1].evolution:'unchanged';
       const ec=evo==='strengthened'?'up':evo==='weakened'?'org':evo==='falsified'?'dn':'nt';
       const cc=conf>=.7?'up':conf>=.4?'org':'dn';
-      return `<div style="display:grid;grid-template-columns:70px 1fr 50px 80px;gap:4px;padding:2px 4px;border-bottom:1px solid rgba(30,37,48,.3);font-size:11px">
-        <span class="amb bold">${s.ticker}</span><span class="dm">${s.name||''}</span><span class="${cc} bold">${(conf*100).toFixed(0)}%</span><span class="badge badge-${ec==='up'?'up':ec==='dn'?'dn':'nt'}">${({strengthened:'增強',weakened:'減弱',falsified:'失效',unchanged:'不變'})[evo]||evo}</span>
+      const evoLabel = ({strengthened:'增強',weakened:'減弱',falsified:'失效',unchanged:'不變'})[evo]||evo;
+      const reasoning = s.thesis||s.reasoning||'';
+      const lastEvo = hist.length ? hist[hist.length-1] : null;
+      const evoReason = lastEvo?.reason||lastEvo?.reasoning||'';
+      const hasDetail = reasoning || evoReason;
+      return `<div style="cursor:${hasDetail?'pointer':'default'}" onclick="this.querySelector('.sig-detail')?.classList.toggle('show')">
+        <div style="display:grid;grid-template-columns:70px 1fr 50px 80px;gap:4px;padding:2px 4px;border-bottom:1px solid rgba(30,37,48,.3);font-size:11px">
+          <span class="amb bold">${s.ticker}</span><span class="dm">${s.name||''} ${s.direction==='long'?'🟢':s.direction==='short'?'🔴':''}</span><span class="${cc} bold">${(conf*100).toFixed(0)}%</span><span class="badge badge-${ec==='up'?'up':ec==='dn'?'dn':'nt'}">${evoLabel}</span>
+        </div>
+        ${hasDetail?`<div class="sig-detail" style="display:none;padding:4px 8px 6px;font-size:10px;background:rgba(255,140,0,.04);border-bottom:1px solid var(--border)">
+          ${reasoning?`<div style="margin-bottom:3px"><span class="org" style="font-size:9px">投資論點：</span><span class="wh">${esc(reasoning.slice(0,300))}</span></div>`:''}
+          ${evoReason?`<div><span class="dm" style="font-size:9px">最新演變：</span><span class="wh">${esc(evoReason.slice(0,200))}</span></div>`:''}
+        </div>`:''}
       </div>`;
     }).join('');
   }
 
-  // Backtest
+  // Backtest — with tooltips and clickable indicators
   if(bt?.ranking) {
     document.getElementById('btTag').textContent = `${bt.symbol||'BTC-USD'} ${bt.period||'2Y'}`;
-    const header = '<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:2px 4px;font-size:9px;color:var(--dim)"><span>#</span><span>指標</span><span>交易</span><span>勝率</span><span>風報比</span><span>期望值</span><span>報酬</span></div>';
-    document.getElementById('sigBacktest').innerHTML = header + bt.ranking.map(r =>
-      `<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:3px 4px;border-bottom:1px solid rgba(30,37,48,.3);font-size:11px">
+    const header = `<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:2px 4px;font-size:9px;color:var(--dim)">
+      <span>#</span>
+      <span>指標</span>
+      <span title="回測期間內觸發的總交易次數">交易</span>
+      <span title="盈利交易占總交易的百分比。50%以上為佳">勝率</span>
+      <span title="平均盈利 ÷ 平均虧損。>1 表示贏的比輸的多">風報比</span>
+      <span title="每筆交易的期望獲利百分比。正值=長期有利可圖">期望值</span>
+      <span title="回測期間總報酬率（含所有交易損益）">報酬</span>
+    </div>`;
+    document.getElementById('sigBacktest').innerHTML = header + bt.ranking.map(r => {
+      const info = _indicatorInfo[r.name] || '';
+      const nameHtml = info
+        ? `<span class="amb" style="cursor:pointer;border-bottom:1px dashed var(--dim)" onclick="event.stopPropagation();const d=this.nextElementSibling;d.style.display=d.style.display==='none'?'block':'none'">${r.name}</span><div style="display:none;font-size:9px;color:var(--muted);padding:2px 0;grid-column:span 7">${esc(info)}</div>`
+        : `<span class="amb">${r.name}</span>`;
+      return `<div style="display:grid;grid-template-columns:22px 1fr 45px 45px 45px 50px 55px;gap:3px;padding:3px 4px;border-bottom:1px solid rgba(30,37,48,.3);font-size:11px">
         <span class="dm">${r.rank}</span>
-        <span class="amb">${r.name}</span>
+        ${nameHtml}
         <span>${r.total_trades}</span>
         <span>${r.win_rate}%</span>
         <span>${r.risk_reward_ratio}</span>
         <span class="${r.expectancy>0?'up':'dn'} bold">${r.expectancy>0?'+':''}${r.expectancy}</span>
         <span class="${r.total_return_pct>0?'up':'dn'}">${r.total_return_pct>0?'+':''}${r.total_return_pct}%</span>
-      </div>`
-    ).join('');
+      </div>`;
+    }).join('');
   }
 }
 
@@ -1456,14 +1544,79 @@ setInterval(refreshAll, 300000); // 5 min
 const SUPABASE_URL = 'https://vvrtmvgtgckvmyvvnsxv.supabase.co';
 const SUPABASE_ANON = 'sb_publishable_dyUI3M5vu9MlagONon_ETQ_m1LIYuwN';
 let _chart = null, _candleSeries = null, _volumeSeries = null, _currentSymbol = '';
+let _stockDataMap = {}, _sparkDataMap = {};
+
+function calcEMA(closes, period) {
+  const k = 2 / (period + 1);
+  const result = [closes[0]];
+  for (let i = 1; i < closes.length; i++) {
+    result.push(closes[i] * k + result[i-1] * (1 - k));
+  }
+  return result;
+}
+
+function renderChartInfo(symbol, name) {
+  const el = document.getElementById('chartInfo');
+  const d = _stockDataMap[symbol];
+  const spark = (_sparkDataMap[symbol] || []).slice(-7);
+  if (!d) { el.innerHTML = '<div class="dm" style="padding:8px">無詳細資料</div>'; return; }
+  const chg = d.change_pct||0;
+  const price = d.price||d.close||0;
+  const c = cls(chg);
+  const trend = d.trend||'';
+  const tCls = trend.includes('多')?'up':trend.includes('空')?'dn':'nt';
+  const rsi = d.rsi_12||d.rsi_6||null;
+  const rsiCls = rsi!=null?(rsi<30?'up':rsi>70?'dn':'nt'):'dm';
+  let aiAdvice='', aiCls='dm';
+  const rsiVal = rsi||50;
+  const macd = d.macd_signal||'';
+  const w52 = d.w52_pos||50;
+  if(rsiVal<30&&macd.includes('金叉')){aiAdvice='超賣反彈機會，留意進場';aiCls='up';}
+  else if(rsiVal<35&&w52<20){aiAdvice='低位區間，逢低布局';aiCls='up';}
+  else if(rsiVal>70&&macd.includes('死叉')){aiAdvice='超買警戒，宜減碼';aiCls='dn';}
+  else if(rsiVal>65&&w52>85){aiAdvice='高位震盪，注意回檔風險';aiCls='dn';}
+  else if(trend.includes('多')&&chg>0){aiAdvice='多頭趨勢持續，順勢持有';aiCls='up';}
+  else if(trend.includes('空')&&chg<0){aiAdvice='空頭趨勢，觀望為宜';aiCls='dn';}
+  else{aiAdvice='盤整區間，等待方向確認';aiCls='dm';}
+  const chgPt = price * chg / 100;
+  el.innerHTML = `
+    <div style="font-weight:700;color:var(--amber);margin-bottom:2px;font-size:13px">${esc(name||d.name||symbol)}</div>
+    <div style="font-size:9px;color:var(--dim);margin-bottom:6px">${symbol}</div>
+    ${spark.length>=2?`<div class="ci-spark">${miniSpark(spark,240,36)}<div class="dm" style="font-size:9px">7日走勢</div></div>`:''}
+    <div class="ci-row"><span class="ci-label">最新價</span><span class="ci-val wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>
+    <div class="ci-row"><span class="ci-label">漲跌點</span><span class="ci-val ${c}">${chgPt>=0?'+':''}${chgPt.toFixed(2)}</span></div>
+    <div class="ci-row"><span class="ci-label">漲跌幅</span><span class="ci-val ${c}">${pct(chg)}</span></div>
+    <div class="ci-divider"></div>
+    <div class="ci-row"><span class="ci-label">趨勢</span><span class="ci-val ${tCls}">${esc(trend)}</span></div>
+    <div class="ci-row"><span class="ci-label">RSI</span><span class="ci-val ${rsiCls}">${rsi!=null?rsi.toFixed(1)+(d.rsi_status?' '+d.rsi_status:''):'--'}</span></div>
+    <div class="ci-row"><span class="ci-label">MA5 偏離</span><span class="ci-val ${cls(d.bias_ma5)}">${pct(d.bias_ma5)}</span></div>
+    ${d.ma5?`<div class="ci-row"><span class="ci-label">MA5</span><span class="ci-val">${d.ma5.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>`:''}
+    ${d.ma20?`<div class="ci-row"><span class="ci-label">MA20</span><span class="ci-val">${d.ma20.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>`:''}
+    <div class="ci-row"><span class="ci-label">MACD</span><span class="ci-val">${esc(macd)} (BAR ${d.macd_bar?.toFixed(1)||'--'})</span></div>
+    <div class="ci-divider"></div>
+    ${d.w52_low!=null?`<div class="ci-row"><span class="ci-label">52週區間</span><span class="ci-val">${d.w52_low?.toLocaleString()} ~ ${d.w52_high?.toLocaleString()}</span></div>`:''}
+    ${d.w52_pos!=null?`<div class="ci-row"><span class="ci-label">52週位置</span><span class="ci-val">${d.w52_pos}%</span></div>`:''}
+    <div class="ci-row"><span class="ci-label">量比</span><span class="ci-val">${d.volume_ratio?.toFixed(2)||'--'}</span></div>
+    ${d.category?`<div class="ci-row"><span class="ci-label">類別</span><span class="ci-val org">${esc(d.category)}</span></div>`:''}
+    ${d.next_earnings?`<div class="ci-row"><span class="ci-label">下次財報</span><span class="ci-val cyn">${d.next_earnings}</span></div>`:''}
+    ${d.ex_dividend?`<div class="ci-row"><span class="ci-label">除息日</span><span class="ci-val prp">${d.ex_dividend}</span></div>`:''}
+    <div class="ci-ai">
+      <div style="font-size:9px;color:var(--orange);margin-bottom:2px">📊 AI 操盤建議</div>
+      <div class="${aiCls}" style="font-size:10px">${aiAdvice}</div>
+    </div>
+    <div style="margin-top:8px;text-align:center">
+      <a href="https://rostov12.github.io/stock-analyzer/#${symbol}" target="_blank" style="color:var(--cyan);text-decoration:none;font-size:10px">智慧分析 →</a>
+    </div>
+  `;
+}
 
 async function openChart(symbol, name) {
   _currentSymbol = symbol;
   document.getElementById('chartSymbol').textContent = `${name || symbol} — K 線圖`;
   document.getElementById('chartModal').classList.add('show');
   document.body.style.overflow = 'hidden';
-  // Set active range button
   document.querySelectorAll('.chart-range button').forEach(b => b.classList.toggle('active', b.dataset.range === '6mo'));
+  renderChartInfo(symbol, name);
   await loadChartData(symbol, '6mo');
 }
 
@@ -1547,6 +1700,17 @@ async function loadChartData(symbol, range) {
     value: d.volume,
     color: +d.close >= +d.open ? 'rgba(0,210,106,.3)' : 'rgba(255,59,48,.3)',
   })));
+
+  // EMA 12/26
+  if (data.length > 26) {
+    const closes = data.map(d => +d.close);
+    const ema12 = calcEMA(closes, 12);
+    const ema26 = calcEMA(closes, 26);
+    const ema12Series = _chart.addLineSeries({ color: '#f59e0b', lineWidth: 1, title: 'EMA12' });
+    const ema26Series = _chart.addLineSeries({ color: '#8b5cf6', lineWidth: 1, title: 'EMA26' });
+    ema12Series.setData(data.map((d,i) => ({ time: d.date, value: ema12[i] })));
+    ema26Series.setData(data.map((d,i) => ({ time: d.date, value: ema26[i] })));
+  }
 
   _chart.timeScale().fitContent();
 
