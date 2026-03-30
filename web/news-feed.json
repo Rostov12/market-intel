@@ -1,6 +1,6 @@
 {
   "date": "2026-03-30",
-  "fetched_at": "2026-03-30 22:30",
+  "fetched_at": "2026-03-30 23:00",
   "mode": "intraday",
   "news": [
     {
@@ -8,18 +8,6 @@
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "川普稱美國將摧毀伊朗油井和哈爾格島，但未達成協議「立即」重新開放霍爾木茲海峽"
-    },
-    {
-      "title": "Russia welcomes arrival of oil tanker in Cuba after Trump softens approach to U.S. blockade",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "在川普軟化對美國封鎖的態度後，俄羅斯歡迎油輪抵達古巴"
-    },
-    {
-      "title": "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "據報道，川普希望“奪取伊朗的石油”，因為德黑蘭瞄準了科威特的水和電力設施"
     },
     {
       "title": "401(k) alternative asset rule proposed by Labor Department",
@@ -34,22 +22,33 @@
       "title_cn": "觀看聯準會主席鮑威爾在哈佛大學經濟學課的現場演講"
     },
     {
-      "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Netflix, Carnival, Expedia, CrowdStrike, Meta, Seagate & more",
+      "title": "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "伊朗對鋁生產商的襲擊給金屬市場帶來“衝擊波”"
+    },
+    {
+      "title": "Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "以下是周一最大的分析師電話會議：Nvidia、Apple、Netflix、Carnival、Expedia、CrowdStrike、Meta、Seagate 等"
+      "title_cn": "據報道，川普希望“奪取伊朗的石油”，因為德黑蘭瞄準了科威特的水和電力設施"
     },
     {
-      "title": "I&#x2019;m 75 and retired. Should I put my life savings into CDs or hire a financial adviser to help?",
+      "title": "There may be more losses ahead for the S&P 500. Trading another pullback with options",
       "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "我今年 75 歲了，已經退休了。我應該將畢生積蓄存入定期存款還是聘請財務顧問來提供協助？"
+      "source": "CNBC"
     },
     {
-      "title": "Why Oracle&#x2019;s stock may be a &#x2018;go-to&#x2019; AI winner that investors are overlooking",
+      "title": "Powell says risks to economy suggest rates could go lower or higher",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "為什麼甲骨文的股票可能是「首選」股票？投資者忽視的人工智慧贏家"
+      "title_cn": "鮑威爾表示經濟面臨的風險顯示利率可能會走低或走高"
+    },
+    {
+      "title": "These stocks are surging as the next hot play on the Iran war",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "這些股票正在飆升，成為伊朗戰爭的下一個熱點"
     }
   ]
 }
