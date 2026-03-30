@@ -8,21 +8,8 @@
       "entry_price": 9.55,
       "entry_time": "2026-03-26 15:48:36",
       "size_usdt": 500,
-      "funding_collected": 43.540129,
-      "funding_count": 8
-    },
-    "XRP/USDT:USDT": {
-      "spot_symbol": "XRP/USDT",
-      "contracts": 3.66,
-      "contract_size": 100.0,
-      "amount": 366.0,
-      "entry_price": 1.3642,
-      "entry_time": "2026-03-27 09:11:38",
-      "size_usdt": 500,
-      "spot_order_id": "3424951222122106880",
-      "perp_order_id": "3424951217491595264",
-      "funding_collected": 16.447132,
-      "funding_count": 5
+      "funding_collected": 65.503776,
+      "funding_count": 11
     },
     "DOGE/USDT:USDT": {
       "spot_symbol": "DOGE/USDT",
@@ -34,8 +21,21 @@
       "size_usdt": 500,
       "spot_order_id": "3429613096562384896",
       "perp_order_id": "3429613093408268288",
-      "funding_collected": 0.077979,
-      "funding_count": 4
+      "funding_collected": 0.222395,
+      "funding_count": 7
+    },
+    "ADA/USDT:USDT": {
+      "spot_symbol": "ADA/USDT",
+      "contracts": 20.4,
+      "contract_size": 100.0,
+      "amount": 2039.9999999999998,
+      "entry_price": 0.2449,
+      "entry_time": "2026-03-29 15:47:15",
+      "size_usdt": 500,
+      "spot_order_id": "3431545890230296576",
+      "perp_order_id": "3431545887445278720",
+      "funding_collected": 0.060261,
+      "funding_count": 2
     }
   },
   "history": [
@@ -67,7 +67,25 @@
       "price_pnl_pct": -0.7012,
       "total_funding": 0.028081,
       "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "XRP/USDT",
+      "contracts": 3.66,
+      "contract_size": 100.0,
+      "amount": 366.0,
+      "entry_price": 1.3642,
+      "entry_time": "2026-03-27 09:11:38",
+      "size_usdt": 500,
+      "spot_order_id": "3424951222122106880",
+      "perp_order_id": "3424951217491595264",
+      "funding_collected": 16.420703,
+      "funding_count": 6,
+      "close_time": "2026-03-29 15:47:14",
+      "close_price": 1.3334,
+      "price_pnl_pct": -2.2577,
+      "total_funding": 16.420703,
+      "close_reason": "partial_perp_only"
     }
   ],
-  "total_funding_earned": 0.028081
+  "total_funding_earned": 16.448784
 }

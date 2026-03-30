@@ -59,7 +59,47 @@
       "status": "open"
     },
     {
-      "id": "3430994031627264000",
+      "id": "3433047583803625472",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 0.03015
+    },
+    {
+      "id": "3433047589038116864",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 0.03072
+    },
+    {
+      "id": "3433047594339717120",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 0.03128
+    },
+    {
+      "id": "3433047599842643968",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 0.03
+    },
+    {
+      "id": "3433047605379125248",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "open",
+      "paired_sell": 0.03
+    },
+    {
+      "id": "3433047610714279936",
       "price": 0.03,
       "amount": 1.666667,
       "side": "buy",
@@ -67,45 +107,7 @@
       "paired_sell": 0.03
     }
   ],
-  "sell_orders": [
-    {
-      "id": "3422970290024538112",
-      "price": 0.03015,
-      "amount": 1.758087,
-      "side": "sell",
-      "status": "open"
-    },
-    {
-      "id": "3422970293547753472",
-      "price": 0.03072,
-      "amount": 1.758087,
-      "side": "sell",
-      "status": "open"
-    },
-    {
-      "id": "3422970297070968832",
-      "price": 0.03128,
-      "amount": 1.758087,
-      "side": "sell",
-      "status": "open"
-    },
-    {
-      "id": "3431114871438106624",
-      "price": 0.03,
-      "amount": 1.666667,
-      "side": "sell",
-      "status": "open",
-      "paired_buy": 0.03
-    },
-    {
-      "id": "3431114876941033472",
-      "price": 0.03,
-      "amount": 1.666667,
-      "side": "sell",
-      "status": "open",
-      "paired_buy": 0.03
-    }
-  ],
+  "sell_orders": [],
   "filled_buys": [
     {
       "id": "3422970260093984768",
@@ -148,6 +150,30 @@
     },
     {
       "id": "3430994025990119424",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "filled",
+      "paired_sell": 0.03
+    },
+    {
+      "id": "3430994031627264000",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "filled",
+      "paired_sell": 0.03
+    },
+    {
+      "id": "3431235598808047616",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "buy",
+      "status": "filled",
+      "paired_sell": 0.03
+    },
+    {
+      "id": "3431235604008984576",
       "price": 0.03,
       "amount": 1.666667,
       "side": "buy",
@@ -201,12 +227,73 @@
       "side": "sell",
       "status": "filled",
       "paired_buy": 0.03
+    },
+    {
+      "id": "3431114871438106624",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
+    },
+    {
+      "id": "3431114876941033472",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
+    },
+    {
+      "id": "3422970290024538112",
+      "price": 0.03015,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "filled"
+    },
+    {
+      "id": "3422970293547753472",
+      "price": 0.03072,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "filled"
+    },
+    {
+      "id": "3422970297070968832",
+      "price": 0.03128,
+      "amount": 1.758087,
+      "side": "sell",
+      "status": "filled"
+    },
+    {
+      "id": "3431597973285429248",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
+    },
+    {
+      "id": "3431718755214876672",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
+    },
+    {
+      "id": "3431718760382259200",
+      "price": 0.03,
+      "amount": 1.666667,
+      "side": "sell",
+      "status": "filled",
+      "paired_buy": 0.03
     }
   ],
   "total_profit": 0.0038,
   "mode": "demo",
-  "updated_at": "2026-03-29 12:13:09",
-  "current_price": 0.03007,
-  "last_check": "2026-03-29 12:13:09",
-  "total_filled": 12
+  "updated_at": "2026-03-30 07:13:06",
+  "current_price": 0.03228,
+  "last_check": "2026-03-30 07:13:06",
+  "total_filled": 23
 }

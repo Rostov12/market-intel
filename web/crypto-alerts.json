@@ -178,5 +178,105 @@
     "news": "- [CoinDesk] Here's how bitcoin, Ethereum and other networks are preparing for the looming quantum threat\n- [24/7 Wall St.] Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.",
     "timestamp": "2026-03-29T07:45:10.044757+08:00",
     "epoch": 1774741508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 1964.46,
+    "change_pct": -2.32,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [unchainedcrypto.com] Gnosis, Zisk and Ethereum Foundation Launch Rollup Framework to Fix L2 Fragmentation - unchainedcrypto.com",
+    "timestamp": "2026-03-30T06:45:06.379183+08:00",
+    "epoch": 1774824305
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.51,
+    "change_pct": -2.21,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T06:45:06.547732+08:00",
+    "epoch": 1774824305
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 65024.1,
+    "change_pct": -2.71,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [Fortune] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune\n- [CoinDesk] MSTR may have paused it's BTC accumulation last week - CoinDesk",
+    "timestamp": "2026-03-30T06:50:10.011204+08:00",
+    "epoch": 1774824609
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 597.4,
+    "change_pct": -2.56,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T06:50:10.270147+08:00",
+    "epoch": 1774824609
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 1986.1,
+    "change_pct": 2.91,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
+    "timestamp": "2026-03-30T07:15:09.492521+08:00",
+    "epoch": 1774826108
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.19,
+    "change_pct": 3.33,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T07:15:09.644508+08:00",
+    "epoch": 1774826108
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 66052.8,
+    "change_pct": 2.13,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [Fortune] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
+    "timestamp": "2026-03-30T07:25:06.234415+08:00",
+    "epoch": 1774826705
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 1988.12,
+    "change_pct": 2.91,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
+    "timestamp": "2026-03-30T07:45:09.886463+08:00",
+    "epoch": 1774827908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.56,
+    "change_pct": 3.58,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T07:45:10.048541+08:00",
+    "epoch": 1774827908
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 66063.8,
+    "change_pct": 2.13,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [fortune.com] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - fortune.com\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
+    "timestamp": "2026-03-30T07:55:09.612448+08:00",
+    "epoch": 1774828508
   }
 ]
