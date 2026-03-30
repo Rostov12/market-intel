@@ -1,8 +1,14 @@
 {
-  "date": "2026-03-30",
-  "fetched_at": "2026-03-30 23:30",
+  "date": "2026-03-31",
+  "fetched_at": "2026-03-31 00:00",
   "mode": "intraday",
   "news": [
+    {
+      "title": "Powell sees inflation outlook in check, no wider crisis yet in private credit",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "鮑威爾認為通膨前景受到控制，私人信貸尚未出現更廣泛的危機"
+    },
     {
       "title": "Trump says U.S. will destroy Iran’s oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait",
       "impact": "neutral",
@@ -16,22 +22,16 @@
       "title_cn": "勞工部提出的 401(k) 另類資產規則"
     },
     {
-      "title": "Watch Fed Chair Jerome Powell speak live to an economics class at Harvard",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "觀看聯準會主席鮑威爾在哈佛大學經濟學課的現場演講"
-    },
-    {
       "title": "Bill Ackman says it’s one of the best times in a long time to buy quality stocks",
       "impact": "neutral",
       "source": "CNBC",
       "title_cn": "比爾阿克曼表示，這是長期以來購買優質股票的最佳時機之一"
     },
     {
-      "title": "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
-      "impact": "bearish",
+      "title": "Dow rises 400 points after Trump says U.S. in 'serious' talks to end operation in Iran: Live updates",
+      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "伊朗對鋁生產商的襲擊給金屬市場帶來“衝擊波”"
+      "title_cn": "川普表示美國正在「認真」談判以結束在伊朗的行動，道瓊斯指數上漲 400 點：即時更新"
     },
     {
       "title": "These telecom giants that haven't done too much in recent years just made Josh Brown's list",
@@ -40,16 +40,16 @@
       "title_cn": "這些近年來沒有做太多事情的電信巨頭剛剛進入了喬許布朗的名單"
     },
     {
-      "title": "Fed chief Powell says risks to economy suggest rates could go lower or higher",
+      "title": "&#x2018;It&#x2019;s time to buy Meta.&#x2019; Why Morgan Stanley sees 45% upside for the stock.",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "聯準會主席鮑威爾表示，經濟面臨的風險顯示利率可能會走低或走高"
+      "title_cn": "「是時候購買 Meta 了。」為什麼摩根士丹利認為該股還有 45% 的上漲空間。"
     },
     {
-      "title": "Oil prices set for record monthly surge as Trump threatens to &#x2018;blow up&#x2019; Iran&#x2019;s power plants, oil wells and Kharg Island if no deal reached",
-      "impact": "bullish",
+      "title": "Why spending on streaming services has stalled, even as subscriber numbers grow",
+      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "由於川普威脅要「炸毀」石油，油價創下月度飆升紀錄如果沒有達成協議，伊朗的發電廠、油井和哈格島"
+      "title_cn": "為什麼即使訂閱者數量成長，串流媒體服務支出卻停滯不前"
     }
   ]
 }
