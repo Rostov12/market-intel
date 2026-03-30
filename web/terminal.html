@@ -1560,7 +1560,28 @@ function calcEMA(closes, period) {
   return result;
 }
 
-function renderChartInfo(symbol, name) {
+async function fetchSymbolNews(symbol, d) {
+  const sym = (symbol||'').toUpperCase();
+  const name = (d?.name||'').toLowerCase();
+  try {
+    const [mkt, cr] = await Promise.all([fj('market-news-today.json'), fj('crypto-news-today.json')]);
+    const allNews = [];
+    [mkt, cr].forEach(src => {
+      if(!src) return;
+      const items = Array.isArray(src)?src:src.items||src.news||[];
+      items.forEach(n => {
+        const t = ((n.title||'')+(n.summary||'')).toLowerCase();
+        if(t.includes(sym.toLowerCase()) || (name && t.includes(name))) allNews.push(n);
+      });
+    });
+    if(!allNews.length) return '<div style="margin-top:6px;font-size:9px;color:var(--dim)">暫無相關新聞</div>';
+    return `<div style="margin-top:6px"><div style="font-size:9px;color:var(--dim);margin-bottom:3px">📰 相關新聞</div>${allNews.slice(0,4).map(n =>
+      `<div style="font-size:10px;padding:2px 0;border-bottom:1px solid rgba(30,37,48,.3)"><span class="wh">${esc((n.title||'').slice(0,60))}</span> <span class="dm" style="font-size:8px">${esc((n.time||n.date||'').slice(0,10))}</span></div>`
+    ).join('')}</div>`;
+  } catch { return ''; }
+}
+
+async function renderChartInfo(symbol, name) {
   const el = document.getElementById('chartInfo');
   const d = _stockDataMap[symbol];
   const spark = (_sparkDataMap[symbol] || []).slice(-7);
@@ -1584,33 +1605,26 @@ function renderChartInfo(symbol, name) {
   else if(trend.includes('空')&&chg<0){aiAdvice='空頭趨勢，觀望為宜';aiCls='dn';}
   else{aiAdvice='盤整區間，等待方向確認';aiCls='dm';}
   const chgPt = price * chg / 100;
+  // Fetch related news for this symbol
+  const newsHtml = await fetchSymbolNews(symbol, d);
+
   el.innerHTML = `
     <div style="font-weight:700;color:var(--amber);margin-bottom:2px;font-size:13px">${esc(name||d.name||symbol)}</div>
     <div style="font-size:9px;color:var(--dim);margin-bottom:6px">${symbol}</div>
     ${spark.length>=2?`<div class="ci-spark">${miniSpark(spark,240,36)}<div class="dm" style="font-size:9px">7日走勢</div></div>`:''}
     <div class="ci-row"><span class="ci-label">最新價</span><span class="ci-val wh">${price.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>
-    <div class="ci-row"><span class="ci-label">漲跌點</span><span class="ci-val ${c}">${chgPt>=0?'+':''}${chgPt.toFixed(2)}</span></div>
     <div class="ci-row"><span class="ci-label">漲跌幅</span><span class="ci-val ${c}">${pct(chg)}</span></div>
     <div class="ci-divider"></div>
     <div class="ci-row"><span class="ci-label">趨勢</span><span class="ci-val ${tCls}">${esc(trend)}</span></div>
-    <div class="ci-row"><span class="ci-label">RSI</span><span class="ci-val ${rsiCls}">${rsi!=null?rsi.toFixed(1)+(d.rsi_status?' '+d.rsi_status:''):'--'}</span></div>
-    <div class="ci-row"><span class="ci-label">MA5 偏離</span><span class="ci-val ${cls(d.bias_ma5)}">${pct(d.bias_ma5)}</span></div>
-    ${d.ma5?`<div class="ci-row"><span class="ci-label">MA5</span><span class="ci-val">${d.ma5.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>`:''}
-    ${d.ma20?`<div class="ci-row"><span class="ci-label">MA20</span><span class="ci-val">${d.ma20.toLocaleString(undefined,{maximumFractionDigits:2})}</span></div>`:''}
-    <div class="ci-row"><span class="ci-label">MACD</span><span class="ci-val">${esc(macd)} (BAR ${d.macd_bar?.toFixed(1)||'--'})</span></div>
-    <div class="ci-divider"></div>
-    ${d.w52_low!=null?`<div class="ci-row"><span class="ci-label">52週區間</span><span class="ci-val">${d.w52_low?.toLocaleString()} ~ ${d.w52_high?.toLocaleString()}</span></div>`:''}
-    ${d.w52_pos!=null?`<div class="ci-row"><span class="ci-label">52週位置</span><span class="ci-val">${d.w52_pos}%</span></div>`:''}
-    <div class="ci-row"><span class="ci-label">量比</span><span class="ci-val">${d.volume_ratio?.toFixed(2)||'--'}</span></div>
     ${d.category?`<div class="ci-row"><span class="ci-label">類別</span><span class="ci-val org">${esc(d.category)}</span></div>`:''}
-    ${d.next_earnings?`<div class="ci-row"><span class="ci-label">下次財報</span><span class="ci-val cyn">${d.next_earnings}</span></div>`:''}
-    ${d.ex_dividend?`<div class="ci-row"><span class="ci-label">除息日</span><span class="ci-val prp">${d.ex_dividend}</span></div>`:''}
+    <div class="ci-divider"></div>
     <div class="ci-ai">
       <div style="font-size:9px;color:var(--orange);margin-bottom:2px">📊 AI 操盤建議</div>
       <div class="${aiCls}" style="font-size:10px">${aiAdvice}</div>
     </div>
+    ${newsHtml}
     <div style="margin-top:8px;text-align:center">
-      <a href="https://rostov12.github.io/stock-analyzer/#${symbol}" target="_blank" style="color:var(--cyan);text-decoration:none;font-size:10px">智慧分析 →</a>
+      <a href="https://rostov12.github.io/stock-analyzer/#${encodeURIComponent(symbol)}" target="_blank" style="color:var(--cyan);text-decoration:none;font-size:10px">智慧分析 →</a>
     </div>
   `;
 }
@@ -1675,8 +1689,10 @@ async function loadChartData(symbol, range) {
     layout: { background: { color: '#0d1117' }, textColor: '#8b949e' },
     grid: { vertLines: { color: '#1e2530' }, horzLines: { color: '#1e2530' } },
     crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    handleScale: { mouseWheel: false, pinch: false },
     timeScale: { borderColor: '#1e2530', timeVisible: false },
     rightPriceScale: { borderColor: '#1e2530' },
+    leftPriceScale: { visible: true, borderColor: '#1e2530' },
   });
 
   _candleSeries = _chart.addCandlestickSeries({
@@ -1711,8 +1727,8 @@ async function loadChartData(symbol, range) {
     const closes = data.map(d => +d.close);
     const ema12 = calcEMA(closes, 12);
     const ema26 = calcEMA(closes, 26);
-    const ema12Series = _chart.addLineSeries({ color: '#f59e0b', lineWidth: 1, title: 'EMA12' });
-    const ema26Series = _chart.addLineSeries({ color: '#8b5cf6', lineWidth: 1, title: 'EMA26' });
+    const ema12Series = _chart.addLineSeries({ color: '#f59e0b', lineWidth: 1, title: 'EMA12', priceScaleId: 'left' });
+    const ema26Series = _chart.addLineSeries({ color: '#8b5cf6', lineWidth: 1, title: 'EMA26', priceScaleId: 'left' });
     ema12Series.setData(data.map((d,i) => ({ time: d.date, value: ema12[i] })));
     ema26Series.setData(data.map((d,i) => ({ time: d.date, value: ema26[i] })));
   }
