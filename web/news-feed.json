@@ -1,13 +1,13 @@
 {
   "date": "2026-03-31",
-  "fetched_at": "2026-03-31 00:00",
+  "fetched_at": "2026-03-31 00:30",
   "mode": "intraday",
   "news": [
     {
-      "title": "Powell sees inflation outlook in check, no wider crisis yet in private credit",
-      "impact": "bearish",
+      "title": "Powell sees inflation outlook in check, no need to hike rates because of oil shock",
+      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "鮑威爾認為通膨前景受到控制，私人信貸尚未出現更廣泛的危機"
+      "title_cn": "鮑威爾認為通膨前景受到控制，無需因石油衝擊而升息"
     },
     {
       "title": "Trump says U.S. will destroy Iran’s oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait",
@@ -28,10 +28,10 @@
       "title_cn": "比爾阿克曼表示，這是長期以來購買優質股票的最佳時機之一"
     },
     {
-      "title": "Dow rises 400 points after Trump says U.S. in 'serious' talks to end operation in Iran: Live updates",
-      "impact": "neutral",
+      "title": "This is what really causes recessions, a former top Trump White House economist says",
+      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "川普表示美國正在「認真」談判以結束在伊朗的行動，道瓊斯指數上漲 400 點：即時更新"
+      "title_cn": "一位前川普白宮經濟學家表示，這才是導致經濟衰退的真正原因"
     },
     {
       "title": "These telecom giants that haven't done too much in recent years just made Josh Brown's list",
@@ -40,16 +40,16 @@
       "title_cn": "這些近年來沒有做太多事情的電信巨頭剛剛進入了喬許布朗的名單"
     },
     {
-      "title": "&#x2018;It&#x2019;s time to buy Meta.&#x2019; Why Morgan Stanley sees 45% upside for the stock.",
-      "impact": "neutral",
+      "title": "Here&#x2019;s why Palo Alto Networks and other cybersecurity stocks are now standout gainers",
+      "impact": "bullish",
       "source": "MarketWatch",
-      "title_cn": "「是時候購買 Meta 了。」為什麼摩根士丹利認為該股還有 45% 的上漲空間。"
+      "title_cn": "這就是為什麼 Palo Alto Networks 和其他網路安全股票現在漲幅突出"
     },
     {
-      "title": "Why spending on streaming services has stalled, even as subscriber numbers grow",
+      "title": "Strategy skips a week of bitcoin purchases for the first time this year",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "為什麼即使訂閱者數量成長，串流媒體服務支出卻停滯不前"
+      "title_cn": "今年策略首次跳過一週的比特幣購買"
     }
   ]
 }
