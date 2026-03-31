@@ -1,55 +1,5 @@
 [
   {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 70505.0,
-    "change_pct": -2.35,
-    "direction": "🔻 急跌",
-    "news": "- [Reuters] 伊朗拒絕談判，霍爾木茲海峽風險升高",
-    "timestamp": "2026-03-24T14:06:44.229157+08:00",
-    "epoch": 1774332404
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2141.82,
-    "change_pct": 2.8,
-    "direction": "🔺 急漲",
-    "news": "- [CoinDesk] ETH Layer2 升級消息帶動反彈",
-    "timestamp": "2026-03-24T14:06:44.229157+08:00",
-    "epoch": 1774332404
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 89.7,
-    "change_pct": -2.05,
-    "direction": "🔻 急跌",
-    "news": "- [CoinDesk] Solana Foundation taps Mastercard, Western Union, Worldpay for institutional developer platform\n- [CoinTelegraph] Solana lands Mastercard, Western Union on new dev platform",
-    "timestamp": "2026-03-24T21:55:10.176475+08:00",
-    "epoch": 1774360507
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2070.84,
-    "change_pct": -2.81,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Crypto slides as oil spike, macro jitters trigger derivatives unwind\n- [Barron's] Bitcoin, XRP, Ethereum Drop as Iran Rejects Trump Peace Plan. Why War Is Hitting Cryptos. - Barron's\n- [dlnews.com] Google is accelerating its timeline for quantum reckoning. Here’s when Bitcoin, Ethereum need to be ready - dlnews.com",
-    "timestamp": "2026-03-26T19:18:24.159126+08:00",
-    "epoch": 1774523898
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2069.76,
-    "change_pct": -2.81,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Crypto slides as oil spike, macro jitters trigger derivatives unwind\n- [dlnews.com] First BlackRock, now Bitmine. Will Tom Lee’s Ethereum staking play save share price? - dlnews.com\n- [Barron's] Bitcoin, XRP, Ethereum Drop as Iran Rejects Trump Peace Plan. Why War Is Hitting Cryptos. - Barron's",
-    "timestamp": "2026-03-26T19:50:11.645361+08:00",
-    "epoch": 1774525808
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2062.73,
@@ -278,5 +228,275 @@
     "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [fortune.com] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - fortune.com\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
     "timestamp": "2026-03-30T07:55:09.612448+08:00",
     "epoch": 1774828508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 1983.09,
+    "change_pct": 2.52,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience",
+    "timestamp": "2026-03-30T08:15:09.892587+08:00",
+    "epoch": 1774829708
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.2,
+    "change_pct": 3.38,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T08:15:10.046742+08:00",
+    "epoch": 1774829708
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 614.4,
+    "change_pct": 3.05,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T08:20:06.593789+08:00",
+    "epoch": 1774830005
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 66647.9,
+    "change_pct": 3.18,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [Fortune] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
+    "timestamp": "2026-03-30T08:25:09.727307+08:00",
+    "epoch": 1774830308
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 1999.87,
+    "change_pct": 4.45,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience",
+    "timestamp": "2026-03-30T08:50:08.520686+08:00",
+    "epoch": 1774831807
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.82,
+    "change_pct": 5.24,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T08:50:08.672695+08:00",
+    "epoch": 1774831807
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 609.9,
+    "change_pct": 3.05,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T08:50:08.746413+08:00",
+    "epoch": 1774831807
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.57,
+    "change_pct": 2.18,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T09:30:09.634137+08:00",
+    "epoch": 1774834208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2012.75,
+    "change_pct": 2.02,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
+    "timestamp": "2026-03-30T09:35:09.258794+08:00",
+    "epoch": 1774834508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.78,
+    "change_pct": 2.02,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T10:00:10.119094+08:00",
+    "epoch": 1774836008
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2014.6,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
+    "timestamp": "2026-03-30T10:10:06.555528+08:00",
+    "epoch": 1774836605
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.75,
+    "change_pct": 2.35,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T10:30:10.460588+08:00",
+    "epoch": 1774837809
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2018.85,
+    "change_pct": 2.1,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinDesk] 新的以太坊專案旨在修復網路碎片並改善用戶體驗 - 鏈聞 ChainNews",
+    "timestamp": "2026-03-30T10:45:10.859793+08:00",
+    "epoch": 1774838708
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 67322.7,
+    "change_pct": 2.57,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [KCRG] 比特幣礦業公司計劃將加密貨幣業務擴展到迪比克縣 - KCRG\n- [bloomingbit] 【市場】比特幣跌破 66,000 美元…主要山寨幣也下滑 - Bloomingbit\n- [markets.businessinsider.com] 隨著穩定幣的採用擴大了區塊鏈參與範圍，比特幣 Everlight 開啟了第三階段 - Markets.businessinsider.com",
+    "timestamp": "2026-03-30T10:50:06.302746+08:00",
+    "epoch": 1774839004
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 618.4,
+    "change_pct": 2.33,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T10:50:06.473743+08:00",
+    "epoch": 1774839004
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2038.1,
+    "change_pct": 2.08,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinDesk] 新的以太坊專案旨在修復網路碎片並改善用戶體驗 - 鏈聞 ChainNews",
+    "timestamp": "2026-03-30T11:25:10.245385+08:00",
+    "epoch": 1774841108
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.34,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-30T11:55:09.561259+08:00",
+    "epoch": 1774842908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2044.92,
+    "change_pct": 2.04,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [The Block] Gnosis 和 Zisk 宣布與以太坊基金會共同資助的「以太坊經濟區」總結框架 - The Block",
+    "timestamp": "2026-03-30T12:15:10.759558+08:00",
+    "epoch": 1774844108
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2043.83,
+    "change_pct": 2.29,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinDesk] 新的以太坊專案旨在修復網路碎片並改善用戶體驗",
+    "timestamp": "2026-03-30T12:45:10.587656+08:00",
+    "epoch": 1774845908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2040.46,
+    "change_pct": -2.3,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
+    "timestamp": "2026-03-31T01:30:02.817179+08:00",
+    "epoch": 1774891801
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.91,
+    "change_pct": -2.12,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-31T02:25:09.688409+08:00",
+    "epoch": 1774895108
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2035.64,
+    "change_pct": -2.04,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
+    "timestamp": "2026-03-31T02:30:10.684367+08:00",
+    "epoch": 1774895409
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.7,
+    "change_pct": -2.05,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-31T03:00:09.805496+08:00",
+    "epoch": 1774897208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2028.84,
+    "change_pct": -2.16,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
+    "timestamp": "2026-03-31T03:05:10.468434+08:00",
+    "epoch": 1774897509
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.2,
+    "change_pct": -2.89,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-31T03:35:05.992296+08:00",
+    "epoch": 1774899304
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2018.2,
+    "change_pct": -2.84,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
+    "timestamp": "2026-03-31T03:40:09.783341+08:00",
+    "epoch": 1774899608
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.57,
+    "change_pct": 2.07,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-31T05:25:10.140721+08:00",
+    "epoch": 1774905908
   }
 ]

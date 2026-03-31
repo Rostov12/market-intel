@@ -1,299 +1,570 @@
 {
-  "date": "2026-03-29",
-  "generated_at": "2026-03-29 10:37",
-  "type": "tw-intraday-patrol",
-  "scanned": 15,
-  "triggered": 14,
+  "date": "2026-03-31",
+  "scanned": 34,
+  "triggered": 29,
   "results": [
     {
-      "symbol": "2330.TW",
-      "name": "台積電",
-      "category": "半導體",
-      "price": 1820.0,
-      "change_pct": -1.09,
-      "rsi": 32.0,
-      "volume_ratio": 0.73,
-      "ma5": 1825.0,
-      "ma20": 1864.1243835449218,
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "category": "AI/半導體",
+      "price": 165.1699981689453,
+      "change_pct": -1.4028211816980887,
+      "rsi": 26.057177768486326,
+      "ma5": 171.56199951171874,
+      "ma20": 178.56454467773438,
       "signals": [
         {
-          "type": "跌破MA20",
-          "emoji": "🔻",
-          "priority": 2
-        }
-      ]
-    },
-    {
-      "symbol": "2454.TW",
-      "name": "聯發科",
-      "category": "半導體",
-      "price": 1585.0,
-      "change_pct": -0.31,
-      "rsi": 20.0,
-      "volume_ratio": 0.94,
-      "ma5": 1608.0,
-      "ma20": 1710.25,
-      "signals": [
-        {
-          "type": "RSI超賣 20.0",
+          "type": "RSI超賣 26",
           "emoji": "❄️",
           "priority": 2
         },
         {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "category": "AI/半導體",
+      "price": 196.0399932861328,
+      "change_pct": -2.945696343986988,
+      "rsi": 45.04616322711551,
+      "ma5": 205.48800048828124,
+      "ma20": 200.79199981689453,
+      "signals": [
+        {
           "type": "跌破MA20",
-          "emoji": "🔻",
+          "emoji": "🔴",
           "priority": 2
         }
       ]
     },
     {
-      "symbol": "2382.TW",
-      "name": "廣達",
-      "category": "伺服器",
-      "price": 289.0,
-      "change_pct": 0.7,
-      "rsi": 50.0,
-      "volume_ratio": 0.74,
-      "ma5": 284.5,
-      "ma20": 287.475,
+      "symbol": "AAPL",
+      "name": "Apple",
+      "category": "科技巨頭",
+      "price": 246.6300048828125,
+      "change_pct": -0.8721857485242427,
+      "rsi": 27.964005895145206,
+      "ma5": 250.51600036621093,
+      "ma20": 254.47149963378905,
       "signals": [
         {
-          "type": "站上MA5",
-          "emoji": "🟢",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "symbol": "2308.TW",
-      "name": "台達電",
-      "category": "電源",
-      "price": 1510.0,
-      "change_pct": -0.33,
-      "rsi": 62.2,
-      "volume_ratio": 0.79,
-      "ma5": 1480.0,
-      "ma20": 1396.75,
-      "signals": [
-        {
-          "type": "站上MA5",
-          "emoji": "🟢",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "symbol": "2317.TW",
-      "name": "鴻海",
-      "category": "電子代工",
-      "price": 199.5,
-      "change_pct": -0.5,
-      "rsi": 21.7,
-      "volume_ratio": 0.42,
-      "ma5": 198.2,
-      "ma20": 211.875,
-      "signals": [
-        {
-          "type": "RSI超賣 21.7",
+          "type": "RSI超賣 28",
           "emoji": "❄️",
           "priority": 2
         },
         {
-          "type": "站上MA5",
-          "emoji": "🟢",
+          "type": "接近區間低點",
+          "emoji": "🕳️",
           "priority": 3
-        },
-        {
-          "type": "跌破MA20",
-          "emoji": "🔻",
-          "priority": 2
         }
       ]
     },
     {
-      "symbol": "2603.TW",
-      "name": "長榮",
-      "category": "航運",
-      "price": 201.0,
-      "change_pct": -0.99,
-      "rsi": 38.8,
-      "volume_ratio": 0.37,
-      "ma5": 203.4,
-      "ma20": 210.125,
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "category": "科技巨頭",
+      "price": 358.9599914550781,
+      "change_pct": 0.6138415530579637,
+      "rsi": 12.403633665982994,
+      "ma5": 365.09599609375,
+      "ma20": 390.8374984741211,
       "signals": [
         {
-          "type": "跌破MA20",
-          "emoji": "🔻",
-          "priority": 2
-        }
-      ]
-    },
-    {
-      "symbol": "2609.TW",
-      "name": "陽明",
-      "category": "航運",
-      "price": 52.4,
-      "change_pct": -0.38,
-      "rsi": 19.0,
-      "volume_ratio": 0.22,
-      "ma5": 52.78000030517578,
-      "ma20": 58.33499984741211,
-      "signals": [
-        {
-          "type": "RSI超賣 19.0",
+          "type": "RSI超賣 12",
           "emoji": "❄️",
           "priority": 2
         },
         {
-          "type": "跌破MA20",
-          "emoji": "🔻",
-          "priority": 2
-        }
-      ]
-    },
-    {
-      "symbol": "3034.TW",
-      "name": "聯詠",
-      "category": "IC設計",
-      "price": 399.0,
-      "change_pct": 1.79,
-      "rsi": 56.5,
-      "volume_ratio": 2.2,
-      "ma5": 382.1,
-      "ma20": 381.35,
-      "signals": [
-        {
-          "type": "爆量 2.2x",
-          "emoji": "💥",
-          "priority": 2
-        },
-        {
-          "type": "站上MA5",
-          "emoji": "🟢",
+          "type": "接近區間低點",
+          "emoji": "🕳️",
           "priority": 3
         }
       ]
     },
     {
-      "symbol": "2379.TW",
-      "name": "瑞昱",
-      "category": "IC設計",
-      "price": 494.5,
-      "change_pct": 1.12,
-      "rsi": 67.2,
-      "volume_ratio": 0.76,
-      "ma5": 484.5,
-      "ma20": 474.3,
+      "symbol": "GOOGL",
+      "name": "Google",
+      "category": "科技巨頭",
+      "price": 273.5,
+      "change_pct": -0.3061880692219753,
+      "rsi": 20.70230923721543,
+      "ma5": 282.0260009765625,
+      "ma20": 298.88407745361326,
       "signals": [
         {
-          "type": "站上MA5",
-          "emoji": "🟢",
-          "priority": 3
-        }
-      ]
-    },
-    {
-      "symbol": "2408.TW",
-      "name": "南亞科",
-      "category": "記憶體",
-      "price": 219.5,
-      "change_pct": -2.66,
-      "rsi": 36.8,
-      "volume_ratio": 1.3,
-      "ma5": 222.2,
-      "ma20": 242.65,
-      "signals": [
-        {
-          "type": "跌破MA20",
-          "emoji": "🔻",
-          "priority": 2
-        }
-      ]
-    },
-    {
-      "symbol": "6669.TW",
-      "name": "緯穎",
-      "category": "伺服器",
-      "price": 3395.0,
-      "change_pct": -2.02,
-      "rsi": 14.0,
-      "volume_ratio": 1.02,
-      "ma5": 3598.0,
-      "ma20": 3911.5,
-      "signals": [
-        {
-          "type": "RSI超賣 14.0",
+          "type": "RSI超賣 21",
           "emoji": "❄️",
           "priority": 2
         },
         {
-          "type": "跌破MA20",
-          "emoji": "🔻",
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "category": "科技巨頭",
+      "price": 536.3800048828125,
+      "change_pct": 2.027701965635854,
+      "rsi": 19.702300209408477,
+      "ma5": 559.489990234375,
+      "ma20": 614.955859375,
+      "signals": [
+        {
+          "type": "RSI超賣 20",
+          "emoji": "❄️",
           "priority": 2
         }
       ]
     },
     {
-      "symbol": "4938.TW",
-      "name": "和碩",
-      "category": "電子代工",
-      "price": 80.9,
-      "change_pct": 0.25,
-      "rsi": 79.3,
-      "volume_ratio": 0.8,
-      "ma5": 78.21999969482422,
-      "ma20": 74.66000022888184,
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "category": "電動車",
+      "price": 355.2799987792969,
+      "change_pct": -1.810239072504448,
+      "rsi": 30.589904892648164,
+      "ma5": 371.63999633789064,
+      "ma20": 388.37599792480466,
       "signals": [
         {
-          "type": "RSI過熱 79.3",
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "name": "QQQ（Nasdaq 100 ETF）",
+      "category": "大盤ETF",
+      "price": 558.280029296875,
+      "change_pct": -0.7643335458682039,
+      "rsi": 21.954022034336816,
+      "ma5": 573.2900024414063,
+      "ma20": 593.1655029296875,
+      "signals": [
+        {
+          "type": "RSI超賣 22",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "URNM",
+      "name": "URNM（鈾礦 ETF）",
+      "category": "核能",
+      "price": 58.439998626708984,
+      "change_pct": -2.2415526596697792,
+      "rsi": 27.622374999062174,
+      "ma5": 60.22999954223633,
+      "ma20": 63.836500358581546,
+      "signals": [
+        {
+          "type": "RSI超賣 28",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "NLR",
+      "name": "NLR（核能 ETF）",
+      "category": "核能",
+      "price": 127.13999938964844,
+      "change_pct": -2.297706432775967,
+      "rsi": 29.713679950000554,
+      "ma5": 131.31199951171874,
+      "ma20": 136.4904987335205,
+      "signals": [
+        {
+          "type": "RSI超賣 30",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "SMH",
+      "name": "SMH（半導體 ETF）",
+      "category": "科技",
+      "price": 362.5299987792969,
+      "change_pct": -3.1315968525592854,
+      "rsi": 31.16069168736746,
+      "ma5": 382.24599609375,
+      "ma20": 390.0489990234375,
+      "signals": [
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "AIQ",
+      "name": "AIQ（AI ETF）",
+      "category": "科技",
+      "price": 44.779998779296875,
+      "change_pct": -1.5174893839503183,
+      "rsi": 27.21344649190418,
+      "ma5": 46.434000396728514,
+      "ma20": 48.424499893188475,
+      "signals": [
+        {
+          "type": "RSI超賣 27",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "BOTZ",
+      "name": "BOTZ（機器人 ETF）",
+      "category": "科技",
+      "price": 31.989999771118164,
+      "change_pct": -1.4479338466134395,
+      "rsi": 22.882465747941396,
+      "ma5": 33.18800010681152,
+      "ma20": 35.0035002708435,
+      "signals": [
+        {
+          "type": "RSI超賣 23",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "ARKQ",
+      "name": "ARKQ（自動技術與機器人 ETF）",
+      "category": "科技",
+      "price": 106.45999908447266,
+      "change_pct": -3.411361000351913,
+      "rsi": 29.672493828309285,
+      "ma5": 113.18999938964843,
+      "ma20": 118.00949897766114,
+      "signals": [
+        {
+          "type": "RSI超賣 30",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "GLD",
+      "name": "GLD（黃金 ETF）",
+      "category": "避險",
+      "price": 414.5799865722656,
+      "change_pct": -0.028942761329291796,
+      "rsi": 22.70060305791941,
+      "ma5": 410.06800537109376,
+      "ma20": 444.6270004272461,
+      "signals": [
+        {
+          "type": "RSI超賣 23",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "SLV",
+      "name": "SLV（白銀 ETF）",
+      "category": "貴金屬",
+      "price": 63.52000045776367,
+      "change_pct": 0.1261062937996436,
+      "rsi": 22.84496733000242,
+      "ma5": 63.177999877929686,
+      "ma20": 70.24000034332275,
+      "signals": [
+        {
+          "type": "RSI超賣 23",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "USO",
+      "name": "USO（原油 ETF）",
+      "category": "原物料",
+      "price": 129.8300018310547,
+      "change_pct": 4.533015314934903,
+      "rsi": 68.06329993648113,
+      "ma5": 119.84400024414063,
+      "ma20": 112.37349929809571,
+      "signals": [
+        {
+          "type": "MACD金叉",
+          "emoji": "📈",
+          "priority": 2
+        },
+        {
+          "type": "接近區間高點",
+          "emoji": "🏔️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "XLK",
+      "name": "XLK（科技板塊）",
+      "category": "板塊輪動",
+      "price": 127.5,
+      "change_pct": -1.8626833459452459,
+      "rsi": 25.040678793782902,
+      "ma5": 132.5659973144531,
+      "ma20": 136.95899658203126,
+      "signals": [
+        {
+          "type": "RSI超賣 25",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "XLE",
+      "name": "XLE（能源板塊）",
+      "category": "板塊輪動",
+      "price": 61.959999084472656,
+      "change_pct": -0.9590829214312017,
+      "rsi": 88.03827838526979,
+      "ma5": 61.49000015258789,
+      "ma20": 58.522999954223636,
+      "signals": [
+        {
+          "type": "RSI過熱 88",
           "emoji": "🔥",
           "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "XLF",
+      "name": "XLF（金融板塊）",
+      "category": "板塊輪動",
+      "price": 48.36000061035156,
+      "change_pct": 1.150385319519784,
+      "rsi": 32.999979400619054,
+      "ma5": 48.76800003051758,
+      "ma20": 49.56350040435791,
+      "signals": [
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "XLV",
+      "name": "XLV（醫療板塊）",
+      "category": "板塊輪動",
+      "price": 143.82000732421875,
+      "change_pct": 0.39090663050115526,
+      "rsi": 20.53071225598495,
+      "ma5": 144.77000122070314,
+      "ma20": 149.44800033569337,
+      "signals": [
+        {
+          "type": "RSI超賣 21",
+          "emoji": "❄️",
+          "priority": 2
         },
         {
-          "type": "站上MA5",
-          "emoji": "🟢",
+          "type": "接近區間低點",
+          "emoji": "🕳️",
           "priority": 3
         }
       ]
     },
     {
-      "symbol": "2376.TW",
-      "name": "技嘉",
-      "category": "主機板/GPU",
-      "price": 235.0,
-      "change_pct": 0.64,
-      "rsi": 53.0,
-      "volume_ratio": 0.63,
-      "ma5": 234.0,
-      "ma20": 232.275,
+      "symbol": "XBI",
+      "name": "XBI（生技板塊）",
+      "category": "板塊輪動",
+      "price": 118.77999877929688,
+      "change_pct": -0.6773121359625899,
+      "rsi": 34.18646799182888,
+      "ma5": 121.14599914550782,
+      "ma20": 123.12400016784667,
       "signals": [
         {
-          "type": "站上MA5",
-          "emoji": "🟢",
+          "type": "接近區間低點",
+          "emoji": "🕳️",
           "priority": 3
         }
       ]
     },
     {
-      "symbol": "2377.TW",
-      "name": "微星",
-      "category": "主機板/GPU",
-      "price": 90.4,
-      "change_pct": -0.33,
-      "rsi": 35.7,
-      "volume_ratio": 0.55,
-      "ma5": 90.73999786376953,
-      "ma20": 93.69500007629395,
+      "symbol": "BTC-USD",
+      "name": "BTC",
+      "category": "加密",
+      "price": 66594.25,
+      "change_pct": 0.9693410390382635,
+      "rsi": 27.64321773879695,
+      "ma5": 66799.7734375,
+      "ma20": 69971.693359375,
       "signals": [
         {
-          "type": "跌破MA20",
-          "emoji": "🔻",
+          "type": "RSI超賣 28",
+          "emoji": "❄️",
           "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "ETH",
+      "category": "加密",
+      "price": 2022.408203125,
+      "change_pct": 2.009952633219033,
+      "rsi": 25.070790850800876,
+      "ma5": 2009.7025634765625,
+      "ma20": 2115.139044189453,
+      "signals": [
+        {
+          "type": "RSI超賣 25",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "SOL-USD",
+      "name": "SOL",
+      "category": "加密",
+      "price": 82.74072265625,
+      "change_pct": 1.6191136651619156,
+      "rsi": 27.790507060562845,
+      "ma5": 83.1282974243164,
+      "ma20": 88.24326438903809,
+      "signals": [
+        {
+          "type": "RSI超賣 28",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "00662.TW",
+      "name": "富邦NASDAQ ETF",
+      "category": "美股連結ETF",
+      "price": NaN,
+      "change_pct": NaN,
+      "rsi": 29.80766550318161,
+      "ma5": NaN,
+      "ma20": NaN,
+      "signals": [
+        {
+          "type": "RSI超賣 30",
+          "emoji": "❄️",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "symbol": "^DJI",
+      "name": "道瓊工業指數",
+      "category": "指數",
+      "price": 45216.140625,
+      "change_pct": 0.10959415912947368,
+      "rsi": 26.64612859858822,
+      "ma5": 45779.2875,
+      "ma20": 46783.3248046875,
+      "signals": [
+        {
+          "type": "RSI超賣 27",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "標普 500",
+      "category": "指數",
+      "price": 6343.72021484375,
+      "change_pct": -0.3945748828622587,
+      "rsi": 23.490286525326,
+      "ma5": 6467.60009765625,
+      "ma20": 6649.354028320313,
+      "signals": [
+        {
+          "type": "RSI超賣 23",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "納斯達克",
+      "category": "指數",
+      "price": 20794.640625,
+      "change_pct": -0.7337985149493359,
+      "rsi": 23.74485643295614,
+      "ma5": 21368.558203125,
+      "ma20": 22126.06689453125,
+      "signals": [
+        {
+          "type": "RSI超賣 24",
+          "emoji": "❄️",
+          "priority": 2
+        },
+        {
+          "type": "接近區間低點",
+          "emoji": "🕳️",
+          "priority": 3
         }
       ]
     }
-  ],
-  "breaking_news_relevant_count": 0,
-  "breaking_news_relevant": [],
-  "note": "盤中巡邏以最新可得快照資料執行（03/28收盤技術值 + breaking news）。"
+  ]
 }

@@ -1,331 +1,332 @@
 {
-  "date": "2026-03-30",
-  "updated_at": "2026-03-30 08:00",
+  "date": "2026-03-31",
+  "updated_at": "2026-03-31 08:00",
   "count": 30,
   "sources": [
+    "cointelegraph",
     "google-news-crypto",
-    "cointelegraph-rss",
     "coindesk",
-    "cointelegraph"
+    "cointelegraph-rss"
   ],
   "news": [
     {
-      "id": "gn-66999",
-      "title": "Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG",
-      "source": "KCRG",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0ZPMjVpVjRjUmZVRVVRUEh6dG1GbmFkYmM0NmlodDBaYTJiY3JFblRqb3pkTmtlMUxodzJqLW1ocG5KeEdVa3FpVUNuVVl4eUFXWURMY212Uk50bUNfZHFrb1d5WnJMU1Vqcm1UOGhZQkRFMWl0WnM1U2Z2YkRpbFBndFJhN1Y2OFl5M3ZtUlA0Mm5iLXVpZ1RzbFpveVhlTHgxWktmNUU5ZWp6d1HSAcIBQVVfeXFMUEhmZEoxQXdXMWN3RE9nWlM0alZLVjgxemNNY0U3bVozNlB1U3FQbmllRWdVc19makZ3dDVSQXY1MF9zUWRPTWRmVC1hUFc4djJfSlVoQ1JnNEZNU0FZZnB4WTdXR0I2d3plMVEwMUhJZmxMcFVjc1BiTm1vel90QVRwODlxQ0RoWlZMSkVRcERfeVRmSkl0Ym1zbVFOVVhKZDl4bnd1SkZyNGxfYVlYck5TLUJyVHhMU0tGQ0l1azlsYVE?oc=5",
-      "published": "Tue, 24 Mar 2026 23:20:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-52494",
-      "title": "Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - fortune.com",
-      "source": "fortune.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkNWTnBOUEFldThlSG1nckdETnhCY1c5eXB1akcxcktMeTliYzBPRmdrOElZM19sSlVKR0lhNkctUlBMR2FQSzZVcGZtQVJoY2ZpSnBHYjJybDhlR2JhanZBbks3NDBva09CcjFnVzF6WF95ejdIalpWOU8tSThldHRLOWd6bFBfZlpfd0VmWEkzUmplLWlvc3FjZERqdzNLc05jQmR3QQ?oc=5",
-      "published": "Thu, 26 Mar 2026 22:55:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-95904",
-      "title": "[Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
-      "source": "bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01aW9yOURKc0E4eU8xaXN1c3hqd0xXR3FrcWFFMHM0TVpVb25sT0N2RGRPanl6MXlVMnM3Z3o0em4yR0RYbXFmQ192MDZWOURvUFZGQg?oc=5",
-      "published": "Sun, 29 Mar 2026 22:42:38 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-91373",
-      "title": "Here’s what happened in crypto today",
+      "id": "ct-rss-21859",
+      "title": "Bitcoin data points to ‘rare’ trading setup for relief rally to $71K",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 22:09:08 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-27305",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 22:09:08 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-62452",
-      "title": "Bitcoin Everlight Opens Phase 3 as Stablecoin Adoption Expands Access to Blockchain Participation - markets.businessinsider.com",
-      "source": "markets.businessinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQR1dnek5iMzVRbVk2d2hNcTd3NUYwMU5tUndyLUdtNkMzUWFyalo3VWhHbjNlWXBCRGtpQ0ZWN1AwbF9Vdk5yYTlwQXhFS3djRnh5UUFyeUk0M1Y0YUxwZDFUWW9ZU1FpTnZMUllpY1Z6TkxMekY1X05FSnR3YkV1a1RkUG92bVczVW13TlFORjNsNmdIcFdUeTJtT2lGbXM4V3A0NkRhWDBGT1hfblV5RzZjNGNvRHpkYkh3U3dBcGdESXRkWHpUTXB4T1NFVEk3QWhOcEllazJ3R3FINzJjVUlsX2lubC1WN0ZSYg?oc=5",
-      "published": "Sun, 29 Mar 2026 20:33:03 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-77585",
-      "title": "Stablecoin payments go 'invisible' in Southeast Asia as crypto card business surges",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/03/29/stablecoin-payments-go-invisible-in-southeast-asia-as-crypto-card-business-surges",
-      "published": "Sun, 29 Mar 2026 19:00:00 +0000",
-      "summary": "StraitsX, a Singapore-based company, has seen rapid growth in its stablecoin card program, with a 40x surge in transaction volume and an 83x increase in card issuance between 2024 and 2025.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-22593",
-      "title": "MSTR may have paused it's BTC accumulation last week - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcGlQZjltNnp3TGFDRmxkMVE0SjR5VmQ5b1J5WmlvdjV5YTNOMjhQTGVQQ0JSejRXejY5MnJQdWQyZVBVTEltRnpOVXJzVDV5R2ZTVi1jRHpwM3g0ZmNGMTRoMkZYT29UUWlyZ3RMSjFndTZ2OE52aEliZ2xJZzVvTGx1bkRDTTYxb2pxcUt2Q0ZXSGJZQ3VFUU5Kd3ZQdUhLWkNMWGNUVTVSQWVOZjVpTEx1b0RjZXRROVN2NHVNYndYSk9pMWNSMG81MmlCRWtvMnc?oc=5",
-      "published": "Sun, 29 Mar 2026 18:33:18 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-3874",
-      "title": "Strategy may have paused bitcoin accumulation last week, ending a thirteen week buying streak",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/29/strategy-may-have-paused-bitcoin-accumulation-last-week-ending-a-thirteen-week-buying-streak",
-      "published": "Sun, 29 Mar 2026 18:31:48 +0000",
-      "summary": "The company seemed to have skipped its weekly bitcoin purchase announcement for the first time since late December.",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-45836",
-      "title": "Walmart-backed OnePay adds tokens in push to serve ‘new to crypto’ customers",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/walmart-backed-onepay-adds-a-dozen-new-tokens-in-push-to-serve-new-to-crypto-customers?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 18:11:16 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-91555",
-      "title": "Walmart-backed OnePay adds tokens in push to serve ‘new to crypto’ customers",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/walmart-backed-onepay-adds-a-dozen-new-tokens-in-push-to-serve-new-to-crypto-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 18:11:16 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-88089",
-      "title": "No one is 100% happy with the stablecoin yield agreement: State of Crypto ",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/03/29/no-one-is-100-happy-with-the-stablecoin-yield-agreement-state-of-crypto",
-      "published": "Sun, 29 Mar 2026 18:00:00 +0000",
-      "summary": "The crypto and banking industries saw Senators Alsobrooks and Tillis' agreement-in-principle for stablecoin yield.  ",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-2611",
-      "title": "Bitcoin price analysis: Bullish bets on Bitfinex surge - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU0R1bTFUWGd0eUhKOEFzbzhHUzJYY3JpMHNUMUliVHZ3N2Q2WVhzQ1NRQ203WkMyV1RsXzdFR3A0VGFrV0JPNTZwdnQtNXFPY2FsNUpUM1QwVXp5cGI2NHZsUVBEd0lubDMxNExhMVNSdmdVWDROR0t3ME4wb3hLLXN6OXhJbjBOM2ZMcFVRejVSU1hXR2RHMk5yWGlQTjNhT0QzeDZEcWhnRDVwbFZubG5Ic1pVTmJHdFdGZ2hlRndmcnFqM3c?oc=5",
-      "published": "Sun, 29 Mar 2026 17:13:18 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-10073",
-      "title": "Bitcoin bullish bets hit a 28-month high on Bitfinex, and that's music to bears' ears",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/29/bitcoin-bullish-bets-hit-a-28-month-high-on-bitfinex-and-that-s-music-to-bears-ears",
-      "published": "Sun, 29 Mar 2026 17:09:43 +0000",
-      "summary": "Historically, spikes in Bitfinex BTC/USD longs have acted as a contrary indicator.",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-11465",
-      "title": "Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ethereum-builders-propose-economic-zone-to-tackle-l2-fragmentation?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 17:00:00 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-42457",
-      "title": "Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ethereum-builders-propose-economic-zone-to-tackle-l2-fragmentation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 17:00:00 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-63087",
-      "title": "Bitcoin Price: Bitcoin Slips to $66,000 — What Happens If the $66K Support Breaks? - finance.yahoo.com",
-      "source": "finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU00wWkZrTmJZNERWdUNEaW9jUldSX1RsaXRsTWRPS2Vwb0w4a2pka0ZPWVpQcVJPNjgxUXZEa1Judmd1eldRVmwzNFBlUURHa1h1eENoakE0U2Q5WFVJT1Bya3dHSzlEdmhrUzZjM1JiMUlvblFPR0lUQy03em5FNzREbEtsNlJ5Q2xvYVRudGZTM0hXcFZfWEZaSQ?oc=5",
-      "published": "Sun, 29 Mar 2026 16:30:29 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-16467",
-      "title": "Crypto's CLARITY Act could be a headwind for DeFi tokens ring-fencing yield, analyst says",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/29/crypto-s-clarity-act-could-be-a-headwind-for-defi-tokens-ring-fencing-yield-analyst-says",
-      "published": "Sun, 29 Mar 2026 16:00:00 +0000",
-      "summary": "The proposed restriction on yield would shift value toward regulated players and away from decentralized finance' tokens, 10x Research's Markus Thielen said.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-11235",
-      "title": "Here is why traders are pricing in a rate hike and how it impacts bitcoin - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSG5CNlhTZUNkalBEWUNTa0JRdnFFY0U5M0RsYXQzZE01UktvNUYtZklXOWpnSTB5RV9oaGRMZlJqQVNGS2x6aFIyVUhERHh5YlR1R1MxQUdjRDJvWXAzcnNKc3N6b1R2TzZmR1ExLV9oZEZzYnZka3JCbXRPS0RSLV9xdGZ1bGszeUwtUnN6SklvVmZNVy1GTEoyd2t2WDE2M184U0VyYTU4R1NEWjFpWTNVZHRGVFJoRmt4bWNTRDFTZlJycHBFb0dXYVhYRUJBQ2VlRUVn?oc=5",
-      "published": "Sun, 29 Mar 2026 15:48:10 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-36237",
-      "title": "Markets move to price in rate hikes as inflation fears and geopolitics reshape Fed expectations",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/29/markets-move-to-price-in-rate-hikes-as-inflation-fears-and-geopolitics-reshape-fed-expectations",
-      "published": "Sun, 29 Mar 2026 15:46:10 +0000",
-      "summary": "Middle East tensions have driven divergences across asset markets as oil stays elevated and traditional safe havens falter.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-99480",
-      "title": "New Ethereum project aims to fix network fragmentation and improve user experience",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/03/29/new-ethereum-project-aims-to-fix-network-fragmentation-and-improve-user-experience",
-      "published": "Sun, 29 Mar 2026 15:00:00 +0000",
-      "summary": "The project is designed to make Ethereum’s many layer 2s work together more seamlessly. ",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-49023",
-      "title": "Sam Altman’s World Foundation sells $65M in WLD as token hits new lows",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sam-altman-world-wld-sale-65m-token-lows?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 13:41:40 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-60930",
-      "title": "Sam Altman’s World Foundation sells $65M in WLD as token hits new lows",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/sam-altman-world-wld-sale-65m-token-lows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 13:41:40 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-89325",
-      "title": "XRP tests $1.33 as rising leverage and weak price action create unstable setup",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/29/xrp-tests-usd1-33-as-rising-leverage-and-weak-price-action-create-unstable-setup",
-      "published": "Sun, 29 Mar 2026 13:38:56 +0000",
-      "summary": "Funding spikes and liquidations point to positioning build-up, with direction hinging on whether buyers can defend support.",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-65940",
-      "title": "Institutions are paying Bitcoin custodians for the privilege of added risk",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/institutions-bitcoin-custodians-added-risk?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 13:30:00 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-data-points-to-rare-trading-setup-for-relief-rally-to-dollar71k?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 00:48:42 +0100",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-29519",
-      "title": "Institutions are paying Bitcoin custodians for the privilege of added risk",
+      "id": "ct-19351",
+      "title": "Bitcoin data points to ‘rare’ trading setup for relief rally to $71K",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/institutions-bitcoin-custodians-added-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 13:30:00 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-data-points-to-rare-trading-setup-for-relief-rally-to-dollar71k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 00:48:42 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-59358",
-      "title": "Ethereum 'flippening' odds rise, but it won't involve Bitcoin",
+      "id": "ct-rss-332",
+      "title": "Peter Brandt, Polymarket traders don’t see new Bitcoin highs this year",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/etheruem-flippening-odds-rise-wont-involve-bitcoin?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 13:25:37 +0100",
+      "url": "https://cointelegraph.com/news/peter-brandt-polymarket-traders-new-bitcoin-highs-unlikely-2026?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 00:38:14 +0100",
       "coins": [
-        "BIT",
-        "ETH"
+        "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-53167",
-      "title": "Ethereum 'flippening' odds rise, but it won't involve Bitcoin",
+      "id": "ct-59436",
+      "title": "Peter Brandt, Polymarket traders don’t see new Bitcoin highs this year",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/etheruem-flippening-odds-rise-wont-involve-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 29 Mar 2026 13:25:37 +0100",
+      "url": "https://cointelegraph.com/news/peter-brandt-polymarket-traders-new-bitcoin-highs-unlikely-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 00:38:14 +0100",
       "coins": [
-        "ETH",
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-60233",
-      "title": "Bittensor ecosystem tokens' value hit $1.5 billion as Jensen Huang endorsement supports TAO rally",
+      "id": "gn-2047",
+      "title": "Ethereum’s Incredible Position - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXQybzZLaDBoMzRibUdMcE11ekhNQ0lfNm1LRFJqNGRRT3RiTmZhWGFnM3Z1SXdyOVJ3UElwSGVVWV9mS1N1NUFEZWVTRGEtbTUxT0w0Q1dRLTU1VXR3aWpaZ1k0NnRlUXBOSFBhQTRWb24wWkwyVkstNFFTTjA3OTBLOV9SUXI5emZiYUE1X2xIbTlYNGppUA?oc=5",
+      "published": "Sat, 28 Mar 2026 18:01:49 GMT",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-24037",
+      "title": "God and bitcoin: Why some Christians are going all in on cryptocurrency - nbcnews.com",
+      "source": "nbcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM2xZTlBVS2d5ZkpCVGt0a0JqakVRSEltY3JLOFQwTmdQUVdsOWJqVnhfNzhZa0xYNE1XdHBOVGZad2VqU2x1TzVIUTE0WXo0ODNMb2g1NWoxUFpQd3FaM25fcld3aUFZSzFxakptQk81QTB5WExmSTZnSkhuNVVnMF9HdDhnaFV2cmpRdU9tOTloRmM?oc=5",
+      "published": "Sat, 28 Mar 2026 11:00:42 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-10380",
+      "title": "Price predictions 3/30: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/price-predictions-3-30-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 23:00:00 +0100",
+      "coins": [
+        "BNB",
+        "ETH",
+        "BTC",
+        "SOL",
+        "XRP"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-53894",
+      "title": "Price predictions 3/30: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/price-predictions-3-30-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 23:00:00 +0100",
+      "coins": [
+        "ETH",
+        "BNB",
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-35665",
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 22:59:57 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-49764",
+      "title": "Here’s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 22:59:57 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-59847",
+      "title": "NFL asks prediction markets to act on ‘easily manipulated‘ bets",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/nfl-asks-prediction-markets-to-act-on-easily-manipulated-bets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 22:07:35 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-95131",
+      "title": "NFL asks prediction markets to act on ‘easily manipulated‘ bets",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/nfl-asks-prediction-markets-to-act-on-easily-manipulated-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 22:07:35 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-6430",
+      "title": "U.S. rule change may open trillions in 401(k) funds to crypto",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/03/25/bittensor-ecosystem-tokens-value-hit-usd1-5-billion-as-jensen-huang-endorsement-supports-tao-rally",
-      "published": "Sun, 29 Mar 2026 13:15:57 +0000",
-      "summary": "The ecosystem's smaller tokens are acting as leveraged bets on TAO, with multiple subnet tokens posting 200-400% monthly gains.",
+      "url": "https://www.coindesk.com/policy/2026/03/30/u-s-rule-change-may-open-trillions-in-401-k-funds-to-crypto",
+      "published": "Mon, 30 Mar 2026 22:00:08 +0000",
+      "summary": "The Labor Department on Monday proposed a rule following an executive order from President Donald Trump that directed regulators to expand access to digital assets in retirement portfolios.",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "cd-16242",
-      "title": "Inside Aave’s governance battle as DeFi giant prepares for upgrade",
+      "id": "ct-rss-19110",
+      "title": "Hyperliquid whale opens $53M Bitcoin short: Should traders take notice?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/hyperliquid-whale-opens-53m-bitcoin-short-should-traders-take-notice?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 21:56:27 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-8147",
+      "title": "Hyperliquid whale opens $53M Bitcoin short: Should traders take notice?",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/hyperliquid-whale-opens-53m-bitcoin-short-should-traders-take-notice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 21:56:27 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-89161",
+      "title": "Democrats urge warnings to federal officials against insider bets on prediction markets",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/03/29/inside-aave-s-governance-battle-as-defi-giant-prepares-for-upgrade",
-      "published": "Sun, 29 Mar 2026 13:00:00 +0000",
-      "summary": "In an interview with CoinDesk, Aave Labs CEO Stani Kulechov reflected on the governance debates in the Aave ecosystem, as well as what’s to come for the network.\n",
+      "url": "https://www.coindesk.com/policy/2026/03/30/democrats-urge-warnings-to-federal-officials-against-insider-bets-on-prediction-markets",
+      "published": "Mon, 30 Mar 2026 21:37:35 +0000",
+      "summary": "Members of the House and Senate asked the CFTC and federal ethics office to remind government employees it's illegal to make insider derivatives trades.",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-63418",
+      "title": "Noisy Bitcoin mine shuts down in Washington County, TN - WJHL",
+      "source": "WJHL",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOemVOMVJ6dFdfdWpsR2tsVjBfeEs1RVhrN0hJOGVMU05EUmh4VHI1elk0c0lUT09fdkR2OTY1NmlZXzNyaTZWdHlObUo3WGg1WGlIbXp5VEV3WkRvdHQ0T1JqblE2Rl9XaVNFRU5rejdUeTZQNENiaFhINFJqZEs5NkNodVFZNkI0MmJSeDNvSdIBlAFBVV95cUxNOXRnTzRNSUU5TTVEMFBzT2VVbzVXc19tb0ZSeFh1UHZ1amtoa3ZyRVhpblFFeXZxRVd2cmtNNkNGaTJUVWRLTDFwX3pXUnlod2V5TkpoQmZFcFZmckt3US1qLXVzXzM4SXJHd1MzQ3BIRWozUm1NMFpMTjg4VnpwTDVrZkF0V25temt0a2p6U3lyVlVK?oc=5",
+      "published": "Mon, 30 Mar 2026 21:24:11 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-89114",
+      "title": "Square rolls out Bitcoin payments at POS for eligible US merchants",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/square-begins-auto-enabling-bitcoin-payments-for-eligible-us-sellers-exec-says?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 21:18:21 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-40532",
+      "title": "Square rolls out Bitcoin payments at POS for eligible US merchants",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/square-begins-auto-enabling-bitcoin-payments-for-eligible-us-sellers-exec-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 21:18:21 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-33432",
+      "title": "Why Consensus is crypto’s new ground zero",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/03/30/why-consensus-is-crypto-s-new-ground-zero",
+      "published": "Mon, 30 Mar 2026 21:02:00 +0000",
+      "summary": "A decade of building is paying off. Massive Institutional presence, deep focus on agentic commerce make the event in Miami one for the ages.\n",
       "coins": [],
       "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-31917",
+      "title": "Mitsubishi adopts JPMorgan blockchain for corporate payments",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/mitsubishi-jpmorgan-kinexys-blockchain-corporate-payments?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 20:39:32 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-86054",
+      "title": "Mitsubishi adopts JPMorgan blockchain for corporate payments",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/mitsubishi-jpmorgan-kinexys-blockchain-corporate-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 20:39:32 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-60876",
+      "title": "Fed's Powell's comments sooth bond market, but oil continues rise, hitting crypto and stocks",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/30/fed-s-powell-s-comments-sooth-bond-market-but-oil-continues-rise-hitting-crypto-and-stocks",
+      "published": "Mon, 30 Mar 2026 20:28:05 +0000",
+      "summary": "WTI crude oil closed above $100 per barrel for the first time since 2002.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-41899",
+      "title": "Chainlink and Anchorage Digital back launch of crypto-aligned PAC",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/chainlink-anchorage-digital-crypto-pac-us-midterms?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 20:21:31 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-49409",
+      "title": "Chainlink and Anchorage Digital back launch of crypto-aligned PAC",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/chainlink-anchorage-digital-crypto-pac-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 20:21:31 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-41609",
+      "title": "Bitcoin accumulation addresses absorb 67K BTC as miner-led selling falls: Data",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-accumulators-buy-67k-btc-as-miners-slow-selling?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 19:39:08 +0100",
+      "coins": [
+        "BIT",
+        "BTC"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-12467",
+      "title": "Bitcoin accumulation addresses absorb 67K BTC as miner-led selling falls: Data",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-accumulators-buy-67k-btc-as-miners-slow-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 19:39:08 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-82745",
+      "title": "GOP senators unveil 'Mined in America Act' to expand crypto mining, cement strategic bitcoin reserve - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEFublhsMV8tRlE1X0RIdWd1SkVVZlNlTWpReVprVHB6UUExbFowTUE1cnNYUVVodUZXcFI3aXFjUjZMNXVLaHRqb3NUbThxY2M5MEpzVkJXbWtzUGVITXJNUml6WkZVckN5akZpZUx4WElCZHJ3UFM4dkpMZ3BueGlkbGtEeXBWQ1l5N3plMjlwZUVMSXJpR3RHb2lNSEdfMFFVaUJOLVd4R2NYN05Mdkp1T3ZxMlE?oc=5",
+      "published": "Mon, 30 Mar 2026 19:34:39 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-56330",
+      "title": "“I’m Confused About What Bitcoin Actually Is” — Ran Neuner Questions Crypto’s Core Narrative",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/i-m-very-confused-about-what-bitcoin-actually-is-ran-neuner-questions-crypto-s-core-narrative?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 19:29:36 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-rss-6260",
+      "title": "Strategy pushes pause button on Bitcoin purchases, stock sales",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/strategy-bitcoin-purchases-no-sales?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 30 Mar 2026 19:02:57 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
     }
   ]
 }

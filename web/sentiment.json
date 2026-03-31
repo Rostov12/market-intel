@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-27",
-  "generated_at": "2026-03-27 04:45",
+  "date": "2026-03-31",
+  "generated_at": "2026-03-31 04:45",
   "composite": {
-    "score": 0.0,
+    "score": -0.5,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,55 +10,63 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-03-26",
-      "2026-03-27",
-      "2026-03-30"
+      "2026-03-30",
+      "2026-03-31",
+      "2026-04-01"
     ],
-    "total_calls_vol": 5044158,
-    "total_puts_vol": 5416006,
-    "pcr": 1.074,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 4378615,
+    "total_puts_vol": 5873115,
+    "pcr": 1.341,
+    "label": "散戶極度恐慌🟢",
+    "signal": "逆向看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 4,
-    "bear_words": 2,
-    "bull_pct": 67,
+    "bull_words": 5,
+    "bear_words": 3,
+    "bull_pct": 62,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "RCAT",
+        "symbol": "VCX",
+        "count": 1
+      },
+      {
+        "symbol": "SPY",
+        "count": 1
+      },
+      {
+        "symbol": "HOOD",
         "count": 1
       }
     ],
     "top_posts": [
       {
-        "title": "Weekly Earnings Thread 3/23 - 3/27",
-        "score": 86,
-        "upvote_ratio": 0.76
+        "title": "Weekly Earnings Thread 3/30 - 4/3",
+        "score": 93,
+        "upvote_ratio": 0.89
       },
       {
-        "title": "What Are Your Moves Tomorrow, March 27, 2026",
-        "score": 79,
-        "upvote_ratio": 0.93
-      },
-      {
-        "title": "Wife will divorce me if she finds out",
-        "score": 588,
-        "upvote_ratio": 0.68
-      },
-      {
-        "title": "“Just buy shares” they said.",
-        "score": 656,
-        "upvote_ratio": 0.93
-      },
-      {
-        "title": "Exclusive: Musk rewrites IPO playbook with large slice of SpaceX stock for retai",
-        "score": 394,
+        "title": "What Are Your Moves Tomorrow, March 31, 2026",
+        "score": 57,
         "upvote_ratio": 0.94
+      },
+      {
+        "title": "unemployed tech worker",
+        "score": 1958,
+        "upvote_ratio": 0.89
+      },
+      {
+        "title": "The entire AI play, and most US stocks are dead",
+        "score": 1491,
+        "upvote_ratio": 0.87
+      },
+      {
+        "title": "Powell sees inflation outlook in check, no need to hike rates because of oil sho",
+        "score": 1491,
+        "upvote_ratio": 0.98
       }
     ]
   }
