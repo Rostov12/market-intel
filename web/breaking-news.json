@@ -1,7 +1,167 @@
 {
-  "updated_at": "2026-03-31 08:00",
+  "updated_at": "2026-03-31 20:40",
   "count": 30,
   "news": [
+    {
+      "title": "Oil prices hold above $100 a barrel on unclear plan for future reopening of Strait of Hormuz",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-holds-near-four-year-high-on-unclear-plan-for-future-reopening-of-strait-of-hormuz-82db1c21?mod=mw_rss_topstories",
+      "summary": "President Donald Trump reportedly told aides he would end the war in Iran without reopening the trade route.",
+      "detected_at": "2026-03-31T20:40:13.820799+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. gasoline hits $4 per gallon, highest since 2022, as Iran war drives up fuel prices",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/gas-oil-diesel-price-iran-war.html",
+      "summary": "Families are feeling the financial impact from the U.S. war with Iran as gasoline prices surge.",
+      "detected_at": "2026-03-31T20:20:09.159127+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Stock futures rise after report says Trump looking to end Iran war: Live updates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/stock-market-today-live-updates.html",
+      "summary": "The broad market S&amp;P 500 fell for a third consecutive session on Monday as oil prices rose once again.",
+      "detected_at": "2026-03-31T20:00:15.512994+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Oil holds near four-year high on unclear plan for future reopening of Strait of Hormuz",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-holds-near-four-year-high-on-unclear-plan-for-future-reopening-of-strait-of-hormuz-82db1c21?mod=mw_rss_topstories",
+      "summary": "President Donald Trump reportedly told aides he would end the war in Iran without reopening the trade route",
+      "detected_at": "2026-03-31T20:00:15.512994+08:00",
+      "level": "high"
+    },
+    {
+      "title": "傳川普放棄「強攻荷姆茲海峽」願結束伊朗戰爭 美期指漲近1%、油價震盪 - news.cnyes.com",
+      "source": "鉅亨網",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hY3A2c3daQWxoODZRcXRoeS03THI4a2sxR2NIZS13bG4waVliVmVJb2lvejRDZGI0QXhqSmJ4YjdLNHBsTmFfOFFJZXNidHc?oc=5",
+      "summary": "傳川普放棄「強攻荷姆茲海峽」願結束伊朗戰爭 美期指漲近1%、油價震盪&nbsp;&nbsp;news.cnyes.com",
+      "detected_at": "2026-03-31T20:00:15.512994+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Oil sees choppy trading as traders parse Trump comments on Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html",
+      "summary": "Oil prices fell on Tuesday as U.S. President Donald Trump reportedly expressed willingness to end the military hostilities against Iran even if the Strait of Hormuz remains largely shut.",
+      "detected_at": "2026-03-31T14:30:09.509306+08:00",
+      "level": "high"
+    },
+    {
+      "title": "South Korea proposes extra $17 billion budget to cushion energy costs fueled by Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/south-korea-budget-energy-costs-iran-war-.html",
+      "summary": "Seoul imports 94% of its energy needs, and almost 72% of its crude oil comes from the Middle East.",
+      "detected_at": "2026-03-31T14:20:09.003751+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - finance.yahoo.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWThqMWtFM2dWdU5IbXFkMDVVU3VVUVUybVpYQTB5YUN4eGgzRW03Z0k5S25JSlk5VW9FWXpPclhSeWJGT0ZFdWtDNnNlMFJuNVFKWDhPOE1jd1VicGowdzIyTkNGVmJWU1Q3VGFWbExENTZBa21GNTgwTUhIb2RqOW5ZekxMT2Fvdmt0emZOYVBobmp4bHJmR2hZQmU3MXhOUFBZOTA0OGNSNEw5NzFBWXZHaGk5UmVZZmxTZ1EwdjRoZFIzb016djg3RQ?oc=5",
+      "summary": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war&nbsp;&nbsp;finance.yahoo.com",
+      "detected_at": "2026-03-31T14:10:13.976049+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Stock market today: Dow tumbles 800 points with Nasdaq, S&P 500 hammered as investors pare rate cut bets - finance.yahoo.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQ2k2c1VMSURuSUN6ZUlYZ3lITWh3dWp0dmRKOWxDNTdGSFNJZVFuR1VJZE04S1JDb1BSQWNVUUt5SnU3aWNxWlNEWllQWnpLalo3OFVVSllnUlpFaE13VHZUOEtUeXRVcG9MckQ5eV9US0tCLURUallMSWVha005WkhINTVLQmVUM1ZCRkpObWpvUzM1bnlqaTljZTlPOWs2bUxvYVR1dFNwcHBqUHBxdHA2cWJzbEJ0ejdLRVpLZHMtQmRKVW5YZVdNQk5xNkVXSlRfTFpkaVlKV2ZOOHRfU0JfbGxJd1U?oc=5",
+      "summary": "Stock market today: Dow tumbles 800 points with Nasdaq, S&P 500 hammered as investors pare rate cut bets&nbsp;&nbsp;finance.yahoo.com",
+      "detected_at": "2026-03-31T14:10:13.976049+08:00",
+      "level": "high"
+    },
+    {
+      "title": "South Korea proposes over $17 billion in additional budget to ease energy costs as Iran war rages on",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/south-korea-budget-energy-costs-iran-war-.html",
+      "summary": "Seoul imports 94% of its energy needs, and almost 72% of its crude oil comes from the Middle East.",
+      "detected_at": "2026-03-31T13:20:11.890660+08:00",
+      "level": "high"
+    },
+    {
+      "title": "《美股》分析：市場預估衝突升級高盛稱勿再押注聯準會升息- 國際 - 工商時報",
+      "source": "工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FVGZrR1pVaDlCbk5SOEdBVG1ZTzFtRkZWT0lGVjYxSjRHdThCdFd3ZnY2ZnVzbXhHTFhmMVB6NWh5UTI0ZUx1SXVTRHJydjJidWVXWGZ3U01raUtlYURZ?oc=5",
+      "summary": "《美股》分析：市場預估衝突升級高盛稱勿再押注聯準會升息- 國際&nbsp;&nbsp;工商時報",
+      "detected_at": "2026-03-31T12:00:12.142020+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Stock futures rise as oil prices fall after report says Trump looking to end Iran war: Live updates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/30/stock-market-today-live-updates.html",
+      "summary": "The broad market S&amp;P 500 fell for a third consecutive session on Monday as oil prices rose once again.",
+      "detected_at": "2026-03-31T11:20:13.901540+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Asia markets trade mixed as oil markets whipsaw on report that Trump is seeking Iran war exit",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/asia-markets-today-hsi-nikkei-kospi-csi.html",
+      "summary": "Asia-Pacific markets were mixed on Tuesday as investors assesed Mideast conflict and volatile crude oil prices.",
+      "detected_at": "2026-03-31T11:20:13.901540+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Oil prices reverse course to fall as traders assess Trump comments on Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/oil-price-today-wti-brent-trump-energy-sites-water-war-escalation-deal.html",
+      "summary": "Oil prices fell on Tuesday as President Donald Trump reportedly expressed willingness to end the military hostilities against Iran even if the Strait of Hormuz remains largely shut.",
+      "detected_at": "2026-03-31T11:00:15.143012+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - Yahoo Finance",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWThqMWtFM2dWdU5IbXFkMDVVU3VVUVUybVpYQTB5YUN4eGgzRW03Z0k5S25JSlk5VW9FWXpPclhSeWJGT0ZFdWtDNnNlMFJuNVFKWDhPOE1jd1VicGowdzIyTkNGVmJWU1Q3VGFWbExENTZBa21GNTgwTUhIb2RqOW5ZekxMT2Fvdmt0emZOYVBobmp4bHJmR2hZQmU3MXhOUFBZOTA0OGNSNEw5NzFBWXZHaGk5UmVZZmxTZ1EwdjRoZFIzb016djg3RQ?oc=5",
+      "summary": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war&nbsp;&nbsp;Yahoo Finance",
+      "detected_at": "2026-03-31T11:00:15.143012+08:00",
+      "level": "high"
+    },
+    {
+      "title": "South Korea's Kospi leads losses in Asia as Iran war worries keep investors on edge",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/asia-markets-today-hsi-nikkei-kospi-csi.html",
+      "summary": "Asia-Pacific markets were mixed on Tuesday as investors assesed Mideast conflict and volatile crude oil prices.",
+      "detected_at": "2026-03-31T10:20:12.690043+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Pete Hegseth's broker attempted to make defense investments before Iran war: Financial Times",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/pete-hegseth-defence-investments-iran-war-pentagon.html",
+      "summary": "Pentagon chief spokesperson Sean Parnell dismissed the report in a post on X, calling it \"entirely false and fabricated.\"",
+      "detected_at": "2026-03-31T09:40:13.270271+08:00",
+      "level": "high"
+    },
+    {
+      "title": "South Korea's Kospi leads losses in Asia as won slides to 2009 low amid Iran war worries",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/asia-markets-today-hsi-nikkei-kospi-csi.html",
+      "summary": "Asia-Pacific markets fall on Tuesday as investors continued to parse developments in the U.S.-Iran war and volatile crude oil prices.",
+      "detected_at": "2026-03-31T09:10:09.594216+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Asia-Pacific markets fall as Iran war keeps investors jittery, oil extends gains",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/31/asia-markets-today-hsi-nikkei-kospi-csi.html",
+      "summary": "Asia-Pacific markets fall on Tuesday as investors continued to parse developments in the U.S.-Iran war and volatile crude oil prices.",
+      "detected_at": "2026-03-31T08:20:12.952825+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Stock market today: Dow tumbles 800 points with Nasdaq, S&P 500 hammered as investors pare rate cut bets - Yahoo Finance",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQ2k2c1VMSURuSUN6ZUlYZ3lITWh3dWp0dmRKOWxDNTdGSFNJZVFuR1VJZE04S1JDb1BSQWNVUUt5SnU3aWNxWlNEWllQWnpLalo3OFVVSllnUlpFaE13VHZUOEtUeXRVcG9MckQ5eV9US0tCLURUallMSWVha005WkhINTVLQmVUM1ZCRkpObWpvUzM1bnlqaTljZTlPOWs2bUxvYVR1dFNwcHBqUHBxdHA2cWJzbEJ0ejdLRVpLZHMtQmRKVW5YZVdNQk5xNkVXSlRfTFpkaVlKV2ZOOHRfU0JfbGxJd1U?oc=5",
+      "summary": "Stock market today: Dow tumbles 800 points with Nasdaq, S&P 500 hammered as investors pare rate cut bets&nbsp;&nbsp;Yahoo Finance",
+      "detected_at": "2026-03-31T08:10:12.945138+08:00",
+      "level": "high"
+    },
     {
       "title": "How do changing interest rates affect the stock market in 2026? - U.S. Bank",
       "source": "Reuters",
@@ -80,166 +240,6 @@
       "url": "https://www.marketwatch.com/story/powell-says-risks-to-economy-suggest-rates-could-go-lower-or-higher-b0a4134f?mod=mw_rss_topstories",
       "summary": "Powell said the Fed isn&#x2019;t facing an imminent decision on what to do with rates because &#x201c;we don&#x2019;t know what the economic effects&#x201d; of the Iran war will be.",
       "detected_at": "2026-03-30T23:00:13.875790+08:00",
-      "level": "high"
-    },
-    {
-      "title": "These stocks are surging as the next hot play on the Iran war",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/these-stocks-are-surging-as-the-next-hot-play-on-the-iran-war-3531bcbb?mod=mw_rss_topstories",
-      "summary": "Alcoa&#x2019;s stock rallied Monday after Iranian missile strikes on two large Middle East aluminum sites sent prices of the industrial metal higher.",
-      "detected_at": "2026-03-30T23:00:13.875790+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Iran's attacks on aluminum producers are sending 'shockwaves' through the metals market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/iran-attacks-aluminum-producers-shockwaves-market-metals.html",
-      "summary": "Aluminum hit prices not seen since 2022 after Iranian attacks on two Middle Eastern producers over the weekend, amid fears of a supply crisis.",
-      "detected_at": "2026-03-30T22:40:14.225526+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Fed Governor Miran still backs cuts, says interest rates could be 'about a point' lower this year",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/fed-governor-miran-still-backs-cuts-says-interest-rates-could-be-about-a-point-lower-this-year.html",
-      "summary": "Federal Reserve Governor Stephen Miran spoke Monday to CNBC's \"Squawk on the Street.\"",
-      "detected_at": "2026-03-30T22:40:14.225526+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Watch Fed Chair Jerome Powell speak live to an economics class at Harvard",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/watch-fed-chair-jerome-powell-speak-live-to-an-economics-class-at-harvard.html",
-      "summary": "This will be one of Powell's final scheduled public appearances before his term ends in May.",
-      "detected_at": "2026-03-30T22:20:12.660227+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Goldman says traders have Fed outlook wrong as oil surge drives rate hike fears",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/goldman-says-traders-have-fed-outlook-wrong-as-oil-surge-drives-rate-hike-fears.html",
-      "summary": "\"The market has priced a much larger hawkish shock than historical experience would suggest,\" Goldman wrote in a note.",
-      "detected_at": "2026-03-30T21:50:13.415564+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil prices rise with Brent heading for record monthly surge as Iran war enters fifth week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
-      "summary": "Oil prices climbed on Monday after Yemen's Houthis said they had fired missiles at Israel, opening a new front in the U.S.- and Israeli-led conflict with Iran.",
-      "detected_at": "2026-03-30T21:30:11.863383+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Pessimism sets in for Europe as Iran war hits economic and consumer confidence",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/european-economic-sentiment-consumer-confidence-march-iran-war-trump.html",
-      "summary": "Economic sentiment in Europe plummeted in March, according to the latest flash data released on Monday.",
-      "detected_at": "2026-03-30T20:30:12.792780+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump says U.S. will destroy Iran’s oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/trump-iran-war-obliterate-kharg-island-strait-of-hormuz-peace-deal.html",
-      "summary": "Donald Trump warned the U.S. will completely obliterate all of Iran's electric generating plants, oil wells and Kharg Island if a peace deal is not reached.",
-      "detected_at": "2026-03-30T20:00:16.502245+08:00",
-      "level": "high"
-    },
-    {
-      "title": "European markets rise as Iran war intensifies and economic sentiment sours",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/european-markets-stoxx-600-ftse-dax-cac-iran-news-oil-prices.html",
-      "summary": "European stocks started the new trading week in positive territory though the war in Iran showed no signs of ending soon, entering its fifth week.",
-      "detected_at": "2026-03-30T20:00:16.502245+08:00",
-      "level": "high"
-    },
-    {
-      "title": "The market&#x2019;s wobble amid Iran war has left world-beating U.S. stocks &#x2018;extremely cheap,&#x2019; says Bill Ackman",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-markets-iran-war-wobble-has-left-world-beating-u-s-stocks-extremely-cheap-says-bill-ackman-6d135e49?mod=mw_rss_topstories",
-      "summary": "Ignore the bears, says the hedge-fund billionaire",
-      "detected_at": "2026-03-30T20:00:16.502245+08:00",
-      "level": "high"
-    },
-    {
-      "title": "European markets set to start the week lower as Iran war intensifies",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/european-markets-stoxx-600-ftse-dax-cac-iran-news-oil-prices.html",
-      "summary": "European stocks are expected to start the new trading week in negative territory as the war in Iran showed no signs of ending soon as it entered its fifth week.",
-      "detected_at": "2026-03-30T13:10:13.642671+08:00",
-      "level": "high"
-    },
-    {
-      "title": "2 stocks to consider buying that outperformed during the last stock market crash - uk.finance.yahoo.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjBmZVpYa01vaFVyN0NGQmhYalJMOFN1WWg1cVV0WWd0Q0FTS05mdXhESmRXRFRiX19kLXpkVnRtdWxzT0ZjVW1zS2tTNHVWdTM0Ym9CUjdfRTd2YnVBR1ZBZDJkMm81MTdrVkNQT0MySV9ac3FmeWtfcXEtRjlEU1hsTjFVSDRVRjNacnk1aw?oc=5",
-      "summary": "2 stocks to consider buying that outperformed during the last stock market crash&nbsp;&nbsp;uk.finance.yahoo.com",
-      "detected_at": "2026-03-30T13:10:13.642671+08:00",
-      "level": "high"
-    },
-    {
-      "title": "2 stocks to consider buying that outperformed during the last stock market crash - Yahoo Finance UK",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjBmZVpYa01vaFVyN0NGQmhYalJMOFN1WWg1cVV0WWd0Q0FTS05mdXhESmRXRFRiX19kLXpkVnRtdWxzT0ZjVW1zS2tTNHVWdTM0Ym9CUjdfRTd2YnVBR1ZBZDJkMm81MTdrVkNQT0MySV9ac3FmeWtfcXEtRjlEU1hsTjFVSDRVRjNacnk1aw?oc=5",
-      "summary": "2 stocks to consider buying that outperformed during the last stock market crash&nbsp;&nbsp;Yahoo Finance UK",
-      "detected_at": "2026-03-30T09:20:12.086737+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil surges 3% as Iran war escalates with Yemen’s Houthis entering the Mideast conflict",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/30/oil-price-today-wti-brent-yemen-houthis-israel-iran-war.html",
-      "summary": "Oil prices climbed on Monday after Yemen's Houthis said they had fired missiles at Israel, opening a new front in the U.S.- and Israeli-led conflict with Iran.",
-      "detected_at": "2026-03-30T08:10:13.088831+08:00",
-      "level": "high"
-    },
-    {
-      "title": "U.S. stock futures sink, oil prices surge as Iran war shows no signs of letting up",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-sink-oil-prices-surge-as-iran-war-shows-no-signs-of-letting-up-5c463163?mod=mw_rss_topstories",
-      "summary": "U.S. stock-index futures fell and oil prices surged again on Sunday, following sharp losses on Wall Street on Friday, as investors are waking up to the reality that the economic effects of the Iran wa",
-      "detected_at": "2026-03-30T08:00:12.512201+08:00",
-      "level": "high"
-    },
-    {
-      "title": "The problem for investors: We don't know how Trump wants the Iran war to end",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/29/the-problem-for-investors-we-dont-know-how-trump-wants-the-iran-war-to-end.html",
-      "summary": "In his Sunday column for Investing Club subscribers, Jim Cramer argues that the S&amp;P 500 is likely to see further declines during the Iran war.",
-      "detected_at": "2026-03-30T05:00:13.160708+08:00",
-      "level": "high"
-    },
-    {
-      "title": "暴跌：做美股最大的坑，不是選錯股票。是研究太多公司了 - hao.cnyes.com",
-      "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZemlnSm01aXoyUWZobmQ0MW4zVUljRTJQbzkxNG1XWk0wRVFxMThYM1FFOExxZ1JHWDZ4RF9jVXFxYVo1d0JsSQ?oc=5",
-      "summary": "暴跌：做美股最大的坑，不是選錯股票。是研究太多公司了&nbsp;&nbsp;hao.cnyes.com",
-      "detected_at": "2026-03-30T01:50:14.243488+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - finance.yahoo.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWThqMWtFM2dWdU5IbXFkMDVVU3VVUVUybVpYQTB5YUN4eGgzRW03Z0k5S25JSlk5VW9FWXpPclhSeWJGT0ZFdWtDNnNlMFJuNVFKWDhPOE1jd1VicGowdzIyTkNGVmJWU1Q3VGFWbExENTZBa21GNTgwTUhIb2RqOW5ZekxMT2Fvdmt0emZOYVBobmp4bHJmR2hZQmU3MXhOUFBZOTA0OGNSNEw5NzFBWXZHaGk5UmVZZmxTZ1EwdjRoZFIzb016djg3RQ?oc=5",
-      "summary": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war&nbsp;&nbsp;finance.yahoo.com",
-      "detected_at": "2026-03-30T00:10:12.883107+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Bahrain aluminum giant says Iranian attack targeted its facility",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/29/bahrain-aluminum-giant-says-iranian-attack-targeted-its-facilit.html",
-      "summary": "Aluminium Bahrain, or Alba, hosts the world's largest smelter and the attack adds to the pressure on global supplies of the metal.",
-      "detected_at": "2026-03-30T00:00:18.280855+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - Yahoo Finance",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWThqMWtFM2dWdU5IbXFkMDVVU3VVUVUybVpYQTB5YUN4eGgzRW03Z0k5S25JSlk5VW9FWXpPclhSeWJGT0ZFdWtDNnNlMFJuNVFKWDhPOE1jd1VicGowdzIyTkNGVmJWU1Q3VGFWbExENTZBa21GNTgwTUhIb2RqOW5ZekxMT2Fvdmt0emZOYVBobmp4bHJmR2hZQmU3MXhOUFBZOTA0OGNSNEw5NzFBWXZHaGk5UmVZZmxTZ1EwdjRoZFIzb016djg3RQ?oc=5",
-      "summary": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war&nbsp;&nbsp;Yahoo Finance",
-      "detected_at": "2026-03-30T00:00:18.280855+08:00",
       "level": "high"
     }
   ]

@@ -1,225 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2062.73,
-    "change_pct": -2.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [The Motley Fool] Got $2,000? Which Crypto Is the Better Buy Right Now: Ethereum (ETH) vs. Solana (SOL)? - The Motley Fool\n- [FXStreet] Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP send mixed cues, leaning slightly bearish - FXStreet\n- [Benzinga] Bitcoin, Ethereum, XRP Steady, While Dogecoin Spikes Amid Trump's Iran Negotiation Buzz: Analyst Outlines BTC's Path To $80,000 - Grayscale Bitcoin Mini Trust (BTC) (ARCA:BTC) - Benzinga",
-    "timestamp": "2026-03-26T23:20:07.309213+08:00",
-    "epoch": 1774538405
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2068.69,
-    "change_pct": -2.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [The Motley Fool] Got $2,000? Which Crypto Is the Better Buy Right Now: Ethereum (ETH) vs. Solana (SOL)? - The Motley Fool\n- [FXStreet] Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC, ETH and XRP send mixed cues, leaning slightly bearish - FXStreet\n- [Benzinga] Bitcoin, Ethereum, XRP Steady, While Dogecoin Spikes Amid Trump's Iran Negotiation Buzz: Analyst Outlines BTC's Path To $80,000 - Grayscale Bitcoin Mini Trust (BTC) (ARCA:BTC) - Benzinga",
-    "timestamp": "2026-03-26T23:50:10.491170+08:00",
-    "epoch": 1774540207
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.93,
-    "change_pct": -2.09,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-27T02:20:10.191536+08:00",
-    "epoch": 1774549207
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.0,
-    "change_pct": -2.27,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-27T02:50:10.963975+08:00",
-    "epoch": 1774551007
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.7,
-    "change_pct": -2.25,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-27T03:30:07.402698+08:00",
-    "epoch": 1774553404
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2069.91,
-    "change_pct": 2.28,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Barron's] Bitcoin, XRP, Ethereum, Cryptos Drop as Iran Rejects Trump Peace Plan - Barron's",
-    "timestamp": "2026-03-27T04:15:08.505257+08:00",
-    "epoch": 1774556105
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2071.48,
-    "change_pct": 2.28,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Barron's] Bitcoin, XRP, Ethereum, Cryptos Drop as Iran Rejects Trump Peace Plan - Barron's",
-    "timestamp": "2026-03-27T04:45:10.544673+08:00",
-    "epoch": 1774557907
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2000.54,
-    "change_pct": 2.19,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Fortune] Current price of Ethereum for March 26, 2026 - Fortune",
-    "timestamp": "2026-03-27T23:45:17.130046+08:00",
-    "epoch": 1774626315
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2028.59,
-    "change_pct": 2.74,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.\n- [fool.com] Ethereum vs. Solana: Which Crypto Has More Upside? - fool.com",
-    "timestamp": "2026-03-28T21:45:05.797332+08:00",
-    "epoch": 1774705504
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2037.2,
-    "change_pct": 2.03,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [24/7 Wall St.] Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.\n- [CoinDesk] Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.\n- [The Motley Fool] Ethereum vs. Solana: Which Crypto Has More Upside? - The Motley Fool",
-    "timestamp": "2026-03-28T23:25:09.392431+08:00",
-    "epoch": 1774711508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2025.69,
-    "change_pct": 2.03,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [24/7 Wall St.] Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.\n- [CoinDesk] Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.\n- [The Motley Fool] Ethereum vs. Solana: Which Crypto Has More Upside? - The Motley Fool",
-    "timestamp": "2026-03-28T23:55:09.514218+08:00",
-    "epoch": 1774713308
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.0,
-    "change_pct": -2.1,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Here's how bitcoin, Ethereum and other networks are preparing for the looming quantum threat\n- [24/7 Wall St.] Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.",
-    "timestamp": "2026-03-29T07:15:09.468396+08:00",
-    "epoch": 1774739708
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.02,
-    "change_pct": -2.1,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Here's how bitcoin, Ethereum and other networks are preparing for the looming quantum threat\n- [24/7 Wall St.] Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.",
-    "timestamp": "2026-03-29T07:45:10.044757+08:00",
-    "epoch": 1774741508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 1964.46,
-    "change_pct": -2.32,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [unchainedcrypto.com] Gnosis, Zisk and Ethereum Foundation Launch Rollup Framework to Fix L2 Fragmentation - unchainedcrypto.com",
-    "timestamp": "2026-03-30T06:45:06.379183+08:00",
-    "epoch": 1774824305
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 80.51,
-    "change_pct": -2.21,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T06:45:06.547732+08:00",
-    "epoch": 1774824305
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 65024.1,
-    "change_pct": -2.71,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [Fortune] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune\n- [CoinDesk] MSTR may have paused it's BTC accumulation last week - CoinDesk",
-    "timestamp": "2026-03-30T06:50:10.011204+08:00",
-    "epoch": 1774824609
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 597.4,
-    "change_pct": -2.56,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T06:50:10.270147+08:00",
-    "epoch": 1774824609
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 1986.1,
-    "change_pct": 2.91,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
-    "timestamp": "2026-03-30T07:15:09.492521+08:00",
-    "epoch": 1774826108
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 81.19,
-    "change_pct": 3.33,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T07:15:09.644508+08:00",
-    "epoch": 1774826108
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 66052.8,
-    "change_pct": 2.13,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [Fortune] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
-    "timestamp": "2026-03-30T07:25:06.234415+08:00",
-    "epoch": 1774826705
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 1988.12,
-    "change_pct": 2.91,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
-    "timestamp": "2026-03-30T07:45:09.886463+08:00",
-    "epoch": 1774827908
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 81.56,
-    "change_pct": 3.58,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T07:45:10.048541+08:00",
-    "epoch": 1774827908
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 66063.8,
@@ -498,5 +278,225 @@
     "news": "暫無明確消息面，可能為技術性波動",
     "timestamp": "2026-03-31T05:25:10.140721+08:00",
     "epoch": 1774905908
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 67805.5,
+    "change_pct": 2.11,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [CoinTelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [Cointelegraph] 比特幣數據顯示「罕見」的交易設定將緩解反彈至 7.1 萬美元",
+    "timestamp": "2026-03-31T09:25:06.942645+08:00",
+    "epoch": 1774920305
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2058.28,
+    "change_pct": 2.26,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
+    "timestamp": "2026-03-31T09:25:07.344139+08:00",
+    "epoch": 1774920305
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.78,
+    "change_pct": 2.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
+    "timestamp": "2026-03-31T09:30:10.216625+08:00",
+    "epoch": 1774920608
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 619.1,
+    "change_pct": 2.06,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
+    "timestamp": "2026-03-31T09:35:09.962507+08:00",
+    "epoch": 1774920908
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 67978.2,
+    "change_pct": 3.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [CoinTelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [Cointelegraph] 比特幣數據顯示「罕見」的交易設定將緩解反彈至 7.1 萬美元",
+    "timestamp": "2026-03-31T09:55:10.209989+08:00",
+    "epoch": 1774922108
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2074.78,
+    "change_pct": 3.89,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
+    "timestamp": "2026-03-31T09:55:10.708908+08:00",
+    "epoch": 1774922108
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.88,
+    "change_pct": 2.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
+    "timestamp": "2026-03-31T10:00:10.170028+08:00",
+    "epoch": 1774922408
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 68047.0,
+    "change_pct": 2.34,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 油價觸及105美元上方三年高點：比特幣會再崩盤嗎？\n- [CoinTelegraph] 油價觸及105美元上方三年高點：比特幣會再崩盤嗎？\n- [Cointelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備",
+    "timestamp": "2026-03-31T10:30:10.092968+08:00",
+    "epoch": 1774924208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2077.83,
+    "change_pct": 3.31,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
+    "timestamp": "2026-03-31T10:30:10.471364+08:00",
+    "epoch": 1774924208
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.85,
+    "change_pct": 2.31,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
+    "timestamp": "2026-03-31T10:35:10.380230+08:00",
+    "epoch": 1774924508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2070.48,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
+    "timestamp": "2026-03-31T11:05:10.485288+08:00",
+    "epoch": 1774926308
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2068.02,
+    "change_pct": 2.18,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
+    "timestamp": "2026-03-31T11:35:10.637183+08:00",
+    "epoch": 1774928109
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.81,
+    "change_pct": -2.21,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-03-31T17:30:06.703869+08:00",
+    "epoch": 1774949405
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 66100.5,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinDesk] David Bailey 的 Nakamoto 出售了大約 5% 的比特幣持有量，出售了 284 BTC",
+    "timestamp": "2026-03-31T18:00:09.487004+08:00",
+    "epoch": 1774951207
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2017.31,
+    "change_pct": -2.03,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [CoinTelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [Cointelegraph] Bitmine 在今年最大的一周購買了 1.47 億美元的 ETH",
+    "timestamp": "2026-03-31T18:00:09.988401+08:00",
+    "epoch": 1774951207
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.5,
+    "change_pct": -3.41,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
+    "timestamp": "2026-03-31T18:00:10.596459+08:00",
+    "epoch": 1774951207
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 66353.3,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Barron's] 比特幣、XRP 價格正在下跌。策略罕見的購買暫停對加密貨幣意味著什麼。 - 巴倫周刊\n- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
+    "timestamp": "2026-03-31T18:35:10.722004+08:00",
+    "epoch": 1774953309
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2025.1,
+    "change_pct": -2.04,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [CoinTelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [Cointelegraph] Bitmine 在今年最大的一周購買了 1.47 億美元的 ETH",
+    "timestamp": "2026-03-31T18:35:11.111043+08:00",
+    "epoch": 1774953309
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.79,
+    "change_pct": -3.47,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
+    "timestamp": "2026-03-31T18:35:11.470994+08:00",
+    "epoch": 1774953309
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.36,
+    "change_pct": -2.66,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
+    "timestamp": "2026-03-31T19:10:10.359184+08:00",
+    "epoch": 1774955408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.86,
+    "change_pct": -2.66,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
+    "timestamp": "2026-03-31T19:45:10.467125+08:00",
+    "epoch": 1774957508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2055.98,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 谷歌警告稱，五種量子攻擊路徑可能使以太坊 1,000 億美元面臨風險\n- [finance.yahoo.com] 今日比特幣和以太坊價格，2026 年 3 月 31 日星期二：交易員關注戰爭進展，表現參差不齊 - Finance.yahoo.com\n- [CoinDesk] 研究人員表示，量子電腦可能只需要 10,000 個量子位元就能清空你的加密錢包",
+    "timestamp": "2026-03-31T20:40:11.139801+08:00",
+    "epoch": 1774960808
   }
 ]

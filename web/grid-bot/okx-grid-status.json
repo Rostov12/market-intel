@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "ETH-USDT",
+    "state": "running",
+    "grid_count": 10,
+    "range": {
+      "min": 2022.0,
+      "max": 2126.0
+    },
+    "investment": 202.81,
+    "grid_profit": 0.21063955152,
+    "float_profit": -1.6803232155599994,
+    "total_pnl": -1.46934017400411,
+    "pnl_ratio_pct": -0.7245,
+    "arbitrage_count": 3,
+    "started_at": "2026-03-31 11:04",
+    "running_hours": 9.3,
+    "filled_orders": 14,
+    "algo_id": "3436775222668587008",
+    "updated_at": "2026-03-31 20:23:05"
+  }
+]

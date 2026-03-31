@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-03-30",
+  "updated_at": "2026-03-31",
   "indices": [
     { "symbol": "^DJI",  "name": "道瓊工業指數" },
     { "symbol": "^GSPC", "name": "標普 500" },
@@ -44,7 +44,17 @@
   ],
   "tw_stocks": [
     { "symbol": "009816.TW", "name": "凱基台灣TOP50 ETF", "sector": "大盤ETF" },
-    { "symbol": "00662.TW",  "name": "富邦NASDAQ ETF",    "sector": "美股連結ETF" }
+    { "symbol": "00662.TW",  "name": "富邦NASDAQ ETF",    "sector": "美股連結ETF" },
+    { "symbol": "2330.TW",   "name": "台積電",      "sector": "晶片代工",       "eps_growth_2026": "25-30%", "thesis": "AI 晶片唯一代工核心，N2/A16 2026 量產，CoWoS 持續倍增" },
+    { "symbol": "3131.TW",   "name": "弘塑",        "sector": "先進封裝設備",   "eps_growth_2026": "45-50%", "thesis": "台積電 CoWoS 濕製程設備龍頭，2026 訂單能見度極高，獲利具翻倍潛力" },
+    { "symbol": "2345.TW",   "name": "智邦",        "sector": "網路通訊",       "eps_growth_2026": "35%",    "thesis": "AI 資料中心 800G 交換器出貨主力，1.6T 預計 2026 放量" },
+    { "symbol": "3081.TW",   "name": "聯亞",        "sector": "矽光子(CPO)",    "eps_growth_2026": "150%+",  "thesis": "供應 Intel 矽光子磊晶片，CPO 需求爆發，2026 獲利進入爆發期" },
+    { "symbol": "4967.TW",   "name": "十銓",        "sector": "記憶體模組",     "eps_growth_2026": "40%",    "thesis": "HBM 產能排擠導致 DDR5 漲價，2026 高價值 AI 模組佔比提升" },
+    { "symbol": "3037.TW",   "name": "欣興",        "sector": "PCB/ABF載板",    "eps_growth_2026": "50-60%", "thesis": "AI 伺服器 GPU 載板主要供應商，Rubin 平台帶動 ABF 規格升級" },
+    { "symbol": "1802.TW",   "name": "台玻",        "sector": "玻璃纖布",       "eps_growth_2026": "轉盈",   "thesis": "Low DK 高階玻纖布，AI PCB 規格升級導致結構性缺貨，毛利顯著修復" },
+    { "symbol": "1815.TW",   "name": "富喬",        "sector": "玻璃纖布",       "eps_growth_2026": "80%+",   "thesis": "電子級玻纖布，切入伺服器供應鏈，漲價潮+高階產品比重提升" },
+    { "symbol": "8150.TW",   "name": "南茂",        "sector": "記憶體封測",     "eps_growth_2026": "25%",    "thesis": "HBM 外溢帶動傳統記憶體封測，低 PE AI 補漲標的" },
+    { "symbol": "1560.TW",   "name": "中砂",        "sector": "晶圓耗材",       "eps_growth_2026": "30%",    "thesis": "鑽石碟龍頭，深度參與台積電 3nm/2nm，先進製程投片量大增" }
   ],
   "okx_contracts": [
     { "symbol": "XAU/USDT:USDT",   "name": "黃金合約",     "category": "貴金屬" },

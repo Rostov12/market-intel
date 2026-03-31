@@ -1,283 +1,56 @@
 {
   "date": "2026-03-31",
-  "updated_at": "2026-03-31 08:00",
+  "updated_at": "2026-03-31 20:40",
   "count": 30,
   "sources": [
-    "cointelegraph",
     "google-news-crypto",
-    "coindesk",
-    "cointelegraph-rss"
+    "cointelegraph",
+    "cointelegraph-rss",
+    "coindesk"
   ],
   "news": [
     {
-      "id": "ct-rss-21859",
-      "title": "Bitcoin data points to ‘rare’ trading setup for relief rally to $71K",
+      "id": "ct-rss-15409",
+      "title": "Supply chain attack hits Axios npm releases, users urged to rotate keys",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-data-points-to-rare-trading-setup-for-relief-rally-to-dollar71k?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 31 Mar 2026 00:48:42 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-19351",
-      "title": "Bitcoin data points to ‘rare’ trading setup for relief rally to $71K",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-data-points-to-rare-trading-setup-for-relief-rally-to-dollar71k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 31 Mar 2026 00:48:42 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-332",
-      "title": "Peter Brandt, Polymarket traders don’t see new Bitcoin highs this year",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/peter-brandt-polymarket-traders-new-bitcoin-highs-unlikely-2026?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 31 Mar 2026 00:38:14 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-59436",
-      "title": "Peter Brandt, Polymarket traders don’t see new Bitcoin highs this year",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/peter-brandt-polymarket-traders-new-bitcoin-highs-unlikely-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 31 Mar 2026 00:38:14 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-2047",
-      "title": "Ethereum’s Incredible Position - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdXQybzZLaDBoMzRibUdMcE11ekhNQ0lfNm1LRFJqNGRRT3RiTmZhWGFnM3Z1SXdyOVJ3UElwSGVVWV9mS1N1NUFEZWVTRGEtbTUxT0w0Q1dRLTU1VXR3aWpaZ1k0NnRlUXBOSFBhQTRWb24wWkwyVkstNFFTTjA3OTBLOV9SUXI5emZiYUE1X2xIbTlYNGppUA?oc=5",
-      "published": "Sat, 28 Mar 2026 18:01:49 GMT",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-24037",
-      "title": "God and bitcoin: Why some Christians are going all in on cryptocurrency - nbcnews.com",
-      "source": "nbcnews.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM2xZTlBVS2d5ZkpCVGt0a0JqakVRSEltY3JLOFQwTmdQUVdsOWJqVnhfNzhZa0xYNE1XdHBOVGZad2VqU2x1TzVIUTE0WXo0ODNMb2g1NWoxUFpQd3FaM25fcld3aUFZSzFxakptQk81QTB5WExmSTZnSkhuNVVnMF9HdDhnaFV2cmpRdU9tOTloRmM?oc=5",
-      "published": "Sat, 28 Mar 2026 11:00:42 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-10380",
-      "title": "Price predictions 3/30: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/price-predictions-3-30-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 23:00:00 +0100",
-      "coins": [
-        "BNB",
-        "ETH",
-        "BTC",
-        "SOL",
-        "XRP"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-53894",
-      "title": "Price predictions 3/30: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, ADA, HYPE",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/price-predictions-3-30-spx-dxy-btc-eth-bnb-xrp-sol-doge-ada-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 23:00:00 +0100",
-      "coins": [
-        "ETH",
-        "BNB",
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-35665",
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 22:59:57 +0100",
+      "url": "https://cointelegraph.com/news/axios-npm-supply-chain-attack-malicious-dependency?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:45:58 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-49764",
-      "title": "Here’s what happened in crypto today",
+      "id": "ct-64045",
+      "title": "Supply chain attack hits Axios npm releases, users urged to rotate keys",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 22:59:57 +0100",
+      "url": "https://cointelegraph.com/news/axios-npm-supply-chain-attack-malicious-dependency?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:45:58 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-59847",
-      "title": "NFL asks prediction markets to act on ‘easily manipulated‘ bets",
+      "id": "ct-rss-5758",
+      "title": "CoinDCX plans anti-fraud push after founders cleared in impersonation case",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/nfl-asks-prediction-markets-to-act-on-easily-manipulated-bets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 22:07:35 +0100",
+      "url": "https://cointelegraph.com/news/coindcx-plans-11-million-fraud-crackdown?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:30:43 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-95131",
-      "title": "NFL asks prediction markets to act on ‘easily manipulated‘ bets",
+      "id": "ct-18331",
+      "title": "CoinDCX plans anti-fraud push after founders cleared in impersonation case",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/nfl-asks-prediction-markets-to-act-on-easily-manipulated-bets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 22:07:35 +0100",
+      "url": "https://cointelegraph.com/news/coindcx-plans-11-million-fraud-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:30:43 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-6430",
-      "title": "U.S. rule change may open trillions in 401(k) funds to crypto",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/03/30/u-s-rule-change-may-open-trillions-in-401-k-funds-to-crypto",
-      "published": "Mon, 30 Mar 2026 22:00:08 +0000",
-      "summary": "The Labor Department on Monday proposed a rule following an executive order from President Donald Trump that directed regulators to expand access to digital assets in retirement portfolios.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-19110",
-      "title": "Hyperliquid whale opens $53M Bitcoin short: Should traders take notice?",
+      "id": "ct-rss-76837",
+      "title": "Bitcoin whale selling cools as $60K becomes the focus for BTC price",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-whale-opens-53m-bitcoin-short-should-traders-take-notice?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 21:56:27 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-8147",
-      "title": "Hyperliquid whale opens $53M Bitcoin short: Should traders take notice?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-whale-opens-53m-bitcoin-short-should-traders-take-notice?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 21:56:27 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-89161",
-      "title": "Democrats urge warnings to federal officials against insider bets on prediction markets",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/03/30/democrats-urge-warnings-to-federal-officials-against-insider-bets-on-prediction-markets",
-      "published": "Mon, 30 Mar 2026 21:37:35 +0000",
-      "summary": "Members of the House and Senate asked the CFTC and federal ethics office to remind government employees it's illegal to make insider derivatives trades.",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-63418",
-      "title": "Noisy Bitcoin mine shuts down in Washington County, TN - WJHL",
-      "source": "WJHL",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOemVOMVJ6dFdfdWpsR2tsVjBfeEs1RVhrN0hJOGVMU05EUmh4VHI1elk0c0lUT09fdkR2OTY1NmlZXzNyaTZWdHlObUo3WGg1WGlIbXp5VEV3WkRvdHQ0T1JqblE2Rl9XaVNFRU5rejdUeTZQNENiaFhINFJqZEs5NkNodVFZNkI0MmJSeDNvSdIBlAFBVV95cUxNOXRnTzRNSUU5TTVEMFBzT2VVbzVXc19tb0ZSeFh1UHZ1amtoa3ZyRVhpblFFeXZxRVd2cmtNNkNGaTJUVWRLTDFwX3pXUnlod2V5TkpoQmZFcFZmckt3US1qLXVzXzM4SXJHd1MzQ3BIRWozUm1NMFpMTjg4VnpwTDVrZkF0V25temt0a2p6U3lyVlVK?oc=5",
-      "published": "Mon, 30 Mar 2026 21:24:11 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-89114",
-      "title": "Square rolls out Bitcoin payments at POS for eligible US merchants",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/square-begins-auto-enabling-bitcoin-payments-for-eligible-us-sellers-exec-says?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 21:18:21 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-40532",
-      "title": "Square rolls out Bitcoin payments at POS for eligible US merchants",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/square-begins-auto-enabling-bitcoin-payments-for-eligible-us-sellers-exec-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 21:18:21 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-33432",
-      "title": "Why Consensus is crypto’s new ground zero",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/03/30/why-consensus-is-crypto-s-new-ground-zero",
-      "published": "Mon, 30 Mar 2026 21:02:00 +0000",
-      "summary": "A decade of building is paying off. Massive Institutional presence, deep focus on agentic commerce make the event in Miami one for the ages.\n",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-31917",
-      "title": "Mitsubishi adopts JPMorgan blockchain for corporate payments",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/mitsubishi-jpmorgan-kinexys-blockchain-corporate-payments?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 20:39:32 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-86054",
-      "title": "Mitsubishi adopts JPMorgan blockchain for corporate payments",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/mitsubishi-jpmorgan-kinexys-blockchain-corporate-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 20:39:32 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-60876",
-      "title": "Fed's Powell's comments sooth bond market, but oil continues rise, hitting crypto and stocks",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/03/30/fed-s-powell-s-comments-sooth-bond-market-but-oil-continues-rise-hitting-crypto-and-stocks",
-      "published": "Mon, 30 Mar 2026 20:28:05 +0000",
-      "summary": "WTI crude oil closed above $100 per barrel for the first time since 2002.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-41899",
-      "title": "Chainlink and Anchorage Digital back launch of crypto-aligned PAC",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/chainlink-anchorage-digital-crypto-pac-us-midterms?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 20:21:31 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-49409",
-      "title": "Chainlink and Anchorage Digital back launch of crypto-aligned PAC",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/chainlink-anchorage-digital-crypto-pac-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 20:21:31 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-41609",
-      "title": "Bitcoin accumulation addresses absorb 67K BTC as miner-led selling falls: Data",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-accumulators-buy-67k-btc-as-miners-slow-selling?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 19:39:08 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-whale-selling-cools-60k-becomes-focus-for-btc-price?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:15:26 +0100",
       "coins": [
         "BIT",
         "BTC"
@@ -285,48 +58,266 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-12467",
-      "title": "Bitcoin accumulation addresses absorb 67K BTC as miner-led selling falls: Data",
+      "id": "ct-30109",
+      "title": "Bitcoin whale selling cools as $60K becomes the focus for BTC price",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-accumulators-buy-67k-btc-as-miners-slow-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 19:39:08 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-whale-selling-cools-60k-becomes-focus-for-btc-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:15:26 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-82745",
-      "title": "GOP senators unveil 'Mined in America Act' to expand crypto mining, cement strategic bitcoin reserve - The Block",
-      "source": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEFublhsMV8tRlE1X0RIdWd1SkVVZlNlTWpReVprVHB6UUExbFowTUE1cnNYUVVodUZXcFI3aXFjUjZMNXVLaHRqb3NUbThxY2M5MEpzVkJXbWtzUGVITXJNUml6WkZVckN5akZpZUx4WElCZHJ3UFM4dkpMZ3BueGlkbGtEeXBWQ1l5N3plMjlwZUVMSXJpR3RHb2lNSEdfMFFVaUJOLVd4R2NYN05Mdkp1T3ZxMlE?oc=5",
-      "published": "Mon, 30 Mar 2026 19:34:39 GMT",
+      "id": "cd-39141",
+      "title": "Google warns five quantum attack paths could put $100 billion on Ethereum at risk",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/03/31/google-warns-five-quantum-attack-paths-could-put-usd100-billion-on-ethereum-at-risk",
+      "published": "Tue, 31 Mar 2026 12:02:23 +0000",
+      "summary": "A 57-page whitepaper identifies how future quantum computers could target Ethereum's wallets, smart contracts, staking system, Layer 2 networks and data verification layer, with combined exposure exce",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-29609",
+      "title": "Dynamic adds embedded wallet infrastructure to TON for Telegram apps",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/fireblocks-backed-dynamic-adds-embedded-wallet-infrastructure-to-ton-for-telegram-apps-embargo-tues-march-31-7am-et?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:00:00 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-28137",
+      "title": "Dynamic adds embedded wallet infrastructure to TON for Telegram apps",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/fireblocks-backed-dynamic-adds-embedded-wallet-infrastructure-to-ton-for-telegram-apps-embargo-tues-march-31-7am-et?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 12:00:00 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-40202",
+      "title": "Prediction markets backlash builds possible stormcloud for 2027 ",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/03/30/prediction-markets-backlash-builds-possible-stormcloud-for-2027",
+      "published": "Tue, 31 Mar 2026 12:00:00 +0000",
+      "summary": "Odds favor a Democratic rise in Congress next year, when lawmakers who've begun going after firms such as Kalshi and Polymarket may have greater sway.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-38004",
+      "title": "Google Slashes Quantum Resource Requirements for Breaking Cryptocurrency Encryption - SecurityWeek",
+      "source": "SecurityWeek",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTXpJZ2cyd2JrcnVGb2lxWG1ORFZmcUduWVlxRUN3YXN1eFA4RGlSZTNhakRWdU5hTzRQZHVYYlNYeklQMzRVS0lFT2xHVUY2NUMtdmNmMHNoR0JQcDR4MlRkTzRybUVrbUJFX2ozX1l3YkJPTFJlckxsUldDNnZFaTZQX0x2UUNUaElkU0t6WFgxMUlxTkUwNmVZdGNERFp0aUNJTUh4WER5TGhfaTFkam5KZ9IBuAFBVV95cUxQeUlXbk9DTThOQ1VfYWR2bmhLcEZxZmRFR2MwWmtjWWVNVi1ranpxNzF3TG1RSGlJd2hCMldmbkd6aTlqdnJidXRmaU4zRTh3S25ycUVmT0NWT3p2bkpwWDZxS2hmaTd1N0l6aHdRVi04YnJNNTBoczNrTjJxeUw5cUFSaUpqVm83Wks3V1FBOWpZSHA2Y3RySXVxUGpNTm5wcUZhM283ekFJR1lfU2twZ2hvTVJkNjBs?oc=5",
+      "published": "Tue, 31 Mar 2026 11:51:43 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-66828",
+      "title": "Russia moves to narrow crypto trading to regulated intermediaries",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/russia-limit-crypto-trade-regulated-intermediaries?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 11:40:50 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-32144",
+      "title": "Russia moves to narrow crypto trading to regulated intermediaries",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/russia-limit-crypto-trade-regulated-intermediaries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 11:40:50 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-54170",
+      "title": "Forex startup OpenFX raises $94 million to expand stablecoin-powered cross-border payments",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/03/31/forex-startup-openfx-raises-usd94-million-to-expand-stablecoin-powered-cross-border-payments",
+      "published": "Tue, 31 Mar 2026 11:40:14 +0000",
+      "summary": "The company acts as a bridge between traditional banking and digital assets, enabling faster and cheaper foreign-exchange conversions for businesses moving large sums of money.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-13092",
+      "title": "‘It’s Happening’—Elon Musk Sparks Wild Bitcoin Price Speculation After Trump Declares ‘Crypto Revolution’ - Forbes",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNeU82R2lfS1pnZ3huVm12WVM0SjZReWQtdWdqWVhYS2p5RHVoYTFKWV9naGpXc2l0Mm5qMkVKMXZ0VEw2WTBDYVJOZ3dYd2xCWDdqd0hRaDFSSllsX3UyMDM2NC0wbDZVckh5VEdFOFlDbGpZQkU5blB6Y1pjZ2JDVkRzRzRCMmJReHY3c29PNEQ3UTBaUjVlVHFNRGJFZE9ra1J4VHBab1B5Z0IyZlhfamlZRUJsTFRycmVJR25TNEM1bWF4ZWFBUVRqM3ltNWxNai1KUGhsNTRnc0duellIUUJ1OVBJMThfeGc?oc=5",
+      "published": "Tue, 31 Mar 2026 11:40:00 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-56330",
-      "title": "“I’m Confused About What Bitcoin Actually Is” — Ran Neuner Questions Crypto’s Core Narrative",
+      "id": "gn-73349",
+      "title": "Bitcoin and ethereum price today, Tuesday, March 31, 2026: Performance mixed as traders watch war developments - finance.yahoo.com",
+      "source": "finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQUW5nbGMzQm9DRkRwZmNVaEJPSS1zRWdQakNYMkkzS1VTdzc0VG1sM2N3SWdqRzh6cnB1elJnM3FCQ19EUmZROGc5MHBKYWpIZkIySW83N0pjS0w0RE9DWEV0aDd3TV90SGxzVHY1ZWJ4aGprWDRkSkVUTkc4X3VVZWhyV0s2LUFsbjU0QmlpZjhLQVhUQWFMYkNyYk5QVy1TVFpGa2ZKQUJGNmZYZWFMUmE4N3lXVkswVHItTkNRaXJJNXRDbHBaY05PbTg0TTlPUWFZckt2QjZCN3YzdEptX3ljLXhqQ09ZOUVzN09MRkxFVHVLb3duenUtRl9NeXA3VmZaZ0VNcUtkR1hHWXBF?oc=5",
+      "published": "Tue, 31 Mar 2026 11:37:37 GMT",
+      "coins": [
+        "ETH",
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-95598",
+      "title": "Bitcoin price dips below $66K ahead of US Defense Department briefing",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/i-m-very-confused-about-what-bitcoin-actually-is-ran-neuner-questions-crypto-s-core-narrative?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 19:29:36 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-price-dips-below-66k-ahead-us-department-of-war-press-briefing?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 11:32:31 +0100",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-rss-6260",
-      "title": "Strategy pushes pause button on Bitcoin purchases, stock sales",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/strategy-bitcoin-purchases-no-sales?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 30 Mar 2026 19:02:57 +0100",
+      "id": "ct-83738",
+      "title": "Bitcoin price dips below $66K ahead of US Defense Department briefing",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-price-dips-below-66k-ahead-us-department-of-war-press-briefing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 11:32:31 +0100",
       "coins": [
-        "BIT"
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-34237",
+      "title": "Google Suggests Quantum Attacks on Cryptocurrency Encryption May Require Fewer Resources - The Quantum Insider",
+      "source": "The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUjNSUTFBWXViX3JCTl9wNm1KaXBKUk5WdWJVcUptX1VsREczNy1hQmh6cGwtWUx5TGZUX3lhbkhTdkU0NTJDUUh3OEl1dmJVY1VScVB2YlBTVUllSnM0RG5FYV9XTTgtLWdWZndFTjJMOTEzMllTODA0bjFzUVdRNG5kR2lEWVJxWXZRNEVQTVE1RWtZN3d4SlF0WnI3X2swa3pidW9fbVJMRUdSMU1OTVZ2TExxTzhoZ0tlVDFENnpGTnMxM2dQZzN3?oc=5",
+      "published": "Tue, 31 Mar 2026 11:19:24 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-33361",
+      "title": "Crypto market maker Keyrock reaches $1.1B valuation in SC Ventures-led round",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-market-maker-keyrock-1-1b-valuation-sc-ventures-funding?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 11:17:16 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-44749",
+      "title": "Crypto market maker Keyrock reaches $1.1B valuation in SC Ventures-led round",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/crypto-market-maker-keyrock-1-1b-valuation-sc-ventures-funding?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 11:17:16 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-63874",
+      "title": "Quantum risk resurfaces at the worst time for bitcoin, but 1 token is loving it",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/03/31/quantum-risk-resurfaces-at-the-worst-time-for-bitcoin-but-1-token-is-loving-it",
+      "published": "Tue, 31 Mar 2026 11:15:00 +0000",
+      "summary": "Your day-ahead look for March 31, 2026",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-77185",
+      "title": "A quantum computer may need just 10,000 qubits to empty your crypto wallets, researchers say",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/31/quantum-computers-could-break-crypto-wallet-encryption-with-just-10-000-qubits-researchers-say",
+      "published": "Tue, 31 Mar 2026 11:03:14 +0000",
+      "summary": "The research shows quantum computers may break bitcoin and ether wallet encryption with far fewer qubits than previously thought, accelerating the push toward post-quantum security.",
+      "coins": [
+        "ETH",
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-1028",
+      "title": "Bitcoin rebound soon? Four factors fuel the price right now - dlnews.com",
+      "source": "dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNGNWSXFvWXdhNzlTdnRQbEZxX2RoY3F5WlpIaTdUWHJRZDBrcnUtamk2MndwTlE5MDBEVmo5TGJLUXlVVGQ0UUQ4RzhGajVHQlhJZGxKbFRSczVncnpFZ1J1T2dTSTVScG1mNUF6QWwxRWRDSG9LSExsN3Vha1ZjQWJQejBBcjFfVE1fMg?oc=5",
+      "published": "Tue, 31 Mar 2026 10:40:45 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-69293",
+      "title": "Russia’s Sanctions-Busting Cryptocurrency Empire - Foreign Policy",
+      "source": "Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTHR2UTVNODFvWXh1XzJWSXY1REVieHZJYmQ0SXRRdTVzRmRtcEdrRXcyZHJKSndacFhDZ1dCb0JETHZuOGVuSVVVNzd4VjNxeGE0TE82Y19aSS1NbERXTFJOalBXRmYtRlgyNE1FTzhfSmg4U05zOEI5dUdJY1M1UmIwUWhILVBsVUJPTndpM3preTZjS0hYaTVGX00yajE0SkZiQUxtTVBWNURfYjU5TGhKQk1YZklHRnhxSnVR?oc=5",
+      "published": "Tue, 31 Mar 2026 10:38:27 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-75898",
+      "title": "Bearish sentiment builds in crypto as volatility and hedging rise",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/31/bearish-sentiment-builds-in-crypto-as-volatility-and-hedging-rise",
+      "published": "Tue, 31 Mar 2026 10:34:58 +0000",
+      "summary": "Bitcoin’s brief rally faded amid war-driven oil price surge, rising volatility and declining futures interest, signaling growing caution across crypto markets.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-73026",
+      "title": "Hyperscale Data's $82.1 Million in Cash, Restricted Cash, and Bitcoin Holdings Significantly Exceed Current Market Capitalization of Company - PR Newswire",
+      "source": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNNTRNZWtranZXeHhJeEZaaEJtZGxuUEVtVUZTTGRMaWNXMmd6QU5pbmxwNmFRTU9JMVdsU3hIWFVqRUhlMzJhZm02M05XdXppU0JuUGgxMmc3cmtCZ1dKX2tsMlpHMkE5c1hmcFkzSkh4WU1yRlNnaDBfbTc1TXcyaTN0NVl1dHNOaFdrZTgzUkJZQ2l4d2hLM0NBYU5Vb3YxeWRwQzY2YVMtMlktcWx4bWZkc1BVNk1fV1RlUjFFRUM3ZF8tbDJDbWNvS3VXSXB5djhpY2JVaW45enBaUUZoaDFmNDNQOE9FM09GdGFIamt2TXZ4QTVVUFBXOV9xcXdtMjVTRkxhbXFUUjNGRW5fdkF0NTVhT1MwcjJxZA?oc=5",
+      "published": "Tue, 31 Mar 2026 10:30:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-86190",
+      "title": "Bitcoin’s Taproot could make quantum attacks easier than expected, new Google research says - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRU1rUHdaWmRKZDl4TTIwS2lCWFhTMkpLRm5DRUswWFl2SWpoTTEydHlQaER0NXFWUGRENlRSSkJoZlFfM3J1M2ZQZDdieWR5V0dmV2VlZFYxNG43ZTB5cjVrVFBOdUQtVTRRSm05NFlYRm12U0tMdmRMNzcwTVhPNWhacGNCejVIRjdHX080Vm9LcENjMG1ON1k3WkdRWUI3SFFaSWRLQ0I1bFhUR0x2cUhpRHM2a0lweUxRWmdmN3dsckxacmplVTFxSmY3Nmc?oc=5",
+      "published": "Tue, 31 Mar 2026 10:16:16 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-46340",
+      "title": "F2Pool co-founder says Thailand condo bought for 2,900 Bitcoin sold for 7",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/f2pool-co-founder-sells-home-7-btc?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 10:04:21 +0100",
+      "coins": [
+        "BIT",
+        "SOL"
       ],
       "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-61905",
+      "title": "F2Pool co-founder says Thailand condo bought for 2,900 Bitcoin sold for 7",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/f2pool-co-founder-sells-home-7-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 31 Mar 2026 10:04:21 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
     }
   ]
 }
