@@ -1,255 +1,5 @@
 [
   {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 66063.8,
-    "change_pct": 2.13,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [fortune.com] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - fortune.com\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
-    "timestamp": "2026-03-30T07:55:09.612448+08:00",
-    "epoch": 1774828508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 1983.09,
-    "change_pct": 2.52,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience",
-    "timestamp": "2026-03-30T08:15:09.892587+08:00",
-    "epoch": 1774829708
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 81.2,
-    "change_pct": 3.38,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T08:15:10.046742+08:00",
-    "epoch": 1774829708
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 614.4,
-    "change_pct": 3.05,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T08:20:06.593789+08:00",
-    "epoch": 1774830005
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 66647.9,
-    "change_pct": 3.18,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [KCRG] Bitcoin mining company plans to expand cryptocurrency operations to Dubuque County - KCRG\n- [Fortune] Bitcoin faces $14 billion options expiry while Middle East turmoil mounts - Fortune\n- [bloomingbit] [Market] Bitcoin breaks below $66,000…major altcoins also slide - bloomingbit",
-    "timestamp": "2026-03-30T08:25:09.727307+08:00",
-    "epoch": 1774830308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 1999.87,
-    "change_pct": 4.45,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience",
-    "timestamp": "2026-03-30T08:50:08.520686+08:00",
-    "epoch": 1774831807
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 81.82,
-    "change_pct": 5.24,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T08:50:08.672695+08:00",
-    "epoch": 1774831807
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 609.9,
-    "change_pct": 3.05,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T08:50:08.746413+08:00",
-    "epoch": 1774831807
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.57,
-    "change_pct": 2.18,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T09:30:09.634137+08:00",
-    "epoch": 1774834208
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2012.75,
-    "change_pct": 2.02,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
-    "timestamp": "2026-03-30T09:35:09.258794+08:00",
-    "epoch": 1774834508
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.78,
-    "change_pct": 2.02,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T10:00:10.119094+08:00",
-    "epoch": 1774836008
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2014.6,
-    "change_pct": 2.01,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinTelegraph] Ethereum builders propose ‘economic zone’ to tackle L2 fragmentation\n- [CoinDesk] New Ethereum project aims to fix network fragmentation and improve user experience - CoinDesk",
-    "timestamp": "2026-03-30T10:10:06.555528+08:00",
-    "epoch": 1774836605
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.75,
-    "change_pct": 2.35,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T10:30:10.460588+08:00",
-    "epoch": 1774837809
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2018.85,
-    "change_pct": 2.1,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinDesk] 新的以太坊專案旨在修復網路碎片並改善用戶體驗 - 鏈聞 ChainNews",
-    "timestamp": "2026-03-30T10:45:10.859793+08:00",
-    "epoch": 1774838708
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 67322.7,
-    "change_pct": 2.57,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [KCRG] 比特幣礦業公司計劃將加密貨幣業務擴展到迪比克縣 - KCRG\n- [bloomingbit] 【市場】比特幣跌破 66,000 美元…主要山寨幣也下滑 - Bloomingbit\n- [markets.businessinsider.com] 隨著穩定幣的採用擴大了區塊鏈參與範圍，比特幣 Everlight 開啟了第三階段 - Markets.businessinsider.com",
-    "timestamp": "2026-03-30T10:50:06.302746+08:00",
-    "epoch": 1774839004
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 618.4,
-    "change_pct": 2.33,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T10:50:06.473743+08:00",
-    "epoch": 1774839004
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2038.1,
-    "change_pct": 2.08,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinDesk] 新的以太坊專案旨在修復網路碎片並改善用戶體驗 - 鏈聞 ChainNews",
-    "timestamp": "2026-03-30T11:25:10.245385+08:00",
-    "epoch": 1774841108
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.34,
-    "change_pct": 2.01,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-30T11:55:09.561259+08:00",
-    "epoch": 1774842908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2044.92,
-    "change_pct": 2.04,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [The Block] Gnosis 和 Zisk 宣布與以太坊基金會共同資助的「以太坊經濟區」總結框架 - The Block",
-    "timestamp": "2026-03-30T12:15:10.759558+08:00",
-    "epoch": 1774844108
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2043.83,
-    "change_pct": 2.29,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinTelegraph] 以太坊建設者提出「經濟區」來解決 L2 碎片化問題\n- [CoinDesk] 新的以太坊專案旨在修復網路碎片並改善用戶體驗",
-    "timestamp": "2026-03-30T12:45:10.587656+08:00",
-    "epoch": 1774845908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2040.46,
-    "change_pct": -2.3,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
-    "timestamp": "2026-03-31T01:30:02.817179+08:00",
-    "epoch": 1774891801
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.91,
-    "change_pct": -2.12,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-31T02:25:09.688409+08:00",
-    "epoch": 1774895108
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2035.64,
-    "change_pct": -2.04,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
-    "timestamp": "2026-03-31T02:30:10.684367+08:00",
-    "epoch": 1774895409
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.7,
-    "change_pct": -2.05,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-31T03:00:09.805496+08:00",
-    "epoch": 1774897208
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2028.84,
-    "change_pct": -2.16,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
-    "timestamp": "2026-03-31T03:05:10.468434+08:00",
-    "epoch": 1774897509
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 82.2,
@@ -498,5 +248,255 @@
     "news": "- [CoinDesk] 谷歌警告稱，五種量子攻擊路徑可能使以太坊 1,000 億美元面臨風險\n- [finance.yahoo.com] 今日比特幣和以太坊價格，2026 年 3 月 31 日星期二：交易員關注戰爭進展，表現參差不齊 - Finance.yahoo.com\n- [CoinDesk] 研究人員表示，量子電腦可能只需要 10,000 個量子位元就能清空你的加密錢包",
     "timestamp": "2026-03-31T20:40:11.139801+08:00",
     "epoch": 1774960808
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2058.27,
+    "change_pct": 2.08,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Base 與以太坊、Tron 等公司一起押注人工智慧代理的未來\n- [CoinTelegraph] Base 與以太坊、Tron 等公司一起押注人工智慧代理的未來\n- [CoinDesk] 谷歌警告稱，五種量子攻擊路徑可能使以太坊 1,000 億美元面臨風險",
+    "timestamp": "2026-03-31T21:20:09.950673+08:00",
+    "epoch": 1774963208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2073.99,
+    "change_pct": 2.56,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Fortune] 2026 年 3 月 31 日以太坊當前價格 - 財富\n- [CoinDesk] 谷歌警告稱，五種量子攻擊路徑可能使以太坊 1,000 億美元面臨風險\n- [CNBC] 皮特·赫格斯的經紀人試圖在伊朗戰爭前進行國防投資：金融時報",
+    "timestamp": "2026-03-31T21:50:10.602193+08:00",
+    "epoch": 1774965008
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.99,
+    "change_pct": 2.19,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-03-31T21:55:06.350502+08:00",
+    "epoch": 1774965304
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2082.45,
+    "change_pct": 2.77,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [CoinTelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [Cointelegraph] Base 與以太坊、Tron 等公司一起押注人工智慧代理的未來",
+    "timestamp": "2026-03-31T22:25:10.645233+08:00",
+    "epoch": 1774967108
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.1,
+    "change_pct": 2.71,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-03-31T22:25:10.921435+08:00",
+    "epoch": 1774967108
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2042.55,
+    "change_pct": 2.77,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [CoinTelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [Cointelegraph] Base 與以太坊、Tron 等公司一起押注人工智慧代理的未來",
+    "timestamp": "2026-03-31T22:55:10.698534+08:00",
+    "epoch": 1774968909
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.6,
+    "change_pct": 2.71,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-03-31T22:55:10.960331+08:00",
+    "epoch": 1774968909
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2059.6,
+    "change_pct": -2.23,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [CoinTelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [Cointelegraph] Base 與以太坊、Tron 等公司一起押注人工智慧代理的未來",
+    "timestamp": "2026-03-31T23:30:10.099594+08:00",
+    "epoch": 1774971004
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.04,
+    "change_pct": -2.35,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-03-31T23:30:10.284588+08:00",
+    "epoch": 1774971004
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.92,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-04-01T00:00:10.416312+08:00",
+    "epoch": 1774972809
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.11,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-04-01T00:35:06.370237+08:00",
+    "epoch": 1774974905
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2086.81,
+    "change_pct": 2.49,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [CoinTelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試\n- [Cointelegraph] Base 與以太坊、Tron 等公司一起押注人工智慧代理的未來",
+    "timestamp": "2026-04-01T00:40:10.220131+08:00",
+    "epoch": 1774975208
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 67746.0,
+    "change_pct": 2.41,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Bitcoin Magazine] 隨著連續六個月的下跌趨勢，比特幣價格面臨不斷上升的拋售壓力 - 比特幣雜誌\n- [Yahoo Finance] 比特幣正處於有史以來最長連續下跌的邊緣 - 雅虎財經\n- [CoinDesk] Bitfarms 的目標是資產負債表上的零比特幣，因為它轉向人工智慧",
+    "timestamp": "2026-04-01T00:45:11.201379+08:00",
+    "epoch": 1774975509
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.46,
+    "change_pct": 2.48,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-04-01T01:05:09.902364+08:00",
+    "epoch": 1774976708
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2091.8,
+    "change_pct": 2.57,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [CoinTelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試",
+    "timestamp": "2026-04-01T01:10:10.438049+08:00",
+    "epoch": 1774977008
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 619.7,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-01T01:15:06.766202+08:00",
+    "epoch": 1774977305
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 68309.4,
+    "change_pct": 3.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 在伊朗願意結束衝突的報導後，比特幣、股市上漲、油價下跌\n- [Bitcoin Magazine] Bitfarms (BITF) 開始出售其所有比特幣，全面轉向人工智慧基礎設施 - 比特幣雜誌\n- [CoinDesk] 谷歌新研究稱，比特幣的 Taproot 可能使量子攻擊比預期更容易 - 鏈聞 ChainNews",
+    "timestamp": "2026-04-01T01:20:10.610916+08:00",
+    "epoch": 1774977609
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.08,
+    "change_pct": 3.51,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Galaxy 透過 SOL 質押擴大零售平台，目標殖利率為 6.5%\n- [CoinTelegraph] Galaxy 透過 SOL 質押擴大零售平台，目標殖利率為 6.5%\n- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-04-01T01:35:09.950861+08:00",
+    "epoch": 1774978508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2100.46,
+    "change_pct": 3.88,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [CoinTelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試",
+    "timestamp": "2026-04-01T01:40:10.572225+08:00",
+    "epoch": 1774978808
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 615.4,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-01T01:50:09.759294+08:00",
+    "epoch": 1774979408
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 67615.7,
+    "change_pct": 3.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 在伊朗願意結束衝突的報導後，比特幣、股市上漲、油價下跌\n- [Bitcoin Magazine] Bitfarms (BITF) 開始出售其所有比特幣，全面轉向人工智慧基礎設施 - 比特幣雜誌\n- [Yahoo Finance] 比特幣正處於有史以來最長連續下跌的邊緣 - 雅虎財經",
+    "timestamp": "2026-04-01T01:55:06.316257+08:00",
+    "epoch": 1774979704
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.75,
+    "change_pct": 2.44,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Galaxy 透過 SOL 質押擴大零售平台，目標殖利率為 6.5%\n- [CoinTelegraph] Galaxy 透過 SOL 質押擴大零售平台，目標殖利率為 6.5%\n- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-04-01T02:10:07.141383+08:00",
+    "epoch": 1774980605
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2108.12,
+    "change_pct": 2.64,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [CoinTelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試",
+    "timestamp": "2026-04-01T02:15:10.039715+08:00",
+    "epoch": 1774980908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.76,
+    "change_pct": 2.75,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Galaxy 透過 SOL 質押擴大零售平台，目標殖利率為 6.5%\n- [CoinTelegraph] Galaxy 透過 SOL 質押擴大零售平台，目標殖利率為 6.5%\n- [CNBC] 由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
+    "timestamp": "2026-04-01T02:40:10.335178+08:00",
+    "epoch": 1774982408
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2101.14,
+    "change_pct": 2.96,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [CoinTelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試",
+    "timestamp": "2026-04-01T02:45:10.163794+08:00",
+    "epoch": 1774982708
   }
 ]

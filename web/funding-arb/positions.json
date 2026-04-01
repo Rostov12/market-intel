@@ -8,8 +8,8 @@
       "entry_price": 9.55,
       "entry_time": "2026-03-26 15:48:36",
       "size_usdt": 500,
-      "funding_collected": 95.04177,
-      "funding_count": 15
+      "funding_collected": 102.077355,
+      "funding_count": 17
     },
     "DOGE/USDT:USDT": {
       "spot_symbol": "DOGE/USDT",
@@ -21,8 +21,8 @@
       "size_usdt": 500,
       "spot_order_id": "3429613096562384896",
       "perp_order_id": "3429613093408268288",
-      "funding_collected": 0.417277,
-      "funding_count": 11
+      "funding_collected": 0.513702,
+      "funding_count": 13
     },
     "ADA/USDT:USDT": {
       "spot_symbol": "ADA/USDT",
@@ -34,8 +34,8 @@
       "size_usdt": 500,
       "spot_order_id": "3431545890230296576",
       "perp_order_id": "3431545887445278720",
-      "funding_collected": 0.26163,
-      "funding_count": 6
+      "funding_collected": 0.359774,
+      "funding_count": 8
     }
   },
   "history": [

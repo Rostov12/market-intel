@@ -1,8 +1,54 @@
 {
-  "date": "2026-03-31",
-  "updated_at": "2026-03-31 04:42",
+  "date": "2026-04-01",
+  "updated_at": "2026-04-01 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 0,
+  "watchlist_matches": 5,
   "status": "ok",
-  "trades": []
+  "trades": [
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526134780/0001193125-26-134780-index.htm",
+      "date": "2026-03-31T16:41:32-04:00",
+      "summary": "Filed: 2026-03-31 AccNo: 0001193125-26-134780 Size: 915 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526134767/0001193125-26-134767-index.htm",
+      "date": "2026-03-31T16:39:54-04:00",
+      "summary": "Filed: 2026-03-31 AccNo: 0001193125-26-134767 Size: 656 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526134766/0001193125-26-134766-index.htm",
+      "date": "2026-03-31T16:39:50-04:00",
+      "summary": "Filed: 2026-03-31 AccNo: 0001193125-26-134766 Size: 522 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526134763/0001193125-26-134763-index.htm",
+      "date": "2026-03-31T16:39:32-04:00",
+      "summary": "Filed: 2026-03-31 AccNo: 0001193125-26-134763 Size: 430 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "4 - Goldman Sachs Private Middle Market Credit II LLC (0001772704) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1772704/000119312526134764/0001193125-26-134764-index.htm",
+      "date": "2026-03-31T16:39:27-04:00",
+      "summary": "Filed: 2026-03-31 AccNo: 0001193125-26-134764 Size: 3 KB"
+    }
+  ]
 }

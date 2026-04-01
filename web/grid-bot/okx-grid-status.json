@@ -8,15 +8,15 @@
       "max": 2126.0
     },
     "investment": 202.81,
-    "grid_profit": 0.21063955152,
-    "float_profit": -1.6803232155599994,
-    "total_pnl": -1.46934017400411,
-    "pnl_ratio_pct": -0.7245,
-    "arbitrage_count": 3,
+    "grid_profit": 1.41820962408,
+    "float_profit": 0.9481896930639847,
+    "total_pnl": 2.36772763241712,
+    "pnl_ratio_pct": 1.1675,
+    "arbitrage_count": 20,
     "started_at": "2026-03-31 11:04",
-    "running_hours": 9.3,
-    "filled_orders": 14,
+    "running_hours": 19.3,
+    "filled_orders": 43,
     "algo_id": "3436775222668587008",
-    "updated_at": "2026-03-31 20:23:05"
+    "updated_at": "2026-04-01 06:23:08"
   }
 ]
