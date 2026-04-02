@@ -1,22 +1,42 @@
 [
   {
+    "symbol": "BTC-USDT",
+    "state": "running",
+    "grid_count": 22,
+    "range": {
+      "min": 58267.0,
+      "max": 78832.0
+    },
+    "investment": 200.0,
+    "grid_profit": 0.0,
+    "float_profit": -0.6516197159999934,
+    "total_pnl": -0.6500559998739,
+    "pnl_ratio_pct": -0.325,
+    "arbitrage_count": 0,
+    "started_at": "2026-04-01 13:42",
+    "running_hours": 16.7,
+    "filled_orders": 11,
+    "algo_id": "3439992487677431808",
+    "updated_at": "2026-04-02 06:23:08"
+  },
+  {
     "symbol": "ETH-USDT",
     "state": "running",
-    "grid_count": 10,
+    "grid_count": 25,
     "range": {
-      "min": 2022.0,
-      "max": 2126.0
+      "min": 1702.0,
+      "max": 2553.0
     },
-    "investment": 202.81,
-    "grid_profit": 1.41820962408,
-    "float_profit": 0.9481896930639847,
-    "total_pnl": 2.36772763241712,
-    "pnl_ratio_pct": 1.1675,
-    "arbitrage_count": 20,
-    "started_at": "2026-03-31 11:04",
-    "running_hours": 19.3,
-    "filled_orders": 43,
-    "algo_id": "3436775222668587008",
-    "updated_at": "2026-04-01 06:23:08"
+    "investment": 300.0,
+    "grid_profit": 0.182192291648,
+    "float_profit": 1.4008633799039916,
+    "total_pnl": 1.5854203589911,
+    "pnl_ratio_pct": 0.5285,
+    "arbitrage_count": 1,
+    "started_at": "2026-04-01 13:41",
+    "running_hours": 16.7,
+    "filled_orders": 14,
+    "algo_id": "3439989912341225472",
+    "updated_at": "2026-04-02 06:23:08"
   }
 ]

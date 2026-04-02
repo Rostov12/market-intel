@@ -1,245 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.2,
-    "change_pct": -2.89,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-31T03:35:05.992296+08:00",
-    "epoch": 1774899304
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2018.2,
-    "change_pct": -2.84,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Bitmine 在 2026 年進行最大規模的以太幣購買，而其他數位資產國庫則撤退",
-    "timestamp": "2026-03-31T03:40:09.783341+08:00",
-    "epoch": 1774899608
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.57,
-    "change_pct": 2.07,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-31T05:25:10.140721+08:00",
-    "epoch": 1774905908
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 67805.5,
-    "change_pct": 2.11,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [CoinTelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [Cointelegraph] 比特幣數據顯示「罕見」的交易設定將緩解反彈至 7.1 萬美元",
-    "timestamp": "2026-03-31T09:25:06.942645+08:00",
-    "epoch": 1774920305
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2058.28,
-    "change_pct": 2.26,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
-    "timestamp": "2026-03-31T09:25:07.344139+08:00",
-    "epoch": 1774920305
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.78,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
-    "timestamp": "2026-03-31T09:30:10.216625+08:00",
-    "epoch": 1774920608
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 619.1,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
-    "timestamp": "2026-03-31T09:35:09.962507+08:00",
-    "epoch": 1774920908
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 67978.2,
-    "change_pct": 3.0,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [CoinTelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備\n- [Cointelegraph] 比特幣數據顯示「罕見」的交易設定將緩解反彈至 7.1 萬美元",
-    "timestamp": "2026-03-31T09:55:10.209989+08:00",
-    "epoch": 1774922108
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2074.78,
-    "change_pct": 3.89,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
-    "timestamp": "2026-03-31T09:55:10.708908+08:00",
-    "epoch": 1774922108
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.88,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
-    "timestamp": "2026-03-31T10:00:10.170028+08:00",
-    "epoch": 1774922408
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 68047.0,
-    "change_pct": 2.34,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 油價觸及105美元上方三年高點：比特幣會再崩盤嗎？\n- [CoinTelegraph] 油價觸及105美元上方三年高點：比特幣會再崩盤嗎？\n- [Cointelegraph] 美國參議員提出「美國採礦法案」以促進比特幣開採並編纂儲備",
-    "timestamp": "2026-03-31T10:30:10.092968+08:00",
-    "epoch": 1774924208
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2077.83,
-    "change_pct": 3.31,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
-    "timestamp": "2026-03-31T10:30:10.471364+08:00",
-    "epoch": 1774924208
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.85,
-    "change_pct": 2.31,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE",
-    "timestamp": "2026-03-31T10:35:10.380230+08:00",
-    "epoch": 1774924508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2070.48,
-    "change_pct": 2.01,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
-    "timestamp": "2026-03-31T11:05:10.485288+08:00",
-    "epoch": 1774926308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2068.02,
-    "change_pct": 2.18,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinTelegraph] 價格預測 3/30：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、ADA、HYPE\n- [CoinDesk] 民主黨人敦促聯邦官員警告不要對預測市場進行內幕押注",
-    "timestamp": "2026-03-31T11:35:10.637183+08:00",
-    "epoch": 1774928109
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 81.81,
-    "change_pct": -2.21,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-03-31T17:30:06.703869+08:00",
-    "epoch": 1774949405
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 66100.5,
-    "change_pct": -2.07,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinDesk] David Bailey 的 Nakamoto 出售了大約 5% 的比特幣持有量，出售了 284 BTC",
-    "timestamp": "2026-03-31T18:00:09.487004+08:00",
-    "epoch": 1774951207
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2017.31,
-    "change_pct": -2.03,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [CoinTelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [Cointelegraph] Bitmine 在今年最大的一周購買了 1.47 億美元的 ETH",
-    "timestamp": "2026-03-31T18:00:09.988401+08:00",
-    "epoch": 1774951207
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 80.5,
-    "change_pct": -3.41,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
-    "timestamp": "2026-03-31T18:00:10.596459+08:00",
-    "epoch": 1774951207
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 66353.3,
-    "change_pct": -2.07,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Barron's] 比特幣、XRP 價格正在下跌。策略罕見的購買暫停對加密貨幣意味著什麼。 - 巴倫周刊\n- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
-    "timestamp": "2026-03-31T18:35:10.722004+08:00",
-    "epoch": 1774953309
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2025.1,
-    "change_pct": -2.04,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [CoinTelegraph] 民主黨就預測市場內線交易向商品期貨交易委員會和道德監管機構施壓\n- [Cointelegraph] Bitmine 在今年最大的一周購買了 1.47 億美元的 ETH",
-    "timestamp": "2026-03-31T18:35:11.111043+08:00",
-    "epoch": 1774953309
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 80.79,
-    "change_pct": -3.47,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
-    "timestamp": "2026-03-31T18:35:11.470994+08:00",
-    "epoch": 1774953309
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 80.36,
-    "change_pct": -2.66,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
-    "timestamp": "2026-03-31T19:10:10.359184+08:00",
-    "epoch": 1774955408
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 80.86,
-    "change_pct": -2.66,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售\n- [CoinTelegraph] F2Pool聯合創辦人以2,900比特幣購買的泰國公寓以7比特幣的價格出售",
-    "timestamp": "2026-03-31T19:45:10.467125+08:00",
-    "epoch": 1774957508
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2055.98,
@@ -498,5 +258,245 @@
     "news": "- [Cointelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [CoinTelegraph] 以太坊多頭必須持有 2000 美元：波動性指標暗示下一步「強勁」走勢\n- [Cointelegraph] 以太坊的專屬經濟區和重建以太坊的嘗試",
     "timestamp": "2026-04-01T02:45:10.163794+08:00",
     "epoch": 1774982708
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2128.74,
+    "change_pct": 2.29,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [money.com] 比特幣、以太坊還是 Solana？初學者如何決定 - Money.com\n- [Reuters] 股市可能會出現大衰退期間最後出現的情況。隨之而來的是急劇下跌。 - 雅虎財經",
+    "timestamp": "2026-04-01T13:30:09.974383+08:00",
+    "epoch": 1775021408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.08,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [money.com] 比特幣、以太坊還是 Solana？初學者如何決定 - Money.com\n- [Cointelegraph] Solana DEX 交易量跌至 2024 年低點：SOL 能否​​守住 80 美元作為支撐？\n- [CoinTelegraph] Solana DEX 交易量跌至 2024 年低點：SOL 能否​​守住 80 美元作為支撐？",
+    "timestamp": "2026-04-01T13:30:10.531727+08:00",
+    "epoch": 1775021408
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2138.34,
+    "change_pct": 2.05,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [money.com] 比特幣、以太坊還是 Solana？初學者如何決定 - Money.com\n- [Reuters] 股市可能會出現大衰退期間最後出現的情況。隨之而來的是急劇下跌。 - 雅虎財經",
+    "timestamp": "2026-04-01T14:15:10.353148+08:00",
+    "epoch": 1775024108
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2149.28,
+    "change_pct": 2.65,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [money.com] 比特幣、以太坊還是 Solana？初學者如何決定 - Money.com\n- [Reuters] 股市可能會出現大衰退期間最後出現的情況。隨之而來的是急劇下跌。 - 雅虎財經",
+    "timestamp": "2026-04-01T14:50:14.204475+08:00",
+    "epoch": 1775026208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2140.47,
+    "change_pct": 2.47,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [money.com] 比特幣、以太坊還是 Solana？初學者如何決定 - Money.com\n- [Reuters] 股市可能會出現大衰退期間最後出現的情況。隨之而來的是急劇下跌。 - 雅虎財經",
+    "timestamp": "2026-04-01T15:20:10.694132+08:00",
+    "epoch": 1775028008
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2133.36,
+    "change_pct": 2.47,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [money.com] 比特幣、以太坊還是 Solana？初學者如何決定 - Money.com\n- [Reuters] 股市可能會出現大衰退期間最後出現的情況。隨之而來的是急劇下跌。 - 雅虎財經",
+    "timestamp": "2026-04-01T15:55:06.859477+08:00",
+    "epoch": 1775030105
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.41,
+    "change_pct": 2.4,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具\n- [CoinTelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具",
+    "timestamp": "2026-04-02T00:30:09.643356+08:00",
+    "epoch": 1775061008
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.46,
+    "change_pct": 2.94,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具\n- [CoinTelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具",
+    "timestamp": "2026-04-02T01:00:09.799039+08:00",
+    "epoch": 1775062808
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2163.01,
+    "change_pct": 2.16,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
+    "timestamp": "2026-04-02T01:05:06.216398+08:00",
+    "epoch": 1775063104
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2138.74,
+    "change_pct": 2.16,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
+    "timestamp": "2026-04-02T01:35:10.209533+08:00",
+    "epoch": 1775064905
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.62,
+    "change_pct": 4.34,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具\n- [CoinTelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具",
+    "timestamp": "2026-04-02T01:35:10.475579+08:00",
+    "epoch": 1775064905
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2129.46,
+    "change_pct": -2.04,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
+    "timestamp": "2026-04-02T02:05:10.071461+08:00",
+    "epoch": 1775066708
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.14,
+    "change_pct": -3.02,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具\n- [CoinTelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具",
+    "timestamp": "2026-04-02T02:05:10.308363+08:00",
+    "epoch": 1775066708
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2128.65,
+    "change_pct": -2.04,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
+    "timestamp": "2026-04-02T02:35:10.015140+08:00",
+    "epoch": 1775068508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.03,
+    "change_pct": -3.28,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-02T02:35:10.072303+08:00",
+    "epoch": 1775068508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.87,
+    "change_pct": -3.43,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Solana DeFi 平台 Drift 調查可疑活動，要求用戶停止存款",
+    "timestamp": "2026-04-02T03:05:10.391752+08:00",
+    "epoch": 1775070308
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.28,
+    "change_pct": -3.43,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 調查可疑活動，要求用戶停止存款",
+    "timestamp": "2026-04-02T03:40:10.593033+08:00",
+    "epoch": 1775072409
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.63,
+    "change_pct": -2.21,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T04:30:10.184759+08:00",
+    "epoch": 1775075405
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.56,
+    "change_pct": -2.2,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T05:00:10.513484+08:00",
+    "epoch": 1775077209
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.62,
+    "change_pct": -2.31,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T05:35:06.918277+08:00",
+    "epoch": 1775079305
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.61,
+    "change_pct": -2.75,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T06:05:10.353635+08:00",
+    "epoch": 1775081108
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.01,
+    "change_pct": -3.7,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T06:40:09.777734+08:00",
+    "epoch": 1775083208
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.36,
+    "change_pct": -2.48,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T07:15:10.025045+08:00",
+    "epoch": 1775085308
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.28,
+    "change_pct": -2.58,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinTelegraph] 價格預測 4/1：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、BCH、LINK\n- [CoinDesk] Solana DeFi 平台 Drift 證實“主動攻擊”，超過 2 億美元離開平台",
+    "timestamp": "2026-04-02T07:45:10.037039+08:00",
+    "epoch": 1775087108
   }
 ]

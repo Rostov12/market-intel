@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-01",
-  "generated_at": "2026-04-01 04:45",
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02 04:45",
   "composite": {
-    "score": -0.5,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": -1.0,
+    "label": "散戶偏空",
+    "contrarian_signal": "🟡注意反彈"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-03-31",
       "2026-04-01",
-      "2026-04-02"
+      "2026-04-02",
+      "2026-04-06"
     ],
-    "total_calls_vol": 4626087,
-    "total_puts_vol": 6904927,
-    "pcr": 1.493,
+    "total_calls_vol": 4511258,
+    "total_puts_vol": 6476352,
+    "pcr": 1.436,
     "label": "散戶極度恐慌🟢",
     "signal": "逆向看多"
   },
@@ -24,41 +24,41 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 2,
-    "bear_words": 1,
-    "bull_pct": 67,
-    "label": "偏多情緒",
+    "bull_words": 6,
+    "bear_words": 6,
+    "bull_pct": 50,
+    "label": "中性",
     "top_tickers": [
       {
-        "symbol": "BMNR",
+        "symbol": "FLY",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 3/30 - 4/3",
-        "score": 98,
+        "score": 107,
         "upvote_ratio": 0.9
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 01, 2026",
-        "score": 59,
+        "title": "What Are Your Moves Tomorrow, April 02, 2026",
+        "score": 63,
         "upvote_ratio": 0.95
       },
       {
-        "title": "Gg boys",
-        "score": 1327,
-        "upvote_ratio": 0.88
+        "title": "SpaceX confidentially files for IPO",
+        "score": 1866,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "IRGC threatens strikes on US tech giants across the Middle East",
-        "score": 1381,
-        "upvote_ratio": 0.97
+        "title": "In light of today’s rally",
+        "score": 6844,
+        "upvote_ratio": 0.98
       },
       {
-        "title": "US FDA is expected to lift restriction on certain peptides, NYT reports",
-        "score": 760,
-        "upvote_ratio": 0.97
+        "title": "Me after the announcement tomorrow",
+        "score": 12622,
+        "upvote_ratio": 0.92
       }
     ]
   }

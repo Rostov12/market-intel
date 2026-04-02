@@ -1,78 +1,78 @@
 {
-  "date": "2026-04-01",
+  "date": "2026-04-02",
   "pairs": [
     {
       "pair": "黃金 vs 美元",
       "s1": "GLD",
       "s2": "UUP",
-      "corr_20d": -0.073,
-      "corr_60d": -0.382,
-      "change_20d": 0.307,
-      "anomaly": true
+      "corr_20d": -0.168,
+      "corr_60d": -0.408,
+      "change_20d": 0.153,
+      "anomaly": false
     },
     {
       "pair": "BTC vs 納指",
       "s1": "BTC-USD",
       "s2": "^IXIC",
-      "corr_20d": 0.243,
-      "corr_60d": 0.003,
-      "change_20d": 0.3,
-      "anomaly": false
+      "corr_20d": 0.35,
+      "corr_60d": 0.044,
+      "change_20d": 0.378,
+      "anomaly": true
     },
     {
       "pair": "S&P vs VIX",
       "s1": "^GSPC",
       "s2": "^VIX",
-      "corr_20d": -0.865,
-      "corr_60d": -0.857,
-      "change_20d": -0.002,
+      "corr_20d": -0.867,
+      "corr_60d": -0.861,
+      "change_20d": -0.003,
       "anomaly": false
     },
     {
       "pair": "黃金 vs 殖利率",
       "s1": "GLD",
       "s2": "^TNX",
-      "corr_20d": -0.401,
-      "corr_60d": -0.144,
-      "change_20d": -0.573,
+      "corr_20d": -0.475,
+      "corr_60d": -0.16,
+      "change_20d": -0.65,
       "anomaly": true
     },
     {
       "pair": "能源股 vs 油價",
       "s1": "XLE",
       "s2": "CL=F",
-      "corr_20d": 0.25,
-      "corr_60d": 0.381,
-      "change_20d": -0.336,
-      "anomaly": true
+      "corr_20d": 0.318,
+      "corr_60d": 0.399,
+      "change_20d": -0.298,
+      "anomaly": false
     },
     {
       "pair": "半導體 vs 納指",
       "s1": "SMH",
       "s2": "^IXIC",
-      "corr_20d": 0.861,
-      "corr_60d": 0.822,
-      "change_20d": 0.021,
+      "corr_20d": 0.914,
+      "corr_60d": 0.858,
+      "change_20d": 0.077,
       "anomaly": false
     },
     {
       "pair": "BTC vs 黃金",
       "s1": "BTC-USD",
       "s2": "GLD",
-      "corr_20d": -0.218,
-      "corr_60d": -0.061,
-      "change_20d": -0.412,
-      "anomaly": true
+      "corr_20d": -0.072,
+      "corr_60d": -0.043,
+      "change_20d": -0.241,
+      "anomaly": false
     },
     {
       "pair": "科技 vs 能源",
       "s1": "XLK",
       "s2": "XLE",
-      "corr_20d": -0.056,
-      "corr_60d": -0.07,
-      "change_20d": -0.188,
-      "anomaly": false
+      "corr_20d": -0.281,
+      "corr_60d": -0.129,
+      "change_20d": -0.507,
+      "anomaly": true
     }
   ],
-  "anomaly_count": 4
+  "anomaly_count": 3
 }

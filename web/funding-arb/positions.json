@@ -8,21 +8,8 @@
       "entry_price": 9.55,
       "entry_time": "2026-03-26 15:48:36",
       "size_usdt": 500,
-      "funding_collected": 102.077355,
-      "funding_count": 17
-    },
-    "DOGE/USDT:USDT": {
-      "spot_symbol": "DOGE/USDT",
-      "contracts": 5.31,
-      "contract_size": 1000.0,
-      "amount": 5310.0,
-      "entry_price": 0.0941,
-      "entry_time": "2026-03-28 23:47:14",
-      "size_usdt": 500,
-      "spot_order_id": "3429613096562384896",
-      "perp_order_id": "3429613093408268288",
-      "funding_collected": 0.513702,
-      "funding_count": 13
+      "funding_collected": 102.220981,
+      "funding_count": 20
     },
     "ADA/USDT:USDT": {
       "spot_symbol": "ADA/USDT",
@@ -34,8 +21,21 @@
       "size_usdt": 500,
       "spot_order_id": "3431545890230296576",
       "perp_order_id": "3431545887445278720",
-      "funding_collected": 0.359774,
-      "funding_count": 8
+      "funding_collected": 0.487664,
+      "funding_count": 11
+    },
+    "ETH/USDT:USDT": {
+      "spot_symbol": "ETH/USDT",
+      "contracts": 2.54,
+      "contract_size": 0.1,
+      "amount": 0.254,
+      "entry_price": 1966.35,
+      "entry_time": "2026-04-01 23:47:15",
+      "size_usdt": 500,
+      "spot_order_id": "3441209574900682752",
+      "perp_order_id": "3441209571578793984",
+      "funding_collected": 4.063022,
+      "funding_count": 1
     }
   },
   "history": [
@@ -85,7 +85,25 @@
       "price_pnl_pct": -2.2577,
       "total_funding": 16.420703,
       "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "DOGE/USDT",
+      "contracts": 5.31,
+      "contract_size": 1000.0,
+      "amount": 5310.0,
+      "entry_price": 0.0941,
+      "entry_time": "2026-03-28 23:47:14",
+      "size_usdt": 500,
+      "spot_order_id": "3429613096562384896",
+      "perp_order_id": "3429613093408268288",
+      "funding_collected": 0.612208,
+      "funding_count": 15,
+      "close_time": "2026-04-01 23:47:14",
+      "close_price": 0.0925,
+      "price_pnl_pct": -1.7003,
+      "total_funding": 0.612208,
+      "close_reason": "full_close"
     }
   ],
-  "total_funding_earned": 16.448784
+  "total_funding_earned": 17.060992
 }
