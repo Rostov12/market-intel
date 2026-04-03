@@ -1,27 +1,16 @@
 {
   "date": "2026-04-03",
-  "updated_at": "2026-04-03 08:00",
+  "updated_at": "2026-04-03 23:20",
   "count": 30,
   "sources": [
-    "cointelegraph",
     "google-news-crypto",
-    "cointelegraph-rss",
-    "coindesk"
+    "coindesk",
+    "cointelegraph",
+    "cointelegraph-rss"
   ],
   "news": [
     {
-      "id": "gn-12759",
-      "title": "Bitcoin gets new expiration date thanks to Google researchers - Mashable",
-      "source": "Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kWWgyUV9VYzE5OU1fOHpRWmlmWG1VUFcyNlh3MGhrZnJseUNBNTI3TlFJMFgzRTRwLVNuR0VVWWl1S2xOa1dodW1sanA2M3ZBU2RXdkFyOEJKczB6WGp2ekc5Z2FBbFBYM2taLWJ6Z1E1by1JcHc2WGJTM3A?oc=5",
-      "published": "Tue, 31 Mar 2026 13:40:12 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-23171",
+      "id": "gn-64142",
       "title": "Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly - Research at Google",
       "source": "Research at Google",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlIydE4tc3hxMjh6enFJRVRqNWZzcFQ5Szl4M3d2QWxzOGsxMlQwTnVUU3NEYTlsODlmMFo2Xy1ULU11cF8xTnJYZXRmT3VwTGdKbGpHOXdkRWpHc3hJME9MUlB5ZmVGYzZlbF9FcllZRm5vVmpFdHFWZmoxQ1VxUHJPWUQ3VV9LVUxENHJnazhoRGxBUDBzT1p1SzkwMFFaRml2cmpqMW5NTkE?oc=5",
@@ -30,87 +19,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-91862",
-      "title": "New Bitcoin price lows on the table until $76K becomes support",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/new-bitcoin-price-lows-on-the-table-until-76k-becomes-support?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 23:30:00 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-61037",
-      "title": "New Bitcoin price lows on the table until $76K becomes support",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/new-bitcoin-price-lows-on-the-table-until-76k-becomes-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 23:30:00 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-11127",
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 22:47:20 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-84991",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 22:47:20 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-80238",
-      "title": "Stablecoin supply reaches $315B in Q1 as USDC rises, USDT declines",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/stablecoin-supply-315b-q1-usdc-rises-usdt-declines?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 22:29:12 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-24790",
-      "title": "Stablecoin supply reaches $315B in Q1 as USDC rises, USDT declines",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/stablecoin-supply-315b-q1-usdc-rises-usdt-declines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 22:29:12 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-74214",
-      "title": "Rocky US economy, private credit stress, war, impact Bitcoin’s odds for $75K rally",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/rocky-us-economy-private-credit-stress-war-impact-bitcoin-s-odds-for-75k-rally?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 22:24:42 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-96361",
-      "title": "Rocky US economy, private credit stress, war, impact Bitcoin’s odds for $75K rally",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/rocky-us-economy-private-credit-stress-war-impact-bitcoin-s-odds-for-75k-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 22:24:42 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-52743",
+      "id": "cd-65189",
       "title": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/policy/2026/04/02/crypto-market-structure-bill-release-pushed-back-as-industries-view-revised-stablecoin-yield-compromise-this-week",
@@ -120,127 +29,16 @@
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-52702",
-      "title": "Polymarket expands into equities and commodities with Pyth price feeds",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/polymarket-expands-into-equities-and-commodities-with-pyth-price-feeds?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 21:34:05 +0100",
+      "id": "gn-10811",
+      "title": "Riot Announces First Quarter 2026 Production and Operations Updates - Riot Platforms",
+      "source": "Riot Platforms",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM1VaYS1sZHVTUzlhT1MycWRPTGRNVnVoR3M2c2NXVlEwU251NVZaWTU5Ymd0TGJLWDJvN3lOanp4aHZuU2VrUndmakhTRUN3eHJsR0gtRUdsNzhxeDY5QVlUNlRhUXcyNXhQTE5DcWRzN1BjNmctZ3YwZVBKSjZFWVEyem1jV0FCZ0thWEFzcFhwOUtrQzNERlV0Z3RxOHM?oc=5",
+      "published": "Thu, 02 Apr 2026 20:28:07 GMT",
       "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-94689",
-      "title": "Polymarket expands into equities and commodities with Pyth price feeds",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/polymarket-expands-into-equities-and-commodities-with-pyth-price-feeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 21:34:05 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-34097",
-      "title": "CFTC sues 3 states over prediction market regulatory authority",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/cftc-sues-3-states-prediction-market-regulation?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 21:21:20 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-1181",
-      "title": "CFTC sues 3 states over prediction market regulatory authority",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/cftc-sues-3-states-prediction-market-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 21:21:20 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-80282",
-      "title": "Bitcoin Tumbles With Stocks as Trump Signals Harder Iran Strikes - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdnQtQTJtNGh3TGhaVGpaUEd1VlNHaG9EVm5wRGpNUG9nMmRZdzZOb05XOXRwYkVUNnRPRUVuX1VVeWJzRUIzU2x3dHdqQ2pfbHY2RUs3THdhZW96c0I0d1lLRzMteFA1bGlDQWdnUGhkekM2UVpxY0paZXZkVlJwcFo2OGdjazIxYmJoN2h5UDh6Z2hfT2Y1UEZWcEt1aUpWX0RZdGh2aVItZFJsVlBCOEdsOXJadw?oc=5",
-      "published": "Thu, 02 Apr 2026 21:20:34 GMT",
-      "coins": [
-        "BTC"
-      ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-65024",
-      "title": "X mulls new rules for first-time crypto posts amid tortoise scam",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-scam-fake-death-tortoise?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 21:15:45 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-42423",
-      "title": "X mulls new rules for first-time crypto posts amid tortoise scam",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-scam-fake-death-tortoise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 21:15:45 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-13788",
-      "title": "San Antonio City Council working on bitcoin scam sign ordinance - Texas Public Radio | TPR",
-      "source": "Texas Public Radio | TPR",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcER1ekQzUEpoVklxaHgzdTUtc0IwUDE4YllqRzZBbWQwZ2FNM0dlalAyLUNTMEh3c3JSdTYwcERRaHkyWU9fNXNvbjM0aUVTU09OY1hOOFAtSTVUelBpemtIOXJ6QjREbFVtQ0Zsb2RZYS1acGpkN1hIdVJ4QlkwdHpPRXh2LTR1VWx2RUcyUk94bFN4dWVZaHJrTnVXMTkx?oc=5",
-      "published": "Thu, 02 Apr 2026 21:13:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-67197",
-      "title": "Bitcoin, crypto stocks slipping lower alongside broader markets - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmRZa0d2WEZ4SDZ0YXowNk5iSG9MSThpNjBFOHp0V0hmb2dvVnpxbGpWWkliV1M1bG1rVjkxbUlSdzFMaWRjemVTenhGYk1TbW5IRHpfV3hnR0hwdk9SbURGdTY3SlZGM25ucmFUeEpPa3d4Njc3REtfQXZnc1NtY2dIZExaZ3BFc1FxbmxTSlgwUG5rQ2tWVUpQazd5eWluYnk1blI3dWp4UlI1Z3c?oc=5",
-      "published": "Thu, 02 Apr 2026 19:30:58 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-85997",
-      "title": "Bitcoin Price Headed To $120,000? Why This analyst Thinks It’s A Good Time To Buy - TradingView",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcjYyUzlCRmJxbWRGYUo5STNCaWRfb3hXWlVNc0Z6WENQTjBOaDdDR2xTSTBjNTdSN0V6ZmkzSFU3ZjdXWUVPRUdzeFZheHVSYkNOR0ctYU0zX213Mm1ZY19rUkNIcmU0bFBRbHhkakdUa1h0cXo4SlBEQTdPTXlPMlYwZWFQZjZXSHM1ODMyNW04WDVadzFVQnFXcnR2Y3B5LUZfaVdzcElzX21rVFZ3aFR3Y09YQ0ZEQUJ1b01felcxUTJZblFkLVF6VDlfZEtPbnRV?oc=5",
-      "published": "Thu, 02 Apr 2026 19:30:10 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-40204",
-      "title": "Ether at risk of new 2026 lows if bulls fail to turn $2.4K into support",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ether-at-risk-of-new-2026-lows-if-bulls-fail-to-turn-dollar2-4k-into-support?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 19:25:33 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-25660",
-      "title": "Ether at risk of new 2026 lows if bulls fail to turn $2.4K into support",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ether-at-risk-of-new-2026-lows-if-bulls-fail-to-turn-dollar2-4k-into-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 19:25:33 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-42996",
+      "id": "cd-24965",
       "title": "Here’s why bitcoin’s drop below $68,000 raises the risk of a crash under $60,000",
       "source": "CoinDesk",
       "url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
@@ -252,66 +50,274 @@
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-83164",
-      "title": "SoFi expands into institutional finance with integrated crypto services",
+      "id": "ct-rss-80754",
+      "title": "Execution risk in crypto is the new custody risk",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/sofi-institutional-banking-platform-crypto-services?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 17:56:28 +0100",
+      "url": "https://cointelegraph.com/news/execution-risk-is-new-custody-risk?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 16:00:00 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-4469",
-      "title": "SoFi expands into institutional finance with integrated crypto services",
+      "id": "ct-28367",
+      "title": "Execution risk in crypto is the new custody risk",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/sofi-institutional-banking-platform-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 17:56:28 +0100",
+      "url": "https://cointelegraph.com/news/execution-risk-is-new-custody-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 16:00:00 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-91200",
-      "title": "Bitcoin miner Soluna acquires $53M wind farm to power AI facility",
+      "id": "ct-rss-91787",
+      "title": "Price predictions 4/3: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-miner-soluna-acquires-53m-wind-farm-to-power-ai-facility?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 17:37:49 +0100",
+      "url": "https://cointelegraph.com/news/price-predictions-4-3-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 15:39:20 +0100",
       "coins": [
+        "ETH",
+        "XRP",
+        "BNB",
         "SOL",
-        "BIT"
+        "BTC"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-63840",
-      "title": "Bitcoin miner Soluna acquires $53M wind farm to power AI facility",
+      "id": "ct-66861",
+      "title": "Price predictions 4/3: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-miner-soluna-acquires-53m-wind-farm-to-power-ai-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 17:37:49 +0100",
+      "url": "https://cointelegraph.com/news/price-predictions-4-3-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 15:39:20 +0100",
+      "coins": [
+        "ETH",
+        "BNB",
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-48372",
+      "title": "What Is Flippening in Crypto? Bitcoin vs. Ethereum Explained - West Africa Trade Hub",
+      "source": "West Africa Trade Hub",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObVluYmxxVHl3R1U0c0ZmRVRXUHJUaE9RQ0QtbkZPT1FZTm9SaDRjVklvMnZHTXdjRjJydm85LWYyNnJNTG0wTl9FWVNXMjVuaVFxbUR2ZEcyZzhmbHV4VDZnVzEwUV9zMmQtOTdIb09qWFNsQVhCSDRBclkycWVtaEFOQ25UZkJ3NzRiTWRKYzFXV2VaT1NpR1FCRzk3T1o4MEg4RFM2LWV0TDBN?oc=5",
+      "published": "Fri, 03 Apr 2026 15:08:13 GMT",
+      "coins": [
+        "ETH",
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-17810",
+      "title": "Binance led Q1 crypto derivatives as Hyperliquid cracked top 10: CoinGlass",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/binance-derivatives-q1-hyperliquid-enters-top-10-coinglass?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:56:06 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-6674",
+      "title": "Binance led Q1 crypto derivatives as Hyperliquid cracked top 10: CoinGlass",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/binance-derivatives-q1-hyperliquid-enters-top-10-coinglass?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:56:06 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-90078",
+      "title": "Bitcoin Miner Riot Platforms Sells Over $250 Million Worth of BTC - Decrypt",
+      "source": "Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORDZRRERFdXM2V1BLU0dTNC1Ib2R1VFgzdWhvZmU4OG5tWVpKc2ZPZldBajhWNDBlbjhIVHltZDNTVkhUV25GLS1kdk1aYU4wd0pWcy16LTg3R2Q3UDdPZVFUY1RRaGk2VERQdW42M3JrWHZvc2x5clJva1lQSXNvbFVB0gGKAUFVX3lxTE4tZHNqWF9rUFgyVmNhVDBxcEViMGw5MWszSmNQRm1VS3M0YTlYeUZOdzBuREZLU3RZblJyWEJDZ0RObEhrTTVmWjlkVG1wejZVVFpyV0NveU5lWkNrUzY0WXU2anVMaTFxYzRYMEVIVjBlSkRNWkcyM0pfTjRmZFFxV0J1STNaZEtuZw?oc=5",
+      "published": "Fri, 03 Apr 2026 14:53:57 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-83134",
+      "title": "Ethereum L2s need responsive pricing to scale, says Offchain Labs",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-l2s-responsive-pricing-scale-billions?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:51:29 +0100",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-50479",
+      "title": "Ethereum L2s need responsive pricing to scale, says Offchain Labs",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/ethereum-l2s-responsive-pricing-scale-billions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:51:29 +0100",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-55074",
+      "title": "Solo Bitcoin miner bags $210K Bitcoin block reward",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/solo-bitcoin-miner-bags-210k-bitcoin-block?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:45:10 +0100",
+      "coins": [
+        "BIT",
+        "SOL"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-17517",
+      "title": "Solo Bitcoin miner bags $210K Bitcoin block reward",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/solo-bitcoin-miner-bags-210k-bitcoin-block?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:45:10 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-44381",
-      "title": "Coinbase receives conditional approval for US trust charter",
+      "id": "ct-rss-39156",
+      "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/coinbase-conditional-approval-national-trust-charter-occ?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 17:01:49 +0100",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:19:48 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-rss-32349",
-      "title": "Bitcoin holders face $600B in unrealized losses as BTC price slips to $66K",
+      "id": "ct-14111",
+      "title": "Here’s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:19:48 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-64795",
+      "title": "Decentralized email platform Dmail to cease services on May 15",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-holders-face-600b-unrealized-losses-btc-price-66k?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 02 Apr 2026 16:47:44 +0100",
-      "coins": [
-        "BTC",
-        "BIT"
-      ],
+      "url": "https://cointelegraph.com/news/dmail-network-shutdown-decentralized-email-costs-funding-failure?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:05:35 +0100",
+      "coins": [],
       "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-89859",
+      "title": "Decentralized email platform Dmail to cease services on May 15",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/dmail-network-shutdown-decentralized-email-costs-funding-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 14:05:35 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-18349",
+      "title": "Centralizing crypto: Why Malta’s clash with ESMA is about more than one small state",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/centralizing-crypto-why-malta-clash-with-esma?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 13:51:51 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-81882",
+      "title": "Centralizing crypto: Why Malta’s clash with ESMA is about more than one small state",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/centralizing-crypto-why-malta-clash-with-esma?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 13:51:51 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-19526",
+      "title": "TVA awarded $18 million in credits to Knoxville cryptocurrency mine - knoxnews.com",
+      "source": "knoxnews.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcEpVYktnNElTckZya2NEcWlVUnlxWVVYVVFUU25XOVJMM1pGZ09ZMnhIb1d2d1kyLWVPb21ja0hyT0pReHkwX3BKUkhROXd2U3ZrX3Y1aWFVMWUyUmtSdlhDYXBqODJMVmtMUUo4REpnck5vS2FqVDZzT2xzX3h3SC04OV9qaUlMX3hmNmZnSENzbkdkcEk2Y0lIMjVuSlcxbUdLUnVFTE1RenFsNnZndW9FdjQ0dnJuaU1yVmU2STh4RXh3M1JpYVJfT19wMi1uS1E?oc=5",
+      "published": "Fri, 03 Apr 2026 13:44:00 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-68462",
+      "title": "Bitcoin Looks ‘Weak.’ Jobs Report, Iran War Could Change Things for Struggling Cryptos. - Barron's",
+      "source": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxQNWkwV2xkWEFjVEpkeVFFMjJrMTVUWDJiZGpvMkEtSVE0SFY0LTZWOVgyc281NU9jUHZFT0dEQ2ZOUHA4Vk4xSWp3YldVTWZJNW1hTjVGdlUyNF9sdzFyTGQwcDMtWXFHMEVfMll3b2RoSHI2Yy1QdU1NUXc5cnpfUWJLMUtUakZKampHTy1seEk4dVRIWnd4VXNwYUNxVmg3ZExMUGpQei11LUJnQ0NpZnBORjJobnNTTFRjVXBzVEw0emFBUEtOclZ2MERWbFhndFl5ZC0tV1gyOVRMWTliNWdLYldkb2JZUVlwLS1RLWoyVERDNlNlV05LdG1CcU1hSWNRZkdBVVViLTdpSE5rNVhHTkZYSkx4NGlkdW9ob0NhcC1XX2tXdFVDYk5wMm5oRVZkZzhpeXdFWXEweEJVUlJPQ1VxOU9kVGFUWXJEc3FvaGc3YUpsYnJjeUlTZUJ6d0dVZWJMckpIbUxiV2hINDdEVi1oNlVPSVBSZ2VuS2pjRVU4QjhxMi1tby1ObWtNR29r?oc=5",
+      "published": "Fri, 03 Apr 2026 13:24:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-82661",
+      "title": "Current price of Ethereum for April 3, 2026 - Fortune",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QQlRNeVFZTzU2STlaMnR0d1dRdExGZHZ2X2NreGdaamFodmhDTk1fQkJtaG9vbDlsYW56dmxrWDFObFY2QUNyNUJLdG1BNnp4MVo3TEdEQjh3cUxleDBrNU1acFNfRDdS?oc=5",
+      "published": "Fri, 03 Apr 2026 13:23:00 GMT",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-54566",
+      "title": "Current price of Bitcoin for April 3, 2026 - Fortune",
+      "source": "Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03QXp3NGlNbHVjN3lCT0p5YlBUQUpWU3NRLXVoWHlWTm1yT0xPcHRaRThsZnNVMGdJY1c4NGxGZ29zenllZkRVQ04wcE1ncDkyZUppM2dvUXM0QUVDb2tpSGVnUFI5N1k?oc=5",
+      "published": "Fri, 03 Apr 2026 13:23:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-2706",
+      "title": "CoinDesk 20 performance update: Bitcoin (BTC) trades flat while altcoins rise",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/coindesk-indices/2026/04/03/coindesk-20-performance-update-bitcoin-btc-trades-flat-while-altcoins-rise",
+      "published": "Fri, 03 Apr 2026 13:18:50 +0000",
+      "summary": "NEAR Protocol (NEAR) gained 5.8% and Avalanche (AVAX) climbed 3.6%.\n",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-61402",
+      "title": "Aave avoided bad debt by shifting risk to borrowers: Bank of Canada study",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/aave-v3-bad-debt-liquidations-borrower-losses-study?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 12:51:18 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-88434",
+      "title": "Aave avoided bad debt by shifting risk to borrowers: Bank of Canada study",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/aave-v3-bad-debt-liquidations-borrower-losses-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 03 Apr 2026 12:51:18 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-79878",
+      "title": "U.S. March jobs smash expectations, with 178,000 added",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/03/u-s-march-jobs-smash-expectations-with-178-000-added",
+      "published": "Fri, 03 Apr 2026 12:33:40 +0000",
+      "summary": "Bitcoin continued to trade near the $67,000 level just following the strong report.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
     }
   ]
 }

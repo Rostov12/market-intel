@@ -1,25 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2163.01,
-    "change_pct": 2.16,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
-    "timestamp": "2026-04-02T01:05:06.216398+08:00",
-    "epoch": 1775063104
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2138.74,
-    "change_pct": 2.16,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
-    "timestamp": "2026-04-02T01:35:10.209533+08:00",
-    "epoch": 1775064905
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 84.62,
@@ -498,5 +478,25 @@
     "news": "- [CoinDesk] 為方便而設計的 Solana 功能如何讓攻擊者從 Drift 中竊取超過 2.7 億美元\n- [CoinDesk] 北韓駭客可能是價值 2.86 億美元的漂移協議漏洞背後的幕後黑手：Elliptic",
     "timestamp": "2026-04-03T00:45:05.929723+08:00",
     "epoch": 1775148304
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 79.4,
+    "change_pct": 2.11,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 隨著波動性降溫和期貨市場看跌，加密貨幣將盤整",
+    "timestamp": "2026-04-03T20:55:01.651811+08:00",
+    "epoch": 1775220901
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 79.45,
+    "change_pct": -2.15,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-03T21:30:02.744796+08:00",
+    "epoch": 1775223001
   }
 ]
