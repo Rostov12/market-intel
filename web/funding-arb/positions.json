@@ -1,16 +1,5 @@
 {
   "positions": {
-    "AVAX/USDT:USDT": {
-      "spot_symbol": "AVAX/USDT",
-      "contracts": 52.3,
-      "contract_size": 1.0,
-      "amount": 52.3,
-      "entry_price": 9.55,
-      "entry_time": "2026-03-26 15:48:36",
-      "size_usdt": 500,
-      "funding_collected": 102.220981,
-      "funding_count": 20
-    },
     "ADA/USDT:USDT": {
       "spot_symbol": "ADA/USDT",
       "contracts": 20.4,
@@ -21,20 +10,33 @@
       "size_usdt": 500,
       "spot_order_id": "3431545890230296576",
       "perp_order_id": "3431545887445278720",
-      "funding_collected": 0.487664,
-      "funding_count": 11
+      "funding_collected": 0.635748,
+      "funding_count": 14
     },
-    "ETH/USDT:USDT": {
-      "spot_symbol": "ETH/USDT",
-      "contracts": 2.54,
-      "contract_size": 0.1,
-      "amount": 0.254,
-      "entry_price": 1966.35,
-      "entry_time": "2026-04-01 23:47:15",
+    "DOGE/USDT:USDT": {
+      "spot_symbol": "DOGE/USDT",
+      "contracts": 5.36,
+      "contract_size": 1000.0,
+      "amount": 5360.0,
+      "entry_price": 0.09325,
+      "entry_time": "2026-04-02 15:47:16",
       "size_usdt": 500,
-      "spot_order_id": "3441209574900682752",
-      "perp_order_id": "3441209571578793984",
-      "funding_collected": 4.063022,
+      "spot_order_id": "3443142314277523456",
+      "perp_order_id": "3443142309814784000",
+      "funding_collected": 4.30632,
+      "funding_count": 16
+    },
+    "SOL/USDT:USDT": {
+      "spot_symbol": "SOL/USDT",
+      "contracts": 6.48,
+      "contract_size": 1.0,
+      "amount": 6.48,
+      "entry_price": 77.1,
+      "entry_time": "2026-04-02 23:47:16",
+      "size_usdt": 500,
+      "spot_order_id": "3444108780334272512",
+      "perp_order_id": "3444108775804424192",
+      "funding_collected": 0.051166,
       "funding_count": 1
     }
   },
@@ -103,7 +105,41 @@
       "price_pnl_pct": -1.7003,
       "total_funding": 0.612208,
       "close_reason": "full_close"
+    },
+    {
+      "spot_symbol": "AVAX/USDT",
+      "contracts": 52.3,
+      "contract_size": 1.0,
+      "amount": 52.3,
+      "entry_price": 9.55,
+      "entry_time": "2026-03-26 15:48:36",
+      "size_usdt": 500,
+      "funding_collected": 102.268694,
+      "funding_count": 21,
+      "close_time": "2026-04-02 15:47:15",
+      "close_price": 9.208,
+      "price_pnl_pct": -3.5812,
+      "total_funding": 102.268694,
+      "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "ETH/USDT",
+      "contracts": 2.54,
+      "contract_size": 0.1,
+      "amount": 0.254,
+      "entry_price": 1966.35,
+      "entry_time": "2026-04-01 23:47:15",
+      "size_usdt": 500,
+      "spot_order_id": "3441209574900682752",
+      "perp_order_id": "3441209571578793984",
+      "funding_collected": 4.169537,
+      "funding_count": 3,
+      "close_time": "2026-04-02 23:47:15",
+      "close_price": 1794.45,
+      "price_pnl_pct": -8.7421,
+      "total_funding": 4.169537,
+      "close_reason": "full_close"
     }
   ],
-  "total_funding_earned": 17.060992
+  "total_funding_earned": 123.499223
 }

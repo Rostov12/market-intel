@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-02",
-  "generated_at": "2026-04-02 04:45",
+  "date": "2026-04-03",
+  "generated_at": "2026-04-03 04:45",
   "composite": {
-    "score": -1.0,
-    "label": "散戶偏空",
-    "contrarian_signal": "🟡注意反彈"
+    "score": -0.5,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-01",
       "2026-04-02",
-      "2026-04-06"
+      "2026-04-06",
+      "2026-04-07"
     ],
-    "total_calls_vol": 4511258,
-    "total_puts_vol": 6476352,
-    "pcr": 1.436,
+    "total_calls_vol": 3971709,
+    "total_puts_vol": 6350671,
+    "pcr": 1.599,
     "label": "散戶極度恐慌🟢",
     "signal": "逆向看多"
   },
@@ -24,41 +24,41 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 6,
-    "bear_words": 6,
-    "bull_pct": 50,
-    "label": "中性",
+    "bull_words": 10,
+    "bear_words": 1,
+    "bull_pct": 91,
+    "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "FLY",
+        "symbol": "VCX",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 3/30 - 4/3",
-        "score": 107,
-        "upvote_ratio": 0.9
+        "score": 116,
+        "upvote_ratio": 0.91
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 02, 2026",
-        "score": 63,
-        "upvote_ratio": 0.95
+        "title": "What Are Your Moves Tomorrow, April 03, 2026",
+        "score": 55,
+        "upvote_ratio": 0.92
       },
       {
-        "title": "SpaceX confidentially files for IPO",
-        "score": 1866,
-        "upvote_ratio": 0.96
-      },
-      {
-        "title": "In light of today’s rally",
-        "score": 6844,
+        "title": "Bears watching the market close green despite oil trading above $110 a barrel.",
+        "score": 1115,
         "upvote_ratio": 0.98
       },
       {
-        "title": "Me after the announcement tomorrow",
-        "score": 12622,
-        "upvote_ratio": 0.92
+        "title": "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
+        "score": 1619,
+        "upvote_ratio": 0.97
+      },
+      {
+        "title": "Trump administration prepares up to 100% pharmaceutical tariffs on some imported",
+        "score": 1119,
+        "upvote_ratio": 0.98
       }
     ]
   }

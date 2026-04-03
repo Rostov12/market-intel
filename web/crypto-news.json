@@ -1,320 +1,316 @@
 {
-  "date": "2026-04-02",
-  "updated_at": "2026-04-02 08:00",
+  "date": "2026-04-03",
+  "updated_at": "2026-04-03 08:00",
   "count": 30,
   "sources": [
-    "coindesk",
-    "cointelegraph-rss",
     "cointelegraph",
-    "google-news-crypto"
+    "google-news-crypto",
+    "cointelegraph-rss",
+    "coindesk"
   ],
   "news": [
     {
-      "id": "gn-73919",
-      "title": "Bitcoin, Ethereum and XRP Rally: Why is Crypto Market Going Up Today? - Coinpedia",
-      "source": "Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORzhTRjVVMkRPeVIzQ2RGZk5lUUl3by1qa3B0TzN4TnNRSmdyQ0tFSVhjcjc3TDYxa253aVozaHY0NEIxRldjTklkSTcxYTRIdV9TQTN4anFiei1QX2YwY01LTXRxQVl6aDA5Y211U3lvRTNKWFROZ2RiQWR2cXo4b1gxanlmWUdiYXB5LXUxX0Qtelpwanh6c1JB0gGfAUFVX3lxTFBKUmx6am1kcU5uYnBnYTY5Wmc1U2xvQnNSOVlWT3V3TXgxZEI1a054ZU5RaTk2RFN2XzF2ODd2czFRYm05bkRrOGxlZ2MzRFhMN0JfclJ1bHd2UklDdmItMlg4MGdoUWxQRFlEcktJWTE4amlFay1ZNUxSaVNzSE1JT3FSNmUtZ0tOQTJaNVYwbEtQdmdMVEVqeV9jRjNEOA?oc=5",
-      "published": "Wed, 04 Mar 2026 08:00:00 GMT",
+      "id": "gn-12759",
+      "title": "Bitcoin gets new expiration date thanks to Google researchers - Mashable",
+      "source": "Mashable",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kWWgyUV9VYzE5OU1fOHpRWmlmWG1VUFcyNlh3MGhrZnJseUNBNTI3TlFJMFgzRTRwLVNuR0VVWWl1S2xOa1dodW1sanA2M3ZBU2RXdkFyOEJKczB6WGp2ekc5Z2FBbFBYM2taLWJ6Z1E1by1JcHc2WGJTM3A?oc=5",
+      "published": "Tue, 31 Mar 2026 13:40:12 GMT",
       "coins": [
-        "XRP",
-        "BTC",
-        "ETH"
+        "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-3075",
-      "title": "Crypto exchange Bithumb to delay IPO until after 2028: Report",
+      "id": "gn-23171",
+      "title": "Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly - Research at Google",
+      "source": "Research at Google",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlIydE4tc3hxMjh6enFJRVRqNWZzcFQ5Szl4M3d2QWxzOGsxMlQwTnVUU3NEYTlsODlmMFo2Xy1ULU11cF8xTnJYZXRmT3VwTGdKbGpHOXdkRWpHc3hJME9MUlB5ZmVGYzZlbF9FcllZRm5vVmpFdHFWZmoxQ1VxUHJPWUQ3VV9LVUxENHJnazhoRGxBUDBzT1p1SzkwMFFaRml2cmpqMW5NTkE?oc=5",
+      "published": "Tue, 31 Mar 2026 02:07:08 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-91862",
+      "title": "New Bitcoin price lows on the table until $76K becomes support",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-exchange-bithumb-delay-ipo?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 22:59:41 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-44192",
-      "title": "Crypto exchange Bithumb to delay IPO until after 2028: Report",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-exchange-bithumb-delay-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 22:59:41 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-98206",
-      "title": "US Treasury seeks public input for state-level stablecoin regulations",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/us-treasury-state-stablecoin-regulation?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 22:31:34 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-79869",
-      "title": "US Treasury seeks public input for state-level stablecoin regulations",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-treasury-state-stablecoin-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 22:31:34 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-70815",
-      "title": "Hyperliquid whale makes $80M bet on market crash: Is Bitcoin in trouble?",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-whale-makes-dollar80m-bet-on-market-crash-is-bitcoin-in-trouble?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 22:00:08 +0100",
+      "url": "https://cointelegraph.com/news/new-bitcoin-price-lows-on-the-table-until-76k-becomes-support?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 23:30:00 +0100",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-70841",
-      "title": "Hyperliquid whale makes $80M bet on market crash: Is Bitcoin in trouble?",
+      "id": "ct-61037",
+      "title": "New Bitcoin price lows on the table until $76K becomes support",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/hyperliquid-whale-makes-dollar80m-bet-on-market-crash-is-bitcoin-in-trouble?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 22:00:08 +0100",
+      "url": "https://cointelegraph.com/news/new-bitcoin-price-lows-on-the-table-until-76k-becomes-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 23:30:00 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-2718",
-      "title": "EDX seeks OCC trust bank charter for institutional crypto custody",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/citadel-backed-edx-national-trust-bank-charter?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 21:44:04 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-21868",
-      "title": "EDX seeks OCC trust bank charter for institutional crypto custody",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/citadel-backed-edx-national-trust-bank-charter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 21:44:04 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-5508",
-      "title": "Pro-crypto PAC to be headed by Tether executive ahead of US midterms",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-pactether-exec-us-elections?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 21:08:05 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-42039",
-      "title": "Pro-crypto PAC to be headed by Tether executive ahead of US midterms",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-pactether-exec-us-elections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 21:08:05 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-4835",
+      "id": "ct-rss-11127",
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 20:37:31 +0100",
+      "published": "Thu, 02 Apr 2026 22:47:20 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-30416",
+      "id": "ct-84991",
       "title": "Here’s what happened in crypto today",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 20:37:31 +0100",
+      "published": "Thu, 02 Apr 2026 22:47:20 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-98124",
-      "title": "Price predictions 4/1: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
+      "id": "ct-rss-80238",
+      "title": "Stablecoin supply reaches $315B in Q1 as USDC rises, USDT declines",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/price-predictions-4-1-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 19:43:54 +0100",
-      "coins": [
-        "ETH",
-        "BTC",
-        "XRP",
-        "SOL",
-        "BNB"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-45254",
-      "title": "Price predictions 4/1: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/price-predictions-4-1-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 19:43:54 +0100",
-      "coins": [
-        "BNB",
-        "BTC",
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-55551",
-      "title": "Drift Protocol warns users to pause deposits amid 'unusual' trading activity",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/drift-protocol-pause-deposit-unusual-activity?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 19:42:50 +0100",
+      "url": "https://cointelegraph.com/news/stablecoin-supply-315b-q1-usdc-rises-usdt-declines?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 22:29:12 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-349",
-      "title": "Drift Protocol warns users to pause deposits amid 'unusual' trading activity",
+      "id": "ct-24790",
+      "title": "Stablecoin supply reaches $315B in Q1 as USDC rises, USDT declines",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/drift-protocol-pause-deposit-unusual-activity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 19:42:50 +0100",
+      "url": "https://cointelegraph.com/news/stablecoin-supply-315b-q1-usdc-rises-usdt-declines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 22:29:12 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-19416",
-      "title": "Citadel-backed EDX Markets applies for U.S. trust charter to expand institutional crypto services",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/01/citadel-backed-edx-markets-applies-for-u-s-trust-charter-to-expand-institutional-crypto-services",
-      "published": "Wed, 01 Apr 2026 19:36:22 +0000",
-      "summary": "The Citadel-backed exchange is seeking approval to offer custody and asset services as institutional demand grows.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-17389",
-      "title": "Nakamoto Bitcoin sale could signal industry-wide DAT contagion: Analyst",
+      "id": "ct-rss-74214",
+      "title": "Rocky US economy, private credit stress, war, impact Bitcoin’s odds for $75K rally",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/nakamoto-sale-signal-dat-contagion?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 18:56:12 +0100",
+      "url": "https://cointelegraph.com/news/rocky-us-economy-private-credit-stress-war-impact-bitcoin-s-odds-for-75k-rally?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 22:24:42 +0100",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-61042",
-      "title": "Nakamoto Bitcoin sale could signal industry-wide DAT contagion: Analyst",
+      "id": "ct-96361",
+      "title": "Rocky US economy, private credit stress, war, impact Bitcoin’s odds for $75K rally",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/nakamoto-sale-signal-dat-contagion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 18:56:12 +0100",
+      "url": "https://cointelegraph.com/news/rocky-us-economy-private-credit-stress-war-impact-bitcoin-s-odds-for-75k-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 22:24:42 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-93124",
-      "title": "Warren Buffett bought $17B in US T-bills: A bad omen for Bitcoin price?",
+      "id": "cd-52743",
+      "title": "Crypto market structure bill release pushed back as industries view revised stablecoin yield compromise this week",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/04/02/crypto-market-structure-bill-release-pushed-back-as-industries-view-revised-stablecoin-yield-compromise-this-week",
+      "published": "Thu, 02 Apr 2026 22:12:10 +0000",
+      "summary": "Crypto and banking industry representatives are viewing revised stablecoin yield compromise language this week.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-52702",
+      "title": "Polymarket expands into equities and commodities with Pyth price feeds",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/warren-buffett-bought-17b-in-us-t-bills-a-bad-omen-for-bitcoin-price?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 18:49:18 +0100",
-      "coins": [
-        "BIT"
-      ],
+      "url": "https://cointelegraph.com/news/polymarket-expands-into-equities-and-commodities-with-pyth-price-feeds?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 21:34:05 +0100",
+      "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-69912",
-      "title": "Warren Buffett bought $17B in US T-bills: A bad omen for Bitcoin price?",
+      "id": "ct-94689",
+      "title": "Polymarket expands into equities and commodities with Pyth price feeds",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/warren-buffett-bought-17b-in-us-t-bills-a-bad-omen-for-bitcoin-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 18:49:18 +0100",
-      "coins": [
-        "BTC"
-      ],
+      "url": "https://cointelegraph.com/news/polymarket-expands-into-equities-and-commodities-with-pyth-price-feeds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 21:34:05 +0100",
+      "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-76368",
-      "title": "Solana DeFi platform Drift confirms 'active attack' as $200M+ leaves platform",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/04/01/solana-defi-platform-drift-investigates-suspicious-activity-tells-users-to-halt-deposits",
-      "published": "Wed, 01 Apr 2026 18:35:27 +0000",
-      "summary": "The platform halted deposits while it investigates suspicious activity and urges users to proceed with caution.",
-      "coins": [
-        "SOL"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-65930",
-      "title": "Naoris launches post-quantum blockchain as quantum security risks gain attention",
+      "id": "ct-rss-34097",
+      "title": "CFTC sues 3 states over prediction market regulatory authority",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/naoris-post-quantum-blockchain-quantum-security-risks-gain-attention?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 18:12:33 +0100",
+      "url": "https://cointelegraph.com/news/cftc-sues-3-states-prediction-market-regulation?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 21:21:20 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-rss-4216",
-      "title": "CFTC chair says agency is ready to oversee entire crypto market",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/cftc-chair-oversee-crypto-market-clarity-passes?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 18:04:28 +0100",
+      "id": "ct-1181",
+      "title": "CFTC sues 3 states over prediction market regulatory authority",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/cftc-sues-3-states-prediction-market-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 21:21:20 +0100",
       "coins": [],
-      "provider": "cointelegraph-rss"
+      "provider": "cointelegraph"
     },
     {
-      "id": "cd-42872",
-      "title": "Galaxy Digital's testnet suffers hack but no client funds or information were compromised",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/04/01/galaxy-digital-suffers-hack-but-no-client-funds-or-information-were-compromised",
-      "published": "Wed, 01 Apr 2026 17:48:13 +0000",
-      "summary": "Mike Novogratz’s crypto financial services firm said unauthorized access was limited to a segregated R&D workspace; trading systems and client accounts were unaffected.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-98374",
-      "title": "Why Meta is choosing partners over power in its 2026 stablecoin push",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/why-meta-chooses-partners-stablecoin-payments?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 17:35:11 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "gn-58105",
-      "title": "Bitcoin Cycles Signal Market May Not Bottom Until Later This Year - stonex.com",
-      "source": "stonex.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONi1fc3VVc1FKbjFfVmhTcERWN0R0ZE4xcnFja19YbTJRa3puZjJWaWhEQTBDS25NY2RkVXo3RlF0eTJ6MTFuNTBqUmJVV1pRT21jVjQ5U2gtbThvbFdBNnlKSmhqNGlVazdyUWcxaUwyRF9pMjBGaTJKOGxFekp1ak1ITjN6ckxsbUMyblRycjdYZjRsQ3FUbzlvcUVBWV9tOUlB?oc=5",
-      "published": "Wed, 01 Apr 2026 17:18:00 GMT",
+      "id": "gn-80282",
+      "title": "Bitcoin Tumbles With Stocks as Trump Signals Harder Iran Strikes - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdnQtQTJtNGh3TGhaVGpaUEd1VlNHaG9EVm5wRGpNUG9nMmRZdzZOb05XOXRwYkVUNnRPRUVuX1VVeWJzRUIzU2x3dHdqQ2pfbHY2RUs3THdhZW96c0I0d1lLRzMteFA1bGlDQWdnUGhkekM2UVpxY0paZXZkVlJwcFo2OGdjazIxYmJoN2h5UDh6Z2hfT2Y1UEZWcEt1aUpWX0RZdGh2aVItZFJsVlBCOEdsOXJadw?oc=5",
+      "published": "Thu, 02 Apr 2026 21:20:34 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-792",
-      "title": "Crypto Long & Short: Governance is the real Layer 1",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-long-and-short-governance-is-the-real-layer-1",
-      "published": "Wed, 01 Apr 2026 16:09:02 +0000",
-      "summary": "In this week’s Crypto Long & Short Newsletter, Nilmini Rubin writes on the challenge facing crypto and traditional markets to create a hybrid, shared governance structure. Then, Meredith Fitzpatrick c",
+      "id": "ct-rss-65024",
+      "title": "X mulls new rules for first-time crypto posts amid tortoise scam",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-scam-fake-death-tortoise?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 21:15:45 +0100",
       "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-42423",
+      "title": "X mulls new rules for first-time crypto posts amid tortoise scam",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/crypto-scam-fake-death-tortoise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 21:15:45 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-13788",
+      "title": "San Antonio City Council working on bitcoin scam sign ordinance - Texas Public Radio | TPR",
+      "source": "Texas Public Radio | TPR",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcER1ekQzUEpoVklxaHgzdTUtc0IwUDE4YllqRzZBbWQwZ2FNM0dlalAyLUNTMEh3c3JSdTYwcERRaHkyWU9fNXNvbjM0aUVTU09OY1hOOFAtSTVUelBpemtIOXJ6QjREbFVtQ0Zsb2RZYS1acGpkN1hIdVJ4QlkwdHpPRXh2LTR1VWx2RUcyUk94bFN4dWVZaHJrTnVXMTkx?oc=5",
+      "published": "Thu, 02 Apr 2026 21:13:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-67197",
+      "title": "Bitcoin, crypto stocks slipping lower alongside broader markets - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcmRZa0d2WEZ4SDZ0YXowNk5iSG9MSThpNjBFOHp0V0hmb2dvVnpxbGpWWkliV1M1bG1rVjkxbUlSdzFMaWRjemVTenhGYk1TbW5IRHpfV3hnR0hwdk9SbURGdTY3SlZGM25ucmFUeEpPa3d4Njc3REtfQXZnc1NtY2dIZExaZ3BFc1FxbmxTSlgwUG5rQ2tWVUpQazd5eWluYnk1blI3dWp4UlI1Z3c?oc=5",
+      "published": "Thu, 02 Apr 2026 19:30:58 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-85997",
+      "title": "Bitcoin Price Headed To $120,000? Why This analyst Thinks It’s A Good Time To Buy - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcjYyUzlCRmJxbWRGYUo5STNCaWRfb3hXWlVNc0Z6WENQTjBOaDdDR2xTSTBjNTdSN0V6ZmkzSFU3ZjdXWUVPRUdzeFZheHVSYkNOR0ctYU0zX213Mm1ZY19rUkNIcmU0bFBRbHhkakdUa1h0cXo4SlBEQTdPTXlPMlYwZWFQZjZXSHM1ODMyNW04WDVadzFVQnFXcnR2Y3B5LUZfaVdzcElzX21rVFZ3aFR3Y09YQ0ZEQUJ1b01felcxUTJZblFkLVF6VDlfZEtPbnRV?oc=5",
+      "published": "Thu, 02 Apr 2026 19:30:10 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-40204",
+      "title": "Ether at risk of new 2026 lows if bulls fail to turn $2.4K into support",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ether-at-risk-of-new-2026-lows-if-bulls-fail-to-turn-dollar2-4k-into-support?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 19:25:33 +0100",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-25660",
+      "title": "Ether at risk of new 2026 lows if bulls fail to turn $2.4K into support",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/ether-at-risk-of-new-2026-lows-if-bulls-fail-to-turn-dollar2-4k-into-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 19:25:33 +0100",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-42996",
+      "title": "Here’s why bitcoin’s drop below $68,000 raises the risk of a crash under $60,000",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
+      "published": "Thu, 02 Apr 2026 18:27:29 +0000",
+      "summary": "The negative gamma zone below $68,000 can trigger a self-reinforcing sell-off, leading to an ever larger slump.",
+      "coins": [
+        "BTC"
+      ],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-49161",
-      "title": "Token voting is crypto’s broken incentive system",
+      "id": "ct-rss-83164",
+      "title": "SoFi expands into institutional finance with integrated crypto services",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/token-voting-broken-incentive-system?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Wed, 01 Apr 2026 16:00:00 +0100",
+      "url": "https://cointelegraph.com/news/sofi-institutional-banking-platform-crypto-services?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 17:56:28 +0100",
       "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-4469",
+      "title": "SoFi expands into institutional finance with integrated crypto services",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/sofi-institutional-banking-platform-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 17:56:28 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-91200",
+      "title": "Bitcoin miner Soluna acquires $53M wind farm to power AI facility",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-miner-soluna-acquires-53m-wind-farm-to-power-ai-facility?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 17:37:49 +0100",
+      "coins": [
+        "SOL",
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-63840",
+      "title": "Bitcoin miner Soluna acquires $53M wind farm to power AI facility",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-miner-soluna-acquires-53m-wind-farm-to-power-ai-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 17:37:49 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-44381",
+      "title": "Coinbase receives conditional approval for US trust charter",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/coinbase-conditional-approval-national-trust-charter-occ?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 17:01:49 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-rss-32349",
+      "title": "Bitcoin holders face $600B in unrealized losses as BTC price slips to $66K",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-holders-face-600b-unrealized-losses-btc-price-66k?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Thu, 02 Apr 2026 16:47:44 +0100",
+      "coins": [
+        "BTC",
+        "BIT"
+      ],
       "provider": "cointelegraph-rss"
     }
   ]

@@ -1,76 +1,28 @@
 {
-  "date": "2026-03-31",
-  "generated_at": "2026-03-31 04:00",
+  "date": "2026-04-03",
+  "generated_at": "2026-04-03 04:00",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 37,
-    "label": "下次 FOMC：05/07（37天後）"
+    "days_away": 34,
+    "label": "下次 FOMC：05/07（34天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-04-01",
-      "event": "ISM 製造業 PMI（3月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 1,
-      "label": "🔴 ISM 製造業 PMI（3月）（1天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      },
-      "forecast": "52.3",
-      "forecast_source": "ForexFactory"
-    },
-    {
       "date": "2026-04-03",
       "event": "NFP（3月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 3,
-      "label": "🔴 NFP（3月就業）（3天後）",
+      "days_away": 0,
+      "label": "🔴 NFP（3月就業）（0天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
         "below": "就業疲弱 → 降息預期 → 偏多",
         "watch": "同步關注失業率與時薪成長"
       },
-      "forecast": "56K",
-      "forecast_source": "ForexFactory"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-04-01",
-      "event": "ISM 製造業 PMI（3月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 1,
-      "label": "🔴 ISM 製造業 PMI（3月）（1天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      },
-      "forecast": "52.3",
-      "forecast_source": "ForexFactory"
-    },
-    {
-      "date": "2026-04-03",
-      "event": "NFP（3月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 3,
-      "label": "🔴 NFP（3月就業）（3天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "forecast": "56K",
+      "previous": "-92K",
+      "previous_date": "2026-02-01",
+      "forecast": "65K",
       "forecast_source": "ForexFactory"
     },
     {
@@ -78,14 +30,68 @@
       "event": "CPI（3月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 9,
-      "label": "🔴 CPI（3月）（9天後）",
+      "days_away": 6,
+      "label": "🔴 CPI（3月）（6天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
         "below": "通膨低於預期 → 降息預期升溫 → 偏多",
         "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      }
+      },
+      "previous": "2.7%",
+      "previous_date": "2026-02-01"
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-04-03",
+      "event": "NFP（3月就業）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 0,
+      "label": "🔴 NFP（3月就業）（0天後）",
+      "impact_guide": {
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      },
+      "previous": "-92K",
+      "previous_date": "2026-02-01",
+      "forecast": "65K",
+      "forecast_source": "ForexFactory"
+    },
+    {
+      "date": "2026-04-09",
+      "event": "CPI（3月）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 6,
+      "label": "🔴 CPI（3月）（6天後）",
+      "impact_guide": {
+        "name": "消費者物價指數",
+        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+      },
+      "previous": "2.7%",
+      "previous_date": "2026-02-01"
+    },
+    {
+      "date": "2026-04-15",
+      "event": "零售銷售（3月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 12,
+      "label": "🟡 零售銷售（3月）（12天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+0.6%",
+      "previous_date": "2026-02-01"
     }
   ]
 }
