@@ -1,12 +1,12 @@
 {
-  "date": "2026-04-03",
+  "date": "2026-04-04",
   "regime": "bear",
   "label": "🔴 熊市",
   "desc": "趨勢向下，風險規避",
   "score": 15,
   "signals": [
     "🟡 VIX 正常偏高 23.9",
-    "🟠 恐慌 15",
+    "🟠 恐慌 19",
     "🔴 價格 < MA20 < MA60（空頭排列）"
   ],
   "raw_data": {
@@ -18,7 +18,7 @@
       "change_pct": 0.09004744280911507
     },
     "vix": 23.8700008392334,
-    "fear_greed": 15.3,
+    "fear_greed": 19.3,
     "yield_curve": {
       "spread": null,
       "status": "無數據",

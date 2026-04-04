@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-03",
+  "date": "2026-04-04",
   "pairs": [
     {
       "pair": "黃金 vs 美元",
@@ -14,10 +14,10 @@
       "pair": "BTC vs 納指",
       "s1": "BTC-USD",
       "s2": "^IXIC",
-      "corr_20d": 0.337,
-      "corr_60d": 0.065,
-      "change_20d": 0.374,
-      "anomaly": true
+      "corr_20d": -0.281,
+      "corr_60d": -0.066,
+      "change_20d": -0.268,
+      "anomaly": false
     },
     {
       "pair": "S&P vs VIX",
@@ -59,9 +59,9 @@
       "pair": "BTC vs 黃金",
       "s1": "BTC-USD",
       "s2": "GLD",
-      "corr_20d": -0.079,
-      "corr_60d": -0.016,
-      "change_20d": -0.241,
+      "corr_20d": -0.021,
+      "corr_60d": -0.027,
+      "change_20d": 0.063,
       "anomaly": false
     },
     {
@@ -74,5 +74,5 @@
       "anomaly": true
     }
   ],
-  "anomaly_count": 3
+  "anomaly_count": 2
 }

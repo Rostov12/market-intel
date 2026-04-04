@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-03",
-  "generated_at": "2026-04-03 04:45",
+  "date": "2026-04-04",
+  "generated_at": "2026-04-04 04:45",
   "composite": {
     "score": -0.5,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-02",
       "2026-04-06",
-      "2026-04-07"
+      "2026-04-07",
+      "2026-04-08"
     ],
-    "total_calls_vol": 3971709,
-    "total_puts_vol": 6350671,
-    "pcr": 1.599,
+    "total_calls_vol": 663153,
+    "total_puts_vol": 1090158,
+    "pcr": 1.644,
     "label": "散戶極度恐慌🟢",
     "signal": "逆向看多"
   },
@@ -24,41 +24,36 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 10,
-    "bear_words": 1,
-    "bull_pct": 91,
+    "bull_words": 7,
+    "bear_words": 3,
+    "bull_pct": 70,
     "label": "偏多情緒",
-    "top_tickers": [
-      {
-        "symbol": "VCX",
-        "count": 1
-      }
-    ],
+    "top_tickers": [],
     "top_posts": [
       {
-        "title": "Weekly Earnings Thread 3/30 - 4/3",
-        "score": 116,
-        "upvote_ratio": 0.91
+        "title": "Weekend Discussion Thread for the Weekend of April 03, 2026",
+        "score": 41,
+        "upvote_ratio": 0.94
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 03, 2026",
-        "score": 55,
-        "upvote_ratio": 0.92
+        "title": "Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports",
+        "score": 519,
+        "upvote_ratio": 0.96
+      },
+      {
+        "title": "U.S. jobs growth surges past expectations in March",
+        "score": 1052,
+        "upvote_ratio": 0.82
+      },
+      {
+        "title": "Lost everything",
+        "score": 2110,
+        "upvote_ratio": 0.87
       },
       {
         "title": "Bears watching the market close green despite oil trading above $110 a barrel.",
-        "score": 1115,
-        "upvote_ratio": 0.98
-      },
-      {
-        "title": "Iran and Oman drafting protocol to 'monitor' Hormuz Strait traffic: IRNA",
-        "score": 1619,
-        "upvote_ratio": 0.97
-      },
-      {
-        "title": "Trump administration prepares up to 100% pharmaceutical tariffs on some imported",
-        "score": 1119,
-        "upvote_ratio": 0.98
+        "score": 16448,
+        "upvote_ratio": 0.96
       }
     ]
   }
