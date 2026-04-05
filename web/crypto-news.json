@@ -1,16 +1,16 @@
 {
-  "date": "2026-04-04",
-  "updated_at": "2026-04-04 08:00",
+  "date": "2026-04-05",
+  "updated_at": "2026-04-05 08:00",
   "count": 30,
   "sources": [
     "coindesk",
-    "google-news-crypto",
+    "cointelegraph",
     "cointelegraph-rss",
-    "cointelegraph"
+    "google-news-crypto"
   ],
   "news": [
     {
-      "id": "gn-89482",
+      "id": "gn-59060",
       "title": "Crypto Market Update: CoinShares Makes Nasdaq Debut via SPAC Deal - Investing News Network",
       "source": "Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PU3pBdGY0NWJMSWFUTFRDUGx3RklNQlNENWdlQjBiNG9meUo5andqSHFER0lkNlhEaFVwOXpLYWZseVJ1YVZsU2Q4RzBWT1RoeUhTM19YaFljM2ZHcm5yMHYxTlc?oc=5",
@@ -19,7 +19,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-59623",
+      "id": "gn-83888",
       "title": "Current price of Bitcoin for April 1, 2026 - Fortune",
       "source": "Fortune",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LQkx1RUhreXJTcUFxb0NNUXltbGNYZkpiSkNEWm1RNkJOc0IydFJpRW85SUlLbU1mRGdoMHp3VHVfWkpDUzJsWHpuNVlqTGd1OHFpcDNSZG9FblkwNUlaejA3d1FUcE0?oc=5",
@@ -30,294 +30,299 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-69057",
-      "title": "Google researchers just put a new expiration date on Bitcoin - Mashable",
-      "source": "Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kWWgyUV9VYzE5OU1fOHpRWmlmWG1VUFcyNlh3MGhrZnJseUNBNTI3TlFJMFgzRTRwLVNuR0VVWWl1S2xOa1dodW1sanA2M3ZBU2RXdkFyOEJKczB6WGp2ekc5Z2FBbFBYM2taLWJ6Z1E1by1JcHc2WGJTM3A?oc=5",
-      "published": "Tue, 31 Mar 2026 13:40:12 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-58066",
-      "title": "Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly - research.google",
-      "source": "research.google",
+      "id": "gn-61046",
+      "title": "Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly - Research at Google",
+      "source": "Research at Google",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlIydE4tc3hxMjh6enFJRVRqNWZzcFQ5Szl4M3d2QWxzOGsxMlQwTnVUU3NEYTlsODlmMFo2Xy1ULU11cF8xTnJYZXRmT3VwTGdKbGpHOXdkRWpHc3hJME9MUlB5ZmVGYzZlbF9FcllZRm5vVmpFdHFWZmoxQ1VxUHJPWUQ3VV9LVUxENHJnazhoRGxBUDBzT1p1SzkwMFFaRml2cmpqMW5NTkE?oc=5",
       "published": "Tue, 31 Mar 2026 02:07:08 GMT",
       "coins": [],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-6625",
-      "title": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ethereum-foundation-nearly-reaches-70000-staked-eth-goal?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 22:31:51 +0100",
+      "id": "gn-31585",
+      "title": "Bitcoin Price Today: BTC Trades At $66,122, Down By 4.71% This Week - Forbes",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZDNxV1NkUDFMODZjdXlQVy1ib2UxVUx1cEJCVUxCMnl0aHJWUnhwc2FWQkYxX041VUljZy12T3hla0FKQ3pVRDdRaWtfem53cnM5aC1pRm9OVXctOXRSd1cwREFjdl9XRFFkS2JIWDR4dWZaWmRxOVBaYWgza01EbktB?oc=5",
+      "published": "Thu, 02 Apr 2026 14:05:00 GMT",
       "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-83089",
-      "title": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ethereum-foundation-nearly-reaches-70000-staked-eth-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 22:31:51 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-43547",
-      "title": "Cambodian lawmakers propose severe prison time for crypto scammers",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/cambodia-law-prison-crypto-scammers?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 21:47:12 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-84371",
-      "title": "Cambodian lawmakers propose severe prison time for crypto scammers",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/cambodia-law-prison-crypto-scammers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 21:47:12 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-95857",
-      "title": "Charles Schwab Is Gearing Up to Offer Bitcoin, Ethereum Spot Trading - Decrypt",
-      "source": "Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11ZlE3SWRtRnozZ2hJNnVpb0dleHZTbFpIcVUyNzRoYjdGMkJzUExXNTFzanBfampjZTJDR21pajh5ekZIVGJfdUJmT29nSGgwZmpLUy00VW5VdjVqcUFwdnB6eW91SU5NTjJFOEVlQlV2bFlUQ0JvV3R30gGCAUFVX3lxTE5HLWhQS05LVDhEQ053dHZoYUZKd1RpOVFPcHJTeVU3V3QydHVlcXJaVXB3SjZWbGFOVl91ZVZLTVNRN3BqSmIyTkczRHM1M2plZG5ldC1DWjN1RWw4c3dJbVRqYXJ3cjJuamRWNWpXNElzazZHMlFCVVNMTmlkM0ZoQkE?oc=5",
-      "published": "Fri, 03 Apr 2026 21:11:55 GMT",
-      "coins": [
-        "ETH",
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-63611",
-      "title": "Is Bitcoin mispricing a prolonged Iran war? Ex-hedge fund manager weighs in",
+      "id": "gn-54108",
+      "title": "Charles Schwab opens waitlist for direct bitcoin and ether trading, targeting Q2 limited launch - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTUtqajE4LXFlMm9fWUZpOVBjTy1paV9lMF9VN3dqaWdENTNFdnFZQ2hmYmZJdkxsWXd1XzU0bXNZeXk3UEJtVElNbU93SWJKZWs1ZktOQlVPVEpzcS1pWjVnVDhIbWpXOE02SndqRUwtTXVvcWx4SFZ3VjN2dkNYYjVXRWtIWDdkQV9lWjlvNGV0cU00REk2UGdYdXpETEd1dVctbUd0QmNpQ3pteXN2LUFQUDczV3FySDQ5MTh1Z0ZzSFVWY2VqdFdR?oc=5",
+      "published": "Sat, 04 Apr 2026 22:46:43 GMT",
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-94632",
+      "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-underestimating-prolonged-iran-war-macro-investor-weighs-in?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 20:04:17 +0100",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 22:41:18 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-35691",
+      "title": "Here’s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 22:41:18 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-31058",
+      "title": "What Moody's (MCO)'s First Rating of Bitcoin‑Backed Municipal Bonds Means For Shareholders - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbEhITjRQV0tqT1pKVV9CbFI4UWNSOFAxRktpZ0dXWU9oUUxRSUw0MkVZanp0X3hrOExZelZKYVpuRkFOamVTU1RiQVl0a2tzWGtoV1hWVmRaNWFaa21md2hCYVlobElpQWZNQzVydDZLOUpPRkZWS28wY3Q5eV9PUm9KZHZsZG5COGpWek9GcjdVV2hnb1Ztd2h0c1k?oc=5",
+      "published": "Sat, 04 Apr 2026 22:11:28 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-11118",
+      "title": "Schwab Crypto: Spot Bitcoin & Ethereum Launch in 2026 | Charles Schwab - News and Statistics - IndexBox",
+      "source": "IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNk5LOW1hc3NBekxJV2VjUTdGLWpvNzBlR2Z2LWpMUjN4RzdtZHB1S2dYbWdsd3o2ZXFlTW9GZzNaVWhPTGJ5VlRYSGZUOWZnUWFoS284NjRuRWpRN0puNUQ3UnJCTzAxeEdqbHpxOTVVUzRSNTFTR0F5VWl4eVFkcEFhbjRyMnZzNWdj?oc=5",
+      "published": "Sat, 04 Apr 2026 21:50:00 GMT",
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-56246",
+      "title": "Telegram founder Pavel Durov says Iranian government's ban backfired",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/telegram-durov-iran-ban-backfire?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 20:30:05 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-65047",
+      "title": "Telegram founder Pavel Durov says Iranian government's ban backfired",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/telegram-durov-iran-ban-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 20:30:05 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-85146",
+      "title": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/jimmy-song-bitcoin-conservative-node-client?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 18:59:25 +0100",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-77111",
-      "title": "Is Bitcoin mispricing a prolonged Iran war? Ex-hedge fund manager weighs in",
+      "id": "ct-42525",
+      "title": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-underestimating-prolonged-iran-war-macro-investor-weighs-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 20:04:17 +0100",
+      "url": "https://cointelegraph.com/news/jimmy-song-bitcoin-conservative-node-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 18:59:25 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-97308",
-      "title": "Georgia lawmakers crack down on Bitcoin ATM scams - atlantanewsfirst.com",
-      "source": "atlantanewsfirst.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWNUSkttTkNkMUdTZHdma1F1T0d3X2VBQ1JZU0ZyVEFEc213VTlUVE92WmpIN0ozbUlERFhYczVucnVLZFJUMG5MUmdnVDcxZXJMWEd2SmZNVWNpcFRRbG1RckF0RU5rXzBya1VET0p0Qk5jd2YxZ3pZSGw5aTFyTV9CVzRMbzRGcFJTeHJGQkdpbk9mN1HSAaoBQVVfeXFMTTB2emlCbDZySHVpRjRfMGp4Vk9RYVcwaGZRaElQUVhsUjdDclZxVmJuVnFOWEhoTHRtbjdIVjk0YkxhWk5DU1NoMVVUbllRMmg3LXk3YklMd18wWi1sUzl1dnRpeEVNVUU0XzhCaTUyYmFxSjIwaV9vWFNzd3ZUVDdXbnZobUtUbkxvcVpxR1FIalF6S25FTlU1bHFIYkdjY3RJN2lINzQ4aUE?oc=5",
-      "published": "Fri, 03 Apr 2026 19:53:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-65082",
-      "title": "Charles Schwab Teases Direct Bitcoin Trading With New ‘Schwab Crypto’ Account - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Tcm40U01tR1FDT0gzYWJYR1RVWmtmaGpJR2dGUjI3bUJOR1Q0TS1XVG50bXBkY0gtWFZZODdUUk8wamhMOGlFVzUxQWtRVkVDekxkY2N0eklZVGY5M0prdVF4WUs0SW9EeWxtZHRMUGVBZ1JhS3pXNlRR?oc=5",
-      "published": "Fri, 03 Apr 2026 19:42:51 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-46559",
-      "title": "Schwab plans spot bitcoin, ether trading launch in first half of 2026",
+      "id": "gn-24722",
+      "title": "Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds - CoinDesk",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/04/03/schwab-plans-spot-bitcoin-ether-trading-launch-in-first-half-of-2026",
-      "published": "Fri, 03 Apr 2026 19:18:00 +0000",
-      "summary": "The financial services giant with almost $12 trillion in client assets is moving closer to direct crypto trading, offering subscription for early access to the Schwab Crypto account.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbE94OGdpOTM4ZHZOUW14YW9TcGJINGpodkRzNjJrU0gzZnZGQXdVZmFtT19tbWM5Sy0zNWtCdjBaUi10SjExRjA4OHh6d3gxYnZZbVZYcWVNU2RTLXl3bldpeEk3UzIxUWltX1BfYUx3bUJodVNQT2ZKUEZBUHhBdXRiWk5haVk3dkVWRTFLSmRnM3lSdU1yT0hyRmdVVW16djg1eVZOUmVncGhSWTIzN29NdE5QSUl1MXJHU0E2UGFXTVpFUWsyRQ?oc=5",
+      "published": "Sat, 04 Apr 2026 18:56:35 GMT",
       "coins": [
-        "ETH",
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-62150",
+      "title": "Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/03/30/bitcoin-tends-to-outperform-gold-and-stocks-after-global-shocks-mercado-bitcoin-finds",
+      "published": "Sat, 04 Apr 2026 18:56:03 +0000",
+      "summary": "The study analyzed 60-day windows after economic or geopolitical shocks and found that Bitcoin posted stronger returns than gold and the S&P 500 in each period.",
+      "coins": [
         "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-49505",
-      "title": "US community banks oppose OCC's approval of Coinbase trust charter",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/community-banks-oppose-coinbase-trust-charter-approval-occ?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 19:03:48 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
+      "id": "gn-1847",
+      "title": "Charles Schwab to Launch Spot Bitcoin Trading in H1 2026 - Bitbo",
+      "source": "Bitbo",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43SkpBdXNLTzBLWHkxSzdTMDBYUjAwcnl3Sjh2MkJvcUV2bFhSdVRmNjFHTVZjaWhXUG5KZkxGbE9yNWdWaHppU0VjZ1QtSFplam1YODREaUR4ekdZMUpqZmtuWkdqekIw?oc=5",
+      "published": "Sat, 04 Apr 2026 18:35:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
     },
     {
-      "id": "ct-82303",
-      "title": "US community banks oppose OCC's approval of Coinbase trust charter",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/community-banks-oppose-coinbase-trust-charter-approval-occ?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 19:03:48 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
+      "id": "gn-1432",
+      "title": "Analysts: Bitcoin Consolidation May Signal Bigger Breakout Ahead - Bitbo",
+      "source": "Bitbo",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xN2xtdFF1V1dldDlOcTNtNG1HS1pKRlhuTlIySlBVYXhna29VY2NKWDlsak5oMEtralhNNElucUgtWWhhSUp0SXpTN2ZCSFpEWE82RGhPbFI0WlpBSW1qSWNxN0pIUmE2TWpDakJ3?oc=5",
+      "published": "Sat, 04 Apr 2026 18:35:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
     },
     {
-      "id": "cd-14429",
-      "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
+      "id": "gn-10690",
+      "title": "Bitcoin Price Breakdown To $45,000: The Levels To Watch Out For Next Steps - TradingView",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX0g3V01ObGsyQXF0cS12RWFUcXZraFRKUUVheWVVUXpGaWJOWm50VW8yeU1NU1lUSURicDBVai1lbEVXc3l5YmZNeEEtWlFHaThycmVLRlA3S1kyazlDT3RMSHVPMDBlRWtTV21VWGNQSzNpQkJFY09CUHM1M1ZPRFBMelFRRjdpVWRoWUVkY3pxalI3NHQ1Zmoyei03Wjk3N3V5eDhYcDE5TldkT0ZPb2VfdDIyV2hVQk52Y0xzTmNiSXUxNHRkMzdR?oc=5",
+      "published": "Sat, 04 Apr 2026 17:30:07 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-80066",
+      "title": "Ex-UK Chancellor backs bitcoin as alternative to failing systems",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
-      "published": "Fri, 03 Apr 2026 19:02:51 +0000",
-      "summary": "Prominent blockchain sleuth ZachXBT alleged faster action by Circle could have limited crypto losses, but freezing asset without legal authorization carries legal risks.",
+      "url": "https://www.coindesk.com/markets/2026/04/03/ex-uk-chancellor-backs-bitcoin-as-alternative-to-failing-systems",
+      "published": "Sat, 04 Apr 2026 17:00:23 +0000",
+      "summary": "Kwasi Kwarteng reflects on current UK market turmoil, fiscal “doom loop,” and his move into bitcoin with Stack BTC.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-11070",
+      "title": "Digital asset treasuries must now earn their keep",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/04/04/digital-asset-treasuries-must-now-earn-their-keep",
+      "published": "Sat, 04 Apr 2026 16:30:00 +0000",
+      "summary": "For treasuries to do so and stay competitive, Kiernan unpacks three broad strategies that are emerging.\n",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-23353",
-      "title": "Kalshi onboards ex-Democratic strategist amid legal troubles",
+      "id": "ct-rss-81974",
+      "title": "Nevada judge extends ban on Kalshi, rejects event contract defense",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/kalshi-democratic-strategist-lawsuits-state-federal?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 18:12:55 +0100",
+      "url": "https://cointelegraph.com/news/nevada-judge-extends-kalshi-ban-unlicensed-gambling-ruling?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 14:21:54 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-84638",
-      "title": "Kalshi onboards ex-Democratic strategist amid legal troubles",
+      "id": "ct-70586",
+      "title": "Nevada judge extends ban on Kalshi, rejects event contract defense",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/kalshi-democratic-strategist-lawsuits-state-federal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 18:12:55 +0100",
+      "url": "https://cointelegraph.com/news/nevada-judge-extends-kalshi-ban-unlicensed-gambling-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 14:21:54 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-53777",
-      "title": "ZachXBT accuses Circle of $420M in 'compliance failures' since 2022",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/zachxbt-accuses-circle-420m-compliance-failures-since-2022?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 18:12:31 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-90114",
-      "title": "ZachXBT accuses Circle of $420M in 'compliance failures' since 2022",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/zachxbt-accuses-circle-420m-compliance-failures-since-2022?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 18:12:31 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-56157",
-      "title": "Bitcoin heads into holiday weekend exposed as ETF and CME flows go offline - coindesk.com",
-      "source": "coindesk.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeF9IYjdDNVV6UjVmczNwWUVUQlVtTnNPTVNJZ3Y0dEE3UEpkbUdWR2wtaENWNTA0ZlU5TWtKUXpWLUFhZ0RSLVJ3X0FNRlZCVVpXTUlhazFrUzNKb0YydE1ZNE5LTmhZU3N5WGMtbjlDTWtrWHlVZ3lPZmdKX2psd0dnT1pWSUNsbmpZVzdFcHRsQTV4a2sxUFAxSDYxQ3dkRWx0bFlXZkljSVprRHNkLVBDSEFadVR3UGc?oc=5",
-      "published": "Fri, 03 Apr 2026 17:59:55 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-72350",
-      "title": "What next as XRP rises to $1.33 but fails to break out",
+      "id": "cd-71141",
+      "title": "Traders are the big winners as 24/7 stocks will finally end the after-hours price 'manipulation'",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/03/what-next-as-xrp-rises-to-usd1-33-but-fails-to-break-out",
-      "published": "Fri, 03 Apr 2026 16:32:33 +0000",
-      "summary": "Price tracks broader crypto flows, with range-bound structure intact until $1.35 breaks.",
+      "url": "https://www.coindesk.com/markets/2026/04/04/traders-are-the-big-winners-as-24-7-stocks-will-finally-end-the-after-hours-price-manipulation",
+      "published": "Sat, 04 Apr 2026 14:00:00 +0000",
+      "summary": "Round-the-clock markets promise freedom for investors and pressure for intermediaries who traditionally wielded immense power during off-hours",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-44706",
-      "title": "Crypto Biz: Bitcoin treasuries break ranks as BTC dips below $70K",
+      "id": "ct-rss-78680",
+      "title": "Prediction markets are testing legal limits in strict Asian markets",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/corporate-bitcoin-strategy-vs-nakamoto-treasury-divide?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 16:28:48 +0100",
+      "url": "https://cointelegraph.com/news/prediction-markets-testing-legal-limits-asia?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 13:00:00 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-67710",
+      "title": "Prediction markets are testing legal limits in strict Asian markets",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/prediction-markets-testing-legal-limits-asia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 13:00:00 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-46920",
+      "title": "Bitcoin shorts risk $2.5 billion liquidation at $72K: Are bears in danger?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-shorts-risk-2-5-billion-liquidation-72k-are-bears-in-danger?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 12:58:24 +0100",
       "coins": [
-        "BIT",
-        "BTC"
+        "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-1204",
-      "title": "Crypto Biz: Bitcoin treasuries break ranks as BTC dips below $70K",
+      "id": "ct-187",
+      "title": "Bitcoin shorts risk $2.5 billion liquidation at $72K: Are bears in danger?",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/corporate-bitcoin-strategy-vs-nakamoto-treasury-divide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 16:28:48 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-shorts-risk-2-5-billion-liquidation-72k-are-bears-in-danger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Sat, 04 Apr 2026 12:58:24 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-80595",
-      "title": "Cryptocurrency scams - WBRC",
-      "source": "WBRC",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lajlTc3V0OHJOcEZMU1pYQmoxaWZSUG05RjYtaGJwVnJJeEtJTGpvbHlkbWFVTnZzU05aX1BUeFNmZ1EzMGpSRGpQX01QcG1DdWoxRjZSQWQyeHZ4b1dWUDdMc2hvTXhqekdn?oc=5",
-      "published": "Fri, 03 Apr 2026 16:26:56 GMT",
-      "coins": [],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-55604",
-      "title": "Morgan Stanley Ratches Up Bitcoin ETF Fee Wars - Forbes",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUw4elc3T0t1YnlpVlllSUxPbUdQMGM4WDlaZURQMU51NUMyTjF0cnZnQmZuN080ZVFzeE1qcTB5amJqLVdrdnRkMzh2d1lwN0RvSDgxVUJuekZlNUkwbzlITGFINU90YUxkcVdpS2NySGFaemJQR3hDdmZKY0g2dTdwNERYZjBlUHJKTDRpdTV5SkY0UGROa25ia1A?oc=5",
-      "published": "Fri, 03 Apr 2026 16:24:17 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-44795",
-      "title": "Execution risk in crypto is the new custody risk",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/execution-risk-is-new-custody-risk?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 16:00:00 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-72779",
-      "title": "Execution risk in crypto is the new custody risk",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/execution-risk-is-new-custody-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 16:00:00 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-42550",
-      "title": "Price predictions 4/3: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/price-predictions-4-3-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Fri, 03 Apr 2026 15:39:20 +0100",
+      "id": "cd-90164",
+      "title": "Solana's quantum-threat readiness reveals harsh tradeoff: security vs speed",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/04/04/solana-s-quantum-threat-readiness-reveals-harsh-tradeoff-security-vs-speed",
+      "published": "Sat, 04 Apr 2026 12:00:00 +0000",
+      "summary": "While Bitcoin developers scramble to find a solution and Ethereum prepares for 'Q-day,' Solana is trying to get ahead of that scenario. ",
       "coins": [
         "BTC",
-        "XRP",
         "ETH",
-        "SOL",
-        "BNB"
+        "SOL"
       ],
-      "provider": "cointelegraph-rss"
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-95891",
+      "title": "‘You Have Until 2029’—Urgent Musk Bitcoin Warning Spurs Coinbase CEO Flip As Price Crash Fears Swirl - Forbes",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMHJNWUo0MWtXcVg1WHVEYmZPc2lGczdibUhNcUxuYjRoYzREX1p1eTd3UWN1MEE5NURvNXRBTXZjUFpWSGpmOU1jN3lOMEhqQm1EQ0pjeFJlckxXZ053MVl3a3BWLUdOcEpBN1NFc3RFc3J2TkRLcDFORXB0QU1uc3hvcGtOZXFpV2xad2NiM3RuUjhPQ0pCNnpzQ1hiWnZBcW1RV3MyYzQ3VEdESG1WVHhVYk9BeTl3Qy1rdFVGZ0ZfRXpUbGxWVTF1STQ4amI5SmxiNXFYeVh3dlVy?oc=5",
+      "published": "Sat, 04 Apr 2026 11:59:16 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-87703",
+      "title": "Bitcoin whales are selling the most aggressively on record while ETFs and Strategy keep buying - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTjhXd0tnM01EckZqYlU3VGpmeXIwWHpwc21FVkNyYXZ1ci1kV2xsRmtqQzNZUkhpbWhUTVFITF9razhpWF9laFA4UDJqVHlFRXZGRmp5M0hLR3Q4dEt2TnVFb3ItSWpmaWo2aU9oQUJaX0RySVJuN1h6X2ZxQlZOb29ta2tKVHdUNUdydmZXemluMkxYbXIxcDE2dGlGQmNBVUtpZVZNUEF4VEoteVF4TVlVMWwtU2pKU04zZWV2eUEtNExqbjMxczBOTQ?oc=5",
+      "published": "Sat, 04 Apr 2026 11:31:28 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
     }
   ]
 }

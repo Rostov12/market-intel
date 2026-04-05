@@ -2,46 +2,6 @@
   {
     "symbol": "SOL/USDT",
     "coin": "SOL",
-    "price": 84.62,
-    "change_pct": 4.34,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具\n- [CoinTelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具",
-    "timestamp": "2026-04-02T01:35:10.475579+08:00",
-    "epoch": 1775064905
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2129.46,
-    "change_pct": -2.04,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
-    "timestamp": "2026-04-02T02:05:10.071461+08:00",
-    "epoch": 1775066708
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.14,
-    "change_pct": -3.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具\n- [CoinTelegraph] Z 世代將比特幣變成可靠的投資組合多元化工具",
-    "timestamp": "2026-04-02T02:05:10.308363+08:00",
-    "epoch": 1775066708
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2128.65,
-    "change_pct": -2.04,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科",
-    "timestamp": "2026-04-02T02:35:10.015140+08:00",
-    "epoch": 1775068508
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
     "price": 84.03,
     "change_pct": -3.28,
     "direction": "🔻 急跌（閃崩）",
@@ -498,5 +458,45 @@
     "news": "暫無明確消息面，可能為技術性波動",
     "timestamp": "2026-04-03T21:30:02.744796+08:00",
     "epoch": 1775223001
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.15,
+    "change_pct": 2.59,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 的量子威脅準備揭示了嚴峻的權衡：安全性與速度",
+    "timestamp": "2026-04-04T23:10:10.211582+08:00",
+    "epoch": 1775315408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.89,
+    "change_pct": 2.59,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 的量子威脅準備揭示了嚴峻的權衡：安全性與速度",
+    "timestamp": "2026-04-04T23:45:09.379114+08:00",
+    "epoch": 1775317507
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 80.92,
+    "change_pct": 2.12,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 的量子威脅準備揭示了嚴峻的權衡：安全性與速度",
+    "timestamp": "2026-04-05T00:15:09.226094+08:00",
+    "epoch": 1775319307
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.11,
+    "change_pct": 2.26,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 的量子威脅準備揭示了嚴峻的權衡：安全性與速度",
+    "timestamp": "2026-04-05T00:50:08.955730+08:00",
+    "epoch": 1775321407
   }
 ]

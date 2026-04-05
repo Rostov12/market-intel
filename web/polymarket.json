@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-04",
-  "generated_at": "2026-04-04 04:32",
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05 04:32",
   "total_events_scanned": 300,
-  "total_matched": 65,
+  "total_matched": 59,
   "top_movers": [
     {
       "title": "US forces enter Iran by..?",
@@ -11,16 +11,16 @@
       "options": [
         {
           "question": "US forces enter Iran by December 31?",
-          "prob": 90.5
+          "prob": 88.5
         },
         {
           "question": "US forces enter Iran by April 30?",
-          "prob": 86.5
+          "prob": 82.5
         }
       ],
-      "volume_24h": 7754555.0,
-      "volume_total": 108563793.0,
-      "liquidity": 17786320.0,
+      "volume_24h": 5046412.0,
+      "volume_total": 117898568.0,
+      "liquidity": 13649461.0,
       "end_date": "",
       "slug": "us-forces-enter-iran-by"
     },
@@ -31,15 +31,15 @@
       "options": [
         {
           "question": "US x Iran ceasefire by December 31?",
-          "prob": 68.5
+          "prob": 70.5
         },
         {
           "question": "US x Iran ceasefire by June 30?",
-          "prob": 51.5
+          "prob": 46.5
         },
         {
           "question": "US x Iran ceasefire by May 31?",
-          "prob": 36.5
+          "prob": 33.5
         },
         {
           "question": "US x Iran ceasefire by April 30?",
@@ -47,38 +47,34 @@
         },
         {
           "question": "US x Iran ceasefire by April 15?",
-          "prob": 6.5
+          "prob": 5.5
         }
       ],
-      "volume_24h": 3761821.0,
-      "volume_total": 85785403.0,
-      "liquidity": 2366270.0,
+      "volume_24h": 2431866.0,
+      "volume_total": 89116611.0,
+      "liquidity": 1935605.0,
       "end_date": "",
       "slug": "us-x-iran-ceasefire-by"
     },
     {
-      "title": "Fed decision in April?",
-      "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
-      "yes_prob": 0.4,
+      "title": "Ukraine strikes another tanker in Black Sea by...?",
+      "question": "Ukraine strikes another tanker in Black Sea by January 17, 2026?",
+      "yes_prob": 0.0,
       "options": [
         {
-          "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
-          "prob": 98.2
+          "question": "Ukraine strikes another tanker in Black Sea by March 31, 2026?",
+          "prob": 100.0
         },
         {
-          "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
-          "prob": 0.8
-        },
-        {
-          "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
-          "prob": 0.7
+          "question": "Ukraine strikes another tanker in Black Sea by April 15, 2026?",
+          "prob": 100.0
         }
       ],
-      "volume_24h": 1986299.0,
-      "volume_total": 48067719.0,
-      "liquidity": 3994235.0,
-      "end_date": "2026-04-29T00:00:00Z",
-      "slug": "fed-decision-in-april"
+      "volume_24h": 2347937.0,
+      "volume_total": 2930914.0,
+      "liquidity": 4752918.0,
+      "end_date": "2026-01-31T00:00:00Z",
+      "slug": "ukraine-strikes-another-tanker-in-black-sea-by-835"
     },
     {
       "title": "Who will Trump talk to in March?",
@@ -87,6 +83,10 @@
       "options": [
         {
           "question": "Will Trump talk to Friedrich Merz in March?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will Trump talk to Mohammed bin Salman in March?",
           "prob": 100.0
         },
         {
@@ -100,78 +100,98 @@
         {
           "question": "Will Trump talk to Keir Starmer in March?",
           "prob": 100.0
-        },
-        {
-          "question": "Will Trump talk to Ursula von der Leyen in March?",
-          "prob": 100.0
         }
       ],
-      "volume_24h": 1858035.0,
-      "volume_total": 5264301.0,
-      "liquidity": 713223.0,
+      "volume_24h": 2193976.0,
+      "volume_total": 7897427.0,
+      "liquidity": 4725724.0,
       "end_date": "2026-03-31T00:00:00Z",
       "slug": "who-will-trump-talk-to-in-march"
     },
     {
+      "title": "Fed decision in April?",
+      "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+      "yes_prob": 0.4,
+      "options": [
+        {
+          "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+          "prob": 98.4
+        },
+        {
+          "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
+          "prob": 0.7
+        },
+        {
+          "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
+          "prob": 0.7
+        }
+      ],
+      "volume_24h": 1814494.0,
+      "volume_total": 50239750.0,
+      "liquidity": 4134665.0,
+      "end_date": "2026-04-29T00:00:00Z",
+      "slug": "fed-decision-in-april"
+    },
+    {
+      "title": "Wild vs. Senators",
+      "question": "Wild vs. Senators: O/U 5.5",
+      "yes_prob": 0.1,
+      "options": [
+        {
+          "question": "Wild vs. Senators",
+          "prob": 100.0
+        },
+        {
+          "question": "Wild vs. Senators: O/U 4.5",
+          "prob": 100.0
+        },
+        {
+          "question": "Spread: Wild (-1.5)",
+          "prob": 100.0
+        }
+      ],
+      "volume_24h": 1403773.0,
+      "volume_total": 1421019.0,
+      "liquidity": 377631.0,
+      "end_date": "2026-04-04T17:00:00Z",
+      "slug": "nhl-min-ott-2026-04-04"
+    },
+    {
       "title": "What price will Bitcoin hit in April?",
       "question": "Will Bitcoin dip to $60,000 in April?",
-      "yes_prob": 44.5,
+      "yes_prob": 41.5,
       "options": [
         {
           "question": "Will Bitcoin dip to $65,000 in April?",
-          "prob": 82.5
+          "prob": 78.5
         },
         {
           "question": "Will Bitcoin reach $70,000 in April?",
-          "prob": 69.5
+          "prob": 72.5
         },
         {
           "question": "Will Bitcoin dip to $60,000 in April?",
-          "prob": 44.5
+          "prob": 41.5
         },
         {
           "question": "Will Bitcoin reach $75,000 in April?",
-          "prob": 33.5
+          "prob": 32.5
         },
         {
           "question": "Will Bitcoin dip to $55,000 in April?",
-          "prob": 18.5
+          "prob": 14.5
         }
       ],
-      "volume_24h": 1327094.0,
-      "volume_total": 3129978.0,
-      "liquidity": 4035654.0,
+      "volume_24h": 1259730.0,
+      "volume_total": 4843245.0,
+      "liquidity": 5099169.0,
       "end_date": "2026-05-01T04:00:00Z",
       "slug": "what-price-will-bitcoin-hit-in-april-2026"
     },
     {
-      "title": "Who will be confirmed as Fed Chair?",
-      "question": "Will Kevin Warsh be confirmed as Fed Chair?",
-      "yes_prob": 96.7,
-      "options": [
-        {
-          "question": "Will Kevin Warsh be confirmed as Fed Chair?",
-          "prob": 96.7
-        },
-        {
-          "question": "Will Judy Shelton be confirmed as Fed Chair?",
-          "prob": 1.5
-        },
-        {
-          "question": "Will Michelle Bowman be confirmed as Fed Chair?",
-          "prob": 0.7
-        }
-      ],
-      "volume_24h": 1285499.0,
-      "volume_total": 19438497.0,
-      "liquidity": 1731801.0,
-      "end_date": "2026-10-31T00:00:00Z",
-      "slug": "who-will-be-confirmed-as-fed-chair"
-    },
-    {
       "title": "What will WTI Crude Oil (WTI) hit in April 2026?",
       "question": "Will WTI Crude Oil (WTI) hit (HIGH) $160 in April?",
-      "yes_prob": 7.8,
+      "yes_prob": 9.3,
       "options": [
         {
           "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
@@ -187,114 +207,74 @@
         },
         {
           "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
-          "prob": 73.5
+          "prob": 75.5
         },
         {
           "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in April?",
-          "prob": 40.5
+          "prob": 50.5
         }
       ],
-      "volume_24h": 888765.0,
-      "volume_total": 4803438.0,
-      "liquidity": 1317198.0,
+      "volume_24h": 1118940.0,
+      "volume_total": 6073555.0,
+      "liquidity": 1660383.0,
       "end_date": "2026-05-01T03:59:59.999Z",
       "slug": "what-price-will-wti-hit-in-april-2026"
     },
     {
-      "title": "What price will Bitcoin hit March 30-April 5?",
-      "question": "Will Bitcoin reach $82,000 March 30-April 5?",
-      "yes_prob": 0.1,
+      "title": "Bitcoin above ___ on April 5?",
+      "question": "Will the price of Bitcoin be above $64,000 on April 5?",
+      "yes_prob": 99.2,
       "options": [
         {
-          "question": "Will Bitcoin dip to $66,000 March 30-April 5?",
+          "question": "Will the price of Bitcoin be above $56,000 on April 5?",
           "prob": 100.0
         },
         {
-          "question": "Will Bitcoin dip to $64,000 March 30-April 5?",
-          "prob": 10.5
-        },
-        {
-          "question": "Will Bitcoin reach $70,000 March 30-April 5?",
-          "prob": 4.5
-        },
-        {
-          "question": "Will Bitcoin dip to $62,000 March 30-April 5?",
-          "prob": 4.3
-        },
-        {
-          "question": "Will Bitcoin dip to $60,000 March 30-April 5?",
-          "prob": 1.7
-        }
-      ],
-      "volume_24h": 692150.0,
-      "volume_total": 2719807.0,
-      "liquidity": 734407.0,
-      "end_date": "2026-04-06T04:00:00Z",
-      "slug": "what-price-will-bitcoin-hit-march-30-april-5"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by...?",
-      "question": "Iran x Israel/US conflict ends by March 7?",
-      "yes_prob": 0.0,
-      "options": [
-        {
-          "question": "Iran x Israel/US conflict ends by December 31?",
-          "prob": 82.5
-        },
-        {
-          "question": "Iran x Israel/US conflict ends by June 30?",
-          "prob": 59.5
-        },
-        {
-          "question": "Iran x Israel/US conflict ends by May 15?",
-          "prob": 32.5
-        },
-        {
-          "question": "Iran x Israel/US conflict ends by April 30?",
-          "prob": 17.5
-        },
-        {
-          "question": "Iran x Israel/US conflict ends by April 15?",
-          "prob": 5.2
-        }
-      ],
-      "volume_24h": 666373.0,
-      "volume_total": 12826126.0,
-      "liquidity": 710120.0,
-      "end_date": "2026-03-31T00:00:00Z",
-      "slug": "iran-x-israelus-conflict-ends-by"
-    },
-    {
-      "title": "Bitcoin above ___ on April 4?",
-      "question": "Will the price of Bitcoin be above $58,000 on April 4?",
-      "yes_prob": 100.0,
-      "options": [
-        {
-          "question": "Will the price of Bitcoin be above $58,000 on April 4?",
+          "question": "Will the price of Bitcoin be above $58,000 on April 5?",
           "prob": 100.0
         },
         {
-          "question": "Will the price of Bitcoin be above $60,000 on April 4?",
+          "question": "Will the price of Bitcoin be above $60,000 on April 5?",
           "prob": 99.9
         },
         {
-          "question": "Will the price of Bitcoin be above $62,000 on April 4?",
-          "prob": 99.8
+          "question": "Will the price of Bitcoin be above $62,000 on April 5?",
+          "prob": 99.9
         },
         {
-          "question": "Will the price of Bitcoin be above $64,000 on April 4?",
+          "question": "Will the price of Bitcoin be above $64,000 on April 5?",
           "prob": 99.2
-        },
-        {
-          "question": "Will the price of Bitcoin be above $66,000 on April 4?",
-          "prob": 82.5
         }
       ],
-      "volume_24h": 651832.0,
-      "volume_total": 932089.0,
-      "liquidity": 416710.0,
-      "end_date": "2026-04-04T16:00:00Z",
-      "slug": "bitcoin-above-on-april-4"
+      "volume_24h": 1047112.0,
+      "volume_total": 1592256.0,
+      "liquidity": 619806.0,
+      "end_date": "2026-04-05T16:00:00Z",
+      "slug": "bitcoin-above-on-april-5"
+    },
+    {
+      "title": "Who will be confirmed as Fed Chair?",
+      "question": "Will Kevin Warsh be confirmed as Fed Chair?",
+      "yes_prob": 96.4,
+      "options": [
+        {
+          "question": "Will Kevin Warsh be confirmed as Fed Chair?",
+          "prob": 96.4
+        },
+        {
+          "question": "Will Judy Shelton be confirmed as Fed Chair?",
+          "prob": 1.4
+        },
+        {
+          "question": "Will Michelle Bowman be confirmed as Fed Chair?",
+          "prob": 0.8
+        }
+      ],
+      "volume_24h": 915613.0,
+      "volume_total": 20579035.0,
+      "liquidity": 1849310.0,
+      "end_date": "2026-10-31T00:00:00Z",
+      "slug": "who-will-be-confirmed-as-fed-chair"
     }
   ],
   "categories": {
@@ -308,59 +288,59 @@
           "options": [
             {
               "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
-              "prob": 98.2
+              "prob": 98.4
             },
             {
               "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
-              "prob": 0.8
+              "prob": 0.7
             },
             {
               "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
               "prob": 0.7
             }
           ],
-          "volume_24h": 1986299.0,
-          "volume_total": 48067719.0,
-          "liquidity": 3994235.0,
+          "volume_24h": 1814494.0,
+          "volume_total": 50239750.0,
+          "liquidity": 4134665.0,
           "end_date": "2026-04-29T00:00:00Z",
           "slug": "fed-decision-in-april"
         },
         {
           "title": "Who will be confirmed as Fed Chair?",
           "question": "Will Kevin Warsh be confirmed as Fed Chair?",
-          "yes_prob": 96.7,
+          "yes_prob": 96.4,
           "options": [
             {
               "question": "Will Kevin Warsh be confirmed as Fed Chair?",
-              "prob": 96.7
+              "prob": 96.4
             },
             {
               "question": "Will Judy Shelton be confirmed as Fed Chair?",
-              "prob": 1.5
+              "prob": 1.4
             },
             {
               "question": "Will Michelle Bowman be confirmed as Fed Chair?",
-              "prob": 0.7
+              "prob": 0.8
             }
           ],
-          "volume_24h": 1285499.0,
-          "volume_total": 19438497.0,
-          "liquidity": 1731801.0,
+          "volume_24h": 915613.0,
+          "volume_total": 20579035.0,
+          "liquidity": 1849310.0,
           "end_date": "2026-10-31T00:00:00Z",
           "slug": "who-will-be-confirmed-as-fed-chair"
         },
         {
           "title": "How many Fed rate cuts in 2026?",
           "question": "Will no Fed rate cuts happen in 2026?",
-          "yes_prob": 35.4,
+          "yes_prob": 35.7,
           "options": [
             {
               "question": "Will no Fed rate cuts happen in 2026?",
-              "prob": 35.4
+              "prob": 35.7
             },
             {
               "question": "Will 1 Fed rate cut happen in 2026?",
-              "prob": 23.5
+              "prob": 22.5
             },
             {
               "question": "Will 2 Fed rate cuts happen in 2026?",
@@ -375,28 +355,28 @@
               "prob": 5.1
             }
           ],
-          "volume_24h": 351778.0,
-          "volume_total": 15774410.0,
-          "liquidity": 1169725.0,
+          "volume_24h": 429618.0,
+          "volume_total": 16257134.0,
+          "liquidity": 1064481.0,
           "end_date": "2026-12-31T00:00:00Z",
           "slug": "how-many-fed-rate-cuts-in-2026"
         },
         {
           "title": "Fed Decision in June?",
           "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-          "yes_prob": 5.5,
+          "yes_prob": 4.5,
           "options": [
             {
               "question": "Will there be no change in Fed interest rates after the June 2026 meeting?",
-              "prob": 90.5
+              "prob": 91.5
             },
             {
               "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-              "prob": 5.5
+              "prob": 4.5
             },
             {
               "question": "Will the Fed increase interest rates by 25 bps after the June 2026 meeting?",
-              "prob": 3.0
+              "prob": 2.7
             },
             {
               "question": "Will the Fed decrease interest rates by 50+ bps after the June 2026 meeting?",
@@ -407,39 +387,11 @@
               "prob": 0.8
             }
           ],
-          "volume_24h": 89829.0,
-          "volume_total": 5379571.0,
-          "liquidity": 1025925.0,
+          "volume_24h": 86986.0,
+          "volume_total": 5486536.0,
+          "liquidity": 928723.0,
           "end_date": "2026-06-17T00:00:00Z",
           "slug": "fed-decision-in-june-825"
-        },
-        {
-          "title": "Fed Decision in July?",
-          "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "yes_prob": 81.5,
-          "options": [
-            {
-              "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-              "prob": 81.5
-            },
-            {
-              "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-              "prob": 11.5
-            },
-            {
-              "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-              "prob": 4.0
-            },
-            {
-              "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
-              "prob": 1.8
-            }
-          ],
-          "volume_24h": 59169.0,
-          "volume_total": 3257096.0,
-          "liquidity": 308689.0,
-          "end_date": "2026-07-29T00:00:00Z",
-          "slug": "fed-decision-in-july-181"
         }
       ]
     },
@@ -452,17 +404,17 @@
           "yes_prob": 0.0,
           "options": [
             {
-              "question": "Ukraine strikes another tanker in Black Sea by April 15, 2026?",
+              "question": "Ukraine strikes another tanker in Black Sea by March 31, 2026?",
               "prob": 100.0
             },
             {
-              "question": "Ukraine strikes another tanker in Black Sea by March 31, 2026?",
-              "prob": 99.6
+              "question": "Ukraine strikes another tanker in Black Sea by April 15, 2026?",
+              "prob": 100.0
             }
           ],
-          "volume_24h": 384879.0,
-          "volume_total": 548932.0,
-          "liquidity": 84547.0,
+          "volume_24h": 2347937.0,
+          "volume_total": 2930914.0,
+          "liquidity": 4752918.0,
           "end_date": "2026-01-31T00:00:00Z",
           "slug": "ukraine-strikes-another-tanker-in-black-sea-by-835"
         }
@@ -472,36 +424,16 @@
       "label": "₿ 加密貨幣",
       "markets": [
         {
-          "title": "Fed decision in April?",
-          "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
-          "yes_prob": 0.4,
-          "options": [
-            {
-              "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
-              "prob": 98.2
-            },
-            {
-              "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
-              "prob": 0.8
-            },
-            {
-              "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
-              "prob": 0.7
-            }
-          ],
-          "volume_24h": 1986299.0,
-          "volume_total": 48067719.0,
-          "liquidity": 3994235.0,
-          "end_date": "2026-04-29T00:00:00Z",
-          "slug": "fed-decision-in-april"
-        },
-        {
           "title": "Who will Trump talk to in March?",
           "question": "Will Trump talk to Friedrich Merz in March?",
           "yes_prob": 100.0,
           "options": [
             {
               "question": "Will Trump talk to Friedrich Merz in March?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will Trump talk to Mohammed bin Salman in March?",
               "prob": 100.0
             },
             {
@@ -515,49 +447,101 @@
             {
               "question": "Will Trump talk to Keir Starmer in March?",
               "prob": 100.0
-            },
-            {
-              "question": "Will Trump talk to Ursula von der Leyen in March?",
-              "prob": 100.0
             }
           ],
-          "volume_24h": 1858035.0,
-          "volume_total": 5264301.0,
-          "liquidity": 713223.0,
+          "volume_24h": 2193976.0,
+          "volume_total": 7897427.0,
+          "liquidity": 4725724.0,
           "end_date": "2026-03-31T00:00:00Z",
           "slug": "who-will-trump-talk-to-in-march"
         },
         {
+          "title": "Fed decision in April?",
+          "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+          "yes_prob": 0.4,
+          "options": [
+            {
+              "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+              "prob": 98.4
+            },
+            {
+              "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
+              "prob": 0.7
+            },
+            {
+              "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
+              "prob": 0.7
+            }
+          ],
+          "volume_24h": 1814494.0,
+          "volume_total": 50239750.0,
+          "liquidity": 4134665.0,
+          "end_date": "2026-04-29T00:00:00Z",
+          "slug": "fed-decision-in-april"
+        },
+        {
           "title": "What price will Bitcoin hit in April?",
           "question": "Will Bitcoin dip to $60,000 in April?",
-          "yes_prob": 44.5,
+          "yes_prob": 41.5,
           "options": [
             {
               "question": "Will Bitcoin dip to $65,000 in April?",
-              "prob": 82.5
+              "prob": 78.5
             },
             {
               "question": "Will Bitcoin reach $70,000 in April?",
-              "prob": 69.5
+              "prob": 72.5
             },
             {
               "question": "Will Bitcoin dip to $60,000 in April?",
-              "prob": 44.5
+              "prob": 41.5
             },
             {
               "question": "Will Bitcoin reach $75,000 in April?",
-              "prob": 33.5
+              "prob": 32.5
             },
             {
               "question": "Will Bitcoin dip to $55,000 in April?",
-              "prob": 18.5
+              "prob": 14.5
             }
           ],
-          "volume_24h": 1327094.0,
-          "volume_total": 3129978.0,
-          "liquidity": 4035654.0,
+          "volume_24h": 1259730.0,
+          "volume_total": 4843245.0,
+          "liquidity": 5099169.0,
           "end_date": "2026-05-01T04:00:00Z",
           "slug": "what-price-will-bitcoin-hit-in-april-2026"
+        },
+        {
+          "title": "Bitcoin above ___ on April 5?",
+          "question": "Will the price of Bitcoin be above $64,000 on April 5?",
+          "yes_prob": 99.2,
+          "options": [
+            {
+              "question": "Will the price of Bitcoin be above $56,000 on April 5?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will the price of Bitcoin be above $58,000 on April 5?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will the price of Bitcoin be above $60,000 on April 5?",
+              "prob": 99.9
+            },
+            {
+              "question": "Will the price of Bitcoin be above $62,000 on April 5?",
+              "prob": 99.9
+            },
+            {
+              "question": "Will the price of Bitcoin be above $64,000 on April 5?",
+              "prob": 99.2
+            }
+          ],
+          "volume_24h": 1047112.0,
+          "volume_total": 1592256.0,
+          "liquidity": 619806.0,
+          "end_date": "2026-04-05T16:00:00Z",
+          "slug": "bitcoin-above-on-april-5"
         },
         {
           "title": "What price will Bitcoin hit March 30-April 5?",
@@ -570,58 +554,66 @@
             },
             {
               "question": "Will Bitcoin dip to $64,000 March 30-April 5?",
-              "prob": 10.5
+              "prob": 4.2
             },
             {
               "question": "Will Bitcoin reach $70,000 March 30-April 5?",
-              "prob": 4.5
+              "prob": 3.8
             },
             {
               "question": "Will Bitcoin dip to $62,000 March 30-April 5?",
-              "prob": 4.3
+              "prob": 1.8
             },
             {
-              "question": "Will Bitcoin dip to $60,000 March 30-April 5?",
-              "prob": 1.7
+              "question": "Will Bitcoin reach $72,000 March 30-April 5?",
+              "prob": 0.9
             }
           ],
-          "volume_24h": 692150.0,
-          "volume_total": 2719807.0,
-          "liquidity": 734407.0,
+          "volume_24h": 457356.0,
+          "volume_total": 3256099.0,
+          "liquidity": 779368.0,
           "end_date": "2026-04-06T04:00:00Z",
           "slug": "what-price-will-bitcoin-hit-march-30-april-5"
         },
         {
-          "title": "Bitcoin above ___ on April 4?",
-          "question": "Will the price of Bitcoin be above $58,000 on April 4?",
-          "yes_prob": 100.0,
+          "title": "Will Trump visit China by...?",
+          "question": "Will Trump visit China by October 31?",
+          "yes_prob": 0.0,
           "options": [
             {
-              "question": "Will the price of Bitcoin be above $58,000 on April 4?",
-              "prob": 100.0
+              "question": "Will Trump visit China by June 30?",
+              "prob": 75.5
             },
             {
-              "question": "Will the price of Bitcoin be above $60,000 on April 4?",
-              "prob": 99.9
+              "question": "Will Trump visit China by May 31?",
+              "prob": 64.0
             },
             {
-              "question": "Will the price of Bitcoin be above $62,000 on April 4?",
-              "prob": 99.8
-            },
-            {
-              "question": "Will the price of Bitcoin be above $64,000 on April 4?",
-              "prob": 99.2
-            },
-            {
-              "question": "Will the price of Bitcoin be above $66,000 on April 4?",
-              "prob": 82.5
+              "question": "Will Trump visit China by April 30?",
+              "prob": 1.7
             }
           ],
-          "volume_24h": 651832.0,
-          "volume_total": 932089.0,
-          "liquidity": 416710.0,
-          "end_date": "2026-04-04T16:00:00Z",
-          "slug": "bitcoin-above-on-april-4"
+          "volume_24h": 425644.0,
+          "volume_total": 20150243.0,
+          "liquidity": 324663.0,
+          "end_date": "2025-10-31T00:00:00Z",
+          "slug": "will-trump-visit-china-by"
+        },
+        {
+          "title": "Houthi military action against Israel by...?",
+          "question": "Houthi strike on Israel by March 6, 2026?",
+          "yes_prob": 0.0,
+          "options": [
+            {
+              "question": "Houthi strike on Israel by April 15, 2026?",
+              "prob": 99.7
+            }
+          ],
+          "volume_24h": 326901.0,
+          "volume_total": 1791228.0,
+          "liquidity": 8236.0,
+          "end_date": "2026-03-31T00:00:00Z",
+          "slug": "houthi-strike-on-israel-by-632"
         },
         {
           "title": "Will the US confirm that aliens exist by...?",
@@ -633,75 +625,11 @@
               "prob": 16.5
             }
           ],
-          "volume_24h": 394827.0,
-          "volume_total": 23487045.0,
-          "liquidity": 1051012.0,
+          "volume_24h": 269172.0,
+          "volume_total": 23766420.0,
+          "liquidity": 970398.0,
           "end_date": "2026-12-31T00:00:00Z",
           "slug": "will-the-us-confirm-that-aliens-exist-before-2027"
-        },
-        {
-          "title": "Israel military action against Gaza on...?",
-          "question": "Will Israel take military action in Gaza on March 18, 2026?",
-          "yes_prob": 100.0,
-          "options": [
-            {
-              "question": "Will Israel take military action in Gaza on March 18, 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Israel take military action in Gaza on March 19, 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Israel take military action in Gaza on March 22, 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Israel take military action in Gaza on March 24, 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Israel take military action in Gaza on March 25, 2026?",
-              "prob": 100.0
-            }
-          ],
-          "volume_24h": 279876.0,
-          "volume_total": 1625623.0,
-          "liquidity": 54204.0,
-          "end_date": "2026-03-31T00:00:00Z",
-          "slug": "israel-military-action-in-gaza-on"
-        },
-        {
-          "title": "What price will Ethereum hit in April?",
-          "question": "Will Ethereum reach $4,000 in April?",
-          "yes_prob": 0.4,
-          "options": [
-            {
-              "question": "Will Ethereum dip to $2,000 in April?",
-              "prob": 89.7
-            },
-            {
-              "question": "Will Ethereum reach $2,200 in April?",
-              "prob": 68.0
-            },
-            {
-              "question": "Will Ethereum dip to $1,800 in April?",
-              "prob": 50.0
-            },
-            {
-              "question": "Will Ethereum reach $2,400 in April?",
-              "prob": 35.5
-            },
-            {
-              "question": "Will Ethereum dip to $1,600 in April?",
-              "prob": 20.0
-            }
-          ],
-          "volume_24h": 264116.0,
-          "volume_total": 483837.0,
-          "liquidity": 1999318.0,
-          "end_date": "2026-05-01T04:00:00Z",
-          "slug": "what-price-will-ethereum-hit-in-april-2026"
         }
       ]
     },
@@ -715,16 +643,16 @@
           "options": [
             {
               "question": "US forces enter Iran by December 31?",
-              "prob": 90.5
+              "prob": 88.5
             },
             {
               "question": "US forces enter Iran by April 30?",
-              "prob": 86.5
+              "prob": 82.5
             }
           ],
-          "volume_24h": 7754555.0,
-          "volume_total": 108563793.0,
-          "liquidity": 17786320.0,
+          "volume_24h": 5046412.0,
+          "volume_total": 117898568.0,
+          "liquidity": 13649461.0,
           "end_date": "",
           "slug": "us-forces-enter-iran-by"
         },
@@ -735,15 +663,15 @@
           "options": [
             {
               "question": "US x Iran ceasefire by December 31?",
-              "prob": 68.5
+              "prob": 70.5
             },
             {
               "question": "US x Iran ceasefire by June 30?",
-              "prob": 51.5
+              "prob": 46.5
             },
             {
               "question": "US x Iran ceasefire by May 31?",
-              "prob": 36.5
+              "prob": 33.5
             },
             {
               "question": "US x Iran ceasefire by April 30?",
@@ -751,38 +679,110 @@
             },
             {
               "question": "US x Iran ceasefire by April 15?",
-              "prob": 6.5
+              "prob": 5.5
             }
           ],
-          "volume_24h": 3761821.0,
-          "volume_total": 85785403.0,
-          "liquidity": 2366270.0,
+          "volume_24h": 2431866.0,
+          "volume_total": 89116611.0,
+          "liquidity": 1935605.0,
           "end_date": "",
           "slug": "us-x-iran-ceasefire-by"
         },
         {
+          "title": "Ukraine strikes another tanker in Black Sea by...?",
+          "question": "Ukraine strikes another tanker in Black Sea by January 17, 2026?",
+          "yes_prob": 0.0,
+          "options": [
+            {
+              "question": "Ukraine strikes another tanker in Black Sea by March 31, 2026?",
+              "prob": 100.0
+            },
+            {
+              "question": "Ukraine strikes another tanker in Black Sea by April 15, 2026?",
+              "prob": 100.0
+            }
+          ],
+          "volume_24h": 2347937.0,
+          "volume_total": 2930914.0,
+          "liquidity": 4752918.0,
+          "end_date": "2026-01-31T00:00:00Z",
+          "slug": "ukraine-strikes-another-tanker-in-black-sea-by-835"
+        },
+        {
+          "title": "Wild vs. Senators",
+          "question": "Wild vs. Senators: O/U 5.5",
+          "yes_prob": 0.1,
+          "options": [
+            {
+              "question": "Wild vs. Senators",
+              "prob": 100.0
+            },
+            {
+              "question": "Wild vs. Senators: O/U 4.5",
+              "prob": 100.0
+            },
+            {
+              "question": "Spread: Wild (-1.5)",
+              "prob": 100.0
+            }
+          ],
+          "volume_24h": 1403773.0,
+          "volume_total": 1421019.0,
+          "liquidity": 377631.0,
+          "end_date": "2026-04-04T17:00:00Z",
+          "slug": "nhl-min-ott-2026-04-04"
+        },
+        {
           "title": "Who will be confirmed as Fed Chair?",
           "question": "Will Kevin Warsh be confirmed as Fed Chair?",
-          "yes_prob": 96.7,
+          "yes_prob": 96.4,
           "options": [
             {
               "question": "Will Kevin Warsh be confirmed as Fed Chair?",
-              "prob": 96.7
+              "prob": 96.4
             },
             {
               "question": "Will Judy Shelton be confirmed as Fed Chair?",
-              "prob": 1.5
+              "prob": 1.4
             },
             {
               "question": "Will Michelle Bowman be confirmed as Fed Chair?",
-              "prob": 0.7
+              "prob": 0.8
             }
           ],
-          "volume_24h": 1285499.0,
-          "volume_total": 19438497.0,
-          "liquidity": 1731801.0,
+          "volume_24h": 915613.0,
+          "volume_total": 20579035.0,
+          "liquidity": 1849310.0,
           "end_date": "2026-10-31T00:00:00Z",
           "slug": "who-will-be-confirmed-as-fed-chair"
+        },
+        {
+          "title": "What will the U.S./Israel target in Iran by March 31?",
+          "question": "Will Israel or the US target an Iranian nuclear facility?",
+          "yes_prob": 100.0,
+          "options": [
+            {
+              "question": "Will Israel or the US target an Iranian nuclear facility?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will Israel or the US target an Iranian oil or gas facility?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will Israel or the US target Isfahan Nuclear Technology Center nuclear facility?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will Israel or the US target Natanz Uranium Enrichment Facility?",
+              "prob": 100.0
+            }
+          ],
+          "volume_24h": 758570.0,
+          "volume_total": 1568430.0,
+          "liquidity": 1942717.0,
+          "end_date": "",
+          "slug": "what-will-the-usisrael-target-in-iran-by-march-31"
         },
         {
           "title": "Iran x Israel/US conflict ends by...?",
@@ -791,134 +791,58 @@
           "options": [
             {
               "question": "Iran x Israel/US conflict ends by December 31?",
-              "prob": 82.5
+              "prob": 81.5
             },
             {
               "question": "Iran x Israel/US conflict ends by June 30?",
-              "prob": 59.5
+              "prob": 55.5
             },
             {
               "question": "Iran x Israel/US conflict ends by May 15?",
-              "prob": 32.5
+              "prob": 27.5
             },
             {
               "question": "Iran x Israel/US conflict ends by April 30?",
-              "prob": 17.5
+              "prob": 12.5
             },
             {
               "question": "Iran x Israel/US conflict ends by April 15?",
-              "prob": 5.2
+              "prob": 4.2
             }
           ],
-          "volume_24h": 666373.0,
-          "volume_total": 12826126.0,
-          "liquidity": 710120.0,
+          "volume_24h": 721294.0,
+          "volume_total": 13784135.0,
+          "liquidity": 832297.0,
           "end_date": "2026-03-31T00:00:00Z",
           "slug": "iran-x-israelus-conflict-ends-by"
         },
         {
-          "title": "Netanyahu out by...?",
-          "question": "Netanyahu out by end of 2026?",
-          "yes_prob": 39.5,
-          "options": [
-            {
-              "question": "Netanyahu out by end of 2026?",
-              "prob": 39.5
-            },
-            {
-              "question": "Netanyahu out by June 30?",
-              "prob": 5.5
-            },
-            {
-              "question": "Netanyahu out by April 30?",
-              "prob": 1.4
-            }
-          ],
-          "volume_24h": 474517.0,
-          "volume_total": 113002170.0,
-          "liquidity": 19164507.0,
-          "end_date": "2026-12-31T00:00:00Z",
-          "slug": "netanyahu-out-before-2027"
-        },
-        {
-          "title": "Trump announces end of military operations against Iran by ...?",
-          "question": "Trump announces end of military operations against Iran by March 1st?",
+          "title": "Kharg Island no longer under Iranian control by...?",
+          "question": "Kharg Island no longer under Iranian control by March 31?",
           "yes_prob": 0.0,
           "options": [
             {
-              "question": "Trump announces end of military operations against Iran by June 30th?",
-              "prob": 74.5
+              "question": "Kharg Island no longer under Iranian control by June 30?",
+              "prob": 31.0
             },
             {
-              "question": "Trump announces end of military operations against Iran by April 30th?",
-              "prob": 38.0
+              "question": "Kharg Island no longer under Iranian control by May 31?",
+              "prob": 27.0
             },
             {
-              "question": "Trump announces end of military operations against Iran by April 15th?",
-              "prob": 10.5
+              "question": "Kharg Island no longer under Iranian control by April 30?",
+              "prob": 19.5
             },
             {
-              "question": "Trump announces end of military operations against Iran by April 7th?",
-              "prob": 2.7
+              "question": "Kharg Island no longer under Iranian control by April 15?",
+              "prob": 6.5
             }
           ],
-          "volume_24h": 458756.0,
-          "volume_total": 11561889.0,
-          "liquidity": 497289.0,
+          "volume_24h": 683108.0,
+          "volume_total": 12511414.0,
+          "liquidity": 505380.0,
           "end_date": "2026-03-31T23:55:00Z",
-          "slug": "trump-announces-end-of-military-operations-against-iran-by"
-        },
-        {
-          "title": "Ukraine strikes another tanker in Black Sea by...?",
-          "question": "Ukraine strikes another tanker in Black Sea by January 17, 2026?",
-          "yes_prob": 0.0,
-          "options": [
-            {
-              "question": "Ukraine strikes another tanker in Black Sea by April 15, 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Ukraine strikes another tanker in Black Sea by March 31, 2026?",
-              "prob": 99.6
-            }
-          ],
-          "volume_24h": 384879.0,
-          "volume_total": 548932.0,
-          "liquidity": 84547.0,
-          "end_date": "2026-01-31T00:00:00Z",
-          "slug": "ukraine-strikes-another-tanker-in-black-sea-by-835"
-        },
-        {
-          "title": "2026 NHL Stanley Cup Champion ",
-          "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
-          "yes_prob": 12.0,
-          "options": [
-            {
-              "question": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
-              "prob": 19.0
-            },
-            {
-              "question": "Will the Tampa Bay Lightning win the 2026 NHL Stanley Cup?",
-              "prob": 13.6
-            },
-            {
-              "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
-              "prob": 12.0
-            },
-            {
-              "question": "Will the Dallas Stars win the 2026 NHL Stanley Cup?",
-              "prob": 8.2
-            },
-            {
-              "question": "Will the Edmonton Oilers win the 2026 NHL Stanley Cup?",
-              "prob": 7.5
-            }
-          ],
-          "volume_24h": 381127.0,
-          "volume_total": 60686857.0,
-          "liquidity": 3675557.0,
-          "end_date": "2026-06-30T00:00:00Z",
-          "slug": "2026-nhl-stanley-cup-champion"
+          "slug": "kharg-island-no-longer-under-iranian-control-by-march-31"
         }
       ]
     },
@@ -928,7 +852,7 @@
         {
           "title": "What will WTI Crude Oil (WTI) hit in April 2026?",
           "question": "Will WTI Crude Oil (WTI) hit (HIGH) $160 in April?",
-          "yes_prob": 7.8,
+          "yes_prob": 9.3,
           "options": [
             {
               "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
@@ -944,18 +868,38 @@
             },
             {
               "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
-              "prob": 73.5
+              "prob": 75.5
             },
             {
               "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in April?",
-              "prob": 40.5
+              "prob": 50.5
             }
           ],
-          "volume_24h": 888765.0,
-          "volume_total": 4803438.0,
-          "liquidity": 1317198.0,
+          "volume_24h": 1118940.0,
+          "volume_total": 6073555.0,
+          "liquidity": 1660383.0,
           "end_date": "2026-05-01T03:59:59.999Z",
           "slug": "what-price-will-wti-hit-in-april-2026"
+        },
+        {
+          "title": "Largest Company end of April?",
+          "question": "Will NVIDIA be the largest company in the world by market cap on April 30?",
+          "yes_prob": 97.4,
+          "options": [
+            {
+              "question": "Will NVIDIA be the largest company in the world by market cap on April 30?",
+              "prob": 97.4
+            },
+            {
+              "question": "Will Apple be the largest company in the world by market cap on April 30?",
+              "prob": 1.4
+            }
+          ],
+          "volume_24h": 319529.0,
+          "volume_total": 2268653.0,
+          "liquidity": 908834.0,
+          "end_date": "2026-04-30T00:00:00Z",
+          "slug": "largest-company-end-of-april-738"
         },
         {
           "title": "Will Crude Oil (CL) hit__ by end of June?",
@@ -983,119 +927,11 @@
               "prob": 100.0
             }
           ],
-          "volume_24h": 603847.0,
-          "volume_total": 7192941.0,
-          "liquidity": 1148264.0,
+          "volume_24h": 119798.0,
+          "volume_total": 7324324.0,
+          "liquidity": 1116286.0,
           "end_date": "2026-06-30T18:30:00Z",
           "slug": "cl-hit-jun-2026"
-        },
-        {
-          "title": "Largest Company end of April?",
-          "question": "Will NVIDIA be the largest company in the world by market cap on April 30?",
-          "yes_prob": 97.2,
-          "options": [
-            {
-              "question": "Will NVIDIA be the largest company in the world by market cap on April 30?",
-              "prob": 97.2
-            },
-            {
-              "question": "Will Apple be the largest company in the world by market cap on April 30?",
-              "prob": 1.6
-            }
-          ],
-          "volume_24h": 280490.0,
-          "volume_total": 1904514.0,
-          "liquidity": 690633.0,
-          "end_date": "2026-04-30T00:00:00Z",
-          "slug": "largest-company-end-of-april-738"
-        },
-        {
-          "title": "Will WTI Crude Oil (WTI) hit Week of March 30 2026?",
-          "question": "Will WTI Crude Oil (WTI) hit (HIGH) $135 Week of March 30 2026?",
-          "yes_prob": 0.1,
-          "options": [
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 Week of March 30 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 Week of March 30 2026?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (LOW) $100 Week of March 30 2026?",
-              "prob": 100.0
-            }
-          ],
-          "volume_24h": 132590.0,
-          "volume_total": 147127.0,
-          "liquidity": 568228.0,
-          "end_date": "2026-04-03T21:00:00Z",
-          "slug": "will-wti-hit-week-of-march-30-2026"
-        },
-        {
-          "title": "Predict.fun FDV above ___ one day after launch?",
-          "question": "Predict.fun FDV above $50M one day after launch?",
-          "yes_prob": 95.0,
-          "options": [
-            {
-              "question": "Predict.fun FDV above $50M one day after launch?",
-              "prob": 95.0
-            },
-            {
-              "question": "Predict.fun FDV above $100M one day after launch?",
-              "prob": 86.5
-            },
-            {
-              "question": "Predict.fun FDV above $200M one day after launch?",
-              "prob": 66.5
-            },
-            {
-              "question": "Predict.fun FDV above $300M one day after launch?",
-              "prob": 49.5
-            },
-            {
-              "question": "Predict.fun FDV above $400M one day after launch?",
-              "prob": 35.5
-            }
-          ],
-          "volume_24h": 91233.0,
-          "volume_total": 3423888.0,
-          "liquidity": 648254.0,
-          "end_date": "2028-01-01T05:00:00Z",
-          "slug": "predictfun-fdv-above-one-day-after-launch"
-        },
-        {
-          "title": "What will Gold (GC) hit__ by end of June?",
-          "question": "Will Gold (GC) hit (HIGH) $8,000 by end of June?",
-          "yes_prob": 2.4,
-          "options": [
-            {
-              "question": "Will Gold (GC) hit (HIGH) $5,000 by end of June?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Gold (GC) hit (LOW) $5,000 by end of June?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Gold (GC) hit (LOW) $4,800 by end of June?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Gold (GC) hit (LOW) $4,600 by end of June?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Gold (GC) hit (LOW) $4,400 by end of June?",
-              "prob": 100.0
-            }
-          ],
-          "volume_24h": 88007.0,
-          "volume_total": 3415767.0,
-          "liquidity": 447218.0,
-          "end_date": "2026-06-30T17:30:00Z",
-          "slug": "gc-hit-jun-2026"
         },
         {
           "title": "MegaETH market cap (FDV) one day after launch?",
@@ -1104,58 +940,30 @@
           "options": [
             {
               "question": "MegaETH market cap (FDV) >$600M one day after launch?",
-              "prob": 66.5
+              "prob": 72.5
             },
             {
               "question": "MegaETH market cap (FDV) >$800M one day after launch?",
-              "prob": 50.5
+              "prob": 58.5
             },
             {
               "question": "MegaETH market cap (FDV) >$1B one day after launch?",
-              "prob": 33.5
+              "prob": 40.0
             },
             {
               "question": "MegaETH market cap (FDV) >$1.5B one day after launch?",
-              "prob": 11.5
+              "prob": 13.5
             },
             {
               "question": "MegaETH market cap (FDV) >$2B one day after launch?",
               "prob": 9.5
             }
           ],
-          "volume_24h": 87424.0,
-          "volume_total": 14615853.0,
-          "liquidity": 465974.0,
+          "volume_24h": 85918.0,
+          "volume_total": 14734183.0,
+          "liquidity": 465018.0,
           "end_date": "2026-06-30T00:00:00Z",
           "slug": "megaeth-market-cap-fdv-one-day-after-launch"
-        },
-        {
-          "title": "Largest Company end of June?",
-          "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
-          "yes_prob": 84.5,
-          "options": [
-            {
-              "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
-              "prob": 84.5
-            },
-            {
-              "question": "Will Apple be the largest company in the world by market cap on June 30?",
-              "prob": 8.3
-            },
-            {
-              "question": "Will Alphabet be the largest company in the world by market cap on June 30?",
-              "prob": 6.2
-            },
-            {
-              "question": "Will Saudi Aramco be the largest company in the world by market cap on June 30?",
-              "prob": 0.7
-            }
-          ],
-          "volume_24h": 77503.0,
-          "volume_total": 3824972.0,
-          "liquidity": 405160.0,
-          "end_date": "2026-06-30T00:00:00Z",
-          "slug": "largest-company-end-of-june-712"
         }
       ]
     }
