@@ -1,125 +1,151 @@
 {
-  "date": "2026-04-03",
-  "fetched_at": "2026-04-03 21:30",
+  "date": "2026-04-06",
+  "fetched_at": "2026-04-06 20:00",
   "market_tone": "開盤不確定",
   "summary": {
-    "bullish": 0,
+    "bullish": 5,
     "bearish": 0,
-    "neutral": 1
+    "neutral": 9
   },
   "movers": [
     {
       "symbol": "ES=F",
       "name": "S&P 500 期貨",
-      "prev_close": 6603.75,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "prev_close": 6627.25,
+      "premarket_price": 6627.25,
+      "premarket_pct": 0.0,
+      "premarket_vol": 52736.0,
+      "premarket_time": "07:50 ET",
+      "status": "ok"
     },
     {
       "symbol": "NQ=F",
       "name": "Nasdaq 期貨",
-      "prev_close": 24129.75,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "prev_close": 24303.5,
+      "premarket_price": 24303.5,
+      "premarket_pct": 0.0,
+      "premarket_vol": 26455.0,
+      "premarket_time": "07:50 ET",
+      "status": "ok"
     },
     {
       "symbol": "YM=F",
       "name": "道瓊期貨",
-      "prev_close": 46629.0,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "prev_close": 46672.0,
+      "premarket_price": 46672.0,
+      "premarket_pct": 0.0,
+      "premarket_vol": 5106.0,
+      "premarket_time": "07:49 ET",
+      "status": "ok"
     },
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "prev_close": 23.87,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "prev_close": 25.1,
+      "premarket_price": 25.1,
+      "premarket_pct": 0.0,
+      "premarket_vol": 0.0,
+      "premarket_time": "07:45 ET",
+      "status": "ok"
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "prev_close": 177.39,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 178.06,
+      "premarket_pct": 0.38,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "AAPL",
       "name": "Apple",
       "prev_close": 255.92,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 256.2,
+      "premarket_pct": 0.11,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "prev_close": 373.46,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 374.9,
+      "premarket_pct": 0.39,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "META",
       "name": "Meta",
       "prev_close": 574.46,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 579.0,
+      "premarket_pct": 0.79,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "prev_close": 360.59,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 363.82,
+      "premarket_pct": 0.9,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "prev_close": 209.77,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 210.1462,
+      "premarket_pct": 0.18,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "SMH",
       "name": "半導體ETF",
       "prev_close": 392.32,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 394.95,
+      "premarket_pct": 0.67,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "URNM",
       "name": "鈾礦ETF",
       "prev_close": 63.41,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 63.57,
+      "premarket_pct": 0.25,
+      "premarket_vol": 0.0,
+      "premarket_time": "07:51 ET",
+      "status": "ok"
     },
     {
       "symbol": "GLD",
       "name": "黃金ETF",
       "prev_close": 429.41,
-      "premarket_price": null,
-      "premarket_pct": null,
-      "status": "no_premarket"
+      "premarket_price": 429.7606,
+      "premarket_pct": 0.08,
+      "premarket_vol": 0.0,
+      "premarket_time": "08:00 ET",
+      "status": "ok"
     },
     {
       "symbol": "BTC-USD",
       "name": "比特幣",
-      "prev_close": 66698.7109,
-      "premarket_price": 66695.5859,
-      "premarket_pct": -0.0,
-      "premarket_vol": 1760917504.0,
-      "premarket_time": "09:25 ET",
+      "prev_close": 69581.7969,
+      "premarket_price": 69592.1016,
+      "premarket_pct": 0.01,
+      "premarket_vol": 6540697600.0,
+      "premarket_time": "07:56 ET",
       "status": "ok"
     }
   ]
