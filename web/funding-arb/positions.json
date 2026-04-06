@@ -10,8 +10,8 @@
       "size_usdt": 500,
       "spot_order_id": "3431545890230296576",
       "perp_order_id": "3431545887445278720",
-      "funding_collected": 0.934098,
-      "funding_count": 20
+      "funding_collected": 1.033935,
+      "funding_count": 22
     },
     "DOGE/USDT:USDT": {
       "spot_symbol": "DOGE/USDT",
@@ -23,21 +23,8 @@
       "size_usdt": 500,
       "spot_order_id": "3443142314277523456",
       "perp_order_id": "3443142309814784000",
-      "funding_collected": 4.580687,
+      "funding_collected": 4.580608,
       "funding_count": 20
-    },
-    "SOL/USDT:USDT": {
-      "spot_symbol": "SOL/USDT",
-      "contracts": 6.48,
-      "contract_size": 1.0,
-      "amount": 6.48,
-      "entry_price": 77.1,
-      "entry_time": "2026-04-02 23:47:16",
-      "size_usdt": 500,
-      "spot_order_id": "3444108780334272512",
-      "perp_order_id": "3444108775804424192",
-      "funding_collected": 0.27014,
-      "funding_count": 7
     }
   },
   "history": [
@@ -139,7 +126,43 @@
       "price_pnl_pct": -8.7421,
       "total_funding": 4.169537,
       "close_reason": "full_close"
+    },
+    {
+      "spot_symbol": "SOL/USDT",
+      "contracts": 6.48,
+      "contract_size": 1.0,
+      "amount": 6.48,
+      "entry_price": 77.1,
+      "entry_time": "2026-04-02 23:47:16",
+      "size_usdt": 500,
+      "spot_order_id": "3444108780334272512",
+      "perp_order_id": "3444108775804424192",
+      "funding_collected": 0.256829,
+      "funding_count": 9,
+      "close_time": "2026-04-05 23:47:15",
+      "close_price": 79.83,
+      "price_pnl_pct": 3.5409,
+      "total_funding": 0.256829,
+      "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "DOT/USDT",
+      "contracts": 407.1,
+      "contract_size": 1.0,
+      "amount": 407.1,
+      "entry_price": 1.228,
+      "entry_time": "2026-04-05 23:47:16",
+      "size_usdt": 500,
+      "spot_order_id": "3452806059144564736",
+      "perp_order_id": "3452806054514053120",
+      "funding_collected": 0.050033,
+      "funding_count": 1,
+      "close_time": "2026-04-06 07:47:15",
+      "close_price": 1.241,
+      "price_pnl_pct": 1.0586,
+      "total_funding": 0.050033,
+      "close_reason": "partial_perp_only"
     }
   ],
-  "total_funding_earned": 123.499223
+  "total_funding_earned": 123.806085
 }
