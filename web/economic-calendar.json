@@ -1,37 +1,19 @@
 {
-  "date": "2026-04-03",
-  "generated_at": "2026-04-03 04:00",
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07 04:00",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 34,
-    "label": "下次 FOMC：05/07（34天後）"
+    "days_away": 30,
+    "label": "下次 FOMC：05/07（30天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-04-03",
-      "event": "NFP（3月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 0,
-      "label": "🔴 NFP（3月就業）（0天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "-92K",
-      "previous_date": "2026-02-01",
-      "forecast": "65K",
-      "forecast_source": "ForexFactory"
-    },
     {
       "date": "2026-04-09",
       "event": "CPI（3月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 6,
-      "label": "🔴 CPI（3月）（6天後）",
+      "days_away": 2,
+      "label": "🔴 CPI（3月）（2天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
@@ -44,30 +26,12 @@
   ],
   "next_14_days": [
     {
-      "date": "2026-04-03",
-      "event": "NFP（3月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 0,
-      "label": "🔴 NFP（3月就業）（0天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "-92K",
-      "previous_date": "2026-02-01",
-      "forecast": "65K",
-      "forecast_source": "ForexFactory"
-    },
-    {
       "date": "2026-04-09",
       "event": "CPI（3月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 6,
-      "label": "🔴 CPI（3月）（6天後）",
+      "days_away": 2,
+      "label": "🔴 CPI（3月）（2天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
@@ -82,8 +46,8 @@
       "event": "零售銷售（3月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 12,
-      "label": "🟡 零售銷售（3月）（12天後）",
+      "days_away": 8,
+      "label": "🟡 零售銷售（3月）（8天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",

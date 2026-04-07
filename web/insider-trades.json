@@ -1,18 +1,54 @@
 {
-  "date": "2026-04-04",
-  "updated_at": "2026-04-04 04:42",
+  "date": "2026-04-07",
+  "updated_at": "2026-04-07 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 1,
+  "watchlist_matches": 5,
   "status": "ok",
   "trades": [
     {
-      "ticker": "AMZN",
-      "company": "AMAZON",
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
       "type": "未知",
-      "title": "4 - AMAZON COM INC (0001018724) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000010/0001018724-26-000010-index.htm",
-      "date": "2026-04-03T16:41:29-04:00",
-      "summary": "Filed: 2026-04-03 AccNo: 0001018724-26-000010 Size: 5 KB"
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526143878/0001193125-26-143878-index.htm",
+      "date": "2026-04-06T16:40:58-04:00",
+      "summary": "Filed: 2026-04-06 AccNo: 0001193125-26-143878 Size: 745 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526143875/0001193125-26-143875-index.htm",
+      "date": "2026-04-06T16:40:05-04:00",
+      "summary": "Filed: 2026-04-06 AccNo: 0001193125-26-143875 Size: 324 KB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026040503/0001213900-26-040503-index.htm",
+      "date": "2026-04-06T16:38:57-04:00",
+      "summary": "Filed: 2026-04-06 AccNo: 0001213900-26-040503 Size: 2 MB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026040503/0001213900-26-040503-index.htm",
+      "date": "2026-04-06T16:38:57-04:00",
+      "summary": "Filed: 2026-04-06 AccNo: 0001213900-26-040503 Size: 2 MB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526143870/0001193125-26-143870-index.htm",
+      "date": "2026-04-06T16:38:24-04:00",
+      "summary": "Filed: 2026-04-06 AccNo: 0001193125-26-143870 Size: 327 KB"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-04",
-  "generated_at": "2026-04-04 04:45",
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07 04:45",
   "composite": {
     "score": -0.5,
     "label": "散戶中性",
@@ -14,9 +14,9 @@
       "2026-04-07",
       "2026-04-08"
     ],
-    "total_calls_vol": 663153,
-    "total_puts_vol": 1090158,
-    "pcr": 1.644,
+    "total_calls_vol": 3176294,
+    "total_puts_vol": 4274644,
+    "pcr": 1.346,
     "label": "散戶極度恐慌🟢",
     "signal": "逆向看多"
   },
@@ -24,35 +24,48 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 7,
-    "bear_words": 3,
-    "bull_pct": 70,
+    "bull_words": 4,
+    "bear_words": 2,
+    "bull_pct": 67,
     "label": "偏多情緒",
-    "top_tickers": [],
+    "top_tickers": [
+      {
+        "symbol": "COIN",
+        "count": 1
+      },
+      {
+        "symbol": "ELF",
+        "count": 1
+      },
+      {
+        "symbol": "RILYP",
+        "count": 1
+      }
+    ],
     "top_posts": [
       {
-        "title": "Weekend Discussion Thread for the Weekend of April 03, 2026",
-        "score": 41,
-        "upvote_ratio": 0.94
-      },
-      {
-        "title": "Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports",
-        "score": 519,
-        "upvote_ratio": 0.96
-      },
-      {
-        "title": "U.S. jobs growth surges past expectations in March",
-        "score": 1052,
-        "upvote_ratio": 0.82
-      },
-      {
-        "title": "Lost everything",
-        "score": 2110,
+        "title": "What Are Your Moves Tomorrow, April 07, 2026",
+        "score": 49,
         "upvote_ratio": 0.87
       },
       {
-        "title": "Bears watching the market close green despite oil trading above $110 a barrel.",
-        "score": 16448,
+        "title": "JPMorgan warns Tesla stock could sink 60% in new note.",
+        "score": 3237,
+        "upvote_ratio": 0.97
+      },
+      {
+        "title": "How to guarantee world peace - buy Puts on the S&amp;P 500. It's foolproof.",
+        "score": 621,
+        "upvote_ratio": 0.98
+      },
+      {
+        "title": "LLY just dropped a $149/month weight loss pill shipping today - analysts project",
+        "score": 2502,
+        "upvote_ratio": 0.96
+      },
+      {
+        "title": "US allies are pressing for a last minute deal with Iran as Trump extended his de",
+        "score": 1933,
         "upvote_ratio": 0.96
       }
     ]
