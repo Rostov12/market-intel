@@ -1,7 +1,183 @@
 {
-  "updated_at": "2026-04-07 08:00",
+  "updated_at": "2026-04-08 08:00",
   "count": 30,
   "news": [
+    {
+      "title": "Trump-Iran agree to two-week ceasefire, plan to open Strait of Hormuz",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/trump-iran-ceasefire-hormuz-strait.html",
+      "summary": "Pakistan Prime Minister Shehbaz Sharif had asked Trump for a two-week delay of his Iran deadline, and for the Strait of Hormuz to open for the same period.",
+      "detected_at": "2026-04-08T08:00:16.963327+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. oil price plunges below $100 after Iran agrees to safe passage through Strait of Hormuz during ceasefire",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/oil-prices-iran-war-trump-deadline-strait-hormuz.html",
+      "summary": "President Donald Trump had threatened to destroy Iran's entire civilization if his 8 p.m. ET deadline to reopen the Strait of Hormuz is not met.",
+      "detected_at": "2026-04-08T08:00:16.963327+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Cramer says Tuesday’s stock market action gives investors a glimpse of the U.S. economy’s fate if Iran war persists",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/cramer-tuesday-market-us-economy-iran-war.html",
+      "summary": "CNBC's Jim Cramer said that the session showed \"a heck of a lot of bad news,\" citing a \"weak consumer, coupled with inflation.\"",
+      "detected_at": "2026-04-08T08:00:16.963327+08:00",
+      "level": "high"
+    },
+    {
+      "title": "川普同意停火兩周！道瓊期跳漲700點、西德州暴跌逾9% - news.cnyes.com",
+      "source": "鉅亨網",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JdlRKTTFmZFJ5eUc1czdYWUNuaDRvMFQ4ZnluLThneWZaWFMzT2d4RDByeUdIM253eE9TQzhrNHp4NEhWOU1faEJmZzl5elk?oc=5",
+      "summary": "川普同意停火兩周！道瓊期跳漲700點、西德州暴跌逾9%&nbsp;&nbsp;news.cnyes.com",
+      "detected_at": "2026-04-08T08:00:16.963327+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Energy has soared since the Iran war began. These traders are now cautious",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/energy-has-soared-amid-the-iran-war-these-traders-are-now-cautious.html",
+      "summary": "The energy sector has surged around 34% in 2026, but investors on CNBC’s “Halftime Report” expressed skepticism that the rally can last.",
+      "detected_at": "2026-04-08T02:10:12.510046+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Strait of Hormuz blockage upends global helium supply. This U.S. company could benefit",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/strait-of-hormuz-blockage-upends-global-helium-supply-this-us-company-could-benefit.html",
+      "summary": "UBS thinks Exxon Mobil shares have at least another 5% left in them.",
+      "detected_at": "2026-04-08T01:40:13.879008+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Will we see a catastrophic stock market crash next week? - Yahoo Finance UK",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3p0cW9zNVUxTmFBT0UzYnNva3M5OWxYSHJ0dEN3Y0FfTXR1WW1uM0hta2lIM0tuYmJ0LW1jMGJrdjdvTHE0Um9lZXRzdE9wVkhIOWNYaUF2Z20ydTlmSnh6d1Z1SUZUTXNxNU9vaFhRVDNzRlRPU2o4d2VJbktGLWdqVGpabDdqckMyXw?oc=5",
+      "summary": "Will we see a catastrophic stock market crash next week?&nbsp;&nbsp;Yahoo Finance UK",
+      "detected_at": "2026-04-08T01:30:14.674473+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Will we see a catastrophic stock market crash next week? - uk.finance.yahoo.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3p0cW9zNVUxTmFBT0UzYnNva3M5OWxYSHJ0dEN3Y0FfTXR1WW1uM0hta2lIM0tuYmJ0LW1jMGJrdjdvTHE0Um9lZXRzdE9wVkhIOWNYaUF2Z20ydTlmSnh6d1Z1SUZUTXNxNU9vaFhRVDNzRlRPU2o4d2VJbktGLWdqVGpabDdqckMyXw?oc=5",
+      "summary": "Will we see a catastrophic stock market crash next week?&nbsp;&nbsp;uk.finance.yahoo.com",
+      "detected_at": "2026-04-08T01:10:15.317196+08:00",
+      "level": "high"
+    },
+    {
+      "title": "台積電收盤大漲50元收1,860元 拉抬台股收盤上漲657點、雙雙站上月線 - money.udn.com",
+      "source": "經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sZzFfRHVFQW9kbHZhcmVLa2JGcHZUZm92Wms2TkxrVndfODUzYVFDU1ZNNVpxdHdoVy1TWi01R181R3NXYl83eUZ4bFVmRGdqcVFJSmg4VTJDUdIBX0FVX3lxTE9OY1NhclUwRER3WDlET1dWcHdiWEUwVjM4UzNoNDJ3MlViTFRUNk1JVlIzYW1xOHMtREJ3OVlVXzZmQmMwNFJwZV9remVFSVhWck9XM2twc0FDRUR0VG1R?oc=5",
+      "summary": "台積電收盤大漲50元收1,860元 拉抬台股收盤上漲657點、雙雙站上月線&nbsp;&nbsp;money.udn.com",
+      "detected_at": "2026-04-08T00:40:12.769249+08:00",
+      "level": "high"
+    },
+    {
+      "title": "川普「兩周停戰說」引爆全球股市噴出 韓股漲到熔斷、日股狂飆1,800點 - 工商時報",
+      "source": "工商時報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnLVBIUEtmX0hScjQwZXd1RjhJaXdDZndiSXZxNVhKU3pwRmlhNE9LNkRpT2EtdmdzYVhxR0xCQUJhdE1TR3Y0MndVSUEwcjlVYURLZF9ZMW5xMHNkN3hj?oc=5",
+      "summary": "川普「兩周停戰說」引爆全球股市噴出 韓股漲到熔斷、日股狂飆1,800點&nbsp;&nbsp;工商時報",
+      "detected_at": "2026-04-08T00:30:12.033149+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Danone CEO flags price uncertainty as Iran war escalates: ‘Nobody knows' how conflict will play out",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/danone-ceo-price-hikes-iran-war-middle-east-food-costs.html",
+      "summary": "Consumer goods companies increasingly take stock of how the Iran war may impact their operations and costs base, as the conflict enters its sixth week.",
+      "detected_at": "2026-04-07T20:30:13.822366+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran war upends spring housing market. Here's what real estate agents are seeing",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/cnbc-housing-market-survey-iran-war-spring-housing.html",
+      "summary": "Home buyers in the first quarter were more concerned about the economy and mortgage rates than they were about home prices, CNBC's Housing Market Survey found.",
+      "detected_at": "2026-04-07T20:00:14.734431+08:00",
+      "level": "high"
+    },
+    {
+      "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
+      "summary": "",
+      "detected_at": "2026-04-07T20:00:14.734431+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Markets ‘completely wrong’ on Iran war, oil could hit $200 a barrel: Economist",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/video/2026/04/07/markets-acompletely-wronga-on-iran-war-oil-could-hit-200barrel-economist.html",
+      "summary": "John Sfakianakis from Gulf Research Center says the markets are “completely wrong” in pricing out the Iran war, as military buildup and failed negotiations point towards further escalation. He also sa",
+      "detected_at": "2026-04-07T14:50:13.603562+08:00",
+      "level": "high"
+    },
+    {
+      "title": "European stocks set to open higher as Iran war deadline unsettles markets",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/european-stocks-set-to-rise-as-iran-war-deadline-unsettles-markets.html",
+      "summary": "European stocks are set to rise on Tuesday as investors brace themselves ahead of President Trump's deadline for Iran to open the Strait of Hormuz.",
+      "detected_at": "2026-04-07T14:10:13.255076+08:00",
+      "level": "high"
+    },
+    {
+      "title": "台積電收盤大漲50元收1,860元 拉抬台股收盤上漲657點、雙雙站上月線 - 經濟日報",
+      "source": "經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sZzFfRHVFQW9kbHZhcmVLa2JGcHZUZm92Wms2TkxrVndfODUzYVFDU1ZNNVpxdHdoVy1TWi01R181R3NXYl83eUZ4bFVmRGdqcVFJSmg4VTJDUdIBX0FVX3lxTE9OY1NhclUwRER3WDlET1dWcHdiWEUwVjM4UzNoNDJ3MlViTFRUNk1JVlIzYW1xOHMtREJ3OVlVXzZmQmMwNFJwZV9remVFSVhWck9XM2twc0FDRUR0VG1R?oc=5",
+      "summary": "台積電收盤大漲50元收1,860元 拉抬台股收盤上漲657點、雙雙站上月線&nbsp;&nbsp;經濟日報",
+      "detected_at": "2026-04-07T14:00:12.941435+08:00",
+      "level": "high"
+    },
+    {
+      "title": "美股收紅 台積電領軍 台股開高走高 一度大漲691點突破月線反壓 - 經濟日報",
+      "source": "經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16b01lVDlrVkQ1X0ZfMjd4eWpvODIwTi1ldjZHOEFiYVpFUnRmV1VlWWJlQlNmNFl6T2s3MUNvTkhWcW1SM2dZRy1QVDRNT3F0T0ZTUDhxb0p1bUpXZmJXc0Zlb19qbnk5eVUtZE5GNmVSZEpsYkVZ0gFfQVVfeXFMTllqVnBZOXdZRGtDbzJFWlRrRklfblJ2WWhhZHFZVGRiN0lGWWItNHFDSFpsZTRtUlFIOG9nMk1iVHltUXFzQ0hvZWRBQ1lJTXhPQVdRd1pDaHlJd01ERE0?oc=5",
+      "summary": "美股收紅 台積電領軍 台股開高走高 一度大漲691點突破月線反壓&nbsp;&nbsp;經濟日報",
+      "detected_at": "2026-04-07T13:00:11.978666+08:00",
+      "level": "high"
+    },
+    {
+      "title": "S&P 500 futures tumble as Trump’s deadline to reopen Strait of Hormuz nears: Live updates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
+      "summary": "S&amp;P 500 futures tumble as Trump’s deadline to reopen Strait of Hormuz nears: Live updates",
+      "detected_at": "2026-04-07T12:40:08.678162+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Asia-Pacific markets trade mixed as investors assess Trump's hardened rhetoric on Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
+      "summary": "Trump renewed threats on targeting Iran's civilian infrastructure if a peace deal is not reached in less than 24 hours, while signaling Iranian leadership is negotiating in earnest.",
+      "detected_at": "2026-04-07T11:00:13.318765+08:00",
+      "level": "high"
+    },
+    {
+      "title": "How do changing interest rates affect the stock market in 2026? - usbank.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
+      "summary": "How do changing interest rates affect the stock market in 2026?&nbsp;&nbsp;usbank.com",
+      "detected_at": "2026-04-07T09:50:14.522664+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Asia-Pacific markets rise as investors assess Trump's mixed messaging on Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
+      "summary": "Trump renewed threats on targeting Iran's civilian infrastructure if a peace deal is not reached in less than 24 hours, while signaling Iranian leadership is negotiating in earnest.",
+      "detected_at": "2026-04-07T09:10:13.406758+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Asia-Pacific markets open higher as investors assess Trump's mixed messaging on Iran war",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/07/asia-pacific-markets-toda-kospi-nikkei225-nifty50.html",
+      "summary": "Trump renewed threats on targeting Iran's civilian infrastructure if a peace deal is not reached in less than 24 hours, while signaling Iranian leadership is negotiating in earnest.",
+      "detected_at": "2026-04-07T08:10:13.187899+08:00",
+      "level": "high"
+    },
     {
       "title": "S&P 500 futures are little changed as Trump’s deadline to reopen Strait of Hormuz nears: Live updates",
       "source": "CNBC",
@@ -64,182 +240,6 @@
       "url": "https://www.cnbc.com/2026/04/06/wall-street-firm-sends-analyst-to-the-strait-of-hormuz-heres-what-they-found-out.html",
       "summary": "Citrini Research said it dispatched an analyst to Oman's Musandam Peninsula, where he traveled by boat to observe shipping activity firsthand.",
       "detected_at": "2026-04-07T03:20:08.791899+08:00",
-      "level": "high"
-    },
-    {
-      "title": "U.S. oil is breaking out as Iran war continues. A look at how past peaks have affected stocks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/06/us-oil-is-breaking-out-as-iran-war-continues-a-look-at-how-past-peaks-have-affected-stocks.html",
-      "summary": "Katie Stockton of Fairlead Strategies looks at past peaks in oil, and how they've affected equities.",
-      "detected_at": "2026-04-07T02:10:11.762987+08:00",
-      "level": "high"
-    },
-    {
-      "title": "How do changing interest rates affect the stock market in 2026? - U.S. Bank",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
-      "summary": "How do changing interest rates affect the stock market in 2026?&nbsp;&nbsp;U.S. Bank",
-      "detected_at": "2026-04-07T01:10:08.602663+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Apple&#x2019;s stock could surge 20%, and the MacBook Neo could be a key catalyst",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/apples-stock-could-surge-20-and-the-macbook-neo-could-be-a-key-catalyst-9ba5623f?mod=mw_rss_topstories",
-      "summary": "Analysts are bullish on Apple&#x2019;s expansion into the budget laptop market, which could boost earnings.",
-      "detected_at": "2026-04-07T00:30:09.951892+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump says Iran ceasefire proposal 'significant' but 'not good enough' as Hormuz Strait deadline nears",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
-      "summary": "The 45-day ceasefire proposal, which could lead to an end to the war, is reportedly being discussed by the U.S., Iran and a group of regional mediators.",
-      "detected_at": "2026-04-06T23:50:11.316965+08:00",
-      "level": "high"
-    },
-    {
-      "title": "U.S. and Iran haven't backed ceasefire idea as Trump's Hormuz Strait deadline nears",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/06/trump-iran-war-ceasefire-hormuz-strait.html",
-      "summary": "The 45-day ceasefire proposal, which could lead to an end to the war, is reportedly being discussed by the U.S., Iran and a group of regional mediators.",
-      "detected_at": "2026-04-06T23:00:11.310167+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Economy jolted by Iran war. Inflation bubbles up and service companies curb employment.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/economy-jolted-by-iran-war-inflation-bubbles-up-and-service-companies-reduce-employment-89e21443?mod=mw_rss_topstories",
-      "summary": "The largest part of the  economy grew a bit slower in March as the Iran war drove up oil and other prices and companies responded by reducing employment, suggesting a rockier path for the economy unti",
-      "detected_at": "2026-04-06T22:40:12.946872+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Economy jolted by Iran war. Inflation bubbles up and service companies reduce employment.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/economy-jolted-by-iran-war-inflation-bubbles-up-and-service-companies-reduce-employment-89e21443?mod=mw_rss_topstories",
-      "summary": "The largest part of the  economy grew a bit slower in March as the Iran war drove up oil and other prices and companies responded by reducing employment, suggesting a rockier path for the economy unti",
-      "detected_at": "2026-04-06T22:20:12.592187+08:00",
-      "level": "high"
-    },
-    {
-      "title": "川普「兩周停戰說」引爆全球股市噴出 韓股漲到熔斷、日股狂飆1,800點 - ctee.com.tw",
-      "source": "工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnLVBIUEtmX0hScjQwZXd1RjhJaXdDZndiSXZxNVhKU3pwRmlhNE9LNkRpT2EtdmdzYVhxR0xCQUJhdE1TR3Y0MndVSUEwcjlVYURLZF9ZMW5xMHNkN3hj?oc=5",
-      "summary": "川普「兩周停戰說」引爆全球股市噴出 韓股漲到熔斷、日股狂飆1,800點&nbsp;&nbsp;ctee.com.tw",
-      "detected_at": "2026-04-06T22:20:12.592187+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a?mod=mw_rss_topstories",
-      "summary": "Jamie Dimon warns of a &#x201c;skunk at the party&#x201d; in 2026 in the form of rising inflation leading to a selloff in the stock market.",
-      "detected_at": "2026-04-06T22:10:12.258236+08:00",
-      "level": "high"
-    },
-    {
-      "title": "U.S. oil prices stay above $110 a barrel after Iran pushes back against Trump&#x2019;s deadline for Tehran to reopen Strait of Hormuz",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/crude-oil-dropping-after-historic-11-surge-as-negotiators-race-against-trumps-deadline-for-iran-407a2094?mod=mw_rss_topstories",
-      "summary": "Trump has threatened to knock out Iran&#x2019;s power plants and bridges if the crucial strait is not reopened.",
-      "detected_at": "2026-04-06T21:40:12.143644+08:00",
-      "level": "high"
-    },
-    {
-      "title": "U.S., Iran study ceasefire plan as Trump's 'hell' warning nears deadline",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/06/us-and-iran-receive-peace-proposal-as-trump-vows-hell-if-strait-stays-shut.html",
-      "summary": "The United States and Iran on Monday were weighing the framework of a plan to end their five-week conflict, even as Tehran pushed back against pressure.",
-      "detected_at": "2026-04-06T21:30:10.810876+08:00",
-      "level": "high"
-    },
-    {
-      "title": "United Airlines wants even higher ticket prices. It&#x2019;ll get them &#x2014; with or without the Iran war.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/united-airlines-wants-even-higher-ticket-prices-itll-get-them-with-or-without-the-iran-war-4833e1d1?mod=mw_rss_topstories",
-      "summary": "United&#x2019;s new &#x2018;luxury&#x2019; strategy is a risky bet for investors when fares and complaints are sky-high.",
-      "detected_at": "2026-04-06T20:20:13.234035+08:00",
-      "level": "high"
-    },
-    {
-      "title": "連假精選／美伊戰爭釀股市大震盪！ 台積、台達電等法說行情能掀報復反彈成定「海」神針？ | 市場焦點 | 證券 - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GYlhRUVhrbUNnQnNQdnNBWVhNWjFKMWpscmR5cnJoSzhwODNiczdqa25KMVJQVjdXNkdWQ2RQWi1JVlpTeXNTX0U3YVA0TGF1eEppWlcyNlNGUmZCaHptWlJwWEZORUZHTzBaVFQzdUc0T0hZejEw?oc=5",
-      "summary": "連假精選／美伊戰爭釀股市大震盪！ 台積、台達電等法說行情能掀報復反彈成定「海」神針？ | 市場焦點 | 證券&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-06T20:20:13.234035+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Satellite firm Planet Labs to indefinitely withhold Iran war images",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/05/satellite-firm-planet-labs-to-indefinitely-withhold-iran-war-images.html",
-      "summary": "Planet Labs said it will withhold imagery dating back to March 9 and that it expects the policy to remain in effect until the conflict ends.",
-      "detected_at": "2026-04-06T20:00:08.863540+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Japan, South Korea stocks rise as investors assess Trump's Iran war comments, extended deadline",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/06/asia-markets-nikkei-225-crude-oil-trump-iran-hormuz.html",
-      "summary": "In an expletive-filled social media post, Trump also vowed to bring \"Hell\" to the country after the U.S. forces rescued an American airman in Iran last week.",
-      "detected_at": "2026-04-06T13:00:09.431520+08:00",
-      "level": "high"
-    },
-    {
-      "title": "台股3月暴跌「現金為王」成主流 一年期存款利率最高衝1.81% - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HcEJaM3pCRDdwRklDUnlsMXRRcEQ5cUIzZ2xfc2ZrbTRvbkY2WVlIMXAtSjJMd2FhOWtzZm85TjlZUS1IQklzMGJYRjF3XzhIdkVGVjZHZl95QdIBX0FVX3lxTE1zcFRHM0ZIenRJYldtMlZaaW5FRHVhUUJWeXlXeWZGV1N5U3lWUmI2SVNPNXNfVklwd3BIUHhhRDNqYldUZW5WX0JpRmlBNXRjTXhpUVBCdVZBdW1fZmVB?oc=5",
-      "summary": "台股3月暴跌「現金為王」成主流 一年期存款利率最高衝1.81%&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-06T11:10:09.010861+08:00",
-      "level": "high"
-    },
-    {
-      "title": "台股3月暴跌「現金為王」成主流 一年期存款利率最高衝1.81% | 產業熱點 | 產業 - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdFRYVHpXdW9IZDc0UjdYSmMxQUpGM1dDeXpjaU94NkliWTF6bFJUcTNucVJxU2VoQzRKTXNzOUFDTjdLa18xWFVqcXo4NUZsTTBtSW0wSWZ6eWtFNlBic3NVYkpnMjYxc2JhVVp3bFdhaWlzMi1mQTFyNU8ySklDdQ?oc=5",
-      "summary": "台股3月暴跌「現金為王」成主流 一年期存款利率最高衝1.81% | 產業熱點 | 產業&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-06T11:00:13.353415+08:00",
-      "level": "high"
-    },
-    {
-      "title": "川普「兩周停戰說」引爆全球股市噴出 韓股漲到熔斷、日股狂飆1,800點 - 工商時報",
-      "source": "工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnLVBIUEtmX0hScjQwZXd1RjhJaXdDZndiSXZxNVhKU3pwRmlhNE9LNkRpT2EtdmdzYVhxR0xCQUJhdE1TR3Y0MndVSUEwcjlVYURLZF9ZMW5xMHNkN3hj?oc=5",
-      "summary": "川普「兩周停戰說」引爆全球股市噴出 韓股漲到熔斷、日股狂飆1,800點&nbsp;&nbsp;工商時報",
-      "detected_at": "2026-04-06T08:30:08.049726+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Japan, South Korea stocks open higher as investors assess Trump's Iran war comments, extended deadline",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/06/asia-markets-nikkei-225-crude-oil-trump-iran-hormuz.html",
-      "summary": "In an expletive-filled social media post, Trump also vowed to bring \"Hell\" to the country after the U.S. forces had rescued an American airman shot down in Iran last week.",
-      "detected_at": "2026-04-06T08:20:12.975936+08:00",
-      "level": "high"
-    },
-    {
-      "title": "伊朗戰爭再度證明這條華爾街「黃金法則」依然正確 - news.cnyes.com",
-      "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CTldaOWNUY0dOVFFTT3NFY09yZFBYTXdwUENwNjdac1JtMi05akJGNnU0ZFVFT3BHZm5PWGNtNE5LZXc2MEtjRVJndk52MmM?oc=5",
-      "summary": "伊朗戰爭再度證明這條華爾街「黃金法則」依然正確&nbsp;&nbsp;news.cnyes.com",
-      "detected_at": "2026-04-06T03:30:10.064808+08:00",
-      "level": "high"
-    },
-    {
-      "title": "〈美股盤後〉伊朗總統鬆口「願結束戰爭」道瓊狂飆逾1100點 台積電ADR飛升近7% - news.cnyes.com",
-      "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KeklsdTFQTE1WNkhtcm5Pcl8yd25SZk00ZnhCVTgzTUhORFV5aWt5aE1OVjJLR1VoSkVGZkxxRVpNSHpIUlVEamVHamJlTzA?oc=5",
-      "summary": "〈美股盤後〉伊朗總統鬆口「願結束戰爭」道瓊狂飆逾1100點 台積電ADR飛升近7%&nbsp;&nbsp;news.cnyes.com",
-      "detected_at": "2026-04-06T00:40:13.781651+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump vows Iran will be 'living in Hell' by Tuesday if Strait of Hormuz deadline missed",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/05/us-trump-confirms-missing-us-pilot-rescued.html",
-      "summary": "\"Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran. There will be nothing like it!!!\" Trump said in a Truth Social post.",
-      "detected_at": "2026-04-06T00:00:18.641152+08:00",
       "level": "high"
     }
   ]
