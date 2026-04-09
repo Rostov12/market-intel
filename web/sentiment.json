@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-08",
-  "generated_at": "2026-04-08 04:45",
+  "date": "2026-04-09",
+  "generated_at": "2026-04-09 04:45",
   "composite": {
-    "score": 0.0,
+    "score": -0.5,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,49 +10,49 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-07",
       "2026-04-08",
-      "2026-04-09"
+      "2026-04-09",
+      "2026-04-10"
     ],
-    "total_calls_vol": 3926296,
-    "total_puts_vol": 5082839,
-    "pcr": 1.295,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 4380636,
+    "total_puts_vol": 5916606,
+    "pcr": 1.351,
+    "label": "散戶極度恐慌🟢",
+    "signal": "逆向看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 6,
-    "bear_words": 4,
-    "bull_pct": 60,
+    "bull_words": 5,
+    "bear_words": 2,
+    "bull_pct": 71,
     "label": "偏多情緒",
     "top_tickers": [],
     "top_posts": [
       {
         "title": "What Are Your Moves Tomorrow, April 08, 2026",
-        "score": 49,
-        "upvote_ratio": 0.9
+        "score": 27,
+        "upvote_ratio": 0.88
       },
       {
-        "title": "The dominos index closest to The Pentagon just spiked, chat are we cooked?",
-        "score": 359,
-        "upvote_ratio": 0.96
+        "title": "Iran closes Strait of Hormuz again as Israel continues worst ever strikes on Leb",
+        "score": 15276,
+        "upvote_ratio": 0.97
       },
       {
-        "title": "I think he's gonna do it 🤧",
-        "score": 394,
-        "upvote_ratio": 0.92
+        "title": "Straight of Hormuz still closed",
+        "score": 2740,
+        "upvote_ratio": 0.94
       },
       {
-        "title": "Spy loss ✌️🥀",
-        "score": 404,
+        "title": "Everything is priced in",
+        "score": 1062,
         "upvote_ratio": 0.95
       },
       {
-        "title": "Samsung’s record Q1 signals further upside on AI memory boom",
-        "score": 134,
+        "title": "RIP",
+        "score": 15450,
         "upvote_ratio": 0.94
       }
     ]

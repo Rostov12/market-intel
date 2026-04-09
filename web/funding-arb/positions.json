@@ -1,5 +1,32 @@
 {
-  "positions": {},
+  "positions": {
+    "NEAR/USDT:USDT": {
+      "spot_symbol": "NEAR/USDT",
+      "contracts": 37.0,
+      "contract_size": 10.0,
+      "amount": 370.0,
+      "entry_price": 1.35,
+      "entry_time": "2026-04-08 15:47:14",
+      "size_usdt": 500,
+      "spot_order_id": "3460536927162253312",
+      "perp_order_id": "3460536922598850560",
+      "funding_collected": 0.407776,
+      "funding_count": 2
+    },
+    "LINK/USDT:USDT": {
+      "spot_symbol": "LINK/USDT",
+      "contracts": 55.3,
+      "contract_size": 1.0,
+      "amount": 55.3,
+      "entry_price": 9.041,
+      "entry_time": "2026-04-08 23:47:10",
+      "size_usdt": 500,
+      "spot_order_id": "3461503161760530432",
+      "perp_order_id": "3461503157264236544",
+      "funding_collected": 0.621591,
+      "funding_count": 1
+    }
+  },
   "history": [
     {
       "spot_symbol": "LINK/USDT",

@@ -1,225 +1,5 @@
 [
   {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 70047.7,
-    "change_pct": 2.11,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Block] 幸運的獨行比特幣礦工每天以 28,000 分之一的賠率贏得 210,000 美元的區塊獎勵 - The Block\n- [Yahoo Finance] 我是加密貨幣專家：川普上任後我不再買比特幣 - 雅虎財經\n- [CoinDesk] 簡單解釋什麼是量子計算，以及為什麼它對比特幣來說是可怕的",
-    "timestamp": "2026-04-06T17:25:10.518528+08:00",
-    "epoch": 1775467508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2165.76,
-    "change_pct": 2.44,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Yahoo Finance] 嘉信理財正準備提供比特幣、以太坊現貨交易 - 雅虎財經",
-    "timestamp": "2026-04-06T17:25:10.756216+08:00",
-    "epoch": 1775467508
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 82.81,
-    "change_pct": 2.3,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Block] 幸運的獨行比特幣礦工每天以 28,000 分之一的賠率贏得 210,000 美元的區塊獎勵 - The Block",
-    "timestamp": "2026-04-06T17:25:11.756924+08:00",
-    "epoch": 1775467508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2124.73,
-    "change_pct": -2.09,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 價格預測 4/6：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/6：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinDesk] 隨著股票轉移到紐約證券交易所，Bitmine 的以太金庫達到 480 萬 ETH",
-    "timestamp": "2026-04-07T01:15:08.507248+08:00",
-    "epoch": 1775495707
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2133.02,
-    "change_pct": -2.13,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 價格預測 4/6：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/6：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
-    "timestamp": "2026-04-07T01:45:08.672126+08:00",
-    "epoch": 1775497507
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 80.39,
-    "change_pct": -2.19,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 價格預測 4/6：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
-    "timestamp": "2026-04-07T06:55:06.875489+08:00",
-    "epoch": 1775516105
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2102.56,
-    "change_pct": -2.17,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 價格預測 4/6：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
-    "timestamp": "2026-04-07T07:00:05.987225+08:00",
-    "epoch": 1775516404
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 68661.9,
-    "change_pct": -2.18,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 隨著Strategy吸收近3倍的新BTC供應，比特幣可能會觸及11萬美元\n- [CoinTelegraph] 隨著Strategy吸收近3倍的新BTC供應，比特幣可能會觸及11萬美元\n- [CNBC] 隨著加密貨幣價格上漲，比特幣攀升至 7 萬美元 - CNBC",
-    "timestamp": "2026-04-07T07:10:10.243478+08:00",
-    "epoch": 1775517008
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 79.83,
-    "change_pct": -2.91,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-07T07:25:09.729481+08:00",
-    "epoch": 1775517908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2088.88,
-    "change_pct": -2.83,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga\n- [thestreet.com] 55 歲的資產經理嘲笑現貨比特幣、以太幣交易 - thestreet.com",
-    "timestamp": "2026-04-07T07:30:10.848526+08:00",
-    "epoch": 1775518208
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 68764.0,
-    "change_pct": -2.18,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga\n- [thestreet.com] 55 歲的資產經理嘲笑現貨比特幣、以太幣交易 - thestreet.com",
-    "timestamp": "2026-04-07T07:40:10.205753+08:00",
-    "epoch": 1775518808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 79.92,
-    "change_pct": -2.15,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-07T08:10:09.765215+08:00",
-    "epoch": 1775520608
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 79.79,
-    "change_pct": -2.34,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-07T08:45:09.401292+08:00",
-    "epoch": 1775522708
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2091.45,
-    "change_pct": -2.15,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [CoinDesk] 川普設定週二晚間伊朗協議最後期限，比特幣、以太幣、solana 保持穩定",
-    "timestamp": "2026-04-07T18:55:09.888297+08:00",
-    "epoch": 1775559308
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 79.12,
-    "change_pct": -2.0,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 隨著攻擊持續不斷，Solana 基金會希望加強 DeFi 安全\n- [CoinTelegraph] 隨著攻擊持續不斷，Solana 基金會希望加強 DeFi 安全\n- [CoinDesk] 川普設定週二晚間伊朗協議最後期限，比特幣、以太幣、solana 保持穩定",
-    "timestamp": "2026-04-07T19:25:07.167448+08:00",
-    "epoch": 1775561105
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2091.42,
-    "change_pct": -2.44,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [CoinDesk] 熟悉的價格模式引發了比特幣價格下跌的猜測\n- [CoinDesk] 川普設定週二晚間伊朗協議最後期限，比特幣、以太幣、solana 保持穩定",
-    "timestamp": "2026-04-07T19:30:11.212723+08:00",
-    "epoch": 1775561408
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2088.61,
-    "change_pct": -2.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 熟悉的價格模式引發了比特幣價格下跌的猜測\n- [CoinDesk] 川普設定週二晚間伊朗協議最後期限，比特幣、以太幣、solana 保持穩定",
-    "timestamp": "2026-04-07T20:00:10.589483+08:00",
-    "epoch": 1775563208
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 78.86,
-    "change_pct": -2.19,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Solana 基金會在價值 2.7 億美元的 Drift 漏洞數天後推出安全檢修\n- [Cointelegraph] 隨著攻擊持續不斷，Solana 基金會希望加強 DeFi 安全\n- [CoinTelegraph] 隨著攻擊持續不斷，Solana 基金會希望加強 DeFi 安全",
-    "timestamp": "2026-04-07T20:10:09.949520+08:00",
-    "epoch": 1775563808
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 593.8,
-    "change_pct": -2.25,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [The Block] 比特幣鯨魚將價值超過 2000 萬美元的 BTC 轉移到幣安 - The Block",
-    "timestamp": "2026-04-07T20:10:11.811095+08:00",
-    "epoch": 1775563808
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2084.67,
-    "change_pct": -2.7,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [coinpedia.org] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - coinpedia.org\n- [CoinDesk] 熟悉的價格模式引發了比特幣價格下跌的猜測",
-    "timestamp": "2026-04-07T20:30:10.446911+08:00",
-    "epoch": 1775565009
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 79.05,
-    "change_pct": -2.19,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Solana 基金會在價值 2.7 億美元的 Drift 漏洞數天後推出安全檢修",
-    "timestamp": "2026-04-07T20:40:10.452229+08:00",
-    "epoch": 1775565609
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 596.7,
-    "change_pct": -2.25,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 幣安增加現貨交易護欄以限制異常執行\n- [CoinTelegraph] 幣安增加現貨交易護欄以限制異常執行\n- [The Block] 比特幣鯨魚將價值超過 2000 萬美元的 BTC 轉移到幣安 - The Block",
-    "timestamp": "2026-04-07T20:40:11.516842+08:00",
-    "epoch": 1775565609
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2098.39,
@@ -498,5 +278,225 @@
     "news": "- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga",
     "timestamp": "2026-04-08T08:00:09.446894+08:00",
     "epoch": 1775606407
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.22,
+    "change_pct": 3.58,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 「不要在加密貨幣上浪費時間」：這就是 Solana 基金會神秘訊息的真正含義",
+    "timestamp": "2026-04-08T08:20:08.731383+08:00",
+    "epoch": 1775607607
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71751.1,
+    "change_pct": 3.13,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 美國和伊朗同意停火兩週後，比特幣重回 7.2 萬美元\n- [CoinTelegraph] 美國和伊朗同意停火兩週後，比特幣重回 7.2 萬美元\n- [Cointelegraph] 由於衝突，伊朗比特幣算力在過去一個季度下降了 77%",
+    "timestamp": "2026-04-08T08:35:06.132124+08:00",
+    "epoch": 1775608504
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2233.45,
+    "change_pct": 4.92,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga",
+    "timestamp": "2026-04-08T08:35:06.372219+08:00",
+    "epoch": 1775608504
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.49,
+    "change_pct": 3.58,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 「不要在加密貨幣上浪費時間」：這就是 Solana 基金會神秘訊息的真正含義",
+    "timestamp": "2026-04-08T08:55:08.915679+08:00",
+    "epoch": 1775609704
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.5,
+    "change_pct": -2.99,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-08T09:25:08.127712+08:00",
+    "epoch": 1775611507
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.7,
+    "change_pct": -2.99,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-08T09:55:08.733899+08:00",
+    "epoch": 1775613307
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 72574.0,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 摩根士丹利的比特幣 ETF 今天開放，使貝萊德 550 億美元的 IBIT 基金成為迄今為止最強勁的競爭對手\n- [CoinDesk] 亞當巴克 (Adam Back) 表示，比特幣的量子威脅還很遙遠，但遷移時鐘正在滴答作響\n- [Fortune] Current price of Bitcoin for April 8, 2026 - Fortune",
+    "timestamp": "2026-04-08T21:20:11.461472+08:00",
+    "epoch": 1775654408
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71939.1,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Bloomberg.com] 美伊停火計畫推動比特幣躍升至三週高點 - Bloomberg.com\n- [CoinDesk] 亞當巴克 (Adam Back) 表示，比特幣的量子威脅還很遙遠，但遷移時鐘正在滴答作響\n- [Fortune] 2026 年 4 月 8 日比特幣當前價格 - 財富",
+    "timestamp": "2026-04-08T21:50:12.065985+08:00",
+    "epoch": 1775656209
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2224.21,
+    "change_pct": -2.12,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Fortune] 2026 年 4 月 8 日以太坊當前價格 - 財富\n- [Yahoo Finance] 今天，2026 年 4 月 8 日星期三，比特幣和以太坊價格：美國與伊朗停火宣布後價格上漲 - 雅虎財經",
+    "timestamp": "2026-04-08T22:10:07.458611+08:00",
+    "epoch": 1775657404
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71528.7,
+    "change_pct": -2.12,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 華爾街經紀人伯恩斯坦表示，比特幣面臨的量子威脅是真實存在的，但是可控制的\n- [Bloomberg.com] 美伊停火計畫推動比特幣躍升至三週高點 - Bloomberg.com\n- [CoinDesk] 亞當巴克 (Adam Back) 表示，比特幣的量子威脅還很遙遠，但遷移時鐘正在滴答作響",
+    "timestamp": "2026-04-08T22:25:07.570472+08:00",
+    "epoch": 1775658306
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.02,
+    "change_pct": -2.55,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 塞勒的獨奏：摩根大通表示，策略其實是維持加密貨幣流動活力的唯一因素",
+    "timestamp": "2026-04-08T22:35:08.391767+08:00",
+    "epoch": 1775658907
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 603.7,
+    "change_pct": -2.06,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-08T22:35:08.453220+08:00",
+    "epoch": 1775658907
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2206.69,
+    "change_pct": -3.0,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman\n- [CoinTelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman",
+    "timestamp": "2026-04-08T22:45:09.922896+08:00",
+    "epoch": 1775659508
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 70895.4,
+    "change_pct": -2.76,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] Cango 出售 2,000 BTC，3 月比特幣生產成本降低 19%\n- [CoinTelegraph] Cango 出售 2,000 BTC，3 月比特幣生產成本降低 19%\n- [CoinDesk] 《紐約時報》報導 Adam Back 是比特幣的創造者後，他否認自己是中本聰",
+    "timestamp": "2026-04-08T22:55:10.619009+08:00",
+    "epoch": 1775660107
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.07,
+    "change_pct": -2.52,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 塞勒的獨奏：摩根大通表示，策略其實是維持加密貨幣流動活力的唯一因素",
+    "timestamp": "2026-04-08T23:05:08.851519+08:00",
+    "epoch": 1775660707
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 603.4,
+    "change_pct": -2.22,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-08T23:05:08.915116+08:00",
+    "epoch": 1775660707
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2204.75,
+    "change_pct": -3.39,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman\n- [CoinTelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman",
+    "timestamp": "2026-04-08T23:20:06.453523+08:00",
+    "epoch": 1775661604
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71168.2,
+    "change_pct": -2.78,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 由於伊朗戰爭停火，比特幣價格擺脫了三週高點\n- [CoinTelegraph] 由於伊朗戰爭停火，比特幣價格擺脫了三週高點\n- [CoinDesk] 伊朗停火令比特幣突破 7 萬美元，但反彈出於充分理由而變得謹慎",
+    "timestamp": "2026-04-08T23:30:05.906269+08:00",
+    "epoch": 1775662204
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.18,
+    "change_pct": -2.57,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 塞勒的獨奏：摩根大通表示，策略其實是維持加密貨幣流動活力的唯一因素",
+    "timestamp": "2026-04-08T23:35:09.000483+08:00",
+    "epoch": 1775662507
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 604.6,
+    "change_pct": -2.34,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-08T23:35:09.065077+08:00",
+    "epoch": 1775662507
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2213.3,
+    "change_pct": -3.39,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman\n- [CoinTelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman",
+    "timestamp": "2026-04-08T23:55:09.028052+08:00",
+    "epoch": 1775663707
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2232.7,
+    "change_pct": 2.1,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman\n- [CoinTelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman",
+    "timestamp": "2026-04-09T01:40:08.595109+08:00",
+    "epoch": 1775670004
   }
 ]

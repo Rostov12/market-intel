@@ -14,36 +14,37 @@
 <text x="35" y="52.0" fill="#888" font-size="10" text-anchor="end">8</text>
 <line x1="40" y1="20.0" x2="580" y2="20.0" stroke="#ffffff18" stroke-width="1"/>
 <text x="35" y="24.0" fill="#888" font-size="10" text-anchor="end">10</text>
-<polyline points="40.0,160.0 65.7,118.0 91.4,160.0 117.1,76.0 142.9,132.0 168.6,160.0 194.3,132.0 220.0,132.0 245.7,104.0 271.4,48.0 297.1,48.0 322.9,48.0 348.6,104.0 374.3,104.0 400.0,132.0 425.7,160.0 451.4,132.0 477.1,132.0 502.9,132.0 528.6,160.0 554.3,160.0 580.0,132.0" fill="none" stroke="#4a9eff" stroke-width="2" stroke-linejoin="round"/>
-<polygon points="40.0,160.0 40.0,160.0 65.7,118.0 91.4,160.0 117.1,76.0 142.9,132.0 168.6,160.0 194.3,132.0 220.0,132.0 245.7,104.0 271.4,48.0 297.1,48.0 322.9,48.0 348.6,104.0 374.3,104.0 400.0,132.0 425.7,160.0 451.4,132.0 477.1,132.0 502.9,132.0 528.6,160.0 554.3,160.0 580.0,132.0 580.0,160.0" fill="#4a9eff18"/>
+<polyline points="40.0,160.0 64.5,118.0 89.1,160.0 113.6,76.0 138.2,132.0 162.7,160.0 187.3,132.0 211.8,132.0 236.4,104.0 260.9,48.0 285.5,48.0 310.0,48.0 334.5,104.0 359.1,104.0 383.6,132.0 408.2,160.0 432.7,132.0 457.3,132.0 481.8,132.0 506.4,160.0 530.9,160.0 555.5,132.0 580.0,160.0" fill="none" stroke="#4a9eff" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="40.0,160.0 40.0,160.0 64.5,118.0 89.1,160.0 113.6,76.0 138.2,132.0 162.7,160.0 187.3,132.0 211.8,132.0 236.4,104.0 260.9,48.0 285.5,48.0 310.0,48.0 334.5,104.0 359.1,104.0 383.6,132.0 408.2,160.0 432.7,132.0 457.3,132.0 481.8,132.0 506.4,160.0 530.9,160.0 555.5,132.0 580.0,160.0 580.0,160.0" fill="#4a9eff18"/>
 <circle cx="40.0" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="65.7" cy="118.0" r="3" fill="#ffaa00"/>
-<circle cx="91.4" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="117.1" cy="76.0" r="3" fill="#ff4444"/>
-<circle cx="142.9" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="168.6" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="194.3" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="220.0" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="245.7" cy="104.0" r="3" fill="#ffaa00"/>
-<circle cx="271.4" cy="48.0" r="3" fill="#ff4444"/>
-<circle cx="297.1" cy="48.0" r="3" fill="#ff4444"/>
-<circle cx="322.9" cy="48.0" r="3" fill="#ff4444"/>
-<circle cx="348.6" cy="104.0" r="3" fill="#ffaa00"/>
-<circle cx="374.3" cy="104.0" r="3" fill="#ffaa00"/>
-<circle cx="400.0" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="425.7" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="451.4" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="477.1" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="502.9" cy="132.0" r="3" fill="#44bb44"/>
-<circle cx="528.6" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="554.3" cy="160.0" r="3" fill="#44bb44"/>
-<circle cx="580.0" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="64.5" cy="118.0" r="3" fill="#ffaa00"/>
+<circle cx="89.1" cy="160.0" r="3" fill="#44bb44"/>
+<circle cx="113.6" cy="76.0" r="3" fill="#ff4444"/>
+<circle cx="138.2" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="162.7" cy="160.0" r="3" fill="#44bb44"/>
+<circle cx="187.3" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="211.8" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="236.4" cy="104.0" r="3" fill="#ffaa00"/>
+<circle cx="260.9" cy="48.0" r="3" fill="#ff4444"/>
+<circle cx="285.5" cy="48.0" r="3" fill="#ff4444"/>
+<circle cx="310.0" cy="48.0" r="3" fill="#ff4444"/>
+<circle cx="334.5" cy="104.0" r="3" fill="#ffaa00"/>
+<circle cx="359.1" cy="104.0" r="3" fill="#ffaa00"/>
+<circle cx="383.6" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="408.2" cy="160.0" r="3" fill="#44bb44"/>
+<circle cx="432.7" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="457.3" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="481.8" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="506.4" cy="160.0" r="3" fill="#44bb44"/>
+<circle cx="530.9" cy="160.0" r="3" fill="#44bb44"/>
+<circle cx="555.5" cy="132.0" r="3" fill="#44bb44"/>
+<circle cx="580.0" cy="160.0" r="3" fill="#44bb44"/>
 <text x="40.0" y="195" fill="#666" font-size="9" text-anchor="middle">03-18</text>
-<text x="168.6" y="195" fill="#666" font-size="9" text-anchor="middle">03-23</text>
-<text x="297.1" y="195" fill="#666" font-size="9" text-anchor="middle">03-28</text>
-<text x="425.7" y="195" fill="#666" font-size="9" text-anchor="middle">04-02</text>
-<text x="554.3" y="195" fill="#666" font-size="9" text-anchor="middle">04-07</text>
-<text x="580.0" y="195" fill="#666" font-size="9" text-anchor="middle">04-08</text>
-<text x="575.0" y="124.0" fill="#44bb44" font-size="11" text-anchor="end" font-weight="bold">score=2</text>
+<text x="162.7" y="195" fill="#666" font-size="9" text-anchor="middle">03-23</text>
+<text x="285.5" y="195" fill="#666" font-size="9" text-anchor="middle">03-28</text>
+<text x="408.2" y="195" fill="#666" font-size="9" text-anchor="middle">04-02</text>
+<text x="530.9" y="195" fill="#666" font-size="9" text-anchor="middle">04-07</text>
+<text x="580.0" y="195" fill="#666" font-size="9" text-anchor="middle">04-09</text>
+<text x="575.0" y="152.0" fill="#44bb44" font-size="11" text-anchor="end" font-weight="bold">score=0</text>
 <text x="40" y="14" fill="#aaa" font-size="11">風險評分 30日走勢</text>
 </svg>

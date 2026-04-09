@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-08",
-  "updated_at": "2026-04-08 04:42",
+  "date": "2026-04-09",
+  "updated_at": "2026-04-09 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 1,
+  "watchlist_matches": 2,
   "status": "ok",
   "trades": [
     {
@@ -10,9 +10,18 @@
       "company": "BANK OF AMERICA",
       "type": "未知",
       "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000121390026041079/0001213900-26-041079-index.htm",
-      "date": "2026-04-07T16:35:01-04:00",
-      "summary": "Filed: 2026-04-07 AccNo: 0001213900-26-041079 Size: 146 KB"
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426009621/0001918704-26-009621-index.htm",
+      "date": "2026-04-08T16:40:42-04:00",
+      "summary": "Filed: 2026-04-08 AccNo: 0001918704-26-009621 Size: 782 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526147767/0001193125-26-147767-index.htm",
+      "date": "2026-04-08T16:38:18-04:00",
+      "summary": "Filed: 2026-04-08 AccNo: 0001193125-26-147767 Size: 284 KB"
     }
   ]
 }
