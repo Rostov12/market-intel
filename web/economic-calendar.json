@@ -1,53 +1,19 @@
 {
-  "date": "2026-04-07",
-  "generated_at": "2026-04-07 04:00",
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10 04:00",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 30,
-    "label": "下次 FOMC：05/07（30天後）"
+    "days_away": 27,
+    "label": "下次 FOMC：05/07（27天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-04-09",
-      "event": "CPI（3月）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 2,
-      "label": "🔴 CPI（3月）（2天後）",
-      "impact_guide": {
-        "name": "消費者物價指數",
-        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
-        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
-        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      },
-      "previous": "2.7%",
-      "previous_date": "2026-02-01"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-04-09",
-      "event": "CPI（3月）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 2,
-      "label": "🔴 CPI（3月）（2天後）",
-      "impact_guide": {
-        "name": "消費者物價指數",
-        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
-        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
-        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      },
-      "previous": "2.7%",
-      "previous_date": "2026-02-01"
-    },
     {
       "date": "2026-04-15",
       "event": "零售銷售（3月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 8,
-      "label": "🟡 零售銷售（3月）（8天後）",
+      "days_away": 5,
+      "label": "🟡 零售銷售（3月）（5天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
@@ -55,6 +21,40 @@
         "watch": "排除汽車的核心零售更能反映趨勢"
       },
       "previous": "+0.6%",
+      "previous_date": "2026-02-01"
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-04-15",
+      "event": "零售銷售（3月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 5,
+      "label": "🟡 零售銷售（3月）（5天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+0.6%",
+      "previous_date": "2026-02-01"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "密西根消費者信心（4月終值）",
+      "importance": "medium",
+      "source": "UMich",
+      "days_away": 14,
+      "label": "🟡 密西根消費者信心（4月終值）（14天後）",
+      "impact_guide": {
+        "name": "密西根消費者信心指數",
+        "above": "信心改善 → 消費預期樂觀 → 偏多",
+        "below": "信心下滑 → 消費可能放緩 → 偏空",
+        "watch": "通膨預期分項影響 Fed 決策"
+      },
+      "previous": "56.6",
       "previous_date": "2026-02-01"
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-09",
-  "generated_at": "2026-04-09 04:45",
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10 04:45",
   "composite": {
-    "score": -0.5,
+    "score": 0.0,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,15 +10,15 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-08",
       "2026-04-09",
-      "2026-04-10"
+      "2026-04-10",
+      "2026-04-13"
     ],
-    "total_calls_vol": 4380636,
-    "total_puts_vol": 5916606,
-    "pcr": 1.351,
-    "label": "散戶極度恐慌🟢",
-    "signal": "逆向看多"
+    "total_calls_vol": 4312146,
+    "total_puts_vol": 5488453,
+    "pcr": 1.273,
+    "label": "散戶偏空",
+    "signal": "略偏看多"
   },
   "wsb": {
     "source": "reddit_wsb",
@@ -28,31 +28,40 @@
     "bear_words": 2,
     "bull_pct": 71,
     "label": "偏多情緒",
-    "top_tickers": [],
-    "top_posts": [
+    "top_tickers": [
       {
-        "title": "What Are Your Moves Tomorrow, April 08, 2026",
-        "score": 27,
-        "upvote_ratio": 0.88
+        "symbol": "INTU",
+        "count": 1
       },
       {
-        "title": "Iran closes Strait of Hormuz again as Israel continues worst ever strikes on Leb",
-        "score": 15276,
+        "symbol": "INTC",
+        "count": 1
+      }
+    ],
+    "top_posts": [
+      {
+        "title": "What Are Your Moves Tomorrow, April 10, 2026",
+        "score": 19,
+        "upvote_ratio": 1.0
+      },
+      {
+        "title": "Claude just did my taxes. $INTU is cooked",
+        "score": 1868,
+        "upvote_ratio": 0.86
+      },
+      {
+        "title": "Amazon to stock Lilly's new weight-loss pill at US kiosks, offer same-day delive",
+        "score": 1551,
         "upvote_ratio": 0.97
       },
       {
-        "title": "Straight of Hormuz still closed",
-        "score": 2740,
-        "upvote_ratio": 0.94
+        "title": "Amazon CEO Jassy says company could sell AI chips, raising stakes for Nvidia, AM",
+        "score": 300,
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Everything is priced in",
-        "score": 1062,
-        "upvote_ratio": 0.95
-      },
-      {
-        "title": "RIP",
-        "score": 15450,
+        "title": "White House confident Warsh will start as Fed chair in May",
+        "score": 110,
         "upvote_ratio": 0.94
       }
     ]

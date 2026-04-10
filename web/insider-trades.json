@@ -1,27 +1,36 @@
 {
-  "date": "2026-04-09",
-  "updated_at": "2026-04-09 04:42",
+  "date": "2026-04-10",
+  "updated_at": "2026-04-10 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 2,
+  "watchlist_matches": 3,
   "status": "ok",
   "trades": [
     {
-      "ticker": "BAC",
-      "company": "BANK OF AMERICA",
+      "ticker": "JPM",
+      "company": "JPMORGAN",
       "type": "未知",
-      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426009621/0001918704-26-009621-index.htm",
-      "date": "2026-04-08T16:40:42-04:00",
-      "summary": "Filed: 2026-04-08 AccNo: 0001918704-26-009621 Size: 782 KB"
+      "title": "40-17F2 - JPMORGAN TRUST IV (0001659326) (Subject)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526149754/0001193125-26-149754-index.htm",
+      "date": "2026-04-09T16:39:37-04:00",
+      "summary": "Filed: 2026-04-09 AccNo: 0001193125-26-149754 Size: 56 KB"
     },
     {
       "ticker": "GS",
       "company": "GOLDMAN SACHS",
       "type": "未知",
       "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526147767/0001193125-26-147767-index.htm",
-      "date": "2026-04-08T16:38:18-04:00",
-      "summary": "Filed: 2026-04-08 AccNo: 0001193125-26-147767 Size: 284 KB"
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526149753/0001193125-26-149753-index.htm",
+      "date": "2026-04-09T16:39:28-04:00",
+      "summary": "Filed: 2026-04-09 AccNo: 0001193125-26-149753 Size: 324 KB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "40-17F2 - JPMORGAN TRUST II (0000763852) (Subject)",
+      "url": "https://www.sec.gov/Archives/edgar/data/763852/000119312526149748/0001193125-26-149748-index.htm",
+      "date": "2026-04-09T16:38:07-04:00",
+      "summary": "Filed: 2026-04-09 AccNo: 0001193125-26-149748 Size: 60 KB"
     }
   ]
 }
