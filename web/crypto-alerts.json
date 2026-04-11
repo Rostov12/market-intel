@@ -1,115 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.7,
-    "change_pct": 6.3,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 「不要在加密貨幣上浪費時間」：這就是 Solana 基金會神秘訊息的真正含義",
-    "timestamp": "2026-04-08T07:45:08.670328+08:00",
-    "epoch": 1775605507
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71930.2,
-    "change_pct": 2.89,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga\n- [CoinDesk] 美國與伊朗停火兩週，美國股指期貨飆升，比特幣突破 72,000 美元",
-    "timestamp": "2026-04-08T08:00:09.198937+08:00",
-    "epoch": 1775606407
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2243.57,
-    "change_pct": 4.6,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga",
-    "timestamp": "2026-04-08T08:00:09.446894+08:00",
-    "epoch": 1775606407
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.22,
-    "change_pct": 3.58,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 「不要在加密貨幣上浪費時間」：這就是 Solana 基金會神秘訊息的真正含義",
-    "timestamp": "2026-04-08T08:20:08.731383+08:00",
-    "epoch": 1775607607
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71751.1,
-    "change_pct": 3.13,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 美國和伊朗同意停火兩週後，比特幣重回 7.2 萬美元\n- [CoinTelegraph] 美國和伊朗同意停火兩週後，比特幣重回 7.2 萬美元\n- [Cointelegraph] 由於衝突，伊朗比特幣算力在過去一個季度下降了 77%",
-    "timestamp": "2026-04-08T08:35:06.132124+08:00",
-    "epoch": 1775608504
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2233.45,
-    "change_pct": 4.92,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Benzinga] 伊朗表示願意結束敵對行動，比特幣、以太坊、瑞波幣、狗狗幣紛紛回升 - Benzinga",
-    "timestamp": "2026-04-08T08:35:06.372219+08:00",
-    "epoch": 1775608504
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.49,
-    "change_pct": 3.58,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 「不要在加密貨幣上浪費時間」：這就是 Solana 基金會神秘訊息的真正含義",
-    "timestamp": "2026-04-08T08:55:08.915679+08:00",
-    "epoch": 1775609704
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.5,
-    "change_pct": -2.99,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-08T09:25:08.127712+08:00",
-    "epoch": 1775611507
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.7,
-    "change_pct": -2.99,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-08T09:55:08.733899+08:00",
-    "epoch": 1775613307
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 72574.0,
-    "change_pct": 2.03,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 摩根士丹利的比特幣 ETF 今天開放，使貝萊德 550 億美元的 IBIT 基金成為迄今為止最強勁的競爭對手\n- [CoinDesk] 亞當巴克 (Adam Back) 表示，比特幣的量子威脅還很遙遠，但遷移時鐘正在滴答作響\n- [Fortune] Current price of Bitcoin for April 8, 2026 - Fortune",
-    "timestamp": "2026-04-08T21:20:11.461472+08:00",
-    "epoch": 1775654408
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71939.1,
-    "change_pct": 2.03,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Bloomberg.com] 美伊停火計畫推動比特幣躍升至三週高點 - Bloomberg.com\n- [CoinDesk] 亞當巴克 (Adam Back) 表示，比特幣的量子威脅還很遙遠，但遷移時鐘正在滴答作響\n- [Fortune] 2026 年 4 月 8 日比特幣當前價格 - 財富",
-    "timestamp": "2026-04-08T21:50:12.065985+08:00",
-    "epoch": 1775656209
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2224.21,
@@ -498,5 +388,115 @@
     "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
     "timestamp": "2026-04-10T08:00:09.731293+08:00",
     "epoch": 1775779208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2186.78,
+    "change_pct": -2.72,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
+    "timestamp": "2026-04-10T08:10:06.126028+08:00",
+    "epoch": 1775779804
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71615.0,
+    "change_pct": -2.08,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Morgan Stanley] 摩根士丹利投資管理公司推出摩根士丹利比特幣信託，進入數位投資領域 - Morgan Stanley\n- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [The New York Times] 中本聰是誰？我試圖揭開比特幣創造者的面紗 - 紐約時報中文網",
+    "timestamp": "2026-04-10T08:20:10.580883+08:00",
+    "epoch": 1775780409
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.18,
+    "change_pct": -3.56,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？\n- [CoinTelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
+    "timestamp": "2026-04-10T08:35:10.291742+08:00",
+    "epoch": 1775781308
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2190.62,
+    "change_pct": -2.86,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
+    "timestamp": "2026-04-10T08:40:10.554730+08:00",
+    "epoch": 1775781609
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71953.7,
+    "change_pct": -2.11,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [The New York Times] 中本聰是誰？我試圖揭開比特幣創造者的面紗 - 紐約時報中文網\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞",
+    "timestamp": "2026-04-10T08:55:09.914368+08:00",
+    "epoch": 1775782508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.07,
+    "change_pct": 2.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 加密貨幣的量子威脅是真實存在的，它推動了比特幣、以太幣、Solana 的不同策略 - 鏈聞 ChainNews",
+    "timestamp": "2026-04-10T22:25:12.196250+08:00",
+    "epoch": 1775831105
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2246.74,
+    "change_pct": 2.04,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
+    "timestamp": "2026-04-10T22:30:10.331752+08:00",
+    "epoch": 1775831408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.02,
+    "change_pct": 2.26,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 加密貨幣的量子威脅是真實存在的，它推動了比特幣、以太幣、Solana 的不同策略 - 鏈聞 ChainNews",
+    "timestamp": "2026-04-10T22:55:12.153913+08:00",
+    "epoch": 1775832908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2253.2,
+    "change_pct": 2.24,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
+    "timestamp": "2026-04-10T23:25:07.627360+08:00",
+    "epoch": 1775834705
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.88,
+    "change_pct": 2.39,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 加密貨幣的量子威脅是真實存在的，它推動了比特幣、以太幣、Solana 的不同策略 - 鏈聞 ChainNews",
+    "timestamp": "2026-04-10T23:30:06.634638+08:00",
+    "epoch": 1775835005
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2223.34,
+    "change_pct": 2.24,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Yahoo Finance] 川普對伊朗發出嚴厲警告，比特幣、以太坊、XRP、狗狗幣大漲：分析師表示，在此之前「購買」比特幣沒有意義 - 雅虎財經",
+    "timestamp": "2026-04-10T23:55:09.907157+08:00",
+    "epoch": 1775836508
   }
 ]
