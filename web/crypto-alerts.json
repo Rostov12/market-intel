@@ -1,55 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2224.21,
-    "change_pct": -2.12,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Fortune] 2026 年 4 月 8 日以太坊當前價格 - 財富\n- [Yahoo Finance] 今天，2026 年 4 月 8 日星期三，比特幣和以太坊價格：美國與伊朗停火宣布後價格上漲 - 雅虎財經",
-    "timestamp": "2026-04-08T22:10:07.458611+08:00",
-    "epoch": 1775657404
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71528.7,
-    "change_pct": -2.12,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] 華爾街經紀人伯恩斯坦表示，比特幣面臨的量子威脅是真實存在的，但是可控制的\n- [Bloomberg.com] 美伊停火計畫推動比特幣躍升至三週高點 - Bloomberg.com\n- [CoinDesk] 亞當巴克 (Adam Back) 表示，比特幣的量子威脅還很遙遠，但遷移時鐘正在滴答作響",
-    "timestamp": "2026-04-08T22:25:07.570472+08:00",
-    "epoch": 1775658306
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.02,
-    "change_pct": -2.55,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] 塞勒的獨奏：摩根大通表示，策略其實是維持加密貨幣流動活力的唯一因素",
-    "timestamp": "2026-04-08T22:35:08.391767+08:00",
-    "epoch": 1775658907
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 603.7,
-    "change_pct": -2.06,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-08T22:35:08.453220+08:00",
-    "epoch": 1775658907
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2206.69,
-    "change_pct": -3.0,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman\n- [CoinTelegraph] 即時結算會影響加密貨幣的資本效率：Ethan Buchman",
-    "timestamp": "2026-04-08T22:45:09.922896+08:00",
-    "epoch": 1775659508
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 70895.4,
@@ -498,5 +448,55 @@
     "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [Yahoo Finance] 川普對伊朗發出嚴厲警告，比特幣、以太坊、XRP、狗狗幣大漲：分析師表示，在此之前「購買」比特幣沒有意義 - 雅虎財經",
     "timestamp": "2026-04-10T23:55:09.907157+08:00",
     "epoch": 1775836508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2300.43,
+    "change_pct": 2.95,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Benzinga] 比特幣、以太坊、XRP 在通膨數據發布前上漲 1% - Benzinga\n- [The Motley Fool] 比特幣與以太幣：2026 年哪種加密貨幣更值得購買？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-12T02:40:10.157538+08:00",
+    "epoch": 1775932808
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2318.0,
+    "change_pct": 3.29,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Benzinga] 比特幣、以太坊、XRP 在通膨數據發布前上漲 1% - Benzinga\n- [The Motley Fool] 比特幣與以太幣：2026 年哪種加密貨幣更值得購買？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-12T03:10:10.705831+08:00",
+    "epoch": 1775934608
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2318.25,
+    "change_pct": 3.4,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Benzinga] 比特幣、以太坊、XRP 在通膨數據發布前上漲 1% - Benzinga\n- [The Motley Fool] 比特幣與以太幣：2026 年哪種加密貨幣更值得購買？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-12T03:45:10.697587+08:00",
+    "epoch": 1775936708
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2306.13,
+    "change_pct": 2.66,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Benzinga] 比特幣、以太坊、XRP 在通膨數據發布前上漲 1% - Benzinga\n- [The Motley Fool] 比特幣與以太幣：2026 年哪種加密貨幣更值得購買？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-12T04:20:10.244063+08:00",
+    "epoch": 1775938808
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2300.15,
+    "change_pct": 2.66,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Benzinga] 比特幣、以太坊、XRP 在通膨數據發布前上漲 1% - Benzinga\n- [The Motley Fool] 比特幣與以太幣：2026 年哪種加密貨幣更值得購買？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-12T04:55:06.721333+08:00",
+    "epoch": 1775940904
   }
 ]

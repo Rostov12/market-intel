@@ -1,7 +1,7 @@
 {
   "date": "2026-04-11",
-  "scanned": 44,
-  "triggered": 16,
+  "scanned": 48,
+  "triggered": 20,
   "results": [
     {
       "symbol": "AMD",
@@ -299,6 +299,74 @@
           "priority": 1
         }
       ]
+    },
+    {
+      "symbol": "1815",
+      "name": "富喬",
+      "category": "PCB",
+      "change_pct": -9.47,
+      "rsi": 49,
+      "volume_ratio": 2.7,
+      "signals": [
+        {
+          "type": "量價異常(-9.5%+2.7x)",
+          "emoji": "🚨",
+          "priority": 1
+        }
+      ],
+      "note": "量大跌-9.5%，PCB原物料"
+    },
+    {
+      "symbol": "3081",
+      "name": "聯亞",
+      "category": "CPO/矽光子",
+      "change_pct": 9.98,
+      "rsi": 75,
+      "volume_ratio": 1.1,
+      "signals": [
+        {
+          "type": "RSI過熱(75)",
+          "emoji": "🔥",
+          "priority": 2
+        }
+      ],
+      "note": "CPO族群持續大漲"
+    },
+    {
+      "symbol": "3131",
+      "name": "弘塑",
+      "category": "先進封裝設備",
+      "change_pct": -3.06,
+      "rsi": 81,
+      "volume_ratio": 1.1,
+      "signals": [
+        {
+          "type": "RSI過熱(81)",
+          "emoji": "🔥",
+          "priority": 2
+        }
+      ],
+      "note": "高檔出貨，RSI 81過熱"
+    },
+    {
+      "symbol": "4967",
+      "name": "十銓",
+      "category": "記憶體",
+      "change_pct": -0.23,
+      "rsi": 28,
+      "volume_ratio": 0.6,
+      "signals": [
+        {
+          "type": "RSI超賣(28)",
+          "emoji": "⚠️",
+          "priority": 2
+        }
+      ],
+      "note": "記憶體報價壓力"
     }
-  ]
+  ],
+  "tw_scan_time": "2026-04-11T09:37:00+08:00",
+  "note": "台股掃描數據來源：daily-scan.json (06:03)，非真正即時報價",
+  "last_patrol": "2026-04-11T13:37:00+08:00",
+  "patrol_note": "breaking-news停滯8h，台股數據仍為06:03，PPI 4/14確認，無新異常"
 }
