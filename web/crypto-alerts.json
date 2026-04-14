@@ -1,245 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2220.07,
-    "change_pct": 2.41,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 隨著全球風險偏好改善，比特幣、以太幣、XRP、狗狗幣上漲 4% - Benzinga\n- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞",
-    "timestamp": "2026-04-10T01:10:10.296394+08:00",
-    "epoch": 1775754608
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.03,
-    "change_pct": 2.92,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-10T01:10:10.355127+08:00",
-    "epoch": 1775754608
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 72426.5,
-    "change_pct": 2.29,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Investing News Network] Circle 的 cirBTC 今天推出 - 投資新聞網絡\n- [Benzinga] 隨著全球風險偏好改善，比特幣、以太幣、XRP、狗狗幣上漲 4% - Benzinga\n- [Morgan Stanley] 摩根士丹利投資管理公司推出摩根士丹利比特幣信託，進入數位投資領域 - Morgan Stanley",
-    "timestamp": "2026-04-10T01:40:09.985932+08:00",
-    "epoch": 1775756408
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2219.94,
-    "change_pct": 2.57,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 隨著全球風險偏好改善，比特幣、以太幣、XRP、狗狗幣上漲 4% - Benzinga\n- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞",
-    "timestamp": "2026-04-10T01:40:10.321749+08:00",
-    "epoch": 1775756408
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.43,
-    "change_pct": 3.21,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-10T01:40:10.388148+08:00",
-    "epoch": 1775756408
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.0,
-    "change_pct": 2.16,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-10T02:15:06.479022+08:00",
-    "epoch": 1775758505
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.71,
-    "change_pct": 2.16,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-10T02:45:09.731740+08:00",
-    "epoch": 1775760308
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.42,
-    "change_pct": 2.21,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？\n- [CoinTelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
-    "timestamp": "2026-04-10T06:20:10.428469+08:00",
-    "epoch": 1775773208
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.2,
-    "change_pct": 2.24,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
-    "timestamp": "2026-04-10T06:55:10.420779+08:00",
-    "epoch": 1775775309
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2198.0,
-    "change_pct": -2.19,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-10T07:00:12.045481+08:00",
-    "epoch": 1775775609
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71892.9,
-    "change_pct": -2.11,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Morgan Stanley] 摩根士丹利投資管理公司推出摩根士丹利比特幣信託，進入數位投資領域 - Morgan Stanley\n- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [The New York Times] 中本聰是誰？我試圖揭開比特幣創造者的面紗 - 紐約時報中文網",
-    "timestamp": "2026-04-10T07:20:10.192875+08:00",
-    "epoch": 1775776808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.4,
-    "change_pct": -2.98,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？\n- [CoinTelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
-    "timestamp": "2026-04-10T07:30:06.615244+08:00",
-    "epoch": 1775777405
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2186.7,
-    "change_pct": -2.79,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-10T07:35:10.535491+08:00",
-    "epoch": 1775777709
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71767.8,
-    "change_pct": -2.11,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [The New York Times] 中本聰是誰？我試圖揭開比特幣創造者的面紗 - 紐約時報中文網\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞",
-    "timestamp": "2026-04-10T07:50:10.530232+08:00",
-    "epoch": 1775778609
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.33,
-    "change_pct": -3.07,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
-    "timestamp": "2026-04-10T08:00:09.731293+08:00",
-    "epoch": 1775779208
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2186.78,
-    "change_pct": -2.72,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-10T08:10:06.126028+08:00",
-    "epoch": 1775779804
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71615.0,
-    "change_pct": -2.08,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Morgan Stanley] 摩根士丹利投資管理公司推出摩根士丹利比特幣信託，進入數位投資領域 - Morgan Stanley\n- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [The New York Times] 中本聰是誰？我試圖揭開比特幣創造者的面紗 - 紐約時報中文網",
-    "timestamp": "2026-04-10T08:20:10.580883+08:00",
-    "epoch": 1775780409
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.18,
-    "change_pct": -3.56,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？\n- [CoinTelegraph] 老比特幣鯨魚賣出了 2.71 億美元的 BTC：加密貨幣反彈是否岌岌可危？",
-    "timestamp": "2026-04-10T08:35:10.291742+08:00",
-    "epoch": 1775781308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2190.62,
-    "change_pct": -2.86,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-10T08:40:10.554730+08:00",
-    "epoch": 1775781609
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 71953.7,
-    "change_pct": -2.11,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [The New York Times] 中本聰是誰？我試圖揭開比特幣創造者的面紗 - 紐約時報中文網\n- [Coinpedia Fintech News] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - Coinpedia 金融科技新聞",
-    "timestamp": "2026-04-10T08:55:09.914368+08:00",
-    "epoch": 1775782508
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.07,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 加密貨幣的量子威脅是真實存在的，它推動了比特幣、以太幣、Solana 的不同策略 - 鏈聞 ChainNews",
-    "timestamp": "2026-04-10T22:25:12.196250+08:00",
-    "epoch": 1775831105
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2246.74,
-    "change_pct": 2.04,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-10T22:30:10.331752+08:00",
-    "epoch": 1775831408
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.02,
-    "change_pct": 2.26,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 加密貨幣的量子威脅是真實存在的，它推動了比特幣、以太幣、Solana 的不同策略 - 鏈聞 ChainNews",
-    "timestamp": "2026-04-10T22:55:12.153913+08:00",
-    "epoch": 1775832908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2253.2,
-    "change_pct": 2.24,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [FXStreet] 今日加密貨幣：比特幣、以太幣、XRP 因美伊停火而穩定 - FXStreet\n- [Coinpedia] 比特幣、以太幣和 XRP 反彈：為什麼加密貨幣市場今天會上漲？ - 硬幣百科\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-10T23:25:07.627360+08:00",
-    "epoch": 1775834705
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 84.88,
@@ -498,5 +258,245 @@
     "news": "- [CoinDesk] 由於美國和伊朗談判未能達成戰爭解決方案，比特幣和其他加密貨幣下跌\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.",
     "timestamp": "2026-04-12T11:50:12.256907+08:00",
     "epoch": 1775965808
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.54,
+    "change_pct": 2.36,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.",
+    "timestamp": "2026-04-13T21:50:10.526632+08:00",
+    "epoch": 1776088208
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.01,
+    "change_pct": 2.4,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.",
+    "timestamp": "2026-04-13T22:25:10.441904+08:00",
+    "epoch": 1776090308
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2218.35,
+    "change_pct": 2.08,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] Bitmine 的 Tom Lee 稱以太幣為“戰時價值儲存手段”，持有量達到 487 萬枚代幣",
+    "timestamp": "2026-04-13T22:35:11.564367+08:00",
+    "epoch": 1776090908
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71941.4,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 伯恩斯坦表示，比特幣市場已經反映了量子風險",
+    "timestamp": "2026-04-13T22:50:10.982664+08:00",
+    "epoch": 1776091809
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2218.29,
+    "change_pct": 2.51,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] Bitmine 的 Tom Lee 稱以太幣為“戰時價值儲存手段”，持有量達到 487 萬枚代幣",
+    "timestamp": "2026-04-13T23:10:06.711047+08:00",
+    "epoch": 1776093004
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71881.4,
+    "change_pct": 2.31,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 隨著週末最糟糕的擔憂消失，比特幣脫離最低水平",
+    "timestamp": "2026-04-13T23:25:06.867767+08:00",
+    "epoch": 1776093904
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2203.74,
+    "change_pct": 2.51,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] Bitmine 的 Tom Lee 稱以太幣為“戰時價值儲存手段”，持有量達到 487 萬枚代幣",
+    "timestamp": "2026-04-13T23:40:10.736906+08:00",
+    "epoch": 1776094808
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 71759.9,
+    "change_pct": 2.31,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [CoinDesk] 隨著週末最糟糕的擔憂消失，比特幣脫離最低水平",
+    "timestamp": "2026-04-13T23:55:10.719844+08:00",
+    "epoch": 1776095708
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2260.93,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.",
+    "timestamp": "2026-04-14T03:50:10.707199+08:00",
+    "epoch": 1776109808
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.99,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.",
+    "timestamp": "2026-04-14T04:05:07.170933+08:00",
+    "epoch": 1776110705
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2249.35,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.",
+    "timestamp": "2026-04-14T04:25:10.013134+08:00",
+    "epoch": 1776111908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.11,
+    "change_pct": 2.14,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-04-14T04:40:10.787263+08:00",
+    "epoch": 1776112808
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2301.6,
+    "change_pct": 2.55,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] Bitmine 增加以太幣購買量，將持股推向總供應量的 5%",
+    "timestamp": "2026-04-14T06:15:10.920056+08:00",
+    "epoch": 1776118508
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 74163.2,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [The Motley Fool] 10年後比特幣會走向何方？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-14T06:20:08.897998+08:00",
+    "epoch": 1776118805
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.59,
+    "change_pct": 2.28,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-04-14T06:20:11.087868+08:00",
+    "epoch": 1776118805
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2346.21,
+    "change_pct": 4.44,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] Bitmine 增加以太幣購買量，將持股推向總供應量的 5%",
+    "timestamp": "2026-04-14T06:45:10.987089+08:00",
+    "epoch": 1776120309
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 74322.4,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [The Motley Fool] 10年後比特幣會走向何方？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-14T06:50:10.688749+08:00",
+    "epoch": 1776120605
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.83,
+    "change_pct": 2.67,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-04-14T06:50:11.420012+08:00",
+    "epoch": 1776120605
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 74637.3,
+    "change_pct": 2.49,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [The Motley Fool] 10年後比特幣會走向何方？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-04-14T07:20:10.159327+08:00",
+    "epoch": 1776122408
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2361.57,
+    "change_pct": 4.99,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] Bitmine 增加以太幣購買量，將持股推向總供應量的 5%",
+    "timestamp": "2026-04-14T07:20:10.881506+08:00",
+    "epoch": 1776122408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.3,
+    "change_pct": 3.26,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-04-14T07:20:11.844570+08:00",
+    "epoch": 1776122408
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 74512.0,
+    "change_pct": 2.49,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 由於現貨 ETF 需求與 BTC 礦商拋售壓力相衝突，比特幣重回 7.4 萬美元",
+    "timestamp": "2026-04-14T07:50:10.782526+08:00",
+    "epoch": 1776124208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2374.44,
+    "change_pct": 6.43,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] Bitmine 增加以太幣購買量，將持股推向總供應量的 5%",
+    "timestamp": "2026-04-14T07:50:12.696288+08:00",
+    "epoch": 1776124208
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.31,
+    "change_pct": 3.57,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 4/13：SPX、DXY、BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-04-14T07:50:13.389842+08:00",
+    "epoch": 1776124208
   }
 ]

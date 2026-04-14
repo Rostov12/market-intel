@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-11",
-  "generated_at": "2026-04-11 04:45",
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14 04:45",
   "composite": {
-    "score": 0.0,
+    "score": -0.5,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-10",
       "2026-04-13",
-      "2026-04-14"
+      "2026-04-14",
+      "2026-04-15"
     ],
-    "total_calls_vol": 3873168,
-    "total_puts_vol": 5003860,
-    "pcr": 1.292,
+    "total_calls_vol": 4180862,
+    "total_puts_vol": 5367450,
+    "pcr": 1.284,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -24,17 +24,13 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 3,
-    "bear_words": 0,
-    "bull_pct": 100,
-    "label": "偏多情緒",
+    "bull_words": 6,
+    "bear_words": 6,
+    "bull_pct": 50,
+    "label": "中性",
     "top_tickers": [
       {
-        "symbol": "INTU",
-        "count": 1
-      },
-      {
-        "symbol": "LUNR",
+        "symbol": "CAR",
         "count": 1
       },
       {
@@ -45,28 +41,28 @@
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/13 - 4/17",
-        "score": 90,
-        "upvote_ratio": 0.92
+        "score": 177,
+        "upvote_ratio": 0.95
       },
       {
-        "title": "Weekend Discussion Thread for the Weekend of April 10, 2026",
+        "title": "What Are Your Moves Tomorrow, April 14th, 2026",
         "score": 40,
-        "upvote_ratio": 0.88
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Can't make this shit up he even included the stock ticker",
-        "score": 34114,
+        "title": "You all have forgotten the Saddam-Bunker model for middle east conflicts.",
+        "score": 4454,
+        "upvote_ratio": 0.98
+      },
+      {
+        "title": "I'm sorry bears, back to hibernation",
+        "score": 2615,
         "upvote_ratio": 0.97
       },
       {
-        "title": "U.S. oil climbs above $100 as U.S.-Iran ceasefire fails to boost tanker traffic ",
-        "score": 1427,
-        "upvote_ratio": 0.97
-      },
-      {
-        "title": "MAR U.S. 🇺🇸 INFLATION DATA:",
-        "score": 920,
-        "upvote_ratio": 0.96
+        "title": "Tried being a Bear and got shot in the woods",
+        "score": 810,
+        "upvote_ratio": 0.99
       }
     ]
   }

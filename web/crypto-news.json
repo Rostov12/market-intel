@@ -1,326 +1,336 @@
 {
-  "date": "2026-04-13",
-  "updated_at": "2026-04-13 08:00",
+  "date": "2026-04-14",
+  "updated_at": "2026-04-14 08:00",
   "count": 30,
   "sources": [
-    "cointelegraph",
-    "google-news-crypto",
     "coindesk",
-    "cointelegraph-rss"
+    "cointelegraph-rss",
+    "google-news-crypto",
+    "cointelegraph"
   ],
   "news": [
     {
-      "id": "gn-57724",
-      "title": "Morgan Stanley Investment Management Enters Digital Investments Universe With Launch of Morgan Stanley Bitcoin Trust - Morgan Stanley",
-      "source": "Morgan Stanley",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX2dJbXE3d29PX3JfN1lJdjJjcFpxQmxGTE5iUjlaRWd0N3lWNEdHTU91LW1ubkc0SFBIRlRJMWpVYzRWUUxQZGpDbHdOUEd6YnVwckVlMFJNUFN1cExqNXBVSGhPNzJ2MWE2anAybS1FWVN5V3F4aWx3d2RUQ0FpckxyeUd0cW9vRElxMjlIQXgwZnNJTWNzMzVJdkRJeFZxbXc?oc=5",
-      "published": "Wed, 08 Apr 2026 14:10:54 GMT",
+      "id": "gn-70660",
+      "title": "Bitcoin price news: BTC price target cut to $112,000 at Citigroup; ETH trimmed to $3,175 - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaUxraVdUb1VxdHV0ZnVsakpub3lJMzBLdlhTc2x4OFhmSHJLajhyMm8xMnk3OGE3NmNCdjViaExvdmt1SmJoQUw0R2RKa1oyN3RUZjdvQWg2LVZ4Z29idW5rTUNnQUVuWktFN1FlNk1ZeVJmU1FqM0c1TlpseTNMMGEyTThaSjZPb3pvdnVHNTJOLWNhemV6LXQzSUxTdlRxbnk3ckpHeDV3YXdZUFhpUA?oc=5",
+      "published": "Tue, 17 Mar 2026 07:00:00 GMT",
       "coins": [
+        "ETH",
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-197",
+      "id": "gn-5364",
+      "title": "Why Is Crypto Crashing? Bitcoin, XRP, Ethereum, and Solana All Down This Week - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOF9UU0FwTlQzdjJES0JGRjVNbVJac3dVdnhWVUZ0LXVybjV5ZHNPem5RY2wwQ0hjUDZfUlBLN3BObzV4MktnczNxSndMekxoUU16NHFVbWNlNWk0NnZ1dXFEWWNvUW91SExkT3J3OGVNcC01clhEUG9lRHp1QVRjS01WM3NZUktnaWhGVDhITTJQM2VPS0ZncHlySGlGLTdSOGY4MHVrQXBZcVh3ZzhZUzZOeHRNZkFE?oc=5",
+      "published": "Sat, 28 Mar 2026 07:00:00 GMT",
+      "coins": [
+        "ETH",
+        "SOL",
+        "XRP",
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-88020",
+      "title": "Bitcoin reclaims $74K as spot ETF demand clashes with BTC miner sell pressure",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-reclaims-dollar74k-as-spot-etf-demand-clashes-with-btc-miner-sell-pressure?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 23:48:42 +0100",
+      "coins": [
+        "BIT",
+        "BTC"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-32712",
+      "title": "Bitcoin reclaims $74K as spot ETF demand clashes with BTC miner sell pressure",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-reclaims-dollar74k-as-spot-etf-demand-clashes-with-btc-miner-sell-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 23:48:42 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-22013",
+      "title": "Broadridge rolls out crypto, tokenized asset platform for Canada wealth managers",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/broadridge-rolls-out-crypto-tokenized-asset-platform-for-canada-wealth-managers?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 22:51:59 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-28331",
+      "title": "Broadridge rolls out crypto, tokenized asset platform for Canada wealth managers",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/broadridge-rolls-out-crypto-tokenized-asset-platform-for-canada-wealth-managers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 22:51:59 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-41201",
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 22:50:34 +0100",
+      "published": "Mon, 13 Apr 2026 22:36:44 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-58654",
+      "id": "ct-83634",
       "title": "Here’s what happened in crypto today",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 22:50:34 +0100",
+      "published": "Mon, 13 Apr 2026 22:36:44 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-40155",
-      "title": "BTC recovery fragile, Iran war fallout to 'dominate' markets in 2026: Analyst",
+      "id": "ct-rss-79523",
+      "title": "SEC proposes certain crypto interfaces don’t need to register as brokers",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/btc-fragile-iran-fallout-dominate-markets-2026?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 22:37:06 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-46818",
-      "title": "BTC recovery fragile, Iran war fallout to 'dominate' markets in 2026: Analyst",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/btc-fragile-iran-fallout-dominate-markets-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 22:37:06 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-50255",
-      "title": "Bitcoin price falls under $71K as US-Iran war tensions spark sell-off",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-price-falls-under-dollar71k-as-us-iran-war-tensions-spark-sell-off?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 20:56:12 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-52292",
-      "title": "Bitcoin price falls under $71K as US-Iran war tensions spark sell-off",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-price-falls-under-dollar71k-as-us-iran-war-tensions-spark-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 20:56:12 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-56790",
-      "title": "Cryptocurrency accounts seized in $2.3M money laundering scheme - Chattanooga Times Free Press",
-      "source": "Chattanooga Times Free Press",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR3RpOVZJb09ySGF0THVORXUyVFoyUk5WNWVrdUZQbnpGYXVlUkZNU3NubC1fQ3Z6UTBrSWo4WWMtbzRtb29yMXdJSTlfcUNISWlmMmZIaEtrNC1rYnc3ZHBOaUJLVEdfT0tWMmtPYkl3dk0taDB1RXBvbUVXa0xYNkxpWm5leDd5SXRxa1g1akJwTFZnNVh3?oc=5",
-      "published": "Sun, 12 Apr 2026 20:43:00 GMT",
-      "coins": [],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-44616",
-      "title": "Justin Sun calls out WLFI, platform threatens lawsuit in response",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/justin-sun-wlfi-platform-lawsuit?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 19:33:15 +0100",
+      "url": "https://cointelegraph.com/news/sec-crypto-interfaces-registration-broker?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 22:26:30 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-21101",
-      "title": "Justin Sun calls out WLFI, platform threatens lawsuit in response",
+      "id": "ct-58417",
+      "title": "SEC proposes certain crypto interfaces don’t need to register as brokers",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/justin-sun-wlfi-platform-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 19:33:15 +0100",
+      "url": "https://cointelegraph.com/news/sec-crypto-interfaces-registration-broker?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 22:26:30 +0100",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-25947",
-      "title": "CFTC Chair Mike Selig argues for agency's 'exclusive regulatory authority' in prediction markets fight: State of Crypto ",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/04/12/cftc-chair-mike-selig-argues-for-agency-s-exclusive-regulatory-authority-in-prediction-markets-fight-state-of-crypto",
-      "published": "Sun, 12 Apr 2026 18:00:00 +0000",
-      "summary": "Selig said states do not have the ability to police prediction market providers, echoing his agency's stance as it pursues court cases to cement its authority. ",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-3023",
-      "title": "IC3 Report Reveals Surge In Cryptocurrency Investment Scams - Forbes",
-      "source": "Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOamhneWVBMUVRbGtmYVVKZkRaQk5KWGNLeUMwWXEzVmFNY2dLVXFTWXh6YWdqNTdvU1lQa2xCMkFBMjhYYVJRMGhaRGx5aHk1MEZkc3VRNGFHYnpNTmlveW1SVlFINGstd2RETFdFSHMwWTdwdjY3XzVqYlRCYnpobDk1Q0NsQzhDUWtDdzhvRi1mWVNKaHlycHVjdUVrT0hIY25FallBbTVaZ2V0SkF3VlRDaw?oc=5",
-      "published": "Sun, 12 Apr 2026 17:51:51 GMT",
-      "coins": [],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-49850",
-      "title": "Strategy's Michael Saylor signals impending Bitcoin purchase",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/strategy-saylor-signal-bitcoin-purchase?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 17:35:17 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-38317",
-      "title": "Strategy's Michael Saylor signals impending Bitcoin purchase",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/strategy-saylor-signal-bitcoin-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 17:35:17 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-95878",
-      "title": "DeFi’s shakeout is a stress test, not a death sentence",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/04/10/defi-s-shakeout-is-a-stress-test-not-a-death-sentence",
-      "published": "Sun, 12 Apr 2026 17:30:00 +0000",
-      "summary": "Novozhenov argues that despite lingering governance, security and regulatory hurdles that have shuttered several protocols, DeFi remains resilient.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-4649",
-      "title": "Could Buying Bitcoin Today Still Set You Up for Life? - The Motley Fool",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNy1DZlQ1ZnV1N0Z2a2s5VEc0NkJXVTBDdUJMY1psNkFBWGpGTG1TTU1mbUFQeFMxMVdqTTFLTHBHeXViZlk0bXlFSG55R0o1eUFGMVRyQzNsRGFLWVZpYTlaTExMLWJpb1JjRkhHSF9ZNlpQLWhHZ0tybHdDTmJ6cTZjY0FqcGo5ZW5ZUmFLYUpKNFlMZWJ0ag?oc=5",
-      "published": "Sun, 12 Apr 2026 17:09:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-77597",
-      "title": "Bitcoin price news: BTC adds to weekend losses on Trump blockade order - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRy1wRHJwWUpOclJpdEp2eU5lUkVnNGNBVUdCbmM2aEZHM09QYkR1cTJzaTFlUjA3UUhrMGtRcFlzZWM2aERWRm9YVHl5cWgwUHRxaV9hUFo5b3EzS1h2MnVMMlpXWFRVSE9QU2huQmZKdVdWbFpTQjV2Y182aWN2T2UtSm1PNGpERWhabzlMZ19UU3EyV0QtOWZENkpSN01tWi1Pcno1MG8zX3Rtd2JTdkZONElyN2lELVE?oc=5",
-      "published": "Sun, 12 Apr 2026 17:07:42 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-67224",
-      "title": "Strategy's Michael Saylor signals impending Bitcoin purchase - TradingView — Track All Markets",
-      "source": "TradingView — Track All Markets",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY3lpZ3JhNkdENkRnUHdnaklsRTBfdmgwV2VqX3JkamVxYmktUTlkbEpZZ094emZ0ZG5LejBJWVE4T0FwelR1Q21uQXNBOUZlMUNvSGpZRGdvWnNBRWJXOFhfak9QS1gzWW44LThpZTU0dUI5WUVlSXNrQUhTRy1Zc3ViUmFGSXJ1R2xsVVZ5eThycU5MN0E2bXRVVzJKOFFYMHdGbS1vTWtrSTZFZ3dYNWE0REo3MDdZaDBqSDhOdUtBZw?oc=5",
-      "published": "Sun, 12 Apr 2026 16:35:17 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-69468",
-      "title": "Is Strategy's Bitcoin Bet Brilliant, or Reckless? - Yahoo Finance",
+      "id": "gn-90074",
+      "title": "Scaramucci Cautions Against Bitcoin Anxiety: 'The Asset Didn't Change. The Price Did' - Yahoo Finance",
       "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV1BOY2ZpWWxQb2g5UV9MMFVFTjUxVUtabmlQaEZWVE1zdk5BNF9vd0p1Nl9aY3ZzTGxjR1BqU29LczUzOTNiZHducE05bEowVjRzbDhVYTJ0ZElRRUpGYVEyWWw0dWlSZ3p4NXU3TXBhR1NwQ0pydVRQZnM4VEtZU0thZ1d1WERmM01wOXB5ZVFBeFpZdWJrYnp0LTYwUGpSU1VoSlU0Yzg?oc=5",
-      "published": "Sun, 12 Apr 2026 16:11:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUllzbkxoYXAwcng0NThvQkcyUlVkazRKZm0zTmVSMkw3WVh5NG05aVlTNV9BZDY0aHJVRDd0bVAzdWhiSGlWRE5CZUVCcmlac3lxRWxfdk5nX0drSFpvRlFiZ1RWYnN4eXQ0aXZQVmRoYXBhWVB2cEt3dm1OalUyV2J5SmNmcWhFZDdwMVBQU2RVbDBicGQtSUU2X3c5VjFZeWJFeWNybWVXcFND?oc=5",
+      "published": "Mon, 13 Apr 2026 22:01:05 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-54744",
-      "title": "Bitcoin miners face a tougher road to the 2028 halving",
+      "id": "gn-81366",
+      "title": "Where Will Bitcoin Be in 10 Years? - The Motley Fool",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZUlKd1EwSklfYk5MV2NOU040TW82X0FZVldoNEZ1cUFVdlVib0N5MkUxVGg3Ty05MmZoeThBMWVJdVB4amhOU0dUNTF6ZndoWWNpRHctMFVVQVZjdUl5NF9USkpBWTRKejhHX1pLN3pfSUE0cHNLbnVWMFYtX2pzeV93?oc=5",
+      "published": "Mon, 13 Apr 2026 21:28:44 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-6072",
+      "title": "Bitmine ramps up Ether buys, pushes holdings toward 5% of total supply",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-2028-halving-hits-the-halfway-point?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 15:00:00 +0100",
+      "url": "https://cointelegraph.com/news/bitmine-ramps-up-ether-buys-pushes-holdings-toward-5-of-total-supply?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 21:23:51 +0100",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-28722",
+      "title": "Bitmine ramps up Ether buys, pushes holdings toward 5% of total supply",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitmine-ramps-up-ether-buys-pushes-holdings-toward-5-of-total-supply?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 21:23:51 +0100",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-66518",
+      "title": "Price predictions 4/13: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/price-predictions-4-13-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 21:00:00 +0100",
+      "coins": [
+        "ETH",
+        "BNB",
+        "XRP",
+        "BTC",
+        "SOL"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-20553",
+      "title": "Price predictions 4/13: SPX, DXY, BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/price-predictions-4-13-spx-dxy-btc-eth-bnb-xrp-sol-doge-hype-ada?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 21:00:00 +0100",
+      "coins": [
+        "ETH",
+        "BNB",
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-46710",
+      "title": "Lib Dems call for inquiry into Farage Bitcoin deal - BBC",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82QkNEanRlbEZJbEtjUEJXTWZsdVdYclRLdjVrYWs3WVpRb1A0Wm5WV2s4Snp2WW1VMV9MR2FaMDV4RDEzR051S21MSE4yQUhWczdPMGF6YjNxdw?oc=5",
+      "published": "Mon, 13 Apr 2026 20:26:12 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-92739",
+      "title": "Kraken won‘t negotiate after extortion attempt with client data",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/kraken-extortion-attempt-but-funds-never-at-risk?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 20:23:05 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-54951",
+      "title": "Kraken won‘t negotiate after extortion attempt with client data",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/kraken-extortion-attempt-but-funds-never-at-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 20:23:05 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-98500",
+      "title": "This little-known token just posted a 6,000% rally — and traders are trying to figure out why",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/13/this-little-known-token-just-posted-a-6-000-rally-and-traders-are-trying-to-figure-out-why",
+      "published": "Mon, 13 Apr 2026 20:20:24 +0000",
+      "summary": "RAVE’s sudden surge into crypto’s top ranks has drawn intense attention, with a mix of unusual trading patterns, tight supply and market dynamics fueling debate over what’s really behind the move.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-55663",
+      "title": "BItcoin price news: BTC retakes $73,000 as oil gives up gains, stocks advance - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNWtCZEVpVFBucS1OR2k3RlFjQXhGVUNENGN3dnZxcVZISktMY1NKVlRXRWQ0dkc0bWltMFlLeUZKZk9TbGdsaC1mSFBSaVNsOFRVbTJHWVFKTHR5QXFldGJjTzdsLWh1THoyaV9ZZXI1NnM2WmNZODBnOVNGbUpFU3lfY2kxT19VM1J6ekRqUUs0VFZDOEpoTmNzSnVVWHd0TXF1QlNGZXV0WHZjbmFIYjJVNGJvYW9lTUJDYlNkSmVYMHZSZDJTLQ?oc=5",
+      "published": "Mon, 13 Apr 2026 20:04:22 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-86410",
+      "title": "Bitcoin's struggle to build long-lasting uptrend remain: Here’s why",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-s-struggle-to-build-long-lasting-uptrend-remain-here-s-why?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 20:00:00 +0100",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-17734",
-      "title": "Bitcoin miners face a tougher road to the 2028 halving",
+      "id": "ct-4253",
+      "title": "Bitcoin's struggle to build long-lasting uptrend remain: Here’s why",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-2028-halving-hits-the-halfway-point?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 15:00:00 +0100",
+      "url": "https://cointelegraph.com/news/bitcoin-s-struggle-to-build-long-lasting-uptrend-remain-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 20:00:00 +0100",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-33622",
-      "title": "Bitcoin may be forming a base at $65,000 as 'paper hands' have been flushed out",
+      "id": "cd-7431",
+      "title": "Bitcoin erases weekend decline, returns to $73,400 as oil retreats back under $100",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/07/oil-at-usd100-vs-bitcoin-at-usd70k-the-wild-ride-that-fidelity-strategist-says-is-a-real-buying-opportunity",
-      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "Jurrien Timmer, director of global macro at Fidelity Investments, says strong earnings are helping markets absorb geopolitical shocks, despite ongoing risks.",
+      "url": "https://www.coindesk.com/markets/2026/04/13/bitcoin-erases-weekend-decline-returns-to-usd73-400-as-oil-retreats-back-under-usd100",
+      "published": "Mon, 13 Apr 2026 19:59:33 +0000",
+      "summary": "Risk assets shrugged off the failed weekend negotiations between the U.S. and Iran, and the U.S. blockade of the Strait of Hormuz.",
       "coins": [
         "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "cd-6926",
-      "title": "Oil futures up 7% on Hyperliquid as Trump orders Naval blockade of Hormuz",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/12/oil-futures-up-7-on-hyperliquid-as-trump-orders-naval-blockade-of-hormuz",
-      "published": "Sun, 12 Apr 2026 14:16:28 +0000",
-      "summary": "Oil prices spiked on the Hyperliquid platform after President Donald Trump ordered a naval blockade of the Strait of Hormuz",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-54878",
-      "title": "Bitcoin Is Down 42% and Losing Steam. Here's What the Next 2 Years Could Realistically Look Like. - The Motley Fool",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU1owTy1ZRE1nXzREb3FGWDZmUmtRR3dSZG93OUFtSUowV1l3eW5NQ0hYbENieWNiOGhMZVloQ29RVXlTOWpRLWRVeFAxWFMxZUtXYkw3OWpJNkIyZDI3b0Fqb2Y5R2ZvNkExZjd1SDctQzVwcHpncWRKQmh5d2tIUEszSEVOWkR0dGZ1ZXI5RHNOV2tYTzhF?oc=5",
-      "published": "Sun, 12 Apr 2026 14:15:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-85660",
-      "title": "Market makers are fleeing public blockchains to protect their secret trading playbooks",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/12/market-makers-are-fleeing-public-blockchains-to-protect-their-secret-trading-playbooks",
-      "published": "Sun, 12 Apr 2026 14:00:00 +0000",
-      "summary": "Crypto trading is almost entirely public. One startup thinks it has borrowed an idea from Wall Street that could change that.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-8498",
-      "title": "Banks, corporates in Europe ‘actively selecting partners’ for stablecoin push",
+      "id": "ct-rss-84224",
+      "title": "Dormant Bitcoin wallets are the biggest quantum risk: Here is why",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/banks-corporates-europe-actively-selecting-partners-stablecoin-push?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 13:46:49 +0100",
-      "coins": [],
+      "url": "https://cointelegraph.com/explained/dormant-bitcoin-wallets-quantum-risk?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 19:30:24 +0100",
+      "coins": [
+        "BIT"
+      ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-80655",
-      "title": "Banks, corporates in Europe ‘actively selecting partners’ for stablecoin push",
+      "id": "ct-15907",
+      "title": "Dormant Bitcoin wallets are the biggest quantum risk: Here is why",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/banks-corporates-europe-actively-selecting-partners-stablecoin-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Sun, 12 Apr 2026 13:46:49 +0100",
-      "coins": [],
+      "url": "https://cointelegraph.com/explained/dormant-bitcoin-wallets-quantum-risk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 19:30:24 +0100",
+      "coins": [
+        "BTC"
+      ],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-51497",
-      "title": "Bitcoin slips below $71,000 as Trump orders U.S. to join Iran in blockade of Strait of Hormuz",
+      "id": "cd-56076",
+      "title": " Coinbase VP of international policy leaves for OpenAI",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-slips-below-usd71-000-as-trump-orders-blockade-of-strait-of-hormuz",
-      "published": "Sun, 12 Apr 2026 13:46:02 +0000",
-      "summary": "\"Effective immediately, the United States Navy ... will begin the process of blockading any and all ships trying to enter, or leave, the Strait of Hormuz,\" said the president in a social media post.",
-      "coins": [
-        "BTC"
-      ],
+      "url": "https://www.coindesk.com/policy/2026/04/13/coinbase-vp-of-international-policy-leaves-the-exchange-for-openai",
+      "published": "Mon, 13 Apr 2026 19:14:06 +0000",
+      "summary": "Tom Duff Gordon exited to join OpenAI as head of EMEA Policy, a spokesperson for Coinbase said.",
+      "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "gn-61065",
-      "title": "Bitcoin Is Down 42% and Losing Steam. Here's What the Next 2 Years Could Realistically Look Like. - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbVpNcDg2OFhKWEhIZ25HR0ZtdEZGM0l5dFc3T2pXVFBPLUpyRHZMTEtsZE1TbEg3T0ZXekEycXU5OVdna05XQ2hjU2JDOHUxOUdPam80TmpWZ0VIYjl3cnAxdGFXZEVIUzdYNF85QVF0U0pDUDl6eE5UdHFfeWUycDlON0NjQVVZQzBBRGVxUGJ5TFIwcHlfdQ?oc=5",
-      "published": "Sun, 12 Apr 2026 13:35:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
+      "id": "cd-94222",
+      "title": "Crypto wallet firm Exodus sues W3C and its CEO Garth Howat, seeking to compel $175M acquisition ",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/04/13/crypto-wallet-firm-exodus-sues-w3c-and-its-ceo-garth-howat-to-complete-usd175m-acquisition",
+      "published": "Mon, 13 Apr 2026 19:04:07 +0000",
+      "summary": "A lawsuit in the Delaware Court of Chancery seeks to compel Howat to comply with obligations under the November 24, 2025 Stock Purchase Agreement. ",
+      "coins": [],
+      "provider": "coindesk"
     },
     {
-      "id": "cd-14180",
-      "title": "Bitcoin analysts flag triggers for a massive surge to $88,000 even as war risks linger",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/12/bitcoin-analysts-flag-triggers-for-a-massive-surge-to-usd88-000-even-as-war-risks-linger",
-      "published": "Sun, 12 Apr 2026 13:21:19 +0000",
-      "summary": "Key factors, such as ETF flows, macro factors and on-chain supply favor a rally in bitcoin even as war risks linger. ",
+      "id": "ct-rss-26916",
+      "title": "Bitcoin shorts above $70K at risk since ‘90% of downside’ is already complete",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-shorts-above-70k-at-risk-since-90-of-downside-is-already-complete?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 19:00:00 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-97490",
+      "title": "Bitcoin shorts above $70K at risk since ‘90% of downside’ is already complete",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-shorts-above-70k-at-risk-since-90-of-downside-is-already-complete?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Mon, 13 Apr 2026 19:00:00 +0100",
       "coins": [
         "BTC"
       ],
-      "provider": "coindesk"
+      "provider": "cointelegraph"
     }
   ]
 }

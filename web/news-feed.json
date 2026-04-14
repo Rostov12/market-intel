@@ -1,127 +1,246 @@
 {
-  "date": "2026-04-13",
-  "fetched_at": "2026-04-13 01:28",
-  "mode": "bridge_from_breaking_news",
+  "updated_at": "2026-04-14 08:00",
+  "count": 30,
   "news": [
     {
-      "title": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - Yahoo Finance",
-      "impact": "bearish",
+      "title": "S&P 500 futures are little changed after index erases Iran war losses: Live updates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/stock-markets-today-live-updates.html",
+      "summary": "Wall Street once again proved resilient in the face of increased geopolitical uncertainty.",
+      "detected_at": "2026-04-14T08:00:16.625706+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Jim Cramer says this is the real reason why stocks are shrugging off Iran war fears",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/jim-cramer-stocks-rallying-despite-iran-war-why.html",
+      "summary": "\"If interest rates were spiking, this market would be very different,\" CNBC's Jim Cramer said Monday.",
+      "detected_at": "2026-04-14T08:00:16.625706+08:00",
+      "level": "high"
+    },
+    {
+      "title": "〈 美股盤後〉川普聲稱伊朗來電盼達協議 道瓊漲超300點 標普收復伊朗戰爭以來所有失地 - news.cnyes.com",
+      "source": "鉅亨網",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wVVFQS1Fpd09ueWlaUEFyRFNfTE8yY1p5NGh1VlZzNkFLU0RWQXRVT19wR1pPMXZGRlFQcnE0eG02QmZGUlJOajZGcUYwR0E?oc=5",
+      "summary": "〈 美股盤後〉川普聲稱伊朗來電盼達協議 道瓊漲超300點 標普收復伊朗戰爭以來所有失地&nbsp;&nbsp;news.cnyes.com",
+      "detected_at": "2026-04-14T08:00:16.625706+08:00",
+      "level": "high"
+    },
+    {
+      "title": "戰爭衝擊有限！貝萊德上調美股評等：科技股估值降至低點 企業獲利強勁 - news.cnyes.com",
+      "source": "鉅亨網",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5bTl0VFR5SEY4ZXV0dWNLZExWWU9NY1Y0ejRkcEhjLVJOakt2N3B0bGQxU0NOaThmdW5QbnRIWXk2OS1XeXdqYjNFQVBaSVU?oc=5",
+      "summary": "戰爭衝擊有限！貝萊德上調美股評等：科技股估值降至低點 企業獲利強勁&nbsp;&nbsp;news.cnyes.com",
+      "detected_at": "2026-04-14T08:00:16.625706+08:00",
+      "level": "high"
+    },
+    {
+      "title": "The Iran war is compounding California's energy crunch",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/the-iran-war-is-compounding-californias-energy-crunch.html",
+      "summary": "While the United States leans into its domestic crude oil production, one state is being left out to dry, California.",
+      "detected_at": "2026-04-14T04:00:12.507004+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. begins blockade in Strait of Hormuz; Trump warns Iran 'attack ships' to stay away",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/trump-iran-war-strait-of-hormuz-blockade.html",
+      "summary": "The U.S. blockade would apply to \"any and all Ships trying to enter, or leave, the Strait of Hormuz,\" President Donald Trump said.",
+      "detected_at": "2026-04-13T23:00:14.969265+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Middle East oil production plunges due to Iran war, OPEC data shows",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/iran-war-oil-opec-production-decline.html",
+      "summary": "The Gulf Arab states have cut production because they are unable to export through the Strait of Hormuz due to the war.",
+      "detected_at": "2026-04-13T23:00:14.969265+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. begins blockade of Strait of Hormuz",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/trump-iran-war-strait-of-hormuz-blockade.html",
+      "summary": "The U.S. blockade would apply to \"any and all Ships trying to enter, or leave, the Strait of Hormuz,\" President Donald Trump said.",
+      "detected_at": "2026-04-13T22:30:16.137131+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. blockade of Strait of Hormuz set to begin",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/trump-iran-war-strait-of-hormuz-blockade.html",
+      "summary": "The U.S. blockade, set to begin at 10 a.m. ET, will apply to \"any and all Ships trying to enter, or leave, the Strait of Hormuz,\" President Donald Trump said.",
+      "detected_at": "2026-04-13T21:30:14.428524+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. oil prices rise back above $104 a barrel after Trump threatens to blockade Strait of Hormuz",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-as-failed-deal-between-u-s-and-iran-raises-risk-of-prolonged-war-54d27150?mod=mw_rss_topstories",
+      "summary": "Oil prices were surging back above $100 per barrel on Monday morning after a breakdown in talks between the U.S. and Iran over the weekend.",
+      "detected_at": "2026-04-13T21:00:14.627238+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Dow futures fall 450 points after Trump announces Strait of Hormuz blockade as talks fail: Live updates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/12/stock-market-today-live-updates.html",
+      "summary": "All three major averages are coming off their best week since November on hopes that the conflict will soon come to an end.",
+      "detected_at": "2026-04-13T20:00:16.576986+08:00",
+      "level": "high"
+    },
+    {
+      "title": "UK 'not supporting' U.S. Iran blockade as France's Macron confirms 'multinational' talks on the Strait of Hormuz",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/13/uk-us-blockade-on-iranian-ports-iran-war-nato-.html",
+      "summary": "President Donald Trump had signaled that other countries would help the U.S. in its blockade.",
+      "detected_at": "2026-04-13T20:00:16.576986+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Why the stock market has stayed resilient despite the Iran war and software stock rout",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/12/jim-cramer-iran-war-software-stock-selloff-earnings-season-investing-club.html",
+      "summary": "In his Sunday column, Jim Cramer explored key battleground issues for the stock market such as the Iran war and software sell-off.",
+      "detected_at": "2026-04-13T20:00:16.576986+08:00",
+      "level": "high"
+    },
+    {
+      "title": "How the Iran War Compares With Past Market Shocks, in Charts - WSJ",
       "source": "Reuters",
-      "title_cn": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - Yahoo Finance"
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNVlMMzlwNTN0ZWkwVDlVMDQyQ3NDMWZjQUtYOFYwemxvZnRtQmN1OXpYNE5qWGhha1h5TXlJN0RUVkRHT0JfSEEtOUZ4RU1ObVBEZ1dNS3NPZEF2NEpYbjB6NFhVMkRkRFlYdlVMcUxQTHh5dHFFdU9nTUZseGhkcDJQZVdlU3RIUGdBMGVR?oc=5",
+      "summary": "How the Iran War Compares With Past Market Shocks, in Charts&nbsp;&nbsp;WSJ",
+      "detected_at": "2026-04-13T20:00:16.576986+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Oil prices rise as failed negotiations between U.S. and Iran raise risk of prolonged war",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/oil-prices-rise-as-failed-deal-between-u-s-and-iran-raises-risk-of-prolonged-war-54d27150?mod=mw_rss_topstories",
+      "summary": "West Texas Intermediate and Brent crude both climbed above $100 a barrel on Monday after a breakdown in talks between the U.S. and Iran over the weekend.",
+      "detected_at": "2026-04-13T20:00:16.576986+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Dow futures drop 500 points after Trump announces Strait of Hormuz blockade as talks fail: Live updates",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/12/stock-market-today-live-updates.html",
+      "summary": "All three major averages are coming off their best week since November on hopes that the conflict will soon come to an end.",
+      "detected_at": "2026-04-13T14:00:11.435903+08:00",
+      "level": "high"
+    },
+    {
+      "title": "2 stocks to consider buying that outperformed during the last stock market crash - Yahoo Finance UK",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjBmZVpYa01vaFVyN0NGQmhYalJMOFN1WWg1cVV0WWd0Q0FTS05mdXhESmRXRFRiX19kLXpkVnRtdWxzT0ZjVW1zS2tTNHVWdTM0Ym9CUjdfRTd2YnVBR1ZBZDJkMm81MTdrVkNQT0MySV9ac3FmeWtfcXEtRjlEU1hsTjFVSDRVRjNacnk1aw?oc=5",
+      "summary": "2 stocks to consider buying that outperformed during the last stock market crash&nbsp;&nbsp;Yahoo Finance UK",
+      "detected_at": "2026-04-13T10:00:13.445165+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump says he&#x2019;s closing the Strait of Hormuz. Has he been reading MarketWatch?",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/trump-says-hes-closing-the-strait-of-hormuz-has-he-been-reading-marketwatch-e059dd07?mod=mw_rss_topstories",
+      "summary": "News over the weekend illustrates once again the advantage of having oil stocks in your retirement accounts.",
+      "detected_at": "2026-04-13T08:30:10.838280+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war - Yahoo Finance",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWThqMWtFM2dWdU5IbXFkMDVVU3VVUVUybVpYQTB5YUN4eGgzRW03Z0k5S25JSlk5VW9FWXpPclhSeWJGT0ZFdWtDNnNlMFJuNVFKWDhPOE1jd1VicGowdzIyTkNGVmJWU1Q3VGFWbExENTZBa21GNTgwTUhIb2RqOW5ZekxMT2Fvdmt0emZOYVBobmp4bHJmR2hZQmU3MXhOUFBZOTA0OGNSNEw5NzFBWXZHaGk5UmVZZmxTZ1EwdjRoZFIzb016djg3RQ?oc=5",
+      "summary": "Trump 'pays attention to the stock market': Wall Street eyes signs of TACO amid Iran war&nbsp;&nbsp;Yahoo Finance",
+      "detected_at": "2026-04-13T01:00:09.496956+08:00",
+      "level": "high"
     },
     {
       "title": "Will we see a catastrophic stock market crash next week? - Yahoo Finance UK",
-      "impact": "bearish",
       "source": "Reuters",
-      "title_cn": "Will we see a catastrophic stock market crash next week? - Yahoo Finance UK"
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3p0cW9zNVUxTmFBT0UzYnNva3M5OWxYSHJ0dEN3Y0FfTXR1WW1uM0hta2lIM0tuYmJ0LW1jMGJrdjdvTHE0Um9lZXRzdE9wVkhIOWNYaUF2Z20ydTlmSnh6d1Z1SUZUTXNxNU9vaFhRVDNzRlRPU2o4d2VJbktGLWdqVGpabDdqckMyXw?oc=5",
+      "summary": "Will we see a catastrophic stock market crash next week?&nbsp;&nbsp;Yahoo Finance UK",
+      "detected_at": "2026-04-13T01:00:09.496956+08:00",
+      "level": "high"
     },
     {
       "title": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
-      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail"
+      "url": "https://www.cnbc.com/2026/04/12/trump-iran-war-strait-of-hormuz.html",
+      "summary": "Trump said the U.S. blockade will stop Iran from policing the strait and benefiting economically while the rest of the world suffers from its closure.",
+      "detected_at": "2026-04-13T00:00:16.974042+08:00",
+      "level": "high"
     },
     {
       "title": "Iraq elects Kurdish politician Nizar Amidi as president amid Iran war fallout",
-      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "Iraq elects Kurdish politician Nizar Amidi as president amid Iran war fallout"
+      "url": "https://www.cnbc.com/2026/04/11/iraq-elects-nizar-amidi-as-president-amid-war-fallout.html",
+      "summary": "Iraq's parliament voted Saturday to elect Nizar Amidi as president, five months after a parliamentary election that didn't produce a decisive majority.",
+      "detected_at": "2026-04-13T00:00:16.974042+08:00",
+      "level": "high"
     },
     {
       "title": "Trump announces blockade of Strait of Hormuz as Vance leaves Pakistan talks with no deal. How financial markets are reacting.",
-      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "Trump announces blockade of Strait of Hormuz as Vance leaves Pakistan talks with no deal. How financial markets are reacting."
+      "url": "https://www.marketwatch.com/story/vance-leaves-pakistan-talks-with-no-deal-how-financial-markets-are-reacting-ef6916b3?mod=mw_rss_topstories",
+      "summary": "As U.S.-Iran talks in Pakistan ended without a deal, U.S. stock futures were sliding and oil was climbing, based on trading via a crypto-based trading platform.",
+      "detected_at": "2026-04-13T00:00:16.974042+08:00",
+      "level": "high"
     },
     {
       "title": "United Airlines wants even higher ticket prices. It&#x2019;ll get them &#x2014; with or without the Iran war.",
-      "impact": "bearish",
       "source": "MarketWatch",
-      "title_cn": "United Airlines wants even higher ticket prices. It&#x2019;ll get them &#x2014; with or without the Iran war."
+      "url": "https://www.marketwatch.com/story/united-airlines-wants-even-higher-ticket-prices-itll-get-them-with-or-without-the-iran-war-4833e1d1?mod=mw_rss_topstories",
+      "summary": "United&#x2019;s new &#x2018;luxury&#x2019; strategy is a risky bet for investors when fares and complaints are sky-high.",
+      "detected_at": "2026-04-13T00:00:16.974042+08:00",
+      "level": "high"
     },
     {
       "title": "Chainalysis：使用加密货幣支付霍爾木茲過路費或面臨制裁 - cnyes.com",
-      "impact": "bearish",
       "source": "鉅亨網",
-      "title_cn": "Chainalysis：使用加密货幣支付霍爾木茲過路費或面臨制裁 - cnyes.com"
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5kS0JwYUhHa2FwUXpFSnplSXJ0WTIwRGtqUFZycTU3QXpRSWlsRUYzbkRkaTVncTVrRzF1SWpsNzF0RzRNLUs5dm5WSQ?oc=5",
+      "summary": "Chainalysis：使用加密货幣支付霍爾木茲過路費或面臨制裁&nbsp;&nbsp;cnyes.com",
+      "detected_at": "2026-04-11T21:30:14.182394+08:00",
+      "level": "high"
     },
     {
       "title": "What if Trump actually wanted this outcome in Hormuz all along?",
-      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "What if Trump actually wanted this outcome in Hormuz all along?"
+      "url": "https://www.marketwatch.com/story/what-if-trump-actually-wanted-this-outcome-in-hormuz-all-along-213902c6?mod=mw_rss_topstories",
+      "summary": "Cambridge University professor Helen Thompson says the consistent &#x2018;thread&#x2019; through the second Trump administration has been resetting the energy part of the world geopolitically.",
+      "detected_at": "2026-04-11T21:00:12.398352+08:00",
+      "level": "high"
     },
     {
       "title": "How do changing interest rates affect the stock market in 2026? - U.S. Bank",
-      "impact": "neutral",
       "source": "Reuters",
-      "title_cn": "How do changing interest rates affect the stock market in 2026? - U.S. Bank"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
+      "summary": "How do changing interest rates affect the stock market in 2026?&nbsp;&nbsp;U.S. Bank",
+      "detected_at": "2026-04-11T05:00:12.820234+08:00",
+      "level": "high"
     },
     {
       "title": "Iran defies Trump ahead of talks by doing a &#x2018;very poor job&#x2019; of opening Strait of Hormuz",
-      "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "Iran defies Trump ahead of talks by doing a &#x2018;very poor job&#x2019; of opening Strait of Hormuz"
+      "url": "https://www.marketwatch.com/story/iran-defies-trump-ahead-of-talks-by-doing-a-very-poor-job-of-opening-strait-of-hormuz-cb68be8f?mod=mw_rss_topstories",
+      "summary": "Ahead of U.S.-Iranian talks in Pakistan over the weekend, Iran&#x2019;s de facto control of the Strait of Hormuz remains a thorny issue, with traffic through the waterway still severely limited.",
+      "detected_at": "2026-04-11T04:00:12.786206+08:00",
+      "level": "high"
     },
     {
       "title": "White House warned staff against Iran war bets on prediction markets",
-      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "White House warned staff against Iran war bets on prediction markets"
+      "url": "https://www.cnbc.com/2026/04/10/iran-war-prediction-markets-white-house.html",
+      "summary": "The warning came after a flurry of unusual activity on oil and stock futures markets shortly before President Trump said he would pause attacks on Iran.",
+      "detected_at": "2026-04-11T01:30:13.210128+08:00",
+      "level": "high"
     },
     {
       "title": "Ireland gridlocked by fuel protests as Iran war drives prices higher",
-      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "Ireland gridlocked by fuel protests as Iran war drives prices higher"
-    },
-    {
-      "title": "White House warned staff against making Iran war bets on prediction markets",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "White House warned staff against making Iran war bets on prediction markets"
-    },
-    {
-      "title": "This options trade is a bet on oil prices falling once traffic picks up in the Strait of Hormuz",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "This options trade is a bet on oil prices falling once traffic picks up in the Strait of Hormuz"
-    },
-    {
-      "title": "Americans blame Iran war for worsening economy, pushing consumer sentiment to record low",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "Americans blame Iran war for worsening economy, pushing consumer sentiment to record low"
-    },
-    {
-      "title": "Americans blame Iran war for worsening economy, pushing sentiment to record low",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "Americans blame Iran war for worsening economy, pushing sentiment to record low"
-    },
-    {
-      "title": "Consumer sentiment hits record low, inflation fears rise amid Iran war",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "Consumer sentiment hits record low, inflation fears rise amid Iran war"
-    },
-    {
-      "title": "Vance expects U.S. negotiations with Iran on war will be ‘positive'",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "Vance expects U.S. negotiations with Iran on war will be ‘positive'"
-    },
-    {
-      "title": "Americans blame Iran war for worsening economic outlook, pushing sentiment down to  record low",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "Americans blame Iran war for worsening economic outlook, pushing sentiment down to  record low"
-    },
-    {
-      "title": "Defense's Silicon Valley pivot: Ukraine, Iran wars challenge the legacy playbook",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "Defense's Silicon Valley pivot: Ukraine, Iran wars challenge the legacy playbook"
+      "url": "https://www.cnbc.com/2026/04/10/ireland-fuel-prices-protest-blockade-cork-galway.html",
+      "summary": "Protestors are taking issue with the government's response to the spike in fuel prices since the onset of the Iran war.",
+      "detected_at": "2026-04-11T00:30:12.666583+08:00",
+      "level": "high"
     }
   ]
 }
