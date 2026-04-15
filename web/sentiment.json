@@ -1,68 +1,64 @@
 {
-  "date": "2026-04-14",
-  "generated_at": "2026-04-14 04:45",
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15 04:45",
   "composite": {
-    "score": -0.5,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": 0.5,
+    "label": "散戶偏多",
+    "contrarian_signal": "🟡小心追高"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-13",
       "2026-04-14",
-      "2026-04-15"
+      "2026-04-15",
+      "2026-04-16"
     ],
-    "total_calls_vol": 4180862,
-    "total_puts_vol": 5367450,
-    "pcr": 1.284,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 4633181,
+    "total_puts_vol": 4450367,
+    "pcr": 0.961,
+    "label": "散戶中性",
+    "signal": "中性"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 6,
-    "bear_words": 6,
-    "bull_pct": 50,
-    "label": "中性",
+    "bull_words": 7,
+    "bear_words": 3,
+    "bull_pct": 70,
+    "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "CAR",
-        "count": 1
-      },
-      {
-        "symbol": "NBIS",
+        "symbol": "RKLB",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/13 - 4/17",
-        "score": 177,
-        "upvote_ratio": 0.95
+        "score": 189,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 14th, 2026",
-        "score": 40,
-        "upvote_ratio": 0.93
-      },
-      {
-        "title": "You all have forgotten the Saddam-Bunker model for middle east conflicts.",
-        "score": 4454,
+        "title": "What Are Your Moves Tomorrow, April 15, 2026",
+        "score": 64,
         "upvote_ratio": 0.98
       },
       {
-        "title": "I'm sorry bears, back to hibernation",
-        "score": 2615,
-        "upvote_ratio": 0.97
+        "title": "I’m sorry bears.",
+        "score": 7246,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "Tried being a Bear and got shot in the woods",
-        "score": 810,
-        "upvote_ratio": 0.99
+        "title": "Why is oil going down? I am too regarded.",
+        "score": 930,
+        "upvote_ratio": 0.93
+      },
+      {
+        "title": "Amazon signs $11.57 billion deal for satellite firm Globalstar to challenge Musk",
+        "score": 985,
+        "upvote_ratio": 0.98
       }
     ]
   }

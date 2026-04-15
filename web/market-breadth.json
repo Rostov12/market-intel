@@ -1,17 +1,17 @@
 {
-  "date": "2026-04-14",
+  "date": "2026-04-15",
   "sample_size": 53,
   "errors": 0,
-  "advancing": 37,
-  "declining": 15,
+  "advancing": 31,
+  "declining": 21,
   "unchanged": 1,
-  "ad_ratio": 2.47,
-  "above_ma50": 33,
-  "above_ma200": 37,
-  "pct_above_ma50": 62.3,
-  "pct_above_ma200": 69.8,
+  "ad_ratio": 1.48,
+  "above_ma50": 31,
+  "above_ma200": 36,
+  "pct_above_ma50": 58.5,
+  "pct_above_ma200": 67.9,
   "new_52w_highs": 5,
-  "new_52w_lows": 1,
-  "breadth_score": 75,
-  "grade": "🟢 健康"
+  "new_52w_lows": 0,
+  "breadth_score": 69,
+  "grade": "🟡 中性"
 }

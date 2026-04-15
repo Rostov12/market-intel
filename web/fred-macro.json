@@ -1,15 +1,43 @@
 {
-  "date": "2026-04-14",
-  "fetched_at": "2026-04-14 04:55",
+  "date": "2026-04-15",
+  "fetched_at": "2026-04-15 04:55",
   "indicators": {
     "DGS10": {
       "name": "10Y殖利率",
       "unit": "%",
-      "value": 4.31,
-      "date": "2026-04-10",
-      "prev_value": 4.29,
-      "prev_date": "2026-04-09",
-      "change": 0.02
+      "value": 4.3,
+      "date": "2026-04-13",
+      "prev_value": 4.31,
+      "prev_date": "2026-04-10",
+      "change": -0.01
+    },
+    "DGS2": {
+      "name": "2Y殖利率",
+      "unit": "%",
+      "value": 3.78,
+      "date": "2026-04-13",
+      "prev_value": 3.81,
+      "prev_date": "2026-04-10",
+      "change": -0.03
+    },
+    "FEDFUNDS": {
+      "name": "聯邦基金利率",
+      "unit": "%",
+      "value": 3.64,
+      "date": "2026-03-01",
+      "prev_value": 3.64,
+      "prev_date": "2026-02-01",
+      "change": 0.0
+    },
+    "M2SL": {
+      "name": "M2貨幣供給",
+      "unit": "十億美元",
+      "value": 22667.3,
+      "date": "2026-02-01",
+      "prev_value": 22469.1,
+      "prev_date": "2026-01-01",
+      "change": 198.2,
+      "change_pct": 0.88
     },
     "WALCL": {
       "name": "Fed總資產",
@@ -21,16 +49,32 @@
       "change": 18527.0,
       "change_pct": 0.28
     },
+    "DTWEXBGS": {
+      "name": "美元指數(廣義)",
+      "unit": "index",
+      "value": 118.8552,
+      "date": "2026-04-10",
+      "prev_value": 118.8998,
+      "prev_date": "2026-04-09",
+      "change": -0.0446
+    },
     "T5YIE": {
       "name": "5Y通膨預期",
       "unit": "%",
-      "value": 2.58,
-      "date": "2026-04-10",
-      "prev_value": 2.56,
-      "prev_date": "2026-04-09",
-      "change": 0.02
+      "value": 2.61,
+      "date": "2026-04-13",
+      "prev_value": 2.58,
+      "prev_date": "2026-04-10",
+      "change": 0.03
+    },
+    "SPREAD_2Y10Y": {
+      "name": "2Y-10Y利差",
+      "unit": "%",
+      "value": 0.52,
+      "inverted": false,
+      "date": "2026-04-13"
     }
   },
-  "summary": "10Y殖利率: 4.31%（較前值 +0.02%）\n5Y通膨預期: 2.58%\nFed總資產: 6.69兆美元",
-  "count": 3
+  "summary": "10Y殖利率: 4.30%（較前值 -0.01%）\n2Y-10Y利差: +0.5200%（殖利率曲線正常）\n聯邦基金利率: 3.64%\n5Y通膨預期: 2.61%\nM2貨幣供給: 22,667B（MoM +0.88%）\nFed總資產: 6.69兆美元\n美元指數(廣義): 118.86（-0.04）",
+  "count": 8
 }
