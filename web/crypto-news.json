@@ -1,16 +1,261 @@
 {
   "date": "2026-04-15",
-  "updated_at": "2026-04-15 08:00",
-  "count": 30,
+  "updated_at": "2026-04-15T16:12:12.969005",
+  "count": 32,
   "sources": [
-    "cointelegraph-rss",
-    "google-news-crypto",
     "cointelegraph",
-    "coindesk"
+    "cointelegraph-rss",
+    "coindesk",
+    "google-news-crypto"
   ],
   "news": [
     {
-      "id": "ct-rss-7466",
+      "title": "OPEC lowers second-quarter global oil demand forecast on Iran war",
+      "source": "breaking (Reuters)",
+      "url": "",
+      "detected_at": "2026-04-15T13:32:40+08:00",
+      "summary": "油價需求下調，宏觀需求放緩信號",
+      "impact": "medium"
+    },
+    {
+      "title": "Bitcoin hits $73,000 on Middle East geopolitical relief and $350M ETF inflow",
+      "source": "breaking (I",
+      "url": "",
+      "detected_at": "2026-04-15T13:32:40+08:00",
+      "summary": "BTC 觸及 $73,000，中東局勢緩解 + 機構 ETF 流入 $350M 共同推動",
+      "impact": "high"
+    },
+    {
+      "id": "ct-rss-8538",
+      "title": "North Korean hackers used AI-enabled social engineering in Zerion attack",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/north-korean-hackers-use-ai-enabled-social-engineering-latest-attack?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:31:17 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-65695",
+      "title": "North Korean hackers used AI-enabled social engineering in Zerion attack",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/north-korean-hackers-use-ai-enabled-social-engineering-latest-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:31:17 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-81515",
+      "title": "X rolls out smart cashtags in US, Canada in step toward ‘everything app’",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/x-smart-cashtags-us-trading-canada-integration?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:29:43 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-14900",
+      "title": "X rolls out smart cashtags in US, Canada in step toward ‘everything app’",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/x-smart-cashtags-us-trading-canada-integration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:29:43 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-48809",
+      "title": "Crypto users targeted in ‘elaborate’ scam using popular notes app",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-users-targeted-elaborate-scam-popular-notes-app-obsidian?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:24:37 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-22713",
+      "title": "Crypto users targeted in ‘elaborate’ scam using popular notes app",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/crypto-users-targeted-elaborate-scam-popular-notes-app-obsidian?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:24:37 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-77776",
+      "title": "Apple removes fake Ledger app that stole $9.5M from crypto investors",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/apple-removes-fake-ledger-app-stole-9-million-from-users?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:01:17 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-61659",
+      "title": "Apple removes fake Ledger app that stole $9.5M from crypto investors",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/apple-removes-fake-ledger-app-stole-9-million-from-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 07:01:17 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-27462",
+      "title": "Switzerland’s Crypto Valley funding rose 37% in 2025 as TON led deals",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/switzerland-crypto-valley-funding-rose-37-percent-2025-ton-led-deals?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 06:45:00 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-20150",
+      "title": "Switzerland’s Crypto Valley funding rose 37% in 2025 as TON led deals",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/switzerland-crypto-valley-funding-rose-37-percent-2025-ton-led-deals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 06:45:00 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-607",
+      "title": "Ethereum treasury firm Bitmine reports $3.8 billion Q1 loss in latest filing",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/15/ethereum-treasury-firm-bitmine-reports-usd3-8-billion-q1-loss-in-latest-filing",
+      "published": "Wed, 15 Apr 2026 06:17:57 +0000",
+      "summary": "The largest corporate ether holder posted a $3.8 billion quarterly loss as its pivot from mining to ETH accumulation continues.",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-27019",
+      "title": "Bitcoin developers are trying to build quantum defenses. Your coins could pay the price.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/04/15/bitcoin-developers-are-trying-to-build-quantum-defenses-your-coins-could-pay-the-price",
+      "published": "Wed, 15 Apr 2026 06:05:03 +0000",
+      "summary": "A proposal has been updated on Bitcoin's official repository, calling for freezing of quantum-vulnerable coins. ",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-9842",
+      "title": "Bitcoiners propose freezing quantum-vulnerable coins in BIP-361",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 05:36:51 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-57104",
+      "title": "Bitcoiners propose freezing quantum-vulnerable coins in BIP-361",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-devs-and-researchers-propose-freezing-quantum-vulnerable-coins-bip-361?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 05:36:51 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-22909",
+      "title": "Iran conflict hints Bitcoin’s addressable market could exceed gold: Bitwise",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-addressable-market-could-exceed-gold-iran-conflict-bitwise?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 05:27:29 +0100",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-84390",
+      "title": "Iran conflict hints Bitcoin’s addressable market could exceed gold: Bitwise",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-addressable-market-could-exceed-gold-iran-conflict-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 05:27:29 +0100",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-84970",
+      "title": "Kraken boss signals IPO still in play despite reports of pause",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/kraken-boss-hints-ipo-plan-still-on?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 05:00:45 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-16837",
+      "title": "Kraken boss signals IPO still in play despite reports of pause",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/kraken-boss-hints-ipo-plan-still-on?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 05:00:45 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-30357",
+      "title": "XRP climbs toward $1.38 as Japan's Rakuten integrates token for payments",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/15/xrp-climbs-toward-usd1-38-as-japan-s-rakuten-integrates-token-into-payments",
+      "published": "Wed, 15 Apr 2026 04:53:03 +0000",
+      "summary": "Breakout backed by institutional flows and whale buying, with Japan adoption adding a fresh demand narrative.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-25543",
+      "title": "Ether-bitcoin ratio bounces from 2026 lows, signaling broader crypto recovery",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/15/ether-bitcoin-ratio-bounces-from-2026-lows-in-signs-of-broader-crypto-recovery",
+      "published": "Wed, 15 Apr 2026 04:41:06 +0000",
+      "summary": "The ETH/BTC ratio hit its highest since January as Ethereum's network added 284,000 new users in Q1 and stablecoin supply reached a record $180 billion.",
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-96790",
+      "title": "Crypto, banks continue Senate bill spat with new proposal concerns: Report",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-banks-continue-senate-bill-spat-with-new-proposal-concerns-report?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 04:33:24 +0100",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-74570",
+      "title": "Crypto, banks continue Senate bill spat with new proposal concerns: Report",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/crypto-banks-continue-senate-bill-spat-with-new-proposal-concerns-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 15 Apr 2026 04:33:24 +0100",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-53774",
+      "title": "SOL, ADA, DOGE pull back, bitcoin holds above $74,000 as Asia recoups Iran war losses",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/15/sol-ada-doge-pullback-bitcoin-holds-above-usd74-000-as-asia-recoups-iran-war-losses",
+      "published": "Wed, 15 Apr 2026 04:04:19 +0000",
+      "summary": "China's CSI 300 joins Taiwan and Singapore in erasing war-related declines as US-Iran talk optimism keeps oil below $100; spot ETFs posted $471 million in single-day inflows last week.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-98034",
       "title": "Bitcoin shows ‘bull market behavior’ as chart pattern targets $90K",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-shows-bull-market-behavior-as-chart-pattern-targets-dollar90k?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -21,7 +266,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-98269",
+      "id": "ct-16040",
       "title": "Bitcoin shows ‘bull market behavior’ as chart pattern targets $90K",
       "source": "CoinTelegraph",
       "url": "https://cointelegraph.com/news/bitcoin-shows-bull-market-behavior-as-chart-pattern-targets-dollar90k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -32,19 +277,19 @@
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-56277",
+      "id": "gn-80295",
       "title": "Bitcoin price news: BTC price target cut to $112,000 at Citigroup; ETH trimmed to $3,175 - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaUxraVdUb1VxdHV0ZnVsakpub3lJMzBLdlhTc2x4OFhmSHJLajhyMm8xMnk3OGE3NmNCdjViaExvdmt1SmJoQUw0R2RKa1oyN3RUZjdvQWg2LVZ4Z29idW5rTUNnQUVuWktFN1FlNk1ZeVJmU1FqM0c1TlpseTNMMGEyTThaSjZPb3pvdnVHNTJOLWNhemV6LXQzSUxTdlRxbnk3ckpHeDV3YXdZUFhpUA?oc=5",
       "published": "Tue, 17 Mar 2026 07:00:00 GMT",
       "coins": [
-        "ETH",
-        "BTC"
+        "BTC",
+        "ETH"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-83567",
+      "id": "ct-rss-10827",
       "title": "WLFI may drop 20% as World Liberty Financial faces 'LUNA 2.0' allegations",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/world-liberty-financial-s-wlfi-token-risks-20-price-drop?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -53,16 +298,7 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-39309",
-      "title": "WLFI may drop 20% as World Liberty Financial faces 'LUNA 2.0' allegations",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/world-liberty-financial-s-wlfi-token-risks-20-price-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 23:15:00 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-42722",
+      "id": "gn-30661",
       "title": "Bitcoin price: BTC pulls back after breakout attempt, but larger move could be in store - CoinDesk",
       "source": "CoinDesk",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa3hnNlV1c21fWmVIT2VMNFUyX25PTjliaUgxTjVuczF4WnVReWhDSU1tNnlaTkxQS0ZJOTBfejNYMC1RM2VlUUFmSXdIODVLemd4V1pOTVlodzZkV3pzdXoxMWpvQlBZU0psVHhpWjhpUXVLOXJpR3cwbm01cm9kV1duLV9pczlfdC1ZWXNRTEpmNF9JQ2dUdUxDNE5KLTI1U0pxLUpJZzdfNi1PbnZndEJPdGtUbURqeDZHVHpFOFU0RDZkUTgw?oc=5",
@@ -73,7 +309,7 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-33576",
+      "id": "ct-rss-20670",
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
@@ -82,239 +318,13 @@
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-16577",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 22:44:44 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-33452",
+      "id": "ct-rss-69925",
       "title": "Paxos Labs to use $12M raise toward yield, lending, issuance tools",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/paxos-labs-raises-12m-to-launch-platform-for-turning-digital-assets-into-financial-products?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
       "published": "Tue, 14 Apr 2026 22:29:32 +0100",
       "coins": [],
       "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-94674",
-      "title": "Paxos Labs to use $12M raise toward yield, lending, issuance tools",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/paxos-labs-raises-12m-to-launch-platform-for-turning-digital-assets-into-financial-products?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 22:29:32 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-55179",
-      "title": "Bitcoin’s brief rally to $76K may have been a bull trap: Here’s the data",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-s-brief-rally-to-dollar76k-may-have-been-a-bull-trap-here-s-the-data?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 22:15:00 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-40771",
-      "title": "Bitcoin’s brief rally to $76K may have been a bull trap: Here’s the data",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/bitcoin-s-brief-rally-to-dollar76k-may-have-been-a-bull-trap-here-s-the-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 22:15:00 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-15276",
-      "title": "DAO behind CoW Swap urges users to stay off platform after ‘hijacking‘",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/cow-swap-dao-domain-hijacking?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 21:14:59 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-rss-34960",
-      "title": "HYPE hits 2026 high as Hyperliquid volumes soar: Is the rally sustainable?",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/hype-hits-2026-high-as-hyperliquid-volumes-soar-is-the-rally-sustainable?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 21:14:59 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-48796",
-      "title": "DAO behind CoW Swap urges users to stay off platform after ‘hijacking‘",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/cow-swap-dao-domain-hijacking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 21:14:59 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-5492",
-      "title": "HYPE hits 2026 high as Hyperliquid volumes soar: Is the rally sustainable?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/hype-hits-2026-high-as-hyperliquid-volumes-soar-is-the-rally-sustainable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 21:14:59 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-3647",
-      "title": "Federal Reserve chair nominee's disclosure includes crypto and AI holdings",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/federal-reserve-chair-nominee-discloses-holdings-in-crypto-and-ai?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 20:55:56 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-57819",
-      "title": "Federal Reserve chair nominee's disclosure includes crypto and AI holdings",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/federal-reserve-chair-nominee-discloses-holdings-in-crypto-and-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 20:55:56 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-61656",
-      "title": "Goldman Sachs files for its first bitcoin ETF product - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVEtCaUZlaFNON25LX2dOUjYxTF9FRkhGS3M1cjVDMDZiWHk5aXVWMXUtVlhEUmsxSS0yMlFaUU8tYVRmajhPM3ZPbTFrTklBTG95bzJNdVFoVXRTRU1maG5XTWVNd0Q2c3lkV1R4SGNVRnVJQWhXS2l3WFVWVWtHOFNqREpIZl9xbW1CYm54SUZ5aFByaGROekJZTG13MlFuSkk2dUQ2ZWU?oc=5",
-      "published": "Tue, 14 Apr 2026 20:47:49 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-78385",
-      "title": "Iran wants Bitcoin for Hormuz ransom. That will send Bitcoin price to $1m, says Bitwise - dlnews.com",
-      "source": "dlnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbmpDZlVJR1gxdHVZd2ZQaE1WdG5VTUJOZ05zZHphTExkeE5HdENrZktrVlhBcWVZNkZmaUFidnliei1OVDZEWXB1cWw4MmpZaXFFNXV0Mmh1TjIyMGJDalhIVjdmVnpaeHVsSzYxbkU0cmVqQnhrSUw5NHgwRUN6RS1jSXQyTWN2c2JV?oc=5",
-      "published": "Tue, 14 Apr 2026 20:43:47 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-13534",
-      "title": "Goldman Sachs to use options strategy for planned Bitcoin income ETF",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/goldman-sachs-files-for-bitcoin-income-etf-using-options-strategy?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 20:27:54 +0100",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-11000",
-      "title": "Goldman Sachs to use options strategy for planned Bitcoin income ETF",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/goldman-sachs-files-for-bitcoin-income-etf-using-options-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 20:27:54 +0100",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-87179",
-      "title": "Bitcoin's $76,000 breakout fails but a rare signal is hinting at major market bottom",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-usd75-000-breakout-fails-but-a-rare-signal-is-hinting-at-major-market-bottom",
-      "published": "Tue, 14 Apr 2026 20:09:28 +0000",
-      "summary": "Derivatives funding rates have now remained negative for 46 days, a streak last seen following the FTX crash which marked the bottom of 2022's crypto winter.",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-49529",
-      "title": "Kraken Reportedly Confirms Confidential IPO Filing As Valuation Falls To $13.3B - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82dXRsMnZ5cFZsREQ0ZC13RGdwWVE3MFhpNV82MmZJSlBFWVBES2RkOW9tRzRSZXZlX2c0WUFUd2l0RV9ORUxnUnhyWnRxVDRFdDBwcDQxZ2puUGxfNGZ1Y05xNmpQcHlOUGpWa2tDbDhlMXE2cWRicHFR?oc=5",
-      "published": "Tue, 14 Apr 2026 20:00:51 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-81268",
-      "title": "Crypto.com gets into prediction markets through High Roller tie-up",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-exchange-prediction-markets-high-roller?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 19:46:32 +0100",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-74434",
-      "title": "Crypto.com gets into prediction markets through High Roller tie-up",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-exchange-prediction-markets-high-roller?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 19:46:32 +0100",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-12350",
-      "title": "The next Fed chair has crypto exposure in his portfolio. Here are the details",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/04/14/the-next-fed-chair-has-a-crypto-portfolio-here-s-everything-that-s-in-it",
-      "published": "Tue, 14 Apr 2026 18:57:56 +0000",
-      "summary": "Kevin Warsh's financial disclosure reveals stakes in DeFi protocols, Ethereum scaling networks, a Bitcoin Lightning startup, and prediction markets — all of which he's promised to sell.",
-      "coins": [
-        "ETH",
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-77915",
-      "title": "Rakuten to allow XRP to be used as payment method by its 44 million customers",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/04/14/rakuten-to-allow-xrp-to-be-used-as-payment-method-by-its-44-million-customers",
-      "published": "Tue, 14 Apr 2026 18:46:41 +0000",
-      "summary": "Rakuten Pay users will also be able to spot trade XRP via the Rakuten Pay app and exchange the Japanese e-commerce giant’s points to purchase Ripple’s token",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-20901",
-      "title": "Ether replays 2025 fractal that sparked 250% ETH price rally",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ether-replays-2025-fractal-that-sparked-250percent-eth-price-rally?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 14 Apr 2026 18:45:00 +0100",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "gn-76424",
-      "title": "Goldman Sachs makes surprise jump into Bitcoin ETFs with a product one analyst dubs ‘boomer candy’ - Fortune",
-      "source": "Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9LVjNJX1doWFl4cE91ZTM2M0hJNGF0bTlhZW5TV0FUNGZUNVBQYnFjc25OQU03SVc0Z0pvZmQ3WVZkS05QZUZVMTJnOExtdzVRWGZ3aUZRR0JQb29iTkNnSlFsT0N6Y2NuOUd1NHR0RlZDdkRLOVlkYzl3?oc=5",
-      "published": "Tue, 14 Apr 2026 18:31:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
     }
   ]
 }

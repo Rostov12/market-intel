@@ -1,246 +1,167 @@
 {
-  "updated_at": "2026-04-15 08:00",
-  "count": 30,
+  "date": "2026-04-16",
+  "fetched_at": "2026-04-16 01:46",
+  "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
-      "summary": "Anthropic rolled out the new Mythos AI model to a select group of companies over concerns that hackers could exploit its capabilities.",
-      "detected_at": "2026-04-15T08:00:12.145692+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Stocks Cap March With ‘Hormuz Hope’ Rally on Possible End to Middle East Conflict - WSJ",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3BJOURmV0t5Q3hNR204RjIwZy1MS085NC1WT1gwTzVrZG1VdDZDY3FnMXQ0U2lWLVpMbnRNMm92b29sZ2VFbzJIR2NjSkFFZXpQWkdYS1NiUTZWSG9zRkJxZ1VMUXNXQXowMEJwVzMyVFA5ZVpTNGM3UnhjTEV1T3dDa3ZrUXBrSzlsSFQzcEwtN29ObFFHaUlXTVlJRVpyRlBGVTkyQ2FoM1VGRnZ0NQ?oc=5",
-      "summary": "Stocks Cap March With ‘Hormuz Hope’ Rally on Possible End to Middle East Conflict&nbsp;&nbsp;WSJ",
-      "detected_at": "2026-04-15T05:00:14.799125+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Amazon&#x2019;s stock is on its best run since 2022 as Globalstar acquisition fuels rally",
+      "title": "Powell&#x2019;s term as Fed chair is coming to an end. Trump wants to fire him anyway.",
+      "impact": "neutral",
       "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/amazons-stock-is-on-its-best-run-since-2022-as-globalstar-acquisition-fuels-rally-5d5f22b1?mod=mw_rss_topstories",
-      "summary": "Amazon.com&#x2019;s latest acquisition of a satellite operator has helped power a winning streak for the tech giant, as shares of the company rallied for the seventh consecutive day on Tuesday.",
-      "detected_at": "2026-04-15T05:00:14.799125+08:00",
-      "level": "high"
+      "title_cn": "鮑威爾的聯準會主席任期即將結束。無論如何，川普想解僱他。",
+      "time": "01:30",
+      "detected_at": "2026-04-16T01:30:17.551855+08:00"
     },
     {
-      "title": "Will we see a catastrophic stock market crash next week? - Yahoo Finance UK",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3p0cW9zNVUxTmFBT0UzYnNva3M5OWxYSHJ0dEN3Y0FfTXR1WW1uM0hta2lIM0tuYmJ0LW1jMGJrdjdvTHE0Um9lZXRzdE9wVkhIOWNYaUF2Z20ydTlmSnh6d1Z1SUZUTXNxNU9vaFhRVDNzRlRPU2o4d2VJbktGLWdqVGpabDdqckMyXw?oc=5",
-      "summary": "Will we see a catastrophic stock market crash next week?&nbsp;&nbsp;Yahoo Finance UK",
-      "detected_at": "2026-04-15T02:30:13.429199+08:00",
-      "level": "high"
+      "title": "Oil prices edge up as Hormuz shipping constraints counter US-Iran peace hopes By Reuters - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "霍爾木茲航運限制阻礙美伊和平希望，油價小漲 路透 - Investing.com",
+      "time": "01:30",
+      "detected_at": "2026-04-16T01:30:17.551855+08:00"
     },
     {
-      "title": "Be ready for a violent stock market crash - Yahoo Finance UK",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbGdqVWUybnJha2NWTG84ZmI3MUVXRGg0TkozaTBBQnN4Sk9oTEo2bHZmU0ZZZGFnWDZMMlJxRF9LOFg0c3JfVG42S3NBeTJMRFJYczU2VDBHTVF6cXFRSWVfSWNFOXByRmdPTnV3bDVOVXJMUEtqR1VzcXNreldWcGMwSEFjeV9N?oc=5",
-      "summary": "Be ready for a violent stock market crash&nbsp;&nbsp;Yahoo Finance UK",
-      "detected_at": "2026-04-15T00:30:12.033811+08:00",
-      "level": "high"
+      "title": "The S&P 500 Has Erased Every Loss From the Iran War. Here Is Why Long-Term Investors Who Stayed the Course Are Being Rewarded Right Now - The Motley Fool",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "標準普爾 500 指數已經抹去了伊朗戰爭造成的所有損失。這就是為什麼堅持到底的長期投資者現在正在獲得回報 - 96配資",
+      "time": "01:30",
+      "detected_at": "2026-04-16T01:30:17.551855+08:00"
     },
     {
-      "title": "Treasury Secretary Bessent backs rate cuts but says he understands if the Fed wants to wait",
+      "title": "Trump says he thought oil prices would be ‘much worse’ amid Iran war - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普表示，他認為伊朗戰爭期間油價會「糟糕得多」 - 國會山",
+      "time": "01:30",
+      "detected_at": "2026-04-16T01:30:17.551855+08:00"
+    },
+    {
+      "title": "Oil prices edge up as Hormuz shipping constraints counter US-Iran peace hopes - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "霍爾木茲航運限制阻礙美伊和平希望，油價小漲 - 路透社中文網",
+      "time": "01:00",
+      "detected_at": "2026-04-16T01:00:19.204642+08:00"
+    },
+    {
+      "title": "Senate GOP divided over Trump push for Iran war funding - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "參議院共和黨在川普推動伊朗戰爭資金問題上存在分歧 - 國會山莊",
+      "time": "01:00",
+      "detected_at": "2026-04-16T01:00:19.204642+08:00"
+    },
+    {
+      "title": "Starmer says he's 'not going to yield' to pressure from Trump on Iran war - BBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "史塔默表示，他「不會屈服於」川普在伊朗戰爭問題上的壓力 - BBC",
+      "time": "01:00",
+      "detected_at": "2026-04-16T01:00:19.204642+08:00"
+    },
+    {
+      "title": "Here are all the ways the Iran war has affected the U.S. economy so far",
+      "impact": "bearish",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/treasury-secretary-bessent-now-says-its-ok-for-the-fed-to-wait-to-lower-rates-amid-oil-surge.html",
-      "summary": "Bessent has previously said the Fed should hasten cutting interest rates, calling reductions \"the only ingredient missing\" for stronger economic growth.",
-      "detected_at": "2026-04-14T23:30:11.224758+08:00",
-      "level": "high"
+      "title_cn": "以下是迄今為止伊朗戰爭影響美國經濟的所有方式",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "Global recession is inevitable if Strait of Hormuz stays shut, says Citadel's Ken Griffin",
+      "title": "Jeanine Pirro pursues Fed pressure while clock ticks on her appeal in Powell probe",
+      "impact": "neutral",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/citadels-ken-griffin-global-recession-inevitable-if-strait-of-hormuz-stays-shut.html",
-      "summary": "A prolonged blockage of the Strait of Hormuz for the next six to 12 months will mean an unavoidable recession, the billionaire investor said.",
-      "detected_at": "2026-04-14T23:00:14.104049+08:00",
-      "level": "high"
+      "title_cn": "珍妮·皮羅 (Jeanine Pirro) 在鮑威爾調查中上訴時尋求美聯儲施壓",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "S&P 500 marches higher one day after benchmark wipes out Iran war losses: Live updates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/stock-markets-today-live-updates.html",
-      "summary": "Wall Street once again proved resilient in the face of increased geopolitical uncertainty.",
-      "detected_at": "2026-04-14T23:00:14.104049+08:00",
-      "level": "high"
+      "title": "UK finance minister Rachel Reeves blasts Trump administration over economic impact of Iran war",
+      "impact": "bearish",
+      "source": "CNBC-World",
+      "title_cn": "英國財政部長雷切爾·里夫斯抨擊川普政府伊朗戰爭對經濟的影響",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "花旗集團上調美股評級，理由是「美伊戰爭終將停止」 - news.cnyes.com",
-      "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUM0Iyb3diMmhXeXE4bFE4Y1lCOWVZQ1pkSDBEYTAyemRkTUNnX01RbnlETzVidHpJZUlmS0N4QVNZWFgycDdsM3VVS0ZnTnM?oc=5",
-      "summary": "花旗集團上調美股評級，理由是「美伊戰爭終將停止」&nbsp;&nbsp;news.cnyes.com",
-      "detected_at": "2026-04-14T22:30:11.771684+08:00",
-      "level": "high"
+      "title": "Oil prices stable as Hormuz shipping constraints counter hopes for US-Iran talks By Reuters - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "霍爾木茲航運限制削弱了美伊談判的希望，油價穩定 路透社 - Investing.com",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "市場押注中東戰爭有望結束 美股早盤走揚 - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdW5tRzItY3RJYzdmQVhTT3l1end2YVhZbEFKM3VfcVAzZ1YzQllKMG9ISDM1OGszWTYyTDh5MUkyYjFpVFhNUkN4akV3eDZnV1UzaEtnSmhmWTJyU3RPbDUxeHRRWWVDYXA3UEFMdWZia3M1Q0E4V3hhTF9VWUM1RNIBYkFVX3lxTE5QYlpULW8teGdXeTh0SlE3S2c4VmItRWhrMjNGTTgxOGRQZTBkYW9Rd01ock40YnFXbWJGblNhZnl0em1YVFBZdXZSamZNMk9aNXgwRXZMdGppdzFvREpVTl9R?oc=5",
-      "summary": "市場押注中東戰爭有望結束 美股早盤走揚&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-14T22:30:11.771684+08:00",
-      "level": "high"
+      "title": "Trump Threatens to Fire Powell If He Doesn’t Step Down From Fed - Bloomberg",
+      "impact": "neutral",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "川普威脅鮑威爾，如果他不辭去聯準會職務，他將被解僱 - 彭博社",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "S&P 500 continues higher one day after benchmark wipes out Iran war losses: Live updates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/stock-markets-today-live-updates.html",
-      "summary": "Wall Street once again proved resilient in the face of increased geopolitical uncertainty.",
-      "detected_at": "2026-04-14T22:00:16.825674+08:00",
-      "level": "high"
+      "title": "Yellen Still Sees Chance of a Fed Cut This Year Amid Oil Shock - Bloomberg",
+      "impact": "neutral",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "耶倫仍認為聯準會今年在石油危機中降息的機會 - 彭博社",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "Citigroup upgrades the U.S. stock market, citing 'eventual cessation' of U.S.-Iran war",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/citi-upgrades-us-stocks-citing-eventual-cessation-of-us-iran-war.html",
-      "summary": "The U.S. stock market is once again the place to be, it seems.",
-      "detected_at": "2026-04-14T22:00:16.825674+08:00",
-      "level": "high"
+      "title": "Iran warns US naval blockade threatens ceasefire - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗警告美國海上封鎖威脅停火 - 半島電視台",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "Iran war will hit UK growth the hardest of any rich economies, IMF says",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/uk-downgrade-iran-war-uk-growth-middle-east-conflict-global-economy.html",
-      "summary": "The IMF said that the U.K. will be hardest hit out of all developed economies as a result of the Iran war.",
-      "detected_at": "2026-04-14T22:00:16.825674+08:00",
-      "level": "high"
+      "title": "Live - Regional powers push diplomacy as Trump says Iran war ‘close to over’ - ایران اینترنشنال",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "直播 - 川普稱伊朗戰爭“接近結束”，地區大國推動外交",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "S&P 500 futures continue higher a day after benchmark wipes out Iran war losses: Live updates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/stock-markets-today-live-updates.html",
-      "summary": "Wall Street once again proved resilient in the face of increased geopolitical uncertainty.",
-      "detected_at": "2026-04-14T21:30:14.150708+08:00",
-      "level": "high"
+      "title": "One week into the ceasefire, is the end of the Iran war any closer? - Yahoo",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "停火一週後，伊朗戰爭是否更接近結束？ - 雅虎",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "The U.S.-Iran war dealt a big blow to the global economy. The IMF tells us how bad it could get.",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/the-u-s-iran-war-dealt-a-big-blow-to-the-global-economy-the-imf-tells-us-how-bad-it-could-get-496892dd?mod=mw_rss_topstories",
-      "summary": "The U.S. and global economies were poised to accelerate this year before the Iran war. But now, a global watchdog warns of big trouble if a peace deal proves elusive and the conflict gets any worse.",
-      "detected_at": "2026-04-14T21:30:14.150708+08:00",
-      "level": "high"
+      "title": "Wall Street sank on Iran war fears. Now it’s surging. Here’s why - CNN",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "華爾街因伊朗戰爭擔憂而下跌。現在它正在飆升。這就是原因 - CNN",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "JPMorgan says this U.S. chemical stock stands to benefit from Iran war supply disruption",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/jpmorgan-says-chemical-stock-to-win-from-iran-war-supply-disruption.html",
-      "summary": "Eastman Chemical shares will rise thanks to higher prices of several chemicals that it produces, according to the bank.",
-      "detected_at": "2026-04-14T21:00:13.132951+08:00",
-      "level": "high"
+      "title": "Big US banks rake in near $50bn profit as Iran war shakes markets - The Guardian",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭震撼市場，美國大型銀行賺近 500 億美元利潤 - 英國衛報",
+      "time": "00:28",
+      "detected_at": "2026-04-16T00:28:50.593564+08:00"
     },
     {
-      "title": "How do changing interest rates affect the stock market in 2026? - U.S. Bank",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVVJpa2pCR3B0TmxRZGlpSmRZaFctZ21ybGtrVUVBMFozZ0xiSGFRY0ZZdGNWaV80dnhHUTR2TTVoSnZEU190aGtMamY2MDAxT0hYYzRXcUl5OUEyOGRGYWlBbm54T3ppaEZWRWtyV01EOEJGcVRaM2xROWlCX2FxSFYxX1NXeUQwZmJLS3pqcGhCWjR5RVJrNlhmbUtRcy1EUGJLaFI4UTNkUHg4emNPUE95cTc0bnlDcklaaG5EcWhBeVU?oc=5",
-      "summary": "How do changing interest rates affect the stock market in 2026?&nbsp;&nbsp;U.S. Bank",
-      "detected_at": "2026-04-14T20:30:12.315392+08:00",
-      "level": "high"
+      "title": "A few tankers and ships are going through the Strait of Hormuz. Here's the latest traffic",
+      "impact": "neutral",
+      "source": "CNBC-World",
+      "title_cn": "一些油輪和船隻正在穿越霍爾木茲海峽。這是最新的路況",
+      "time": "23:30",
+      "detected_at": "2026-04-15T23:30:19.708203+08:00"
     },
     {
-      "title": "China calls U.S. blockade of the Strait of Hormuz 'dangerous and irresponsible'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/china-us-strait-of-hormuz-war-donald-trump-oil-energy-crisis-conflict-middle-east-iran.html",
-      "summary": "The Chinese foreign ministry said only a \"comprehensive ceasefire\" would help ease the ongoing crisis in the Middle East.",
-      "detected_at": "2026-04-14T20:00:20.774864+08:00",
-      "level": "high"
-    },
-    {
-      "title": "The Iran war could cost the American taxpayer $1 trillion, says Harvard academic",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/iran-war-cost-us-taxpayer-trillion-harvard.html",
-      "summary": "As efforts to reach a lasting settlement have so far proved unsuccessful, one Harvard academic estimates the total could end up far higher than was promised.",
-      "detected_at": "2026-04-14T20:00:20.774864+08:00",
-      "level": "high"
-    },
-    {
-      "title": "BP flags 'exceptional' oil trading performance as Iran war chokes supply",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/14/bp-flags-exceptional-oil-trading-performance-as-iran-war-chokes-supply.html",
-      "summary": "BP said its oil trading performance had turned around dramatically after a \"weak\" fourth quarter.",
-      "detected_at": "2026-04-14T20:00:20.774864+08:00",
-      "level": "high"
-    },
-    {
-      "title": "4月14日盤前／淡化戰爭衝擊台股創高 期待雙王法說 AI 概念百花齊放 - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05Y2UyaVRGcEFQRThHMHYwRTdQTGlnZ2xoYkt4VHZEUkhJcExadkJ2RDFlMG84SUkyY0MxbkotQXBUMzBmLVBQS2VRNDVsbmNCeFFvTUVCLVJ1UdIBX0FVX3lxTE5SUUNPYzNsQ3VsTnZSX0ZDRDNqN0duZVA5RWU1YlhUSExxTFhkN2xGeDFiVG41ZGtjVDdKU25uWjlseDJsLUdKajdhbk13MGlwTkpRZ3VXY214eXp6czQ4?oc=5",
-      "summary": "4月14日盤前／淡化戰爭衝擊台股創高 期待雙王法說 AI 概念百花齊放&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-14T20:00:20.774864+08:00",
-      "level": "high"
-    },
-    {
-      "title": "台股擂台／「佛系產業教練」白易弘：逐漸擺脫美伊戰爭影響 AI 產業鏈最為強勢 - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fNEtmOHdrSmJCY2VHYzc4T1FBdE03Yml5SFpHclZIUVZRV3F6aVRUbFcxVmczYkUtMkdCTTVFR2w2NjYwbzU2Tl9QRE90d25NSVhJQXhqaXJoaXEy?oc=5",
-      "summary": "台股擂台／「佛系產業教練」白易弘：逐漸擺脫美伊戰爭影響 AI 產業鏈最為強勢&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-14T20:00:20.774864+08:00",
-      "level": "high"
-    },
-    {
-      "title": "貝萊德看多美股估戰爭風險可控、企業獲利強- 國際 - 工商時報",
-      "source": "工商時報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1saXhyWEFVTkFCSkwtOTNHeWd0WFRvbHVkejBGeGtkNHVNV2tjN0JYbDNpREgyMVpWR2xKQXFMUGJfSHVjX3pBY3BFTmtwLVM2WXJJR19QaXowNlFyTXhB?oc=5",
-      "summary": "貝萊德看多美股估戰爭風險可控、企業獲利強- 國際&nbsp;&nbsp;工商時報",
-      "detected_at": "2026-04-14T20:00:20.774864+08:00",
-      "level": "high"
-    },
-    {
-      "title": "4月14日盤前／淡化戰爭衝擊台股創高 期待雙王法說 AI 概念百花齊放 | 市場焦點 | 證券 - 經濟日報",
-      "source": "經濟日報",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rWExZMm1TUWZ4MklJQ3dBWnk2d3lqbVhTZVV2UXlpdW5KbkxEaFVaWGJDZTQ2UDNwY2hkektrZ2VZYXA2Y0Exb0lXM3VfclBRektXNEZ1YkFZNWo1dFhVTXdnQ2hwUVpvYmZSZmJsMEMxYW5nMy1ZSE9fUl8?oc=5",
-      "summary": "4月14日盤前／淡化戰爭衝擊台股創高 期待雙王法說 AI 概念百花齊放 | 市場焦點 | 證券&nbsp;&nbsp;經濟日報",
-      "detected_at": "2026-04-14T09:00:13.513279+08:00",
-      "level": "high"
-    },
-    {
-      "title": "S&P 500 futures are little changed after index erases Iran war losses: Live updates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/stock-markets-today-live-updates.html",
-      "summary": "Wall Street once again proved resilient in the face of increased geopolitical uncertainty.",
-      "detected_at": "2026-04-14T08:00:16.625706+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Jim Cramer says this is the real reason why stocks are shrugging off Iran war fears",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/jim-cramer-stocks-rallying-despite-iran-war-why.html",
-      "summary": "\"If interest rates were spiking, this market would be very different,\" CNBC's Jim Cramer said Monday.",
-      "detected_at": "2026-04-14T08:00:16.625706+08:00",
-      "level": "high"
-    },
-    {
-      "title": "〈 美股盤後〉川普聲稱伊朗來電盼達協議 道瓊漲超300點 標普收復伊朗戰爭以來所有失地 - news.cnyes.com",
-      "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wVVFQS1Fpd09ueWlaUEFyRFNfTE8yY1p5NGh1VlZzNkFLU0RWQXRVT19wR1pPMXZGRlFQcnE0eG02QmZGUlJOajZGcUYwR0E?oc=5",
-      "summary": "〈 美股盤後〉川普聲稱伊朗來電盼達協議 道瓊漲超300點 標普收復伊朗戰爭以來所有失地&nbsp;&nbsp;news.cnyes.com",
-      "detected_at": "2026-04-14T08:00:16.625706+08:00",
-      "level": "high"
-    },
-    {
-      "title": "戰爭衝擊有限！貝萊德上調美股評等：科技股估值降至低點 企業獲利強勁 - news.cnyes.com",
-      "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5bTl0VFR5SEY4ZXV0dWNLZExWWU9NY1Y0ejRkcEhjLVJOakt2N3B0bGQxU0NOaThmdW5QbnRIWXk2OS1XeXdqYjNFQVBaSVU?oc=5",
-      "summary": "戰爭衝擊有限！貝萊德上調美股評等：科技股估值降至低點 企業獲利強勁&nbsp;&nbsp;news.cnyes.com",
-      "detected_at": "2026-04-14T08:00:16.625706+08:00",
-      "level": "high"
-    },
-    {
-      "title": "The Iran war is compounding California's energy crunch",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/the-iran-war-is-compounding-californias-energy-crunch.html",
-      "summary": "While the United States leans into its domestic crude oil production, one state is being left out to dry, California.",
-      "detected_at": "2026-04-14T04:00:12.507004+08:00",
-      "level": "high"
-    },
-    {
-      "title": "U.S. begins blockade in Strait of Hormuz; Trump warns Iran 'attack ships' to stay away",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/13/trump-iran-war-strait-of-hormuz-blockade.html",
-      "summary": "The U.S. blockade would apply to \"any and all Ships trying to enter, or leave, the Strait of Hormuz,\" President Donald Trump said.",
-      "detected_at": "2026-04-13T23:00:14.969265+08:00",
-      "level": "high"
+      "title": "Back to square one? Markets bet Iran war is over - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "回到第一點？市場押注伊朗戰爭已經結束 - 路透中文網",
+      "time": "23:30",
+      "detected_at": "2026-04-15T23:30:19.708203+08:00"
     }
   ]
 }

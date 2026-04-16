@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-15",
-  "generated_at": "2026-04-15 04:45",
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16 04:45",
   "composite": {
     "score": 0.5,
     "label": "散戶偏多",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-14",
       "2026-04-15",
-      "2026-04-16"
+      "2026-04-16",
+      "2026-04-17"
     ],
-    "total_calls_vol": 4633181,
-    "total_puts_vol": 4450367,
-    "pcr": 0.961,
+    "total_calls_vol": 4780394,
+    "total_puts_vol": 3409007,
+    "pcr": 0.713,
     "label": "散戶中性",
     "signal": "中性"
   },
@@ -25,40 +25,40 @@
     "status": "ok",
     "post_count": 25,
     "bull_words": 7,
-    "bear_words": 3,
-    "bull_pct": 70,
+    "bear_words": 2,
+    "bull_pct": 78,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "RKLB",
+        "symbol": "BULL",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/13 - 4/17",
-        "score": 189,
+        "score": 207,
         "upvote_ratio": 0.96
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 15, 2026",
-        "score": 64,
-        "upvote_ratio": 0.98
-      },
-      {
-        "title": "I’m sorry bears.",
-        "score": 7246,
+        "title": "What Are Your Moves Tomorrow, April 16, 2026",
+        "score": 60,
         "upvote_ratio": 0.96
       },
       {
-        "title": "Why is oil going down? I am too regarded.",
-        "score": 930,
-        "upvote_ratio": 0.93
+        "title": "Every fucking time",
+        "score": 20115,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "Amazon signs $11.57 billion deal for satellite firm Globalstar to challenge Musk",
-        "score": 985,
-        "upvote_ratio": 0.98
+        "title": "Sold all my calls",
+        "score": 2347,
+        "upvote_ratio": 0.95
+      },
+      {
+        "title": "Allbirds shares jump over 400% on plans to pivot to AI from sneakers",
+        "score": 2712,
+        "upvote_ratio": 0.97
       }
     ]
   }
