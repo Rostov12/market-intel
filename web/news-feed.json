@@ -1,167 +1,306 @@
 {
-  "date": "2026-04-16",
-  "fetched_at": "2026-04-16 01:46",
-  "mode": "bridge_from_breaking_news",
+  "updated_at": "2026-04-17 08:00",
+  "count": 30,
   "news": [
     {
-      "title": "Powell&#x2019;s term as Fed chair is coming to an end. Trump wants to fire him anyway.",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "鮑威爾的聯準會主席任期即將結束。無論如何，川普想解僱他。",
-      "time": "01:30",
-      "detected_at": "2026-04-16T01:30:17.551855+08:00"
-    },
-    {
-      "title": "Oil prices edge up as Hormuz shipping constraints counter US-Iran peace hopes By Reuters - Investing.com",
-      "impact": "neutral",
+      "title": "Oil prices rise, Brent inches closer to $100 as U.S. blockade keeps tensions high - Investing.com",
+      "title_cn": "Investing.com，因美國封鎖導致緊張局勢加劇，油價上漲，布蘭特原油價格逼近 100 美元",
+      "time": "08:00",
       "source": "Investing.com",
-      "title_cn": "霍爾木茲航運限制阻礙美伊和平希望，油價小漲 路透 - Investing.com",
-      "time": "01:30",
-      "detected_at": "2026-04-16T01:30:17.551855+08:00"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0sxb1F5VVk2UXdZaDQtQlUzSDJQeUVMYzhRTHdOdTdkalFERjJtNTQzWmZMNkxlbURHc0ozU2d2RDZFcjg2amo0MkFaRlVZaE8xczR2Y01vckVqY3FKRHBtN1VRWGNVa3NMQzdJbG00VFp2WkI1X1p0NTk4R2k2MTktenExUUhxVW5OZkMxNGdOVkMxQUF1OW5RdEdGRGs3WVVaYU1IRnYwaVBMT1FhOVVB?oc=5",
+      "summary": "Oil prices rise, Brent inches closer to $100 as U.S. blockade keeps tensions high&nbsp;&nbsp;Investing.com",
+      "detected_at": "2026-04-17T08:00:26.083324+08:00",
+      "level": "high"
     },
     {
-      "title": "The S&P 500 Has Erased Every Loss From the Iran War. Here Is Why Long-Term Investors Who Stayed the Course Are Being Rewarded Right Now - The Motley Fool",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "標準普爾 500 指數已經抹去了伊朗戰爭造成的所有損失。這就是為什麼堅持到底的長期投資者現在正在獲得回報 - 96配資",
-      "time": "01:30",
-      "detected_at": "2026-04-16T01:30:17.551855+08:00"
-    },
-    {
-      "title": "Trump says he thought oil prices would be ‘much worse’ amid Iran war - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "川普表示，他認為伊朗戰爭期間油價會「糟糕得多」 - 國會山",
-      "time": "01:30",
-      "detected_at": "2026-04-16T01:30:17.551855+08:00"
-    },
-    {
-      "title": "Oil prices edge up as Hormuz shipping constraints counter US-Iran peace hopes - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "霍爾木茲航運限制阻礙美伊和平希望，油價小漲 - 路透社中文網",
-      "time": "01:00",
-      "detected_at": "2026-04-16T01:00:19.204642+08:00"
-    },
-    {
-      "title": "Senate GOP divided over Trump push for Iran war funding - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "參議院共和黨在川普推動伊朗戰爭資金問題上存在分歧 - 國會山莊",
-      "time": "01:00",
-      "detected_at": "2026-04-16T01:00:19.204642+08:00"
-    },
-    {
-      "title": "Starmer says he's 'not going to yield' to pressure from Trump on Iran war - BBC",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "史塔默表示，他「不會屈服於」川普在伊朗戰爭問題上的壓力 - BBC",
-      "time": "01:00",
-      "detected_at": "2026-04-16T01:00:19.204642+08:00"
-    },
-    {
-      "title": "Here are all the ways the Iran war has affected the U.S. economy so far",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "以下是迄今為止伊朗戰爭影響美國經濟的所有方式",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
-    },
-    {
-      "title": "Jeanine Pirro pursues Fed pressure while clock ticks on her appeal in Powell probe",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "珍妮·皮羅 (Jeanine Pirro) 在鮑威爾調查中上訴時尋求美聯儲施壓",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
-    },
-    {
-      "title": "UK finance minister Rachel Reeves blasts Trump administration over economic impact of Iran war",
-      "impact": "bearish",
-      "source": "CNBC-World",
-      "title_cn": "英國財政部長雷切爾·里夫斯抨擊川普政府伊朗戰爭對經濟的影響",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
-    },
-    {
-      "title": "Oil prices stable as Hormuz shipping constraints counter hopes for US-Iran talks By Reuters - Investing.com",
-      "impact": "neutral",
+      "title": "Oil prices steady as Hormuz shipping constraints counter US-Iran peace hopes By Reuters - Investing.com",
+      "title_cn": "霍爾木茲航運限制阻礙美伊和平希望，油價穩定 路透社 - Investing.com霍爾木茲航運限制阻礙美伊和平希望，油價穩定 路透社 Investing.com",
+      "time": "08:00",
       "source": "Investing.com",
-      "title_cn": "霍爾木茲航運限制削弱了美伊談判的希望，油價穩定 路透社 - Investing.com",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX0xtX3VWdkVFSmlSdGc1a2J5UzJTLUxiRjhwVHlLcjYtcVBJTW5LYUZCbnd5ZnVmSklzN1B3RzdmeVlMYk9xbkdTS3ZNVEg4dEZYNTZHMi1hNnh2Z2JyWGFhUGVBdmwzRTBRdVVqSE9YODN6SVNCQTBlcGNtTUFsb2pRYlZRR1RnTGFFQWVTbUZYVExGT09iVjlCeXU1dmNfdkE2ZHBnTFQzM1JnVzFLTC1CaXE3OGJlclJGbnVMc1otV1MyMkFEcUcwYw?oc=5",
+      "summary": "Oil prices steady as Hormuz shipping constraints counter US-Iran peace hopes By Reuters&nbsp;&nbsp;Investing.com",
+      "detected_at": "2026-04-17T08:00:26.083324+08:00",
+      "level": "high"
     },
     {
-      "title": "Trump Threatens to Fire Powell If He Doesn’t Step Down From Fed - Bloomberg",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "川普威脅鮑威爾，如果他不辭去聯準會職務，他將被解僱 - 彭博社",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
-    },
-    {
-      "title": "Yellen Still Sees Chance of a Fed Cut This Year Amid Oil Shock - Bloomberg",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "耶倫仍認為聯準會今年在石油危機中降息的機會 - 彭博社",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
-    },
-    {
-      "title": "Iran warns US naval blockade threatens ceasefire - Al Jazeera",
-      "impact": "bearish",
+      "title": "NYC Mayor Zohran Mamdani says Iran war is worsening a cost-of-living crisis - NBC News",
+      "title_cn": "紐約市長佐蘭·馬姆達尼 (Zohran Mamdani) 表示，伊朗戰爭正在加劇生活成本危機 - NBC 新聞",
+      "time": "08:00",
       "source": "Geopolitical",
-      "title_cn": "伊朗警告美國海上封鎖威脅停火 - 半島電視台",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX0Z2R0tTNmJfS19wN2cwb3lyemRPVV8tNldlZk1TUHhvdFdIaG1mVFVKRk01ZjY3X3lOMUdoU29RT0RQMERfbFBWSGJEOGEzc1o4T29zZE1wcmFGX3AtZS1rV1RCRVZfZEU0T2pRS3NLNk9Lc0dUel9mUi1vY19vR1NkZDlwWTFQV3J6T0JobXlZU3BickEwMURxaWRadHBneGpmQk5YSHVnU3VLQlk1cTlvYTJBUGtJWVJfZ0I2VTBxRUIw?oc=5",
+      "summary": "NYC Mayor Zohran Mamdani says Iran war is worsening a cost-of-living crisis&nbsp;&nbsp;NBC News",
+      "detected_at": "2026-04-17T08:00:26.083324+08:00",
+      "level": "high"
     },
     {
-      "title": "Live - Regional powers push diplomacy as Trump says Iran war ‘close to over’ - ایران اینترنشنال",
-      "impact": "bearish",
+      "title": "Cookies, deodorant, socks. Iran war puts military packages in limbo - USA Today",
+      "title_cn": "餅乾、除臭劑、襪子",
+      "time": "08:00",
       "source": "Geopolitical",
-      "title_cn": "直播 - 川普稱伊朗戰爭“接近結束”，地區大國推動外交",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU3BOdTBuSFhjUmJENnpSUDk2TkdTTzdjbmQzQ0xnM1dQdEVBR08yQ1Z5QUxIc1pUclV6QWlnaDFqZEZiSWstdzN3b0dPSXRHQ3JYWEthRVZaRmdrWFpZZ1FZRzhDWU53MnZSTTdhQUZRaG1ZbXdfMEVaZWhUamNUMGpPNGRfRkJwMURaTUNPUXBaeDRUQ1JkNUFuUzM2QjRxbWMtSXJR?oc=5",
+      "summary": "Cookies, deodorant, socks. Iran war puts military packages in limbo&nbsp;&nbsp;USA Today",
+      "detected_at": "2026-04-17T08:00:26.083324+08:00",
+      "level": "high"
     },
     {
-      "title": "One week into the ceasefire, is the end of the Iran war any closer? - Yahoo",
-      "impact": "bearish",
+      "title": "市場樂觀看待中東戰爭 美股收紅標普那指再創新高 | 美股動態 | 國際 - 經濟日報",
+      "title_cn": "市場看好中東戰爭美股收紅標普那指再創新高 美股動態 | 國際-經濟日報. 市場看好中東戰爭美股收紅標普那指再創新高 美股動態 | 國際經濟日報",
+      "time": "08:00",
+      "source": "經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUjVRNlVGWnlscEd0cVB1ZEM4VkhsRnN5Nk1qcy1Rb3JQR3BoMWZjdExuMzh2cHp2SzBoVmQ1Tll6TENsVmJfOUQ1cFJkdTdpeHhUeU1USTg4U3BaVnhPLVRiOG9sRENWdHo0RDZUUDZZMU81aXAxeFJyd25iejlzeQ?oc=5",
+      "summary": "市場樂觀看待中東戰爭 美股收紅標普那指再創新高 | 美股動態 | 國際&nbsp;&nbsp;經濟日報",
+      "detected_at": "2026-04-17T08:00:26.083324+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran War Powers Vote Fails House by 1 Vote, With 1 Democrat Opposed - Truthout",
+      "title_cn": "伊朗戰爭權力投票眾議院以 1 票之差落敗，1 名民主黨人反對 - 真相大白",
+      "time": "05:30",
       "source": "Geopolitical",
-      "title_cn": "停火一週後，伊朗戰爭是否更接近結束？ - 雅虎",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPanBTUFBfbVREUWJ3Q29Wa0tBR05BSzBGYy1mYkNRR2lsQTA0dG1rWm44VUIzT3NUZ3RXNDVaV1otZHk2c0lpNzFGcndTbGxwMVktSExCRG1BSkdnVjZuWkM1UTdxTW01M2tqSktXTDlWa0M5cTg3dV9GTkNUdzI4SnJJX19aakpzQUhXRFJsY2hCb2JFUUlyVXRkMkI2M3V4SVRV?oc=5",
+      "summary": "Iran War Powers Vote Fails House by 1 Vote, With 1 Democrat Opposed&nbsp;&nbsp;Truthout",
+      "detected_at": "2026-04-17T05:30:22.972942+08:00",
+      "level": "high"
     },
     {
-      "title": "Wall Street sank on Iran war fears. Now it’s surging. Here’s why - CNN",
-      "impact": "bearish",
+      "title": "House Thwarts Bid to Halt Iran War, but Some in G.O.P. See Support Fading - The New York Times",
+      "title_cn": "眾議院挫敗停止伊朗戰爭的努力，但共和黨中的一些人請參閱支持衰退 - 紐約時報",
+      "time": "05:30",
       "source": "Geopolitical",
-      "title_cn": "華爾街因伊朗戰爭擔憂而下跌。現在它正在飆升。這就是原因 - CNN",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wZkR6WENWQUxnLXFEZ05kVnAzaUtIY3FhOWF4dkJLcmVQdk9SSmhEbnVJN0tTbXFKbWZIb0IzTU9jcHNKMk5GZ3VLVmRlTlVDb01TVFRsOUN4dEtlYzd4YWVXX2wtdUNQT0N0RWhYQnVIeUY2c3FJUHFTaG1odw?oc=5",
+      "summary": "House Thwarts Bid to Halt Iran War, but Some in G.O.P. See Support Fading&nbsp;&nbsp;The New York Times",
+      "detected_at": "2026-04-17T05:30:22.972942+08:00",
+      "level": "high"
     },
     {
-      "title": "Big US banks rake in near $50bn profit as Iran war shakes markets - The Guardian",
-      "impact": "bearish",
+      "title": "What role is China playing in the Iran war and how is it affected? - Al Jazeera",
+      "title_cn": "中國在伊朗戰爭中扮演什麼角色以及受到怎樣的影響？ - 半島電視台",
+      "time": "05:30",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭震撼市場，美國大型銀行賺近 500 億美元利潤 - 英國衛報",
-      "time": "00:28",
-      "detected_at": "2026-04-16T00:28:50.593564+08:00"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORy1yLXdlbFNjVl9fUEdOOUpSbHY4TlkzZFB3amMyVWF2U2RXN2dzRXN0VFpSU3VlbFhsc2xHY091RmdhOHlXVkc4TTZhd05tdWowT3ZuaUNkcHdkNkZyTXh5M2czZnBWaHgzYi1tMU83eXFyNzA3SkhyVWNiRGpzMDdEUU51U1FkNlhSOVhydXR2aF91c29uU2Z0RXFfdlpkZnFUS2Q3M3JSTjhYM20wTFZzLVZQMm1nYUdkM9IBwgFBVV95cUxOWTB4Y2lCUlZuSUxjVWQ3bURCOUN1M0l5a24zVGFJYlhoX3FiZUF2b1pIUVB6LXBQUktKczBNVmxDNS0tQ240S0EyODlLT3UybWVKMVdza1dGVzJPekdqc1NiUFgzSnkyYXpjX1dmUUtwamZQSWdrNmstZ0xiTWloVkw3QTlybkIzVmhTWlpITlA1WEx3eGJjUjNaN01HbnFYaE1QdmZMVFhwUzFmMFU0Qk9TeWV3RlZSZF8xTnFRY214UQ?oc=5",
+      "summary": "What role is China playing in the Iran war and how is it affected?&nbsp;&nbsp;Al Jazeera",
+      "detected_at": "2026-04-17T05:30:22.972942+08:00",
+      "level": "high"
     },
     {
-      "title": "A few tankers and ships are going through the Strait of Hormuz. Here's the latest traffic",
-      "impact": "neutral",
-      "source": "CNBC-World",
-      "title_cn": "一些油輪和船隻正在穿越霍爾木茲海峽。這是最新的路況",
-      "time": "23:30",
-      "detected_at": "2026-04-15T23:30:19.708203+08:00"
+      "title": "Mamdani slams Iran war, echoes Tupac: ‘We always have money for war and not to feed the poor’ - NBC News",
+      "title_cn": "馬姆達尼猛烈抨擊伊朗戰爭，與圖帕克相呼應：「我們總是有錢用於戰爭，而不是養活窮人」——NBC新聞",
+      "time": "05:30",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORElnS0JtTU5FRnBiY3ZfY1V5STJrSkZJMURwOHNRazRQd2syVFFNT2tSc0hjb0cxQVhUb2dBaFBxeVpOVllTb3VUZnVRWlNieEwyTmNmdWlQN3RHRFhRcS04V2hkTHpQUXpmVWxFLThSQlREUXczclMzdVlYZjM0OHlLQmk2WDYzTTQtY20wcWlUaUFBbkJKc0JHNWtoSHpvV3l3ci1aNVRHZHdyQUJYQTZPZzBUeUd0WER6XzcwM0gxSzVuRVU3NW1yTnR3Q1JCWjZJTFpSMTV0ckR2d3ZVZA?oc=5",
+      "summary": "Mamdani slams Iran war, echoes Tupac: ‘We always have money for war and not to feed the poor’&nbsp;&nbsp;NBC News",
+      "detected_at": "2026-04-17T05:30:22.972942+08:00",
+      "level": "high"
     },
     {
-      "title": "Back to square one? Markets bet Iran war is over - Reuters",
-      "impact": "bearish",
+      "title": "Stocks hit records, oil steadies as Trump says Iran war ’close to over’ By Reuters - Investing.com",
+      "title_cn": "川普稱伊朗戰爭“接近結束”，股市創歷史新高，油價穩定 路透社 - Investing.com川普稱伊朗戰爭“接近結束”，股市創歷史新高，油價穩定 路透社 Investing.com",
+      "time": "05:00",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTkZtQkc4Wm42SWYwTThGRUJvMWhjdUk3UVRRNTBMWmJhV05kQ2hwWHZESkF1eEVNalY3TXJZVnNPUzhUZ0l0a1d0M3pUcklLZ0xRQ1pRLWZnR3Z5RWpBU2l2bXZreUxQcEw4Q050U1JaemJrQUU0VkZybm5QcEx3OUJEYTZXMzV2U01VemtUa3h5aDdiOEh5dmplMi1admdPUXBrbS1pcHNTNDBuaElWSmp6b2hWOHRjRlBMTA?oc=5",
+      "summary": "Stocks hit records, oil steadies as Trump says Iran war ’close to over’ By Reuters&nbsp;&nbsp;Investing.com",
+      "detected_at": "2026-04-17T05:00:12.826376+08:00",
+      "level": "high"
+    },
+    {
+      "title": "US warns that buyers of Iranian oil could be hit with sanctions - Reuters",
+      "title_cn": "美国警告伊朗石油买家可能会受到制裁——路透社",
+      "time": "04:30",
       "source": "Reuters-Biz",
-      "title_cn": "回到第一點？市場押注伊朗戰爭已經結束 - 路透中文網",
-      "time": "23:30",
-      "detected_at": "2026-04-15T23:30:19.708203+08:00"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdkVLU2x6LWQ5V3NfVmpCN0lVYmhqWjNJMUxKZ1l1YWNUTy15bnRIcVdXM1hKUVdiUDl2RFVXeU81MnJHREdlWnRPS3Z2YTQxOTdlQ2VyYUtuT2l2Y1lfcWVjTWNXTGFFa3g4SkIzRmdRS0xzallnOXVSMjhWMEx0N2tsbEx3TFRHWUJWNlRISlJVU1RvckR0eUJUVGVTUnJkX0U5MUpwemhRQVhGYmpKUlhjeWFTVGs?oc=5",
+      "summary": "US warns that buyers of Iranian oil could be hit with sanctions&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-04-17T04:30:14.920567+08:00",
+      "level": "high"
+    },
+    {
+      "title": "US House votes down latest effort to curtail Trump’s power to wage Iran war - Al Jazeera",
+      "title_cn": "美国众议院投票否决了限制特朗普发动伊朗战争权力的最新努力 - 半岛电视台",
+      "time": "04:30",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGpYZjM0WTRFZEh0OXFBTlNLbzhvRlN4Z3Bjc1JEWUFfdmNKTFFyT1hkUnRfdzl3T2hvelY3NU5nZ3NxLW12UWlJQUEyOE9zRlpSSTNQcU1uTkJ2SC1DUUwzREM1aVgxVW5xeXJqam9zZ3R2aEJ3VVh1Wkk1dTNHSloxakpWVWlxbUwyOGFRMl9XQkFFZm5UdEcyQ1pSUFpBNzFyT3dEMy0zYU1LTThuZ0M0ZDU3Z9IBuwFBVV95cUxONEYyZTBwX05tUGt1MW44eUpvcXRhajJhRVFwS3pkbGVLN2pOWXJrU212QVRUSU1WYnpjLWZPcFBSZjA3NnJuTEkxUVJ3N0VvaTlzVWdDbl9JZEhnSV9KaUNHS3VyU2FCeFBZYzVaU3N3ZUlvaGl5emUwLUFZRlRqNDlReXBHTlNSLXZ6SzRoZnFvV0paYWxiR0ZEVWxvamFUZW14MVRMUTIzemFmbGZRTmd3LWlxSGpzN3lr?oc=5",
+      "summary": "US House votes down latest effort to curtail Trump’s power to wage Iran war&nbsp;&nbsp;Al Jazeera",
+      "detected_at": "2026-04-17T04:30:14.920567+08:00",
+      "level": "high"
+    },
+    {
+      "title": "NYC Mayor Zohran Mamdani says Iran war is worsening a cost of living crisis - NBC News",
+      "title_cn": "（NYC Mayor Zohran Mamdani says Iran war is worsening a cost o）",
+      "time": "04:30",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX0Z2R0tTNmJfS19wN2cwb3lyemRPVV8tNldlZk1TUHhvdFdIaG1mVFVKRk01ZjY3X3lOMUdoU29RT0RQMERfbFBWSGJEOGEzc1o4T29zZE1wcmFGX3AtZS1rV1RCRVZfZEU0T2pRS3NLNk9Lc0dUel9mUi1vY19vR1NkZDlwWTFQV3J6T0JobXlZU3BickEwMURxaWRadHBneGpmQk5YSHVnU3VLQlk1cTlvYTJBUGtJWVJfZ0I2VTBxRUIw?oc=5",
+      "summary": "NYC Mayor Zohran Mamdani says Iran war is worsening a cost of living crisis&nbsp;&nbsp;NBC News",
+      "detected_at": "2026-04-17T04:30:14.920567+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Brent oil price near $100 again with U.S.-Iran talks uncertain and Hormuz still blocked",
+      "title_cn": "由於美伊談判不確定且霍爾木茲海峽仍受阻，布倫特油價再次接近 100 美元",
+      "time": "04:00",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/iran-war-oil-price-strait-hormuz.html",
+      "summary": "Just a few tankers are passing through the Strait of Hormuz, as the U.S. Navy blocks Iran's coast and Tehran threatens to retaliate against ships in the Gulf.",
+      "detected_at": "2026-04-17T04:00:23.265844+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Why the stock market is hitting records despite Iran war",
+      "title_cn": "為什麼儘管伊朗爆發戰爭，股市仍創下歷史新高",
+      "time": "04:00",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/stocks-record-highs-iran-war.html",
+      "summary": "The S&amp;P 500 closed at an all-time high even with little apparent progress in a peace deal between the U.S. and Iran, and a continued oil-supply disruption.",
+      "detected_at": "2026-04-17T04:00:23.265844+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Why the stock market is hitting records despite Iran war - CNBC",
+      "title_cn": "為什麼儘管伊朗戰爭，股市仍創歷史新高 - CNBC",
+      "time": "04:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Za21tWDVYQk5wUjUyTmhZbWk4RlFVTm9DcWplOHNzeXRNWEZHaHM0X085bTBXMFVRMk14d1YxbVVIUEtRaWpob2V0VW1BNko5cWVHRGJVLUh0SUtyNnp2dHdSdUpsUUU2Mjk0QUlNZW9RSDjSAXhBVV95cUxNcVVoNmxMT2xfQTVHV2hlRlZvb081NXAwdnFNblV6X2V1X3NmT3RSWFl0dVpDUXJBRnctVEt4d2ZoVlJaN1lZTmlkMWNIRFpGNFVURWNqM0loOEFtd2ZsWGE3ZFg2RW9jX1lEbktoQUlIcUFRdjZUYkc?oc=5",
+      "summary": "Why the stock market is hitting records despite Iran war&nbsp;&nbsp;CNBC",
+      "detected_at": "2026-04-17T04:00:23.265844+08:00",
+      "level": "high"
+    },
+    {
+      "title": "House rejects Democrat attempt to limit Trump's Iran war powers - Fox News",
+      "title_cn": "眾議院拒絕民主黨限制川普伊朗戰爭權力的企圖 - 福克斯新聞",
+      "time": "04:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcVE4SlU5cGFJbEFUeHRmZWZuYmVVbmMzTl94RG84eFdvSWlucDBDSjZtRnhXck1hVWo1OXhoRl84YTFrYUEwQlR1NWRFV3hOTlRhRER1LUMzX1M5YmlWdVZXcFNyNkFSZkdRelQ2OVMwYTluaTFmdThrano3YzRwVDJoV3dDdVljazhDdERwSGwzWGJWSnNHZ0xEWdIBoAFBVV95cUxQVjlmTXZvak1kRHA0ckxEMnAtd2YyV0Ywd0xXZzF0MWVyMmlkeFA4Q2Q1MzBIMjhXTklycC1MZGR4cjRqWDFXM1ZBZmR4dk5lQ2tNSFFGRjdQcGFsOGxFSHdxcDh0bjFxZFBlTllqVHlKaDByNGVwX3MxMzAzX09WM25SZk01eUxUblVZSkFHWUZUYVpSS1AxOVIyWVRNekVI?oc=5",
+      "summary": "House rejects Democrat attempt to limit Trump's Iran war powers&nbsp;&nbsp;Fox News",
+      "detected_at": "2026-04-17T04:00:23.265844+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump's energy leaders to hold call with CEOs on Iran war, source says - Reuters",
+      "title_cn": "消息人士稱，川普的能源領導人將與執行長就伊朗戰爭問題舉行電話會議 - 路透社",
+      "time": "04:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNEpmYllQMUZ3Rkh0QjFnOHdsR2dhdk43REg1bkdmVWNDUU91ODNIbnVwbERjclNURFMxOU14REJuNV9HaVk5YldwTE1wa0V3QUpSVU9pWFFDWkQ3aFZzMk9DRzhOTTRqdEFaN0pIYXpCM0hpblpBVk5iTkozQ0xqdzdGdEsxVnJwbVBrXzJUajhxLWszR2FQakdCTTl0NG5pNVFyVW5waHVfNUItR29JQy1zeDdiUQ?oc=5",
+      "summary": "Trump's energy leaders to hold call with CEOs on Iran war, source says&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-04-17T04:00:23.265844+08:00",
+      "level": "high"
+    },
+    {
+      "title": "House Again Thwarts Bid to Halt Iran War Unless Congress Approves It - The New York Times",
+      "title_cn": "眾議院再次阻撓停止伊朗戰爭的努力，除非國會批准 - 《紐約時報》",
+      "time": "03:30",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wZkR6WENWQUxnLXFEZ05kVnAzaUtIY3FhOWF4dkJLcmVQdk9SSmhEbnVJN0tTbXFKbWZIb0IzTU9jcHNKMk5GZ3VLVmRlTlVDb01TVFRsOUN4dEtlYzd4YWVXX2wtdUNQT0N0RWhYQnVIeUY2c3FJUHFTaG1odw?oc=5",
+      "summary": "House Again Thwarts Bid to Halt Iran War Unless Congress Approves It&nbsp;&nbsp;The New York Times",
+      "detected_at": "2026-04-17T03:30:18.718968+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Why the UK is preparing for food shortages due to Iran war - BBC",
+      "title_cn": "為什麼英國正在為伊朗戰爭造成的糧食短缺做準備 - BBC",
+      "time": "03:30",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UeDV0blhneENyWlNGZUNfQkxRb2VFSDJwYjNnSzF6MkgyaGRqTGJPSGlWYWVFeWxQY3FWYUd0QXJhdnlIMWVBVnNWVlVXR0lPTVppSk9pMA?oc=5",
+      "summary": "Why the UK is preparing for food shortages due to Iran war&nbsp;&nbsp;BBC",
+      "detected_at": "2026-04-17T03:30:18.718968+08:00",
+      "level": "high"
+    },
+    {
+      "title": "LIV, NBA Europe: Has the Iran War Curbed Middle East Sports Spending? - Sportico.com",
+      "title_cn": "LIV，NBA 歐洲：伊朗戰爭是否抑制了中東運動支出？ - Sportico.com",
+      "time": "03:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMUl1VlJqRDZTX3FjdlNtekIydXhzUkhMWEExYlNvZGVSZDVoNWxNMVM2bXQ0YVF3M1FDcmFIWXp0T1BfbEFhTjlVRlRPaWdaUnREeU5ab2pfVi1tQmRlVDZyR0dHRWljeWVSMTlIcW03WEh5UV9XTlpUeHNfSGtOR3NBM01DWDlKREdjaGx3VmE2S21GTmpkOUNrTXhBQ01MZnpJUGgzQkpFMWJsNFpJTmVPcXJyQ3c?oc=5",
+      "summary": "LIV, NBA Europe: Has the Iran War Curbed Middle East Sports Spending?&nbsp;&nbsp;Sportico.com",
+      "detected_at": "2026-04-17T03:00:15.208575+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Ben Jennings on the US-Iran war and AI slop – cartoon - The Guardian",
+      "title_cn": "本詹寧斯 (Ben Jennings) 談美伊戰爭和人工智慧問題 - 漫畫 - 《衛報》",
+      "time": "02:30",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWkxrczRBa3dHRGxDNHFQZU41UkVXV0tQZEFzRUo1VjUwbjZqbDVUM21oN01SWGY5RV93YlByNEJzbjhzZk9IRHNGWmFNd0x5Q1IyQnRLeG43WjVuZWVYY015eVpONnp2dktuRi1hWnBxbTh1emtpVE5RcWNmdHJiWURJRk0tdlh4M0ZGOVJYRVkzT2lUM0M4eVFhYlRweWlsc3k5Zg?oc=5",
+      "summary": "Ben Jennings on the US-Iran war and AI slop – cartoon&nbsp;&nbsp;The Guardian",
+      "detected_at": "2026-04-17T02:30:15.716807+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. Navy blockade of Iran enters fourth day. Here’s the latest tanker traffic in Strait of Hormuz",
+      "title_cn": "美國海軍對伊朗的封鎖進入第四天",
+      "time": "02:00",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/16/iran-oil-tanker-traffic-strait-hormuz.html",
+      "summary": "Tanker traffic through the Strait or Hormuz has plunged during the war, triggering the largest oil supply disruption in history.",
+      "detected_at": "2026-04-17T02:00:17.818928+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Oil prices steady as Hormuz shipping constraints counter US-Iran peace hopes - Reuters",
+      "title_cn": "路透社稱，霍爾木茲航運限制阻礙了美伊和平希望，油價穩定",
+      "time": "02:00",
+      "source": "Reuters-Biz",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMTkyUVg1WDZSc3pKOWN3QUhwR3lHcjVrNlM0WC13Wmd6M1NLTmVQMUt4LUtrdFlwcEhnR0hQRkNLRElZVm5qWXlrQUs5SlBhc21SUjRPc1ltN2lpb2p6VVBRY2lIRFhCRXBYS3RGMEViZEpGYVJqVTZhUzVfZFVqMk56ZGVIREtYMms2dFZ1VGhmUVJyRG16bGpHNXdEaEZPVzVFb1dZWERGMS16T2tLUmVpeWF1c3c?oc=5",
+      "summary": "Oil prices steady as Hormuz shipping constraints counter US-Iran peace hopes&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-04-17T02:00:17.818928+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump threatens to fire Powell if he doesn’t quit Fed board; ongoing probe clouds Warsh confirmation By Reuters - Investing.com",
+      "title_cn": "川普威脅稱，如果鮑威爾不退出聯準會理事會，他將被解僱；路透社 - Investing.com 正在進行的調查使沃什的確認蒙上陰影",
+      "time": "02:00",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcUNIVkYxNjRYZHgyX2RRUHFHc2E5V280Q09xOFFudHZqVE5uaGN4NDk2ZjAybV9FMjB1eERNXzZod08tYVZQQ1FDUjJXZnJsLUVjUm1QM3pnM1F0VXV3TnNwQkE4LTNha25SSVpJNmE0cUk3SUxPWTBycnZpbUplZS1sQnRFblVYbFZoMFBSVnk1Mk0yMThzcE1DU2RIMkoya290bm4wcnlYS3VheHNEcnV3?oc=5",
+      "summary": "Trump threatens to fire Powell if he doesn’t quit Fed board; ongoing probe clouds Warsh confirmation By Reuters&nbsp;&nbsp;Investing.com",
+      "detected_at": "2026-04-17T02:00:17.818928+08:00",
+      "level": "high"
+    },
+    {
+      "title": "US House rejects war powers resolution aimed at limiting Iran War - BBC",
+      "title_cn": "美國眾議院拒絕旨在限制伊朗戰爭的戰爭權力決議 - BBC",
+      "time": "02:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HbFRsRm4tMEZPYTJsZU93bEd5a1dBVHlxanFncEw2bUhvaDZ3bENnaGRDa1hnZDBrNTBDcFZXNWY1c18zbWl5Q0NVREM5MkswWEZCWEh3T1ZfUQ?oc=5",
+      "summary": "US House rejects war powers resolution aimed at limiting Iran War&nbsp;&nbsp;BBC",
+      "detected_at": "2026-04-17T02:00:17.818928+08:00",
+      "level": "high"
+    },
+    {
+      "title": "House Again Thwarts Challenge to Trump’s Authority to Continue Iran War - The New York Times",
+      "title_cn": "眾議院再次挫敗對川普繼續伊朗戰爭權力的挑戰 - 紐約時報",
+      "time": "02:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wZkR6WENWQUxnLXFEZ05kVnAzaUtIY3FhOWF4dkJLcmVQdk9SSmhEbnVJN0tTbXFKbWZIb0IzTU9jcHNKMk5GZ3VLVmRlTlVDb01TVFRsOUN4dEtlYzd4YWVXX2wtdUNQT0N0RWhYQnVIeUY2c3FJUHFTaG1odw?oc=5",
+      "summary": "House Again Thwarts Challenge to Trump’s Authority to Continue Iran War&nbsp;&nbsp;The New York Times",
+      "detected_at": "2026-04-17T02:00:17.818928+08:00",
+      "level": "high"
+    },
+    {
+      "title": "China’s Economy Revs Up Despite War as Growth Tops Forecasts - Bloomberg",
+      "title_cn": "儘管有戰爭，中國經濟仍加速成長，成長超過預期 - 彭博",
+      "time": "01:30",
+      "source": "Bloomberg-via-GN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVlExSFBlVzZBMG5Wam1kQmplWWlQY3Flbm1fUGNqVUtNT3llZXF6MU00dnZqazA1b3VRd3dQeVBoS1oxN2dxZ290Qi0wR0ZrRmxlODF5R3Z5VWlKRjU5cTVndElPVTNidjRNNTRJZldOWHhIMHY0Zy1HR2dtWWttQy1zYzBVbEJWcGFpX1VEZ1hHTXoxTzZjS29MR0E4QVkwS1IyM2xuV1dkRDNVbzRyMTNqNDNRdw?oc=5",
+      "summary": "China’s Economy Revs Up Despite War as Growth Tops Forecasts&nbsp;&nbsp;Bloomberg",
+      "detected_at": "2026-04-17T01:30:17.347724+08:00",
+      "level": "high"
+    },
+    {
+      "title": "UK Economy in Surprise GDP Jump Before Hit From Iran War - Bloomberg",
+      "title_cn": "英國經濟在伊朗戰爭打擊前GDP意外成長 - 彭博社",
+      "time": "01:30",
+      "source": "Bloomberg-via-GN",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTnNaajBEb19sVGZqeVdGLUkzRDV3azI1S2l1S0xLSUhGa0xfUXl5N2VERWxaZDJVbkNwelM1LVVGTktJM0d0bV9KVnBnci1LV0JOZmNOaXMwRkhHaWJMVlg1RnZrWDhuWHZ4SmY3aUw0R29WX1JYWjN1Z2ZpZl92amh6UTRWWXpLQkhvZmZLY1dVVWdDX09iczJONW5RRld3OERLNVRvNFo0c3c?oc=5",
+      "summary": "UK Economy in Surprise GDP Jump Before Hit From Iran War&nbsp;&nbsp;Bloomberg",
+      "detected_at": "2026-04-17T01:30:17.347724+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump Threatens to Fire Powell If He Doesn’t Exit Fed - Bloomberg",
+      "title_cn": "川普威脅鮑威爾，如果他不退出聯準會，他將被解僱 - 彭博社",
+      "time": "01:30",
+      "source": "Bloomberg-via-GN",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUFNd2d0RTRJMWV5YjhLMHRmTkdHbzB6cU1qSHk0bUlWQkUxUl94d1h0c21ySUJhUDk2TWRDbXRrUjBKSGtWYkVkaFRVZVM4bURWVnRadGV2WW9lZ1piZTRVbEtWc3AzOGNGLU9rSHdGRzUxdzhnN3RpZ01aTlUySFJZaDIwRmJZXy1TeldWenphQVdtNEtWNEwwUkt6WnZGdGJodUNzZGY2WDNVUG5jQ0xpT2E?oc=5",
+      "summary": "Trump Threatens to Fire Powell If He Doesn’t Exit Fed&nbsp;&nbsp;Bloomberg",
+      "detected_at": "2026-04-17T01:30:17.347724+08:00",
+      "level": "high"
     }
   ]
 }

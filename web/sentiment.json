@@ -1,64 +1,64 @@
 {
-  "date": "2026-04-16",
-  "generated_at": "2026-04-16 04:45",
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17 04:45",
   "composite": {
-    "score": 0.5,
-    "label": "散戶偏多",
-    "contrarian_signal": "🟡小心追高"
+    "score": -0.5,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-15",
       "2026-04-16",
-      "2026-04-17"
+      "2026-04-17",
+      "2026-04-20"
     ],
-    "total_calls_vol": 4780394,
-    "total_puts_vol": 3409007,
-    "pcr": 0.713,
-    "label": "散戶中性",
-    "signal": "中性"
+    "total_calls_vol": 2243747,
+    "total_puts_vol": 3142318,
+    "pcr": 1.4,
+    "label": "散戶極度恐慌🟢",
+    "signal": "逆向看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 7,
+    "bull_words": 6,
     "bear_words": 2,
-    "bull_pct": 78,
+    "bull_pct": 75,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "BULL",
+        "symbol": "NKE",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/13 - 4/17",
-        "score": 207,
+        "score": 222,
         "upvote_ratio": 0.96
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 16, 2026",
-        "score": 60,
-        "upvote_ratio": 0.96
-      },
-      {
-        "title": "Every fucking time",
-        "score": 20115,
-        "upvote_ratio": 0.96
-      },
-      {
-        "title": "Sold all my calls",
-        "score": 2347,
+        "title": "What Are Your Moves Tomorrow, April 17, 2026",
+        "score": 33,
         "upvote_ratio": 0.95
       },
       {
-        "title": "Allbirds shares jump over 400% on plans to pivot to AI from sneakers",
-        "score": 2712,
-        "upvote_ratio": 0.97
+        "title": "$NKE",
+        "score": 13335,
+        "upvote_ratio": 0.98
+      },
+      {
+        "title": "AMD. New high score: +$6M",
+        "score": 3374,
+        "upvote_ratio": 0.96
+      },
+      {
+        "title": "Every Regard here",
+        "score": 3965,
+        "upvote_ratio": 0.99
       }
     ]
   }
