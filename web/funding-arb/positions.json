@@ -1,18 +1,5 @@
 {
   "positions": {
-    "NEAR/USDT:USDT": {
-      "spot_symbol": "NEAR/USDT",
-      "contracts": 37.0,
-      "contract_size": 10.0,
-      "amount": 370.0,
-      "entry_price": 1.35,
-      "entry_time": "2026-04-08 15:47:14",
-      "size_usdt": 500,
-      "spot_order_id": "3460536927162253312",
-      "perp_order_id": "3460536922598850560",
-      "funding_collected": 1.121289,
-      "funding_count": 22
-    },
     "DOGE/USDT:USDT": {
       "spot_symbol": "DOGE/USDT",
       "contracts": 5.46,
@@ -23,8 +10,21 @@
       "size_usdt": 500,
       "spot_order_id": "3463436125079658496",
       "perp_order_id": "3463436119140524032",
-      "funding_collected": 1.118792,
+      "funding_collected": 1.129729,
       "funding_count": 22
+    },
+    "SOL/USDT:USDT": {
+      "spot_symbol": "SOL/USDT",
+      "contracts": 5.68,
+      "contract_size": 1.0,
+      "amount": 5.68,
+      "entry_price": 87.95,
+      "entry_time": "2026-04-17 15:47:17",
+      "size_usdt": 500,
+      "spot_order_id": "3486628915594711040",
+      "perp_order_id": "3486628910930644992",
+      "funding_collected": 0.063812,
+      "funding_count": 2
     }
   },
   "history": [
@@ -252,7 +252,25 @@
       "price_pnl_pct": -3.0417,
       "total_funding": 0.609003,
       "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "NEAR/USDT",
+      "contracts": 37.0,
+      "contract_size": 10.0,
+      "amount": 370.0,
+      "entry_price": 1.35,
+      "entry_time": "2026-04-08 15:47:14",
+      "size_usdt": 500,
+      "spot_order_id": "3460536927162253312",
+      "perp_order_id": "3460536922598850560",
+      "funding_collected": 1.174269,
+      "funding_count": 23,
+      "close_time": "2026-04-17 15:47:15",
+      "close_price": 1.408,
+      "price_pnl_pct": 4.2963,
+      "total_funding": 1.174269,
+      "close_reason": "partial_perp_only"
     }
   ],
-  "total_funding_earned": 151.38114399999998
+  "total_funding_earned": 152.555413
 }

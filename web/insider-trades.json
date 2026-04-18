@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-17",
-  "updated_at": "2026-04-17 04:42",
+  "date": "2026-04-18",
+  "updated_at": "2026-04-18 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 2,
+  "watchlist_matches": 4,
   "status": "ok",
   "trades": [
     {
@@ -10,18 +10,36 @@
       "company": "GOLDMAN SACHS",
       "type": "未知",
       "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526159151/0001193125-26-159151-index.htm",
-      "date": "2026-04-16T16:40:20-04:00",
-      "summary": "Filed: 2026-04-16 AccNo: 0001193125-26-159151 Size: 331 KB"
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526161664/0001193125-26-161664-index.htm",
+      "date": "2026-04-17T16:38:38-04:00",
+      "summary": "Filed: 2026-04-17 AccNo: 0001193125-26-161664 Size: 1 MB"
     },
     {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
+      "ticker": "ADBE",
+      "company": "ADOBE",
       "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526159147/0001193125-26-159147-index.htm",
-      "date": "2026-04-16T16:39:07-04:00",
-      "summary": "Filed: 2026-04-16 AccNo: 0001193125-26-159147 Size: 543 KB"
+      "title": "4 - ADOBE INC. (0000796343) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000097/0000796343-26-000097-index.htm",
+      "date": "2026-04-17T16:38:37-04:00",
+      "summary": "Filed: 2026-04-17 AccNo: 0000796343-26-000097 Size: 8 KB"
+    },
+    {
+      "ticker": "ADBE",
+      "company": "ADOBE",
+      "type": "未知",
+      "title": "4 - ADOBE INC. (0000796343) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000095/0000796343-26-000095-index.htm",
+      "date": "2026-04-17T16:37:46-04:00",
+      "summary": "Filed: 2026-04-17 AccNo: 0000796343-26-000095 Size: 8 KB"
+    },
+    {
+      "ticker": "ADBE",
+      "company": "ADOBE",
+      "type": "未知",
+      "title": "4 - ADOBE INC. (0000796343) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000094/0000796343-26-000094-index.htm",
+      "date": "2026-04-17T16:37:39-04:00",
+      "summary": "Filed: 2026-04-17 AccNo: 0000796343-26-000094 Size: 8 KB"
     }
   ]
 }

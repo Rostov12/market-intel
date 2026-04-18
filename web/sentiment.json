@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-17",
-  "generated_at": "2026-04-17 04:45",
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18 04:45",
   "composite": {
-    "score": -0.5,
+    "score": 0.0,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,54 +10,49 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-16",
       "2026-04-17",
-      "2026-04-20"
+      "2026-04-20",
+      "2026-04-21"
     ],
-    "total_calls_vol": 2243747,
-    "total_puts_vol": 3142318,
-    "pcr": 1.4,
-    "label": "散戶極度恐慌🟢",
-    "signal": "逆向看多"
+    "total_calls_vol": 4890668,
+    "total_puts_vol": 5017466,
+    "pcr": 1.026,
+    "label": "散戶偏空",
+    "signal": "略偏看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 6,
-    "bear_words": 2,
-    "bull_pct": 75,
+    "bull_words": 4,
+    "bear_words": 0,
+    "bull_pct": 100,
     "label": "偏多情緒",
-    "top_tickers": [
-      {
-        "symbol": "NKE",
-        "count": 1
-      }
-    ],
+    "top_tickers": [],
     "top_posts": [
       {
-        "title": "Weekly Earnings Thread 4/13 - 4/17",
-        "score": 222,
+        "title": "Weekly Earnings Thread 4/20 - 4/24",
+        "score": 41,
+        "upvote_ratio": 0.86
+      },
+      {
+        "title": "Weekend Discussion Thread for the Weekend of April 17, 2026",
+        "score": 20,
+        "upvote_ratio": 1.0
+      },
+      {
+        "title": "HORMUZ OPEN",
+        "score": 5785,
         "upvote_ratio": 0.96
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 17, 2026",
-        "score": 33,
-        "upvote_ratio": 0.95
-      },
-      {
-        "title": "$NKE",
-        "score": 13335,
-        "upvote_ratio": 0.98
-      },
-      {
-        "title": "AMD. New high score: +$6M",
-        "score": 3374,
+        "title": "Michael Burry analyzed 1,000+ reports and found a $1.7 trillion 'earnings illusi",
+        "score": 8787,
         "upvote_ratio": 0.96
       },
       {
-        "title": "Every Regard here",
-        "score": 3965,
+        "title": "Impeccable timing",
+        "score": 862,
         "upvote_ratio": 0.99
       }
     ]
