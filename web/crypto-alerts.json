@@ -1,25 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2294.47,
-    "change_pct": 2.7,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 以太坊財務公司 Bitmine 在最新文件中報告第一季虧損 38 億美元\n- [CoinDesk] 以太幣與比特幣比率從 2026 年低點反彈，預示著更廣泛的加密貨幣復甦\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-16T21:55:14.471683+08:00",
-    "epoch": 1776347708
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.95,
-    "change_pct": 2.94,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] SOL、ADA、DOGE 回調，比特幣維持在 74,000 美元上方，亞洲收復伊朗戰爭損失",
-    "timestamp": "2026-04-16T21:55:15.110879+08:00",
-    "epoch": 1776347708
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 73770.0,
@@ -498,5 +478,25 @@
     "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高點 - 財富",
     "timestamp": "2026-04-18T02:25:07.631423+08:00",
     "epoch": 1776450305
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2363.02,
+    "change_pct": -2.1,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [Crypto Briefing] Schwab 向 4,600 萬客戶開放比特幣、以太坊交易，資產價值 11.8T - Crypto Briefing\n- [CoinDesk] XRP 每週表現領先 8％，領先主要貨幣，突破後下一步是什麼",
+    "timestamp": "2026-04-18T18:15:08.063967+08:00",
+    "epoch": 1776507305
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2361.19,
+    "change_pct": -2.1,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [Crypto Briefing] Schwab 向 4,600 萬客戶開放比特幣、以太坊交易，資產價值 11.8T - Crypto Briefing\n- [CoinDesk] XRP 每週表現領先 8％，領先主要貨幣，突破後下一步是什麼",
+    "timestamp": "2026-04-18T18:50:09.392910+08:00",
+    "epoch": 1776509407
   }
 ]
