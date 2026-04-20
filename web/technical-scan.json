@@ -1,9 +1,8 @@
 {
-  "last_scan": "2026-04-18T13:37:00+08:00",
-  "status": "no_anomaly_detected",
-  "data_freshness": "stale_5h",
-  "note": "stock-prices-latest.json 停留在 08:37（5小時未更新）。台股個股即時 feed 仍缺失。",
-  "breaking_news_count_after_12:37": 0,
-  "significant_changes": [],
-  "next_scan": "2026-04-18T14:37:00+08:00"
+  "last_scan": "2026-04-19T09:37:00+08:00",
+  "status": "no_anomalies",
+  "tw_market_note": "台股今日休市（週日），盤前數據已預載，09:00 開盤後才有即時報價",
+  "breaking_news_note": "Breaking news 無新增（仍是 23:30 伊朗/荷姆茲報導，共30條，13條荷姆茲相關）",
+  "tw_stocks_rsi": "RSI 數據需 09:00 後才能計算（週日休市）",
+  "next_scan": "2026-04-19T10:07:00+08:00"
 }
