@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-18",
-  "generated_at": "2026-04-18 04:45",
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-17",
       "2026-04-20",
-      "2026-04-21"
+      "2026-04-21",
+      "2026-04-22"
     ],
-    "total_calls_vol": 4890668,
-    "total_puts_vol": 5017466,
-    "pcr": 1.026,
+    "total_calls_vol": 3844622,
+    "total_puts_vol": 4533089,
+    "pcr": 1.179,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -25,35 +25,48 @@
     "status": "ok",
     "post_count": 25,
     "bull_words": 4,
-    "bear_words": 0,
-    "bull_pct": 100,
+    "bear_words": 2,
+    "bull_pct": 67,
     "label": "偏多情緒",
-    "top_tickers": [],
+    "top_tickers": [
+      {
+        "symbol": "HOOD",
+        "count": 1
+      },
+      {
+        "symbol": "UNH",
+        "count": 1
+      },
+      {
+        "symbol": "MSTR",
+        "count": 1
+      }
+    ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/20 - 4/24",
-        "score": 41,
-        "upvote_ratio": 0.86
+        "score": 125,
+        "upvote_ratio": 0.89
       },
       {
-        "title": "Weekend Discussion Thread for the Weekend of April 17, 2026",
-        "score": 20,
-        "upvote_ratio": 1.0
-      },
-      {
-        "title": "HORMUZ OPEN",
-        "score": 5785,
+        "title": "What Are Your Moves Tomorrow, April 21, 2026",
+        "score": 89,
         "upvote_ratio": 0.96
       },
       {
-        "title": "Michael Burry analyzed 1,000+ reports and found a $1.7 trillion 'earnings illusi",
-        "score": 8787,
+        "title": "Are you winning yet",
+        "score": 2441,
+        "upvote_ratio": 0.98
+      },
+      {
+        "title": "Strategy Buys $2.54 Billion of Bitcoin, Most Since Late 2024",
+        "score": 1662,
         "upvote_ratio": 0.96
       },
       {
-        "title": "Impeccable timing",
-        "score": 862,
-        "upvote_ratio": 0.99
+        "title": "Bought the dip of AMC",
+        "score": 1399,
+        "upvote_ratio": 0.9
       }
     ]
   }

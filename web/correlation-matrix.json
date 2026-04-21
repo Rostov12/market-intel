@@ -1,56 +1,56 @@
 {
-  "date": "2026-04-18",
+  "date": "2026-04-21",
   "pairs": [
     {
       "pair": "黃金 vs 美元",
       "s1": "GLD",
       "s2": "UUP",
-      "corr_20d": -0.102,
-      "corr_60d": -0.389,
-      "change_20d": -0.036,
-      "anomaly": false
+      "corr_20d": -0.393,
+      "corr_60d": -0.395,
+      "change_20d": -0.317,
+      "anomaly": true
     },
     {
       "pair": "BTC vs 納指",
       "s1": "BTC-USD",
       "s2": "^IXIC",
-      "corr_20d": 0.327,
-      "corr_60d": 0.048,
-      "change_20d": 0.34,
-      "anomaly": true
+      "corr_20d": -0.024,
+      "corr_60d": 0.07,
+      "change_20d": 0.175,
+      "anomaly": false
     },
     {
       "pair": "S&P vs VIX",
       "s1": "^GSPC",
       "s2": "^VIX",
-      "corr_20d": -0.891,
-      "corr_60d": -0.852,
-      "change_20d": 0.005,
+      "corr_20d": -0.903,
+      "corr_60d": -0.846,
+      "change_20d": -0.009,
       "anomaly": false
     },
     {
       "pair": "黃金 vs 殖利率",
       "s1": "GLD",
       "s2": "^TNX",
-      "corr_20d": -0.45,
-      "corr_60d": -0.215,
-      "change_20d": -0.086,
+      "corr_20d": -0.47,
+      "corr_60d": -0.216,
+      "change_20d": -0.015,
       "anomaly": false
     },
     {
       "pair": "能源股 vs 油價",
       "s1": "XLE",
       "s2": "CL=F",
-      "corr_20d": 0.525,
-      "corr_60d": 0.481,
-      "change_20d": 0.127,
+      "corr_20d": 0.603,
+      "corr_60d": 0.536,
+      "change_20d": 0.217,
       "anomaly": false
     },
     {
       "pair": "半導體 vs 納指",
       "s1": "SMH",
       "s2": "^IXIC",
-      "corr_20d": 0.9,
+      "corr_20d": 0.902,
       "corr_60d": 0.865,
       "change_20d": 0.019,
       "anomaly": false
@@ -59,18 +59,18 @@
       "pair": "BTC vs 黃金",
       "s1": "BTC-USD",
       "s2": "GLD",
-      "corr_20d": 0.066,
-      "corr_60d": 0.206,
-      "change_20d": -0.002,
+      "corr_20d": 0.088,
+      "corr_60d": -0.07,
+      "change_20d": -0.038,
       "anomaly": false
     },
     {
       "pair": "科技 vs 能源",
       "s1": "XLK",
       "s2": "XLE",
-      "corr_20d": -0.469,
-      "corr_60d": -0.213,
-      "change_20d": -0.346,
+      "corr_20d": -0.489,
+      "corr_60d": -0.259,
+      "change_20d": -0.43,
       "anomaly": true
     }
   ],

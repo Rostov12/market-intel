@@ -1,0 +1,28 @@
+{
+  "cycle": 1,
+  "instrument": "ETH-USDT-SWAP",
+  "started_at": "2026-04-19 21:42:48",
+  "stopped_at": "2026-04-20 01:05:32",
+  "duration_hours": 3.38,
+  "investment_usdt": 4034.52,
+  "range": {"min": 2300.0, "max": 2500.0},
+  "grid_count": 30,
+  "stop_loss": 2300.0,
+  "stop_condition": "closing_break_below_2300",
+  "result": {
+    "total_pnl_usdt": -4.07,
+    "total_pnl_pct": -0.11,
+    "grid_arbitrage_usdt": 1.62,
+    "grid_arbitrage_pct": 0.04,
+    "arbitrage_count": 4,
+    "annualized_arb": 88.39,
+    "outcome": "stop_loss_triggered_clean_exit"
+  },
+  "lessons": [
+    "停損機制正確執行，避免後續 ETH 跌至 $2,265 的更大虧損",
+    "短期持有（3.4小時）套利收入有限（$1.62），但比預期好",
+    "區間 $200 寬度太窄，行情破口時來不及攤平"
+  ],
+  "recorded_by": "vera",
+  "recorded_at": "2026-04-20T08:42:00+08:00"
+}

@@ -1,125 +1,5 @@
 [
   {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 74761.7,
-    "change_pct": 2.04,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [breaking (I] 中東地緣政治緩解和 3.5 億美元 ETF 流入，比特幣觸及 73,000 美元\n- [CoinDesk] 比特幣開發者正在嘗試建立量子防禦。你的硬幣可以付出代價。\n- [Cointelegraph] 比特幣支持者提議在 BIP-361 中凍結易受量子影響的代幣",
-    "timestamp": "2026-04-17T00:10:10.355381+08:00",
-    "epoch": 1776355808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.68,
-    "change_pct": 3.63,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] SOL、ADA、DOGE 回調，比特幣維持在 74,000 美元上方，亞洲收復伊朗戰爭損失",
-    "timestamp": "2026-04-17T00:10:11.028368+08:00",
-    "epoch": 1776355808
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2336.87,
-    "change_pct": 2.82,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 以太坊財務公司 Bitmine 在最新文件中報告第一季虧損 38 億美元\n- [CoinDesk] 以太幣與比特幣比率從 2026 年低點反彈，預示著更廣泛的加密貨幣復甦\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-17T00:15:10.966509+08:00",
-    "epoch": 1776356108
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 627.9,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-17T00:20:10.311881+08:00",
-    "epoch": 1776356408
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 74358.9,
-    "change_pct": 2.04,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [breaking (I] 中東地緣政治緩解和 3.5 億美元 ETF 流入，比特幣觸及 73,000 美元\n- [CoinDesk] 比特幣開發者正在嘗試建立量子防禦。你的硬幣可以付出代價。\n- [Cointelegraph] 比特幣支持者提議在 BIP-361 中凍結易受量子影響的代幣",
-    "timestamp": "2026-04-17T00:45:11.233374+08:00",
-    "epoch": 1776357909
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2323.59,
-    "change_pct": 2.82,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 以太坊財務公司 Bitmine 在最新文件中報告第一季虧損 38 億美元\n- [CoinDesk] 以太幣與比特幣比率從 2026 年低點反彈，預示著更廣泛的加密貨幣復甦\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-17T00:45:11.980606+08:00",
-    "epoch": 1776357909
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.36,
-    "change_pct": 3.63,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] SOL、ADA、DOGE 回調，比特幣維持在 74,000 美元上方，亞洲收復伊朗戰爭損失",
-    "timestamp": "2026-04-17T00:45:12.581089+08:00",
-    "epoch": 1776357909
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 625.1,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-17T00:55:12.368526+08:00",
-    "epoch": 1776358508
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 87.57,
-    "change_pct": 2.32,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] SOL、ADA、DOGE 回調，比特幣維持在 74,000 美元上方，亞洲收復伊朗戰爭損失\n- [Geopolitical] 美國眾議院拒絕旨在限制伊朗戰爭的戰爭權力決議 - BBC",
-    "timestamp": "2026-04-17T02:20:07.957954+08:00",
-    "epoch": 1776363605
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 88.37,
-    "change_pct": 3.66,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] SOL、ADA、DOGE 回調，比特幣維持在 74,000 美元上方，亞洲收復伊朗戰爭損失\n- [Geopolitical] 美國眾議院拒絕旨在限制伊朗戰爭的戰爭權力決議 - BBC",
-    "timestamp": "2026-04-17T02:50:10.939494+08:00",
-    "epoch": 1776365408
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 635.9,
-    "change_pct": 2.2,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-17T02:55:10.106529+08:00",
-    "epoch": 1776365708
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 89.18,
-    "change_pct": 4.21,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] SOL、ADA、DOGE 回調，比特幣維持在 74,000 美元上方，亞洲收復伊朗戰爭損失\n- [Geopolitical] 美國眾議院拒絕旨在限制伊朗戰爭的戰爭權力決議 - BBC",
-    "timestamp": "2026-04-17T03:25:10.482233+08:00",
-    "epoch": 1776367508
-  },
-  {
     "symbol": "BNB/USDT",
     "coin": "BNB",
     "price": 634.9,
@@ -498,5 +378,125 @@
     "news": "- [Yahoo Finance] Solana 價格預測：Solana 能否超越比特幣？ SOL 還要走多遠 - 雅虎財經\n- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管\n- [CoinTelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
     "timestamp": "2026-04-20T07:30:11.093812+08:00",
     "epoch": 1776641408
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2326.2,
+    "change_pct": 3.07,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元\n- [Cointelegraph] 量子差距：為什麼比特幣和以太坊在安全性方面採取了不同的路徑",
+    "timestamp": "2026-04-20T15:25:08.163321+08:00",
+    "epoch": 1776669905
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.52,
+    "change_pct": 2.39,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
+    "timestamp": "2026-04-20T15:25:08.996461+08:00",
+    "epoch": 1776669905
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 628.9,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] RaveDAO 否認操縱行為，幣安、Bitget 調查 RAVE 交易活動",
+    "timestamp": "2026-04-20T15:25:09.728966+08:00",
+    "epoch": 1776669905
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2287.51,
+    "change_pct": 3.07,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元\n- [Cointelegraph] 量子差距：為什麼比特幣和以太坊在安全性方面採取了不同的路徑",
+    "timestamp": "2026-04-20T15:55:11.427279+08:00",
+    "epoch": 1776671705
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.54,
+    "change_pct": 2.39,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
+    "timestamp": "2026-04-20T15:55:12.028730+08:00",
+    "epoch": 1776671705
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 623.7,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] RaveDAO 否認操縱行為，幣安、Bitget 調查 RAVE 交易活動",
+    "timestamp": "2026-04-20T15:55:12.616586+08:00",
+    "epoch": 1776671705
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2285.16,
+    "change_pct": -2.22,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Tether 支持阿聯酋代幣化公司 KAIO 進行 800 萬美元融資，將阿聯酋資金引入鏈上\n- [CoinDesk] Coinbase和Bybit據稱將在美股代幣化、託管和發行方面展開合作\n- [Fortune] 2026 年 4 月 20 日以太坊當前價格 - 財富",
+    "timestamp": "2026-04-20T23:05:08.778862+08:00",
+    "epoch": 1776697505
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2308.98,
+    "change_pct": -2.22,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] Bitmine 購買了 101,627 ETH，這是自 2025 年 12 月以來最大的一筆購買\n- [CoinTelegraph] Bitmine 購買了 101,627 ETH，這是自 2025 年 12 月以來最大的一筆購買\n- [CoinDesk] Tether 支持阿聯酋代幣化公司 KAIO 進行 800 萬美元融資，將阿聯酋資金引入鏈上",
+    "timestamp": "2026-04-20T23:35:11.032092+08:00",
+    "epoch": 1776699308
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2318.62,
+    "change_pct": 2.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [CoinTelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [Yahoo Finance] Coinbase 現在允許英國用戶以比特幣和以太坊為抵押借款 - 雅虎財經",
+    "timestamp": "2026-04-21T01:20:07.945288+08:00",
+    "epoch": 1776705605
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.99,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Geopolitical] 海灣國家希望如何解決伊朗戰爭？ - 美國有線電視新聞網\n- [Geopolitical] 伊朗戰爭推高汽油成本 加拿大年度CPI上升至2.4% - 路透社中文網",
+    "timestamp": "2026-04-21T01:20:09.185477+08:00",
+    "epoch": 1776705605
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2320.57,
+    "change_pct": 2.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [CoinTelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [Yahoo Finance] Coinbase 現在允許英國用戶以比特幣和以太坊為抵押借款 - 雅虎財經",
+    "timestamp": "2026-04-21T01:50:10.243393+08:00",
+    "epoch": 1776707408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.02,
+    "change_pct": 2.0,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Geopolitical] 海灣國家希望如何解決伊朗戰爭？ - 美國有線電視新聞網\n- [Geopolitical] 伊朗戰爭推高汽油成本 加拿大年度CPI上升至2.4% - 路透社中文網",
+    "timestamp": "2026-04-21T01:50:10.990586+08:00",
+    "epoch": 1776707408
   }
 ]

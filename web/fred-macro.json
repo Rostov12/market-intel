@@ -1,24 +1,15 @@
 {
-  "date": "2026-04-18",
-  "fetched_at": "2026-04-18 04:55",
+  "date": "2026-04-21",
+  "fetched_at": "2026-04-21 04:55",
   "indicators": {
-    "DGS10": {
-      "name": "10Y殖利率",
-      "unit": "%",
-      "value": 4.32,
-      "date": "2026-04-16",
-      "prev_value": 4.29,
-      "prev_date": "2026-04-15",
-      "change": 0.03
-    },
     "DGS2": {
       "name": "2Y殖利率",
       "unit": "%",
-      "value": 3.78,
-      "date": "2026-04-16",
-      "prev_value": 3.76,
-      "prev_date": "2026-04-15",
-      "change": 0.02
+      "value": 3.71,
+      "date": "2026-04-17",
+      "prev_value": 3.78,
+      "prev_date": "2026-04-16",
+      "change": -0.07
     },
     "FEDFUNDS": {
       "name": "聯邦基金利率",
@@ -52,29 +43,22 @@
     "DTWEXBGS": {
       "name": "美元指數(廣義)",
       "unit": "index",
-      "value": 118.8552,
-      "date": "2026-04-10",
-      "prev_value": 118.8998,
-      "prev_date": "2026-04-09",
-      "change": -0.0446
+      "value": 118.0795,
+      "date": "2026-04-17",
+      "prev_value": 118.3616,
+      "prev_date": "2026-04-16",
+      "change": -0.2821
     },
     "T5YIE": {
       "name": "5Y通膨預期",
       "unit": "%",
-      "value": 2.6,
-      "date": "2026-04-16",
-      "prev_value": 2.61,
-      "prev_date": "2026-04-15",
-      "change": -0.01
-    },
-    "SPREAD_2Y10Y": {
-      "name": "2Y-10Y利差",
-      "unit": "%",
-      "value": 0.54,
-      "inverted": false,
-      "date": "2026-04-16"
+      "value": 2.56,
+      "date": "2026-04-17",
+      "prev_value": 2.6,
+      "prev_date": "2026-04-16",
+      "change": -0.04
     }
   },
-  "summary": "10Y殖利率: 4.32%（較前值 +0.03%）\n2Y-10Y利差: +0.5400%（殖利率曲線正常）\n聯邦基金利率: 3.64%\n5Y通膨預期: 2.60%\nM2貨幣供給: 22,667B（MoM +0.88%）\nFed總資產: 6.71兆美元\n美元指數(廣義): 118.86（-0.04）",
-  "count": 8
+  "summary": "聯邦基金利率: 3.64%\n5Y通膨預期: 2.56%\nM2貨幣供給: 22,667B（MoM +0.88%）\nFed總資產: 6.71兆美元\n美元指數(廣義): 118.08（-0.28）",
+  "count": 6
 }
