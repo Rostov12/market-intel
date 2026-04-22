@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-21",
-  "generated_at": "2026-04-21 04:45",
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22 04:45",
   "composite": {
-    "score": 0.0,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": -1.0,
+    "label": "散戶偏空",
+    "contrarian_signal": "🟡注意反彈"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-20",
       "2026-04-21",
-      "2026-04-22"
+      "2026-04-22",
+      "2026-04-23"
     ],
-    "total_calls_vol": 3844622,
-    "total_puts_vol": 4533089,
-    "pcr": 1.179,
+    "total_calls_vol": 5479684,
+    "total_puts_vol": 6063062,
+    "pcr": 1.106,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -24,49 +24,41 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 4,
-    "bear_words": 2,
-    "bull_pct": 67,
-    "label": "偏多情緒",
+    "bull_words": 0,
+    "bear_words": 4,
+    "bull_pct": 0,
+    "label": "偏空情緒",
     "top_tickers": [
       {
-        "symbol": "HOOD",
-        "count": 1
-      },
-      {
-        "symbol": "UNH",
-        "count": 1
-      },
-      {
-        "symbol": "MSTR",
+        "symbol": "HAS",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/20 - 4/24",
-        "score": 125,
+        "score": 139,
         "upvote_ratio": 0.89
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 21, 2026",
-        "score": 89,
-        "upvote_ratio": 0.96
+        "title": "What Are Your Moves Tomorrow, April 22, 2026",
+        "score": 74,
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Are you winning yet",
-        "score": 2441,
-        "upvote_ratio": 0.98
+        "title": "BEARS ARE WE BACK ?",
+        "score": 868,
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Strategy Buys $2.54 Billion of Bitcoin, Most Since Late 2024",
-        "score": 1662,
-        "upvote_ratio": 0.96
+        "title": "RDDT has \"disappointing user growth\"",
+        "score": 1140,
+        "upvote_ratio": 0.93
       },
       {
-        "title": "Bought the dip of AMC",
-        "score": 1399,
-        "upvote_ratio": 0.9
+        "title": "Musk bought $1.4 billion SpaceX shares last year, The Information reports",
+        "score": 1911,
+        "upvote_ratio": 0.97
       }
     ]
   }

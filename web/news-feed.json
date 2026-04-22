@@ -1,306 +1,167 @@
 {
-  "updated_at": "2026-04-21 08:00",
-  "count": 30,
+  "date": "2026-04-22",
+  "fetched_at": "2026-04-22 07:07",
+  "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Opening Hormuz is the easy part. Restoring oil flows isn’t - Reuters",
-      "title_cn": "打開霍爾木茲是比較容易的部分",
-      "time": "08:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGhoTlY5TDZZczl1UFFNQWgydDlhdXFxRUQzMktFNmo0c2hGaG5ITVM1QUZaUUZReVMtLVhWa09uY0oyaXlMRGw0V1ZBWFBGV2s2bVdHbE1Ca0w2R1RBM2NCNWhycDdXQ3BpZjFtQ0NMX2xzbS1XcEJjQ1hmRWc5cmluS05BeUl3TUVUZE5nSUdWZzgwT1dzY1o4TW1IZTA5cHVkWmctRy11RHdu?oc=5",
-      "summary": "Opening Hormuz is the easy part. Restoring oil flows isn’t&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title": "Condom maker may raise prices because of Iran war - CNN",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "CNN 稱，由於伊朗戰爭，避孕套製造商可能會提高價格",
+      "time": "05:30",
+      "detected_at": "2026-04-22T05:30:16.581265+08:00"
     },
     {
-      "title": "Oil surges, stocks end lower on worries about tenuous US-Iran ceasefire - Reuters",
-      "title_cn": "由於擔心美伊停火協議脆弱，油價飆升，股市收低 - 路透中文網由於擔心美伊停火脆弱，油價飆升，股市收低 路透",
-      "time": "08:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUDVhUHN1MnI4Rk5ZWTVfcXNRRkhYXzQ2ZlRRajF5eTdoTXBaMXQxVmkyVzBrakttangtMHlLSDNXRmlYc0w0ekxLTFJoYzBqeHBXRmVyVG5KLUcxaEdBM3V5R01jOVJUbkxjdVU2eGdjRkZvRkx1Z2FmcmNtYVZFeE9LeUNLQQ?oc=5",
-      "summary": "Oil surges, stocks end lower on worries about tenuous US-Iran ceasefire&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title": "Distillate Prices Remain Beholden to Iran War’s Outcome - stonex.com",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "餾分油價格仍取決於伊朗戰爭的結果 - Stonex.com",
+      "time": "05:30",
+      "detected_at": "2026-04-22T05:30:16.581265+08:00"
     },
     {
-      "title": "Apple CEO Tim Cook to step down after overseeing 1,900% stock surge. His successor faces big challenges.",
-      "title_cn": "蘋果執行長庫克在股價飆升 1,900% 後辭職",
-      "time": "08:00",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/tim-cook-to-step-down-after-15-years-at-the-helm-of-apple-68d0e126?mod=mw_rss_topstories",
-      "summary": "John Ternus is expected to usher in a renewed focus on hardware as Apple positions itself for the age of AI.",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil surges, stocks end lower on worries about tenuous US-Iran ceasefire By Reuters - Investing.com",
-      "title_cn": "由於擔心美伊停火協議脆弱，油價飆升，股市收低 路透社 - Investing.com由於擔心美伊停火協議脆弱，油價飆升，股市收低 路透社 Investing.com",
-      "time": "08:00",
+      "title": "Traders place $760 million bet on falling oil ahead of Hormuz announcement By Reuters - Investing.com",
+      "impact": "bearish",
       "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXJXRkwzSms1Um10dENkNnZhWVcySWZoQjVWaDV5YmRKVDlLQTlSZW9LcXdkeFk4aTJwcXc4VVhrOF8tbXAxNEpkS1hWdkRYc1BTRDVMUmc2dFVQVWxNek51SVhrRDFBZnFjUzVhcW9fMlZSRHJRdHFuMG5OVDFGeENJLUxwbDdQNFVWOVE4OUhkVGhUZHJpMkxpMG8zeXVoMGNOWkJCeDhMWDhhaUozUjRnaFFQb0ozX3c?oc=5",
-      "summary": "Oil surges, stocks end lower on worries about tenuous US-Iran ceasefire By Reuters&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title_cn": "在霍爾木茲海峽宣布之前，交易員對油價下跌押注 7.6 億美元（路透社 - Investing.com）",
+      "time": "05:00",
+      "detected_at": "2026-04-22T05:00:16.542847+08:00"
     },
     {
-      "title": "Oil prices crater after temporary reopening of the Strait of Hormuz - Investing.com",
-      "title_cn": "霍爾木茲海峽暫時重新開放後油價暴跌 - Investing.com",
-      "time": "08:00",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTHg2X0NKS1g2X1VLMWRIWlI0aF8telJTdVVXRGwzaDZTdUJUR29wVXZKZzBHYnkwSFhnRnNvbE5oSlJTVTVZb2I0YkRZM1h5eElnaDR5ZUZ5Ml9TVHV3SnBvMFdjVXFRNGFfLVM5dlR5Mm91SHREWTRUdTl4ZGQ5eEZ6bDNJYVZYMlYxZzFMRjVlSEE2VDQwREw5XzJhdkxEaTNHdFJfTXNEeTlWWUhJcHg4WUxXWV9fR0dac3d0NUVhRXRvcFdocg?oc=5",
-      "summary": "Oil prices crater after temporary reopening of the Strait of Hormuz&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title": "What to know as Trump extends ceasefire in Iran war - AP News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普延長伊朗戰爭停火時間需要了解什麼 - 美聯社新聞",
+      "time": "05:00",
+      "detected_at": "2026-04-22T05:00:16.542847+08:00"
     },
     {
-      "title": "China’s Biggest Trade Fair Exposes Risks to Economy if Iran War Drags On - Bloomberg.com",
-      "title_cn": "China’s Biggest Trade Fair Exposes Risks to Economy if Iran War Drags On - Bloomberg.com",
-      "time": "08:00",
+      "title": "Air fares soar by nearly 25% as Iran war forces flights to re-route - BBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "由於伊朗戰爭迫使航班改道，機票價格飆升近 25% - BBC",
+      "time": "04:30",
+      "detected_at": "2026-04-22T04:30:15.767074+08:00"
+    },
+    {
+      "title": "Iran's foreign minister says US blockade of Iranian ports is an 'act of war' - Reuters",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗外長稱美國封鎖伊朗港口是「戰爭行為」 - 路透社",
+      "time": "04:30",
+      "detected_at": "2026-04-22T04:30:15.767074+08:00"
+    },
+    {
+      "title": "How Trump’s Fed Drama Risks Backfiring — and Keeping Powell in Power - Bloomberg.com",
+      "impact": "neutral",
       "source": "Bloomberg-via-GN",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdi1ON1BNeEZMalRlSUZnX0p2ZklXS1lJbjBBVlRuVGhROEg5VFFOZ2pqeHUyR1o2SURxUzNYMy1wWGc0NExXVnJaRHQ4a1NFNFhFT0xKSXVCejFucHAzYkdWRG53c1BWRy00SzVYNUZOem9YLWF4Ni02a0lVbmU1eUd4b1RxUmdaX0NRQXowR1MtcEx5ZTQxSTY5MGx1aTNwLTNiVngzODE5UVNGN1RYV2FTdkY5c0h5R3NLbHlYdlY5aGdYZG1PRkN5WDR3dE0?oc=5",
-      "summary": "China’s Biggest Trade Fair Exposes Risks to Economy if Iran War Drags On&nbsp;&nbsp;Bloomberg.com",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title_cn": "川普的聯準會鬧劇如何冒適得其反的風險，並讓鮑威爾繼續掌權 - Bloomberg.com",
+      "time": "04:00",
+      "detected_at": "2026-04-22T04:00:18.168463+08:00"
     },
     {
-      "title": "Iran war accelerates America’s breakup with the world - Politico",
-      "title_cn": "Iran war accelerates America’s breakup with the world - Politico",
-      "time": "08:00",
+      "title": "The Latest Iran War Price Shockwave? Condoms. - Forbes",
+      "impact": "bearish",
       "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSmVaa2dsQTV5cUptYVlSYXJfMl8zOGx4d3FPQWVGUEpTODQtaGM0SFR5MTV1dDh0V2RHa0Mxd0xmcURvMmF1Z0t1dlBqdU5jMjhwbjRuWUJRbXB6MGdKRjRMMTBFYUxRWlAwZGg3TUpLamNaek5DOGFNdzFPcWxFT0YyWQ?oc=5",
-      "summary": "Iran war accelerates America’s breakup with the world&nbsp;&nbsp;Politico",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title_cn": "最新的伊朗戰爭價格衝擊波？保險套",
+      "time": "04:00",
+      "detected_at": "2026-04-22T04:00:18.168463+08:00"
     },
     {
-      "title": "The Memo: Despite Trump’s claims, Iran war is doing him damage - The Hill",
-      "title_cn": "The Memo: Despite Trump’s claims, Iran war is doing him damage - The Hill",
-      "time": "08:00",
+      "title": "Pentagon wants a record $1.5 trillion. Cost of Iran war is not included - USA Today",
+      "impact": "neutral",
       "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNlVYUjFiZS1oeGxSc3E1cmNaeDd2NHdqMDNwMU9XaFRINHkwaVF4dUZfcGVac084RzB6WlNOcWdPdERrOWJKQnlMai1uOExsRGMteTFjYWZlRVhndUY1V0dNWEd5VVlrNHI2UlN6d2xRMm9ETV9iY0wzSzZobWo4aTlsZnAyelFnNFVsV2RJZ3JlOFVtYjltd3ExTU_SAaIBQVVfeXFMUDBZOXhSUFR4a21JaThuVEx1S2NPNEVKRUhKTDlPWm5mZlVMYlUzREpTTjJLUk4tTjdxQkk0c3FyOWVFYUJLeGxLYXNFRXBNUFVWQTEyelNMUTBFd2JhTnRnZEtfWDBrNTNMSkV5ZkZiUG1oOTlGcjNpMHQ0MnFWd2M0TUhSeDBDM3k3cWkyVGhMY2RqQWF6d2UzaFVpWFoyV2xn?oc=5",
-      "summary": "The Memo: Despite Trump’s claims, Iran war is doing him damage&nbsp;&nbsp;The Hill",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title_cn": "五角大廈想要創紀錄的 1.5 兆美元",
+      "time": "04:00",
+      "detected_at": "2026-04-22T04:00:18.168463+08:00"
     },
     {
-      "title": "Iran War Highlights the Value of Unmanned Aircraft - Air & Space Forces Magazine",
-      "title_cn": "Iran War Highlights the Value of Unmanned Aircraft - Air & Space Forces Magazine",
-      "time": "08:00",
+      "title": "The Ripple Effect of the Iran War - The Santa Barbara Independent",
+      "impact": "bearish",
       "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa0x3QlR3QzUzaHM1U21SYkx5ZDIzakhJU2pTa0JsdW03V1RIOG5sV2cwMlNxWTBwazJiZktwYjM1N0pUTVh6UlkzcG5CdUVoSU56M2JveTdxODRYemliU1k1M1c3SEdBZnpRT1lya2t0ZnVneUpIT3FDaXdQOFl6QkR3T2xGZ1VGck9lYVpn?oc=5",
-      "summary": "Iran War Highlights the Value of Unmanned Aircraft&nbsp;&nbsp;Air & Space Forces Magazine",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Jim Cramer gives four reasons why the market keeps shrugging off the Iran war - CNBC",
-      "title_cn": "Jim Cramer gives four reasons why the market keeps shrugging off the Iran war - CNBC",
-      "time": "08:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQenNGaUtjeV9vZ2RxbXp6Y2VKZmRLTmc5YkR1aUZCTHdDUHl3aU03MEZvR3pHaXJVMmZYU3VXbXBZQkNTeEVRcmVTZVNPaW9wSm0tTlNpY1ltZUpXYVoyMjZnRThyM3lTUlYzWHEzMGpJLVEyb1BodEZhcjl3OHh3Zlk3STl0N2JDU3lNdTNwQ3ZScy01Uko5bjRyMHo0azUzZkhfOWRzY9IBrAFBVV95cUxPY0p6dDVtX25EWHA0QTFReDRRY0JRMU9NQnZRQzNqdHlpZHlPV1J1NVMya3B2NlJMSTd5elpBTEZDcnVsVml5Wk13eUVYZWlDOENKSUhrakVCQ2JDczAxZ3RxWnBodEo2NkZ6RWQtQzlBNmNVNjQtVmJFRnlTZEk0WWNjOU8yQUdETjZWNkVlUjQ4T2MtbEJ2bThSOWlhUHBTY0RaNlN2elI1eHND?oc=5",
-      "summary": "Jim Cramer gives four reasons why the market keeps shrugging off the Iran war&nbsp;&nbsp;CNBC",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
-    },
-    {
-      "title": "A deal to end the Iran war seemed close. Then Trump started posting on social media - CNN",
-      "title_cn": "A deal to end the Iran war seemed close. Then Trump started posting on social media - CNN",
-      "time": "08:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Wck5zTWU2UFh4Z3VYc3FZcENLOW40T2M4MFh4RzlqakhEanMzaHdCQXBYYkFDV3V1Q1Fna1BuNzRDNFRnRmZFTlA3dk5qX2JTUTh6Y3JpVGpKVDFhbjYybnlIQlA0eUhxRVBJdDNhMFlNa2FSeGpmTWtrOUFVd1E?oc=5",
-      "summary": "A deal to end the Iran war seemed close. Then Trump started posting on social media&nbsp;&nbsp;CNN",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Is anyone gonna do anything about these Iran War trades? : The Indicator from Planet Money - NPR",
-      "title_cn": "Is anyone gonna do anything about these Iran War trades? : The Indicator from Planet Money - NPR",
-      "time": "08:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlhxX1B0LUs0cWRjYzlEX1lEVTBsUjVOQ0FUQTlBN2c4Q245Z3pnT2k0eXRya3ZVMGVhamZ1ZE1RYVU0V1NEejh3aURGdmFid2JRNGZNbWctZjVpYU1vcGpWVlR5bWMyUkwxMHlMUkluZnlzZ05nUjJXUXpIUFBHTEFBdG9sYnZ5M1dQYlRvTUhTTDNKN0lrRGV2MzQwVDBWNGc?oc=5",
-      "summary": "Is anyone gonna do anything about these Iran War trades? : The Indicator from Planet Money&nbsp;&nbsp;NPR",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
-    },
-    {
-      "title": "What to Know as Ceasefire in the Iran War Hangs in the Balance - Mississippi Free Press",
-      "title_cn": "What to Know as Ceasefire in the Iran War Hangs in the Balance - Mississippi Free Press",
-      "time": "08:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOanBJOUhEUXA4UlBrUEpyTjU1S3ZPVE52b1NoX1Bwbm9mbERwQzIzaldhT3VKMmFrVXVDSTU4N21JWTdORkVrVVlTeVg1WUp6RHR5T3ZfbE5fN2d1VEFKZWxnalBHNEkxOTlHNy1LeC1TMkw0NUVrWVRPM0FRMUozejlEU2FlWVJ4NkRPWjV2THZrZG00aFFsZ0FRUjNIOUZHbXc?oc=5",
-      "summary": "What to Know as Ceasefire in the Iran War Hangs in the Balance&nbsp;&nbsp;Mississippi Free Press",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump rages against Democrats, the media over Iran: ‘I’m winning a War, BY A LOT’ - NJ.com",
-      "title_cn": "Trump rages against Democrats, the media over Iran: ‘I’m winning a War, BY A LOT’ - NJ.com",
-      "time": "08:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEZlNmxacmFCV1Z4dFFrcUg0dFZHWEM1dnVrTTdjaDRDQzlhcjNKV2JTZklzczM3ajF5SUVHWEp3Q0hUMXV4SzBaS2c2QS1QRDlaZlYydl9SZmYweHFrb192TktlZE5vWUNTMUxveDJVOHQ1cGl2LWl0WHNaWl9ab2ZmazJVNFhYYzlraU5oRDBLSFgyOFl1REd0aGVpRnNPcWN6OHBZUUJ5cWRRcHFrMlFLNjdicW_SAcsBQVVfeXFMT3dBUnhTejN1eHRkN1hnemdmd3gyOWdZMmdDaV9EaTVDRzAzR1drdUdwQUlqVjItdndvaGpRbEd1ZmdnMXRLTjlCRWtwNFNJU003V3FXRkhmMkc2Z0F2WG5Zcnl3M3owbnlFb3J0VVJQSGJrOWNIQ3FreUFuTnY2Q2gydVZYSjV6UldidE5PeEV5ejU4REV0eU5FbXNSc3B0cEZaTXBfWFdlci0yVWMya195UVlqSDhGbmlCdHFlcGN0dDE5ZVhDaVJ0YXM?oc=5",
-      "summary": "Trump rages against Democrats, the media over Iran: ‘I’m winning a War, BY A LOT’&nbsp;&nbsp;NJ.com",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title_cn": "伊朗戰爭的連鎖反應 - 聖塔芭芭拉獨立報",
+      "time": "04:00",
+      "detected_at": "2026-04-22T04:00:18.168463+08:00"
     },
     {
       "title": "〈美股盤後〉華爾街收低那指終結13連漲 美伊戰爭不確定性升高 - news.cnyes.com",
-      "title_cn": "〈美股盤後〉華爾街收低那指終結13連漲 美伊戰爭不確定性升高 - news.cnyes.com",
-      "time": "08:00",
+      "impact": "bullish",
       "source": "鉅亨網",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PTVJHb0VtdHVVUnlKRXhsR0QwWUFBN3lMV0dGWk1FR053dzZmdDJEelNuSG5iZTYtSWdjcE53b19ISExPTHJzTUItaE85Tk0?oc=5",
-      "summary": "〈美股盤後〉華爾街收低那指終結13連漲 美伊戰爭不確定性升高&nbsp;&nbsp;news.cnyes.com",
-      "detected_at": "2026-04-21T08:00:18.033709+08:00",
-      "level": "high"
+      "title_cn": "〈美股盤後〉華爾街收低那指終結13連漲 美伊市場失業性升高 - news.cnyes.com. 〈美股盤後〉華爾街收低那指終結13連漲 美伊市場失業性升高 &nbsp;&nbsp;news.cnyes.com",
+      "time": "04:00",
+      "detected_at": "2026-04-22T04:00:18.168463+08:00"
+    },
+    {
+      "title": "A timeline of Trump's shifting statements about how long the Iran war will last - PBS",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普關於伊朗戰爭將持續多久的聲明的時間表 - 金",
+      "time": "03:30",
+      "detected_at": "2026-04-22T03:30:18.158892+08:00"
+    },
+    {
+      "title": "The Guardian view on the true cost of the Iran war: bombs kill – but so does the economic fallout | Editorial - The Guardian",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "《衛報》對伊朗戰爭真正代價的看法：炸彈殺人－但經濟影響也是如此 |社論-衛報",
+      "time": "03:30",
+      "detected_at": "2026-04-22T03:30:18.158892+08:00"
+    },
+    {
+      "title": "Chris Murphy clarifies ‘awesome’ post on Iran war - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "克里斯墨菲 (Chris Murphy) 澄清了有關伊朗戰爭的“很棒”的帖子 - 國會山莊",
+      "time": "03:30",
+      "detected_at": "2026-04-22T03:30:18.158892+08:00"
+    },
+    {
+      "title": "Iran war accelerates America’s breakup with the world - Politico",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭加速了美國與世界的決裂 - Politico",
+      "time": "03:30",
+      "detected_at": "2026-04-22T03:30:18.158892+08:00"
+    },
+    {
+      "title": "Oil surges, stocks end lower on worries about tenuous US-Iran ceasefire By Reuters - Investing.com",
+      "impact": "bullish",
+      "source": "Investing.com",
+      "title_cn": "由於擔心美伊停火協議脆弱，油價飆升，股市收低 路透社 - Investing.com由於擔心美伊停火協議脆弱，油價飆升，股市收低 路透社 Investing.com",
+      "time": "03:00",
+      "detected_at": "2026-04-22T03:00:14.857779+08:00"
+    },
+    {
+      "title": "Oil prices crater after temporary reopening of the Strait of Hormuz - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "霍爾木茲海峽暫時重新開放後油價暴跌 - Investing.com",
+      "time": "03:00",
+      "detected_at": "2026-04-22T03:00:14.857779+08:00"
+    },
+    {
+      "title": "Why did US and Israel attack Iran and how long could the war last? - BBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "美國和以色列為何攻擊伊朗？戰爭會持續多久？ - 英國廣播公司",
+      "time": "03:00",
+      "detected_at": "2026-04-22T03:00:14.857779+08:00"
+    },
+    {
+      "title": "Diplomacy or Escalation? The Iran War at a Crossroads - Drop Site News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "外交還是升級？處於十字路口的伊朗戰爭 - Drop Site 新聞",
+      "time": "03:00",
+      "detected_at": "2026-04-22T03:00:14.857779+08:00"
     },
     {
       "title": "Oil prices jump more than 5% after U.S. seizure of Iranian ship, Hormuz closure - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
       "title_cn": "美國扣押伊朗船隻、霍爾木茲海峽關閉後油價上漲逾 5% - Investing.com美國扣押伊朗船隻、霍爾木茲海峽關閉後油價上漲逾 5%&nbsp;&nbsp;Investing.com",
-      "time": "05:30",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFhWV3JLVGdqT0w2aG9NNnB2aXdPbzNxTnAwRUNIa3V3OVhvUW5IdDhHMGdWZmZpN19YUnIxVUlpUUttNXJxTkkwVFNYVlNjWFVwbTJ6SFRQSmNsenFGWXhLTGlMNjBhYmpjSy1JRkxLT3JLY3NMcFJ6SXJnUFJfNjN0MGRNQ1VjbXQ5X1FienhiWnpfR1lpRkxLRWpGdFhSQVFaUUZjSEhKRHJoWFNCQXk3bnNrUXNraUxj?oc=5",
-      "summary": "Oil prices jump more than 5% after U.S. seizure of Iranian ship, Hormuz closure&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-04-21T05:30:17.252646+08:00",
-      "level": "high"
-    },
-    {
-      "title": "China’s Iran war currency windfall - Politico",
-      "title_cn": "中國的伊朗戰爭貨幣橫財 - Politico",
-      "time": "05:30",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTmFQSGNteHhTa3RtRjJyb3A5ZDVGZmZYR3BNQkpCOThzTk56Q1YxUURFYVJVZUFCZmtaTzE1UlJKTnJldXpBV1RVYmJzbnlqNlRtT2FVRzBDUFlCZWhUWGE4N1pWYWdVN0YzUEljblVnb2ZxRFJDS3FBU1NBSVNhakQ5MTR1M2M1aVF1S1lPamNNWVlQR1BwQTY5X2RabkVM?oc=5",
-      "summary": "China’s Iran war currency windfall&nbsp;&nbsp;Politico",
-      "detected_at": "2026-04-21T05:30:17.252646+08:00",
-      "level": "high"
-    },
-    {
-      "title": "How the Iran war impacts Chicago colleges: The Rundown - WBEZ Chicago",
-      "title_cn": "伊朗戰爭如何影響芝加哥大學：摘要 - WBEZ 芝加哥",
-      "time": "05:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS3JfTmt4U3dvVlBhZVdsaG95eGtJV0J3c3VwTHFGcG9qYUp4WUhNaURXSVBwNndIU095WkhtT1h0MjJyVFNsMS1wX2s1SGlSWTByVUk4dFRiUEp1X25nSkFnbkR2aFR4M190aUkwMFdQd3Y4U1BXZndBTlVOeWJxaUpTWlpSR2czYnp4aWZqUF9YWXdiWDVaZTE5MXMzRXhvLVEw?oc=5",
-      "summary": "How the Iran war impacts Chicago colleges: The Rundown&nbsp;&nbsp;WBEZ Chicago",
-      "detected_at": "2026-04-21T05:00:15.461177+08:00",
-      "level": "high"
-    },
-    {
-      "title": "What have US military bases done for us in Iran war, UAE asks - The Times",
-      "title_cn": "阿聯酋詢問《泰晤士報》，美​​國軍事基地在伊朗戰爭中為我們做了什麼",
-      "time": "04:30",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT0FPLVlaX3RCMTloTzhHTnJUeDNwckZ6X2RXY05jQ0VKZjIyZEJseGFITTQzMHAwWlNxMGp2MHhLQ2NXWHlXQW93a2tlRzFWbmZpV3d5UWt6TklnSGxyd3NKNTBMbFFWbGRHakpwX1Z0U2tkVmJwNktkcnhWa2VuT1R4LWdHVjFqbUF3NFY1aFFQdnlsRTUybk1hMkI1QWhhT0tpSHYxQ1c4bVplVElPeA?oc=5",
-      "summary": "What have US military bases done for us in Iran war, UAE asks&nbsp;&nbsp;The Times",
-      "detected_at": "2026-04-21T04:30:15.244777+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Investors Rotate Into Equities as Iran War Fears Ease - ETF Trends",
-      "title_cn": "隨著伊朗戰爭擔憂緩解，投資者轉向股票——ETF 趨勢",
-      "time": "04:30",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Jc2hhVlNTS3RoODZqQnMwcVhRMjJxUnNmbFpnNnA5THFWMXBLT3dkNlFJMUszUVVfMzFocF8yYkE0QnBTUjJuZXkzUDJjWTB3cWdrcTBrckpGV202TUxZaGc3SWpYbWg1TVhmNTVRdVBFMGV1eGJjR0Z2dEQ?oc=5",
-      "summary": "Investors Rotate Into Equities as Iran War Fears Ease&nbsp;&nbsp;ETF Trends",
-      "detected_at": "2026-04-21T04:30:15.244777+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Global oil prices climb back above $95 a barrel, as Iran closes Strait of Hormuz again and cease-fire deadline looms",
-      "title_cn": "隨著伊朗再次關閉霍爾木茲海峽以及停火最後期限的臨近，全球油價回升至每桶 95 美元以上",
-      "time": "04:00",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-futures-climb-after-strait-of-hormuz-closed-again-as-peace-talks-thrown-into-uncertainty-11988c5b?mod=mw_rss_topstories",
-      "summary": "Oil futures climbed again on Monday as investors closely monitored the status of potential U.S.-Iran peace talks ahead of Wednesday evening&#x2019;s cease-fire deadline.",
-      "detected_at": "2026-04-21T04:00:19.490412+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil settles down 9% after Iran declares Strait of Hormuz open By Reuters - Investing.com",
-      "title_cn": "伊朗宣布霍爾木茲海峽開放後油價下跌 9% 路透社 - Investing.com伊朗宣布霍爾木茲海峽開放後油價下跌 9% 路透社 Investing.com",
-      "time": "04:00",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQmhwYWRSeTROUW1venhJYVYtd2prWS1IS2hmczZDQzJ2VEs4Y2piOWthUElJY1dVbWM4TkdfQnZzTzBfc1k2S0xySldNYjE5aG5FbWlkX3AwaXRrcW9sUF9peW5QSG9LZnd2TklrbHM5QjRDVG1uSEJhbkVhVG80bDY1TThieHZRSmpVN1lPTjFtUTEtWWtQMnFER0g3TFN3UHZibzB5Y1NsMUtqdGlzWEdlLUx2ZWNMWEhrMXAtWQ?oc=5",
-      "summary": "Oil settles down 9% after Iran declares Strait of Hormuz open By Reuters&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-04-21T04:00:19.490412+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Iran War Is Souring Americans on the Middle East - Middle East Institute",
-      "title_cn": "伊朗戰爭正在使美國人對中東感到不滿 - 中東研究所",
-      "time": "04:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWnBXQkgxeVFOeWUxa083QkpZLTk3b3djN2NSbHZfQXpLemxkcW5NeTF0aHQ4WFNwOW1lWmJCTWViNlJKRXhwV3BHZkRQQVBsTWMwRVdpVTFLNUpSMFVqZEVlV3VDVldBdVRTaXV4YS03Yy02WDNfNEUtSWVmVG96T0ZMVQ?oc=5",
-      "summary": "Iran War Is Souring Americans on the Middle East&nbsp;&nbsp;Middle East Institute",
-      "detected_at": "2026-04-21T04:00:19.490412+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump rages at Iran war criticism: \"Time is not my adversary\" - Axios",
-      "title_cn": "川普對伊朗戰爭批評感到憤怒：「時間不是我的對手」——Axios",
-      "time": "04:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc0dqVlVmTEthOFE5Q194OTFRQnc3TEtZd0xXT1d1TExHaDhQeUtWdXpZczJ3VnNyUXljY2NUU2JiYkJkbjl5cjUzbzd5a0NwZXJoMHdIXy1pZGxpUmk0dVdIb3YwR01vTWFRa2JrU2RmdTR3dmVKOGNyakVRa1UwQ0prV1Z4VktfeHhwelJB?oc=5",
-      "summary": "Trump rages at Iran war criticism: \"Time is not my adversary\"&nbsp;&nbsp;Axios",
-      "detected_at": "2026-04-21T04:00:19.490412+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Hormuz disruptions hit China’s Christmas capital — and holiday spending",
-      "title_cn": "霍爾木茲的中斷影響了中國的聖誕節之都和節日消費",
-      "time": "03:30",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/20/hormuz-china-christmas-capital-holiday-spending.html",
-      "summary": "Manufacturers told CNBC that shoppers will likely have to pay higher prices to match rising costs of plastic and other materials.",
-      "detected_at": "2026-04-21T03:30:17.787629+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-      "title_cn": "隨著霍爾木茲海峽的緊張局勢升級，伊朗和美國攻擊商船後油價上漲",
-      "time": "03:30",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/19/oil-price-iran-war-strait-hormuz-tanker.html",
-      "summary": "Crude oil prices surged Sunday, as the U.S. and Iran teetered on the brink of a renewed war after attacks on commercial ships in the Strait of Hormuz.",
-      "detected_at": "2026-04-21T03:30:17.787629+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Russian authorities detain 40 Israelis landing in Moscow over 'involvement' in Iran war - The Jerusalem Post",
-      "title_cn": "俄羅斯當局因「參與」伊朗戰爭而拘留了 40 名在莫斯科登陸的以色列人 - 《耶路撒冷郵報》",
-      "time": "03:30",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sVGNCNFBYYzZWWTk0RzNNVFVUcUFJZ1U1RHVtbzNxcDRmSTM1bm1kZGIyal92SVNNZUd3ZElydno2Sm5xN2JmazNpN1lFcVZPWm0xOWgzNTQ0UnhlZms0?oc=5",
-      "summary": "Russian authorities detain 40 Israelis landing in Moscow over 'involvement' in Iran war&nbsp;&nbsp;The Jerusalem Post",
-      "detected_at": "2026-04-21T03:30:17.787629+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Traders Brace for Renewed Turmoil on Hormuz Standoff - Bloomberg.com",
-      "title_cn": "交易員為霍爾木茲對峙再次陷入混亂做好準備 - Bloomberg.com",
-      "time": "03:00",
-      "source": "Bloomberg-via-GN",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObDZza1BTYkxPV1dXTXA4dUVJaUZ5NDFWMVFrV2Z1T1YwVVhsbTFJeWttakx6UThTNlpEcGhWSTNSZDRUNmNMUEtFb3VwNUFtU1pINWNuN0FCWW9FTUFDYzRyVksyR2hscGY1WkMtb2JFNk91NExYQXpNVkVMVU5MRlNCLVZDNmZ1S3BIQ2dLa1lKSlpXNmt5U1N6cTZLUG5CT3M1V0hrU25tUGhielBXS3JLSjlKODg?oc=5",
-      "summary": "Traders Brace for Renewed Turmoil on Hormuz Standoff&nbsp;&nbsp;Bloomberg.com",
-      "detected_at": "2026-04-21T03:00:14.297471+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump pushes back against pundits, says Israel did not talk him into the Iran war - Fox News",
-      "title_cn": "川普反駁專家稱，以色列沒有說服他加入伊朗戰爭 - 福克斯新聞",
       "time": "02:30",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUzZPXy1zYW5vMEFqclppOEJfdnN5RVRfUHhXOEN1dnVXakZmT0RtWVZ6eVFJMVBLZk0xLTg2aFBLRDFLZEhWSFlPZzdIMjJPTHNfOWl6RjQ0bjZnRmljS3VwOUo2Z2VGaXpSanhyQzJCOEY0bmlhN21KXzdHSGdpVEI3QVoxa1l1ZktBZnhfMXdFTWt6TE01VWRHVTPSAaIBQVVfeXFMUHNrY1oxSmtIR1RUSDlsOU5VTHNLMjlVc1BmVWRpM21ZLTVBS2pCTGtVVDBPV0lJdXV3YVlYV1R6cDVtaWsxeHB4MnVTeFBfbldYWjJVSG1SaG1hV0FmdW1kdWxMRThOWW12a2hkVWI5cUo5a0E4ZFBDMzAyUWRUT1RPRVUweDZyWlBQdXg3SHlyZzhlX2tCVXJOWUd5dFI5Qnp3?oc=5",
-      "summary": "Trump pushes back against pundits, says Israel did not talk him into the Iran war&nbsp;&nbsp;Fox News",
-      "detected_at": "2026-04-21T02:30:17.221357+08:00",
-      "level": "high"
-    },
-    {
-      "title": "US spending on ‘reckless’ Iran war could have saved 87m lives, says UN - The Guardian",
-      "title_cn": "聯合國衛報稱，美國在「魯莽」的伊朗戰爭上的支出本可以挽救 8,700 萬人的生命",
-      "time": "02:30",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2t0T0Z0Z2dPRjRXM1lNbkNNY0ptNWRscy1oWXRoTjkwM3pNLU9kSWdMYm5Pa0t4bmxXV3Bnb1NPZDhDSzhHNmtJR0ZZM3BZZXZETTR0NkxubU1OdkNPUXJrNFRHdFBCaU9PUENaREN2MUZaSmJnVzlsLWF3R050LU01ODVDYW5tX1dPZkpPcmltdzEzNV8yX0M1a055TnhSaE9oNFpsTHRtTWdKQjFMZlpOMA?oc=5",
-      "summary": "US spending on ‘reckless’ Iran war could have saved 87m lives, says UN&nbsp;&nbsp;The Guardian",
-      "detected_at": "2026-04-21T02:30:17.221357+08:00",
-      "level": "high"
+      "detected_at": "2026-04-22T02:30:15.044968+08:00"
     }
   ]
 }

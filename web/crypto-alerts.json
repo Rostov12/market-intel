@@ -1,25 +1,5 @@
 [
   {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 634.9,
-    "change_pct": 2.15,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-17T03:25:10.870754+08:00",
-    "epoch": 1776367508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2358.2,
-    "change_pct": 2.15,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 以太坊財務公司 Bitmine 在最新文件中報告第一季虧損 38 億美元\n- [CoinDesk] 以太幣與比特幣比率從 2026 年低點反彈，預示著更廣泛的加密貨幣復甦\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk",
-    "timestamp": "2026-04-17T03:45:07.529569+08:00",
-    "epoch": 1776368705
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 75350.4,
@@ -498,5 +478,25 @@
     "news": "- [Geopolitical] 海灣國家希望如何解決伊朗戰爭？ - 美國有線電視新聞網\n- [Geopolitical] 伊朗戰爭推高汽油成本 加拿大年度CPI上升至2.4% - 路透社中文網",
     "timestamp": "2026-04-21T01:50:10.990586+08:00",
     "epoch": 1776707408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.58,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-21T22:45:06.711847+08:00",
+    "epoch": 1776782704
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2327.0,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 傑富瑞警告稱，加密貨幣的大規模利用可能會迫使大銀行重新考慮其區塊鏈計劃",
+    "timestamp": "2026-04-22T03:25:06.692721+08:00",
+    "epoch": 1776799504
   }
 ]
