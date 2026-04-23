@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-22",
-  "generated_at": "2026-04-22 04:45",
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23 04:45",
   "composite": {
-    "score": -1.0,
-    "label": "散戶偏空",
-    "contrarian_signal": "🟡注意反彈"
+    "score": -0.5,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-21",
       "2026-04-22",
-      "2026-04-23"
+      "2026-04-23",
+      "2026-04-24"
     ],
-    "total_calls_vol": 5479684,
-    "total_puts_vol": 6063062,
-    "pcr": 1.106,
+    "total_calls_vol": 3744267,
+    "total_puts_vol": 4601722,
+    "pcr": 1.229,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -24,41 +24,53 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 0,
-    "bear_words": 4,
-    "bull_pct": 0,
-    "label": "偏空情緒",
+    "bull_words": 3,
+    "bear_words": 3,
+    "bull_pct": 50,
+    "label": "中性",
     "top_tickers": [
       {
-        "symbol": "HAS",
+        "symbol": "ORCL",
+        "count": 1
+      },
+      {
+        "symbol": "POET",
+        "count": 1
+      },
+      {
+        "symbol": "RIVN",
+        "count": 1
+      },
+      {
+        "symbol": "CAR",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/20 - 4/24",
-        "score": 139,
-        "upvote_ratio": 0.89
+        "score": 146,
+        "upvote_ratio": 0.9
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 22, 2026",
-        "score": 74,
-        "upvote_ratio": 0.93
+        "title": "What Are Your Moves Tomorrow, April 23, 2026",
+        "score": 42,
+        "upvote_ratio": 0.98
       },
       {
-        "title": "BEARS ARE WE BACK ?",
-        "score": 868,
-        "upvote_ratio": 0.93
+        "title": "2026 word of the year: retardmaxxing",
+        "score": 14600,
+        "upvote_ratio": 0.95
       },
       {
-        "title": "RDDT has \"disappointing user growth\"",
-        "score": 1140,
-        "upvote_ratio": 0.93
+        "title": "Trump Administration Nearing Rescue Deal for Spirit Airlines",
+        "score": 1692,
+        "upvote_ratio": 0.95
       },
       {
-        "title": "Musk bought $1.4 billion SpaceX shares last year, The Information reports",
-        "score": 1911,
-        "upvote_ratio": 0.97
+        "title": "Netflix's next attempt at growth takes on TikTok and Instagram Reels",
+        "score": 713,
+        "upvote_ratio": 0.96
       }
     ]
   }
