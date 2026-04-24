@@ -1,0 +1,325 @@
+// This Pine Script™ is licensed under CC BY-NC-SA 4.0
+// 本 script 改編自 LuxAlgo Smart Money Concepts (CC BY-NC-SA 4.0)
+// BTC 特化版 by Vera (薇拉) for 昆鴻 — 2026-04-23
+// 相同授權：CC BY-NC-SA 4.0
+// Attribution: adapted from the idea framework of LuxAlgo SMC, reimplemented for BTC-specific workflow
+
+//@version=6
+indicator("BTC SMC v1.0 [Codex/Vera]", overlay=true, max_lines_count=500, max_labels_count=500, max_boxes_count=500)
+
+// === Inputs ===
+grpCore = "Core Settings"
+autoSwing = input.bool(true, "Auto swing length by timeframe", group=grpCore)
+manualSwing = input.int(30, "Manual swing length", minval=5, maxval=200, group=grpCore)
+perfBars = input.int(20, "CHoCH evaluation bars", minval=5, maxval=100, group=grpCore)
+showBos = input.bool(true, "Show BOS/CHoCH", group=grpCore)
+showOB = input.bool(true, "Show Order Blocks", group=grpCore)
+showFVG = input.bool(true, "Show FVG", group=grpCore)
+showPD = input.bool(true, "Show Premium / Discount", group=grpCore)
+
+grpBTC = "BTC Specialization"
+atrLen = input.int(14, "ATR length", minval=5, group=grpBTC)
+atrImpulseMult = input.float(1.5, "ATR impulse threshold", step=0.1, group=grpBTC)
+obSmallAtrFilter = input.float(0.5, "Ignore OB candle if range < ATR x", step=0.1, group=grpBTC)
+fvgMinPct = input.float(0.3, "Minimum FVG size (%)", step=0.1, group=grpBTC)
+extremeBarPct = input.float(5.0, "Ignore structure if candle move > (%)", step=0.1, group=grpBTC)
+obLookback = input.int(25, "Order Block search lookback", minval=5, maxval=100, group=grpBTC)
+
+grpStyle = "Style"
+bullColor = input.color(color.lime, "Bull color", group=grpStyle)
+bearColor = input.color(color.red, "Bear color", group=grpStyle)
+neutralColor = input.color(color.gray, "Neutral color", group=grpStyle)
+showBiasBg = input.bool(true, "Trend background tint", group=grpStyle)
+
+// === Derived values ===
+currentTfSec = timeframe.in_seconds()
+defaultSwing = currentTfSec <= 15 * 60 ? 20 : currentTfSec >= 4 * 60 * 60 ? 50 : 30
+swingLen = autoSwing ? defaultSwing : manualSwing
+tfLabel = timeframe.period
+atr = ta.atr(atrLen)
+atrSma = ta.sma(atr, atrLen)
+barMovePct = math.abs(close / open - 1.0) * 100.0
+structureBarOk = barMovePct <= extremeBarPct
+impulseBar = (high - low) >= atr * atrImpulseMult
+
+// === Swing structure state ===
+ph = ta.pivothigh(high, swingLen, swingLen)
+pl = ta.pivotlow(low, swingLen, swingLen)
+
+var float lastSwingHigh = na
+var float lastSwingLow = na
+var int lastSwingHighBar = na
+var int lastSwingLowBar = na
+var float lastBrokenHigh = na
+var float lastBrokenLow = na
+var int structureBias = 0   // 1 bull, -1 bear, 0 neutral
+
+if not na(ph) and structureBarOk[swingLen]
+    lastSwingHigh := ph
+    lastSwingHighBar := bar_index - swingLen
+
+if not na(pl) and structureBarOk[swingLen]
+    lastSwingLow := pl
+    lastSwingLowBar := bar_index - swingLen
+
+bullBreak = structureBarOk and not na(lastSwingHigh) and close > lastSwingHigh and (na(lastBrokenHigh) or lastBrokenHigh != lastSwingHigh)
+bearBreak = structureBarOk and not na(lastSwingLow) and close < lastSwingLow and (na(lastBrokenLow) or lastBrokenLow != lastSwingLow)
+
+bullChoch = bullBreak and structureBias == -1
+bearChoch = bearBreak and structureBias == 1
+bullBos = bullBreak and not bullChoch
+bearBos = bearBreak and not bearChoch
+
+// === Utility functions ===
+findLastBearishOB(_lookback, _minAtrMult) =>
+    int found = na
+    for i = 1 to _lookback
+        validBar = math.abs(close[i] / open[i] - 1.0) * 100.0 <= extremeBarPct
+        if close[i] < open[i] and validBar and (high[i] - low[i]) >= atr[i] * _minAtrMult
+            found := i
+            break
+    found
+
+findLastBullishOB(_lookback, _minAtrMult) =>
+    int found = na
+    for i = 1 to _lookback
+        validBar = math.abs(close[i] / open[i] - 1.0) * 100.0 <= extremeBarPct
+        if close[i] > open[i] and validBar and (high[i] - low[i]) >= atr[i] * _minAtrMult
+            found := i
+            break
+    found
+
+makeStructureLine(_x1, _y, _isBull, _isChoch) =>
+    clr = _isBull ? bullColor : bearColor
+    st = _isChoch ? line.style_dashed : line.style_solid
+    line.new(_x1, _y, bar_index, _y, xloc=xloc.bar_index, extend=extend.none, color=clr, style=st, width=2)
+
+makeStructureLabel(_y, _isBull, _isChoch) =>
+    txt = (_isChoch ? "CHoCH " : "BOS ") + (_isBull ? "Bull " : "Bear ") + "[" + tfLabel + "]"
+    sty = _isBull ? label.style_label_down : label.style_label_up
+    clr = _isBull ? color.new(bullColor, 0) : color.new(bearColor, 0)
+    label.new(bar_index, _y, txt, xloc=xloc.bar_index, style=sty, textcolor=color.white, color=clr, size=size.tiny)
+
+// === Containers ===
+var box[] bullObBoxes = array.new_box()
+var box[] bearObBoxes = array.new_box()
+var bool[] bullObRetested = array.new_bool()
+var bool[] bearObRetested = array.new_bool()
+var int[] bullObCreatedBar = array.new_int()
+var int[] bearObCreatedBar = array.new_int()
+
+var box[] fvgBoxes = array.new_box()
+var int[] fvgDir = array.new_int()         // 1 bull, -1 bear
+var bool[] fvgMitigated = array.new_bool()
+var bool[] fvgFilled = array.new_bool()
+
+var int[] pendingChochBars = array.new_int()
+var float[] pendingChochPrices = array.new_float()
+var int[] pendingChochDir = array.new_int()
+var int[] recentOutcome = array.new_int()   // 1 win, 0 loss
+
+var bool obRetestAlert = false
+var bool fvgFilledAlert = false
+obRetestAlert := false
+fvgFilledAlert := false
+
+// === Structure plotting and event capture ===
+if bullBreak
+    if showBos and not na(lastSwingHighBar)
+        makeStructureLine(lastSwingHighBar, lastSwingHigh, true, bullChoch)
+        makeStructureLabel(lastSwingHigh, true, bullChoch)
+    if bullChoch
+        array.push(pendingChochBars, bar_index)
+        array.push(pendingChochPrices, close)
+        array.push(pendingChochDir, 1)
+    structureBias := 1
+    lastBrokenHigh := lastSwingHigh
+
+if bearBreak
+    if showBos and not na(lastSwingLowBar)
+        makeStructureLine(lastSwingLowBar, lastSwingLow, false, bearChoch)
+        makeStructureLabel(lastSwingLow, false, bearChoch)
+    if bearChoch
+        array.push(pendingChochBars, bar_index)
+        array.push(pendingChochPrices, close)
+        array.push(pendingChochDir, -1)
+    structureBias := -1
+    lastBrokenLow := lastSwingLow
+
+// === Order Blocks ===
+if showOB and bullBreak and impulseBar
+    obOffset = findLastBearishOB(obLookback, obSmallAtrFilter)
+    if not na(obOffset)
+        obTop = high[obOffset]
+        obBottom = low[obOffset]
+        obBox = box.new(bar_index - obOffset, obTop, bar_index, obBottom, xloc=xloc.bar_index, extend=extend.right, bgcolor=color.new(bullColor, 88), border_color=color.new(bullColor, 20))
+        array.push(bullObBoxes, obBox)
+        array.push(bullObRetested, false)
+        array.push(bullObCreatedBar, bar_index)
+
+if showOB and bearBreak and impulseBar
+    obOffset = findLastBullishOB(obLookback, obSmallAtrFilter)
+    if not na(obOffset)
+        obTop = high[obOffset]
+        obBottom = low[obOffset]
+        obBox = box.new(bar_index - obOffset, obTop, bar_index, obBottom, xloc=xloc.bar_index, extend=extend.right, bgcolor=color.new(bearColor, 88), border_color=color.new(bearColor, 20))
+        array.push(bearObBoxes, obBox)
+        array.push(bearObRetested, false)
+        array.push(bearObCreatedBar, bar_index)
+
+if showOB and array.size(bullObBoxes) > 0
+    for i = 0 to array.size(bullObBoxes) - 1
+        bx = array.get(bullObBoxes, i)
+        if not array.get(bullObRetested, i)
+            topVal = box.get_top(bx)
+            botVal = box.get_bottom(bx)
+            createdBar = array.get(bullObCreatedBar, i)
+            touched = bar_index > createdBar and low <= topVal and high >= botVal
+            if touched
+                array.set(bullObRetested, i, true)
+                box.set_border_color(bx, bullColor)
+                label.new(bar_index, botVal, "Bull OB Retest", style=label.style_label_up, color=color.new(bullColor, 0), textcolor=color.white, size=size.tiny)
+                obRetestAlert := true
+
+if showOB and array.size(bearObBoxes) > 0
+    for i = 0 to array.size(bearObBoxes) - 1
+        bx = array.get(bearObBoxes, i)
+        if not array.get(bearObRetested, i)
+            topVal = box.get_top(bx)
+            botVal = box.get_bottom(bx)
+            createdBar = array.get(bearObCreatedBar, i)
+            touched = bar_index > createdBar and high >= botVal and low <= topVal
+            if touched
+                array.set(bearObRetested, i, true)
+                box.set_border_color(bx, bearColor)
+                label.new(bar_index, topVal, "Bear OB Retest", style=label.style_label_down, color=color.new(bearColor, 0), textcolor=color.white, size=size.tiny)
+                obRetestAlert := true
+
+// === FVG detection ===
+bullGapPct = high[2] > 0 ? ((low - high[2]) / high[2]) * 100.0 : 0.0
+bearGapPct = low[2] > 0 ? ((low[2] - high) / low[2]) * 100.0 : 0.0
+bullFvg = showFVG and impulseBar and bar_index > 2 and structureBarOk and structureBarOk[1] and structureBarOk[2] and low > high[2] and bullGapPct >= fvgMinPct
+bearFvg = showFVG and impulseBar and bar_index > 2 and structureBarOk and structureBarOk[1] and structureBarOk[2] and high < low[2] and bearGapPct >= fvgMinPct
+
+if bullFvg
+    bx = box.new(bar_index - 2, low, bar_index, high[2], xloc=xloc.bar_index, extend=extend.right, bgcolor=color.new(bullColor, 90), border_color=color.new(bullColor, 30))
+    array.push(fvgBoxes, bx)
+    array.push(fvgDir, 1)
+    array.push(fvgMitigated, false)
+    array.push(fvgFilled, false)
+
+if bearFvg
+    bx = box.new(bar_index - 2, low[2], bar_index, high, xloc=xloc.bar_index, extend=extend.right, bgcolor=color.new(bearColor, 90), border_color=color.new(bearColor, 30))
+    array.push(fvgBoxes, bx)
+    array.push(fvgDir, -1)
+    array.push(fvgMitigated, false)
+    array.push(fvgFilled, false)
+
+if showFVG and array.size(fvgBoxes) > 0
+    for i = 0 to array.size(fvgBoxes) - 1
+        bx = array.get(fvgBoxes, i)
+        dir = array.get(fvgDir, i)
+        mitigated = array.get(fvgMitigated, i)
+        filled = array.get(fvgFilled, i)
+        topVal = box.get_top(bx)
+        botVal = box.get_bottom(bx)
+        if not filled
+            if dir == 1
+                firstTouch = low <= topVal
+                fullFill = low <= botVal
+                if firstTouch and not mitigated
+                    array.set(fvgMitigated, i, true)
+                    box.set_border_color(bx, color.new(bullColor, 0))
+                    label.new(bar_index, topVal, "Bull FVG Mitigated", style=label.style_label_up, color=color.new(bullColor, 75), textcolor=color.white, size=size.tiny)
+                if fullFill
+                    array.set(fvgFilled, i, true)
+                    box.set_bgcolor(bx, color.new(neutralColor, 92))
+                    box.set_border_color(bx, color.new(neutralColor, 15))
+                    label.new(bar_index, botVal, "Bull FVG Filled", style=label.style_label_up, color=color.new(neutralColor, 15), textcolor=color.white, size=size.tiny)
+                    fvgFilledAlert := true
+            else
+                firstTouch = high >= botVal
+                fullFill = high >= topVal
+                if firstTouch and not mitigated
+                    array.set(fvgMitigated, i, true)
+                    box.set_border_color(bx, color.new(bearColor, 0))
+                    label.new(bar_index, botVal, "Bear FVG Mitigated", style=label.style_label_down, color=color.new(bearColor, 75), textcolor=color.white, size=size.tiny)
+                if fullFill
+                    array.set(fvgFilled, i, true)
+                    box.set_bgcolor(bx, color.new(neutralColor, 92))
+                    box.set_border_color(bx, color.new(neutralColor, 15))
+                    label.new(bar_index, topVal, "Bear FVG Filled", style=label.style_label_down, color=color.new(neutralColor, 15), textcolor=color.white, size=size.tiny)
+                    fvgFilledAlert := true
+
+// === Premium / Discount ===
+rangeMid = (not na(lastSwingHigh) and not na(lastSwingLow)) ? (lastSwingHigh + lastSwingLow) / 2.0 : na
+premium = not na(rangeMid) and close > rangeMid
+discount = not na(rangeMid) and close < rangeMid
+
+plot(showPD ? lastSwingHigh : na, "Recent swing high", color=color.new(bearColor, 45), style=plot.style_linebr)
+plot(showPD ? lastSwingLow : na, "Recent swing low", color=color.new(bullColor, 45), style=plot.style_linebr)
+plot(showPD ? rangeMid : na, "Premium / Discount EQ", color=color.new(color.yellow, 0), style=plot.style_linebr, linewidth=2)
+
+bgcolor(showBiasBg ? structureBias == 1 ? color.new(bullColor, 94) : structureBias == -1 ? color.new(bearColor, 94) : na : na)
+
+// === CHoCH future-direction evaluation ===
+if array.size(pendingChochBars) > 0
+    for i = array.size(pendingChochBars) - 1 to 0
+        eventBar = array.get(pendingChochBars, i)
+        eventPrice = array.get(pendingChochPrices, i)
+        eventDir = array.get(pendingChochDir, i)
+        if bar_index - eventBar >= perfBars
+            isWin = eventDir == 1 ? close > eventPrice : close < eventPrice
+            array.unshift(recentOutcome, isWin ? 1 : 0)
+            if array.size(recentOutcome) > 20
+                array.pop(recentOutcome)
+            outcomeText = (eventDir == 1 ? "Bull" : "Bear") + " CHoCH +" + str.tostring(perfBars) + " " + (isWin ? "WIN" : "LOSS")
+            outcomeColor = isWin ? color.new(bullColor, 0) : color.new(bearColor, 0)
+            outcomeStyle = eventDir == 1 ? label.style_label_down : label.style_label_up
+            label.new(eventBar, eventPrice, outcomeText, xloc=xloc.bar_index, style=outcomeStyle, color=outcomeColor, textcolor=color.white, size=size.tiny)
+            array.remove(pendingChochBars, i)
+            array.remove(pendingChochPrices, i)
+            array.remove(pendingChochDir, i)
+
+wins = 0
+if array.size(recentOutcome) > 0
+    for i = 0 to array.size(recentOutcome) - 1
+        wins += array.get(recentOutcome, i)
+
+sampleSize = array.size(recentOutcome)
+winRate = sampleSize > 0 ? (float(wins) / float(sampleSize)) * 100.0 : na
+
+var table stats = table.new(position.bottom_right, 2, 5, bgcolor=color.new(color.black, 82), frame_color=color.new(color.gray, 20), frame_width=1)
+if barstate.islast
+    biasText = structureBias == 1 ? "Bullish" : structureBias == -1 ? "Bearish" : "Neutral"
+    pdText = premium ? "Premium" : discount ? "Discount" : "EQ"
+    table.cell(stats, 0, 0, "BTC SMC v1", text_color=color.white, text_size=size.small)
+    table.cell(stats, 1, 0, tfLabel, text_color=color.white, text_size=size.small)
+    table.cell(stats, 0, 1, "Bias", text_color=color.white, text_size=size.small)
+    table.cell(stats, 1, 1, biasText, text_color=structureBias == 1 ? bullColor : structureBias == -1 ? bearColor : color.white, text_size=size.small)
+    table.cell(stats, 0, 2, "P/D Zone", text_color=color.white, text_size=size.small)
+    table.cell(stats, 1, 2, pdText, text_color=premium ? bearColor : discount ? bullColor : color.yellow, text_size=size.small)
+    table.cell(stats, 0, 3, "CHoCH win%", text_color=color.white, text_size=size.small)
+    table.cell(stats, 1, 3, sampleSize > 0 ? str.tostring(winRate, "#.0") + "%" : "n/a", text_color=sampleSize > 0 and winRate >= 50 ? bullColor : bearColor, text_size=size.small)
+    table.cell(stats, 0, 4, "Samples", text_color=color.white, text_size=size.small)
+    table.cell(stats, 1, 4, str.tostring(sampleSize) + "/20", text_color=color.white, text_size=size.small)
+
+// === Alerts ===
+chochBullMsg = "BTC SMC: CHoCH Bullish on {{interval}} | Price: {{close}} | Structure: bullish shift | Observe long bias / pullback confirmation"
+chochBearMsg = "BTC SMC: CHoCH Bearish on {{interval}} | Price: {{close}} | Structure: bearish shift | Observe defensive / short bias"
+obRetestMsg = "BTC SMC: Order Block Retested | Price: {{close}} | Structure retest in play | Watch reaction / rejection confirmation"
+fvgFillMsg = "BTC SMC: FVG Filled | Price: {{close}} | Imbalance mitigated | Watch continuation vs reversal"
+
+alertcondition(bullChoch, title="BTC SMC: CHoCH Bullish", message=chochBullMsg)
+alertcondition(bearChoch, title="BTC SMC: CHoCH Bearish", message=chochBearMsg)
+alertcondition(obRetestAlert, title="BTC SMC: Order Block Retested", message=obRetestMsg)
+alertcondition(fvgFilledAlert, title="BTC SMC: FVG Filled", message=fvgFillMsg)
+
+if barstate.isconfirmed and bullChoch
+    alert("BTC SMC: CHoCH Bullish on " + tfLabel + " | Price: " + str.tostring(close, format.mintick) + " | Structure: " + str.tostring(lastSwingHigh, format.mintick) + " | Observe long bias", alert.freq_once_per_bar_close)
+if barstate.isconfirmed and bearChoch
+    alert("BTC SMC: CHoCH Bearish on " + tfLabel + " | Price: " + str.tostring(close, format.mintick) + " | Structure: " + str.tostring(lastSwingLow, format.mintick) + " | Observe defensive / short bias", alert.freq_once_per_bar_close)
+if barstate.isconfirmed and obRetestAlert
+    alert("BTC SMC: Order Block Retested | TF: " + tfLabel + " | Price: " + str.tostring(close, format.mintick) + " | Watch reaction from active OB", alert.freq_once_per_bar_close)
+if barstate.isconfirmed and fvgFilledAlert
+    alert("BTC SMC: FVG Filled | TF: " + tfLabel + " | Price: " + str.tostring(close, format.mintick) + " | Imbalance now mitigated", alert.freq_once_per_bar_close)

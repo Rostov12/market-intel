@@ -1,105 +1,770 @@
 {
-  "date": "2026-04-21",
-  "generated_at": "2026-04-21 04:00",
-  "next_fomc": {
-    "date": "2026-05-07",
-    "days_away": 16,
-    "label": "下次 FOMC：05/07（16天後）"
-  },
-  "next_7_days": [
-    {
-      "date": "2026-04-24",
-      "event": "密西根消費者信心（4月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 3,
-      "label": "🟡 密西根消費者信心（4月終值）（3天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "forecast": "48.5",
-      "forecast_source": "ForexFactory"
-    }
+  "generated_at_utc": "2026-04-23T12:24:06Z",
+  "generated_at_tw": "2026-04-23T20:24:06+08:00",
+  "macro_future_window_days": 60,
+  "earnings_future_window_days": 30,
+  "past_release_lookback_days": 120,
+  "required_validator_fields": [
+    "event_name",
+    "event_key",
+    "event_type",
+    "event_status",
+    "event_date_actual",
+    "event_date_scheduled",
+    "source_url",
+    "confirmed"
   ],
-  "next_14_days": [
+  "notes": [
+    "BLS schedule pages return 403 in this environment, so retrieval uses r.jina.ai as a read-only fallback while keeping the canonical official source_url.",
+    "ISM official pages were CAPTCHA-gated; those entries are intentionally marked confirmed=false.",
+    "Validator should treat event_date_actual as already released and event_date_scheduled as upcoming."
+  ],
+  "summary": {
+    "released_count": 13,
+    "scheduled_count": 21
+  },
+  "events": [
     {
-      "date": "2026-04-24",
-      "event": "密西根消費者信心（4月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 3,
-      "label": "🟡 密西根消費者信心（4月終值）（3天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "forecast": "48.5",
-      "forecast_source": "ForexFactory"
+      "event_name": "US Nonfarm Payrolls (Employment Situation) (December 2025)",
+      "event_key": "nfp",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-01-09T13:30:00Z",
+      "scheduled_at_tw": "2026-01-09T21:30:00+08:00",
+      "event_date_actual": "2026-01-09",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "nfp",
+        "nonfarm",
+        "employment situation",
+        "非農",
+        "非農就業"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/empsit.htm",
+      "reference_period": "December 2025"
     },
     {
-      "date": "2026-04-29",
-      "event": "GDP Q1 初值",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 8,
-      "label": "🔴 GDP Q1 初值（8天後）",
-      "impact_guide": {
-        "name": "國內生產毛額",
-        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
-        "below": "經濟放緩 → 衰退疑慮 → 偏空",
-        "watch": "初值影響最大，修正值/終值影響遞減"
-      },
-      "previous": "0.5",
-      "previous_date": "2025-10-01"
+      "event_name": "US CPI (December 2025)",
+      "event_key": "cpi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-01-13T13:30:00Z",
+      "scheduled_at_tw": "2026-01-13T21:30:00+08:00",
+      "event_date_actual": "2026-01-13",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "cpi",
+        "consumer price index",
+        "消費者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/cpi.htm",
+      "reference_period": "December 2025"
     },
     {
-      "date": "2026-04-30",
-      "event": "PCE（3月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 9,
-      "label": "🔴 PCE（3月）（9天後）",
-      "impact_guide": {
-        "name": "個人消費支出物價指數",
-        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
-        "below": "通膨降溫 → 鴿派 → 偏多",
-        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
-      },
-      "previous": "3.0%",
-      "previous_date": "2026-02-01"
+      "event_name": "US PPI (November 2025)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-01-14T13:30:00Z",
+      "scheduled_at_tw": "2026-01-14T21:30:00+08:00",
+      "event_date_actual": "2026-01-14",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "November 2025"
     },
     {
-      "date": "2026-05-01",
-      "event": "NFP（4月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 10,
-      "label": "🔴 NFP（4月就業）（10天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      }
+      "event_name": "US PPI (December 2025)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-01-30T13:30:00Z",
+      "scheduled_at_tw": "2026-01-30T21:30:00+08:00",
+      "event_date_actual": "2026-01-30",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "December 2025"
     },
     {
-      "date": "2026-05-01",
-      "event": "ISM 製造業 PMI（4月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 10,
-      "label": "🔴 ISM 製造業 PMI（4月）（10天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      }
+      "event_name": "US Nonfarm Payrolls (Employment Situation) (January 2026)",
+      "event_key": "nfp",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-02-11T13:30:00Z",
+      "scheduled_at_tw": "2026-02-11T21:30:00+08:00",
+      "event_date_actual": "2026-02-11",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "nfp",
+        "nonfarm",
+        "employment situation",
+        "非農",
+        "非農就業"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/empsit.htm",
+      "reference_period": "January 2026"
+    },
+    {
+      "event_name": "US CPI (January 2026)",
+      "event_key": "cpi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-02-13T13:30:00Z",
+      "scheduled_at_tw": "2026-02-13T21:30:00+08:00",
+      "event_date_actual": "2026-02-13",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "cpi",
+        "consumer price index",
+        "消費者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/cpi.htm",
+      "reference_period": "January 2026"
+    },
+    {
+      "event_name": "US PPI (January 2026)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-02-27T13:30:00Z",
+      "scheduled_at_tw": "2026-02-27T21:30:00+08:00",
+      "event_date_actual": "2026-02-27",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "January 2026"
+    },
+    {
+      "event_name": "US Nonfarm Payrolls (Employment Situation) (February 2026)",
+      "event_key": "nfp",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-03-06T13:30:00Z",
+      "scheduled_at_tw": "2026-03-06T21:30:00+08:00",
+      "event_date_actual": "2026-03-06",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "nfp",
+        "nonfarm",
+        "employment situation",
+        "非農",
+        "非農就業"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/empsit.htm",
+      "reference_period": "February 2026"
+    },
+    {
+      "event_name": "US CPI (February 2026)",
+      "event_key": "cpi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-03-11T12:30:00Z",
+      "scheduled_at_tw": "2026-03-11T20:30:00+08:00",
+      "event_date_actual": "2026-03-11",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "cpi",
+        "consumer price index",
+        "消費者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/cpi.htm",
+      "reference_period": "February 2026"
+    },
+    {
+      "event_name": "US PPI (February 2026)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-03-18T12:30:00Z",
+      "scheduled_at_tw": "2026-03-18T20:30:00+08:00",
+      "event_date_actual": "2026-03-18",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "February 2026"
+    },
+    {
+      "event_name": "US Nonfarm Payrolls (Employment Situation) (March 2026)",
+      "event_key": "nfp",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-04-03T12:30:00Z",
+      "scheduled_at_tw": "2026-04-03T20:30:00+08:00",
+      "event_date_actual": "2026-04-03",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "nfp",
+        "nonfarm",
+        "employment situation",
+        "非農",
+        "非農就業"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/empsit.htm",
+      "reference_period": "March 2026"
+    },
+    {
+      "event_name": "US CPI (March 2026)",
+      "event_key": "cpi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-04-10T12:30:00Z",
+      "scheduled_at_tw": "2026-04-10T20:30:00+08:00",
+      "event_date_actual": "2026-04-10",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "cpi",
+        "consumer price index",
+        "消費者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/cpi.htm",
+      "reference_period": "March 2026"
+    },
+    {
+      "event_name": "US PPI (March 2026)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "released",
+      "scheduled_at_utc": "2026-04-14T12:30:00Z",
+      "scheduled_at_tw": "2026-04-14T20:30:00+08:00",
+      "event_date_actual": "2026-04-14",
+      "event_date_scheduled": null,
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "March 2026"
+    },
+    {
+      "event_name": "FOMC meeting (2026-04-28/29)",
+      "event_key": "fomc",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-29T18:00:00Z",
+      "scheduled_at_tw": "2026-04-30T02:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-04-30",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Federal Reserve FOMC calendar",
+      "aliases": [
+        "fomc",
+        "fed",
+        "聯準會",
+        "利率決議",
+        "央行決議"
+      ],
+      "timing_note": "Fed page confirms the meeting window; decision timestamp normalized to 14:00 ET on day 2 for downstream scheduling.",
+      "meeting_window_start_et": "2026-04-28T00:00:00-04:00",
+      "meeting_window_end_et": "2026-04-29T23:59:00-04:00"
+    },
+    {
+      "event_name": "META earnings",
+      "event_key": "earnings-meta",
+      "event_type": "earnings",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-29T20:00:00Z",
+      "scheduled_at_tw": "2026-04-30T04:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-04-30",
+      "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-04-29",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Yahoo Finance earnings calendar via yfinance",
+      "aliases": [
+        "meta",
+        "META",
+        "meta earnings",
+        "META 財報"
+      ],
+      "ticker": "META",
+      "eps_estimate": 6.64
+    },
+    {
+      "event_name": "GOOGL earnings",
+      "event_key": "earnings-googl",
+      "event_type": "earnings",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-29T20:00:00Z",
+      "scheduled_at_tw": "2026-04-30T04:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-04-30",
+      "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-04-29",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Yahoo Finance earnings calendar via yfinance",
+      "aliases": [
+        "googl",
+        "GOOGL",
+        "googl earnings",
+        "GOOGL 財報"
+      ],
+      "ticker": "GOOGL",
+      "eps_estimate": 2.62
+    },
+    {
+      "event_name": "AMZN earnings",
+      "event_key": "earnings-amzn",
+      "event_type": "earnings",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-29T20:00:00Z",
+      "scheduled_at_tw": "2026-04-30T04:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-04-30",
+      "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-04-29",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Yahoo Finance earnings calendar via yfinance",
+      "aliases": [
+        "amzn",
+        "AMZN",
+        "amzn earnings",
+        "AMZN 財報"
+      ],
+      "ticker": "AMZN",
+      "eps_estimate": 1.65
+    },
+    {
+      "event_name": "MSFT earnings",
+      "event_key": "earnings-msft",
+      "event_type": "earnings",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-29T20:00:00Z",
+      "scheduled_at_tw": "2026-04-30T04:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-04-30",
+      "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-04-29",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Yahoo Finance earnings calendar via yfinance",
+      "aliases": [
+        "msft",
+        "MSFT",
+        "msft earnings",
+        "MSFT 財報"
+      ],
+      "ticker": "MSFT",
+      "eps_estimate": 4.07
+    },
+    {
+      "event_name": "US PCE / Personal Income and Outlays (March 2026)",
+      "event_key": "pce",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-30T12:30:00Z",
+      "scheduled_at_tw": "2026-04-30T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-04-30",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BEA release schedule",
+      "aliases": [
+        "pce",
+        "core pce",
+        "個人消費支出",
+        "pce物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bea.gov/news/schedule",
+      "reference_period": "March 2026"
+    },
+    {
+      "event_name": "AAPL earnings",
+      "event_key": "earnings-aapl",
+      "event_type": "earnings",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-04-30T20:00:00Z",
+      "scheduled_at_tw": "2026-05-01T04:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-01",
+      "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-04-30",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Yahoo Finance earnings calendar via yfinance",
+      "aliases": [
+        "aapl",
+        "AAPL",
+        "aapl earnings",
+        "AAPL 財報"
+      ],
+      "ticker": "AAPL",
+      "eps_estimate": 1.94
+    },
+    {
+      "event_name": "US ISM Manufacturing PMI (April 2026)",
+      "event_key": "ism",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-01T14:00:00Z",
+      "scheduled_at_tw": "2026-05-01T22:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-01",
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": false,
+      "source_name": "ISM official site (CAPTCHA-gated; date inferred from standard release convention)",
+      "aliases": [
+        "ism",
+        "pmi",
+        "ism manufacturing pmi",
+        "製造業pmi"
+      ],
+      "timing_note": "ISM page could not be fetched programmatically in this environment. Timestamp is inferred as 10:00 ET on the first business day of the month and should be re-checked manually before push.",
+      "reference_period": "April 2026"
+    },
+    {
+      "event_name": "US Nonfarm Payrolls (Employment Situation) (April 2026)",
+      "event_key": "nfp",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-08T12:30:00Z",
+      "scheduled_at_tw": "2026-05-08T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-08",
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "nfp",
+        "nonfarm",
+        "employment situation",
+        "非農",
+        "非農就業"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/empsit.htm",
+      "reference_period": "April 2026"
+    },
+    {
+      "event_name": "US CPI (April 2026)",
+      "event_key": "cpi",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-12T12:30:00Z",
+      "scheduled_at_tw": "2026-05-12T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-12",
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "cpi",
+        "consumer price index",
+        "消費者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/cpi.htm",
+      "reference_period": "April 2026"
+    },
+    {
+      "event_name": "US PPI (April 2026)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-13T12:30:00Z",
+      "scheduled_at_tw": "2026-05-13T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-13",
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "April 2026"
+    },
+    {
+      "event_name": "US Retail Sales (April 2026)",
+      "event_key": "retail-sales",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-14T12:30:00Z",
+      "scheduled_at_tw": "2026-05-14T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-14",
+      "source_url": "https://www.census.gov/economic-indicators/calendar-listview.html",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "US Census economic indicator calendar",
+      "aliases": [
+        "retail sales",
+        "零售銷售"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.census.gov/economic-indicators/calendar-listview.html",
+      "reference_period": "April 2026"
+    },
+    {
+      "event_name": "NVDA earnings",
+      "event_key": "earnings-nvda",
+      "event_type": "earnings",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-20T20:00:00Z",
+      "scheduled_at_tw": "2026-05-21T04:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-21",
+      "source_url": "https://finance.yahoo.com/calendar/earnings?day=2026-05-20",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Yahoo Finance earnings calendar via yfinance",
+      "aliases": [
+        "nvda",
+        "NVDA",
+        "nvda earnings",
+        "NVDA 財報"
+      ],
+      "ticker": "NVDA",
+      "eps_estimate": 1.77
+    },
+    {
+      "event_name": "US PCE / Personal Income and Outlays (April 2026)",
+      "event_key": "pce",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-05-28T12:30:00Z",
+      "scheduled_at_tw": "2026-05-28T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-05-28",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BEA release schedule",
+      "aliases": [
+        "pce",
+        "core pce",
+        "個人消費支出",
+        "pce物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bea.gov/news/schedule",
+      "reference_period": "April 2026"
+    },
+    {
+      "event_name": "US ISM Manufacturing PMI (May 2026)",
+      "event_key": "ism",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-06-01T14:00:00Z",
+      "scheduled_at_tw": "2026-06-01T22:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-06-01",
+      "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": false,
+      "source_name": "ISM official site (CAPTCHA-gated; date inferred from standard release convention)",
+      "aliases": [
+        "ism",
+        "pmi",
+        "ism manufacturing pmi",
+        "製造業pmi"
+      ],
+      "timing_note": "ISM page could not be fetched programmatically in this environment. Timestamp is inferred as 10:00 ET on the first business day of the month and should be re-checked manually before push.",
+      "reference_period": "May 2026"
+    },
+    {
+      "event_name": "US Nonfarm Payrolls (Employment Situation) (May 2026)",
+      "event_key": "nfp",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-06-05T12:30:00Z",
+      "scheduled_at_tw": "2026-06-05T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-06-05",
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "nfp",
+        "nonfarm",
+        "employment situation",
+        "非農",
+        "非農就業"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/empsit.htm",
+      "reference_period": "May 2026"
+    },
+    {
+      "event_name": "US CPI (May 2026)",
+      "event_key": "cpi",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-06-10T12:30:00Z",
+      "scheduled_at_tw": "2026-06-10T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-06-10",
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "cpi",
+        "consumer price index",
+        "消費者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/cpi.htm",
+      "reference_period": "May 2026"
+    },
+    {
+      "event_name": "US PPI (May 2026)",
+      "event_key": "ppi",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-06-11T12:30:00Z",
+      "scheduled_at_tw": "2026-06-11T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-06-11",
+      "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "BLS official schedule",
+      "aliases": [
+        "ppi",
+        "producer price index",
+        "生產者物價指數"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.bls.gov/schedule/news_release/ppi.htm",
+      "reference_period": "May 2026"
+    },
+    {
+      "event_name": "US Retail Sales (May 2026)",
+      "event_key": "retail-sales",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-06-17T12:30:00Z",
+      "scheduled_at_tw": "2026-06-17T20:30:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-06-17",
+      "source_url": "https://www.census.gov/economic-indicators/calendar-listview.html",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "US Census economic indicator calendar",
+      "aliases": [
+        "retail sales",
+        "零售銷售"
+      ],
+      "retrieval_url": "https://r.jina.ai/http://https://www.census.gov/economic-indicators/calendar-listview.html",
+      "reference_period": "May 2026"
+    },
+    {
+      "event_name": "FOMC meeting (2026-06-16/17)",
+      "event_key": "fomc",
+      "event_type": "macro",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2026-06-17T18:00:00Z",
+      "scheduled_at_tw": "2026-06-18T02:00:00+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2026-06-18",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": true,
+      "source_name": "Federal Reserve FOMC calendar",
+      "aliases": [
+        "fomc",
+        "fed",
+        "聯準會",
+        "利率決議",
+        "央行決議"
+      ],
+      "timing_note": "Fed page confirms the meeting window; decision timestamp normalized to 14:00 ET on day 2 for downstream scheduling.",
+      "meeting_window_start_et": "2026-06-16T00:00:00-04:00",
+      "meeting_window_end_et": "2026-06-17T23:59:00-04:00"
+    },
+    {
+      "event_name": "BTC next halving estimate (blocks remaining: 103699)",
+      "event_key": "btc-halving",
+      "event_type": "crypto",
+      "event_status": "scheduled",
+      "scheduled_at_utc": "2028-04-12T15:34:06Z",
+      "scheduled_at_tw": "2028-04-12T23:34:06+08:00",
+      "event_date_actual": null,
+      "event_date_scheduled": "2028-04-12",
+      "source_url": "https://mempool.space/",
+      "last_updated": "2026-04-23T20:24:06+08:00",
+      "confirmed": false,
+      "source_name": "Mempool tip height + 10-minute block heuristic",
+      "aliases": [
+        "btc halving",
+        "bitcoin halving",
+        "減半"
+      ],
+      "timing_note": "Halving ETA is estimated from current tip height using a 10-minute average block interval; use as countdown only, not a fixed appointment.",
+      "current_block_height": 946301,
+      "next_halving_height": 1050000,
+      "blocks_remaining": 103699
     }
   ]
 }
