@@ -10,7 +10,7 @@
       "size_usdt": 500,
       "spot_order_id": "3463436125079658496",
       "perp_order_id": "3463436119140524032",
-      "funding_collected": 1.157542,
+      "funding_collected": 1.156657,
       "funding_count": 22
     },
     "ETH/USDT:USDT": {
@@ -23,8 +23,8 @@
       "size_usdt": 500,
       "spot_order_id": "3490494378980462592",
       "perp_order_id": "3490494374316396544",
-      "funding_collected": 0.013799,
-      "funding_count": 16
+      "funding_collected": -0.01087,
+      "funding_count": 19
     }
   },
   "history": [

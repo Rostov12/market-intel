@@ -1,315 +1,317 @@
 {
-  "date": "2026-04-24",
-  "updated_at": "2026-04-24 07:50",
+  "date": "2026-04-25",
+  "updated_at": "2026-04-25 07:50",
   "count": 30,
   "sources": [
     "google-news-crypto",
-    "coindesk",
     "cointelegraph",
+    "coindesk",
     "cointelegraph-rss"
   ],
   "news": [
     {
-      "id": "ct-rss-63656",
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 22:34:15 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-56066",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 22:34:15 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-93719",
-      "title": "U.S. arrests Army green beret for $400,000 Polymarket bets on Venezuela raid he was in",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/04/23/u-s-arrests-soldier-for-polymarket-bets-on-nicolas-maduro-raid-he-participated-in",
-      "published": "Thu, 23 Apr 2026 22:11:37 +0000",
-      "summary": "Master Sergeant Gannon Ken Van Dyke allegedly tried to conceal his bets about the raid on Venezuela that led to Nicolas Maduro's arrest. ",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-91348",
-      "title": "House lawmakers OK commerce package that includes cryptocurrency kiosk ban - Minnesota House of Representatives (.gov)",
-      "source": "Minnesota House of Representatives (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hcFBxMXVMLVlYcXFYdHExOGpTaS1vU0JYZXdTMW51VmpRLUppaklxNk1FbnAwUnpNUGRJTl8zN2ltTDZVc2Nsb0FmSkEydF94OTZwS2FzWVVHYUtTSEE?oc=5",
-      "published": "Thu, 23 Apr 2026 22:05:45 GMT",
-      "coins": [],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-68223",
-      "title": "Crypto-aligned Fellowship PAC bets big on Texas Senate race",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/fellowship-pac-crypto-texas-senate-race?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 21:46:33 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-36233",
-      "title": "Crypto-aligned Fellowship PAC bets big on Texas Senate race",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/fellowship-pac-crypto-texas-senate-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 21:46:33 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-87274",
-      "title": "Spot ETH ETF inflows hit 10-day streak: Will Ether rally to $3K next?",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/spot-eth-etf-inflows-hit-10-day-streak-will-ether-rally-to-3k-next?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 21:25:30 +0000",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-34888",
-      "title": "Spot ETH ETF inflows hit 10-day streak: Will Ether rally to $3K next?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/spot-eth-etf-inflows-hit-10-day-streak-will-ether-rally-to-3k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 21:25:30 +0000",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-52109",
-      "title": "Global crypto adoption slumps amid macro pressures, Turkey defies downtrend",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/global-crypto-adoption-q1-2026-trm-labs-turkey-resilience?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 21:21:36 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-7176",
-      "title": "Global crypto adoption slumps amid macro pressures, Turkey defies downtrend",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/global-crypto-adoption-q1-2026-trm-labs-turkey-resilience?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 21:21:36 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-84393",
-      "title": "Video: Opinion | Do We All Need a Little Bitcoin? - The New York Times",
+      "id": "gn-45978",
+      "title": "Opinion | A Bitcoin Evangelist Tries to Convert Me - The New York Times",
       "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdmp6Z2RJMFhCakdkSnZCLVlpMkJfc0wtQ19pNkY4a3ZuUy01dFFlX3hQYUItUWhaNWM5N1hNbElndjhXX1BjVkN0ZXRMRTBnX0duR21kUTc4cEdMaFdDNDJFTDBlbVlZYkZ5NDN3U0ZkTGF2ZmJONHg3YWtoT1lRM29XeDl4dmI3bkI4alFNUFZWa09p?oc=5",
-      "published": "Thu, 23 Apr 2026 21:13:22 GMT",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0t6QmhmRjVsSjF2LVpPMVF4UWJBd0Q1cF90eDFzWGViaHZTVHpoWVVOV2JOeHQtX0tyUWI0cmYzMVBweXNad2hrMVA0ZXFLbnhubHNjZXBQWlBudzIzQ3F5Wjc5eVNFWkNRdFVXZV9zTnFZVDRKNDFKMURCNFM4OTdON054S0U?oc=5",
+      "published": "Thu, 23 Apr 2026 09:04:24 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-80892",
-      "title": "Aave rallies DeFi partners to contain fallout from $292 million KelpDAO hack",
+      "id": "ct-rss-89417",
+      "title": "US authorities freeze $344M in crypto linked to Iran",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/united-states-freeze-crypto-iran?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 23:16:10 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-49673",
+      "title": "US authorities freeze $344M in crypto linked to Iran",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/united-states-freeze-crypto-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 23:16:10 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-98099",
+      "title": "U.S. CFTC adds New York to string of states its suing to stop prediction market pushback",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/04/23/aave-rallies-defi-partners-to-contain-fallout-from-usd292-million-kelpdao-hack",
-      "published": "Thu, 23 Apr 2026 20:52:33 +0000",
-      "summary": "Industry players are coordinating a recovery effort as the year's biggest crypto theft rattled Aave, with Lido and EtherFi being firsts to offer aid.",
+      "url": "https://www.coindesk.com/policy/2026/04/24/u-s-cftc-adds-new-york-to-string-of-states-its-suing-to-stop-prediction-market-pushback",
+      "published": "Fri, 24 Apr 2026 22:09:13 +0000",
+      "summary": "The federal regulator has been suing states that seek to curtail prediction markets activity and claim it should be deemed state-regulated gaming.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-86818",
+      "title": "Bitcoin developer Paul Sztorc announces BTC hard fork called eCash",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-dev-paul-sztorc-hard-fork-ecash?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 21:55:00 +0000",
+      "coins": [
+        "BTC",
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-29417",
+      "title": "Bitcoin developer Paul Sztorc announces BTC hard fork called eCash",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-dev-paul-sztorc-hard-fork-ecash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 21:55:00 +0000",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-61660",
+      "title": "Quantum attack breaks crypto key 512x larger than last record. Is Bitcoin ready? - dlnews.com",
+      "source": "dlnews.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUjV2cHNJeGFiYlVQNlgtNE1PalZoNTBselNCTXZ3Q0x3SzNLcEI2M3JLc2hrNzNpYXF1X3dzMjlaUWxUWjZmaTBIX0IzLTZFUDF0VGtUbFZKN0M5S1pmOVA2S2FlYnRBcVN1LU1rWFc0YzFsUDhzMVJ0R3J1NDgzeE9IUzAwb0JTczBsOA?oc=5",
+      "published": "Fri, 24 Apr 2026 21:18:13 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-36272",
+      "title": "Top memecoin holders expected to attend Trump luncheon",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/tron-justin-sun-donald-trump-memecoin-lunch?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 21:17:45 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-63347",
+      "title": "Top memecoin holders expected to attend Trump luncheon",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/tron-justin-sun-donald-trump-memecoin-lunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 21:17:45 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-18449",
+      "title": "Bitcoin is on track for its best month in a year. $5 billion USDT growth fuels the rebound",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/24/bitcoin-is-on-track-for-its-best-month-in-a-year-usd5-billion-usdt-growth-fuels-the-rebound",
+      "published": "Fri, 24 Apr 2026 21:04:46 +0000",
+      "summary": "Strong earnings season trumps geopolitical risks for now, one trader said, as equities and crypto markets \"stopped caring\" about Iran war headlines.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-68293",
+      "title": "Bitcoin Price Outshines Gold Again, Powered By Strategy - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeW1wendwZjR3RG5USGh5dGtMb0RvVElaWWhDUFRpVU5hTWFnMDZ4NFBmZ19GSHRoX3RjTXdIRDB5bmZZRUd4Y3BJNU1odnBxeUctamZOa0RpZVlyMW5qcHZYUTlvV292YzVuSjJZRTg3aEFOTjNIWjBENTRwYnBYQ0ZraUNWOUVCMVJ1a3N1Sk9wcVM4eHJCQ19XcmZzNzU4eFR0N0lINA?oc=5",
+      "published": "Fri, 24 Apr 2026 20:57:00 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-42768",
+      "title": "Aurelion allocates $48M in tokenized gold to newly launched yield protocol",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/aurelion-allocates-48m-in-tokenized-gold-to-newly-launched-xaue-yield-protocol?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 20:40:02 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-74763",
+      "title": "Aurelion allocates $48M in tokenized gold to newly launched yield protocol",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/aurelion-allocates-48m-in-tokenized-gold-to-newly-launched-xaue-yield-protocol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 20:40:02 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-99185",
+      "title": "VanEck Flags Dual Bullish Signals For Bitcoin As Funding Turns Negative, Hash Rate Slips - Bitcoin Magazine",
+      "source": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iNjNZUnptNG5HQmVXZVU1T2s4YVFfVkVzUVdzVURvV29YSnY0R1lyMTlIU0lpaklZVUY2NDV2R0NRU1BhTFgwaUNGVXo1eVpEMnhfbW14YkRaMjN4enFOYnpkQWxmbEQxaFBHWkg0d0xuNmZPRjYtZXdn?oc=5",
+      "published": "Fri, 24 Apr 2026 20:33:37 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-70428",
+      "title": "Crypto News: Ethereum Based Crypto Pepeto Project Update Amid Bitcoin Price Prediction Targeting $125,000 Soon - markets.businessinsider.com",
+      "source": "markets.businessinsider.com",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV2NxbG5JWEpvd05JNGFCdERqOEVpWmZTeWc4bEhLSVA5QWl5THFpT1J0VGhCRUV5cjVUYnpua1MwTndxRHVsVk5iLTZKZDBEcmNGMG5YMjVGLXhUX2dHeF9nZnZla0VCay1vQU9XdG9Xa3VYckZyeUxXSWpMc09LV2pCWEcwZE9kZjZ0eXlmMEx6eWdWcVBCc3pFUFl6OWNqUnVSUDktSHlhMUt0VUV1Smp5dGtRWklhbmd4bHJTX3F2OFU0dzFFeHFGZGdPa2RRMHk4bUF1bTFZMWlWSHV3cHpscXY3SHFUV3VIY2tnQ21zeklQWUZHWDZoSQ?oc=5",
+      "published": "Fri, 24 Apr 2026 20:30:17 GMT",
+      "coins": [
+        "ETH",
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-23471",
+      "title": "Tether's $344 million USDT freeze linked to U.S. 'Economic Fury' against Iran regime",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/04/24/tether-s-usd344-million-usdt-freeze-linked-to-u-s-economic-fury-against-iran-regime",
+      "published": "Fri, 24 Apr 2026 19:50:07 +0000",
+      "summary": "Treasury Secretary Scott Bessent said the U.S. is seeking to choke off \"all financial lifelines\" for the regime.",
       "coins": [
         "ETH"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-82733",
-      "title": "Anchorage Digital adds Marinade-powered staking strategies for Solana clients",
+      "id": "ct-rss-34009",
+      "title": "Quantum computer breaks 15-bit elliptic curve cryptographic key",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/anchorage-digital-brings-automated-solana-staking-to-institutional-clients?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 20:27:36 +0000",
-      "coins": [
-        "SOL"
-      ],
+      "url": "https://cointelegraph.com/news/quantum-computer-bit-elliptic-curve-key?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 18:53:58 +0000",
+      "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-94872",
-      "title": "Anchorage Digital adds Marinade-powered staking strategies for Solana clients",
+      "id": "ct-59133",
+      "title": "Quantum computer breaks 15-bit elliptic curve cryptographic key",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/anchorage-digital-brings-automated-solana-staking-to-institutional-clients?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 20:27:36 +0000",
-      "coins": [
-        "SOL"
-      ],
+      "url": "https://cointelegraph.com/news/quantum-computer-bit-elliptic-curve-key?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 18:53:58 +0000",
+      "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-88327",
-      "title": "Bitcoin ETF 'flows turned positive for the year': BNY's global head of ETFs - The Block",
-      "source": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOUFRQUVpaEJpamY1Vk9OVEp3RGRVYW12NUJZVldJX0Z2VGZNX19wZlVHbTRsOGJxazZxRmp0T29SRHJhUmV5MVFfU0pfbUVuVmNMOU1NZTIyOTJEOWxtazVMNEgtOUw4UDRtTmt2VWJTbm02bTdqTXZpb3FQSV9xR3hRUTN6ZG9nRFZvbXNBOW9rVTMtX1BJcmZnSQ?oc=5",
-      "published": "Thu, 23 Apr 2026 20:00:23 GMT",
+      "id": "gn-73567",
+      "title": "US sanctions wallets tied to Iran, freezing $344 million in cryptocurrency, Bessent says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVDBZYWR4aWdWVkxGWk5sV1V2Y2pyeGw4dFV5R2tGMnpPckFNZ3JKb1FOdG9Nd3B1blVWY2VYbFV5TjRRQ2ZwbmNnXy13Y29xeEZRUjZDa0ZuU0pVV0EyNEZTV2lIbHRrWkgzOV9tNUJtTDJVVVJwdzE0bE52ZTRRcnpYUm1zZjFfV1FPaldhbFl1LVd2cUhDc0k2V0YtTHNvLVppMy1jM3Z4WmV6WEtGUHJEWUEzQnlEdFhzR1VxWWhpc3FSZDFzaU0xSTBLdw?oc=5",
+      "published": "Fri, 24 Apr 2026 18:27:17 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-12712",
+      "title": "Bitcoin Crisis Resilience: The Real-Time Test - ETF Trends",
+      "source": "ETF Trends",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlhkTl9mMFZTUXJpaC1tMmozZW1PcmxnVk5NdEphek1rWnBSMmlkLUdvY1RKMkVfM2h6RmxkNUx1NkMtYVhsT2NTTnNxNkh5c1hJeFUwcjV0UmF1QlZuR1BKdFI3SnFJSkdCanJuSERIbGZlWndoVTVwOXBrdF93QzQyUFhzdndub2VqQmlzaVh6Z1gx0gGaAUFVX3lxTE4tLTRVQ2ViX0JiUjZfWE0wQWpKbXlEVGZBenJ1UllYSTgyelEycm8tNlNqcnJXOTdZM2dQaWFCWW5WakZwMnVYemZIR2l5a3cwUGNSOWxfajA2bWZqRVlQUmdYaWtnRFRnTC1fM0t2czFiVDRDd1FBSlh0OGNjNWw3enhnNVNjN1BFaXpnYWZNQzMzWmx5MUxqZ1E?oc=5",
+      "published": "Fri, 24 Apr 2026 18:14:45 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-71336",
-      "title": "Tether freezes $344M USDt stablecoins at US law enforcement request",
+      "id": "ct-rss-45651",
+      "title": "Crypto PAC Fellowship halts support of Texas AG for Senate: Report",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tether-freezes-344m-usdt-stablecoin?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 19:26:55 +0000",
-      "coins": [
-        "ETH"
-      ],
+      "url": "https://cointelegraph.com/news/crypto-pac-fellowship-ads-texas-senate-race?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 18:03:20 +0000",
+      "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-65358",
-      "title": "Tether freezes $344M USDt stablecoins at US law enforcement request",
+      "id": "ct-88401",
+      "title": "Crypto PAC Fellowship halts support of Texas AG for Senate: Report",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/tether-freezes-344m-usdt-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 19:26:55 +0000",
-      "coins": [
-        "ETH"
-      ],
+      "url": "https://cointelegraph.com/news/crypto-pac-fellowship-ads-texas-senate-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 18:03:20 +0000",
+      "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-87574",
-      "title": "Bitcoin enters disbelief phase as USDC exchange reserves push above $7.5B",
+      "id": "ct-rss-37503",
+      "title": "Crypto Biz: Same players, bigger bets as crypto eyes a rebound",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-enters-disbelief-phase-as-usdc-exchange-reserves-push-above-dollar7-5b?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 19:26:46 +0000",
+      "url": "https://cointelegraph.com/news/crypto-biz-same-players-bigger-bets-as-crypto-eyes-a-rebound?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 17:06:39 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-25568",
+      "title": "Crypto Biz: Same players, bigger bets as crypto eyes a rebound",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/crypto-biz-same-players-bigger-bets-as-crypto-eyes-a-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 17:06:39 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-60760",
+      "title": "Bitcoin stays 'stalled' at $78K as oil threatens new risk-asset squeeze",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-stays-stalled-at-78k-as-oil-threatens-new-risk-asset-squeeze?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 16:55:44 +0000",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-20646",
-      "title": "Bitcoin enters disbelief phase as USDC exchange reserves push above $7.5B",
+      "id": "ct-17182",
+      "title": "Bitcoin stays 'stalled' at $78K as oil threatens new risk-asset squeeze",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-enters-disbelief-phase-as-usdc-exchange-reserves-push-above-dollar7-5b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 19:26:46 +0000",
+      "url": "https://cointelegraph.com/markets/bitcoin-stays-stalled-at-78k-as-oil-threatens-new-risk-asset-squeeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 16:55:44 +0000",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-10134",
-      "title": "MoonPay launches fiat-to-stablecoin virtual accounts in New York",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/moonpay-launches-fiat-to-stablecoin-virtual-accounts-in-new-york?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 18:58:57 +0000",
+      "id": "gn-73262",
+      "title": "Cryptocurrency Contributions to Political Committees: An Analysis of State Regulatory Approaches - The National Law Review",
+      "source": "The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZjlnOEFCNlEyeUtGdm5iS1VKWjR4ckFyNlBjbE96QmktRlpjREVoMXlwU2JhV2U0eWJEOUJzeFR1SHRfSnk5ZURvczZMQTNfYV9qcnFzT0diNjJrYVpyQTZEV0VEclRPNVVkM0RyN3pIZldHZ3d3N0JXSEpvLWFfcVZZYTFTR2xTSnc4bEo0bHMxUmFBNm90OURFb21aTkphX0RZN1NlN3lnT3BC0gGyAUFVX3lxTE9TTWZKZVRRTFFuUmtjTFVKSjU4eUJLdWpXMG1UWDhHb0Z6N3FXMWtyb0Qzc1hkbXEzbHBkRFZiSTd4cEw4OEhGblNWZ0NFV3ZwajhvTXRYZXJUd3ViWmUyU1VMbHozR2FZSmdFTEVNVkduMUlPTXB1TlZ4bVo5aVAzUTJMWnFWQzFKLWthYkhFYTlYbldUaHJDQVF6MDZKcmc4b21lZEJzVU5sS0M1VFRjUUE?oc=5",
+      "published": "Fri, 24 Apr 2026 16:50:13 GMT",
       "coins": [],
-      "provider": "cointelegraph-rss"
+      "provider": "google-news-crypto"
     },
     {
-      "id": "ct-11733",
-      "title": "MoonPay launches fiat-to-stablecoin virtual accounts in New York",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/moonpay-launches-fiat-to-stablecoin-virtual-accounts-in-new-york?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 18:58:57 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-2159",
-      "title": "Inside the $71 million freeze on Arbitrum that has the crypto world questioning what decentralization really means",
+      "id": "cd-18256",
+      "title": "Trump's DOJ drops probe that stood in way of president's pick to run Federal Reserve",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/04/22/inside-the-usd71-million-freeze-on-arbitrum-that-has-the-crypto-world-questioning-what-decentralization-really-means",
-      "published": "Thu, 23 Apr 2026 18:35:32 +0000",
-      "summary": "The emergency response prevented stolen funds from moving, but sparked debate over governance, control and the limits of decentralization on Layer 2s.",
+      "url": "https://www.coindesk.com/news-analysis/2026/04/24/trump-s-doj-drops-probe-that-stood-in-way-of-president-s-pick-to-run-federal-reserve",
+      "published": "Fri, 24 Apr 2026 16:38:39 +0000",
+      "summary": "The Justice Department passed an investigation of Fed Chair Jerome Powell to the Fed's own inspector, which could clear a confirmation path for Kevin Warsh.",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-43887",
-      "title": "Crypto advocacy groups call action on market structure bill ‘critical‘",
+      "id": "ct-rss-7252",
+      "title": "Solana confirms a bullish signal, which last sparked 100% SOL price gains",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-groups-market-structure-markup-critical?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 17:58:46 +0000",
-      "coins": [],
+      "url": "https://cointelegraph.com/markets/solana-confirms-bullish-signal-last-sparked-100-sol-price-gains?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 16:22:59 +0000",
+      "coins": [
+        "SOL"
+      ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-4467",
-      "title": "Crypto advocacy groups call action on market structure bill ‘critical‘",
+      "id": "ct-84931",
+      "title": "Solana confirms a bullish signal, which last sparked 100% SOL price gains",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-groups-market-structure-markup-critical?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 17:58:46 +0000",
-      "coins": [],
+      "url": "https://cointelegraph.com/markets/solana-confirms-bullish-signal-last-sparked-100-sol-price-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 24 Apr 2026 16:22:59 +0000",
+      "coins": [
+        "SOL"
+      ],
       "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-54142",
-      "title": "Fold (FLD) Launches Bitcoin Bonus Program For Employers Through Fold Business Platform - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpTmZhdFFKQ092aDR6YmZ5eENTUlRhUEFReU5fWGFvVmkxeTNQZmRhZEthMkt2VVZEWngzWlRUNDV4a2RWdFFOUGtFUUZObnZfajlwX0NiRGhPM2JzSzMydlgtRjE3ZG1FTHpudWNxVS1TbzJ5S25yQWNmb08?oc=5",
-      "published": "Thu, 23 Apr 2026 17:47:06 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-33434",
-      "title": "Figure shares sink 9% as $1B lending milestone meets market volatility",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/figure-shares-sink-9-as-1b-lending-milestone-meets-market-volatility?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 17:45:02 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-65909",
-      "title": "Figure shares sink 9% as $1B lending milestone meets market volatility",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/figure-shares-sink-9-as-1b-lending-milestone-meets-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 17:45:02 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-81780",
-      "title": "These 3 Ethereum metrics favor an ETH price rally to $6K",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/these-3-ethereum-metrics-favor-eth-price-rally-to-6k?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 23 Apr 2026 16:40:49 +0000",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "cd-71204",
-      "title": "The market repriced DeFi in just 48 hours",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/04/23/the-market-repriced-defi-in-just-48-hours",
-      "published": "Thu, 23 Apr 2026 16:30:00 +0000",
-      "summary": "Di Bartolomeo argues that last weekend the market achieved – in real time – a notable feat that no regulator, auditor or commentator has ever done. ",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-5679",
-      "title": "US admiral reveals that the military is running its own bitcoin node - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcXpYYXRuRGhiYi1pSFNTRDhjTWg0dHQ5UVpWN0l6d1JSckREazRPTGxVbUZyT1I2bFFOSEk2ZW9QcDRrQ2FjOG1oS2pwU1FjZklYN1RSRy02djFjY0hwaVZIdWZoSTRlRjlSQWdPYnJrdEF2YXdWSkZNZTlCcmFUNHNYUFVRSUN2T3Q5TWE4RWZnZ3BWalVGY1RBNThOU1B3YTQxLThzSGN4Qm5XT19tX3NKa0NTdw?oc=5",
-      "published": "Thu, 23 Apr 2026 16:27:33 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
     }
   ]
 }
