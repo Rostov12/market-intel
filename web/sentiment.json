@@ -1,6 +1,6 @@
 {
-  "date": "2026-04-25",
-  "generated_at": "2026-04-25 04:45",
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-24",
       "2026-04-27",
-      "2026-04-28"
+      "2026-04-28",
+      "2026-04-29"
     ],
-    "total_calls_vol": 3800097,
-    "total_puts_vol": 4898698,
-    "pcr": 1.289,
+    "total_calls_vol": 3111503,
+    "total_puts_vol": 3867866,
+    "pcr": 1.243,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -30,39 +30,43 @@
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "CAR",
-        "count": 2
+        "symbol": "POET",
+        "count": 3
       },
       {
-        "symbol": "FIG",
+        "symbol": "RDDT",
+        "count": 1
+      },
+      {
+        "symbol": "SPOT",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/27 - 5/1",
-        "score": 47,
-        "upvote_ratio": 0.93
+        "score": 180,
+        "upvote_ratio": 0.97
       },
       {
-        "title": "Weekend Discussion Thread for the Weekend of April 24, 2026",
-        "score": 17,
-        "upvote_ratio": 0.87
+        "title": "What Are Your Moves Tomorrow, April 28, 2026",
+        "score": 71,
+        "upvote_ratio": 0.94
       },
       {
-        "title": "Shorting this dumbass company (INTEL)",
-        "score": 6574,
+        "title": "NaNanaanaa, NaNaNaaaNaaaa, Heee Heee yeaaah....",
+        "score": 5663,
         "upvote_ratio": 0.96
       },
       {
-        "title": "AMD. Another week. Another million. +$7.7M",
-        "score": 6334,
-        "upvote_ratio": 0.93
+        "title": "21, unemployed, DoorDashing + Dota 2. Started last year, bought the dip. Roth +4",
+        "score": 669,
+        "upvote_ratio": 0.89
       },
       {
-        "title": "DOJ expected to drop criminal probe of Fed Chair Jerome Powell amid pressure fro",
-        "score": 1456,
-        "upvote_ratio": 0.98
+        "title": "POET -30% premarket after Marvell cancels Celestial AI purchase orders over alle",
+        "score": 1338,
+        "upvote_ratio": 0.97
       }
     ]
   }

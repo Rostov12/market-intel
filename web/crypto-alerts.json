@@ -1,245 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 90.22,
-    "change_pct": 3.2,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Yahoo Finance] 隨著 XRP、以太坊和 Solana 的飆升，比特幣觸及 75,000 美元：加密貨幣牛市開始了嗎？ - 雅虎財經\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Barron's] 比特幣價格突破 75,000 美元，XRP、Solana 收益。是什麼推動了加密貨幣反彈。 - 巴倫周刊",
-    "timestamp": "2026-04-17T22:50:12.290991+08:00",
-    "epoch": 1776437408
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 77836.4,
-    "change_pct": 3.32,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高點 - 財富",
-    "timestamp": "2026-04-17T22:55:07.481376+08:00",
-    "epoch": 1776437705
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2444.08,
-    "change_pct": 3.47,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高位 - 財富",
-    "timestamp": "2026-04-17T23:20:11.434763+08:00",
-    "epoch": 1776439209
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 77854.3,
-    "change_pct": 2.51,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高點 - 財富",
-    "timestamp": "2026-04-17T23:25:07.635905+08:00",
-    "epoch": 1776439505
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 77818.6,
-    "change_pct": 2.51,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高點 - 財富",
-    "timestamp": "2026-04-17T23:55:12.168250+08:00",
-    "epoch": 1776441309
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2445.19,
-    "change_pct": 3.48,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高點 - 財富",
-    "timestamp": "2026-04-17T23:55:13.005273+08:00",
-    "epoch": 1776441309
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2426.17,
-    "change_pct": -2.05,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Benzinga] 比特幣、以太幣創兩個月新高；川普暗示伊朗重啟談判，XRP、狗狗幣持平：分析師 S - Benzinga\n- [CoinDesk] 比特幣價格消息：花旗集團將 BTC 目標價下調至 112,000 美元；ETH 跌至 3,175 美元 - CoinDesk\n- [Fortune] 隨著市場對美伊和平談判變得樂觀，比特幣和以太坊接近兩個月高點 - 財富",
-    "timestamp": "2026-04-18T02:25:07.631423+08:00",
-    "epoch": 1776450305
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2363.02,
-    "change_pct": -2.1,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [Crypto Briefing] Schwab 向 4,600 萬客戶開放比特幣、以太坊交易，資產價值 11.8T - Crypto Briefing\n- [CoinDesk] XRP 每週表現領先 8％，領先主要貨幣，突破後下一步是什麼",
-    "timestamp": "2026-04-18T18:15:08.063967+08:00",
-    "epoch": 1776507305
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2361.19,
-    "change_pct": -2.1,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [Crypto Briefing] Schwab 向 4,600 萬客戶開放比特幣、以太坊交易，資產價值 11.8T - Crypto Briefing\n- [CoinDesk] XRP 每週表現領先 8％，領先主要貨幣，突破後下一步是什麼",
-    "timestamp": "2026-04-18T18:50:09.392910+08:00",
-    "epoch": 1776509407
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.69,
-    "change_pct": 2.47,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [24/7 Wall St.] XRP 上漲 4%，跑贏比特幣、以太幣和 Solana：XRP 突破開始了嗎？ - 24/7 華爾街\n- [24/7 Wall St.] 為什麼加密貨幣會崩潰？比特幣、XRP、以太坊和 Solana 本週全部下跌 - 24/7 Wall St.\n- [Cointelegraph] Solana 期貨未平倉合約本週上漲 20%：接下來是 100 美元 SOL 嗎？",
-    "timestamp": "2026-04-19T21:20:07.758740+08:00",
-    "epoch": 1776604805
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.4,
-    "change_pct": 2.56,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Solana 期貨未平倉合約本週上漲 20%：接下來是 100 美元 SOL 嗎？\n- [CoinTelegraph] Solana 期貨未平倉合約本週上漲 20%：接下來是 100 美元 SOL 嗎？",
-    "timestamp": "2026-04-19T21:50:10.611760+08:00",
-    "epoch": 1776606608
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2299.3,
-    "change_pct": -2.03,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元",
-    "timestamp": "2026-04-20T01:55:06.538028+08:00",
-    "epoch": 1776621304
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2258.2,
-    "change_pct": -2.1,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [24/7 Wall St.] 以太幣價格預測：到 2030 年 1 ETH 值多少錢？ - 24/7 華爾街\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元",
-    "timestamp": "2026-04-20T06:05:11.375546+08:00",
-    "epoch": 1776636309
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.62,
-    "change_pct": -2.07,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] Solana 價格預測：Solana 能否超越比特幣？ SOL 還要走多遠 - 雅虎財經\n- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管\n- [CoinTelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
-    "timestamp": "2026-04-20T06:20:11.630833+08:00",
-    "epoch": 1776637209
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2270.91,
-    "change_pct": -2.1,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [24/7 Wall St.] 以太幣價格預測：到 2030 年 1 ETH 值多少錢？ - 24/7 華爾街\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元",
-    "timestamp": "2026-04-20T06:40:07.933490+08:00",
-    "epoch": 1776638405
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.88,
-    "change_pct": -2.86,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] Solana 價格預測：Solana 能否超越比特幣？ SOL 還要走多遠 - 雅虎財經\n- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管\n- [CoinTelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
-    "timestamp": "2026-04-20T06:55:10.569247+08:00",
-    "epoch": 1776639308
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.63,
-    "change_pct": -2.23,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] Solana 價格預測：Solana 能否超越比特幣？ SOL 還要走多遠 - 雅虎財經\n- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管\n- [CoinTelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
-    "timestamp": "2026-04-20T07:30:11.093812+08:00",
-    "epoch": 1776641408
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2326.2,
-    "change_pct": 3.07,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元\n- [Cointelegraph] 量子差距：為什麼比特幣和以太坊在安全性方面採取了不同的路徑",
-    "timestamp": "2026-04-20T15:25:08.163321+08:00",
-    "epoch": 1776669905
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.52,
-    "change_pct": 2.39,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
-    "timestamp": "2026-04-20T15:25:08.996461+08:00",
-    "epoch": 1776669905
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 628.9,
-    "change_pct": 2.03,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] RaveDAO 否認操縱行為，幣安、Bitget 調查 RAVE 交易活動",
-    "timestamp": "2026-04-20T15:25:09.728966+08:00",
-    "epoch": 1776669905
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2287.51,
-    "change_pct": 3.07,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CNBC] 查爾斯·施瓦布 (Charles Schwab) 將推出直接比特幣、以太幣交易，與 Robinhood 競爭 - CNBC\n- [CoinDesk] 由於 Kelp 駭客攻擊暴露了 DeFi 貸方的結構性風險，Aave 預計存款將下降 60 億美元\n- [Cointelegraph] 量子差距：為什麼比特幣和以太坊在安全性方面採取了不同的路徑",
-    "timestamp": "2026-04-20T15:55:11.427279+08:00",
-    "epoch": 1776671705
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.54,
-    "change_pct": 2.39,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 海藻利用凸顯了非隔離 DeFi 貸款的問題：加密貨幣高管",
-    "timestamp": "2026-04-20T15:55:12.028730+08:00",
-    "epoch": 1776671705
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 623.7,
-    "change_pct": 2.03,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] RaveDAO 否認操縱行為，幣安、Bitget 調查 RAVE 交易活動",
-    "timestamp": "2026-04-20T15:55:12.616586+08:00",
-    "epoch": 1776671705
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2285.16,
-    "change_pct": -2.22,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Tether 支持阿聯酋代幣化公司 KAIO 進行 800 萬美元融資，將阿聯酋資金引入鏈上\n- [CoinDesk] Coinbase和Bybit據稱將在美股代幣化、託管和發行方面展開合作\n- [Fortune] 2026 年 4 月 20 日以太坊當前價格 - 財富",
-    "timestamp": "2026-04-20T23:05:08.778862+08:00",
-    "epoch": 1776697505
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2308.98,
@@ -498,5 +258,245 @@
     "news": "暫無明確消息面，可能為技術性波動",
     "timestamp": "2026-04-24T01:50:09.549662+08:00",
     "epoch": 1776966607
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2397.06,
+    "change_pct": 2.02,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Coinbase 的 John D’Agostino 表示，加密貨幣平台是業界唯一提供全方位服務的主要經紀商\n- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T09:05:10.014127+08:00",
+    "epoch": 1777251907
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2386.95,
+    "change_pct": 2.02,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Coinbase 的 John D’Agostino 表示，加密貨幣平台是業界唯一提供全方位服務的主要經紀商\n- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T09:40:03.855285+08:00",
+    "epoch": 1777254001
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2343.3,
+    "change_pct": -2.4,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Coinbase 的 John D’Agostino 表示，加密貨幣平台是業界唯一提供全方位服務的主要經紀商\n- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T13:20:10.116531+08:00",
+    "epoch": 1777267204
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.38,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T13:20:10.709383+08:00",
+    "epoch": 1777267204
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 77788.0,
+    "change_pct": -2.01,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Cointelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部\n- [CoinTelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部",
+    "timestamp": "2026-04-27T13:35:11.007125+08:00",
+    "epoch": 1777268108
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2321.01,
+    "change_pct": -3.4,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Coinbase 的 John D’Agostino 表示，加密貨幣平台是業界唯一提供全方位服務的主要經紀商\n- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T13:50:10.825631+08:00",
+    "epoch": 1777269008
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.87,
+    "change_pct": -2.57,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T13:50:11.297469+08:00",
+    "epoch": 1777269008
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2326.64,
+    "change_pct": -3.27,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] Coinbase 的 John D’Agostino 表示，加密貨幣平台是業界唯一提供全方位服務的主要經紀商\n- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T14:20:11.218728+08:00",
+    "epoch": 1777270809
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.01,
+    "change_pct": -2.48,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T14:20:11.742752+08:00",
+    "epoch": 1777270809
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 77595.0,
+    "change_pct": -2.14,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Cointelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部\n- [CoinTelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部",
+    "timestamp": "2026-04-27T14:35:11.723113+08:00",
+    "epoch": 1777271709
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 625.7,
+    "change_pct": -2.18,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T14:35:12.257729+08:00",
+    "epoch": 1777271709
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2323.54,
+    "change_pct": -3.48,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T14:55:10.495161+08:00",
+    "epoch": 1777272908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.79,
+    "change_pct": -2.77,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T14:55:11.025998+08:00",
+    "epoch": 1777272908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2319.59,
+    "change_pct": -2.87,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH\n- [CoinTelegraph] 以太坊基金會在 ETH 質押量接近 70K 里程碑後取消質押 17K ETH",
+    "timestamp": "2026-04-27T15:30:10.925833+08:00",
+    "epoch": 1777275008
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.53,
+    "change_pct": -2.38,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T15:30:11.872803+08:00",
+    "epoch": 1777275008
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2283.2,
+    "change_pct": -2.12,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區可以將其他區塊鏈拉入其軌道\n- [CoinTelegraph] 以太坊的專屬經濟區可以將其他區塊鏈拉入其軌道\n- [CoinDesk] Tom Lee 將 ETH 吹捧為“戰時價值儲存手段”，Bitmine 購買了 2.36 億美元的以太幣",
+    "timestamp": "2026-04-27T23:20:09.768353+08:00",
+    "epoch": 1777303207
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 76616.0,
+    "change_pct": -2.12,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Cointelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部\n- [Cointelegraph] Strategy 的 Michael Saylor 再次暗示即將購買 BTC",
+    "timestamp": "2026-04-27T23:25:04.005574+08:00",
+    "epoch": 1777303501
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.87,
+    "change_pct": -2.56,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T23:25:04.623442+08:00",
+    "epoch": 1777303501
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 76849.0,
+    "change_pct": -2.17,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Cointelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部\n- [Cointelegraph] Strategy 的 Michael Saylor 再次暗示即將購買 BTC",
+    "timestamp": "2026-04-27T23:55:11.511548+08:00",
+    "epoch": 1777305305
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2277.21,
+    "change_pct": -2.73,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區可以將其他區塊鏈拉入其軌道\n- [CoinTelegraph] 以太坊的專屬經濟區可以將其他區塊鏈拉入其軌道\n- [CoinDesk] Tom Lee 將 ETH 吹捧為“戰時價值儲存手段”，Bitmine 購買了 2.36 億美元的以太幣",
+    "timestamp": "2026-04-27T23:55:12.376555+08:00",
+    "epoch": 1777305305
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.18,
+    "change_pct": -2.56,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-27T23:55:12.869698+08:00",
+    "epoch": 1777305305
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 76735.4,
+    "change_pct": -2.05,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Cointelegraph] 分析師稱「歷史平均」可能會將比特幣推至5.7萬美元的底部\n- [Cointelegraph] Strategy 的 Michael Saylor 再次暗示即將購買 BTC",
+    "timestamp": "2026-04-28T00:25:11.222324+08:00",
+    "epoch": 1777307109
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2277.28,
+    "change_pct": -2.54,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 以太坊的專屬經濟區可以將其他區塊鏈拉入其軌道\n- [CoinTelegraph] 以太坊的專屬經濟區可以將其他區塊鏈拉入其軌道\n- [CoinDesk] Tom Lee 將 ETH 吹捧為“戰時價值儲存手段”，Bitmine 購買了 2.36 億美元的以太幣",
+    "timestamp": "2026-04-28T00:25:11.984089+08:00",
+    "epoch": 1777307109
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.29,
+    "change_pct": -2.09,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-04-28T00:25:12.483675+08:00",
+    "epoch": 1777307109
   }
 ]
