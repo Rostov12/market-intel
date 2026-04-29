@@ -1,71 +1,111 @@
 {
-  "date": "2026-04-28",
-  "fetched_at": "2026-04-28 07:07",
+  "date": "2026-04-29",
+  "fetched_at": "2026-04-29 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "DOJ drops criminal probe of Fed chair Powell, paving way for Warsh confirmation - Investing.com",
+      "title": "For Democratic veterans making midterm pitches, the Iran war is personal: From the Politics Desk - NBC News",
       "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "美國司法部撤銷對聯準會主席鮑威爾的刑事調查，為沃什的確認鋪平道路 - Investing.com",
+      "source": "Geopolitical",
+      "title_cn": "對於進行中期競選的民主黨退伍軍人來說，伊朗戰爭是個人的：來自政治部門 - NBC 新聞",
       "time": "05:30",
-      "detected_at": "2026-04-28T05:30:15.027198+08:00"
+      "detected_at": "2026-04-29T05:30:22.817228+08:00"
     },
     {
-      "title": "Bond Traders Await Powell Update, Slate of US Treasury Auctions - Bloomberg.com",
-      "impact": "neutral",
+      "title": "BP doubles its profits as Iran war elevates oil prices - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭導致油價上漲，英國石油公司 (BP) 利潤翻倍 - The Hill",
+      "time": "05:30",
+      "detected_at": "2026-04-29T05:30:22.817228+08:00"
+    },
+    {
+      "title": "UAE Quits OPEC: Iran War Drives Oil Prices Skyward - Investing News Network",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "阿聯酋退出歐佩克：伊朗戰爭推動油價飆升 - 投資新聞網",
+      "time": "05:30",
+      "detected_at": "2026-04-29T05:30:22.817228+08:00"
+    },
+    {
+      "title": "UAE to Leave OPEC in May as Iran War Reshapes Oil Market - Bloomberg",
+      "impact": "bearish",
       "source": "Bloomberg-via-GN",
-      "title_cn": "債券交易員等待鮑威爾更新美國國債拍賣名單 - Bloomberg.com",
+      "title_cn": "伊朗戰爭重塑石油市場，阿聯酋將於五月退出歐佩克 - 彭博社",
       "time": "05:00",
-      "detected_at": "2026-04-28T05:00:15.870702+08:00"
+      "detected_at": "2026-04-29T05:00:17.520239+08:00"
     },
     {
-      "title": "Dollar slips as US-Iran talks stall, traders eye Powell's final Fed meeting - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "由於美伊談判陷入僵局，美元下跌，交易員關注鮑威爾的最後一次美聯儲會議 - 路透中文網美伊談判陷入僵局，美元下跌，交易員關注鮑威爾最後一次美聯儲會議 路透",
-      "time": "04:30",
-      "detected_at": "2026-04-28T04:30:13.303956+08:00"
-    },
-    {
-      "title": "Gold prices have lost nearly 11% since the Iran war began. Reasons to buy the metal are piling up again.",
+      "title": "Emerging Stocks Slip From Highs as Tech Selloff, Oil Surge Weigh - Bloomberg",
       "impact": "bullish",
-      "source": "MarketWatch",
-      "title_cn": "自伊朗戰爭爆發以來，金價已下跌近11%",
-      "time": "04:30",
-      "detected_at": "2026-04-28T04:30:13.303956+08:00"
+      "source": "Bloomberg-via-GN",
+      "title_cn": "由於科技股拋售和石油價格上漲，新興股市從高點回落 - 彭博社",
+      "time": "05:00",
+      "detected_at": "2026-04-29T05:00:17.520239+08:00"
     },
     {
-      "title": "Bond Traders Await Powell Update, Slate of US Treasury Auctions - Bloomberg",
+      "title": "The Reason Markets Don’t Care About the Iran War - Bloomberg",
+      "impact": "bearish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "市場不關心伊朗戰爭的原因 - 彭博",
+      "time": "05:00",
+      "detected_at": "2026-04-29T05:00:17.520239+08:00"
+    },
+    {
+      "title": "Fed to Hold Interest Rates as Political Drama Overshadows Policy Debate - Bloomberg",
       "impact": "neutral",
       "source": "Bloomberg-via-GN",
-      "title_cn": "債券交易員等待鮑威爾更新美國國債拍賣名單 - 彭博",
-      "time": "04:30",
-      "detected_at": "2026-04-28T04:30:13.303956+08:00"
+      "title_cn": "政治戲劇掩蓋政策辯論，美聯儲將維持利率不變 - 彭博",
+      "time": "05:00",
+      "detected_at": "2026-04-29T05:00:17.520239+08:00"
     },
     {
       "title": "Trump’s Hormuz Blockade Has Deepened a Historic Shipping Crisis - Bloomberg",
       "impact": "neutral",
       "source": "Bloomberg-via-GN",
       "title_cn": "川普的霍爾木茲封鎖加深了歷史性的航運危機 - 彭博",
-      "time": "04:30",
-      "detected_at": "2026-04-28T04:30:13.303956+08:00"
+      "time": "05:00",
+      "detected_at": "2026-04-29T05:00:17.520239+08:00"
     },
     {
-      "title": "股市恐重演1999年「融漲」？投資研究公司：美股或上漲30% 但暴跌風險升 - news.cnyes.com",
+      "title": "Bond Traders Await Powell Update, Slate of US Treasury Auctions - Bloomberg",
       "impact": "neutral",
-      "source": "鉅亨網",
-      "title_cn": "股市風險恐重演1999年「融漲」？投資研究公司：美股或上漲30%但暴跌升 - news.cnyes.com. 股市創投重演1999年「融漲」？投資研究公司：美股或上漲30%但暴跌升&nbsp;&nbsp;news.cnyes.com",
-      "time": "04:30",
-      "detected_at": "2026-04-28T04:30:13.303956+08:00"
+      "source": "Bloomberg-via-GN",
+      "title_cn": "Bond Traders Await Powell Update, Slate of US Treasury Auctions - Bloomberg",
+      "time": "05:00",
+      "detected_at": "2026-04-29T05:00:17.520239+08:00"
     },
     {
-      "title": "Global oil prices surpass $108 a barrel on concerns Iran may have to cut production due to limited storage",
+      "title": "Here's everything to expect when the Fed issues its latest interest rate decision Wednesday",
       "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "由於擔心伊朗可能因儲存有限而不得不減產，全球油價突破每桶 108 美元",
+      "source": "CNBC",
+      "title_cn": "當聯準會週三發布最新利率決定時，以下是所有值得期待的事情",
+      "time": "04:30",
+      "detected_at": "2026-04-29T04:30:16.532796+08:00"
+    },
+    {
+      "title": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "由於霍爾木茲海峽的中斷超過了阿聯酋 OPEC 的退出，油價最終上漲近 3% - 路透社",
+      "time": "04:30",
+      "detected_at": "2026-04-29T04:30:16.532796+08:00"
+    },
+    {
+      "title": "Trump scolds Germany’s Merz for criticism of Iran war - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普斥責德國總理默茨對伊朗戰爭的批評 - 半島電視台",
+      "time": "04:30",
+      "detected_at": "2026-04-29T04:30:16.532796+08:00"
+    },
+    {
+      "title": "New Ukrainian strike on Russia's Tuapse refinery, Putin says attacks more intense on civilian targets - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "烏克蘭對俄羅斯圖阿普謝煉油廠發動新一輪襲擊，普丁稱對民用目標的襲擊更加猛烈 - 路透社烏克蘭對俄羅斯圖阿普謝煉油廠發動新一輪襲擊，普丁稱對平民目標的襲擊更加猛烈 路透社",
       "time": "04:00",
-      "detected_at": "2026-04-28T04:00:14.350080+08:00"
+      "detected_at": "2026-04-29T04:00:18.512917+08:00"
     },
     {
       "title": "Trump’s Hormuz Blockade Has Deepened a Historic Shipping Crisis - Bloomberg.com",
@@ -73,95 +113,55 @@
       "source": "Bloomberg-via-GN",
       "title_cn": "川普的霍爾木茲封鎖加深了歷史性的航運危機 - Bloomberg.com",
       "time": "04:00",
-      "detected_at": "2026-04-28T04:00:14.350080+08:00"
+      "detected_at": "2026-04-29T04:00:18.512917+08:00"
     },
     {
-      "title": "China’s Economy Starts to Show Cracks From Iran War - The New York Times",
+      "title": "Amid Iran War and Tensions with Neighbors, U.A.E. Goes Its Own Way - The New York Times",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "中國經濟開始出現伊朗戰爭帶來的裂痕 - 紐約時報",
+      "title_cn": "在伊朗戰爭和與鄰國的緊張關係中，阿聯酋走自己的路 - 紐約時報",
       "time": "04:00",
-      "detected_at": "2026-04-28T04:00:14.350080+08:00"
+      "detected_at": "2026-04-29T04:00:18.512917+08:00"
     },
     {
-      "title": "UAE’s Sophisticated Air Defense More Diverse Than Ever After Iran War - Forbes",
+      "title": "Gas prices at highest level since beginning of Iran war - The Hill",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭後，阿聯酋先進的防空系統比以往任何時候都更加多樣化 - 福布斯",
+      "title_cn": "天然氣價格達到伊朗戰爭開始以來的最高水準 - The Hill",
       "time": "04:00",
-      "detected_at": "2026-04-28T04:00:14.350080+08:00"
+      "detected_at": "2026-04-29T04:00:18.512917+08:00"
     },
     {
-      "title": "Billionaire Ray Dalio says you should have up to 15% of your money in gold because of uncertainty around the Iran war",
+      "title": "GM: Iran war causing cost increases, but pricey vehicles continue to sell",
       "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "億萬富翁 Ray Dalio 表示，由於伊朗戰爭的不確定性，你應該將 15% 的資金投資於黃金",
-      "time": "03:30",
-      "detected_at": "2026-04-28T03:30:17.357367+08:00"
-    },
-    {
-      "title": "DOJ Drops Powell Probe, Smoothing Path for Warsh to Lead Fed - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "美國司法部放棄對鮑威爾的調查，為沃什領導聯準會鋪平道路 - Bloomberg.com",
-      "time": "03:30",
-      "detected_at": "2026-04-28T03:30:17.357367+08:00"
-    },
-    {
-      "title": "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says - CNBC",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "白宮稱，川普與高級助手討論了伊朗的霍爾木茲海峽提案 - CNBC",
-      "time": "03:30",
-      "detected_at": "2026-04-28T03:30:17.357367+08:00"
-    },
-    {
-      "title": "Iran War Shakes Global Economy, but the U.S. Has Mostly Been Spared - The New York Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭震撼全球經濟，但美國大部分倖免──《紐約時報》",
-      "time": "03:30",
-      "detected_at": "2026-04-28T03:30:17.357367+08:00"
-    },
-    {
-      "title": "Germany’s Merz says US has no strategy in Iran war - Al Jazeera",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "德國總理默茨表示，美國在伊朗戰爭中沒有戰略 - 半島電視台",
-      "time": "03:00",
-      "detected_at": "2026-04-28T03:00:15.765650+08:00"
-    },
-    {
-      "title": "Iran war deadline heats up Trump-Congress showdown - dw.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭最後期限加劇了川普與國會的對決 - dw.com",
-      "time": "03:00",
-      "detected_at": "2026-04-28T03:00:15.765650+08:00"
-    },
-    {
-      "title": "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
-      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "白宮表示，川普與高級助理討論了伊朗的霍爾木茲海峽提案",
-      "time": "02:30",
-      "detected_at": "2026-04-28T02:30:16.433775+08:00"
+      "title_cn": "通用汽車：伊朗戰爭導致成本增加，但昂貴的車輛仍在銷售中",
+      "time": "03:30",
+      "detected_at": "2026-04-29T03:30:20.528750+08:00"
     },
     {
-      "title": "Sen Tillis clears path for Trump’s Fed pick after DOJ drops Powell probe - Investing.com",
+      "title": "Nvidia, AMD, Broadcom Hit Wall After 50% SOXX Surge - iShares PHLX SOX Semiconductor Sector Index Fund (N - Benzinga",
+      "impact": "bullish",
+      "source": "Benzinga",
+      "title_cn": "Nvidia、AMD、Broadcom 在 50% SOXX 飆升後遭遇圍牆 - iShares PHLX SOX 半導體產業指數基金（N - Benzinga）",
+      "time": "03:30",
+      "detected_at": "2026-04-29T03:30:20.528750+08:00"
+    },
+    {
+      "title": "Trump approval dips to record low amid Iran war, inflation woes: Poll - Al Jazeera",
       "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "在司法部放棄鮑威爾調查後，參議員蒂利斯為川普的美聯儲人選掃清了道路 - Investing.com",
-      "time": "02:30",
-      "detected_at": "2026-04-28T02:30:16.433775+08:00"
+      "source": "Geopolitical",
+      "title_cn": "半島電視台民調顯示，在伊朗戰爭和通膨困境中，川普的支持率跌至歷史新低",
+      "time": "03:30",
+      "detected_at": "2026-04-29T03:30:20.528750+08:00"
     },
     {
-      "title": "Oil prices hit two-week high as Iran talks stall and Strait of Hormuz shipments lag By Reuters - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "路透社-Investing.com，因伊朗談判陷入僵局和霍爾木茲海峽運輸滯後，油價觸及兩週高點",
-      "time": "02:00",
-      "detected_at": "2026-04-28T02:00:12.932961+08:00"
+      "title": "GM: Iran war causing cost increases, but pricey vehicles continue to sell - CNBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "通用汽車：伊朗戰爭導致成本增加，但昂貴的汽車仍在銷售 - CNBC",
+      "time": "03:30",
+      "detected_at": "2026-04-29T03:30:20.528750+08:00"
     }
   ]
 }
