@@ -1,328 +1,325 @@
 {
-  "date": "2026-04-29",
-  "updated_at": "2026-04-29 07:50",
+  "date": "2026-04-30",
+  "updated_at": "2026-04-30 07:50",
   "count": 30,
   "sources": [
-    "cointelegraph-rss",
+    "google-news-crypto",
     "coindesk",
-    "cointelegraph",
-    "google-news-crypto"
+    "cointelegraph-rss",
+    "cointelegraph"
   ],
   "news": [
     {
-      "id": "gn-91514",
-      "title": "Ban on cryptocurrency kiosks passes in Minnesota House and Senate - kare11.com",
-      "source": "kare11.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd1J4blB3bjQtTkJxN0YzbFVfUW12RG5lS2hweXpHQzQxWWdGY2FKTGJSVktvQ1F1b05QQ2c3T0FwTVprclpzTkxLTUdHOS1zcE1sNDZJSTlKNTAybHA0bEJMUkxfZU9STmZnMjJzNXlzOWV5SWFOZ3RNNGxkWEVRaThwVWFzZWNzRDRzc2Q1Y3ljMWtNNlZXVHFRZUpialRzWE1QOU5FODBxLXJ1bzlrdHpUQl9xZmFSc0tqQnlBRGhXaVZVUWFQbGE3bXBKUQ?oc=5",
-      "published": "Tue, 28 Apr 2026 22:09:00 GMT",
-      "coins": [],
+      "id": "gn-64432",
+      "title": "Morgan Stanley Executive On Bitcoin: 'We Are Still So Early On This Journey' - Bitcoin Magazine",
+      "source": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2dlI0U0hxRGRPeU5KMXdtR0ZJUjJyRTZuQkpxUDJGVXJVOFd6LUhwWnlWNEtvVDJSX1dCQ1MzUFBRUEtKSDJQM21KeEZldVBXaDBPSWhLdkRCN18yUVhZT3JZeWJsVjRkXzdtNG9qYWNXX2pZY3NN?oc=5",
+      "published": "Wed, 29 Apr 2026 22:50:30 GMT",
+      "coins": [
+        "BTC"
+      ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-11287",
-      "title": "Crypto Markets Today, April 28: Bitcoin Slips Slightly as Geopolitical Tensions Weigh on Risk Sentiment - The Motley Fool",
+      "id": "gn-1427",
+      "title": "Bitcoin, WikiLeaks, and a Film the Streamers Wouldn’t Touch: Jack Dorsey and Eugene Jarecki Make Their Case - Bitcoin Magazine",
+      "source": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90WjZYcW5iMXI3Sm1Ta1o4ZGpXOGx1R3JKMkVHRXdVUU1YRW5VUXpFTF9hQjgxYWtxMnV3M3c0b1loZmJMenpIWmlHbUQzcS1KTFZMRGtLb3c1Wmw2a0JFc0VVZG5UUHctaThnZnVRV0VrR1hTUUE?oc=5",
+      "published": "Wed, 29 Apr 2026 22:43:41 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-59335",
+      "title": "Bitcoin recovery stalls after Fed holds interest rates, citing ‘uncertainty’ in Middle East",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-recovery-stalls-after-fed-holds-interest-rates-citing-uncertainty-in-middle-east?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 22:22:54 +0000",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-58660",
+      "title": "Bitcoin recovery stalls after Fed holds interest rates, citing ‘uncertainty’ in Middle East",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-recovery-stalls-after-fed-holds-interest-rates-citing-uncertainty-in-middle-east?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 22:22:54 +0000",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-14043",
+      "title": "Jack Mallers' Twenty One Capital surges after majority holder Tether proposes 3-way merger",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/29/jack-mallers-twenty-one-capital-surges-after-majority-holder-tether-proposes-3-way-merger",
+      "published": "Wed, 29 Apr 2026 22:12:53 +0000",
+      "summary": "Tether has moved to combine bitcoin treasury, mining, and financial services under one roof.",
+      "coins": [
+        "ETH",
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-97962",
+      "title": "Where Will Bitcoin Be in 3 Years? - The Motley Fool",
       "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMEx4SkVUUE14TDFIclRvTHhnVURhbDVJMGpSSlJrQS1rMGN2bjJIS056V2VscVdPdkQzSE1tZW5EaHVVTWc4YVkwZTRsTHJnRS1KaGdNUko0cmV0NUk2cS1YeTF2U0xIaEtNSl9ZcjFDSmNQSVN3RzgwNm1ramVQY1VST2c3bUZ5RVA5R0g3czlSak9qV3ZWOHdsdlQ4T3Z0ZEpheXFja19hdHJSZzcyWWRlamlNMngyREx3WnNReVh0U3BkQjFyOTkwNklSUktPVm9rQUdXWlRPcWJDQ1YtUldBbnFmNWdLSENnSXJyU0tzNkh0?oc=5",
-      "published": "Tue, 28 Apr 2026 22:04:08 GMT",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcTNHUkd3RURjY2FybGtjTEktOXZLeEpJV1JsQUc1QjRPM1RaeFVueDFZWlh6MUdHMGRWUm15YkVIakJpbUc2Ml9wYjVtRUo3SzdEcGxlRmt5bmRvaWZySk02UU9mVHViQms1THUzMlZNRWdRWENlMUhjWTZHVlBsXw?oc=5",
+      "published": "Wed, 29 Apr 2026 21:54:01 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-98103",
-      "title": "Bitcoin 2027 Conference Returning To Nashville, Tennessee - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IM1p0WTJCbnJlTDdUZ2x5ajdnRnIybTRCdVNHQTIxdF9vdnJEMlFEM3BETzhyOFNRY2EzNkp2R2pvYkNqQ2tJVU9tYzlCb05DVERkT0toZG9keUR5ZjlZSUx6R25ZQVA1TUdPN19WaUZWbGs1?oc=5",
-      "published": "Tue, 28 Apr 2026 21:48:13 GMT",
+      "id": "gn-3221",
+      "title": "Bitcoin is having its best month in a year — but the retail crowd is looking elsewhere - MarketWatch",
+      "source": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZGVLWXFiTWlzcWtwblViNUxraWQzRXgxeFhlOEltMzAxakh0TVA0TEVPV0tCc2pmWC1XY0lpd0FOaG9YLUlla3VtbThvM2NsYV9vcjlEb2h2N09uYWFNY1ZnNW9zem9UeHl1SHJSUng0Vk14TzQwMDRJTUVLU0FfX243NHZrNkRXQkpvMExVVk1mX0t4VmNqamdBd3JCVlc4em9SWFhaNGpoZndXWi1xT3F6WDRTcGFlSjF0SFJfTUM2NVNGTlE?oc=5",
+      "published": "Wed, 29 Apr 2026 21:22:00 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-90020",
-      "title": "Robinhood stock falls 8% after big earnings miss due to weak crypto trading revenue",
+      "id": "cd-46198",
+      "title": "Big Tech's multi-billion dollar AI bets are still on track as Mag 7 giants report earnings",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
-      "published": "Tue, 28 Apr 2026 20:28:00 +0000",
-      "summary": "While the trading platform’s crypto revenue tanked 47% to $134 million, a record-breaking surge in prediction market bets helped push overall revenue up 15% to $1.07 billion.",
+      "url": "https://www.coindesk.com/markets/2026/04/29/big-tech-s-multi-billion-dollar-ai-bets-are-still-on-track-as-mag-7-giants-report-earnings",
+      "published": "Wed, 29 Apr 2026 21:07:33 +0000",
+      "summary": "The four Mag 7 giants reported quarterly results on Wednesday, showing that they are still on track to spend multi-billion on AI. Here is what it means for crypto. ",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-86461",
-      "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
+      "id": "ct-rss-48935",
+      "title": "RealOpen and TRON verify $9.4M in USDT for crypto-enabled real estate purchases",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 19:56:21 +0000",
-      "coins": [
-        "BIT",
-        "BTC"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-51461",
-      "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 19:56:21 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-35783",
-      "title": "Paul Tudor Jones calls bitcoin the 'best inflation hedge,' warns of overvalued stocks",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/28/paul-tudor-jones-calls-bitcoin-the-best-inflation-hedge-warns-of-overvalued-stocks",
-      "published": "Tue, 28 Apr 2026 19:56:15 +0000",
-      "summary": "It will be \"really hard to make money\" in stocks over the next decade, said the billionaire investor, noting that the S&P 500's valuation reminds him of the 2000 dot-com bubble.",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-77099",
-      "title": "RedStone launches settlement layer to address RWA liquidity gap in DeFi lending",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/redstone-settlement-layer-rwa-liquidity-gap-defi-lending?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 19:42:43 +0000",
+      "url": "https://cointelegraph.com/press-releases/realopen-and-tron-verify-94m-in-usdt-for-crypto-enabled-real-estate-purchases?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 21:02:38 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-97475",
-      "title": "RedStone launches settlement layer to address RWA liquidity gap in DeFi lending",
+      "id": "ct-14135",
+      "title": "RealOpen and TRON verify $9.4M in USDT for crypto-enabled real estate purchases",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/redstone-settlement-layer-rwa-liquidity-gap-defi-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 19:42:43 +0000",
+      "url": "https://cointelegraph.com/press-releases/realopen-and-tron-verify-94m-in-usdt-for-crypto-enabled-real-estate-purchases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 21:02:38 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-4526",
-      "title": "River: Banks Are Turning Into Casinos, Bitcoin Is Better - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XZ1lpYU9YTG9LdFF4M0lkMkpSMUItTG1rOFJZcldlamRtb3RycHpSSzFFS1l4UzZSdl9FSXNGeXdUQWpuZk52Ync3ZHA3Y0ptc2MwMGxmaVNIRjRucDhLSEhyRGRUeTFCMkFTYldOX3dDejJIb1NHSHFKVmY2TGM?oc=5",
-      "published": "Tue, 28 Apr 2026 19:21:58 GMT",
+      "id": "gn-74746",
+      "title": "Bitcoin slips to $75,000 as Fed holds rates, dissenters chill Warsh 'pivot party' - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGViLUZzYnhOak1OdFUwUERmZ2lqbl9yUWRQRDJKME51cHgyZDhwcWgtU1l3a1BoU1EwLUdRZFFIeFBMcnBUUUxxUldSSHhwQk9IWEUycko4SENhQkdTMFpoTnF3bWxzbjg5RlNMSzJsQVU1NGlpaHdGRG4xdEloLVh6cDhvTWhBaXJkQVV3d1E5X2tSOUFoOW5OUTZkVmYzZlZ2WlNoTUlSdw?oc=5",
+      "published": "Wed, 29 Apr 2026 20:19:58 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-7808",
-      "title": "CFTC sues Wisconsin in agency's legal campaign defending prediction markets authority",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/04/28/cftc-sues-wisconsin-in-agency-s-legal-campaign-defending-prediction-markets-authority",
-      "published": "Tue, 28 Apr 2026 18:22:41 +0000",
-      "summary": "The U.S. Commodity Futures Trading Commission added Wisconsin to the list of states it's sued over event-contract jurisdiction, most recently New York.",
+      "id": "ct-rss-84090",
+      "title": "Stable Sea integrates WisdomTree tokenized Treasury fund for corporate cash management",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/stable-sea-integrates-wisdomtree-tokenized-treasury-fund-for-corporate-cash-management?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 19:57:45 +0000",
       "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-28015",
+      "title": "Stable Sea integrates WisdomTree tokenized Treasury fund for corporate cash management",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/stable-sea-integrates-wisdomtree-tokenized-treasury-fund-for-corporate-cash-management?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 19:57:45 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-25546",
+      "title": "Eric Trump says bitcoin in its 'greatest period ever' as Wall Street falls in line",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/29/eric-trump-says-bitcoin-in-its-greatest-period-ever-as-wall-street-falls-in-line",
+      "published": "Wed, 29 Apr 2026 19:49:14 +0000",
+      "summary": "Speaking at Bitcoin Las Vegas 2026, the American Bitcoin co-founder declared the last six months a turning point.",
+      "coins": [
+        "BTC"
+      ],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-4909",
-      "title": "Here’s what happened in crypto today",
+      "id": "ct-rss-98209",
+      "title": "Price predictions 4/29: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR ",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 17:44:00 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-25063",
-      "title": "Here’s what happened in crypto today",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 17:44:00 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-21205",
-      "title": "Canaan, Tether deepen partnership on immersion-cooled mining systems",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/canaan-tether-mining-hardware-modular-bitcoin-infrastructure?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 17:14:35 +0000",
+      "url": "https://cointelegraph.com/markets/price-predictions-429-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 19:39:32 +0000",
       "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-91268",
-      "title": "Canaan, Tether deepen partnership on immersion-cooled mining systems",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/canaan-tether-mining-hardware-modular-bitcoin-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 17:14:35 +0000",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-47428",
-      "title": "World Cup fever: Chiliz expands to Solana and Base to supercharge fan token trading",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/04/28/world-cup-fever-chiliz-expands-to-solana-and-base-to-supercharge-fan-token-trading",
-      "published": "Tue, 28 Apr 2026 17:03:56 +0000",
-      "summary": "Chiliz rolled out its own layer-1 network in 2023 to host the trading of its tokens, but is transitioning to what it calls \"omnichain distribution.\"",
-      "coins": [
+        "BNB",
+        "ETH",
+        "XRP",
+        "BTC",
         "SOL"
       ],
-      "provider": "coindesk"
+      "provider": "cointelegraph-rss"
     },
     {
-      "id": "cd-68068",
-      "title": "The age of Agentic Commerce has arrived. Consensus 2026 is where you can experience it IRL",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/04/28/the-age-of-agentic-commerce-has-arrived-consensus-2026-is-where-you-can-experience-it-irl",
-      "published": "Tue, 28 Apr 2026 17:00:00 +0000",
-      "summary": "AI agents are already transacting. The question now is what kind of financial infrastructure they run on -and who builds it.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-22728",
-      "title": "Polymarket reportedly seeking CFTC approval to reopen main exchange to U.S. traders",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/04/28/polymarket-seeks-cftc-approval-to-reopen-main-exchange-to-u-s-traders",
-      "published": "Tue, 28 Apr 2026 16:35:02 +0000",
-      "summary": "If approved, the move would help Polymarket compete with Kalshi in the U.S., and bring more event-trading activity under CFTC regulatory oversight.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-2738",
-      "title": "Riot extends $200 million Coinbase credit facility, and bitcoin weakness could mean more sales",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/04/28/riot-extends-usd200-million-coinbase-credit-facility-and-bitcoin-weakness-could-mean-more-sales",
-      "published": "Tue, 28 Apr 2026 16:30:52 +0000",
-      "summary": "The miner locked in fixed borrowing costs and extended maturity, but a shrinking BTC treasury and loan-to-value triggers leave little room for error if prices slide.",
+      "id": "ct-5015",
+      "title": "Price predictions 4/29: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, XMR ",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/price-predictions-429-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 19:39:32 +0000",
       "coins": [
+        "BNB",
+        "ETH",
         "BTC"
       ],
-      "provider": "coindesk"
+      "provider": "cointelegraph"
     },
     {
-      "id": "cd-37932",
-      "title": "Microsoft says legacy banks are hitting a breaking point as AI takes over the heavy lifting",
+      "id": "cd-61885",
+      "title": "Fed chair Jerome Powell says he will stay on as Govenor after term amid legal pressure",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/04/28/microsoft-says-legacy-banks-are-hitting-a-breaking-point-as-ai-takes-over-the-heavy-lifting",
-      "published": "Tue, 28 Apr 2026 16:10:59 +0000",
-      "summary": "Microsoft and Chainalysis executives warned that as AI agents begin managing transactions at scale, the financial industry must overhaul its legacy infrastructure to prioritize machine identity and tr",
+      "url": "https://www.coindesk.com/markets/2026/04/29/fed-chair-jerome-powell-says-he-will-stay-on-as-govenor-after-term-amid-legal-pressure",
+      "published": "Wed, 29 Apr 2026 19:17:51 +0000",
+      "summary": "During a press conference following the Fed's interest rate decision, Powell said ongoing scrutiny and political tension forced him to stay, despite his plans to step down.",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-74132",
-      "title": "Bitcoin price hits one-week low as $100 oil sparks fresh Asia crisis fears",
+      "id": "cd-83314",
+      "title": "Tech giant Meta starts paying some creators in stablecoin with Stripe's support",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/04/29/tech-giant-meta-starts-paying-some-creators-in-stablecoin-with-stripe-s-support",
+      "published": "Wed, 29 Apr 2026 19:09:23 +0000",
+      "summary": "The tech giant is first offering the feature to select creators in Colombia and the Philippines.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-48009",
+      "title": "Kustodia launches smart contract escrow for LATAM's $600m fraud crisis",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-hits-one-week-low-as-100-oil-sparks-fresh-asia-crisis-fears?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 16:07:44 +0000",
+      "url": "https://cointelegraph.com/press-releases/kustodia-launches-smart-contract-escrow-for-latams-600m-fraud-crisis?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 19:00:00 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-81877",
+      "title": "Kustodia launches smart contract escrow for LATAM's $600m fraud crisis",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/press-releases/kustodia-launches-smart-contract-escrow-for-latams-600m-fraud-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 19:00:00 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-79460",
+      "title": "Bitcoin falls as traders cut risk ahead of FOMC: Will TradFi, spot ETF volumes bolster $70K support?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-stalls-under-76k-as-traders-risk-off-ahead-of-fomc?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 18:38:30 +0000",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-62618",
-      "title": "Bitcoin price hits one-week low as $100 oil sparks fresh Asia crisis fears",
+      "id": "ct-42103",
+      "title": "Bitcoin falls as traders cut risk ahead of FOMC: Will TradFi, spot ETF volumes bolster $70K support?",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-hits-one-week-low-as-100-oil-sparks-fresh-asia-crisis-fears?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 16:07:44 +0000",
+      "url": "https://cointelegraph.com/markets/bitcoin-stalls-under-76k-as-traders-risk-off-ahead-of-fomc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 18:38:30 +0000",
       "coins": [
         "BTC"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-47343",
-      "title": "BitMart x EAT Trade-to-Feed competition to pay out $4.4m USDT to traders in May 2026",
+      "id": "ct-rss-71442",
+      "title": "KuCoin EU hires new AML chief after Austria ban on new business under MiCA",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/press-releases/bitmart-x-eat-trade-to-feed-competition-to-pay-out-44m-usdt-to-traders-in-may-2026?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 15:45:04 +0000",
+      "url": "https://cointelegraph.com/news/kucoin-eu-hires-new-aml-chief-after-austria-ban-on-new-business-under-mica?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 18:32:59 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-61388",
-      "title": "BitMart x EAT Trade-to-Feed competition to pay out $4.4m USDT to traders in May 2026",
+      "id": "ct-58398",
+      "title": "KuCoin EU hires new AML chief after Austria ban on new business under MiCA",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/press-releases/bitmart-x-eat-trade-to-feed-competition-to-pay-out-44m-usdt-to-traders-in-may-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 15:45:04 +0000",
+      "url": "https://cointelegraph.com/news/kucoin-eu-hires-new-aml-chief-after-austria-ban-on-new-business-under-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 18:32:59 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-4216",
-      "title": "A crypto coalition releases technical proposal to save Aave users from a massive token exploit",
+      "id": "cd-64823",
+      "title": "JPMorgan hires former Goldman Sachs exec for Kinexys. Here is why he believes tokenization is only half the battle",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/04/28/a-crypto-coalition-releases-technical-proposal-to-save-aave-users-from-a-massive-token-exploit",
-      "published": "Tue, 28 Apr 2026 15:43:15 +0000",
-      "summary": "DeFi United, a coalition of multiple blockchain projects and crypto ecosystem individuals, has laid out a detailed plan to restore the backing of rsETH after this month’s Kelp DAO hack sent shockwaves",
-      "coins": [
-        "ETH"
-      ],
+      "url": "https://www.coindesk.com/business/2026/04/29/jpmorgan-s-new-blockchain-chief-warns-that-tokenization-does-not-equal-liquidity",
+      "published": "Wed, 29 Apr 2026 18:29:12 +0000",
+      "summary": "JPMorgan’s new crypto head Oliver Harris has previously warned that tokenizing assets isn't a magic fix for liquidity, but believes the technology is finally ready to \"rip out\" and replace the financi",
+      "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "ct-rss-14711",
-      "title": "Bitcoin price drops below $76K as onchain data sends mixed signals",
+      "id": "cd-32616",
+      "title": "The ‘tokenization of everything’ is no longer a theory",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/04/29/the-tokenization-of-everything-is-no-longer-a-theory",
+      "published": "Wed, 29 Apr 2026 18:15:00 +0000",
+      "summary": "Wall Street is moving in. Washington has changed sides. And Consensus 2026 is where crypto’s biggest inflection point gets decided.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-6851",
+      "title": "U.S. senator holding cards on Clarity Act's next move says it's ready to get to hearing",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/04/29/u-s-senator-holding-cards-on-clarity-act-s-next-move-says-it-s-ready-to-get-to-hearing",
+      "published": "Wed, 29 Apr 2026 18:00:54 +0000",
+      "summary": "Senator Thom Tillis was at the center of the legislative negotiations over stablecoin yield that have delayed the market structure bill, but he said it's time to go.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-5483",
+      "title": "Realmint launches to give retail investors a smarter way into RWAs",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-to-76k-as-onchain-data-sends-mixed-signals?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 15:37:33 +0000",
-      "coins": [
-        "BIT"
-      ],
+      "url": "https://cointelegraph.com/press-releases/realmint-launches-to-give-retail-investors-a-smarter-way-into-rwas?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 18:00:00 +0000",
+      "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-56137",
-      "title": "Bitcoin price drops below $76K as onchain data sends mixed signals",
+      "id": "ct-42708",
+      "title": "Realmint launches to give retail investors a smarter way into RWAs",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-to-76k-as-onchain-data-sends-mixed-signals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 28 Apr 2026 15:37:33 +0000",
-      "coins": [
-        "BTC"
-      ],
+      "url": "https://cointelegraph.com/press-releases/realmint-launches-to-give-retail-investors-a-smarter-way-into-rwas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 29 Apr 2026 18:00:00 +0000",
+      "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-39403",
-      "title": "Disruptive Theme of the Week: Bitcoin Miner Optionality - ETF Trends",
-      "source": "ETF Trends",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMlJId1piUm1mellBbFRlaEhES0ZtYTd5WklCckl3M3Q5SFFqVWhZcENkQy1fekZRak5VT25BdENKWnZmTVAtU18zRjFfd05rS3JlRkVqMGZ6c3BIZWtmb3g3Y1ZlQmJZd3htSFNZOXJzclFxdG5VUmwzbGt1c3hhY2JvalRmQWhwY0NTOUlfbHh6REd0aWlsNkZKX1poc0tLS2FGWGtuN0JHRWNVek83ak5tVEVLUdIBuwFBVV95cUxPaFBNeFdRTHNlNXktei1zYl9TTzFLRnA4UTdFcmZhVVFuOXFTdWIxYXg5ZXJ5VXRxQ0NzODZKWkZMUUw4SjJiQ3RGTmt2bzB6NzN0M3dNelpWTFAxZlZ6dEJFYUIyTnAzeEVaN3RFZjMySkltVGFIR1cyZlVjc0pQUGJzdE9VTVlwcW9xVXNaWlBBb2thalRCbkFubkx5TkE1TFBJQ0lNczZ6cEgzeW5WY3BNN2dOUDdTMDVZ?oc=5",
-      "published": "Tue, 28 Apr 2026 15:35:08 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-13744",
-      "title": "Every blockchain transaction is a gift to your competition",
+      "id": "cd-88642",
+      "title": "Fed leaves rates unchanged at Jerome Powell's final meeting as chairman",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/opinion/2026/04/28/every-blockchain-transaction-is-a-gift-to-your-competition",
-      "published": "Tue, 28 Apr 2026 15:30:00 +0000",
-      "summary": "As AI Agents reshape commerce, and make every business an open book, companies will need to figure out what data actually needs to be kept secret – and protect it ferociously – in order to thrive.",
+      "url": "https://www.coindesk.com/markets/2026/04/29/fed-leaves-rates-unchanged-at-jerome-powell-s-final-meeting-as-chairman",
+      "published": "Wed, 29 Apr 2026 17:58:52 +0000",
+      "summary": "The U.S. Federal Reserve's next meeting in June is likely to be led by Kevin Warsh after he cleared a Senate Banking Committee vote on Wednesday.",
       "coins": [],
       "provider": "coindesk"
-    },
-    {
-      "id": "gn-65806",
-      "title": "'Crypto Godfather' says bitcoin has not reached its bottom and a new all-time high is off the table for 2026 - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTHQ3dkxWV3pLUDlHdXF2OEdfbkM4dzlYNWhDc0JoQVRaUFQ0MHF5V1BlT2RwVGFac3JSSEZwVXJpRUh4QzBXZm1sME15QWJydDdoaE9PY2xRTFRES2loVUk0REQxYjhQVjFBc3lkY1BONDJCMlFGbm9QNHUwQW9KUTV4OUppc21sNEROV1BYX0JFb0V3eVRmbTFScU9nS2VzeTB1VlRyOUtJcTlJeGtUb01XUWVaUkgzYWdScXowVHpKZVF2NldhOHVOVXpQc21hZnoxWXM0X0dLOE9ZQXdoeUZZMGw?oc=5",
-      "published": "Tue, 28 Apr 2026 15:20:16 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
     }
   ]
 }

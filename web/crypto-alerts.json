@@ -1,105 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2308.98,
-    "change_pct": -2.22,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] Bitmine 購買了 101,627 ETH，這是自 2025 年 12 月以來最大的一筆購買\n- [CoinTelegraph] Bitmine 購買了 101,627 ETH，這是自 2025 年 12 月以來最大的一筆購買\n- [CoinDesk] Tether 支持阿聯酋代幣化公司 KAIO 進行 800 萬美元融資，將阿聯酋資金引入鏈上",
-    "timestamp": "2026-04-20T23:35:11.032092+08:00",
-    "epoch": 1776699308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2318.62,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [CoinTelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [Yahoo Finance] Coinbase 現在允許英國用戶以比特幣和以太坊為抵押借款 - 雅虎財經",
-    "timestamp": "2026-04-21T01:20:07.945288+08:00",
-    "epoch": 1776705605
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.99,
-    "change_pct": 2.0,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Geopolitical] 海灣國家希望如何解決伊朗戰爭？ - 美國有線電視新聞網\n- [Geopolitical] 伊朗戰爭推高汽油成本 加拿大年度CPI上升至2.4% - 路透社中文網",
-    "timestamp": "2026-04-21T01:20:09.185477+08:00",
-    "epoch": 1776705605
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2320.57,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [CoinTelegraph] 以太坊鯨魚開啟了 9000 萬美元的多頭押注，以太坊價格圖表達到 3200 美元\n- [Yahoo Finance] Coinbase 現在允許英國用戶以比特幣和以太坊為抵押借款 - 雅虎財經",
-    "timestamp": "2026-04-21T01:50:10.243393+08:00",
-    "epoch": 1776707408
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.02,
-    "change_pct": 2.0,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Geopolitical] 海灣國家希望如何解決伊朗戰爭？ - 美國有線電視新聞網\n- [Geopolitical] 伊朗戰爭推高汽油成本 加拿大年度CPI上升至2.4% - 路透社中文網",
-    "timestamp": "2026-04-21T01:50:10.990586+08:00",
-    "epoch": 1776707408
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.58,
-    "change_pct": 2.01,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-21T22:45:06.711847+08:00",
-    "epoch": 1776782704
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2327.0,
-    "change_pct": 2.01,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 傑富瑞警告稱，加密貨幣的大規模利用可能會迫使大銀行重新考慮其區塊鏈計劃",
-    "timestamp": "2026-04-22T03:25:06.692721+08:00",
-    "epoch": 1776799504
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2354.41,
-    "change_pct": 2.16,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 傑富瑞警告稱，加密貨幣的大規模利用可能會迫使大銀行重新考慮其區塊鏈計劃",
-    "timestamp": "2026-04-22T10:35:09.629226+08:00",
-    "epoch": 1776825307
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 77617.9,
-    "change_pct": 2.02,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Yahoo Finance] 比特幣可能漲至 95,000 美元，也可能暴跌至 70,000 美元：技術分析是這樣說的 - 雅虎財經\n- [CoinDesk] 尋找中本聰的過程：電影製作人追尋加密貨幣最大的謎團\n- [CoinDesk] 比特幣價格新聞：Warsh 聽證會期間 BTC 跌至 75,000 美元，伊朗談論不確定性 - CoinDesk",
-    "timestamp": "2026-04-22T11:00:10.898687+08:00",
-    "epoch": 1776826808
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2377.31,
-    "change_pct": 2.77,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 傑富瑞警告稱，加密貨幣的大規模利用可能會迫使大銀行重新考慮其區塊鏈計劃",
-    "timestamp": "2026-04-22T11:05:10.643507+08:00",
-    "epoch": 1776827108
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 87.56,
@@ -498,5 +398,105 @@
     "news": "暫無明確消息面，可能為技術性波動",
     "timestamp": "2026-04-28T00:25:12.483675+08:00",
     "epoch": 1777307109
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2334.45,
+    "change_pct": 2.2,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 嘉楠耘智與 Tether 深化浸入式冷卻採礦系統合作\n- [CoinTelegraph] 嘉楠耘智與 Tether 深化浸入式冷卻採礦系統合作",
+    "timestamp": "2026-04-29T12:40:11.459850+08:00",
+    "epoch": 1777437609
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2273.01,
+    "change_pct": -2.13,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Fortune] 2026 年 4 月 29 日以太坊當前價格 - 財富\n- [Geopolitical] 赫格斯在眾議院就正在進行的伊朗戰爭中五角大樓的預算問題作證 - NBC新聞\n- [CNBC] 赫格斯和凱恩就伊朗戰爭期間五角大廈的預算作證",
+    "timestamp": "2026-04-29T23:50:08.435167+08:00",
+    "epoch": 1777477804
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2233.56,
+    "change_pct": 2.56,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 英國 Farage 因 Tether 億萬富翁 Christopher Harbourne 贈送的 670 萬美元禮物面臨標準調查\n- [CoinDesk] 協議：神話迫使加密產業重新思考安全實踐\n- [Fortune] 2026 年 4 月 29 日以太坊當前價格 - 財富",
+    "timestamp": "2026-04-30T02:10:10.535816+08:00",
+    "epoch": 1777486208
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.75,
+    "change_pct": -2.5,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Geopolitical] 克里姆林宮表示，普丁在與川普的電話中提出了解決伊朗戰爭的想法 - 以色列時報",
+    "timestamp": "2026-04-30T02:10:11.690843+08:00",
+    "epoch": 1777486208
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2230.12,
+    "change_pct": 2.98,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt\n- [CoinDesk] 英國 Farage 因 Tether 億萬富翁 Christopher Harbourne 贈送的 670 萬美元禮物面臨標準調查\n- [CoinDesk] 協議：神話迫使加密產業重新思考安全實踐",
+    "timestamp": "2026-04-30T02:40:11.370998+08:00",
+    "epoch": 1777488008
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 81.91,
+    "change_pct": -2.65,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Geopolitical] 克里姆林宮表示，普丁在與川普的電話中提出了解決伊朗戰爭的想法 - 以色列時報",
+    "timestamp": "2026-04-30T02:40:12.156508+08:00",
+    "epoch": 1777488008
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2239.61,
+    "change_pct": -2.61,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt\n- [CoinDesk] 英國 Farage 因 Tether 億萬富翁 Christopher Harbourne 贈送的 670 萬美元禮物面臨標準調查\n- [CoinDesk] 協議：神話迫使加密產業重新思考安全實踐",
+    "timestamp": "2026-04-30T03:15:06.864182+08:00",
+    "epoch": 1777490104
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2228.23,
+    "change_pct": -2.67,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt\n- [CoinDesk] 英國 Farage 因 Tether 億萬富翁 Christopher Harbourne 贈送的 670 萬美元禮物面臨標準調查\n- [CoinDesk] 協議：神話迫使加密產業重新思考安全實踐",
+    "timestamp": "2026-04-30T03:45:10.390293+08:00",
+    "epoch": 1777491908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2236.76,
+    "change_pct": -2.47,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt\n- [CoinDesk] 英國 Farage 因 Tether 億萬富翁 Christopher Harbourne 贈送的 670 萬美元禮物面臨標準調查\n- [Geopolitical] 川普與普丁通話，稱他不確定烏克蘭戰爭還是伊朗戰爭會先結束 - 哥倫比亞廣播公司新聞",
+    "timestamp": "2026-04-30T04:20:07.722494+08:00",
+    "epoch": 1777494005
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2245.18,
+    "change_pct": -2.47,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 4/29：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、XMR\n- [CoinTelegraph] 價格預測 4/29：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、XMR\n- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt",
+    "timestamp": "2026-04-30T04:55:11.130594+08:00",
+    "epoch": 1777496108
   }
 ]

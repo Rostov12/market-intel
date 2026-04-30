@@ -8,8 +8,8 @@
       "confidence": 0.72,
       "created_at": "2026-03-29T08:05:05.605250+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.494965+08:00",
-      "related_news_count": 1,
+      "last_checked": "2026-04-30T08:05:09.584814+08:00",
+      "related_news_count": 0,
       "deepear_matches": 0
     },
     {
@@ -20,7 +20,7 @@
       "confidence": 0.75,
       "created_at": "2026-03-29T08:05:05.605279+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.494989+08:00",
+      "last_checked": "2026-04-30T08:05:09.584840+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -32,8 +32,8 @@
       "confidence": 0.6,
       "created_at": "2026-03-29T08:05:05.605299+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495013+08:00",
-      "related_news_count": 1,
+      "last_checked": "2026-04-30T08:05:09.584863+08:00",
+      "related_news_count": 0,
       "deepear_matches": 0
     },
     {
@@ -44,7 +44,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-29T08:05:05.605319+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495035+08:00",
+      "last_checked": "2026-04-30T08:05:09.584885+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -56,8 +56,8 @@
       "confidence": 0.68,
       "created_at": "2026-03-29T08:05:05.605337+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495055+08:00",
-      "related_news_count": 0,
+      "last_checked": "2026-04-30T08:05:09.584912+08:00",
+      "related_news_count": 1,
       "deepear_matches": 0
     },
     {
@@ -68,7 +68,7 @@
       "confidence": 0.62,
       "created_at": "2026-03-29T08:05:05.605355+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495075+08:00",
+      "last_checked": "2026-04-30T08:05:09.584935+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -77,11 +77,20 @@
       "name": "Amazon",
       "direction": "long",
       "thesis": "AWS 仍是雲端龍頭，AI 工作負載快速增長。物流效率持續改善推升零售利潤率。2026 capex 預估 +70%（最激進）。風險：消費放緩影響零售業務、資本支出壓縮短期現金流。",
-      "confidence": 0.65,
+      "confidence": 0.75,
       "created_at": "2026-03-29T08:05:05.605374+08:00",
-      "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495094+08:00",
-      "related_news_count": 0,
+      "evolution_history": [
+        {
+          "date": "2026-04-30",
+          "evolution": "strengthened",
+          "reason": "正面消息(3) >> 負面(0)",
+          "news_count": 3,
+          "deepear_count": 0,
+          "confidence_change": "0.65 → 0.75"
+        }
+      ],
+      "last_checked": "2026-04-30T08:05:09.584974+08:00",
+      "related_news_count": 3,
       "deepear_matches": 0
     },
     {
@@ -92,7 +101,7 @@
       "confidence": 0.65,
       "created_at": "2026-03-29T08:05:05.605393+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495112+08:00",
+      "last_checked": "2026-04-30T08:05:09.584997+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -104,7 +113,7 @@
       "confidence": 0.45,
       "created_at": "2026-03-29T08:05:05.605418+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495132+08:00",
+      "last_checked": "2026-04-30T08:05:09.585019+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -116,7 +125,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-29T08:05:05.605437+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495151+08:00",
+      "last_checked": "2026-04-30T08:05:09.585041+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -128,7 +137,7 @@
       "confidence": 0.7,
       "created_at": "2026-03-30T16:22:07.128424+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495167+08:00",
+      "last_checked": "2026-04-30T08:05:09.585060+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -140,7 +149,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.497905+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495185+08:00",
+      "last_checked": "2026-04-30T08:05:09.585079+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -152,7 +161,7 @@
       "confidence": 0.58,
       "created_at": "2026-03-28T11:24:04.497973+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495203+08:00",
+      "last_checked": "2026-04-30T08:05:09.585099+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -164,7 +173,7 @@
       "confidence": 0.7,
       "created_at": "2026-03-28T11:24:04.497993+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495220+08:00",
+      "last_checked": "2026-04-30T08:05:09.585118+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -176,7 +185,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.498011+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495238+08:00",
+      "last_checked": "2026-04-30T08:05:09.585137+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -188,7 +197,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498028+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495255+08:00",
+      "last_checked": "2026-04-30T08:05:09.585156+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -200,7 +209,7 @@
       "confidence": 0.45,
       "created_at": "2026-03-30T16:22:07.128499+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495272+08:00",
+      "last_checked": "2026-04-30T08:05:09.585174+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -212,7 +221,7 @@
       "confidence": 0.65,
       "created_at": "2026-03-28T11:24:04.498046+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495290+08:00",
+      "last_checked": "2026-04-30T08:05:09.585194+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -224,7 +233,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-30T16:22:07.128540+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495307+08:00",
+      "last_checked": "2026-04-30T08:05:09.585212+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -236,7 +245,7 @@
       "confidence": 0.58,
       "created_at": "2026-03-28T11:24:04.498104+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495325+08:00",
+      "last_checked": "2026-04-30T08:05:09.585231+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -248,7 +257,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-30T16:22:07.128570+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495348+08:00",
+      "last_checked": "2026-04-30T08:05:09.585250+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -260,7 +269,7 @@
       "confidence": 0.68,
       "created_at": "2026-03-28T11:24:04.498121+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495374+08:00",
+      "last_checked": "2026-04-30T08:05:09.585269+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -272,7 +281,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-28T11:24:04.498138+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495400+08:00",
+      "last_checked": "2026-04-30T08:05:09.585288+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -284,7 +293,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.498156+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495427+08:00",
+      "last_checked": "2026-04-30T08:05:09.585306+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -296,7 +305,7 @@
       "confidence": 0.58,
       "created_at": "2026-03-28T11:24:04.498172+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495452+08:00",
+      "last_checked": "2026-04-30T08:05:09.585324+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -308,7 +317,7 @@
       "confidence": 0.48,
       "created_at": "2026-03-28T11:24:04.498189+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495478+08:00",
+      "last_checked": "2026-04-30T08:05:09.585343+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -320,7 +329,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.498063+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495507+08:00",
+      "last_checked": "2026-04-30T08:05:09.585364+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -332,8 +341,8 @@
       "confidence": 0.55,
       "created_at": "2026-03-28T11:24:04.498086+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495535+08:00",
-      "related_news_count": 0,
+      "last_checked": "2026-04-30T08:05:09.585392+08:00",
+      "related_news_count": 5,
       "deepear_matches": 0
     },
     {
@@ -344,11 +353,11 @@
       "confidence": 0.45,
       "created_at": "2026-03-30T16:22:07.128675+08:00",
       "evolution_history": [],
-      "last_checked": "2026-04-29T08:05:09.495567+08:00",
+      "last_checked": "2026-04-30T08:05:09.585414+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     }
   ],
-  "last_updated": "2026-04-29T08:05:09.495568+08:00",
+  "last_updated": "2026-04-30T08:05:09.585415+08:00",
   "version": 1
 }

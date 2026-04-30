@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-29",
-  "generated_at": "2026-04-29 04:45",
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30 04:45",
   "composite": {
-    "score": -0.5,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": -1.0,
+    "label": "散戶偏空",
+    "contrarian_signal": "🟡注意反彈"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-04-28",
       "2026-04-29",
-      "2026-04-30"
+      "2026-04-30",
+      "2026-05-01"
     ],
-    "total_calls_vol": 3760855,
-    "total_puts_vol": 3958319,
-    "pcr": 1.053,
+    "total_calls_vol": 2508661,
+    "total_puts_vol": 3157193,
+    "pcr": 1.259,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -24,45 +24,36 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 2,
-    "bear_words": 2,
-    "bull_pct": 50,
-    "label": "中性",
-    "top_tickers": [
-      {
-        "symbol": "CAR",
-        "count": 1
-      },
-      {
-        "symbol": "POET",
-        "count": 1
-      }
-    ],
+    "bull_words": 0,
+    "bear_words": 0,
+    "bull_pct": null,
+    "label": "無數據",
+    "top_tickers": [],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 4/27 - 5/1",
-        "score": 218,
+        "score": 256,
         "upvote_ratio": 0.97
       },
       {
-        "title": "What Are Your Moves Tomorrow, April 29, 2026",
-        "score": 72,
-        "upvote_ratio": 0.95
+        "title": "What Are Your Moves Tomorrow, April 30, 2026",
+        "score": 71,
+        "upvote_ratio": 0.97
       },
       {
-        "title": "United Arab Emirates leaving OPEC, effective May 1",
-        "score": 5272,
+        "title": "JPOW NOT LEAVING - STAYING ON AS GOVERNOR",
+        "score": 7588,
         "upvote_ratio": 0.98
       },
       {
-        "title": "My first (real) 1000x",
-        "score": 5031,
-        "upvote_ratio": 0.96
+        "title": "Jerome Powell says he will continue to serve as a Fed governor even after chairm",
+        "score": 4378,
+        "upvote_ratio": 0.99
       },
       {
-        "title": "BP profits more than double, beating expectations as Iran war boosts oil prices",
-        "score": 533,
-        "upvote_ratio": 0.99
+        "title": "Stunt on these hoes Nana.",
+        "score": 9132,
+        "upvote_ratio": 0.97
       }
     ]
   }
