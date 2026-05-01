@@ -10,21 +10,8 @@
       "size_usdt": 500,
       "spot_order_id": "3463436125079658496",
       "perp_order_id": "3463436119140524032",
-      "funding_collected": 1.171022,
+      "funding_collected": 1.18672,
       "funding_count": 22
-    },
-    "ARB/USDT:USDT": {
-      "spot_symbol": "ARB/USDT",
-      "contracts": 386.1,
-      "contract_size": 10.0,
-      "amount": 3861.0,
-      "entry_price": 0.1295,
-      "entry_time": "2026-04-28 07:47:15",
-      "size_usdt": 500,
-      "spot_order_id": "3517552622915604480",
-      "perp_order_id": "3517552618620637184",
-      "funding_collected": 0.2902,
-      "funding_count": 6
     }
   },
   "history": [
@@ -306,7 +293,25 @@
       "price_pnl_pct": -2.7088,
       "total_funding": 0.074375,
       "close_reason": "full_close"
+    },
+    {
+      "spot_symbol": "ARB/USDT",
+      "contracts": 386.1,
+      "contract_size": 10.0,
+      "amount": 3861.0,
+      "entry_price": 0.1295,
+      "entry_time": "2026-04-28 07:47:15",
+      "size_usdt": 500,
+      "spot_order_id": "3517552622915604480",
+      "perp_order_id": "3517552618620637184",
+      "funding_collected": 0.32528,
+      "funding_count": 9,
+      "close_time": "2026-05-01 07:47:14",
+      "close_price": 0.1238,
+      "price_pnl_pct": -4.4015,
+      "total_funding": 0.32528,
+      "close_reason": "partial_perp_only"
     }
   ],
-  "total_funding_earned": 152.691634
+  "total_funding_earned": 153.01691399999999
 }

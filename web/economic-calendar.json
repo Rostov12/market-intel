@@ -1,53 +1,19 @@
 {
-  "date": "2026-04-28",
-  "generated_at": "2026-04-28 04:00",
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01 04:00",
   "next_fomc": {
     "date": "2026-05-07",
-    "days_away": 9,
-    "label": "下次 FOMC：05/07（9天後）"
+    "days_away": 6,
+    "label": "下次 FOMC：05/07（6天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-04-29",
-      "event": "GDP Q1 初值",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 1,
-      "label": "🔴 GDP Q1 初值（1天後）",
-      "impact_guide": {
-        "name": "國內生產毛額",
-        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
-        "below": "經濟放緩 → 衰退疑慮 → 偏空",
-        "watch": "初值影響最大，修正值/終值影響遞減"
-      },
-      "previous": "0.5",
-      "previous_date": "2025-10-01"
-    },
-    {
-      "date": "2026-04-30",
-      "event": "PCE（3月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 2,
-      "label": "🔴 PCE（3月）（2天後）",
-      "impact_guide": {
-        "name": "個人消費支出物價指數",
-        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
-        "below": "通膨降溫 → 鴿派 → 偏多",
-        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
-      },
-      "previous": "3.0%",
-      "previous_date": "2026-02-01",
-      "forecast": "0.3%",
-      "forecast_source": "ForexFactory"
-    },
-    {
       "date": "2026-05-01",
       "event": "NFP（4月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 3,
-      "label": "🔴 NFP（4月就業）（3天後）",
+      "days_away": 0,
+      "label": "🔴 NFP（4月就業）（0天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
@@ -62,76 +28,8 @@
       "event": "ISM 製造業 PMI（4月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 3,
-      "label": "🔴 ISM 製造業 PMI（4月）（3天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      },
-      "forecast": "53.1",
-      "forecast_source": "ForexFactory"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-04-29",
-      "event": "GDP Q1 初值",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 1,
-      "label": "🔴 GDP Q1 初值（1天後）",
-      "impact_guide": {
-        "name": "國內生產毛額",
-        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
-        "below": "經濟放緩 → 衰退疑慮 → 偏空",
-        "watch": "初值影響最大，修正值/終值影響遞減"
-      },
-      "previous": "0.5",
-      "previous_date": "2025-10-01"
-    },
-    {
-      "date": "2026-04-30",
-      "event": "PCE（3月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 2,
-      "label": "🔴 PCE（3月）（2天後）",
-      "impact_guide": {
-        "name": "個人消費支出物價指數",
-        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
-        "below": "通膨降溫 → 鴿派 → 偏多",
-        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
-      },
-      "previous": "3.0%",
-      "previous_date": "2026-02-01",
-      "forecast": "0.3%",
-      "forecast_source": "ForexFactory"
-    },
-    {
-      "date": "2026-05-01",
-      "event": "NFP（4月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 3,
-      "label": "🔴 NFP（4月就業）（3天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "+178K",
-      "previous_date": "2026-03-01"
-    },
-    {
-      "date": "2026-05-01",
-      "event": "ISM 製造業 PMI（4月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 3,
-      "label": "🔴 ISM 製造業 PMI（4月）（3天後）",
+      "days_away": 0,
+      "label": "🔴 ISM 製造業 PMI（4月）（0天後）",
       "impact_guide": {
         "name": "ISM 製造業 PMI",
         "above": ">50 擴張，超預期 → 偏多",
@@ -146,14 +44,92 @@
       "event": "FOMC 利率決議",
       "importance": "high",
       "source": "Fed",
-      "days_away": 9,
-      "label": "🔴 FOMC 利率決議（9天後）",
+      "days_away": 6,
+      "label": "🔴 FOMC 利率決議（6天後）",
       "impact_guide": {
         "name": "聯準會利率決議",
         "above": "鷹派（升息/縮表）→ 偏空",
         "below": "鴿派（降息/暫停）→ 偏多",
         "watch": "重點在點陣圖和鮑爾記者會措辭"
       }
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-05-01",
+      "event": "NFP（4月就業）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 0,
+      "label": "🔴 NFP（4月就業）（0天後）",
+      "impact_guide": {
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      },
+      "previous": "+178K",
+      "previous_date": "2026-03-01"
+    },
+    {
+      "date": "2026-05-01",
+      "event": "ISM 製造業 PMI（4月）",
+      "importance": "high",
+      "source": "ISM",
+      "days_away": 0,
+      "label": "🔴 ISM 製造業 PMI（4月）（0天後）",
+      "impact_guide": {
+        "name": "ISM 製造業 PMI",
+        "above": ">50 擴張，超預期 → 偏多",
+        "below": "<50 收縮，低於預期 → 偏空",
+        "watch": "新訂單和就業分項是領先指標"
+      },
+      "forecast": "53.1",
+      "forecast_source": "ForexFactory"
+    },
+    {
+      "date": "2026-05-07",
+      "event": "FOMC 利率決議",
+      "importance": "high",
+      "source": "Fed",
+      "days_away": 6,
+      "label": "🔴 FOMC 利率決議（6天後）",
+      "impact_guide": {
+        "name": "聯準會利率決議",
+        "above": "鷹派（升息/縮表）→ 偏空",
+        "below": "鴿派（降息/暫停）→ 偏多",
+        "watch": "重點在點陣圖和鮑爾記者會措辭"
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "event": "CPI（4月）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 12,
+      "label": "🔴 CPI（4月）（12天後）",
+      "impact_guide": {
+        "name": "消費者物價指數",
+        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "event": "零售銷售（4月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 14,
+      "label": "🟡 零售銷售（4月）（14天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+1.9%",
+      "previous_date": "2026-03-01"
     }
   ]
 }
