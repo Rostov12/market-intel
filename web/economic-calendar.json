@@ -1,27 +1,35 @@
 {
   "date": "2026-05-01",
   "generated_at": "2026-05-01 04:00",
+  "last_corrected": "2026-05-01 22:35 TST (薇拉 R119: FOMC 5/7 係錯誤 → 已修正為 6/16-17；Gemini CLI 驗證確認)",
   "next_fomc": {
-    "date": "2026-05-07",
-    "days_away": 6,
-    "label": "下次 FOMC：05/07（6天後）"
+    "date": "2026-06-17",
+    "days_away": 47,
+    "label": "下次 FOMC：06/16-17（47天後）",
+    "note": "⚠️ 原 economic-calendar 記錄 5/7 為錯誤，由薇拉 R119 修正。Gemini CLI 確認 2026 FOMC 官方日期：1/27-28、3/17-18、4/28-29、6/16-17、7/28-29、9/15-16、10/27-28、12/8-9，無5月會議。",
+    "fomc_2026_full_schedule": [
+      {"dates": "1/27-28", "status": "done"},
+      {"dates": "3/17-18", "status": "done"},
+      {"dates": "4/28-29", "status": "done", "result": "維持3.5-3.75%"},
+      {"dates": "6/16-17", "status": "upcoming", "note": "SEP發布（點陣圖）"},
+      {"dates": "7/28-29", "status": "upcoming"},
+      {"dates": "9/15-16", "status": "upcoming", "note": "SEP發布"},
+      {"dates": "10/27-28", "status": "upcoming"},
+      {"dates": "12/8-9", "status": "upcoming", "note": "SEP發布"}
+    ]
   },
   "next_7_days": [
     {
       "date": "2026-05-01",
-      "event": "NFP（4月就業）",
+      "event": "GDP Q1 2026（初值）",
       "importance": "high",
-      "source": "BLS",
+      "source": "BEA",
       "days_away": 0,
-      "label": "🔴 NFP（4月就業）（0天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "+178K",
-      "previous_date": "2026-03-01"
+      "label": "🔴 GDP Q1 2026（初值）— 已公布",
+      "actual": "+2.0% SAAR",
+      "consensus": "+2.2%",
+      "note": "低於共識偏鴿；PCE 3.5% / Core PCE 3.2%，通膨頑固",
+      "released": true
     },
     {
       "date": "2026-05-01",
@@ -29,47 +37,44 @@
       "importance": "high",
       "source": "ISM",
       "days_away": 0,
-      "label": "🔴 ISM 製造業 PMI（4月）（0天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      },
+      "label": "🔴 ISM 製造業 PMI（4月）— 已公布",
+      "actual": "52.7",
       "forecast": "53.1",
-      "forecast_source": "ForexFactory"
+      "previous": "52.7",
+      "released": true,
+      "note": "略低於預測仍在擴張區（>50），製造業擴張放緩"
     },
     {
-      "date": "2026-05-07",
-      "event": "FOMC 利率決議",
+      "date": "2026-05-08",
+      "event": "NFP（4月就業）",
       "importance": "high",
-      "source": "Fed",
-      "days_away": 6,
-      "label": "🔴 FOMC 利率決議（6天後）",
+      "source": "BLS",
+      "days_away": 7,
+      "label": "🔴 NFP（4月就業）（7天後）",
+      "time_tst": "20:30",
       "impact_guide": {
-        "name": "聯準會利率決議",
-        "above": "鷹派（升息/縮表）→ 偏空",
-        "below": "鴿派（降息/暫停）→ 偏多",
-        "watch": "重點在點陣圖和鮑爾記者會措辭"
-      }
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      },
+      "previous": "+178K",
+      "previous_date": "2026-03-01",
+      "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正"
     }
   ],
   "next_14_days": [
     {
       "date": "2026-05-01",
-      "event": "NFP（4月就業）",
+      "event": "GDP Q1 2026（初值）",
       "importance": "high",
-      "source": "BLS",
+      "source": "BEA",
       "days_away": 0,
-      "label": "🔴 NFP（4月就業）（0天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "+178K",
-      "previous_date": "2026-03-01"
+      "label": "🔴 GDP Q1 2026（初值）— 已公布",
+      "actual": "+2.0% SAAR",
+      "consensus": "+2.2%",
+      "note": "低於共識偏鴿；PCE 3.5% / Core PCE 3.2%，通膨頑固",
+      "released": true
     },
     {
       "date": "2026-05-01",
@@ -77,29 +82,30 @@
       "importance": "high",
       "source": "ISM",
       "days_away": 0,
-      "label": "🔴 ISM 製造業 PMI（4月）（0天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      },
+      "label": "🔴 ISM 製造業 PMI（4月）— 已公布",
+      "actual": "52.7",
       "forecast": "53.1",
-      "forecast_source": "ForexFactory"
+      "previous": "52.7",
+      "released": true,
+      "note": "略低於預測仍在擴張區（>50），製造業擴張放緩"
     },
     {
-      "date": "2026-05-07",
-      "event": "FOMC 利率決議",
+      "date": "2026-05-08",
+      "event": "NFP（4月就業）",
       "importance": "high",
-      "source": "Fed",
-      "days_away": 6,
-      "label": "🔴 FOMC 利率決議（6天後）",
+      "source": "BLS",
+      "days_away": 7,
+      "label": "🔴 NFP（4月就業）（7天後）",
+      "time_tst": "20:30",
       "impact_guide": {
-        "name": "聯準會利率決議",
-        "above": "鷹派（升息/縮表）→ 偏空",
-        "below": "鴿派（降息/暫停）→ 偏多",
-        "watch": "重點在點陣圖和鮑爾記者會措辭"
-      }
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      },
+      "previous": "+178K",
+      "previous_date": "2026-03-01",
+      "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正"
     },
     {
       "date": "2026-05-13",

@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-01",
-  "updated_at": "2026-05-01 04:42",
+  "date": "2026-05-02",
+  "updated_at": "2026-05-02 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 5,
+  "watchlist_matches": 2,
   "status": "ok",
   "trades": [
     {
@@ -10,45 +10,18 @@
       "company": "GOLDMAN SACHS",
       "type": "未知",
       "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526197585/0001193125-26-197585-index.htm",
-      "date": "2026-04-30T16:40:37-04:00",
-      "summary": "Filed: 2026-04-30 AccNo: 0001193125-26-197585 Size: 812 KB"
-    },
-    {
-      "ticker": "BAC",
-      "company": "BANK OF AMERICA",
-      "type": "未知",
-      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426011632/0001918704-26-011632-index.htm",
-      "date": "2026-04-30T16:40:19-04:00",
-      "summary": "Filed: 2026-04-30 AccNo: 0001918704-26-011632 Size: 1 MB"
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526201604/0001193125-26-201604-index.htm",
+      "date": "2026-05-01T16:40:39-04:00",
+      "summary": "Filed: 2026-05-01 AccNo: 0001193125-26-201604 Size: 428 KB"
     },
     {
       "ticker": "GS",
       "company": "GOLDMAN SACHS",
       "type": "未知",
       "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526197582/0001193125-26-197582-index.htm",
-      "date": "2026-04-30T16:39:32-04:00",
-      "summary": "Filed: 2026-04-30 AccNo: 0001193125-26-197582 Size: 519 KB"
-    },
-    {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
-      "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526197580/0001193125-26-197580-index.htm",
-      "date": "2026-04-30T16:39:28-04:00",
-      "summary": "Filed: 2026-04-30 AccNo: 0001193125-26-197580 Size: 418 KB"
-    },
-    {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
-      "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526197578/0001193125-26-197578-index.htm",
-      "date": "2026-04-30T16:38:51-04:00",
-      "summary": "Filed: 2026-04-30 AccNo: 0001193125-26-197578 Size: 730 KB"
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526201598/0001193125-26-201598-index.htm",
+      "date": "2026-05-01T16:39:42-04:00",
+      "summary": "Filed: 2026-05-01 AccNo: 0001193125-26-201598 Size: 416 KB"
     }
   ]
 }

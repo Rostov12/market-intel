@@ -1,15 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 87.56,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-04-22T11:15:10.666733+08:00",
-    "epoch": 1776827708
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 77512.5,
@@ -498,5 +488,15 @@
     "news": "- [Cointelegraph] 價格預測 4/29：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、XMR\n- [CoinTelegraph] 價格預測 4/29：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、XMR\n- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt",
     "timestamp": "2026-04-30T04:55:11.130594+08:00",
     "epoch": 1777496108
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 78806.1,
+    "change_pct": 2.1,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Investing News Network] 加密貨幣市場更新：白宮調侃比特幣庫存更新 - 投資新聞網絡\n- [Investopedia] 什麼是比特幣？如何購買、開採和使用它 - Investopedia\n- [Cointelegraph] 比特幣在 7.7 萬美元附近反覆獲利回吐表明漲勢正在失去動力",
+    "timestamp": "2026-05-01T21:55:10.088859+08:00",
+    "epoch": 1777643707
   }
 ]
