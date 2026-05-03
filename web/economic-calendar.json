@@ -1,141 +1,518 @@
 {
-  "date": "2026-05-01",
-  "generated_at": "2026-05-01 04:00",
-  "last_corrected": "2026-05-01 22:35 TST (薇拉 R119: FOMC 5/7 係錯誤 → 已修正為 6/16-17；Gemini CLI 驗證確認)",
-  "next_fomc": {
-    "date": "2026-06-17",
-    "days_away": 47,
-    "label": "下次 FOMC：06/16-17（47天後）",
-    "note": "⚠️ 原 economic-calendar 記錄 5/7 為錯誤，由薇拉 R119 修正。Gemini CLI 確認 2026 FOMC 官方日期：1/27-28、3/17-18、4/28-29、6/16-17、7/28-29、9/15-16、10/27-28、12/8-9，無5月會議。",
-    "fomc_2026_full_schedule": [
-      {"dates": "1/27-28", "status": "done"},
-      {"dates": "3/17-18", "status": "done"},
-      {"dates": "4/28-29", "status": "done", "result": "維持3.5-3.75%"},
-      {"dates": "6/16-17", "status": "upcoming", "note": "SEP發布（點陣圖）"},
-      {"dates": "7/28-29", "status": "upcoming"},
-      {"dates": "9/15-16", "status": "upcoming", "note": "SEP發布"},
-      {"dates": "10/27-28", "status": "upcoming"},
-      {"dates": "12/8-9", "status": "upcoming", "note": "SEP發布"}
-    ]
-  },
-  "next_7_days": [
+  "schema_version": "2.0",
+  "last_updated": "2026-05-03T00:15:00+08:00",
+  "generated_by": "economic_calendar_schema_v2_migrator.py",
+  "events_history": [
     {
-      "date": "2026-05-01",
-      "event": "GDP Q1 2026（初值）",
+      "event_id": "econ-cal-2026-02-11-cpi-jan",
+      "event_type": "CPI",
+      "event_subtype": "Jan 2026 CPI YoY",
+      "date": "2026-02-11",
+      "time_tst": "20:30",
+      "released_at": "2026-02-11T20:30:00+08:00",
+      "actual": "2.4% YoY / 0.2% MoM",
+      "consensus": "2.4%",
+      "prior": null,
       "importance": "high",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🔴 GDP Q1 2026（初值）— 已公布",
-      "actual": "+2.0% SAAR",
-      "consensus": "+2.2%",
-      "note": "低於共識偏鴿；PCE 3.5% / Core PCE 3.2%，通膨頑固",
+      "source": "BLS",
+      "source_url": "https://tradingeconomics.com/united-states/inflation-cpi",
+      "impact_guide": "Inline, dovish for Fed",
+      "note": "",
+      "tags": [
+        "inflation"
+      ],
       "released": true
     },
     {
-      "date": "2026-05-01",
-      "event": "ISM 製造業 PMI（4月）",
-      "importance": "high",
+      "event_id": "econ-cal-2026-03-02-ism-mfg-feb",
+      "event_type": "ISM",
+      "event_subtype": "Feb 2026 Manufacturing PMI",
+      "date": "2026-03-02",
+      "time_tst": "22:00",
+      "released_at": "2026-03-02T22:00:00+08:00",
+      "actual": "52.4",
+      "consensus": "51.8",
+      "prior": "52.6",
+      "importance": "medium",
       "source": "ISM",
-      "days_away": 0,
-      "label": "🔴 ISM 製造業 PMI（4月）— 已公布",
-      "actual": "52.7",
-      "forecast": "53.1",
-      "previous": "52.7",
-      "released": true,
-      "note": "略低於預測仍在擴張區（>50），製造業擴張放緩"
+      "source_url": "https://tradingeconomics.com/united-states/business-confidence",
+      "impact_guide": "Beat consensus, slight decel from Jan",
+      "note": "",
+      "tags": [
+        "manufacturing"
+      ],
+      "released": true
     },
     {
-      "date": "2026-05-08",
-      "event": "NFP（4月就業）",
+      "event_id": "econ-cal-2026-03-06-nfp-feb",
+      "event_type": "NFP",
+      "event_subtype": "Feb 2026 Nonfarm Payrolls",
+      "date": "2026-03-06",
+      "time_tst": "20:30",
+      "released_at": "2026-03-06T20:30:00+08:00",
+      "actual": "-92K",
+      "consensus": "+59K",
+      "prior": "+126K",
       "importance": "high",
       "source": "BLS",
-      "days_away": 7,
-      "label": "🔴 NFP（4月就業）（7天後）",
+      "source_url": "https://tradingeconomics.com/united-states/non-farm-payrolls",
+      "impact_guide": "Negative print shocked market; first negative since 2020 COVID",
+      "note": "Strike-related distortion; revised heavily",
+      "tags": [
+        "jobs",
+        "shock",
+        "negative"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-03-11-cpi-feb",
+      "event_type": "CPI",
+      "event_subtype": "Feb 2026 CPI YoY",
+      "date": "2026-03-11",
       "time_tst": "20:30",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "+178K",
-      "previous_date": "2026-03-01",
-      "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正"
+      "released_at": "2026-03-11T20:30:00+08:00",
+      "actual": "2.4% YoY / 0.3% MoM",
+      "consensus": "2.4%",
+      "prior": "2.4%",
+      "importance": "high",
+      "source": "BLS",
+      "source_url": "https://tradingeconomics.com/united-states/inflation-cpi",
+      "impact_guide": "Inline; sticky around 2.4%",
+      "note": "Last benign print before Mar shock",
+      "tags": [
+        "inflation"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-03-18-fomc",
+      "event_type": "FOMC",
+      "event_subtype": "Mar 2026 meeting + SEP",
+      "date": "2026-03-18",
+      "time_tst": "02:00",
+      "released_at": "2026-03-18T02:00:00+08:00",
+      "actual": "3.50-3.75% (Hold)",
+      "consensus": "3.50-3.75%",
+      "prior": "3.50-3.75%",
+      "importance": "high",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "impact_guide": "Hold + Summary of Economic Projections (dot plot)",
+      "note": "Second consecutive hold meeting",
+      "tags": [
+        "rate-decision",
+        "sep",
+        "dot-plot"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-01-ism-mfg-mar",
+      "event_type": "ISM",
+      "event_subtype": "Mar 2026 Manufacturing PMI",
+      "date": "2026-04-01",
+      "time_tst": "22:00",
+      "released_at": "2026-04-01T22:00:00+08:00",
+      "actual": "52.7",
+      "consensus": "52.5",
+      "prior": "52.4",
+      "importance": "medium",
+      "source": "ISM",
+      "source_url": "https://tradingeconomics.com/united-states/business-confidence",
+      "impact_guide": "Above 50 = expansion; small beat",
+      "note": "Manufacturing resilient pre-Iran-war",
+      "tags": [
+        "manufacturing",
+        "expansion"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-03-nfp-mar",
+      "event_type": "NFP",
+      "event_subtype": "Mar 2026 Nonfarm Payrolls",
+      "date": "2026-04-03",
+      "time_tst": "20:30",
+      "released_at": "2026-04-03T20:30:00+08:00",
+      "actual": "+178K",
+      "consensus": "+60K",
+      "prior": "-133K (revised)",
+      "importance": "high",
+      "source": "BLS",
+      "source_url": "https://tradingeconomics.com/united-states/non-farm-payrolls",
+      "impact_guide": "Beat by 3x; concentrated in healthcare (76K), strike-return effect",
+      "note": "Massive rebound from Feb -92K shock; market doubted sustainability",
+      "tags": [
+        "jobs",
+        "rebound"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-09-pce-feb",
+      "event_type": "PCE",
+      "event_subtype": "Feb 2026 Core PCE YoY",
+      "date": "2026-04-09",
+      "time_tst": "20:30",
+      "released_at": "2026-04-09T20:30:00+08:00",
+      "actual": "3.0% YoY",
+      "consensus": "3.0%",
+      "prior": "3.1%",
+      "importance": "high",
+      "source": "BEA",
+      "source_url": "https://tradingeconomics.com/united-states/core-pce-price-index-annual-change",
+      "impact_guide": "Slight deceleration before Mar shock",
+      "note": "Personal spending MoM +0.5%",
+      "tags": [
+        "inflation",
+        "fed-preferred"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-09-gdp-q4-2025-final",
+      "event_type": "GDP",
+      "event_subtype": "Q4 2025 Final",
+      "date": "2026-04-09",
+      "time_tst": "20:30",
+      "released_at": "2026-04-09T20:30:00+08:00",
+      "actual": "0.5% QoQ SAAR",
+      "consensus": "0.7%",
+      "prior": "4.4% (Q3 2025)",
+      "importance": "high",
+      "source": "BEA",
+      "source_url": "https://tradingeconomics.com/united-states/gdp-growth",
+      "impact_guide": "Sharp deceleration from Q3; lowest in 2 years",
+      "note": "Q4 2025 weakness telegraphed Q1 2026 rebound (2.0%)",
+      "tags": [
+        "growth",
+        "deceleration"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-10-cpi-mar",
+      "event_type": "CPI",
+      "event_subtype": "Mar 2026 CPI YoY",
+      "date": "2026-04-10",
+      "time_tst": "20:30",
+      "released_at": "2026-04-10T20:30:00+08:00",
+      "actual": "3.3% YoY / 0.9% MoM",
+      "consensus": "3.3%",
+      "prior": "2.4%",
+      "importance": "high",
+      "source": "BLS",
+      "source_url": "https://tradingeconomics.com/united-states/inflation-cpi",
+      "impact_guide": "Highest since May 2024; energy +12.5% (gasoline +18.9%, fuel oil +44.2%) due to Iran war",
+      "note": "Iran war disruption shocked headline; core remained sticky",
+      "tags": [
+        "inflation",
+        "iran-war",
+        "energy-shock"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-29-fomc",
+      "event_type": "FOMC",
+      "event_subtype": "Apr 2026 meeting",
+      "date": "2026-04-29",
+      "time_tst": "02:00",
+      "released_at": "2026-04-29T02:00:00+08:00",
+      "actual": "3.50-3.75% (Hold)",
+      "consensus": "3.50-3.75%",
+      "prior": "3.50-3.75%",
+      "importance": "high",
+      "source": "Federal Reserve",
+      "source_url": "https://tradingeconomics.com/united-states/interest-rate",
+      "impact_guide": "8-4 dissent vote, first time since Oct 1992 four officials dissented; hawkish hold, Iran war inflation risk cited.",
+      "note": "Powell farewell-style meeting; dissenters wanted cut citing labor weakness",
+      "tags": [
+        "rate-decision",
+        "hawkish-hold",
+        "dissent"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-04-30-pce-mar",
+      "event_type": "PCE",
+      "event_subtype": "Mar 2026 Core PCE YoY",
+      "date": "2026-04-30",
+      "time_tst": "20:30",
+      "released_at": "2026-04-30T20:30:00+08:00",
+      "actual": "3.2% YoY / 0.3% MoM",
+      "consensus": "3.2%",
+      "prior": "3.0%",
+      "importance": "high",
+      "source": "BEA",
+      "source_url": "https://tradingeconomics.com/united-states/core-pce-price-index-annual-change",
+      "impact_guide": "Fed preferred inflation gauge above 2% target; sticky inflation",
+      "note": "Personal spending MoM +0.9% same release; consumer resilient",
+      "tags": [
+        "inflation",
+        "fed-preferred"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-05-01-gdp-q1-2026",
+      "event_type": "GDP",
+      "event_subtype": null,
+      "date": "2026-05-01",
+      "time_tst": null,
+      "released_at": "2026-05-01T00:00:00+08:00",
+      "actual": "+2.0% SAAR",
+      "consensus": "+2.2%",
+      "prior": null,
+      "importance": "high",
+      "source": "BEA",
+      "source_url": null,
+      "impact_guide": null,
+      "note": "低於共識偏鴿；PCE 3.5% / Core PCE 3.2%，通膨頑固",
+      "tags": [],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-05-01-gdp-q1-2026-2",
+      "event_type": "GDP",
+      "event_subtype": null,
+      "date": "2026-05-01",
+      "time_tst": null,
+      "released_at": "2026-05-01T00:00:00+08:00",
+      "actual": "+2.0% SAAR",
+      "consensus": "+2.2%",
+      "prior": null,
+      "importance": "high",
+      "source": "BEA",
+      "source_url": null,
+      "impact_guide": null,
+      "note": "低於共識偏鴿；PCE 3.5% / Core PCE 3.2%，通膨頑固",
+      "tags": [],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-05-01-ism-pmi-4",
+      "event_type": "ISM",
+      "event_subtype": null,
+      "date": "2026-05-01",
+      "time_tst": null,
+      "released_at": "2026-05-01T00:00:00+08:00",
+      "actual": "52.7",
+      "consensus": "53.1",
+      "prior": "52.7",
+      "importance": "high",
+      "source": "ISM",
+      "source_url": null,
+      "impact_guide": null,
+      "note": "略低於預測仍在擴張區（>50），製造業擴張放緩",
+      "tags": [],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-05-01-ism-pmi-4-2",
+      "event_type": "ISM",
+      "event_subtype": null,
+      "date": "2026-05-01",
+      "time_tst": null,
+      "released_at": "2026-05-01T00:00:00+08:00",
+      "actual": "52.7",
+      "consensus": "53.1",
+      "prior": "52.7",
+      "importance": "high",
+      "source": "ISM",
+      "source_url": null,
+      "impact_guide": null,
+      "note": "略低於預測仍在擴張區（>50），製造業擴張放緩",
+      "tags": [],
+      "released": true
     }
   ],
-  "next_14_days": [
+  "events_upcoming": [
     {
-      "date": "2026-05-01",
-      "event": "GDP Q1 2026（初值）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🔴 GDP Q1 2026（初值）— 已公布",
-      "actual": "+2.0% SAAR",
-      "consensus": "+2.2%",
-      "note": "低於共識偏鴿；PCE 3.5% / Core PCE 3.2%，通膨頑固",
-      "released": true
-    },
-    {
-      "date": "2026-05-01",
-      "event": "ISM 製造業 PMI（4月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 0,
-      "label": "🔴 ISM 製造業 PMI（4月）— 已公布",
-      "actual": "52.7",
-      "forecast": "53.1",
-      "previous": "52.7",
-      "released": true,
-      "note": "略低於預測仍在擴張區（>50），製造業擴張放緩"
-    },
-    {
+      "event_id": "econ-cal-2026-05-08-nfp-4",
+      "event_type": "NFP",
+      "event_subtype": null,
       "date": "2026-05-08",
-      "event": "NFP（4月就業）",
+      "time_tst": "20:30",
+      "released_at": null,
+      "actual": null,
+      "consensus": null,
+      "prior": "+178K",
       "importance": "high",
       "source": "BLS",
-      "days_away": 7,
-      "label": "🔴 NFP（4月就業）（7天後）",
-      "time_tst": "20:30",
+      "source_url": null,
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
         "below": "就業疲弱 → 降息預期 → 偏多",
         "watch": "同步關注失業率與時薪成長"
       },
-      "previous": "+178K",
-      "previous_date": "2026-03-01",
-      "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正"
+      "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正",
+      "tags": [],
+      "released": false
     },
     {
-      "date": "2026-05-13",
-      "event": "CPI（4月）",
+      "event_id": "econ-cal-2026-05-08-nfp-4-2",
+      "event_type": "NFP",
+      "event_subtype": null,
+      "date": "2026-05-08",
+      "time_tst": "20:30",
+      "released_at": null,
+      "actual": null,
+      "consensus": null,
+      "prior": "+178K",
       "importance": "high",
       "source": "BLS",
-      "days_away": 12,
-      "label": "🔴 CPI（4月）（12天後）",
+      "source_url": null,
+      "impact_guide": {
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      },
+      "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正",
+      "tags": [],
+      "released": false
+    },
+    {
+      "event_id": "econ-cal-2026-05-13-cpi-4",
+      "event_type": "CPI",
+      "event_subtype": null,
+      "date": "2026-05-13",
+      "time_tst": null,
+      "released_at": null,
+      "actual": null,
+      "consensus": null,
+      "prior": null,
+      "importance": "high",
+      "source": "BLS",
+      "source_url": null,
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
         "below": "通膨低於預期 → 降息預期升溫 → 偏多",
         "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      }
+      },
+      "note": null,
+      "tags": [],
+      "released": false
     },
     {
+      "event_id": "econ-cal-2026-05-15-4",
+      "event_type": "OTHER",
+      "event_subtype": null,
       "date": "2026-05-15",
-      "event": "零售銷售（4月）",
+      "time_tst": null,
+      "released_at": null,
+      "actual": null,
+      "consensus": null,
+      "prior": "+1.9%",
       "importance": "medium",
       "source": "Census",
-      "days_away": 14,
-      "label": "🟡 零售銷售（4月）（14天後）",
+      "source_url": null,
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
         "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
         "watch": "排除汽車的核心零售更能反映趨勢"
       },
-      "previous": "+1.9%",
-      "previous_date": "2026-03-01"
+      "note": null,
+      "tags": [],
+      "released": false
     }
-  ]
+  ],
+  "next_fomc": {
+    "date": "2026-06-17",
+    "days_away": 47,
+    "label": "下次 FOMC：06/16-17（47天後）",
+    "note": "⚠️ 原 economic-calendar 記錄 5/7 為錯誤，由薇拉 R119 修正。Gemini CLI 確認 2026 FOMC 官方日期：1/27-28、3/17-18、4/28-29、6/16-17、7/28-29、9/15-16、10/27-28、12/8-9，無5月會議。",
+    "fomc_2026_full_schedule": [
+      {
+        "dates": "1/27-28",
+        "status": "done"
+      },
+      {
+        "dates": "3/17-18",
+        "status": "done"
+      },
+      {
+        "dates": "4/28-29",
+        "status": "done",
+        "result": "維持3.5-3.75%"
+      },
+      {
+        "dates": "6/16-17",
+        "status": "upcoming",
+        "note": "SEP發布（點陣圖）"
+      },
+      {
+        "dates": "7/28-29",
+        "status": "upcoming"
+      },
+      {
+        "dates": "9/15-16",
+        "status": "upcoming",
+        "note": "SEP發布"
+      },
+      {
+        "dates": "10/27-28",
+        "status": "upcoming"
+      },
+      {
+        "dates": "12/8-9",
+        "status": "upcoming",
+        "note": "SEP發布"
+      }
+    ]
+  },
+  "next_cpi": {
+    "event_id": "econ-cal-2026-05-13-cpi-4",
+    "event_type": "CPI",
+    "event_subtype": null,
+    "date": "2026-05-13",
+    "time_tst": null,
+    "released_at": null,
+    "actual": null,
+    "consensus": null,
+    "prior": null,
+    "importance": "high",
+    "source": "BLS",
+    "source_url": null,
+    "impact_guide": {
+      "name": "消費者物價指數",
+      "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+      "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+      "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+    },
+    "note": null,
+    "tags": [],
+    "released": false
+  },
+  "next_nfp": {
+    "event_id": "econ-cal-2026-05-08-nfp-4",
+    "event_type": "NFP",
+    "event_subtype": null,
+    "date": "2026-05-08",
+    "time_tst": "20:30",
+    "released_at": null,
+    "actual": null,
+    "consensus": null,
+    "prior": "+178K",
+    "importance": "high",
+    "source": "BLS",
+    "source_url": null,
+    "impact_guide": {
+      "name": "非農就業人數",
+      "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+      "below": "就業疲弱 → 降息預期 → 偏多",
+      "watch": "同步關注失業率與時薪成長"
+    },
+    "note": "原誤標為5/1，5/1實為GDP Q1；由薇拉R117更正",
+    "tags": [],
+    "released": false
+  },
+  "next_pce": null,
+  "next_ppi": null
 }
