@@ -1,8 +1,73 @@
 {
   "schema_version": "2.0",
-  "last_updated": "2026-05-03T00:15:00+08:00",
+  "last_updated": "2026-05-03T08:42:00+08:00",
   "generated_by": "economic_calendar_schema_v2_migrator.py",
   "events_history": [
+    {
+      "event_id": "econ-cal-2025-12-10-fomc",
+      "event_type": "FOMC",
+      "event_subtype": "Dec 2025 meeting + SEP",
+      "date": "2025-12-10",
+      "time_tst": "02:00",
+      "released_at": "2025-12-10T02:00:00+08:00",
+      "actual": "3.50-3.75% (Cut 25bp)",
+      "consensus": "3.75-4.00% (no change expected)",
+      "prior": "3.75-4.00%",
+      "importance": "high",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+      "impact_guide": "Cut 25bp 反映 employment downside risk + 通膨 elevated。9-2 vote: Miran wanted -50bp, Goolsbee+Schmid wanted hold。Dovish-leaning surprise",
+      "note": "First cut after sustained holds; emphasized 'shift in balance of risks' towards employment downside",
+      "tags": [
+        "rate-cut",
+        "dovish-shift",
+        "employment-risk"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-01-09-nfp-dec",
+      "event_type": "NFP",
+      "event_subtype": "Dec 2025 Nonfarm Payrolls",
+      "date": "2026-01-09",
+      "time_tst": "20:30",
+      "released_at": "2026-01-09T20:30:00+08:00",
+      "actual": "+126K (initial), revised to +160K",
+      "consensus": "needs_manual_fetch",
+      "prior": "needs_manual_fetch",
+      "importance": "high",
+      "source": "BLS",
+      "source_url": "https://tradingeconomics.com/united-states/non-farm-payrolls",
+      "impact_guide": "December initial print was sub-200K; later revised up by 34K",
+      "note": "Combined Dec+Jan revisions later showed 69K lower than initial sums (per BLS notes from later release)",
+      "tags": [
+        "jobs",
+        "needs-verification"
+      ],
+      "released": true
+    },
+    {
+      "event_id": "econ-cal-2026-01-28-fomc",
+      "event_type": "FOMC",
+      "event_subtype": "Jan 2026 meeting",
+      "date": "2026-01-28",
+      "time_tst": "02:00",
+      "released_at": "2026-01-28T02:00:00+08:00",
+      "actual": "3.50-3.75% (Hold)",
+      "consensus": "3.50-3.75% (hold expected)",
+      "prior": "3.50-3.75%",
+      "importance": "high",
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+      "impact_guide": "Hold 後第一次會議。10-2 dissent (Miran/Waller wanted cut)。Statement noted '經濟 solid pace + jobs low + 通膨 elevated'",
+      "note": "Mid-cycle pause after Dec cut; data-dependent stance reaffirmed",
+      "tags": [
+        "rate-decision",
+        "hold",
+        "data-dependent"
+      ],
+      "released": true
+    },
     {
       "event_id": "econ-cal-2026-02-11-cpi-jan",
       "event_type": "CPI",
