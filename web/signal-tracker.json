@@ -8,7 +8,7 @@
       "confidence": 0.72,
       "created_at": "2026-03-29T08:05:05.605250+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250499+08:00",
+      "last_checked": "2026-05-05T08:05:09.564232+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -20,7 +20,7 @@
       "confidence": 0.75,
       "created_at": "2026-03-29T08:05:05.605279+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250543+08:00",
+      "last_checked": "2026-05-05T08:05:09.564260+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -32,7 +32,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-29T08:05:05.605299+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250573+08:00",
+      "last_checked": "2026-05-05T08:05:09.564284+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -41,10 +41,19 @@
       "name": "Apple",
       "direction": "long",
       "thesis": "AI 整合進 iPhone/Mac 生態系，但殺手級 AI 應用尚未問世。服務營收穩定成長提供底部支撐。Q2 催化劑：WWDC 開發者大會（日期待定）可能發布新 AI 功能。風險：中國市場持續疲軟、關稅 122 條影響硬體毛利。",
-      "confidence": 0.55,
+      "confidence": 0.65,
       "created_at": "2026-03-29T08:05:05.605319+08:00",
-      "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250600+08:00",
+      "evolution_history": [
+        {
+          "date": "2026-05-04",
+          "evolution": "strengthened",
+          "reason": "正面消息(4) >> 負面(0)",
+          "news_count": 2,
+          "deepear_count": 0,
+          "confidence_change": "0.55 → 0.65"
+        }
+      ],
+      "last_checked": "2026-05-05T08:05:09.564307+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -53,10 +62,19 @@
       "name": "Microsoft",
       "direction": "long",
       "thesis": "Azure + Copilot 雙引擎驅動雲端 AI 收入。2026 年 capex 預估持續擴大（年初預估 +55%）。企業 AI 採用率不到 20%，長期成長空間大。風險：Copilot 付費轉換率若不如預期，市場可能質疑 AI 投資回報。",
-      "confidence": 0.68,
+      "confidence": 0.78,
       "created_at": "2026-03-29T08:05:05.605337+08:00",
-      "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250627+08:00",
+      "evolution_history": [
+        {
+          "date": "2026-05-04",
+          "evolution": "strengthened",
+          "reason": "正面消息(4) >> 負面(0)",
+          "news_count": 2,
+          "deepear_count": 0,
+          "confidence_change": "0.68 → 0.78"
+        }
+      ],
+      "last_checked": "2026-05-05T08:05:09.564330+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -68,7 +86,7 @@
       "confidence": 0.62,
       "created_at": "2026-03-29T08:05:05.605355+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250653+08:00",
+      "last_checked": "2026-05-05T08:05:09.564351+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -89,7 +107,7 @@
           "confidence_change": "0.65 → 0.75"
         }
       ],
-      "last_checked": "2026-05-04T08:05:06.250679+08:00",
+      "last_checked": "2026-05-05T08:05:09.564374+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -98,10 +116,19 @@
       "name": "Meta",
       "direction": "long",
       "thesis": "Llama 開源模型策略成功，AI 廣告精準投放提升 ROAS。營收 +24% YoY，獲利 +37%。祖克伯：最糟的不是短期燒錢，而是 10 年後在 AI 落後。風險：Reality Labs 持續虧損、監管壓力。",
-      "confidence": 0.65,
+      "confidence": 0.75,
       "created_at": "2026-03-29T08:05:05.605393+08:00",
-      "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250705+08:00",
+      "evolution_history": [
+        {
+          "date": "2026-05-04",
+          "evolution": "strengthened",
+          "reason": "正面消息(4) >> 負面(0)",
+          "news_count": 2,
+          "deepear_count": 0,
+          "confidence_change": "0.65 → 0.75"
+        }
+      ],
+      "last_checked": "2026-05-05T08:05:09.564395+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -113,7 +140,7 @@
       "confidence": 0.45,
       "created_at": "2026-03-29T08:05:05.605418+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250732+08:00",
+      "last_checked": "2026-05-05T08:05:09.564417+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -125,7 +152,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-29T08:05:05.605437+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250758+08:00",
+      "last_checked": "2026-05-05T08:05:09.564440+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -137,7 +164,7 @@
       "confidence": 0.7,
       "created_at": "2026-03-30T16:22:07.128424+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250781+08:00",
+      "last_checked": "2026-05-05T08:05:09.564460+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -149,7 +176,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.497905+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250804+08:00",
+      "last_checked": "2026-05-05T08:05:09.564482+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -161,7 +188,7 @@
       "confidence": 0.58,
       "created_at": "2026-03-28T11:24:04.497973+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250829+08:00",
+      "last_checked": "2026-05-05T08:05:09.564503+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -173,7 +200,7 @@
       "confidence": 0.7,
       "created_at": "2026-03-28T11:24:04.497993+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250853+08:00",
+      "last_checked": "2026-05-05T08:05:09.564524+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -185,7 +212,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.498011+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250876+08:00",
+      "last_checked": "2026-05-05T08:05:09.564544+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -197,7 +224,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-28T11:24:04.498028+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250899+08:00",
+      "last_checked": "2026-05-05T08:05:09.564565+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -209,7 +236,7 @@
       "confidence": 0.45,
       "created_at": "2026-03-30T16:22:07.128499+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250923+08:00",
+      "last_checked": "2026-05-05T08:05:09.564585+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -221,7 +248,7 @@
       "confidence": 0.65,
       "created_at": "2026-03-28T11:24:04.498046+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250946+08:00",
+      "last_checked": "2026-05-05T08:05:09.564605+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -233,7 +260,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-30T16:22:07.128540+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250969+08:00",
+      "last_checked": "2026-05-05T08:05:09.564626+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -245,7 +272,7 @@
       "confidence": 0.58,
       "created_at": "2026-03-28T11:24:04.498104+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.250994+08:00",
+      "last_checked": "2026-05-05T08:05:09.564647+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -257,7 +284,7 @@
       "confidence": 0.5,
       "created_at": "2026-03-30T16:22:07.128570+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251018+08:00",
+      "last_checked": "2026-05-05T08:05:09.564667+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -269,7 +296,7 @@
       "confidence": 0.68,
       "created_at": "2026-03-28T11:24:04.498121+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251041+08:00",
+      "last_checked": "2026-05-05T08:05:09.564687+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -281,7 +308,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-28T11:24:04.498138+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251066+08:00",
+      "last_checked": "2026-05-05T08:05:09.564707+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -293,7 +320,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.498156+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251088+08:00",
+      "last_checked": "2026-05-05T08:05:09.564727+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -305,7 +332,7 @@
       "confidence": 0.58,
       "created_at": "2026-03-28T11:24:04.498172+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251110+08:00",
+      "last_checked": "2026-05-05T08:05:09.564747+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -317,7 +344,7 @@
       "confidence": 0.48,
       "created_at": "2026-03-28T11:24:04.498189+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251133+08:00",
+      "last_checked": "2026-05-05T08:05:09.564768+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -329,7 +356,7 @@
       "confidence": 0.6,
       "created_at": "2026-03-28T11:24:04.498063+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251158+08:00",
+      "last_checked": "2026-05-05T08:05:09.564790+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -341,7 +368,7 @@
       "confidence": 0.55,
       "created_at": "2026-03-28T11:24:04.498086+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251183+08:00",
+      "last_checked": "2026-05-05T08:05:09.564812+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     },
@@ -353,11 +380,11 @@
       "confidence": 0.45,
       "created_at": "2026-03-30T16:22:07.128675+08:00",
       "evolution_history": [],
-      "last_checked": "2026-05-04T08:05:06.251207+08:00",
+      "last_checked": "2026-05-05T08:05:09.564833+08:00",
       "related_news_count": 0,
       "deepear_matches": 0
     }
   ],
-  "last_updated": "2026-05-04T08:05:06.251209+08:00",
+  "last_updated": "2026-05-05T08:05:09.564834+08:00",
   "version": 1
 }

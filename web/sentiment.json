@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-02",
-  "generated_at": "2026-05-02 04:45",
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-01",
       "2026-05-04",
-      "2026-05-05"
+      "2026-05-05",
+      "2026-05-06"
     ],
-    "total_calls_vol": 4382059,
-    "total_puts_vol": 4642392,
-    "pcr": 1.059,
+    "total_calls_vol": 3815285,
+    "total_puts_vol": 4548415,
+    "pcr": 1.192,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -24,36 +24,41 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 4,
+    "bull_words": 5,
     "bear_words": 2,
-    "bull_pct": 67,
+    "bull_pct": 71,
     "label": "偏多情緒",
-    "top_tickers": [],
+    "top_tickers": [
+      {
+        "symbol": "TEAM",
+        "count": 1
+      }
+    ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 5/4 - 5/8",
-        "score": 50,
+        "score": 153,
         "upvote_ratio": 0.96
       },
       {
-        "title": "Weekend Discussion Thread for the Weekend of May 01, 2026",
-        "score": 42,
-        "upvote_ratio": 0.96
+        "title": "What Are Your Moves Tomorrow, May 05, 2026",
+        "score": 81,
+        "upvote_ratio": 0.95
       },
       {
-        "title": "Spirit Airlines Prepares to Shut Down as Rescue Deal Falls Apart",
-        "score": 4093,
+        "title": "He doesn't understand your question, CNBC",
+        "score": 4123,
+        "upvote_ratio": 0.94
+      },
+      {
+        "title": "eBay listing",
+        "score": 2492,
         "upvote_ratio": 0.98
       },
       {
-        "title": "+$8,000,000 in April (188%). AMD and TQQQ on margin",
-        "score": 3489,
-        "upvote_ratio": 0.93
-      },
-      {
-        "title": "Almost one year ago, I dumped all my INTC shares at $21.3",
-        "score": 1570,
-        "upvote_ratio": 0.97
+        "title": "Ah shit here we go again",
+        "score": 1495,
+        "upvote_ratio": 0.98
       }
     ]
   }
