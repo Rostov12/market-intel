@@ -1,40 +1,44 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05 04:00",
+  "generated_at": "2026-05-05T12:45:00+08:00",
   "next_fomc": {
-    "date": "2026-05-07",
-    "days_away": 2,
-    "label": "下次 FOMC：05/07（2天後）"
+    "date": "2026-06-16",
+    "days_away": 42,
+    "label": "下次 FOMC：06/16-17（42天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-05-07",
-      "event": "FOMC 利率決議",
+      "date": "2026-05-08",
+      "event": "非農就業數據（4月）NFP",
       "importance": "high",
-      "source": "Fed",
-      "days_away": 2,
-      "label": "🔴 FOMC 利率決議（2天後）",
+      "source": "BLS",
+      "days_away": 3,
+      "label": "🔴 NFP 非農就業（4月）（3天後）",
+      "time_tst": "20:30 TST",
       "impact_guide": {
-        "name": "聯準會利率決議",
-        "above": "鷹派（升息/縮表）→ 偏空",
-        "below": "鴿派（降息/暫停）→ 偏多",
-        "watch": "重點在點陣圖和鮑爾記者會措辭"
+        "name": "非農就業人數",
+        "consensus": "+180K",
+        "above": "就業強勁 → 降息預期降溫 → 偏空",
+        "below": "就業疲弱 → 降息預期升溫 → 偏多",
+        "watch": "失業率 + 平均時薪年增率（通膨分量）"
       }
     }
   ],
   "next_14_days": [
     {
-      "date": "2026-05-07",
-      "event": "FOMC 利率決議",
+      "date": "2026-05-08",
+      "event": "非農就業數據（4月）NFP",
       "importance": "high",
-      "source": "Fed",
-      "days_away": 2,
-      "label": "🔴 FOMC 利率決議（2天後）",
+      "source": "BLS",
+      "days_away": 3,
+      "label": "🔴 NFP 非農就業（4月）（3天後）",
+      "time_tst": "20:30 TST",
       "impact_guide": {
-        "name": "聯準會利率決議",
-        "above": "鷹派（升息/縮表）→ 偏空",
-        "below": "鴿派（降息/暫停）→ 偏多",
-        "watch": "重點在點陣圖和鮑爾記者會措辭"
+        "name": "非農就業人數",
+        "consensus": "+180K",
+        "above": "就業強勁 → 降息預期降溫 → 偏空",
+        "below": "就業疲弱 → 降息預期升溫 → 偏多",
+        "watch": "失業率 + 平均時薪年增率（通膨分量）"
       }
     },
     {
@@ -65,5 +69,6 @@
         "watch": "排除汽車的核心零售更能反映趨勢"
       }
     }
-  ]
+  ],
+  "note": "R258 修正 (preserved)"
 }
