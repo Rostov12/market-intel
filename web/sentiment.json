@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-06",
-  "generated_at": "2026-05-06 04:45",
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-05",
       "2026-05-06",
-      "2026-05-07"
+      "2026-05-07",
+      "2026-05-08"
     ],
-    "total_calls_vol": 3373397,
-    "total_puts_vol": 4020390,
-    "pcr": 1.192,
+    "total_calls_vol": 3973544,
+    "total_puts_vol": 4301605,
+    "pcr": 1.083,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -30,47 +30,35 @@
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "DOCN",
-        "count": 1
-      },
-      {
-        "symbol": "MSTR",
-        "count": 1
-      },
-      {
-        "symbol": "ASTS",
-        "count": 1
-      },
-      {
-        "symbol": "SMH",
+        "symbol": "TMC",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 5/4 - 5/8",
-        "score": 177,
+        "score": 199,
         "upvote_ratio": 0.97
       },
       {
-        "title": "What Are Your Moves Tomorrow, May 06, 2026",
-        "score": 69,
+        "title": "What Are Your Moves Tomorrow, May 07, 2026",
+        "score": 44,
         "upvote_ratio": 0.92
       },
       {
-        "title": "Berkshire annual meeting recap: Buffett says investing environment not ideal, se",
-        "score": 3658,
-        "upvote_ratio": 0.97
+        "title": "Market after you sell",
+        "score": 5164,
+        "upvote_ratio": 0.99
       },
       {
-        "title": "Gambling my 401k/Roth from 10k -&gt; $2M ($DOCN &amp; others)",
-        "score": 472,
-        "upvote_ratio": 0.93
+        "title": "AMD +$9.5M",
+        "score": 6361,
+        "upvote_ratio": 0.95
       },
       {
-        "title": "Sell All Your Intel They Said. Bitch I’m Buying More",
-        "score": 886,
-        "upvote_ratio": 0.94
+        "title": "Thirty Individuals Charged in Global Insider Trading Scheme Netting Tens of Mill",
+        "score": 2025,
+        "upvote_ratio": 0.99
       }
     ]
   }

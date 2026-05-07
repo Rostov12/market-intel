@@ -1,320 +1,327 @@
 {
-  "date": "2026-05-06",
-  "updated_at": "2026-05-06 07:50",
+  "date": "2026-05-07",
+  "updated_at": "2026-05-07 07:50",
   "count": 30,
   "sources": [
-    "coindesk",
     "cointelegraph-rss",
-    "cointelegraph",
-    "google-news-crypto"
+    "google-news-crypto",
+    "coindesk",
+    "cointelegraph"
   ],
   "news": [
     {
-      "id": "cd-16160",
-      "title": "Michael Saylor's Strategy signals potential bitcoin sale to fund dividends obligations ",
+      "id": "cd-90363",
+      "title": "AI agents becoming more relevant than humans by 2035 has Big Tech 'terrified', says Hoskinson",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/michael-saylor-s-strategy-signals-potential-bitcoin-sale-to-fund-dividends-obligations",
-      "published": "Tue, 05 May 2026 23:43:44 +0000",
-      "summary": "Michael Saylor proposes using bitcoin sales to support dividends, as Strategy reported a $12.54 billion Q1 loss. ",
+      "url": "https://www.coindesk.com/business/2026/05/06/ai-agents-will-become-more-relevant-than-humans-by-2035-says-charles-hoskinson",
+      "published": "Wed, 06 May 2026 22:35:57 +0000",
+      "summary": "The founder and CEO of Cardano’s Input Output said Google, Amazon and Facebook are terrified because AI agents will not behave like humans when confronted with ads. ",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-55854",
+      "title": "Grant Cardone says bitcoin-real estate strategy could outperform REITs, adds more BTC to treasury",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/06/bitcoin-real-estate-strategy-could-outperform-reits-says-grant-cardone-he-adds-btc-to-treasury",
+      "published": "Wed, 06 May 2026 22:32:30 +0000",
+      "summary": "The real-estate mogul said the hybrid model brings new users into crypto and challenges traditional real estate structures.",
       "coins": [
         "BTC"
       ],
       "provider": "coindesk"
     },
     {
-      "id": "gn-25052",
-      "title": "Strategy misses estimates as bitcoin losses mount - Investing.com",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSnVhMXhuNHhfeURsZm1jU1lQUVAzSlJmMkRiYTllV2lqWlpvek5YSGduOF9RNXhMTWw0eVJiRFdXU3BFbnBZMjNTVVREY1g1OHRqelJCdENsU0dTaXlTWm45QkJOYmhEeEQ4aWIxbUNRNVQ0TlYwN2JOYnhOaXVBdUxMYmp3QmJCOGxBT21telplNVVOUkdWYUZiN2Y3REFiVkhyUTNpZmhjQQ?oc=5",
-      "published": "Tue, 05 May 2026 23:37:30 GMT",
+      "id": "cd-54492",
+      "title": "Nasdaq's president says the SEC’s new crypto stance is letting markets 'build' again",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/06/nasdaq-s-president-says-the-sec-s-new-crypto-stance-is-letting-markets-build-again",
+      "published": "Wed, 06 May 2026 22:31:09 +0000",
+      "summary": "Nasdaq’s Tal Cohen said a friendlier SEC is giving crypto firms and exchanges room to experiment with tokenization and digital market infrastructure.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-7270",
+      "title": "Wall Street's clearinghouse seeks 'high-performance' blockchains to tokenize corporate actions",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/06/wall-street-s-clearinghouse-seeks-high-performance-blockchains-to-tokenize-corporate-actions",
+      "published": "Wed, 06 May 2026 22:29:43 +0000",
+      "summary": "DTCC CEO Frank La Salla said the clearing giant is working with layer-1 blockchains to bring millions in corporate actions like dividend payments onchain, but challenges remain.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-17857",
+      "title": "Crypto’s mainstream moment has arrived, say industry leaders speaking at Consensus Miami",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/06/crypto-s-mainstream-moment-has-arrived-say-industry-leaders-speaking-at-consensus-miami",
+      "published": "Wed, 06 May 2026 22:17:22 +0000",
+      "summary": "Executives from Binance, Revolut and Circle say crypto is evolving beyond speculation into the financial infrastructure powering payments, remittances and broader global access.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-51670",
+      "title": "Bitcoin’s post-quantum migration will be harder than Taproot and needs to start now, Project Eleven CEO says",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/05/06/bitcoin-s-post-quantum-migration-will-be-harder-than-taproot-and-needs-to-start-now-project-eleven-ceo-says",
+      "published": "Wed, 06 May 2026 22:14:16 +0000",
+      "summary": "Alex Pruden said the asymmetry between acting on a post-quantum signature scheme today and waiting for certainty about quantum-computing hardware timelines means Bitcoin developers should move from re",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-4035",
+      "title": "Reid Hoffman says NFTs may make a comeback as AI agents strain online identity",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/06/reid-hoffman-says-nfts-may-make-a-comeback-as-ai-agents-strain-online-identity",
+      "published": "Wed, 06 May 2026 22:05:26 +0000",
+      "summary": "The Greylock partner and LinkedIn co-founder said autonomous agents will need crypto-based trust systems to transact across the open internet.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-27767",
+      "title": "Bitcoin market dominance moves above 61%: Will altcoins follow?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-market-dominance-moves-above-61-will-altcoins-follow?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 22:00:25 +0000",
+      "coins": [
+        "BIT"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-23885",
+      "title": "Bitcoin market dominance moves above 61%: Will altcoins follow?",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/bitcoin-market-dominance-moves-above-61-will-altcoins-follow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 22:00:25 +0000",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-92310",
+      "title": "Spot Bitcoin ETFs solved access, but custody, advisors and plumbing still lag, panelists say",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/06/spot-bitcoin-etfs-solved-access-but-custody-advisors-and-plumbing-still-lag-panelists-say",
+      "published": "Wed, 06 May 2026 21:57:41 +0000",
+      "summary": "Senior figures from CoinShares, Calamos, ProShares and Flow Traders flagged Coinbase-heavy custody concentration, modest advisor uptake and creation-flow inefficiency as being among the next set of pr",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-60090",
+      "title": "U.S. Bitcoin Reserve update coming in 'next few weeks,\" White House adviser says - CoinDesk",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUjk4bUJLRU55N0VHODVnX29JclpMYm4zM2wzS1BNT1JQd3BQQ3hfVVZNMGxtdUQxZ3YtelNuLUYwNTdFR0Q1NndXX00wbWpMRGVhN0ROcmRuNExGcEFZYUtHbUtsdGhiVG1LTlNwT0hKc3UzNDJkeUNLc3BnSGRjVDVoQ1pNc0FQNXdSWTIyRkRSMl8yWF82ZENQVjlDbXBQS2xybDE1elY3YVRHZVZ0YndhemFyekYtYnFHaGZR?oc=5",
+      "published": "Wed, 06 May 2026 21:46:22 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-50174",
-      "title": "Strategy: Bitcoin Whale's Earnings Will Answer This Key Questions - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORUdoNXViMGw3cDE5RGl0aFJmaVRCb0JHNFNyaVlfWXJkSGRaM1VNWkJYaUpMY0lfRFVTeTBoQ21DZHB2U2t3Ni1OcmhfbGhWaEtGMDJ2ZWQzUDVLMXNIamNiU3pqNkZ2WVNnY3hDd1R5NFlqSFRRdVlGamVsM0pLdko4RklqTDhXOHc?oc=5",
-      "published": "Tue, 05 May 2026 22:42:00 GMT",
+      "id": "cd-16769",
+      "title": "U.S. Bitcoin Reserve update coming in 'next few weeks,\" White House adviser says",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/06/u-s-bitcoin-reserve-update-coming-in-next-few-weeks-white-house-s-adviser-says",
+      "published": "Wed, 06 May 2026 21:44:42 +0000",
+      "summary": "White House digital-assets adviser Patrick Witt cited a recent exploit involving assets held by the U.S. Marshals as proof federal crypto holdings need safeguarding.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-36795",
+      "title": "White House targets July 4 for Clarity Act passage, says crypto adviser Patrick Witt",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/06/white-house-targets-july-4-for-clarity-act-passage-says-crypto-adviser-patrick-witt",
+      "published": "Wed, 06 May 2026 21:16:54 +0000",
+      "summary": "The executive director of the President's Council of Advisors for Digital Assets said the Senate Banking Committee hearing will happen this month on market structure. bill.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-41680",
+      "title": "US Senator says crypto market structure vote could happen by August",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/kirsten-gillibrand-crypto-market-structure-august-vote?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 21:07:09 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-91625",
+      "title": "US Senator says crypto market structure vote could happen by August",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/kirsten-gillibrand-crypto-market-structure-august-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 21:07:09 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-61621",
+      "title": "American Bitcoin Reports First Quarter 2026 Results - PR Newswire",
+      "source": "PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmt3dTMwZ3NYLVl1TTNCZ1d3RWQ2YlJ5WTV0VHdMNXhMcVRGQ1lkWC1uVEN1YXRsVHo0OW5CZlJOdV90MXlVaTlxWkhFOFhFYko5djJkWkx3Zy1ndmdocS1rV0VKMWlCbFlPd2tSSERmMW5aZUF6VXBoZlNCaWhXTUJnOVdrbUhQYnRsYlk5Wnp0dTZ1aHVySjhPVlFVb2tTajdXSHhsSEtnWTg?oc=5",
+      "published": "Wed, 06 May 2026 20:15:00 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-34029",
-      "title": "Trust in crypto remains biggest barrier to adoption, say Consensus Miami 2026 panelists",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/05/05/trust-in-crypto-remains-biggest-barrier-to-adoption-say-consensus-miami-2026-panelists",
-      "published": "Tue, 05 May 2026 22:39:33 +0000",
-      "summary": "Speakers point to complexity, poor user experience and lack of transparency as key obstacles for mainstream users.\n",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-62582",
-      "title": "Forward Industries, RockawayX back OnRe to build onchain reinsurance on Solana",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/forward-industries-rockawayx-onre-solana-reinsurance?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 22:20:15 +0000",
+      "id": "gn-88204",
+      "title": "VanEck says Bitcoin could hit $1 million in five years, likens adoption to video games - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcERYeFluUTlzdGozWHJQbWR5WFZpUFpKV1JoZG5vRzFoOWxhVlVSWlpDUnc5OGtmWnVhakd0RDNLVnZ3TmEtdWZWeDdBOHBic285eVlIWTItMk5wN3VxeUh3N2l5VFZIZlFLSmNWbGhLV1JDS0F1cUpwYVBRSXNPN3FyaVdNVmhDVXp4VWdIUGZ4NjRoOXE0?oc=5",
+      "published": "Wed, 06 May 2026 19:49:50 GMT",
       "coins": [
-        "SOL"
+        "BTC"
       ],
-      "provider": "cointelegraph-rss"
+      "provider": "google-news-crypto"
     },
     {
-      "id": "ct-70293",
-      "title": "Forward Industries, RockawayX back OnRe to build onchain reinsurance on Solana",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/forward-industries-rockawayx-onre-solana-reinsurance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 22:20:15 +0000",
+      "id": "gn-69387",
+      "title": "Bitcoin Price Prediction: We Asked ChatGPT About Bitcoin’s Realistic Price by Year-End - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX0xwSHpJUlVNVUpFRS0wRGR3dXZXM3Z4dkRGcU5XeGVndkhtbDl4S2tmUzQ0RUl3NEZRNktpQmRMNE9QTU81ZzZaUHVXcjlQMXFaaXp3OW9lUm5tNkliQVh5UTBtNEw3bVh0dXV5bUMybmdHYkVFMFRpYWhwN2Z2ZUV1ZUJyRWxkUVo4bWRSc2FBZkl4dWdLTUkydjZ6OXFpeVBsTkVtTFhPMFl3QzM3Tzk2OWMteTlOMkxpaDRnQUptUFdqcDY0?oc=5",
+      "published": "Wed, 06 May 2026 19:10:21 GMT",
       "coins": [
-        "SOL"
+        "BTC"
       ],
-      "provider": "cointelegraph"
+      "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-32972",
-      "title": "Ripple CEO says market structure bill not a ‘done deal,’ despite stablecoin compromise",
+      "id": "ct-rss-28490",
+      "title": "Hut 8 investors shrug off Q1 loss, stoke 33% stock surge",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 22:08:41 +0000",
+      "url": "https://cointelegraph.com/news/hut-8s-stock-surge-q1-loss?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 18:58:11 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-840",
-      "title": "Ripple CEO says market structure bill not a ‘done deal,’ despite stablecoin compromise",
+      "id": "ct-68983",
+      "title": "Hut 8 investors shrug off Q1 loss, stoke 33% stock surge",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 22:08:41 +0000",
+      "url": "https://cointelegraph.com/news/hut-8s-stock-surge-q1-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 18:58:11 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-26602",
-      "title": "The world's entire economy will be tokenized, says Consensys’ Joseph Lubin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/the-world-s-entire-economy-will-be-tokenized-says-consensys-joseph-lubin",
-      "published": "Tue, 05 May 2026 22:06:55 +0000",
-      "summary": "The Consensys CEO and founder said tokenization can be traced back to Ethereum, the blockchain he helped co-found.",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-1118",
-      "title": "It's transparency, not tech alone, that drives crypto adoption, panelists tell Consensus Miami",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/it-s-transparency-not-tech-alone-that-drives-crypto-adoption-panelists-tell-consensus-miami",
-      "published": "Tue, 05 May 2026 22:04:41 +0000",
-      "summary": "Execs from PayPal, Robinhood, Public.com and 248 Ventures said the way to move retail into crypto and AI is to slow down, show your work, and put users back in control.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-99334",
-      "title": "Different voices in product, policy and hiring change crypto outcomes, panelists tell Consensus Miami",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/different-voices-in-product-policy-and-hiring-change-crypto-outcomes-panelists-tell-consensus-miami",
-      "published": "Tue, 05 May 2026 21:57:20 +0000",
-      "summary": "Senior leaders from Mastercard, the Crypto Council for Innovation and Clerisy said the right people in the right rooms can reshape internal decisions, citing examples from stablecoin-linked cards and ",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-32126",
-      "title": "AI agents are breaking web economics, but Cloudflare says x402 can help",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/tech/2026/05/05/ai-agents-are-breaking-web-economics-but-cloudflare-says-x402-can-help",
-      "published": "Tue, 05 May 2026 21:47:54 +0000",
-      "summary": "The company’s Chief Strategy Officer said that more than half of internet traffic is now non-human, but that the x402 Foundation is building the rails for a \"golden age of content.\"",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-25140",
-      "title": "Prophet launches AI-powered prediction market with live $10,000 trading tranche",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/press-releases/prophet-launches-ai-powered-prediction-market-with-live-10000-trading-tranche?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 21:30:00 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-82757",
-      "title": "Prophet launches AI-powered prediction market with live $10,000 trading tranche",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/press-releases/prophet-launches-ai-powered-prediction-market-with-live-10000-trading-tranche?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 21:30:00 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-41800",
-      "title": "Kraken eyes IPO as it partners with MoneyGram to bridge crypto-to-cash gap",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/kraken-eyes-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap",
-      "published": "Tue, 05 May 2026 21:29:15 +0000",
-      "summary": "Payward and Kraken co-CEO Arjun Sethi says the exchange is “80% ready” to go public, as a new partnership with MoneyGram aims to expand access to digital assets by solving last-mile cash conversion.",
-      "coins": [
-        "ETH"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-87973",
-      "title": "Strategy Posts Wider Loss as Bitcoin Holdings Hit $64 Billion. The Stock Falls. - Barron's",
+      "id": "gn-44515",
+      "title": "Strategy Posts $14.5 Billion Loss on Bitcoin Holdings. The ‘Never Sell’ Mantra Fades. - Barron's",
       "source": "Barron's",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQcXVRc2lDSEx4TFdLeDZNZV9IcUxvUXYzS1hNenk1R1BNMjhpTVZ4US10Q2ZpVnZhUXA3WUFhdzZOZ2dYTC1RLU1PZkQ3RXlHblJRYkFhRktWaHRXdFZqa0pIZ3dfSXVoWXoweFZjNnI?oc=5",
-      "published": "Tue, 05 May 2026 21:28:00 GMT",
+      "published": "Wed, 06 May 2026 18:46:00 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-18226",
-      "title": " State Street says institutions want improved blockchain security in wake of recent DeFi attacks",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/state-street-says-institutions-want-improved-blockchain-security-in-wake-of-recent-defi-attacks",
-      "published": "Tue, 05 May 2026 21:27:36 +0000",
-      "summary": "Angus Fletcher, State Street’s head of digital assets said the young crypto industry needs to find solutions now before trillions in RWAs come on-chain.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-71411",
-      "title": "Crypto's 'barbell': speculation and stablecoin payments drive adoption, Tempo's Romero says",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/crypto-s-barbell-speculation-and-stablecoin-payments-drive-adoption-tempo-s-romero-says",
-      "published": "Tue, 05 May 2026 21:25:01 +0000",
-      "summary": "Stablecoins are quietly powering real-world money flows as other crypto experiments than speculative trading have failed to scale, Romero said at Consensus 2026.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-26986",
-      "title": "Citi exec says fragmented crypto systems risk repeating old banking problems",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/05/citi-exec-says-fragmented-crypto-systems-risk-repeating-old-banking-problems",
-      "published": "Tue, 05 May 2026 21:23:00 +0000",
-      "summary": "Tokenized money efforts face limits as corporate clients demand real-time payments that work seamlessly across banks, Citi’s Ryan Rugg said at Consensus in Miami.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-37201",
-      "title": "Bitcoin short liquidations push BTC to multi-month highs: Is $90K next?",
+      "id": "ct-rss-41600",
+      "title": "Crypto-backed Republican candidate wins Indiana congressional primary",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-eyes-clear-path-to-90k-as-79b-shorts-unwind-since-february?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 21:13:22 +0000",
-      "coins": [
-        "BIT",
-        "BTC"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-13826",
-      "title": "Bitcoin short liquidations push BTC to multi-month highs: Is $90K next?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-eyes-clear-path-to-90k-as-79b-shorts-unwind-since-february?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 21:13:22 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-99689",
-      "title": "‘Wall of Worry’ Has Retail Sitting Out the Latest Bitcoin Rally - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdVNoWnNTNlBoN3d6QWY0aXpOZTJiaV9vMU10NU1IQmQ5NnpJRVlwOGZUSmdnUFJkbG1JbDdVUmw1Y2ZiQUhmTF9oeGZLWG9nQmQ4TlRTbEVJQk5ERDBUdHZnNWZBYmMtNUNaX3gwMU1XdFJjRnhDbkFBQlVrRGhiOVZoeVRNbFo5ZE1aOWcwcWR3OVpPQnhrWlR2cEljNW9pUjItaXlmVjdkR20tTjIyU0dLcEE4am8?oc=5",
-      "published": "Tue, 05 May 2026 21:00:01 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-55948",
-      "title": "Crypto PAC spends $500K in support of Indiana candidate ahead of primary",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/crypto-pac-spending-indiana-candidate-primary?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 20:42:00 +0000",
+      "url": "https://cointelegraph.com/news/crypto-pac-backed-republican-candidate-indiana-primary?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 18:31:17 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-54440",
-      "title": "Crypto PAC spends $500K in support of Indiana candidate ahead of primary",
+      "id": "ct-59408",
+      "title": "Crypto-backed Republican candidate wins Indiana congressional primary",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/crypto-pac-spending-indiana-candidate-primary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 20:42:00 +0000",
+      "url": "https://cointelegraph.com/news/crypto-pac-backed-republican-candidate-indiana-primary?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 18:31:17 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-1516",
-      "title": "Strategy Announces First Quarter 2026 Financial Results - Strategy",
-      "source": "Strategy",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONzhBczVHcGVPdk04QVFWbWlHMXZNUURlbS04R3d0Z2JlU2lYM1NSdC1Ndm5oYXpkeDVUNTNyRzVfM0Rxd2pTUTJHU2tSM0xlRDYtQjduSTlnblpyWmFzQ3RTang5dW5hSkd0MjJpRU8wTHg0dGxsYTBJU3RiYkJndDY4X1cyRUstY2dCYkpzY2FEVkRYOVhfUGFWZ3FaUQ?oc=5",
-      "published": "Tue, 05 May 2026 20:26:35 GMT",
-      "coins": [],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-97004",
-      "title": "Strategy Reports Wider First-Quarter Loss on Lower Value of Bitcoin - WSJ",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMDFnZEtfd0RkRE9ub2pwbDM5YnNMcElJTnA0ZXpYeXhyM1FBZlVLeENEeURBdnBfNDJnU3RFNG1zNlV4enRSVllkaGxmUVJ4ekxxS3BrMEljTXYzZTBlWGhoOXpRMXFMM2N6aWhydS1DMVY3QkFHaHAtZkpuUWpkbDQ3djQ1ZTN3Sk5weWcyWUlCcVk1X1hzay1tV3NDcGdTN3Z2Z2F2RWh4YllneDE2MWx6Tk0?oc=5",
-      "published": "Tue, 05 May 2026 20:24:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-99336",
-      "title": "Michael Saylor's Strategy (MSTR) booked massive Q1 loss as BTC tumbled - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYzUxV1BkVFl4UWVqeVlTblEzYWRhVm5JbWdkN3lJWEZXWG1jb0NXZTk3SkVTOXM5eDMtUFItUU9uYjVMQUMyZEdMZVdrNllVMk0xT3gzMS1iaFNEZ1U3YmM3Mmo0T2JVTlBBNHU3TFViVGRMcFBkVm9RdjdTcndGaDZiZ281NTFJa204NVYtRy04eS14OHdOOElKWDNjS0xEUDk2alRLeWFtNHJjelUw?oc=5",
-      "published": "Tue, 05 May 2026 20:06:52 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-65152",
-      "title": "Tennessee Bankers Association names Stablecore as preferred digital asset provider",
+      "id": "ct-rss-56095",
+      "title": "Price predictions 5/6: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, ZEC",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/tennessee-bankers-association-stablecore-digital-asset-provider?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 19:11:47 +0000",
+      "url": "https://cointelegraph.com/markets/price-predictions-56-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-zec?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 17:34:51 +0000",
+      "coins": [
+        "ETH",
+        "BTC",
+        "SOL",
+        "XRP",
+        "BNB"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-30521",
+      "title": "Price predictions 5/6: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, ZEC",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/price-predictions-56-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-zec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 17:34:51 +0000",
+      "coins": [
+        "BTC",
+        "BNB",
+        "ETH"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-90579",
+      "title": "Switzerland's Amina becomes first regulated bank to custody Canton Coin",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/amina-becomes-first-regulated-bank-to-custody-canton-coin?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 17:25:51 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-42445",
-      "title": "Tennessee Bankers Association names Stablecore as preferred digital asset provider",
+      "id": "ct-66128",
+      "title": "Switzerland's Amina becomes first regulated bank to custody Canton Coin",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/tennessee-bankers-association-stablecore-digital-asset-provider?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 19:11:47 +0000",
+      "url": "https://cointelegraph.com/news/amina-becomes-first-regulated-bank-to-custody-canton-coin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 17:25:51 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-3820",
-      "title": "Crypto Fear and Greed Index turns neutral for first time since January: Is $100K BTC next?",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/crypto-fear-and-greed-flips-to-neutral-for-the-first-time-since-january?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Tue, 05 May 2026 18:35:46 +0000",
+      "id": "gn-80044",
+      "title": "Bitcoin rallies above $82K as Michael Saylor considers selling - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOclh0X2Y0a3FIY1hBb0ttMnpINzhPZW9uY2tySUExMGRycXhMZDVLa3dMLV9hai10QzZPNlF1bGRTaFhpcXduODN2b0MyQVl6QmJtY2NBdG04Yms3dUI0OUtDR3hjYzQtSUdELUFQbmdRd0FvZ0oxVjRsWEJMREJrVmFxSmoyTHFQSXJyZ3AzcHhYc1U4YlRrM200V1pkaGxMNkEzNE9zYUJLTlhp?oc=5",
+      "published": "Wed, 06 May 2026 17:12:49 GMT",
       "coins": [
         "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-64003",
+      "title": "Top 10 Cryptocurrencies Of May 6, 2026 - Forbes",
+      "source": "Forbes",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLS13Z29idEcxNEVOMHV1Vkk0eVNLZGliRExwZmtuUzBLZjY4dnNsRWlvWWRwZ3g1d19Lc0lHaVl5ZkdtWmV2NUx5bWRhTUlxc0htbnllTDU1ZjV3UmVDVVFaZTBJQ0FvRHdYY0toRFY2Q05TMnc2ZXp2bFpycHR3anlpVVEtNVE?oc=5",
+      "published": "Wed, 06 May 2026 16:34:00 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-79946",
+      "title": "Ether tests $2.4K as accumulators add 246K ETH: How high can price go?",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/ether-tests-24k-accumulators-add-264k-eth-how-high-can-price-go?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Wed, 06 May 2026 16:32:46 +0000",
+      "coins": [
+        "ETH"
       ],
       "provider": "cointelegraph-rss"
     }
