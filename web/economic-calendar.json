@@ -1,74 +1,91 @@
 {
-  "date": "2026-05-05",
-  "generated_at": "2026-05-05T12:45:00+08:00",
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08 04:00",
   "next_fomc": {
-    "date": "2026-06-16",
-    "days_away": 42,
-    "label": "下次 FOMC：06/16-17（42天後）"
+    "date": "2026-06-17",
+    "days_away": 40,
+    "label": "下次 FOMC：06/17（40天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-05-08",
-      "event": "非農就業數據（4月）NFP",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 3,
-      "label": "🔴 NFP 非農就業（4月）（3天後）",
-      "time_tst": "20:30 TST",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "consensus": "+180K",
-        "above": "就業強勁 → 降息預期降溫 → 偏空",
-        "below": "就業疲弱 → 降息預期升溫 → 偏多",
-        "watch": "失業率 + 平均時薪年增率（通膨分量）"
-      }
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-05-08",
-      "event": "非農就業數據（4月）NFP",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 3,
-      "label": "🔴 NFP 非農就業（4月）（3天後）",
-      "time_tst": "20:30 TST",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "consensus": "+180K",
-        "above": "就業強勁 → 降息預期降溫 → 偏空",
-        "below": "就業疲弱 → 降息預期升溫 → 偏多",
-        "watch": "失業率 + 平均時薪年增率（通膨分量）"
-      }
-    },
     {
       "date": "2026-05-13",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 8,
-      "label": "🔴 CPI（4月）（8天後）",
+      "days_away": 5,
+      "label": "🔴 CPI（4月）（5天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
         "below": "通膨低於預期 → 降息預期升溫 → 偏多",
         "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      }
+      },
+      "previous": "3.3%",
+      "previous_date": "2026-03-01"
     },
     {
       "date": "2026-05-15",
       "event": "零售銷售（4月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 10,
-      "label": "🟡 零售銷售（4月）（10天後）",
+      "days_away": 7,
+      "label": "🟡 零售銷售（4月）（7天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
         "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
         "watch": "排除汽車的核心零售更能反映趨勢"
-      }
+      },
+      "previous": "+1.9%",
+      "previous_date": "2026-03-01"
     }
   ],
-  "note": "R258 修正 (preserved)"
+  "next_14_days": [
+    {
+      "date": "2026-05-13",
+      "event": "CPI（4月）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 5,
+      "label": "🔴 CPI（4月）（5天後）",
+      "impact_guide": {
+        "name": "消費者物價指數",
+        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+      },
+      "previous": "3.3%",
+      "previous_date": "2026-03-01"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "零售銷售（4月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 7,
+      "label": "🟡 零售銷售（4月）（7天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+1.9%",
+      "previous_date": "2026-03-01"
+    },
+    {
+      "date": "2026-05-22",
+      "event": "密西根消費者信心（5月終值）",
+      "importance": "medium",
+      "source": "UMich",
+      "days_away": 14,
+      "label": "🟡 密西根消費者信心（5月終值）（14天後）",
+      "impact_guide": {
+        "name": "密西根消費者信心指數",
+        "above": "信心改善 → 消費預期樂觀 → 偏多",
+        "below": "信心下滑 → 消費可能放緩 → 偏空",
+        "watch": "通膨預期分項影響 Fed 決策"
+      }
+    }
+  ]
 }

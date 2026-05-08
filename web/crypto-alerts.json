@@ -1,85 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2245.18,
-    "change_pct": -2.47,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 價格預測 4/29：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、XMR\n- [CoinTelegraph] 價格預測 4/29：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、XMR\n- [Decrypt] 聯準會連續第三次維持利率穩定，比特幣、以太坊下跌 - Decrypt",
-    "timestamp": "2026-04-30T04:55:11.130594+08:00",
-    "epoch": 1777496108
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 78806.1,
-    "change_pct": 2.1,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Investing News Network] 加密貨幣市場更新：白宮調侃比特幣庫存更新 - 投資新聞網絡\n- [Investopedia] 什麼是比特幣？如何購買、開採和使用它 - Investopedia\n- [Cointelegraph] 比特幣在 7.7 萬美元附近反覆獲利回吐表明漲勢正在失去動力",
-    "timestamp": "2026-05-01T21:55:10.088859+08:00",
-    "epoch": 1777643707
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2310.08,
-    "change_pct": -2.01,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [The Motley Fool] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雜七雜八的傻瓜\n- [Yahoo Finance] DeFi 駭客浪潮後，以太坊退出隊列激增 72,000% - 雅虎財經\n- [24/7 Wall St.] XRP vs Solana vs 以太坊：哪種山寨幣目前最值得購買？ - 24/7 華爾街",
-    "timestamp": "2026-05-04T08:25:12.409736+08:00",
-    "epoch": 1777854309
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 79869.3,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Investopedia] 什麼是比特幣挖礦？如何開始 - Investopedia\n- [Crypto Briefing] Delphi Digital 協調轉移後比特幣上漲 15% - Crypto Briefing\n- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣",
-    "timestamp": "2026-05-04T10:00:11.398316+08:00",
-    "epoch": 1777860008
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2353.78,
-    "change_pct": 2.0,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Motley Fool] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雜七雜八的傻瓜\n- [Yahoo Finance] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雅虎財經\n- [24/7 Wall St.] XRP vs Solana vs 以太坊：哪種山寨幣目前最值得購買？ - 24/7 華爾街",
-    "timestamp": "2026-05-04T10:00:12.145128+08:00",
-    "epoch": 1777860008
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.99,
-    "change_pct": 2.3,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [24/7 Wall St.] XRP vs Solana vs 以太坊：哪種山寨幣目前最值得購買？ - 24/7 華爾街\n- [CNN] 比特幣最大的謎團解開了嗎？ - 美國有線電視新聞網",
-    "timestamp": "2026-05-04T10:05:11.426891+08:00",
-    "epoch": 1777860308
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 79753.0,
-    "change_pct": 2.42,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Investopedia] 什麼是比特幣挖礦？如何開始 - Investopedia\n- [Crypto Briefing] Delphi Digital 協調轉移後比特幣上漲 15% - Crypto Briefing\n- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣",
-    "timestamp": "2026-05-04T10:35:11.756899+08:00",
-    "epoch": 1777862109
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2371.1,
-    "change_pct": 2.78,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Motley Fool] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雜七雜八的傻瓜\n- [Yahoo Finance] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雅虎財經\n- [24/7 Wall St.] XRP vs Solana vs 以太坊：哪種山寨幣目前最值得購買？ - 24/7 華爾街",
-    "timestamp": "2026-05-04T10:35:13.239907+08:00",
-    "epoch": 1777862109
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 85.18,
@@ -498,5 +418,85 @@
     "news": "暫無明確消息面，可能為技術性波動",
     "timestamp": "2026-05-07T00:45:10.393058+08:00",
     "epoch": 1778085908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 90.01,
+    "change_pct": 2.07,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 5/6：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、ZEC",
+    "timestamp": "2026-05-07T15:35:11.521456+08:00",
+    "epoch": 1778139308
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 90.24,
+    "change_pct": 2.32,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 5/6：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、ZEC",
+    "timestamp": "2026-05-07T16:10:12.284802+08:00",
+    "epoch": 1778141408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 89.71,
+    "change_pct": 2.32,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 價格預測 5/6：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、ZEC",
+    "timestamp": "2026-05-07T16:40:11.917123+08:00",
+    "epoch": 1778143209
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 88.18,
+    "change_pct": -2.14,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-07T22:35:10.495317+08:00",
+    "epoch": 1778164508
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2295.01,
+    "change_pct": -2.08,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 「JaredfromSubway」機器人前端運行 Vitalik Buterin 的 4 美元代幣交換，交易量為 100 萬美元\n- [Fortune] Current price of Ethereum for May 7, 2026 - Fortune\n- [The Motley Fool] 更好的長期加密貨幣持有：XRP 還是以太幣？ - 雜七雜八的傻瓜",
+    "timestamp": "2026-05-07T22:40:14.909527+08:00",
+    "epoch": 1778164805
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 88.12,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 7 億美元的遷移：為什麼 Solv Protocol 放棄 LayerZero 轉而使用 Chainlink",
+    "timestamp": "2026-05-07T23:25:07.225088+08:00",
+    "epoch": 1778167505
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2290.17,
+    "change_pct": -2.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 「JaredfromSubway」機器人前端運行 Vitalik Buterin 的 4 美元代幣交換，交易量為 100 萬美元\n- [Fortune] 2026 年 5 月 7 日以太幣當前價格 - 財富",
+    "timestamp": "2026-05-07T23:30:11.308441+08:00",
+    "epoch": 1778167808
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 88.44,
+    "change_pct": -2.18,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [CoinDesk] 7 億美元的遷移：為什麼 Solv Protocol 放棄 LayerZero 轉而使用 Chainlink",
+    "timestamp": "2026-05-07T23:55:10.821850+08:00",
+    "epoch": 1778169308
   }
 ]
