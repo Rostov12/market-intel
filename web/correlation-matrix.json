@@ -1,76 +1,76 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-09",
   "pairs": [
     {
       "pair": "黃金 vs 美元",
       "s1": "GLD",
       "s2": "UUP",
-      "corr_20d": -0.696,
-      "corr_60d": -0.283,
-      "change_20d": -0.457,
+      "corr_20d": -0.676,
+      "corr_60d": -0.282,
+      "change_20d": -0.464,
       "anomaly": true
     },
     {
       "pair": "BTC vs 納指",
       "s1": "BTC-USD",
       "s2": "^IXIC",
-      "corr_20d": 0.15,
-      "corr_60d": 0.039,
-      "change_20d": -0.031,
+      "corr_20d": 0.191,
+      "corr_60d": 0.032,
+      "change_20d": 0.06,
       "anomaly": false
     },
     {
       "pair": "S&P vs VIX",
       "s1": "^GSPC",
       "s2": "^VIX",
-      "corr_20d": -0.609,
-      "corr_60d": -0.837,
-      "change_20d": 0.304,
+      "corr_20d": -0.583,
+      "corr_60d": -0.833,
+      "change_20d": 0.321,
       "anomaly": true
     },
     {
       "pair": "黃金 vs 殖利率",
       "s1": "GLD",
       "s2": "^TNX",
-      "corr_20d": -0.828,
-      "corr_60d": -0.385,
-      "change_20d": -0.354,
+      "corr_20d": -0.81,
+      "corr_60d": -0.397,
+      "change_20d": -0.361,
       "anomaly": true
     },
     {
       "pair": "能源股 vs 油價",
       "s1": "XLE",
       "s2": "CL=F",
-      "corr_20d": 0.771,
-      "corr_60d": 0.575,
-      "change_20d": 0.308,
+      "corr_20d": 0.8,
+      "corr_60d": 0.57,
+      "change_20d": 0.347,
       "anomaly": true
     },
     {
       "pair": "半導體 vs 納指",
       "s1": "SMH",
       "s2": "^IXIC",
-      "corr_20d": 0.714,
-      "corr_60d": 0.867,
-      "change_20d": -0.218,
+      "corr_20d": 0.722,
+      "corr_60d": 0.863,
+      "change_20d": -0.204,
       "anomaly": false
     },
     {
       "pair": "BTC vs 黃金",
       "s1": "BTC-USD",
       "s2": "GLD",
-      "corr_20d": 0.213,
-      "corr_60d": 0.151,
-      "change_20d": 0.071,
+      "corr_20d": 0.163,
+      "corr_60d": 0.14,
+      "change_20d": 0.052,
       "anomaly": false
     },
     {
       "pair": "科技 vs 能源",
       "s1": "XLK",
       "s2": "XLE",
-      "corr_20d": -0.455,
-      "corr_60d": -0.324,
-      "change_20d": 0.035,
+      "corr_20d": -0.41,
+      "corr_60d": -0.314,
+      "change_20d": 0.067,
       "anomaly": false
     }
   ],

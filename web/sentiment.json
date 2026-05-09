@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-08",
-  "generated_at": "2026-05-08 04:45",
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-07",
       "2026-05-08",
-      "2026-05-11"
+      "2026-05-11",
+      "2026-05-12"
     ],
-    "total_calls_vol": 4808169,
-    "total_puts_vol": 5229426,
-    "pcr": 1.088,
+    "total_calls_vol": 3398690,
+    "total_puts_vol": 4093331,
+    "pcr": 1.204,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -25,40 +25,44 @@
     "status": "ok",
     "post_count": 25,
     "bull_words": 3,
-    "bear_words": 1,
-    "bull_pct": 75,
+    "bear_words": 2,
+    "bull_pct": 60,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "CRK",
+        "symbol": "INTC",
+        "count": 1
+      },
+      {
+        "symbol": "AAPL",
         "count": 1
       }
     ],
     "top_posts": [
       {
-        "title": "Weekly Earnings Thread 5/4 - 5/8",
-        "score": 219,
-        "upvote_ratio": 0.97
+        "title": "Weekend Discussion Thread for the Weekend of May 08, 2026",
+        "score": 28,
+        "upvote_ratio": 0.86
       },
       {
-        "title": "What Are Your Moves Tomorrow, May 08, 2026",
-        "score": 75,
+        "title": "BLS Report Is a Complete Disaster, -100K Jobs YoY Without four retirement-centri",
+        "score": 1928,
+        "upvote_ratio": 0.92
+      },
+      {
+        "title": "106 RKLB calls. Mocked yesterday. Up 560% today.",
+        "score": 2745,
         "upvote_ratio": 0.95
       },
       {
-        "title": "As soon as the market starts to boom again…",
-        "score": 3577,
-        "upvote_ratio": 0.9
+        "title": "April jobs report: Economy adds 115,000 jobs, far better than expected",
+        "score": 1884,
+        "upvote_ratio": 0.89
       },
       {
-        "title": "Shake Shack shares crater 30% after burger chain reports operating loss",
-        "score": 3660,
-        "upvote_ratio": 0.98
-      },
-      {
-        "title": "From $50K to $1 Million Trading Shares (No Options)",
-        "score": 253,
-        "upvote_ratio": 0.95
+        "title": "What now",
+        "score": 781,
+        "upvote_ratio": 0.87
       }
     ]
   }
