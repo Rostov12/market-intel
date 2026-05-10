@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-09",
-  "generated_at": "2026-05-09 04:32",
+  "date": "2026-05-10",
+  "generated_at": "2026-05-10 04:32",
   "total_events_scanned": 300,
-  "total_matched": 61,
+  "total_matched": 56,
   "top_movers": [
     {
       "title": "When will Bitcoin hit $150k?",
@@ -35,26 +35,58 @@
         },
         {
           "question": "US x Iran permanent peace deal by June 30, 2026?",
-          "prob": 53.5
+          "prob": 46.5
         },
         {
           "question": "US x Iran permanent peace deal by May 31, 2026?",
-          "prob": 34.5
+          "prob": 25.5
         },
         {
           "question": "US x Iran permanent peace deal by May 15, 2026?",
-          "prob": 15.9
+          "prob": 13.1
         },
         {
           "question": "US x Iran permanent peace deal by May 13, 2026?",
-          "prob": 11.5
+          "prob": 7.5
         }
       ],
-      "volume_24h": 4851653.0,
-      "volume_total": 89423431.0,
-      "liquidity": 1502849.0,
+      "volume_24h": 4016768.0,
+      "volume_total": 93439765.0,
+      "liquidity": 2544252.0,
       "end_date": "2026-04-22T00:00:00Z",
       "slug": "us-x-iran-permanent-peace-deal-by"
+    },
+    {
+      "title": "Bitcoin above ___ on May 9?",
+      "question": "Will the price of Bitcoin be above $68,000 on May 9?",
+      "yes_prob": 100.0,
+      "options": [
+        {
+          "question": "Will the price of Bitcoin be above $68,000 on May 9?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $70,000 on May 9?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $72,000 on May 9?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $74,000 on May 9?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $76,000 on May 9?",
+          "prob": 100.0
+        }
+      ],
+      "volume_24h": 1638878.0,
+      "volume_total": 2431475.0,
+      "liquidity": 4248199.0,
+      "end_date": "2026-05-09T16:00:00Z",
+      "slug": "bitcoin-above-on-may-9"
     },
     {
       "title": "Will the US confirm that aliens exist by...?",
@@ -71,78 +103,42 @@
         },
         {
           "question": "Will the US confirm that aliens exist by June 30?",
-          "prob": 7.5
+          "prob": 5.5
         },
         {
           "question": "Will the US confirm that aliens exist by May 31?",
-          "prob": 3.2
+          "prob": 2.1
         }
       ],
-      "volume_24h": 2057037.0,
-      "volume_total": 34619557.0,
-      "liquidity": 876668.0,
+      "volume_24h": 1146225.0,
+      "volume_total": 35763915.0,
+      "liquidity": 796210.0,
       "end_date": "2026-12-31T00:00:00Z",
       "slug": "will-the-us-confirm-that-aliens-exist-before-2027"
     },
     {
-      "title": "Iran closes its airspace by...?",
-      "question": "Iran closes its airspace by May 8?",
-      "yes_prob": 2.2,
-      "options": [
-        {
-          "question": "Iran closes its airspace by May 31?",
-          "prob": 27.5
-        },
-        {
-          "question": "Iran closes its airspace by May 15?",
-          "prob": 13.5
-        },
-        {
-          "question": "Iran closes its airspace by May 8?",
-          "prob": 2.2
-        }
-      ],
-      "volume_24h": 1435817.0,
-      "volume_total": 10440182.0,
-      "liquidity": 182333.0,
-      "end_date": "2026-05-31T00:00:00Z",
-      "slug": "iran-closes-its-airspace-by"
-    },
-    {
       "title": "Fed Decision in June?",
       "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-      "yes_prob": 1.7,
+      "yes_prob": 1.6,
       "options": [
         {
           "question": "Will there be no change in Fed interest rates after the June 2026 meeting?",
-          "prob": 97.2
+          "prob": 97.5
         },
         {
           "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-          "prob": 1.7
+          "prob": 1.6
+        },
+        {
+          "question": "Will the Fed increase interest rates by 25 bps after the June 2026 meeting?",
+          "prob": 0.7
         }
       ],
-      "volume_24h": 1233462.0,
-      "volume_total": 20402431.0,
-      "liquidity": 2712735.0,
+      "volume_24h": 919593.0,
+      "volume_total": 21321673.0,
+      "liquidity": 2310750.0,
       "end_date": "2026-06-17T00:00:00Z",
       "slug": "fed-decision-in-june-825"
-    },
-    {
-      "title": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt",
-      "question": "Will BV Borussia 09 Dortmund vs. Eintracht Frankfurt end in a draw?",
-      "yes_prob": 0.1,
-      "options": [
-        {
-          "question": "Will BV Borussia 09 Dortmund win on 2026-05-08?",
-          "prob": 100.0
-        }
-      ],
-      "volume_24h": 1231589.0,
-      "volume_total": 1244997.0,
-      "liquidity": 274234.0,
-      "end_date": "2026-05-08T18:30:00Z",
-      "slug": "bun-dor-ein-2026-05-08"
     },
     {
       "title": "What price will Bitcoin hit in May?",
@@ -155,82 +151,46 @@
         },
         {
           "question": "Will Bitcoin reach $85,000 in May?",
-          "prob": 48.5
+          "prob": 56.5
         },
         {
           "question": "Will Bitcoin dip to $75,000 in May?",
-          "prob": 45.5
+          "prob": 42.5
         },
         {
           "question": "Will Bitcoin reach $90,000 in May?",
-          "prob": 15.5
+          "prob": 19.5
         },
         {
           "question": "Will Bitcoin dip to $70,000 in May?",
-          "prob": 15.5
+          "prob": 14.5
         }
       ],
-      "volume_24h": 1004547.0,
-      "volume_total": 8930162.0,
-      "liquidity": 2627616.0,
+      "volume_24h": 769702.0,
+      "volume_total": 9699663.0,
+      "liquidity": 2802021.0,
       "end_date": "2026-06-01T04:00:00Z",
       "slug": "what-price-will-bitcoin-hit-in-may-2026"
     },
     {
-      "title": "What will WTI Crude Oil (WTI) hit in May 2026?",
-      "question": "Will WTI Crude Oil (WTI) hit (HIGH) $150 in May?",
-      "yes_prob": 2.6,
+      "title": "Iran closes its airspace by...?",
+      "question": "Iran closes its airspace by May 8?",
+      "yes_prob": 0.0,
       "options": [
         {
-          "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in May?",
-          "prob": 100.0
+          "question": "Iran closes its airspace by May 31?",
+          "prob": 29.5
         },
         {
-          "question": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in May?",
-          "prob": 100.0
-        },
-        {
-          "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
-          "prob": 100.0
-        },
-        {
-          "question": "Will WTI Crude Oil (WTI) hit (LOW) $95 in May?",
-          "prob": 100.0
-        },
-        {
-          "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in May?",
-          "prob": 100.0
+          "question": "Iran closes its airspace by May 15?",
+          "prob": 10.0
         }
       ],
-      "volume_24h": 831902.0,
-      "volume_total": 11814469.0,
-      "liquidity": 1487709.0,
-      "end_date": "2026-06-01T03:59:59.999Z",
-      "slug": "what-price-will-wti-hit-in-may-2026"
-    },
-    {
-      "title": "US obtains Iranian enriched uranium by...?",
-      "question": "US obtains Iranian enriched uranium by May 31?",
-      "yes_prob": 5.5,
-      "options": [
-        {
-          "question": "US obtains Iranian enriched uranium by December 31?",
-          "prob": 24.5
-        },
-        {
-          "question": "US obtains Iranian enriched uranium by June 30?",
-          "prob": 11.5
-        },
-        {
-          "question": "US obtains Iranian enriched uranium by May 31?",
-          "prob": 5.5
-        }
-      ],
-      "volume_24h": 714579.0,
-      "volume_total": 11881493.0,
-      "liquidity": 472074.0,
+      "volume_24h": 618663.0,
+      "volume_total": 11058736.0,
+      "liquidity": 188343.0,
       "end_date": "2026-05-31T00:00:00Z",
-      "slug": "us-obtains-iranian-enriched-uranium-by"
+      "slug": "iran-closes-its-airspace-by"
     },
     {
       "title": "Will Trump visit China by...?",
@@ -239,22 +199,86 @@
       "options": [
         {
           "question": "Will Trump visit China by June 30?",
-          "prob": 96.7
+          "prob": 96.6
         },
         {
           "question": "Will Trump visit China by May 31?",
-          "prob": 95.4
+          "prob": 95.7
         },
         {
           "question": "Will Trump visit China by May 15?",
-          "prob": 91.0
+          "prob": 88.5
         }
       ],
-      "volume_24h": 564838.0,
-      "volume_total": 31156790.0,
-      "liquidity": 489124.0,
+      "volume_24h": 557087.0,
+      "volume_total": 31709140.0,
+      "liquidity": 191272.0,
       "end_date": "2025-10-31T00:00:00Z",
       "slug": "will-trump-visit-china-by"
+    },
+    {
+      "title": "Bitcoin above ___ on May 10?",
+      "question": "Will the price of Bitcoin be above $84,000 on May 10?",
+      "yes_prob": 1.2,
+      "options": [
+        {
+          "question": "Will the price of Bitcoin be above $72,000 on May 10?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $74,000 on May 10?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $68,000 on May 10?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $70,000 on May 10?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will the price of Bitcoin be above $76,000 on May 10?",
+          "prob": 99.6
+        }
+      ],
+      "volume_24h": 528031.0,
+      "volume_total": 744627.0,
+      "liquidity": 419697.0,
+      "end_date": "2026-05-10T16:00:00Z",
+      "slug": "bitcoin-above-on-may-10"
+    },
+    {
+      "title": "Will Crude Oil (CL) hit__ by end of June?",
+      "question": "Will Crude Oil (CL) hit (HIGH) $90 by end of June?",
+      "yes_prob": 100.0,
+      "options": [
+        {
+          "question": "Will Crude Oil (CL) hit (HIGH) $90 by end of June?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will Crude Oil (CL) hit (HIGH) $56 by end of June?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will Crude Oil (CL) hit (HIGH) $65 by end of June?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will Crude Oil (CL) hit (HIGH) $75 by end of June?",
+          "prob": 100.0
+        },
+        {
+          "question": "Will Crude Oil (CL) hit (HIGH) $70 by end of June?",
+          "prob": 100.0
+        }
+      ],
+      "volume_24h": 448503.0,
+      "volume_total": 15547406.0,
+      "liquidity": 861585.0,
+      "end_date": "2026-06-30T18:30:00Z",
+      "slug": "cl-hit-jun-2026"
     }
   ],
   "categories": {
@@ -264,20 +288,24 @@
         {
           "title": "Fed Decision in June?",
           "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-          "yes_prob": 1.7,
+          "yes_prob": 1.6,
           "options": [
             {
               "question": "Will there be no change in Fed interest rates after the June 2026 meeting?",
-              "prob": 97.2
+              "prob": 97.5
             },
             {
               "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-              "prob": 1.7
+              "prob": 1.6
+            },
+            {
+              "question": "Will the Fed increase interest rates by 25 bps after the June 2026 meeting?",
+              "prob": 0.7
             }
           ],
-          "volume_24h": 1233462.0,
-          "volume_total": 20402431.0,
-          "liquidity": 2712735.0,
+          "volume_24h": 919593.0,
+          "volume_total": 21321673.0,
+          "liquidity": 2310750.0,
           "end_date": "2026-06-17T00:00:00Z",
           "slug": "fed-decision-in-june-825"
         },
@@ -291,24 +319,24 @@
               "prob": 99.8
             }
           ],
-          "volume_24h": 210737.0,
-          "volume_total": 50225025.0,
-          "liquidity": 3164525.0,
+          "volume_24h": 382820.0,
+          "volume_total": 50606625.0,
+          "liquidity": 3361667.0,
           "end_date": "2026-10-31T00:00:00Z",
           "slug": "who-will-be-confirmed-as-fed-chair"
         },
         {
           "title": "How many Fed rate cuts in 2026?",
           "question": "Will no Fed rate cuts happen in 2026?",
-          "yes_prob": 55.6,
+          "yes_prob": 56.5,
           "options": [
             {
               "question": "Will no Fed rate cuts happen in 2026?",
-              "prob": 55.6
+              "prob": 56.5
             },
             {
               "question": "Will 1 Fed rate cut happen in 2026?",
-              "prob": 18.5
+              "prob": 20.5
             },
             {
               "question": "Will 2 Fed rate cuts happen in 2026?",
@@ -316,93 +344,46 @@
             },
             {
               "question": "Will 3 Fed rate cuts happen in 2026?",
-              "prob": 6.5
+              "prob": 5.5
             },
             {
               "question": "Will 4 Fed rate cuts happen in 2026?",
-              "prob": 2.5
+              "prob": 2.2
             }
           ],
-          "volume_24h": 175058.0,
-          "volume_total": 24156439.0,
-          "liquidity": 1024787.0,
+          "volume_24h": 238784.0,
+          "volume_total": 24395144.0,
+          "liquidity": 753097.0,
           "end_date": "2026-12-31T00:00:00Z",
           "slug": "how-many-fed-rate-cuts-in-2026"
         },
         {
-          "title": "Jerome Powell out as Fed Chair by...?",
-          "question": "Jerome Powell out as Fed Chair by May 14, 2026?",
-          "yes_prob": 0.8,
-          "options": [
-            {
-              "question": "Jerome Powell out as Fed Chair by June 30, 2026?",
-              "prob": 99.2
-            },
-            {
-              "question": "Jerome Powell out as Fed Chair by May 31, 2026?",
-              "prob": 98.9
-            },
-            {
-              "question": "Jerome Powell out as Fed Chair by May 16, 2026?",
-              "prob": 96.2
-            },
-            {
-              "question": "Jerome Powell out as Fed Chair by May 15, 2026?",
-              "prob": 24.5
-            },
-            {
-              "question": "Jerome Powell out as Fed Chair by May 14, 2026?",
-              "prob": 0.8
-            }
-          ],
-          "volume_24h": 54838.0,
-          "volume_total": 3975721.0,
-          "liquidity": 252370.0,
-          "end_date": "2026-05-14T00:00:00Z",
-          "slug": "jerome-powell-out-as-fed-chair-by"
-        },
-        {
           "title": "Fed Decision in July?",
           "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "yes_prob": 89.5,
+          "yes_prob": 91.5,
           "options": [
             {
               "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-              "prob": 89.5
+              "prob": 91.5
             },
             {
               "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-              "prob": 5.1
+              "prob": 5.2
             },
             {
               "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-              "prob": 3.5
+              "prob": 2.6
             },
             {
               "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
-              "prob": 1.7
-            },
-            {
-              "question": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
-              "prob": 0.7
+              "prob": 1.4
             }
           ],
-          "volume_24h": 52629.0,
-          "volume_total": 4751235.0,
-          "liquidity": 497094.0,
+          "volume_24h": 101347.0,
+          "volume_total": 4852582.0,
+          "liquidity": 446726.0,
           "end_date": "2026-07-29T00:00:00Z",
           "slug": "fed-decision-in-july-181"
-        },
-        {
-          "title": "Fed rate hike in 2026?",
-          "question": "Fed rate hike in 2026?",
-          "yes_prob": 17.5,
-          "options": null,
-          "volume_24h": 52423.0,
-          "volume_total": 1052061.0,
-          "liquidity": 22968.0,
-          "end_date": "2026-12-09T00:00:00Z",
-          "slug": "fed-rate-hike-in-2026"
         }
       ]
     },
@@ -434,134 +415,6 @@
           "slug": "when-will-bitcoin-hit-150k"
         },
         {
-          "title": "Will the US confirm that aliens exist by...?",
-          "question": "Will the US confirm that aliens exist before 2027?",
-          "yes_prob": 17.5,
-          "options": [
-            {
-              "question": "Will the US confirm that aliens exist before 2027?",
-              "prob": 17.5
-            },
-            {
-              "question": "Will the US confirm that aliens exist by September 30?",
-              "prob": 12.5
-            },
-            {
-              "question": "Will the US confirm that aliens exist by June 30?",
-              "prob": 7.5
-            },
-            {
-              "question": "Will the US confirm that aliens exist by May 31?",
-              "prob": 3.2
-            }
-          ],
-          "volume_24h": 2057037.0,
-          "volume_total": 34619557.0,
-          "liquidity": 876668.0,
-          "end_date": "2026-12-31T00:00:00Z",
-          "slug": "will-the-us-confirm-that-aliens-exist-before-2027"
-        },
-        {
-          "title": "Iran closes its airspace by...?",
-          "question": "Iran closes its airspace by May 8?",
-          "yes_prob": 2.2,
-          "options": [
-            {
-              "question": "Iran closes its airspace by May 31?",
-              "prob": 27.5
-            },
-            {
-              "question": "Iran closes its airspace by May 15?",
-              "prob": 13.5
-            },
-            {
-              "question": "Iran closes its airspace by May 8?",
-              "prob": 2.2
-            }
-          ],
-          "volume_24h": 1435817.0,
-          "volume_total": 10440182.0,
-          "liquidity": 182333.0,
-          "end_date": "2026-05-31T00:00:00Z",
-          "slug": "iran-closes-its-airspace-by"
-        },
-        {
-          "title": "Fed Decision in June?",
-          "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-          "yes_prob": 1.7,
-          "options": [
-            {
-              "question": "Will there be no change in Fed interest rates after the June 2026 meeting?",
-              "prob": 97.2
-            },
-            {
-              "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
-              "prob": 1.7
-            }
-          ],
-          "volume_24h": 1233462.0,
-          "volume_total": 20402431.0,
-          "liquidity": 2712735.0,
-          "end_date": "2026-06-17T00:00:00Z",
-          "slug": "fed-decision-in-june-825"
-        },
-        {
-          "title": "What price will Bitcoin hit in May?",
-          "question": "Will Bitcoin reach $115,000 in May?",
-          "yes_prob": 0.7,
-          "options": [
-            {
-              "question": "Will Bitcoin reach $80,000 in May?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will Bitcoin reach $85,000 in May?",
-              "prob": 48.5
-            },
-            {
-              "question": "Will Bitcoin dip to $75,000 in May?",
-              "prob": 45.5
-            },
-            {
-              "question": "Will Bitcoin reach $90,000 in May?",
-              "prob": 15.5
-            },
-            {
-              "question": "Will Bitcoin dip to $70,000 in May?",
-              "prob": 15.5
-            }
-          ],
-          "volume_24h": 1004547.0,
-          "volume_total": 8930162.0,
-          "liquidity": 2627616.0,
-          "end_date": "2026-06-01T04:00:00Z",
-          "slug": "what-price-will-bitcoin-hit-in-may-2026"
-        },
-        {
-          "title": "Will Trump visit China by...?",
-          "question": "Will Trump visit China by October 31?",
-          "yes_prob": 0.0,
-          "options": [
-            {
-              "question": "Will Trump visit China by June 30?",
-              "prob": 96.7
-            },
-            {
-              "question": "Will Trump visit China by May 31?",
-              "prob": 95.4
-            },
-            {
-              "question": "Will Trump visit China by May 15?",
-              "prob": 91.0
-            }
-          ],
-          "volume_24h": 564838.0,
-          "volume_total": 31156790.0,
-          "liquidity": 489124.0,
-          "end_date": "2025-10-31T00:00:00Z",
-          "slug": "will-trump-visit-china-by"
-        },
-        {
           "title": "Bitcoin above ___ on May 9?",
           "question": "Will the price of Bitcoin be above $68,000 on May 9?",
           "yes_prob": 100.0,
@@ -580,42 +433,178 @@
             },
             {
               "question": "Will the price of Bitcoin be above $74,000 on May 9?",
-              "prob": 99.7
+              "prob": 100.0
             },
             {
               "question": "Will the price of Bitcoin be above $76,000 on May 9?",
-              "prob": 99.4
+              "prob": 100.0
             }
           ],
-          "volume_24h": 531402.0,
-          "volume_total": 808406.0,
-          "liquidity": 341458.0,
+          "volume_24h": 1638878.0,
+          "volume_total": 2431475.0,
+          "liquidity": 4248199.0,
           "end_date": "2026-05-09T16:00:00Z",
           "slug": "bitcoin-above-on-may-9"
         },
         {
-          "title": "MicroStrategy sells any Bitcoin by ___ ?",
-          "question": "MicroStrategy sells any Bitcoin in 2025?",
+          "title": "Will the US confirm that aliens exist by...?",
+          "question": "Will the US confirm that aliens exist before 2027?",
+          "yes_prob": 17.5,
+          "options": [
+            {
+              "question": "Will the US confirm that aliens exist before 2027?",
+              "prob": 17.5
+            },
+            {
+              "question": "Will the US confirm that aliens exist by September 30?",
+              "prob": 12.5
+            },
+            {
+              "question": "Will the US confirm that aliens exist by June 30?",
+              "prob": 5.5
+            },
+            {
+              "question": "Will the US confirm that aliens exist by May 31?",
+              "prob": 2.1
+            }
+          ],
+          "volume_24h": 1146225.0,
+          "volume_total": 35763915.0,
+          "liquidity": 796210.0,
+          "end_date": "2026-12-31T00:00:00Z",
+          "slug": "will-the-us-confirm-that-aliens-exist-before-2027"
+        },
+        {
+          "title": "Fed Decision in June?",
+          "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
+          "yes_prob": 1.6,
+          "options": [
+            {
+              "question": "Will there be no change in Fed interest rates after the June 2026 meeting?",
+              "prob": 97.5
+            },
+            {
+              "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
+              "prob": 1.6
+            },
+            {
+              "question": "Will the Fed increase interest rates by 25 bps after the June 2026 meeting?",
+              "prob": 0.7
+            }
+          ],
+          "volume_24h": 919593.0,
+          "volume_total": 21321673.0,
+          "liquidity": 2310750.0,
+          "end_date": "2026-06-17T00:00:00Z",
+          "slug": "fed-decision-in-june-825"
+        },
+        {
+          "title": "What price will Bitcoin hit in May?",
+          "question": "Will Bitcoin reach $115,000 in May?",
+          "yes_prob": 0.7,
+          "options": [
+            {
+              "question": "Will Bitcoin reach $80,000 in May?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will Bitcoin reach $85,000 in May?",
+              "prob": 56.5
+            },
+            {
+              "question": "Will Bitcoin dip to $75,000 in May?",
+              "prob": 42.5
+            },
+            {
+              "question": "Will Bitcoin reach $90,000 in May?",
+              "prob": 19.5
+            },
+            {
+              "question": "Will Bitcoin dip to $70,000 in May?",
+              "prob": 14.5
+            }
+          ],
+          "volume_24h": 769702.0,
+          "volume_total": 9699663.0,
+          "liquidity": 2802021.0,
+          "end_date": "2026-06-01T04:00:00Z",
+          "slug": "what-price-will-bitcoin-hit-in-may-2026"
+        },
+        {
+          "title": "Iran closes its airspace by...?",
+          "question": "Iran closes its airspace by May 8?",
           "yes_prob": 0.0,
           "options": [
             {
-              "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
-              "prob": 82.5
+              "question": "Iran closes its airspace by May 31?",
+              "prob": 29.5
             },
             {
-              "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
-              "prob": 69.5
-            },
-            {
-              "question": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-              "prob": 52.0
+              "question": "Iran closes its airspace by May 15?",
+              "prob": 10.0
             }
           ],
-          "volume_24h": 281376.0,
-          "volume_total": 23931806.0,
-          "liquidity": 92567.0,
-          "end_date": "2025-12-31T12:00:00Z",
-          "slug": "microstrategy-sell-any-bitcoin-in-2025"
+          "volume_24h": 618663.0,
+          "volume_total": 11058736.0,
+          "liquidity": 188343.0,
+          "end_date": "2026-05-31T00:00:00Z",
+          "slug": "iran-closes-its-airspace-by"
+        },
+        {
+          "title": "Will Trump visit China by...?",
+          "question": "Will Trump visit China by October 31?",
+          "yes_prob": 0.0,
+          "options": [
+            {
+              "question": "Will Trump visit China by June 30?",
+              "prob": 96.6
+            },
+            {
+              "question": "Will Trump visit China by May 31?",
+              "prob": 95.7
+            },
+            {
+              "question": "Will Trump visit China by May 15?",
+              "prob": 88.5
+            }
+          ],
+          "volume_24h": 557087.0,
+          "volume_total": 31709140.0,
+          "liquidity": 191272.0,
+          "end_date": "2025-10-31T00:00:00Z",
+          "slug": "will-trump-visit-china-by"
+        },
+        {
+          "title": "Bitcoin above ___ on May 10?",
+          "question": "Will the price of Bitcoin be above $84,000 on May 10?",
+          "yes_prob": 1.2,
+          "options": [
+            {
+              "question": "Will the price of Bitcoin be above $72,000 on May 10?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will the price of Bitcoin be above $74,000 on May 10?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will the price of Bitcoin be above $68,000 on May 10?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will the price of Bitcoin be above $70,000 on May 10?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will the price of Bitcoin be above $76,000 on May 10?",
+              "prob": 99.6
+            }
+          ],
+          "volume_24h": 528031.0,
+          "volume_total": 744627.0,
+          "liquidity": 419697.0,
+          "end_date": "2026-05-10T16:00:00Z",
+          "slug": "bitcoin-above-on-may-10"
         }
       ]
     },
@@ -633,133 +622,70 @@
             },
             {
               "question": "US x Iran permanent peace deal by June 30, 2026?",
-              "prob": 53.5
+              "prob": 46.5
             },
             {
               "question": "US x Iran permanent peace deal by May 31, 2026?",
-              "prob": 34.5
+              "prob": 25.5
             },
             {
               "question": "US x Iran permanent peace deal by May 15, 2026?",
-              "prob": 15.9
+              "prob": 13.1
             },
             {
               "question": "US x Iran permanent peace deal by May 13, 2026?",
-              "prob": 11.5
+              "prob": 7.5
             }
           ],
-          "volume_24h": 4851653.0,
-          "volume_total": 89423431.0,
-          "liquidity": 1502849.0,
+          "volume_24h": 4016768.0,
+          "volume_total": 93439765.0,
+          "liquidity": 2544252.0,
           "end_date": "2026-04-22T00:00:00Z",
           "slug": "us-x-iran-permanent-peace-deal-by"
         },
         {
           "title": "Iran closes its airspace by...?",
           "question": "Iran closes its airspace by May 8?",
-          "yes_prob": 2.2,
+          "yes_prob": 0.0,
           "options": [
             {
               "question": "Iran closes its airspace by May 31?",
-              "prob": 27.5
+              "prob": 29.5
             },
             {
               "question": "Iran closes its airspace by May 15?",
-              "prob": 13.5
-            },
-            {
-              "question": "Iran closes its airspace by May 8?",
-              "prob": 2.2
+              "prob": 10.0
             }
           ],
-          "volume_24h": 1435817.0,
-          "volume_total": 10440182.0,
-          "liquidity": 182333.0,
+          "volume_24h": 618663.0,
+          "volume_total": 11058736.0,
+          "liquidity": 188343.0,
           "end_date": "2026-05-31T00:00:00Z",
           "slug": "iran-closes-its-airspace-by"
         },
         {
-          "title": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt",
-          "question": "Will BV Borussia 09 Dortmund vs. Eintracht Frankfurt end in a draw?",
-          "yes_prob": 0.1,
+          "title": "US x Iran diplomatic meeting by...?",
+          "question": "US x Iran diplomatic meeting by April 15, 2026?",
+          "yes_prob": 0.0,
           "options": [
             {
-              "question": "Will BV Borussia 09 Dortmund win on 2026-05-08?",
-              "prob": 100.0
+              "question": "US x Iran diplomatic meeting by June 30, 2026?",
+              "prob": 74.0
+            },
+            {
+              "question": "US x Iran diplomatic meeting by May 31, 2026?",
+              "prob": 47.5
+            },
+            {
+              "question": "US x Iran diplomatic meeting by May 15, 2026?",
+              "prob": 15.5
             }
           ],
-          "volume_24h": 1231589.0,
-          "volume_total": 1244997.0,
-          "liquidity": 274234.0,
-          "end_date": "2026-05-08T18:30:00Z",
-          "slug": "bun-dor-ein-2026-05-08"
-        },
-        {
-          "title": "US obtains Iranian enriched uranium by...?",
-          "question": "US obtains Iranian enriched uranium by May 31?",
-          "yes_prob": 5.5,
-          "options": [
-            {
-              "question": "US obtains Iranian enriched uranium by December 31?",
-              "prob": 24.5
-            },
-            {
-              "question": "US obtains Iranian enriched uranium by June 30?",
-              "prob": 11.5
-            },
-            {
-              "question": "US obtains Iranian enriched uranium by May 31?",
-              "prob": 5.5
-            }
-          ],
-          "volume_24h": 714579.0,
-          "volume_total": 11881493.0,
-          "liquidity": 472074.0,
-          "end_date": "2026-05-31T00:00:00Z",
-          "slug": "us-obtains-iranian-enriched-uranium-by"
-        },
-        {
-          "title": "Will the U.S. invade Iran before 2027?",
-          "question": "Will the U.S. invade Iran before 2027?",
-          "yes_prob": 21.5,
-          "options": null,
-          "volume_24h": 515501.0,
-          "volume_total": 26449483.0,
-          "liquidity": 437688.0,
-          "end_date": "2026-12-31T00:00:00Z",
-          "slug": "will-the-us-invade-iran-before-2027"
-        },
-        {
-          "title": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt - More Markets",
-          "question": "Spread: BV Borussia 09 Dortmund (-1.5)",
-          "yes_prob": 0.1,
-          "options": [
-            {
-              "question": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt: O/U 2.5",
-              "prob": 100.0
-            },
-            {
-              "question": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt: O/U 3.5",
-              "prob": 100.0
-            },
-            {
-              "question": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt: O/U 1.5",
-              "prob": 100.0
-            },
-            {
-              "question": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt: O/U 4.5",
-              "prob": 100.0
-            },
-            {
-              "question": "BV Borussia 09 Dortmund vs. Eintracht Frankfurt: Both Teams to Score",
-              "prob": 100.0
-            }
-          ],
-          "volume_24h": 484255.0,
-          "volume_total": 489158.0,
-          "liquidity": 1763854.0,
-          "end_date": "2026-05-08T18:30:00Z",
-          "slug": "bun-dor-ein-2026-05-08-more-markets"
+          "volume_24h": 419199.0,
+          "volume_total": 33810665.0,
+          "liquidity": 220747.0,
+          "end_date": "2026-04-30T00:00:00Z",
+          "slug": "us-x-iran-diplomatic-meeting-by-329"
         },
         {
           "title": "California Governor Election Winner",
@@ -768,15 +694,15 @@
           "options": [
             {
               "question": "Will Xavier Becerra win the California Governor Election in 2026?",
-              "prob": 48.1
+              "prob": 49.4
             },
             {
               "question": "Will Tom Steyer win the California Governor Election in 2026?",
-              "prob": 35.6
+              "prob": 34.5
             },
             {
               "question": "Will Steve Hilton win the California Governor Election in 2026?",
-              "prob": 8.5
+              "prob": 9.6
             },
             {
               "question": "Will Matt Mahan win the California Governor Election in 2026?",
@@ -784,14 +710,30 @@
             },
             {
               "question": "Will Chad Bianco win the California Governor Election in 2026?",
-              "prob": 2.2
+              "prob": 2.1
             }
           ],
-          "volume_24h": 461615.0,
-          "volume_total": 18785090.0,
-          "liquidity": 3069305.0,
+          "volume_24h": 414643.0,
+          "volume_total": 19199587.0,
+          "liquidity": 2414715.0,
           "end_date": "2026-11-03T00:00:00Z",
           "slug": "california-governor-election-2026"
+        },
+        {
+          "title": "Who will be confirmed as Fed Chair?",
+          "question": "Will Kevin Warsh be confirmed as Fed Chair?",
+          "yes_prob": 99.8,
+          "options": [
+            {
+              "question": "Will Kevin Warsh be confirmed as Fed Chair?",
+              "prob": 99.8
+            }
+          ],
+          "volume_24h": 382820.0,
+          "volume_total": 50606625.0,
+          "liquidity": 3361667.0,
+          "end_date": "2026-10-31T00:00:00Z",
+          "slug": "who-will-be-confirmed-as-fed-chair"
         },
         {
           "title": "Will China invade Taiwan by end of 2026?",
@@ -803,68 +745,55 @@
           "liquidity": 979681.0,
           "end_date": "2026-12-31T00:00:00Z",
           "slug": "will-china-invade-taiwan-before-2027"
+        },
+        {
+          "title": "2026 NHL Stanley Cup Champion ",
+          "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+          "yes_prob": 34.5,
+          "options": [
+            {
+              "question": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+              "prob": 37.8
+            },
+            {
+              "question": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+              "prob": 34.5
+            },
+            {
+              "question": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+              "prob": 11.3
+            },
+            {
+              "question": "Will the Montreal Canadiens win the 2026 NHL Stanley Cup?",
+              "prob": 6.8
+            },
+            {
+              "question": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+              "prob": 6.3
+            }
+          ],
+          "volume_24h": 318609.0,
+          "volume_total": 76006617.0,
+          "liquidity": 380837.0,
+          "end_date": "2026-06-30T00:00:00Z",
+          "slug": "2026-nhl-stanley-cup-champion"
+        },
+        {
+          "title": "Will the U.S. invade Iran before 2027?",
+          "question": "Will the U.S. invade Iran before 2027?",
+          "yes_prob": 20.5,
+          "options": null,
+          "volume_24h": 265882.0,
+          "volume_total": 26715348.0,
+          "liquidity": 501351.0,
+          "end_date": "2026-12-31T00:00:00Z",
+          "slug": "will-the-us-invade-iran-before-2027"
         }
       ]
     },
     "markets": {
       "label": "📊 金融市場",
       "markets": [
-        {
-          "title": "What will WTI Crude Oil (WTI) hit in May 2026?",
-          "question": "Will WTI Crude Oil (WTI) hit (HIGH) $150 in May?",
-          "yes_prob": 2.6,
-          "options": [
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in May?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in May?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (LOW) $95 in May?",
-              "prob": 100.0
-            },
-            {
-              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in May?",
-              "prob": 100.0
-            }
-          ],
-          "volume_24h": 831902.0,
-          "volume_total": 11814469.0,
-          "liquidity": 1487709.0,
-          "end_date": "2026-06-01T03:59:59.999Z",
-          "slug": "what-price-will-wti-hit-in-may-2026"
-        },
-        {
-          "title": "Largest Company end of June?",
-          "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
-          "yes_prob": 81.0,
-          "options": [
-            {
-              "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
-              "prob": 81.0
-            },
-            {
-              "question": "Will Alphabet be the largest company in the world by market cap on June 30?",
-              "prob": 14.4
-            },
-            {
-              "question": "Will Apple be the largest company in the world by market cap on June 30?",
-              "prob": 2.8
-            }
-          ],
-          "volume_24h": 323237.0,
-          "volume_total": 11082027.0,
-          "liquidity": 1080609.0,
-          "end_date": "2026-06-30T00:00:00Z",
-          "slug": "largest-company-end-of-june-712"
-        },
         {
           "title": "Will Crude Oil (CL) hit__ by end of June?",
           "question": "Will Crude Oil (CL) hit (HIGH) $90 by end of June?",
@@ -891,75 +820,87 @@
               "prob": 100.0
             }
           ],
-          "volume_24h": 214401.0,
-          "volume_total": 15098903.0,
-          "liquidity": 1029605.0,
+          "volume_24h": 448503.0,
+          "volume_total": 15547406.0,
+          "liquidity": 861585.0,
           "end_date": "2026-06-30T18:30:00Z",
           "slug": "cl-hit-jun-2026"
         },
         {
-          "title": "S&P 500 (SPX) Opens Up or Down on May 8?",
-          "question": "S&P 500 (SPX) Opens Up or Down on May 8?",
-          "yes_prob": 100.0,
-          "options": null,
-          "volume_24h": 177595.0,
-          "volume_total": 177634.0,
-          "liquidity": 138401.0,
-          "end_date": "2026-05-08T20:00:00Z",
-          "slug": "spx-opens-up-or-down-on-may-8-2026"
+          "title": "Largest Company end of June?",
+          "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
+          "yes_prob": 80.5,
+          "options": [
+            {
+              "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
+              "prob": 80.5
+            },
+            {
+              "question": "Will Alphabet be the largest company in the world by market cap on June 30?",
+              "prob": 16.8
+            },
+            {
+              "question": "Will Apple be the largest company in the world by market cap on June 30?",
+              "prob": 2.4
+            }
+          ],
+          "volume_24h": 255841.0,
+          "volume_total": 11337855.0,
+          "liquidity": 939157.0,
+          "end_date": "2026-06-30T00:00:00Z",
+          "slug": "largest-company-end-of-june-712"
+        },
+        {
+          "title": "What will WTI Crude Oil (WTI) hit in May 2026?",
+          "question": "Will WTI Crude Oil (WTI) hit (HIGH) $150 in May?",
+          "yes_prob": 2.4,
+          "options": [
+            {
+              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in May?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in May?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will WTI Crude Oil (WTI) hit (LOW) $95 in May?",
+              "prob": 100.0
+            },
+            {
+              "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in May?",
+              "prob": 100.0
+            }
+          ],
+          "volume_24h": 248404.0,
+          "volume_total": 12062802.0,
+          "liquidity": 1773763.0,
+          "end_date": "2026-06-01T03:59:59.999Z",
+          "slug": "what-price-will-wti-hit-in-may-2026"
         },
         {
           "title": "Largest Company end of May?",
           "question": "Will NVIDIA be the largest company in the world by market cap on May 31?",
-          "yes_prob": 85.8,
+          "yes_prob": 88.8,
           "options": [
             {
               "question": "Will NVIDIA be the largest company in the world by market cap on May 31?",
-              "prob": 85.8
+              "prob": 88.8
             },
             {
               "question": "Will Alphabet be the largest company in the world by market cap on May 31?",
-              "prob": 12.0
+              "prob": 10.2
             }
           ],
-          "volume_24h": 140408.0,
-          "volume_total": 2810908.0,
-          "liquidity": 1052445.0,
+          "volume_24h": 175840.0,
+          "volume_total": 2986748.0,
+          "liquidity": 964397.0,
           "end_date": "2026-05-31T06:00:00Z",
           "slug": "largest-company-end-of-may-167"
-        },
-        {
-          "title": "WTI Crude Oil (WTI) Up or Down on May 8?",
-          "question": "WTI Crude Oil (WTI) Up or Down on May 8?",
-          "yes_prob": 1.1,
-          "options": null,
-          "volume_24h": 116487.0,
-          "volume_total": 116503.0,
-          "liquidity": 25375.0,
-          "end_date": "2026-05-08T21:00:00Z",
-          "slug": "wti-up-or-down-on-may-8-2026"
-        },
-        {
-          "title": "SPY (SPY) Up or Down on May 8?",
-          "question": "SPY (SPY) Up or Down on May 8?",
-          "yes_prob": 100.0,
-          "options": null,
-          "volume_24h": 103359.0,
-          "volume_total": 103897.0,
-          "liquidity": 54458.0,
-          "end_date": "2026-05-08T20:00:00Z",
-          "slug": "spy-up-or-down-on-may-8-2026"
-        },
-        {
-          "title": "S&P 500 (SPX) Up or Down on May 8?",
-          "question": "S&P 500 (SPX) Up or Down on May 8?",
-          "yes_prob": 100.0,
-          "options": null,
-          "volume_24h": 94720.0,
-          "volume_total": 94965.0,
-          "liquidity": 35683.0,
-          "end_date": "2026-05-08T20:00:00Z",
-          "slug": "spx-up-or-down-on-may-8-2026"
         }
       ]
     }

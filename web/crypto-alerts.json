@@ -1,25 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2378.25,
-    "change_pct": 3.41,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Motley Fool] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雜七雜八的傻瓜\n- [Yahoo Finance] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雅虎財經",
-    "timestamp": "2026-05-04T11:40:11.897380+08:00",
-    "epoch": 1777866008
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.24,
-    "change_pct": 2.58,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CNN] 比特幣最大的謎團解開了嗎？ - 美國有線電視新聞網",
-    "timestamp": "2026-05-04T11:40:12.564715+08:00",
-    "epoch": 1777866008
-  },
-  {
     "symbol": "BNB/USDT",
     "coin": "BNB",
     "price": 635.9,
@@ -498,5 +478,25 @@
     "news": "- [CoinDesk] 人工智慧代理商在 Consensus 邁阿密 EasyA 黑客馬拉鬆上掀起了創業熱潮\n- [Cointelegraph] 價格預測 5/8：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/8：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
     "timestamp": "2026-05-09T03:45:10.752921+08:00",
     "epoch": 1778269508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 93.69,
+    "change_pct": 2.27,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Coinbase (COIN) 反彈 10%，Solana、LINK、SUI 表現優於比特幣 (BTC) 8 萬美元 - CoinDesk\n- [CoinDesk] 人工智慧代理商在 Consensus 邁阿密 EasyA 黑客馬拉鬆上掀起了創業熱潮\n- [Cointelegraph] 價格預測 5/8：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-09T09:55:11.376979+08:00",
+    "epoch": 1778291709
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 93.45,
+    "change_pct": 2.11,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [FinanceFeeds] 隨著 $495B 回歸加密貨幣，比特幣、以太坊和 Solana 觸及決定性水平 - FinanceFeeds\n- [CoinDesk] 人工智慧代理商在 Consensus 邁阿密 EasyA 黑客馬拉鬆上掀起了創業熱潮\n- [Cointelegraph] 價格預測 5/8：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-09T10:30:11.521870+08:00",
+    "epoch": 1778293808
   }
 ]

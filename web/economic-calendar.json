@@ -8,7 +8,7 @@
   },
   "next_7_days": [
     {
-      "date": "2026-05-13",
+      "date": "2026-05-12",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
@@ -42,7 +42,7 @@
   ],
   "next_14_days": [
     {
-      "date": "2026-05-13",
+      "date": "2026-05-12",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
@@ -87,5 +87,6 @@
         "watch": "通膨預期分項影響 Fed 決策"
       }
     }
-  ]
+  ],
+  "last_verified": "2026-05-09 (Gemini BLS fact-check: CPI date corrected to 5/12 Tuesday)"
 }
