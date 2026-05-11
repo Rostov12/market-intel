@@ -2,236 +2,6 @@
   {
     "symbol": "BNB/USDT",
     "coin": "BNB",
-    "price": 635.9,
-    "change_pct": 2.33,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-04T12:15:06.710193+08:00",
-    "epoch": 1777868104
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2396.21,
-    "change_pct": 2.2,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Motley Fool] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雜七雜八的傻瓜\n- [Yahoo Finance] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雅虎財經",
-    "timestamp": "2026-05-04T12:20:07.853032+08:00",
-    "epoch": 1777868405
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 636.0,
-    "change_pct": 2.78,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-04T12:45:10.324015+08:00",
-    "epoch": 1777869908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2391.81,
-    "change_pct": 2.28,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [The Motley Fool] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雜七雜八的傻瓜\n- [Yahoo Finance] 以太坊是現實世界加密貨幣使用的世代財富選擇嗎？ - 雅虎財經",
-    "timestamp": "2026-05-04T12:55:11.186083+08:00",
-    "epoch": 1777870508
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2328.19,
-    "change_pct": 2.07,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 美國律師事務所試圖阻止利用 Kelp 漏洞轉移凍結的 ETH\n- [CoinTelegraph] 美國律師事務所試圖阻止利用 Kelp 漏洞轉移凍結的 ETH",
-    "timestamp": "2026-05-04T18:10:08.481110+08:00",
-    "epoch": 1777889405
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 78342.6,
-    "change_pct": -2.03,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [CoinTelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [Cointelegraph] 比特幣價格接近 7.9 萬美元，創下 1 月以來最高單週收盤價",
-    "timestamp": "2026-05-04T18:20:11.047776+08:00",
-    "epoch": 1777890008
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.39,
-    "change_pct": -2.11,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-04T18:20:11.604014+08:00",
-    "epoch": 1777890008
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2343.86,
-    "change_pct": 2.4,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 美國律師事務所試圖阻止利用 Kelp 漏洞轉移凍結的 ETH\n- [CoinTelegraph] 美國律師事務所試圖阻止利用 Kelp 漏洞轉移凍結的 ETH",
-    "timestamp": "2026-05-04T18:40:11.584698+08:00",
-    "epoch": 1777891208
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 79067.6,
-    "change_pct": -2.15,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [CoinTelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [Cointelegraph] 比特幣價格接近 7.9 萬美元，創下 1 月以來最高單週收盤價",
-    "timestamp": "2026-05-04T18:50:11.314130+08:00",
-    "epoch": 1777891809
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.16,
-    "change_pct": -2.27,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Coinbase 透過 DFlow 整合促進 Solana 交易",
-    "timestamp": "2026-05-04T18:50:11.981758+08:00",
-    "epoch": 1777891809
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 80090.9,
-    "change_pct": 2.17,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [Cointelegraph] 比特幣價格接近 7.9 萬美元，創下 1 月以來最高單週收盤價\n- [Cointelegraph] 交易員發現比特幣價格目標為 8.4 萬美元，比特幣出現“難以置信的反彈”",
-    "timestamp": "2026-05-04T22:50:09.642472+08:00",
-    "epoch": 1777906207
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2367.53,
-    "change_pct": 2.0,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Tom Lee 表示「加密春天」始於最大的以太坊財政部購買了 2.38 億美元的以太幣\n- [Fortune] 2026 年 5 月 4 日以太幣當前價格 - 財富\n- [CoinDesk] Laywer 出現在 Arbitrum DAO 論壇上，為數十年來朝鮮恐怖行為的受害者尋求資金",
-    "timestamp": "2026-05-04T22:50:11.654021+08:00",
-    "epoch": 1777906207
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.3,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Geopolitical] 伊朗戰爭推高汽油價格 美國餐廳銷售額下降 - 路透社中文網",
-    "timestamp": "2026-05-04T22:55:10.659665+08:00",
-    "epoch": 1777906504
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 79465.2,
-    "change_pct": 2.38,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [Cointelegraph] Hut 8 透過 2 億美元的 FalconX 交易為比特幣支持的貸款再融資\n- [CoinTelegraph] Hut 8 透過 2 億美元的 FalconX 交易為比特幣支持的貸款再融資",
-    "timestamp": "2026-05-04T23:20:10.656552+08:00",
-    "epoch": 1777908008
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2346.81,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Tom Lee 表示「加密春天」始於最大的以太坊財政部購買了 2.38 億美元的以太幣\n- [Fortune] 2026 年 5 月 4 日以太幣當前價格 - 財富",
-    "timestamp": "2026-05-04T23:20:12.069275+08:00",
-    "epoch": 1777908008
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 79819.9,
-    "change_pct": 2.38,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 在第一季財報發布之前，策略讓比特幣購買喘口氣\n- [Cointelegraph] Hut 8 透過 2 億美元的 FalconX 交易為比特幣支持的貸款再融資\n- [CoinTelegraph] Hut 8 透過 2 億美元的 FalconX 交易為比特幣支持的貸款再融資",
-    "timestamp": "2026-05-04T23:50:11.442157+08:00",
-    "epoch": 1777909808
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2348.02,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Tom Lee 表示「加密春天」始於最大的以太坊財政部購買了 2.38 億美元的以太幣\n- [Fortune] 2026 年 5 月 4 日以太幣當前價格 - 財富",
-    "timestamp": "2026-05-04T23:50:12.195702+08:00",
-    "epoch": 1777909808
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 80307.3,
-    "change_pct": 2.42,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Fortune] 隨著期待已久的 CLARITY 法案接近終點，比特幣突破 8 萬美元 - 財富\n- [Cointelegraph] K Wave Media 放棄比特幣金庫推動人工智慧基礎設施\n- [CoinTelegraph] K Wave Media 放棄比特幣金庫推動人工智慧基礎設施",
-    "timestamp": "2026-05-05T00:25:11.849113+08:00",
-    "epoch": 1777911909
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 89.09,
-    "change_pct": 2.09,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 超越人類：Lily Liu 表示 Solana 正在為「人工智慧機器經濟」建立支付軌道",
-    "timestamp": "2026-05-06T17:35:10.286425+08:00",
-    "epoch": 1778060107
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2415.07,
-    "change_pct": 2.12,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 隨著指責遊戲的繼續，Kelp DAO 將 rsETH 遷移到 Chainlink CCIP\n- [CoinTelegraph] 隨著指責遊戲的繼續，Kelp DAO 將 rsETH 遷移到 Chainlink CCIP",
-    "timestamp": "2026-05-06T17:45:10.208505+08:00",
-    "epoch": 1778060707
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 89.34,
-    "change_pct": 2.12,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 超越人類：Lily Liu 表示 Solana 正在為「人工智慧機器經濟」建立支付軌道",
-    "timestamp": "2026-05-06T18:05:10.289276+08:00",
-    "epoch": 1778061907
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 89.63,
-    "change_pct": 2.35,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 超越人類：Lily Liu 表示 Solana 正在為「人工智慧機器經濟」建立支付軌道",
-    "timestamp": "2026-05-06T18:35:10.547188+08:00",
-    "epoch": 1778063707
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 661.7,
-    "change_pct": 2.81,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T20:35:10.258063+08:00",
-    "epoch": 1778070908
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
     "price": 651.2,
     "change_pct": -2.03,
     "direction": "🔻 急跌（閃崩）",
@@ -498,5 +268,235 @@
     "news": "- [FinanceFeeds] 隨著 $495B 回歸加密貨幣，比特幣、以太坊和 Solana 觸及決定性水平 - FinanceFeeds\n- [CoinDesk] 人工智慧代理商在 Consensus 邁阿密 EasyA 黑客馬拉鬆上掀起了創業熱潮\n- [Cointelegraph] 價格預測 5/8：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
     "timestamp": "2026-05-09T10:30:11.521870+08:00",
     "epoch": 1778293808
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 93.26,
+    "change_pct": -2.02,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-10T19:25:07.137251+08:00",
+    "epoch": 1778412305
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 93.44,
+    "change_pct": -2.02,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-10T19:55:10.815745+08:00",
+    "epoch": 1778414105
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 95.79,
+    "change_pct": 2.18,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T01:25:08.227746+08:00",
+    "epoch": 1778433905
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.34,
+    "change_pct": 2.64,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T01:55:11.040110+08:00",
+    "epoch": 1778435709
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.62,
+    "change_pct": 2.85,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T02:30:11.320666+08:00",
+    "epoch": 1778437808
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.87,
+    "change_pct": 2.17,
+    "direction": "🔺 急漲（3h）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T03:30:09.666745+08:00",
+    "epoch": 1778441407
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 94.77,
+    "change_pct": -2.21,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T04:45:09.445331+08:00",
+    "epoch": 1778445907
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2313.78,
+    "change_pct": 2.52,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
+    "timestamp": "2026-05-11T04:50:09.131913+08:00",
+    "epoch": 1778446206
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 649.3,
+    "change_pct": 2.17,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T04:50:09.771534+08:00",
+    "epoch": 1778446206
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 94.73,
+    "change_pct": -2.49,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T05:15:09.829064+08:00",
+    "epoch": 1778447707
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 95.41,
+    "change_pct": -2.49,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T05:50:09.021834+08:00",
+    "epoch": 1778449804
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 95.53,
+    "change_pct": 2.57,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T06:20:09.186368+08:00",
+    "epoch": 1778451607
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 662.1,
+    "change_pct": 2.13,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T06:25:02.950908+08:00",
+    "epoch": 1778451900
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2355.63,
+    "change_pct": 2.19,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
+    "timestamp": "2026-05-11T06:30:10.080009+08:00",
+    "epoch": 1778452207
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 82023.5,
+    "change_pct": 2.27,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CNBC] 比特幣財務公司Strategy打破了對旗艦加密貨幣「永不出售」的態度 - CNBC\n- [Seeking Alpha] 鯨魚的見解：策略會出售比特幣嗎？ 2026 年第一季獲利亮點 - Seeking Alpha\n- [Cointelegraph] 塞勒在第一季財報電話會議中暗示出售比特幣後，暗示將再次購買比特幣",
+    "timestamp": "2026-05-11T06:35:10.446216+08:00",
+    "epoch": 1778452508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.13,
+    "change_pct": 3.16,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T06:55:11.220172+08:00",
+    "epoch": 1778453709
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 665.7,
+    "change_pct": 2.76,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T06:55:11.717425+08:00",
+    "epoch": 1778453709
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2379.55,
+    "change_pct": 2.46,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
+    "timestamp": "2026-05-11T07:00:11.159093+08:00",
+    "epoch": 1778454008
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 82367.9,
+    "change_pct": 2.26,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Seeking Alpha] 鯨魚的見解：策略會出售比特幣嗎？ 2026 年第一季獲利亮點 - Seeking Alpha\n- [Cointelegraph] 塞勒在第一季財報電話會議中暗示出售比特幣後，暗示將再次購買比特幣",
+    "timestamp": "2026-05-11T07:10:11.138557+08:00",
+    "epoch": 1778454609
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.36,
+    "change_pct": 2.19,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T07:30:07.712608+08:00",
+    "epoch": 1778455805
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 665.1,
+    "change_pct": 2.44,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T07:30:08.262494+08:00",
+    "epoch": 1778455805
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2379.09,
+    "change_pct": 2.54,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
+    "timestamp": "2026-05-11T07:35:11.010941+08:00",
+    "epoch": 1778456108
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 82392.2,
+    "change_pct": 2.36,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Seeking Alpha] 鯨魚的見解：策略會出售比特幣嗎？ 2026 年第一季獲利亮點 - Seeking Alpha\n- [Cointelegraph] 塞勒在第一季財報電話會議中暗示出售比特幣後，暗示將再次購買比特幣",
+    "timestamp": "2026-05-11T07:45:10.794579+08:00",
+    "epoch": 1778456708
   }
 ]

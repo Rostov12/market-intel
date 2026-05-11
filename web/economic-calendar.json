@@ -8,7 +8,7 @@
   },
   "next_7_days": [
     {
-      "date": "2026-05-12",
+      "date": "2026-05-12T12:30:00+00:00",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
@@ -24,7 +24,7 @@
       "previous_date": "2026-03-01"
     },
     {
-      "date": "2026-05-15",
+      "date": "2026-05-15T12:30:00+00:00",
       "event": "零售銷售（4月）",
       "importance": "medium",
       "source": "Census",
@@ -42,7 +42,7 @@
   ],
   "next_14_days": [
     {
-      "date": "2026-05-12",
+      "date": "2026-05-12T12:30:00+00:00",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
@@ -58,7 +58,7 @@
       "previous_date": "2026-03-01"
     },
     {
-      "date": "2026-05-15",
+      "date": "2026-05-15T12:30:00+00:00",
       "event": "零售銷售（4月）",
       "importance": "medium",
       "source": "Census",
@@ -88,5 +88,5 @@
       }
     }
   ],
-  "last_verified": "2026-05-09 (Gemini BLS fact-check: CPI date corrected to 5/12 Tuesday)"
+  "last_verified": "2026-05-11 R485 (time fix: CPI date → 2026-05-12T12:30:00+00:00 = 20:30 TST / 08:30 ET)"
 }
