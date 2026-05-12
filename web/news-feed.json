@@ -1,39 +1,15 @@
 {
-  "date": "2026-05-11",
-  "fetched_at": "2026-05-11 07:07",
+  "date": "2026-05-12",
+  "fetched_at": "2026-05-12 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Netanyahu says Iran war is 'not over' as Trump rejects latest Iranian offer",
+      "title": "US issues new sanctions over Iran's oil shipments to China - Reuters",
       "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "內塔尼亞胡表示，由於川普拒絕了伊朗的最新提議，伊朗戰爭「尚未結束」",
-      "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
-    },
-    {
-      "title": "Trump rejects Iran's latest counteroffer to end the war: 'I don't like it'",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "川普拒絕了伊朗關於結束戰爭的最新還價：「我不喜歡它」",
-      "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
-    },
-    {
-      "title": "Putin says he thinks Russia-Ukraine war is coming to an end",
-      "impact": "bearish",
-      "source": "CNBC-World",
-      "title_cn": "普丁表示，他認為俄羅斯與烏克蘭的戰爭即將結束",
-      "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
-    },
-    {
-      "title": "Exclusive: Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz - Reuters",
-      "impact": "neutral",
       "source": "Reuters-Biz",
-      "title_cn": "獨家：阿聯酋因急於出售而將油輪隱藏在霍爾木茲海峽 - 路透社",
+      "title_cn": "美國對伊朗向中國出口石油實施新制裁 - 路透社",
       "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
+      "detected_at": "2026-05-12T05:00:17.576093+08:00"
     },
     {
       "title": "Are Fed hikes the missing catalyst for the dollar? BofA weighs in - Investing.com",
@@ -41,127 +17,151 @@
       "source": "Investing.com",
       "title_cn": "聯準會升息是否是美元缺失的催化劑？美國銀行介入 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
-    },
-    {
-      "title": "Colombia Inflation Ticks Up, Fueling Case For Renewed Rate Hikes - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Colombia Inflation Ticks Up, Fueling Case For Renewed Rate Hikes - Bloomberg.com",
-      "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
-    },
-    {
-      "title": "Oil’s Price Surge Spurs Nigeria’s Flip From Discount to Darling - Bloomberg.com",
-      "impact": "bullish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Oil’s Price Surge Spurs Nigeria’s Flip From Discount to Darling - Bloomberg.com",
-      "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
-    },
-    {
-      "title": "Netanyahu says Iran war is 'not over' as peace deal remains elusive - CNBC",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Netanyahu says Iran war is 'not over' as peace deal remains elusive - CNBC",
-      "time": "05:00",
-      "detected_at": "2026-05-11T05:00:20.859243+08:00"
+      "detected_at": "2026-05-12T05:00:17.576093+08:00"
     },
     {
       "title": "Pimco CIO Sees Risk of Fed Hiking Rates Due to Iran War, FT Says - Bloomberg.com",
       "impact": "bearish",
       "source": "Bloomberg-via-GN",
       "title_cn": "英國《金融時報》稱，Pimco 資訊長認為聯準會因伊朗戰爭而升息的風險 - Bloomberg.com",
-      "time": "04:00",
-      "detected_at": "2026-05-11T04:00:17.654135+08:00"
+      "time": "05:00",
+      "detected_at": "2026-05-12T05:00:17.576093+08:00"
     },
     {
-      "title": "Kelly on Iran war: ‘What are the American people getting out of this?’ - The Hill",
+      "title": "Americans don't think Trump has explained Iran war goals, Reuters/Ipsos poll shows - Reuters",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "凱利談伊朗戰爭：「美國人民能從中得到什麼？」－《國會山莊》",
-      "time": "04:00",
-      "detected_at": "2026-05-11T04:00:17.654135+08:00"
+      "title_cn": "路透社/益普索民調顯示，美國人認為川普沒有解釋伊朗戰爭目標 - 路透社",
+      "time": "05:00",
+      "detected_at": "2026-05-12T05:00:17.576093+08:00"
     },
     {
-      "title": "Benjamin Netanyahu says Iran war 'is not over' - USA Today",
+      "title": "Two-thirds say Trump hasn't made a case for Iran war, poll finds - USA Today",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "班傑明·內塔尼亞胡表示伊朗戰爭「尚未結束」——《今日美國》",
-      "time": "04:00",
-      "detected_at": "2026-05-11T04:00:17.654135+08:00"
+      "title_cn": "民調發現，三分之二的人表示川普沒有為伊朗戰爭辯護 - 《今日美國》",
+      "time": "05:00",
+      "detected_at": "2026-05-12T05:00:17.576093+08:00"
     },
     {
-      "title": "《美股》消息面：美伊在荷姆茲海峽交火川普喊沒事；油價反彈- 國際 - 工商時報",
-      "impact": "bullish",
-      "source": "工商時報",
-      "title_cn": "《美股》消息：美伊在荷姆茲海峽交火川普喊話無效；重啟-國際-工商時報",
-      "time": "04:00",
-      "detected_at": "2026-05-11T04:00:17.654135+08:00"
-    },
-    {
-      "title": "Iran sends response to US proposals to end war - BBC",
+      "title": "Trump vows to pause federal gas tax after Iran war boosts US fuel prices to four-year high - The Guardian",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗對美國結束戰爭的提議做出回應 - BBC",
-      "time": "03:00",
-      "detected_at": "2026-05-11T03:00:16.997044+08:00"
+      "title_cn": "Trump vows to pause federal gas tax after Iran war boosts US fuel prices to four-year high - The Guardian",
+      "time": "05:00",
+      "detected_at": "2026-05-12T05:00:17.576093+08:00"
     },
     {
-      "title": "Barclays pivots, says no Fed rate cuts in 2026 - Investing.com",
-      "impact": "bullish",
+      "title": "Wall Street pushes back Fed rate-cut expectations. Here is why - Investing.com",
+      "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "巴克萊銀行轉向稱聯準會 2026 年不會降息 - Investing.com",
-      "time": "02:00",
-      "detected_at": "2026-05-11T02:00:19.096216+08:00"
+      "title_cn": "華爾街推遲了聯準會降息的預期",
+      "time": "04:00",
+      "detected_at": "2026-05-12T04:00:17.352337+08:00"
     },
     {
-      "title": "Stocks end lower as oil prices rise after Hormuz attacks, hit to UAE energy hub - Investing.com",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "title_cn": "霍爾木茲襲擊襲擊阿聯酋能源中心後，隨著油價上漲，股市收低 - Investing.com",
-      "time": "02:00",
-      "detected_at": "2026-05-11T02:00:19.096216+08:00"
+      "title": "Goldman Sees Fed Cuts Delayed to December, March on Inflation - Bloomberg",
+      "impact": "bearish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "高盛預計聯準會因通膨原因降息將推遲至 12 月和 3 月 - 彭博",
+      "time": "04:00",
+      "detected_at": "2026-05-12T04:00:17.352337+08:00"
+    },
+    {
+      "title": "There’s an Unhinged New Video Game About Trump and the Iran War - WIRED",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "《連線》雜誌推出了一款關於川普和伊朗戰爭的瘋狂新電玩遊戲",
+      "time": "04:00",
+      "detected_at": "2026-05-12T04:00:17.352337+08:00"
     },
     {
       "title": "Iran War Shockwaves Spread Across US Economy - Bloomberg.com",
       "impact": "bearish",
       "source": "Bloomberg-via-GN",
       "title_cn": "伊朗戰爭衝擊波波及美國經濟 - Bloomberg.com",
-      "time": "02:00",
-      "detected_at": "2026-05-11T02:00:19.096216+08:00"
+      "time": "03:00",
+      "detected_at": "2026-05-12T03:00:16.492964+08:00"
     },
     {
-      "title": "Fed’s Kashkari Says Next Rate Move Uncertain Because of Iran War - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "聯準會卡什卡里表示，由於伊朗戰爭，下一步利率變動不確定 - Bloomberg.com",
-      "time": "02:00",
-      "detected_at": "2026-05-11T02:00:19.096216+08:00"
+      "title": "Oil price predicted to remain above $100 for rest of year - BBC",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "BBC 預計今年剩餘時間油價將維持在 100 美元以上",
+      "time": "03:00",
+      "detected_at": "2026-05-12T03:00:16.492964+08:00"
     },
     {
-      "title": "Iran responds to U.S. proposal for ending war amid ongoing hostilities - MS NOW",
+      "title": "Trump, congressional Republicans float suspending federal gas tax amid Iran war - CNBC",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "（Iran responds to U.S. proposal for ending war amid ongoing h）",
-      "time": "02:00",
-      "detected_at": "2026-05-11T02:00:19.096216+08:00"
+      "title_cn": "川普和國會共和黨人提議在伊朗戰爭期間暫停聯邦汽油稅 - CNBC",
+      "time": "03:00",
+      "detected_at": "2026-05-12T03:00:16.492964+08:00"
     },
     {
-      "title": "Could China be drawn into the Iran war? - DW.com",
+      "title": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Could China be drawn into the Iran war? - DW.com",
-      "time": "02:00",
-      "detected_at": "2026-05-11T02:00:19.096216+08:00"
+      "title_cn": "2026年伊朗戰爭|解釋，美國、以色列、霍爾木茲海峽、地圖和衝突 - 大英百科全書",
+      "time": "03:00",
+      "detected_at": "2026-05-12T03:00:16.492964+08:00"
     },
     {
-      "title": "Russia set to buy forex as Middle East war oil windfall arrives - Reuters",
+      "title": "Trump, congressional Republicans float suspending federal gas tax amid Iran war",
       "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "川普和國會共和黨人提議在伊朗戰爭期間暫停聯邦汽油稅",
+      "time": "02:00",
+      "detected_at": "2026-05-12T02:00:20.501825+08:00"
+    },
+    {
+      "title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says - Reuters",
+      "impact": "bullish",
       "source": "Reuters-Biz",
-      "title_cn": "中東戰爭石油意外收穫到來，俄羅斯準備買入外匯 - 路透社",
+      "title_cn": "沙特阿美執行長表示，霍爾木茲海峽的中斷可能會推動石油市場的復甦到 2027 年",
+      "time": "02:00",
+      "detected_at": "2026-05-12T02:00:20.501825+08:00"
+    },
+    {
+      "title": "US, Iran clash in Hormuz as war escalates: What happened, why it matters - Lemkin Institute for Genocide Prevention",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "隨著戰爭升級，美國和伊朗在霍爾木茲發生衝突：發生了什麼，為什麼重要 - 萊姆金預防種族滅絕研究所",
+      "time": "02:00",
+      "detected_at": "2026-05-12T02:00:20.501825+08:00"
+    },
+    {
+      "title": "Trump says Iran ceasefire is on 'life support' and proposes gas tax pause as strait stays closed - AP News",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "川普稱伊朗停火處於“生命維持狀態”，並提議在海峽保持關閉的情況下暫停徵收汽油稅 - 美聯社新聞",
+      "time": "02:00",
+      "detected_at": "2026-05-12T02:00:20.501825+08:00"
+    },
+    {
+      "title": "There's an Unhinged New Video Game About Trump and the Iran War - WIRED",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "《連線》雜誌推出了一款關於川普和伊朗戰爭的瘋狂新電玩遊戲",
+      "time": "02:00",
+      "detected_at": "2026-05-12T02:00:20.501825+08:00"
+    },
+    {
+      "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "沙烏地阿美執行長表示，如果霍爾木茲海峽的干擾持續存在，石油市場要到 2027 年才會正常化",
       "time": "01:00",
-      "detected_at": "2026-05-11T01:00:21.692026+08:00"
+      "detected_at": "2026-05-12T01:00:18.834543+08:00"
+    },
+    {
+      "title": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "路透社調查發現，由於霍爾木茲海峽出口中斷，歐佩克四月份石油產量創下新低 - 路透社中文網透調查發現，因霍爾木茲出口中斷，OPEC 4 月份石油產量創下新低&nbsp;&nbsp;路透",
+      "time": "01:00",
+      "detected_at": "2026-05-12T01:00:18.834543+08:00"
     }
   ]
 }

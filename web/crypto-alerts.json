@@ -1,105 +1,5 @@
 [
   {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 651.2,
-    "change_pct": -2.03,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T21:25:11.245951+08:00",
-    "epoch": 1778073908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2376.51,
-    "change_pct": -2.0,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Fortune] 2026 年 5 月 6 日以太幣當前價格 - 財富\n- [Yahoo Finance] 今天，2026 年 5 月 6 日星期三，比特幣和以太坊價格：價格上漲；比特幣創一月以來最高水準 - 雅虎財經\n- [Geopolitical] 伊朗戰爭引發亞洲塑膠短缺，可能促使「中東加一」供應鏈重新思考 - 財富",
-    "timestamp": "2026-05-06T21:40:12.706846+08:00",
-    "epoch": 1778074808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 88.22,
-    "change_pct": -2.25,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T21:50:11.125673+08:00",
-    "epoch": 1778075408
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 647.3,
-    "change_pct": -2.83,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T21:55:11.545768+08:00",
-    "epoch": 1778075708
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2357.09,
-    "change_pct": -2.81,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Fortune] 2026 年 5 月 6 日以太幣當前價格 - 財富\n- [Yahoo Finance] 今天，2026 年 5 月 6 日星期三，比特幣和以太坊價格：價格上漲；比特幣創一月以來最高水準 - 雅虎財經\n- [Geopolitical] 伊朗戰爭引發亞洲塑膠短缺，可能促使「中東加一」供應鏈重新思考 - 財富",
-    "timestamp": "2026-05-06T22:10:11.595402+08:00",
-    "epoch": 1778076608
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 88.01,
-    "change_pct": -2.78,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T22:20:11.418870+08:00",
-    "epoch": 1778077208
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 647.6,
-    "change_pct": -3.19,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T22:25:11.673848+08:00",
-    "epoch": 1778077509
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2371.86,
-    "change_pct": -2.81,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Fortune] 2026 年 5 月 6 日以太幣當前價格 - 財富\n- [Geopolitical] 伊朗戰爭引發亞洲塑膠短缺，可能促使「中東加一」供應鏈重新思考 - 財富",
-    "timestamp": "2026-05-06T22:45:11.551410+08:00",
-    "epoch": 1778078709
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 88.48,
-    "change_pct": -2.78,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-06T22:55:11.416132+08:00",
-    "epoch": 1778079308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2364.93,
-    "change_pct": -2.09,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Fortune] 2026 年 5 月 6 日以太幣當前價格 - 財富",
-    "timestamp": "2026-05-06T23:20:08.369616+08:00",
-    "epoch": 1778080805
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2358.39,
@@ -498,5 +398,105 @@
     "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Seeking Alpha] 鯨魚的見解：策略會出售比特幣嗎？ 2026 年第一季獲利亮點 - Seeking Alpha\n- [Cointelegraph] 塞勒在第一季財報電話會議中暗示出售比特幣後，暗示將再次購買比特幣",
     "timestamp": "2026-05-11T07:45:10.794579+08:00",
     "epoch": 1778456708
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2368.7,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
+    "timestamp": "2026-05-11T08:10:10.881766+08:00",
+    "epoch": 1778458208
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 81647.8,
+    "change_pct": 2.13,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Seeking Alpha] 鯨魚的見解：策略會出售比特幣嗎？ 2026 年第一季獲利亮點 - Seeking Alpha\n- [Cointelegraph] 塞勒在第一季財報電話會議中暗示出售比特幣後，暗示將再次購買比特幣",
+    "timestamp": "2026-05-11T08:20:11.078398+08:00",
+    "epoch": 1778458805
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2355.0,
+    "change_pct": 2.03,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
+    "timestamp": "2026-05-11T08:45:07.135270+08:00",
+    "epoch": 1778460304
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 81589.7,
+    "change_pct": 2.13,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The New York Times] 意見 |比特幣佈道者試圖改變我 - 紐約時報中文網\n- [Seeking Alpha] 鯨魚的見解：策略會出售比特幣嗎？ 2026 年第一季獲利亮點 - Seeking Alpha\n- [Cointelegraph] 塞勒在第一季財報電話會議中暗示出售比特幣後，暗示將再次購買比特幣",
+    "timestamp": "2026-05-11T08:50:10.442444+08:00",
+    "epoch": 1778460608
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 94.64,
+    "change_pct": -2.01,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-11T11:40:07.175036+08:00",
+    "epoch": 1778470805
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.3,
+    "change_pct": 2.32,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試\n- [Barron's] 比特幣價格下跌，XRP 和 Solana 上漲。加密貨幣法案本周可能會引發分歧。 - 巴倫周刊",
+    "timestamp": "2026-05-11T23:30:12.093609+08:00",
+    "epoch": 1778513408
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.61,
+    "change_pct": 2.64,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試\n- [Barron's] 比特幣價格下跌，XRP 和 Solana 上漲。加密貨幣法案本周可能會引發分歧。 - 巴倫周刊",
+    "timestamp": "2026-05-12T00:05:11.322820+08:00",
+    "epoch": 1778515508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 97.71,
+    "change_pct": 3.89,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
+    "timestamp": "2026-05-12T00:40:10.823500+08:00",
+    "epoch": 1778517608
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 97.2,
+    "change_pct": 2.72,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
+    "timestamp": "2026-05-12T01:15:07.192625+08:00",
+    "epoch": 1778519705
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 97.88,
+    "change_pct": 3.16,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
+    "timestamp": "2026-05-12T01:45:07.333462+08:00",
+    "epoch": 1778521505
   }
 ]

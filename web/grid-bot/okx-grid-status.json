@@ -1,22 +1,22 @@
 [
   {
-    "symbol": "ETH-USDT-SWAP",
+    "symbol": "BTC-USDT-SWAP",
     "state": "running",
-    "grid_count": 30,
+    "grid_count": 20,
     "range": {
-      "min": 2300.0,
-      "max": 2500.0
+      "min": 78000.0,
+      "max": 82000.0
     },
-    "investment": 4034.52,
-    "grid_profit": 1.628414702,
-    "float_profit": -1.5356426887,
-    "total_pnl": 0.1029898482084,
-    "pnl_ratio_pct": 0.0026,
-    "arbitrage_count": 4,
-    "started_at": "2026-04-19 21:42",
-    "running_hours": 2.7,
-    "filled_orders": 11,
-    "algo_id": "3493142812789456896",
-    "updated_at": "2026-04-20 00:23:10"
+    "investment": 453.43,
+    "grid_profit": 0.301208,
+    "float_profit": -0.1298619867,
+    "total_pnl": 0.17508104832974,
+    "pnl_ratio_pct": 0.0386,
+    "arbitrage_count": 9,
+    "started_at": "2026-05-11 23:15",
+    "running_hours": 7.1,
+    "filled_orders": 21,
+    "algo_id": "3557109355034071040",
+    "updated_at": "2026-05-12 06:23:09"
   }
 ]

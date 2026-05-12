@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-09",
-  "generated_at": "2026-05-09 04:45",
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12 04:45",
   "composite": {
-    "score": 0.0,
+    "score": -0.5,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,59 +10,63 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-08",
       "2026-05-11",
-      "2026-05-12"
+      "2026-05-12",
+      "2026-05-13"
     ],
-    "total_calls_vol": 3398690,
-    "total_puts_vol": 4093331,
-    "pcr": 1.204,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 3220404,
+    "total_puts_vol": 4225939,
+    "pcr": 1.312,
+    "label": "散戶極度恐慌🟢",
+    "signal": "逆向看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 3,
-    "bear_words": 2,
-    "bull_pct": 60,
+    "bull_words": 6,
+    "bear_words": 3,
+    "bull_pct": 67,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "INTC",
+        "symbol": "RKLB",
         "count": 1
       },
       {
-        "symbol": "AAPL",
+        "symbol": "HUT",
+        "count": 1
+      },
+      {
+        "symbol": "ASTS",
         "count": 1
       }
     ],
     "top_posts": [
       {
-        "title": "Weekend Discussion Thread for the Weekend of May 08, 2026",
-        "score": 28,
-        "upvote_ratio": 0.86
+        "title": "Weekly Earnings Thread 5/11 - 5/15",
+        "score": 94,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "BLS Report Is a Complete Disaster, -100K Jobs YoY Without four retirement-centri",
-        "score": 1928,
-        "upvote_ratio": 0.92
-      },
-      {
-        "title": "106 RKLB calls. Mocked yesterday. Up 560% today.",
-        "score": 2745,
-        "upvote_ratio": 0.95
-      },
-      {
-        "title": "April jobs report: Economy adds 115,000 jobs, far better than expected",
-        "score": 1884,
-        "upvote_ratio": 0.89
-      },
-      {
-        "title": "What now",
-        "score": 781,
+        "title": "What Are Your Moves Tomorrow, May 12, 2026",
+        "score": 52,
         "upvote_ratio": 0.87
+      },
+      {
+        "title": "167k to 3.3 million holding for 10m+",
+        "score": 2743,
+        "upvote_ratio": 0.93
+      },
+      {
+        "title": "Wendy’s net income declines to $22.7m in Q1 2026",
+        "score": 4780,
+        "upvote_ratio": 0.98
+      },
+      {
+        "title": "AMD +21k % - 10 Years of Diamond Hands. Thank you, Lisa.",
+        "score": 679,
+        "upvote_ratio": 0.98
       }
     ]
   }
