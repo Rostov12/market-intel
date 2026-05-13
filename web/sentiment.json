@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-12",
-  "generated_at": "2026-05-12 04:45",
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13 04:45",
   "composite": {
     "score": -0.5,
     "label": "散戶中性",
@@ -10,63 +10,50 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-11",
       "2026-05-12",
-      "2026-05-13"
+      "2026-05-13",
+      "2026-05-14"
     ],
-    "total_calls_vol": 3220404,
-    "total_puts_vol": 4225939,
-    "pcr": 1.312,
-    "label": "散戶極度恐慌🟢",
-    "signal": "逆向看多"
+    "total_calls_vol": 4228535,
+    "total_puts_vol": 5042058,
+    "pcr": 1.192,
+    "label": "散戶偏空",
+    "signal": "略偏看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 6,
+    "bull_words": 2,
     "bear_words": 3,
-    "bull_pct": 67,
-    "label": "偏多情緒",
-    "top_tickers": [
-      {
-        "symbol": "RKLB",
-        "count": 1
-      },
-      {
-        "symbol": "HUT",
-        "count": 1
-      },
-      {
-        "symbol": "ASTS",
-        "count": 1
-      }
-    ],
+    "bull_pct": 40,
+    "label": "中性",
+    "top_tickers": [],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 5/11 - 5/15",
-        "score": 94,
+        "score": 110,
         "upvote_ratio": 0.96
       },
       {
-        "title": "What Are Your Moves Tomorrow, May 12, 2026",
-        "score": 52,
-        "upvote_ratio": 0.87
+        "title": "What Are Your Moves Tomorrow, May 13, 2026",
+        "score": 53,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "167k to 3.3 million holding for 10m+",
-        "score": 2743,
-        "upvote_ratio": 0.93
+        "title": "Sure, it's not a bubble",
+        "score": 7947,
+        "upvote_ratio": 0.95
       },
       {
-        "title": "Wendy’s net income declines to $22.7m in Q1 2026",
-        "score": 4780,
-        "upvote_ratio": 0.98
+        "title": "EBay Rejects GameStop’s $56 Billion Takeover as Not Credible",
+        "score": 5170,
+        "upvote_ratio": 0.97
       },
       {
-        "title": "AMD +21k % - 10 Years of Diamond Hands. Thank you, Lisa.",
-        "score": 679,
-        "upvote_ratio": 0.98
+        "title": "Markets raise chances for a Fed rate hike following hot inflation report",
+        "score": 773,
+        "upvote_ratio": 0.99
       }
     ]
   }

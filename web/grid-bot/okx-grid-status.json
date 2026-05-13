@@ -1,22 +1,22 @@
 [
   {
-    "symbol": "BTC-USDT-SWAP",
+    "symbol": "MSTR-USDT-SWAP",
     "state": "running",
-    "grid_count": 20,
+    "grid_count": 200,
     "range": {
-      "min": 78000.0,
-      "max": 82000.0
+      "min": 172.0,
+      "max": 240.0
     },
-    "investment": 453.43,
-    "grid_profit": 0.301208,
-    "float_profit": -0.1298619867,
-    "total_pnl": 0.17508104832974,
-    "pnl_ratio_pct": 0.0386,
-    "arbitrage_count": 9,
-    "started_at": "2026-05-11 23:15",
-    "running_hours": 7.1,
-    "filled_orders": 21,
-    "algo_id": "3557109355034071040",
-    "updated_at": "2026-05-12 06:23:09"
+    "investment": 453.83,
+    "grid_profit": 0.6183616,
+    "float_profit": -9.7247070502,
+    "total_pnl": -9.1026324701098,
+    "pnl_ratio_pct": -2.0057,
+    "arbitrage_count": 30,
+    "started_at": "2026-05-12 09:49",
+    "running_hours": 6.6,
+    "filled_orders": 100,
+    "algo_id": "3558386408664514560",
+    "updated_at": "2026-05-12 16:23:09"
   }
 ]

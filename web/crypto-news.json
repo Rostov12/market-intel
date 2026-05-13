@@ -1,335 +1,309 @@
 {
-  "date": "2026-05-12",
-  "updated_at": "2026-05-12 07:50",
+  "date": "2026-05-13",
+  "updated_at": "2026-05-13 07:50",
   "count": 30,
   "sources": [
     "cointelegraph",
-    "cointelegraph-rss",
     "coindesk",
-    "google-news-crypto"
+    "google-news-crypto",
+    "cointelegraph-rss"
   ],
   "news": [
     {
-      "id": "ct-rss-66033",
-      "title": "Circle stock rallies 15% as Wall Street sees further upside in stablecoin adoption",
+      "id": "ct-rss-53869",
+      "title": "Bermuda to transition ‘key’ financial services to Stellar blockchain",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/circle-stock-rallies-wall-street-further-upside-stablecoin-adoption?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 22:25:00 +0000",
+      "url": "https://cointelegraph.com/news/bermuda-financial-services-stellar?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 22:39:11 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-91204",
-      "title": "Circle stock rallies 15% as Wall Street sees further upside in stablecoin adoption",
+      "id": "ct-57941",
+      "title": "Bermuda to transition ‘key’ financial services to Stellar blockchain",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/circle-stock-rallies-wall-street-further-upside-stablecoin-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 22:25:00 +0000",
+      "url": "https://cointelegraph.com/news/bermuda-financial-services-stellar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 22:39:11 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "ct-rss-60071",
-      "title": "Ethics remain a sticking point as crypto market structure bill goes to markup",
+      "id": "gn-43417",
+      "title": "Cryptocurrency ATM scams: To stop crypto scams that led to NC victims losing thousands AARP joins NC law enforcement - ABC11 Raleigh-Durham",
+      "source": "ABC11 Raleigh-Durham",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM3BYZEJVR010WGkwd0xOVGRraWhIQTFhSF83MkRGakpPQkJ1bE1QdGJKcTkwSGhPbFg5THJZZ3J3QXdEdUExSXA1eHhiN0FuSkNtYlNmcV9CaGZRTmtVSENCOG82cVJjUGtFX2hCWWR6QjVXSXJhaVl0cWVadE1kX3hPQ1RMS0lyN2ZCWXUxWjlDal9PaEdmdnpWRngtVllaSE9tRUoxa1FUQm42b2p0Yjkxb1AzNVowUzFNQ0tQUElQNkJrTTJN0gHMAUFVX3lxTE9QU05GUHdKREtLT2xWM3NJVnJ3QTZDWXlWUUl1Tkg4czBvbllqN2NhSU1UbHZjY0FzNGhYQUZpbEVtMWRRUFVmWjRkMVA4RlJrVl9rdGJkRE5Za2dxZnplY2JiU0VRUGZhWWNDUVIzSTVQZlZmR2dhdWlEX2pNUHdpVUdqdHRZYW5oaXZna2pRTHV2TElMeldFSURjdVhzT0NZaGxua1ZmTFQ5QmlNQVhMOEJVTHR1VXlCV01NTGhtTE9ZWEpid2QxalNkRg?oc=5",
+      "published": "Tue, 12 May 2026 21:45:00 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-35704",
+      "title": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up",
+      "published": "Tue, 12 May 2026 21:18:10 +0000",
+      "summary": "The global banking giant is expanding its tokenized money market lineup, following BlackRock's similar move just a few days ago.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-28208",
+      "title": "Senate confirms Kevin Warsh as Federal Reserve governor, with chair vote expected",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ethics-democrats-market-structure-clarity-bill-markup?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 22:20:00 +0000",
-      "coins": [
-        "ETH"
-      ],
+      "url": "https://cointelegraph.com/news/kevin-warsh-fed-governor-confirmation-us-senate?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 20:58:56 +0000",
+      "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-62320",
-      "title": "Ethics remain a sticking point as crypto market structure bill goes to markup",
+      "id": "ct-2358",
+      "title": "Senate confirms Kevin Warsh as Federal Reserve governor, with chair vote expected",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ethics-democrats-market-structure-clarity-bill-markup?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 22:20:00 +0000",
+      "url": "https://cointelegraph.com/news/kevin-warsh-fed-governor-confirmation-us-senate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 20:58:56 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-88611",
+      "title": "JPMorgan launching second tokenized money market fund on Ethereum - The Block",
+      "source": "The Block",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORndJYnp3WXlzR3BZUWNGbDB6VDJHT1NLbmZTOVlWeklNazdLemNDRmMzbzVzdmVhNG5tQmRxY2piNlJjUl9MLVJKcjdsMFBZajY1RXdWTl9wUmEwaS02WmZZM3RlVTExdUpTZV84U3hLbG1pWURHWXhScVBacW5PUlQzblB5dzJLYTFCZlp1TFk3TkFxRXc?oc=5",
+      "published": "Tue, 12 May 2026 20:00:21 GMT",
       "coins": [
         "ETH"
       ],
-      "provider": "cointelegraph"
+      "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-79686",
-      "title": "Solana ETF inflows show demand returning as traders eye SOL rally to $120",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/solana-etf-inflows-demand-returns-as-traders-eye-120?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 21:47:41 +0000",
-      "coins": [
-        "SOL"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-20658",
-      "title": "Solana ETF inflows show demand returning as traders eye SOL rally to $120",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/solana-etf-inflows-demand-returns-as-traders-eye-120?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 21:47:41 +0000",
-      "coins": [
-        "SOL"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-20177",
-      "title": "Bitcoin Price Holds Near $82,000 As ETF Inflows Surge And CLARITY Act Battle Intensifies - Bitcoin Magazine",
+      "id": "gn-10459",
+      "title": "What's Really At Stake In The Market Structure Debate: The BRCA - Bitcoin Magazine",
       "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBySHgxQ09WeElFTGZDMFJKRVVuX0tJQTdqVElXeFBFMjhBQl9NSk1iLVBCLV8zOVVFTF9yc254TXZRN1YzNDQxelNRLVNzNEZjUlp3NHd1a2NNeF9Md0EzMFZCR3JnZGxzV0VPMVZvZWlTUFJG?oc=5",
-      "published": "Mon, 11 May 2026 20:23:12 GMT",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaDNfZ2F2RWp5MkpVY0pucWtEMjQ0MURHU2I4MDJtQ1EtSVQ4UnVrcUoxdWQ5Q3hDVzcycGppamdHWS1lT1VVdFVVS1gydXZqdTF1a0xtc1VCX1ZmaXNLUzVhWGpZX2FnR2JBWDIwV2h5SDVSalhBbVp0RVE3LW5ab2tXZ2ViMG1WeGdxRm16RzdHQTFJWm50SVlRMA?oc=5",
+      "published": "Tue, 12 May 2026 19:04:33 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "cd-41456",
-      "title": "'A big nothing burger': A Q&A with Strategy's Michael Saylor on selling bitcoin",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin",
-      "published": "Mon, 11 May 2026 20:21:44 +0000",
-      "summary": "Michael Saylor sat down with CoinDesk on selling bitcoin for dividends, retiring debt with STRC proceeds, and why critics who say Strategy buys the weekly top are missing the point.",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-27745",
-      "title": "Price predictions 5/11: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
+      "id": "ct-rss-5994",
+      "title": "DTCC to use Chainlink to power 24/7 collateral management network",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/price-predictions-511-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 20:12:42 +0000",
-      "coins": [
-        "SOL",
-        "ETH",
-        "XRP",
-        "BTC",
-        "BNB"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-86411",
-      "title": "Price predictions 5/11: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/price-predictions-511-spx-dxy-btc-eth-xrp-bnb-sol-doge-hype-ada?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 20:12:42 +0000",
-      "coins": [
-        "BTC",
-        "ETH",
-        "BNB"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-20270",
-      "title": "Ripple receives $200M credit line to expand institutional prime brokerage",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/ripple-secures-200m-credit-facility-expand-institutional-prime-brokerage?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 20:12:35 +0000",
+      "url": "https://cointelegraph.com/news/dtcc-to-use-chainlink-to-power-247-collateral-management-network?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 18:45:10 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-833",
-      "title": "Ripple receives $200M credit line to expand institutional prime brokerage",
+      "id": "ct-1185",
+      "title": "DTCC to use Chainlink to power 24/7 collateral management network",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/ripple-secures-200m-credit-facility-expand-institutional-prime-brokerage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 20:12:35 +0000",
+      "url": "https://cointelegraph.com/news/dtcc-to-use-chainlink-to-power-247-collateral-management-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 18:45:10 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-81247",
-      "title": "Bitcoin price falls, XRP and Solana rise. The crypto bill may cause a rift this week. - MSN",
-      "source": "MSN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZWVnQUtMdjN3djVyOVFmVUpwRExzSmJ4c19EZ2lBUnNZTndaZlU2Zm1LbXdXTDU5ZXhhSmJhbDYxbGEyMUxlSm5lT0ZaWlRqUmEzQW9mM3AxNEVQWmFwRnIzZEtDcW9zQ1JsdThoekxzS3NTVko2YXp2emtxZzhFSXFoQkFkWjdoSEx1RjNNaGRCZDJyb3V3OW5vYkk5ekJTSGhaZkhob3pEYWRRVWxtQkRmNUxLM0FTLXBOZkNfbXRCSGlKS2FRRg?oc=5",
-      "published": "Mon, 11 May 2026 19:57:25 GMT",
+      "id": "ct-rss-8002",
+      "title": "WAIB Summit Monaco 2026 returns: the world’s most exclusive gathering for digital assets &amp; AI",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/press-releases/waib-summit-monaco-2026-returns-the-worlds-most-exclusive-gathering-for-digital-assets-ai?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 18:40:14 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-79148",
+      "title": "WAIB Summit Monaco 2026 returns: the world’s most exclusive gathering for digital assets & AI",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/press-releases/waib-summit-monaco-2026-returns-the-worlds-most-exclusive-gathering-for-digital-assets-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 18:40:14 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-77951",
+      "title": "Latest version of crypto market structure bill raises eyebrows ahead of Senate markup",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/us-senate-banking-committee-draft-crypto-market-structure-bill-markup?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 18:31:22 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-32816",
+      "title": "Latest version of crypto market structure bill raises eyebrows ahead of Senate markup",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/us-senate-banking-committee-draft-crypto-market-structure-bill-markup?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 18:31:22 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-97764",
+      "title": "XRP traders say bullishness ‘growing’ as ETFs log largest inflow since January",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/xrp-traders-bullishness-growing-etfs-log-largest-inflow-since-january?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 17:54:24 +0000",
       "coins": [
-        "SOL",
-        "BTC",
         "XRP"
       ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-24925",
-      "title": "'I don’t think that’s crazy': Here is why Circle is betting on new $3 billion blockchain",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/11/i-don-t-think-that-s-crazy-here-is-why-circle-is-betting-on-new-usd3-billion-blockchain",
-      "published": "Mon, 11 May 2026 19:51:09 +0000",
-      "summary": "The USDC stablecoin issuer is betting Arc can become Wall Street’s blockchain rail for payments and tokenized finance, though analysts still see it as speculative.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-16794",
-      "title": "MoonPay makes prediction markets push with Dawn Labs buy, AI tool launch",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/moonpay-dawn-labs-ai-prediction-markets?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 19:46:59 +0000",
-      "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-36124",
-      "title": "MoonPay makes prediction markets push with Dawn Labs buy, AI tool launch",
+      "id": "ct-31545",
+      "title": "XRP traders say bullishness ‘growing’ as ETFs log largest inflow since January",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/moonpay-dawn-labs-ai-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 19:46:59 +0000",
+      "url": "https://cointelegraph.com/markets/xrp-traders-bullishness-growing-etfs-log-largest-inflow-since-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 17:54:24 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "cd-76543",
-      "title": "Kraken parent Payward seeks fresh funding at $20 billion valuation ahead of planned IPO",
+      "id": "cd-27267",
+      "title": "The Ethereum Foundation unveils new 'Clear Signing' standard to stop users from approving malicious crypto transactions",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/08/kraken-parent-payward-seeks-fresh-funding-at-usd20-billion-valuation-ahead-of-potential-ipo",
-      "published": "Mon, 11 May 2026 18:42:27 +0000",
-      "summary": "The crypto exchange operator is pursuing a new fundraising round as it ramps up acquisitions across derivatives and stablecoins while laying the groundwork for a future public listing.",
+      "url": "https://www.coindesk.com/tech/2026/05/12/the-ethereum-foundation-unveils-new-clear-signing-standard-to-stop-users-from-approving-malicious-crypto-transactions",
+      "published": "Tue, 12 May 2026 17:31:53 +0000",
+      "summary": "The move comes after billions in losses from phishing attacks and wallet drains, with Ethereum pushing to make transaction approvals safer and easier to understand.",
+      "coins": [
+        "ETH"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-30964",
+      "title": "Senate confirms Kevin Warsh to Fed board ahead of expected Chair vote",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/12/senate-confirms-kevin-warsh-to-fed-board-ahead-of-expected-chair-vote",
+      "published": "Tue, 12 May 2026 17:29:09 +0000",
+      "summary": "Warsh’s confirmation to the Fed board positions the crypto-linked investor to replace Jerome Powell as chair amid inflation and digital asset policy debates.",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "gn-10017",
-      "title": "Strategy’s Michael Saylor raps about how he gets shareholders to pay for bitcoin buys - MarketWatch",
-      "source": "MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORVZibnN4MDhvMEp1OWF2U2l0cXZyTUFLdllKcmZIejBhNkV3b3BYV25Uazg3LUx2cHBGUmRldEt0UXpKRHdyUW93UGFwQXBQRmlLZERHZG1FRTAwS1hIVUpuS19DSWJsMGNVcUMtMHVLdmRCVThFS3I5WHZLekQwZ0d2TkxDSjcxMVlCV2tZV0daNVFITkRvTG5CV1hnZFoybkd2SnV6R212S05EMGpXMTJMMmVCMDF3eUVZazZQSXdQVW9IWkE?oc=5",
-      "published": "Mon, 11 May 2026 18:14:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "ct-rss-74209",
-      "title": "Bitcoin ‘golden cross’ appears for the first time since 2023: Will BTC price rally?",
+      "id": "ct-rss-37181",
+      "title": "Ethereum derivatives unfazed by DeFi hacks: Can ETH hit $2.6K next? ",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-golden-cross-appears-first-time-since-2023-will-btc-price-rally?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 17:35:04 +0000",
-      "coins": [
-        "BTC",
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-35703",
-      "title": "Bitcoin ‘golden cross’ appears for the first time since 2023: Will BTC price rally?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-golden-cross-appears-first-time-since-2023-will-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 17:35:04 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-4838",
-      "title": "Galaxy, Sharplink plan $125M institutional DeFi yield fund backed by ETH treasury",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/galaxy-sharplink-125m-institutional-defi-fund-eth-treasury?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 17:26:07 +0000",
+      "url": "https://cointelegraph.com/markets/eth-derivatives-unfazed-defi-hacks-eth-hit-2600-next?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 17:14:28 +0000",
       "coins": [
         "ETH"
       ],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-76982",
-      "title": "Galaxy, Sharplink plan $125M institutional DeFi yield fund backed by ETH treasury",
+      "id": "ct-75983",
+      "title": "Ethereum derivatives unfazed by DeFi hacks: Can ETH hit $2.6K next? ",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/galaxy-sharplink-125m-institutional-defi-fund-eth-treasury?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 17:26:07 +0000",
+      "url": "https://cointelegraph.com/markets/eth-derivatives-unfazed-defi-hacks-eth-hit-2600-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 17:14:28 +0000",
       "coins": [
         "ETH"
       ],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-1958",
-      "title": "This Bitcoin Price Engine Just Turned Back On - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTldMTlEtXzh4ck1WNGh1LTFUYmMzQmZvdkNwY0oyVU54dndhbndWMFpWOWJDUnVpSmVjVHFTcGlUYWtkWHRrZzVGNXY0Y3V0ZFdtSW0xNnR1WU02b2dyQjltMVlOY0N4UUxoNG5xeTlXTnJJWDc4Q3htSjBFc29ySWkwZUtTYnlhb1lPZ3pia09HN2ExNW1tbV9tVWtPZ3FpX05ocTkxLTVQTjR0QUZYSUpB?oc=5",
-      "published": "Mon, 11 May 2026 17:07:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "gn-75322",
-      "title": "Bitcoin Dominance Rises, But It’s Not All Bad for Altcoins - ETF Database",
-      "source": "ETF Database",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRkhvQ3E5Zi1GZzEwU2pKMDJOaHRCOFdUQVNZNy04TTRpbF9vQklmR29DVFhwRFRUT0xlZ0g5X294bHJmVldqSXBYcVJFaDhoc3o1SEFQS08yUjNINkRSNnNyRTBtOG9RZV9yMEh4b29Na3V4OF9XbFlBeDFkb3I0NlllWVVldTFWdlBOREtxaXQ0SndCS3R1ZllyZ2lpbEU?oc=5",
-      "published": "Mon, 11 May 2026 16:53:05 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-54905",
-      "title": "Anchorage is stepping back from Robinhood and Kraken-backed stablecoin group",
+      "id": "cd-272",
+      "title": "Stablecoin yield infrastructure project raises $13.5M in round led by Sky Ecosystem",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/11/anchorage-is-stepping-back-from-robinhood-and-kraken-backed-stablecoin-group",
-      "published": "Mon, 11 May 2026 16:30:09 +0000",
-      "summary": "Anchorage Digital co-founder and CEO Nathan McCauley said there will be ‘increased neutrality’ from his firm on stablecoins.",
+      "url": "https://www.coindesk.com/business/2026/05/12/stablecoin-yield-infrastructure-project-raises-usd13-5m-in-round-led-by-sky-ecosystem",
+      "published": "Tue, 12 May 2026 16:35:02 +0000",
+      "summary": "Osero is coming with three products: Earn, App, and Foundry.",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "cd-38529",
-      "title": "Why the TradFi takeover of crypto might not be the death blow analysts expect",
+      "id": "cd-60049",
+      "title": "Privacy emerges as crypto’s next 'killer app,' with Arc, Canton and Tempo topping $1 billion in funding",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/11/why-the-tradfi-takeover-of-crypto-might-not-be-the-death-blow-analysts-expect",
-      "published": "Mon, 11 May 2026 16:29:48 +0000",
-      "summary": "Gate’s CBO argues that Bloomberg’s warning of a TradFi takeover is \"oversimplified,\" noting that global exchanges evolved past fee-only models years ago.",
+      "url": "https://www.coindesk.com/business/2026/05/12/privacy-emerges-as-crypto-s-next-killer-app-with-arc-canton-and-tempo-topping-usd1-billion-in-funding",
+      "published": "Tue, 12 May 2026 16:33:42 +0000",
+      "summary": "New fundraising rounds for three institution-focused blockchains show how regulation, privacy and corporate competition are reshaping crypto infrastructure, according to Bitwise CIO Matt Hougan.",
       "coins": [],
       "provider": "coindesk"
     },
     {
-      "id": "gn-31069",
-      "title": "Protocol Cluster Updates: May 2026 - ethereum.org",
+      "id": "gn-99082",
+      "title": "Clear Signing: Making Transaction Approvals Safer on Ethereum - ethereum.org",
       "source": "ethereum.org",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aS2gtZUZwQmpEMlVZN0dNelBlTTNwd1dHaXhBVHdlOVpRUHhmMGtxVkNndjBwOGo5Wk9nR2N0Z0hSQmprVUEzbjFma3pUbnFOOHBRaTBoYWNVSWItc3ZaLWJGVzd6YjBGUk5z?oc=5",
-      "published": "Mon, 11 May 2026 16:24:22 GMT",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qR2poNktOYjJaS0xYSzhfQlRlTG5Nam9fNGNWVmlpdHhQUUU5MFhnNE1Sb0g3alpvSTRSVUE1cUJwOE40SDdNZUdYMndYRHAybi1FTVowODVrMzV5emxJcER1clp4T2dWWkJPT04td1M?oc=5",
+      "published": "Tue, 12 May 2026 16:29:56 GMT",
       "coins": [
         "ETH"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-84760",
-      "title": "American Bankers Attempt Last Ditch Effort To Kill Crypto Market Structure Bill Regarding Stablecoins - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YcmJSRjBzNGU2WUVweEk0ZjhSUmJKbWFVdFFaMENQWVNxbnhxZzJSdUJtOW9Bb3JGclEzZkN2ZHdldDZnZHlwSHpPblp0eFpHS19acjFVRWdRVEFQZUpNTzE1WHJPTE1RNVdYUkE0TlZ6M1pyb2hYMWg5ZFZFQQ?oc=5",
-      "published": "Mon, 11 May 2026 16:06:47 GMT",
+      "id": "gn-96813",
+      "title": "Canadian man, 19, and co-conspirator charged in $13M cryptocurrency fraud scheme, feds say - NBC 6 South Florida",
+      "source": "NBC 6 South Florida",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTEF1cGZkWlc4bHY1WTRCVDZHRDIxVnpEQ0JpNEYzV0VnYkRIZFAzOU1BVzdpdF95RUJRSG9hZzZFOHBPd1oyUjd5R0JyR2JoUk01N0J3TERLWDdpUWpJZ1lOT3UyVVpwSnh3cDdheTRtZ1VVcmwzLUc5QjBUNEQxaWxCaGVMa3dBYnF6eXFzdHNEbW9pUXZLallTS3lVYnVCYW41X1c4ZlN5X3pfeHIwVEtvblVMOFFMa1N6OVdwMWI3OUVnczA4Nnpsd9IB0wFBVV95cUxOOEoxQVlOYWNrT2dnV1dwcVRtRnZwU1F6U09ZQllxckxMRVRpM05UUG9fVkFtRkplQ3VrYXpuQ0MzNUxycUtxSW9EZU14eFg5US05cl9FOTcycnFCUDRDTXZQald3OVM4bjZldkZuLU8wazlhSlEwc3g2bXFjRWVLY2xQRV9PRzdzLUc3OGQxSm80cEpyaWVydXFfMVRFM01tYVZncXJnVjg1MlAzaTFodnB1MnFqVVpBRWFMS3hyNkEzY0hJdWlKSjVOVUcycW1yU0NZ?oc=5",
+      "published": "Tue, 12 May 2026 16:06:31 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "cd-90128",
+      "title": "U.S. CFTC in talks with every major pro sports league on policing prediction markets",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/12/the-cftc-is-in-talks-with-every-major-pro-sports-league-to-crack-down-on-insider-trading",
+      "published": "Tue, 12 May 2026 15:38:56 +0000",
+      "summary": "Chairman Michael Selig says the agency has already taken several states to court to prove that sports contracts aren't just betting but that they're derivatives.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-70868",
+      "title": "Bitcoin’s bull-bear cycle indicator turns green for first time since March 2023",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/05/12/bitcoin-s-bull-bear-cycle-turns-green-for-first-time-since-march-2023",
+      "published": "Tue, 12 May 2026 15:31:31 +0000",
+      "summary": "While some experts point to $90,000 as the next explosive level, others caution that this new \"early bull\" signal isn't a guaranteed crystal ball.",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-64519",
+      "title": "Michael Saylor Sees CLARITY Act as a Turning Point for Bitcoin Adoption - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdDhQYlpRbjdiem54Ql9qcmcwVWotM1lNTXVpbERUbEF0Z3g0d0VTNEdzbWtVX1JzeEI4X3dTR1Q2ZzV1ODNoeXBwVUNJSVl2OU1nakhEamV4Z0QxNHVwZFJqeGRBYy1Ia0FXZGUzanRlUGZZbFhpdjcyRVNEMTdmcXgxTlhudnNKNi1rVjNKSFlNQVFHaGN4S1hnYVQ?oc=5",
+      "published": "Tue, 12 May 2026 15:27:00 GMT",
       "coins": [
         "BTC"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-66877",
-      "title": "Going Global: How Bitcoin is Improving International Payments - Florida Today",
-      "source": "Florida Today",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaVZMQVlnRWt1TEl0SkppejU5OWpoMkEzWE9xLXZYQ1pwUWZ1dy1QaF85QWkwOEN3S1Ywd2FpY3U4ZUxrZGJsNTF2MDRCbnZ3bk0ydWxySGhVZ1gyRUxLNFI5bGtsUkFOc294WjRNTHA2a2VqdjFOeDdfejZvQlV4LTlXQ3dZS1FjNjlwcjdfNkVDWXJwZS1UNW15dGR2c0NfZE01aC1aaDNMVTdsTWxSSUM5QS1uaFRqbHk0V0g3RV9jWExNLTVBYzJ6eUEwZmtOdVlFQ05DUmJqWTRGZFl3Xw?oc=5",
-      "published": "Mon, 11 May 2026 15:32:00 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
+      "id": "cd-70885",
+      "title": "Binance's chief marketing officer Rachel Conlan to leave the exchange",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/12/binance-s-chief-marketing-officer-rachel-conlan-is-leaving-the-exchange",
+      "published": "Tue, 12 May 2026 15:25:46 +0000",
+      "summary": "Eowyn Chen, former CEO of Trust Wallet, will serve as her interim replacement.",
+      "coins": [],
+      "provider": "coindesk"
     },
     {
-      "id": "ct-rss-817",
+      "id": "ct-rss-28449",
       "title": "Here’s what happened in crypto today",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Mon, 11 May 2026 15:30:00 +0000",
+      "published": "Tue, 12 May 2026 15:21:00 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-95105",
+      "title": "Here’s what happened in crypto today",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Tue, 12 May 2026 15:21:00 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
     }
   ]
 }

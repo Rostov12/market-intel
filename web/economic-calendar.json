@@ -8,7 +8,7 @@
   },
   "next_7_days": [
     {
-      "date": "2026-05-13",
+      "date": "2026-05-12",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
@@ -21,7 +21,9 @@
         "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
       },
       "previous": "3.3%",
-      "previous_date": "2026-03-01"
+      "previous_date": "2026-03-01",
+      "actual": "3.8% YoY (核心 2.8% YoY) - 超預期",
+      "status": "PUBLISHED"
     },
     {
       "date": "2026-05-15",
@@ -40,7 +42,7 @@
   ],
   "next_14_days": [
     {
-      "date": "2026-05-13",
+      "date": "2026-05-12",
       "event": "CPI（4月）",
       "importance": "high",
       "source": "BLS",
@@ -53,7 +55,9 @@
         "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
       },
       "previous": "3.3%",
-      "previous_date": "2026-03-01"
+      "previous_date": "2026-03-01",
+      "actual": "3.8% YoY (核心 2.8% YoY) - 超預期",
+      "status": "PUBLISHED"
     },
     {
       "date": "2026-05-15",

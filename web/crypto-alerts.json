@@ -1,35 +1,5 @@
 [
   {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2358.39,
-    "change_pct": -2.11,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Fortune] 2026 年 5 月 6 日以太幣當前價格 - 財富",
-    "timestamp": "2026-05-06T23:50:12.009771+08:00",
-    "epoch": 1778082609
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 89.23,
-    "change_pct": 2.08,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-07T00:45:10.393058+08:00",
-    "epoch": 1778085908
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 90.01,
-    "change_pct": 2.07,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 5/6：BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA、BCH、ZEC",
-    "timestamp": "2026-05-07T15:35:11.521456+08:00",
-    "epoch": 1778139308
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 90.24,
@@ -498,5 +468,35 @@
     "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
     "timestamp": "2026-05-12T01:45:07.333462+08:00",
     "epoch": 1778521505
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 659.9,
+    "change_pct": -2.01,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-05-12T09:40:08.065105+08:00",
+    "epoch": 1778550005
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2308.06,
+    "change_pct": -2.0,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 隨著加密貨幣市場結構法案走向加價，道德仍然是個癥結所在\n- [CoinTelegraph] 隨著加密貨幣市場結構法案走向加價，道德仍然是個癥結所在\n- [Cointelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-05-12T09:45:11.102190+08:00",
+    "epoch": 1778550308
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 96.07,
+    "change_pct": 2.21,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Solana ETF 流入顯示需求回升，交易員預計 SOL 將漲至 120 美元\n- [CoinTelegraph] Solana ETF 流入顯示需求回升，交易員預計 SOL 將漲至 120 美元\n- [Cointelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA",
+    "timestamp": "2026-05-12T09:45:12.019350+08:00",
+    "epoch": 1778550308
   }
 ]

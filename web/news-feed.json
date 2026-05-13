@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-12",
-  "fetched_at": "2026-05-12 07:07",
+  "date": "2026-05-13",
+  "fetched_at": "2026-05-13 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
@@ -9,7 +9,15 @@
       "source": "Reuters-Biz",
       "title_cn": "美國對伊朗向中國出口石油實施新制裁 - 路透社",
       "time": "05:00",
-      "detected_at": "2026-05-12T05:00:17.576093+08:00"
+      "detected_at": "2026-05-13T05:00:16.583602+08:00"
+    },
+    {
+      "title": "The Pentagon now estimates the Iran war is costing $29 billion. The overall economic toll is much greater.",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "五角大廈目前估計伊朗戰爭損失達 290 億美元",
+      "time": "05:00",
+      "detected_at": "2026-05-13T05:00:16.583602+08:00"
     },
     {
       "title": "Are Fed hikes the missing catalyst for the dollar? BofA weighs in - Investing.com",
@@ -17,103 +25,135 @@
       "source": "Investing.com",
       "title_cn": "聯準會升息是否是美元缺失的催化劑？美國銀行介入 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-05-12T05:00:17.576093+08:00"
+      "detected_at": "2026-05-13T05:00:16.583602+08:00"
     },
     {
-      "title": "Pimco CIO Sees Risk of Fed Hiking Rates Due to Iran War, FT Says - Bloomberg.com",
+      "title": "Inflation Jumps To 3.8% In April, Kills Fed Rate-Cut Hopes - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), St - Benzinga",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "英國《金融時報》稱，Pimco 資訊長認為聯準會因伊朗戰爭而升息的風險 - Bloomberg.com",
+      "source": "Benzinga",
+      "title_cn": "4 月通膨躍升至 3.8%，聯準會降息希望破滅 - Invesco QQQ Trust，系列 1（納斯達克股票代碼：QQQ），聖-Benzinga",
       "time": "05:00",
-      "detected_at": "2026-05-12T05:00:17.576093+08:00"
+      "detected_at": "2026-05-13T05:00:16.583602+08:00"
     },
     {
-      "title": "Americans don't think Trump has explained Iran war goals, Reuters/Ipsos poll shows - Reuters",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "路透社/益普索民調顯示，美國人認為川普沒有解釋伊朗戰爭目標 - 路透社",
-      "time": "05:00",
-      "detected_at": "2026-05-12T05:00:17.576093+08:00"
-    },
-    {
-      "title": "Two-thirds say Trump hasn't made a case for Iran war, poll finds - USA Today",
+      "title": "Hegseth on Murkowski’s Iran war authorization effort: We don’t need it - The Hill",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "民調發現，三分之二的人表示川普沒有為伊朗戰爭辯護 - 《今日美國》",
+      "title_cn": "赫格斯談穆爾科斯基的伊朗戰爭授權工作：我們不需要它 - 國會山莊",
       "time": "05:00",
-      "detected_at": "2026-05-12T05:00:17.576093+08:00"
+      "detected_at": "2026-05-13T05:00:16.583602+08:00"
     },
     {
-      "title": "Trump vows to pause federal gas tax after Iran war boosts US fuel prices to four-year high - The Guardian",
+      "title": "Trump and Xi Enter China Summit Distracted by Iran War - The New York Times",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Trump vows to pause federal gas tax after Iran war boosts US fuel prices to four-year high - The Guardian",
+      "title_cn": "Trump and Xi Enter China Summit Distracted by Iran War - The New York Times",
       "time": "05:00",
-      "detected_at": "2026-05-12T05:00:17.576093+08:00"
+      "detected_at": "2026-05-13T05:00:16.583602+08:00"
     },
     {
-      "title": "Wall Street pushes back Fed rate-cut expectations. Here is why - Investing.com",
+      "title": "Student loan interest rates are set to rise for 2026-27: Expert analysis",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "專家分析：2026-27 年學生貸款利率將上漲",
+      "time": "04:00",
+      "detected_at": "2026-05-13T04:00:26.316781+08:00"
+    },
+    {
+      "title": "Hormuz standoff drives oil higher as US-Iran peace hopes ebb - Reuters",
       "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "華爾街推遲了聯準會降息的預期",
+      "source": "Reuters-Biz",
+      "title_cn": "隨著美伊和平希望消退，霍爾木茲海峽對峙推高油價 - 路透社",
       "time": "04:00",
-      "detected_at": "2026-05-12T04:00:17.352337+08:00"
+      "detected_at": "2026-05-13T04:00:26.316781+08:00"
     },
     {
-      "title": "Goldman Sees Fed Cuts Delayed to December, March on Inflation - Bloomberg",
+      "title": "The Iran war flashpoint isn&#x2019;t oil prices &#x2014; it&#x2019;s not knowing what comes next",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "高盛預計聯準會因通膨原因降息將推遲至 12 月和 3 月 - 彭博",
+      "source": "MarketWatch",
+      "title_cn": "伊朗戰爭的爆發點不是油價，而是油價",
       "time": "04:00",
-      "detected_at": "2026-05-12T04:00:17.352337+08:00"
+      "detected_at": "2026-05-13T04:00:26.316781+08:00"
     },
     {
-      "title": "There’s an Unhinged New Video Game About Trump and the Iran War - WIRED",
+      "title": "Pentagon considering re-naming Iran war ‘Sledgehammer’ if ceasefire collapses - NBC News",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "《連線》雜誌推出了一款關於川普和伊朗戰爭的瘋狂新電玩遊戲",
+      "title_cn": "如果停火失敗，五角大廈考慮將伊朗戰爭重新命名為“大錘” - NBC新聞",
       "time": "04:00",
-      "detected_at": "2026-05-12T04:00:17.352337+08:00"
+      "detected_at": "2026-05-13T04:00:26.316781+08:00"
     },
     {
-      "title": "Iran War Shockwaves Spread Across US Economy - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "伊朗戰爭衝擊波波及美國經濟 - Bloomberg.com",
-      "time": "03:00",
-      "detected_at": "2026-05-12T03:00:16.492964+08:00"
-    },
-    {
-      "title": "Oil price predicted to remain above $100 for rest of year - BBC",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "BBC 預計今年剩餘時間油價將維持在 100 美元以上",
-      "time": "03:00",
-      "detected_at": "2026-05-12T03:00:16.492964+08:00"
-    },
-    {
-      "title": "Trump, congressional Republicans float suspending federal gas tax amid Iran war - CNBC",
+      "title": "Hegseth gets bipartisan grilling on rising costs of the Iran war and Trump’s end game - AP News",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "川普和國會共和黨人提議在伊朗戰爭期間暫停聯邦汽油稅 - CNBC",
-      "time": "03:00",
-      "detected_at": "2026-05-12T03:00:16.492964+08:00"
+      "title_cn": "赫格斯因伊朗戰爭成本上升和川普的最後博弈而受到兩黨拷問 - 美聯社新聞",
+      "time": "04:00",
+      "detected_at": "2026-05-13T04:00:26.316781+08:00"
     },
     {
-      "title": "2026 Iran war | Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+      "title": "DOJ subpoenas Wall Street Journal over Iran war leaks - The Hill",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "2026年伊朗戰爭|解釋，美國、以色列、霍爾木茲海峽、地圖和衝突 - 大英百科全書",
-      "time": "03:00",
-      "detected_at": "2026-05-12T03:00:16.492964+08:00"
+      "title_cn": "DOJ subpoenas Wall Street Journal over Iran war leaks - The Hill",
+      "time": "04:00",
+      "detected_at": "2026-05-13T04:00:26.316781+08:00"
     },
     {
-      "title": "Trump, congressional Republicans float suspending federal gas tax amid Iran war",
+      "title": "Trump doesn't need Congress to restart Iran strikes: Hegseth",
       "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "川普和國會共和黨人提議在伊朗戰爭期間暫停聯邦汽油稅",
-      "time": "02:00",
-      "detected_at": "2026-05-12T02:00:20.501825+08:00"
+      "title_cn": "川普不需要國會重啟伊朗攻擊：赫格塞斯",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+    },
+    {
+      "title": "Pakistan, UAE reportedly take more direct Iran war role - Semafor",
+      "impact": "bearish",
+      "source": "Semafor",
+      "title_cn": "據報道，巴基斯坦、阿聯酋在伊朗戰爭中扮演了更直接的角色——Semafor",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+    },
+    {
+      "title": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz - AP News",
+      "impact": "bullish",
+      "source": "Geopolitical",
+      "title_cn": "隨著霍爾木茲海峽緊張局勢升級，美國又向兩艘伊朗油輪開火併使其癱瘓 - 美聯社新聞",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+    },
+    {
+      "title": "India brings back COVID-era work-from-home rules as the Iran war chokes oil lifeline - Fortune",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "《財富》雜誌稱，由於伊朗戰爭扼殺了石油生命線，印度恢復了新冠疫情時代的在家工作規定",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+    },
+    {
+      "title": "Iran war hits home as gasoline prices fuel significant U.S. inflation jump - PBS",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭爆發，汽油價格導緻美國通膨大幅上漲 - PBS",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+    },
+    {
+      "title": "What the Iran War Taught China About Fighting the United States - Council on Foreign Relations",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "What the Iran War Taught China About Fighting the United States - Council on Foreign Relations",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+    },
+    {
+      "title": "Pelosi, other Dems, and former Rep MTG dogpile on Trump over inflation, Iran war - Fox News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Pelosi, other Dems, and former Rep MTG dogpile on Trump over inflation, Iran war - Fox News",
+      "time": "03:00",
+      "detected_at": "2026-05-13T03:00:17.027442+08:00"
     },
     {
       "title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says - Reuters",
@@ -121,47 +161,7 @@
       "source": "Reuters-Biz",
       "title_cn": "沙特阿美執行長表示，霍爾木茲海峽的中斷可能會推動石油市場的復甦到 2027 年",
       "time": "02:00",
-      "detected_at": "2026-05-12T02:00:20.501825+08:00"
-    },
-    {
-      "title": "US, Iran clash in Hormuz as war escalates: What happened, why it matters - Lemkin Institute for Genocide Prevention",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "隨著戰爭升級，美國和伊朗在霍爾木茲發生衝突：發生了什麼，為什麼重要 - 萊姆金預防種族滅絕研究所",
-      "time": "02:00",
-      "detected_at": "2026-05-12T02:00:20.501825+08:00"
-    },
-    {
-      "title": "Trump says Iran ceasefire is on 'life support' and proposes gas tax pause as strait stays closed - AP News",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "川普稱伊朗停火處於“生命維持狀態”，並提議在海峽保持關閉的情況下暫停徵收汽油稅 - 美聯社新聞",
-      "time": "02:00",
-      "detected_at": "2026-05-12T02:00:20.501825+08:00"
-    },
-    {
-      "title": "There's an Unhinged New Video Game About Trump and the Iran War - WIRED",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "《連線》雜誌推出了一款關於川普和伊朗戰爭的瘋狂新電玩遊戲",
-      "time": "02:00",
-      "detected_at": "2026-05-12T02:00:20.501825+08:00"
-    },
-    {
-      "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "沙烏地阿美執行長表示，如果霍爾木茲海峽的干擾持續存在，石油市場要到 2027 年才會正常化",
-      "time": "01:00",
-      "detected_at": "2026-05-12T01:00:18.834543+08:00"
-    },
-    {
-      "title": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "路透社調查發現，由於霍爾木茲海峽出口中斷，歐佩克四月份石油產量創下新低 - 路透社中文網透調查發現，因霍爾木茲出口中斷，OPEC 4 月份石油產量創下新低&nbsp;&nbsp;路透",
-      "time": "01:00",
-      "detected_at": "2026-05-12T01:00:18.834543+08:00"
+      "detected_at": "2026-05-13T02:00:20.452858+08:00"
     }
   ]
 }
