@@ -1,111 +1,135 @@
 {
-  "date": "2026-05-13",
-  "fetched_at": "2026-05-13 07:07",
+  "date": "2026-05-14",
+  "fetched_at": "2026-05-14 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "US issues new sanctions over Iran's oil shipments to China - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "美國對伊朗向中國出口石油實施新制裁 - 路透社",
-      "time": "05:00",
-      "detected_at": "2026-05-13T05:00:16.583602+08:00"
-    },
-    {
-      "title": "The Pentagon now estimates the Iran war is costing $29 billion. The overall economic toll is much greater.",
+      "title": "April&#x2019;s inflation spike leaves Warsh and the Fed zero excuses on interest rates",
       "impact": "bearish",
       "source": "MarketWatch",
-      "title_cn": "五角大廈目前估計伊朗戰爭損失達 290 億美元",
+      "title_cn": "四月的通膨飆升讓沃什和聯準會在利率問題上零藉口",
       "time": "05:00",
-      "detected_at": "2026-05-13T05:00:16.583602+08:00"
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
     },
     {
-      "title": "Are Fed hikes the missing catalyst for the dollar? BofA weighs in - Investing.com",
-      "impact": "neutral",
+      "title": "Iran war peace deal hopes; oil prices waver around $100 - what’s moving markets - Investing.com",
+      "impact": "bearish",
       "source": "Investing.com",
-      "title_cn": "聯準會升息是否是美元缺失的催化劑？美國銀行介入 - Investing.com",
+      "title_cn": "伊朗戰爭和平協議希望；油價在 100 美元左右波動 - 市場的動因 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-05-13T05:00:16.583602+08:00"
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
     },
     {
-      "title": "Inflation Jumps To 3.8% In April, Kills Fed Rate-Cut Hopes - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ), St - Benzinga",
-      "impact": "bearish",
-      "source": "Benzinga",
-      "title_cn": "4 月通膨躍升至 3.8%，聯準會降息希望破滅 - Invesco QQQ Trust，系列 1（納斯達克股票代碼：QQQ），聖-Benzinga",
-      "time": "05:00",
-      "detected_at": "2026-05-13T05:00:16.583602+08:00"
-    },
-    {
-      "title": "Hegseth on Murkowski’s Iran war authorization effort: We don’t need it - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "赫格斯談穆爾科斯基的伊朗戰爭授權工作：我們不需要它 - 國會山莊",
-      "time": "05:00",
-      "detected_at": "2026-05-13T05:00:16.583602+08:00"
-    },
-    {
-      "title": "Trump and Xi Enter China Summit Distracted by Iran War - The New York Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Trump and Xi Enter China Summit Distracted by Iran War - The New York Times",
-      "time": "05:00",
-      "detected_at": "2026-05-13T05:00:16.583602+08:00"
-    },
-    {
-      "title": "Student loan interest rates are set to rise for 2026-27: Expert analysis",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "專家分析：2026-27 年學生貸款利率將上漲",
-      "time": "04:00",
-      "detected_at": "2026-05-13T04:00:26.316781+08:00"
-    },
-    {
-      "title": "Hormuz standoff drives oil higher as US-Iran peace hopes ebb - Reuters",
+      "title": "US Senate again rejects resolution to force authorization for Iran war - News From The States",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著美伊和平希望消退，霍爾木茲海峽對峙推高油價 - 路透社",
-      "time": "04:00",
-      "detected_at": "2026-05-13T04:00:26.316781+08:00"
+      "source": "Geopolitical",
+      "title_cn": "美國參議院再次拒絕強制授權發動伊朗戰爭的決議 - 來自美國的新聞",
+      "time": "05:00",
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
     },
     {
-      "title": "The Iran war flashpoint isn&#x2019;t oil prices &#x2014; it&#x2019;s not knowing what comes next",
+      "title": "Netanyahu’s secret visit to UAE during the Iran war leads to a breakthrough, his office says - NBC News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "內塔尼亞胡的辦公室稱，內塔尼亞胡在伊朗戰爭期間對阿聯酋的秘密訪問取得了突破——NBC新聞",
+      "time": "05:00",
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
+    },
+    {
+      "title": "Senate rejects bill to halt Iran war despite lawmakers’ growing frustrations - The Washington Post",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "儘管立法者越來越沮喪，參議院還是拒絕了停止伊朗戰爭的法案 - 《華盛頓郵報》",
+      "time": "05:00",
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
+    },
+    {
+      "title": "Netanyahu Made a ‘Secret Visit’ to U.A.E. During Iran War - The New York Times",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Netanyahu Made a ‘Secret Visit’ to U.A.E. During Iran War - The New York Times",
+      "time": "05:00",
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
+    },
+    {
+      "title": "Trump lands in China in search of wins. How the Iran war could complicate his summit with President Xi. - Yahoo",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Trump lands in China in search of wins. How the Iran war could complicate his summit with President Xi. - Yahoo",
+      "time": "05:00",
+      "detected_at": "2026-05-14T05:00:19.642489+08:00"
+    },
+    {
+      "title": "Oil settles lower on US rate hike fears; investors watch Trump-Xi meeting - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "由於美國升息擔憂，油價走低；投資人關注川普與習近平的會面——路透社",
+      "time": "04:00",
+      "detected_at": "2026-05-14T04:00:22.180673+08:00"
+    },
+    {
+      "title": "The Iran war could be a $300 billion shock &#x2014; driving up mortgage rates and squeezing wages",
       "impact": "bearish",
       "source": "MarketWatch",
-      "title_cn": "伊朗戰爭的爆發點不是油價，而是油價",
+      "title_cn": "伊朗戰爭可能帶來 3000 億美元的衝擊——推高抵押貸款利率並壓低工資",
       "time": "04:00",
-      "detected_at": "2026-05-13T04:00:26.316781+08:00"
+      "detected_at": "2026-05-14T04:00:22.180673+08:00"
     },
     {
-      "title": "Pentagon considering re-naming Iran war ‘Sledgehammer’ if ceasefire collapses - NBC News",
+      "title": "Trump-Xi Summit: Could China help end the war with Iran? - Northeastern Global News",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "如果停火失敗，五角大廈考慮將伊朗戰爭重新命名為“大錘” - NBC新聞",
+      "title_cn": "特習會：中國能否幫助結束與伊朗的戰爭？ - 東北全球新聞",
       "time": "04:00",
-      "detected_at": "2026-05-13T04:00:26.316781+08:00"
+      "detected_at": "2026-05-14T04:00:22.180673+08:00"
     },
     {
-      "title": "Hegseth gets bipartisan grilling on rising costs of the Iran war and Trump’s end game - AP News",
+      "title": "John Fetterman rejects setting limits on Trump’s Iran war powers - Spotlight PA",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "赫格斯因伊朗戰爭成本上升和川普的最後博弈而受到兩黨拷問 - 美聯社新聞",
+      "title_cn": "約翰費特曼拒絕對川普的伊朗戰爭權力設置限制 - 聚光燈 PA",
       "time": "04:00",
-      "detected_at": "2026-05-13T04:00:26.316781+08:00"
+      "detected_at": "2026-05-14T04:00:22.180673+08:00"
     },
     {
-      "title": "DOJ subpoenas Wall Street Journal over Iran war leaks - The Hill",
+      "title": "More Republicans vote with Democrats to curb Iran war, but measure fails again - Stars and Stripes",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "更多共和黨人與民主黨人一起投票遏制伊朗戰爭，但措施再次失敗——星條旗",
+      "time": "04:00",
+      "detected_at": "2026-05-14T04:00:22.180673+08:00"
+    },
+    {
+      "title": "Netanyahu's secret visit to UAE during the Iran war leads to a breakthrough, his office says - The Washington Post",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "DOJ subpoenas Wall Street Journal over Iran war leaks - The Hill",
+      "title_cn": "Netanyahu's secret visit to UAE during the Iran war leads to a breakthrough, his office says - The Washington Post",
       "time": "04:00",
-      "detected_at": "2026-05-13T04:00:26.316781+08:00"
+      "detected_at": "2026-05-14T04:00:22.180673+08:00"
     },
     {
-      "title": "Trump doesn't need Congress to restart Iran strikes: Hegseth",
+      "title": "Oil falls on US rate hike fears; investors watch Trump-Xi meeting - Reuters",
       "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "川普不需要國會重啟伊朗攻擊：赫格塞斯",
+      "source": "Reuters-Biz",
+      "title_cn": "油價因美國升息擔憂而下跌；投資人關注川普與習近平的會面－路透社",
       "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
+    },
+    {
+      "title": "The real cost of the Iran war isn&#x2019;t higher prices &#x2014; it&#x2019;s market paralysis",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "伊朗戰爭的真正代價不是物價上漲，而是價格上漲",
+      "time": "03:00",
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
+    },
+    {
+      "title": "Gold Steady as Traders Track Hormuz Stalemate, Inflation Risks - Bloomberg.com",
+      "impact": "bearish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "交易商追蹤霍爾木茲海峽僵局和通膨風險，金價穩定 - Bloomberg.com",
+      "time": "03:00",
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
     },
     {
       "title": "Pakistan, UAE reportedly take more direct Iran war role - Semafor",
@@ -113,55 +137,31 @@
       "source": "Semafor",
       "title_cn": "據報道，巴基斯坦、阿聯酋在伊朗戰爭中扮演了更直接的角色——Semafor",
       "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
     },
     {
-      "title": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz - AP News",
-      "impact": "bullish",
+      "title": "Iran War Powers Vote Fails Again in Senate, but GOP Opposition Grows - The New York Times",
+      "impact": "neutral",
       "source": "Geopolitical",
-      "title_cn": "隨著霍爾木茲海峽緊張局勢升級，美國又向兩艘伊朗油輪開火併使其癱瘓 - 美聯社新聞",
+      "title_cn": "伊朗戰爭權力投票在參議院再次失敗，但共和黨的反對聲音增加——《紐約時報》",
       "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
     },
     {
-      "title": "India brings back COVID-era work-from-home rules as the Iran war chokes oil lifeline - Fortune",
+      "title": "3 Republicans Join Democrats in Closest Senate Vote Yet to Halt Iran War - Time Magazine",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "《財富》雜誌稱，由於伊朗戰爭扼殺了石油生命線，印度恢復了新冠疫情時代的在家工作規定",
+      "title_cn": "3 Republicans Join Democrats in Closest Senate Vote Yet to Halt Iran War - Time Magazine",
       "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
     },
     {
-      "title": "Iran war hits home as gasoline prices fuel significant U.S. inflation jump - PBS",
+      "title": "Netanyahu held secret meeting with Emirati president in the UAE during Iran war, PM's office says - Reuters",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭爆發，汽油價格導緻美國通膨大幅上漲 - PBS",
+      "title_cn": "Netanyahu held secret meeting with Emirati president in the UAE during Iran war, PM's office says - Reuters",
       "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
-    },
-    {
-      "title": "What the Iran War Taught China About Fighting the United States - Council on Foreign Relations",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "What the Iran War Taught China About Fighting the United States - Council on Foreign Relations",
-      "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
-    },
-    {
-      "title": "Pelosi, other Dems, and former Rep MTG dogpile on Trump over inflation, Iran war - Fox News",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Pelosi, other Dems, and former Rep MTG dogpile on Trump over inflation, Iran war - Fox News",
-      "time": "03:00",
-      "detected_at": "2026-05-13T03:00:17.027442+08:00"
-    },
-    {
-      "title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "沙特阿美執行長表示，霍爾木茲海峽的中斷可能會推動石油市場的復甦到 2027 年",
-      "time": "02:00",
-      "detected_at": "2026-05-13T02:00:20.452858+08:00"
+      "detected_at": "2026-05-14T03:00:17.975667+08:00"
     }
   ]
 }

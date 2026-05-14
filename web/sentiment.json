@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-13",
-  "generated_at": "2026-05-13 04:45",
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14 04:45",
   "composite": {
-    "score": -0.5,
+    "score": 0.0,
     "label": "散戶中性",
     "contrarian_signal": "🟡觀望"
   },
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-12",
       "2026-05-13",
-      "2026-05-14"
+      "2026-05-14",
+      "2026-05-15"
     ],
-    "total_calls_vol": 4228535,
-    "total_puts_vol": 5042058,
-    "pcr": 1.192,
+    "total_calls_vol": 3906505,
+    "total_puts_vol": 4764422,
+    "pcr": 1.22,
     "label": "散戶偏空",
     "signal": "略偏看多"
   },
@@ -24,36 +24,41 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 2,
-    "bear_words": 3,
-    "bull_pct": 40,
-    "label": "中性",
-    "top_tickers": [],
+    "bull_words": 1,
+    "bear_words": 0,
+    "bull_pct": 100,
+    "label": "偏多情緒",
+    "top_tickers": [
+      {
+        "symbol": "LULU",
+        "count": 1
+      }
+    ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 5/11 - 5/15",
-        "score": 110,
+        "score": 127,
         "upvote_ratio": 0.96
       },
       {
-        "title": "What Are Your Moves Tomorrow, May 13, 2026",
-        "score": 53,
-        "upvote_ratio": 0.96
+        "title": "What Are Your Moves Tomorrow, May 14, 2026",
+        "score": 48,
+        "upvote_ratio": 0.9
       },
       {
-        "title": "Sure, it's not a bubble",
-        "score": 7947,
-        "upvote_ratio": 0.95
+        "title": "Bullish",
+        "score": 21365,
+        "upvote_ratio": 0.86
       },
       {
-        "title": "EBay Rejects GameStop’s $56 Billion Takeover as Not Credible",
-        "score": 5170,
+        "title": "Exclusive shot of Jensen joining the US delegation to China",
+        "score": 10279,
         "upvote_ratio": 0.97
       },
       {
-        "title": "Markets raise chances for a Fed rate hike following hot inflation report",
-        "score": 773,
-        "upvote_ratio": 0.99
+        "title": "I finally rest and watch the sunrise on a grateful universe",
+        "score": 1893,
+        "upvote_ratio": 0.96
       }
     ]
   }
