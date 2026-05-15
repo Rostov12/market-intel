@@ -1,91 +1,107 @@
 {
-  "date": "2026-05-12",
-  "generated_at": "2026-05-12 04:00",
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15 04:00",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 36,
-    "label": "下次 FOMC：06/17（36天後）"
+    "days_away": 33,
+    "label": "下次 FOMC：06/17（33天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-05-12",
-      "event": "CPI（4月）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 1,
-      "label": "🔴 CPI（4月）（1天後）",
-      "impact_guide": {
-        "name": "消費者物價指數",
-        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
-        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
-        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      },
-      "previous": "3.3%",
-      "previous_date": "2026-03-01",
-      "actual": "3.8% YoY (核心 2.8% YoY) - 超預期",
-      "status": "PUBLISHED"
-    },
-    {
       "date": "2026-05-15",
       "event": "零售銷售（4月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 3,
-      "label": "🟡 零售銷售（4月）（3天後）",
+      "days_away": 0,
+      "label": "🟡 零售銷售（4月）（0天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
         "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
         "watch": "排除汽車的核心零售更能反映趨勢"
-      }
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-05-12",
-      "event": "CPI（4月）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 1,
-      "label": "🔴 CPI（4月）（1天後）",
-      "impact_guide": {
-        "name": "消費者物價指數",
-        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
-        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
-        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
       },
-      "previous": "3.3%",
-      "previous_date": "2026-03-01",
-      "actual": "3.8% YoY (核心 2.8% YoY) - 超預期",
-      "status": "PUBLISHED"
-    },
-    {
-      "date": "2026-05-15",
-      "event": "零售銷售（4月）",
-      "importance": "medium",
-      "source": "Census",
-      "days_away": 3,
-      "label": "🟡 零售銷售（4月）（3天後）",
-      "impact_guide": {
-        "name": "零售銷售",
-        "above": "消費強勁 → 經濟韌性 → 短多",
-        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
-        "watch": "排除汽車的核心零售更能反映趨勢"
-      }
+      "previous": "+0.5%",
+      "previous_date": "2026-04-01"
     },
     {
       "date": "2026-05-22",
       "event": "密西根消費者信心（5月終值）",
       "importance": "medium",
       "source": "UMich",
-      "days_away": 10,
-      "label": "🟡 密西根消費者信心（5月終值）（10天後）",
+      "days_away": 7,
+      "label": "🟡 密西根消費者信心（5月終值）（7天後）",
       "impact_guide": {
         "name": "密西根消費者信心指數",
         "above": "信心改善 → 消費預期樂觀 → 偏多",
         "below": "信心下滑 → 消費可能放緩 → 偏空",
         "watch": "通膨預期分項影響 Fed 決策"
+      },
+      "previous": "53.3",
+      "previous_date": "2026-03-01"
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-05-15",
+      "event": "零售銷售（4月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 0,
+      "label": "🟡 零售銷售（4月）（0天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+0.5%",
+      "previous_date": "2026-04-01"
+    },
+    {
+      "date": "2026-05-22",
+      "event": "密西根消費者信心（5月終值）",
+      "importance": "medium",
+      "source": "UMich",
+      "days_away": 7,
+      "label": "🟡 密西根消費者信心（5月終值）（7天後）",
+      "impact_guide": {
+        "name": "密西根消費者信心指數",
+        "above": "信心改善 → 消費預期樂觀 → 偏多",
+        "below": "信心下滑 → 消費可能放緩 → 偏空",
+        "watch": "通膨預期分項影響 Fed 決策"
+      },
+      "previous": "53.3",
+      "previous_date": "2026-03-01"
+    },
+    {
+      "date": "2026-05-28",
+      "event": "GDP Q1 修正值",
+      "importance": "medium",
+      "source": "BEA",
+      "days_away": 13,
+      "label": "🟡 GDP Q1 修正值（13天後）",
+      "impact_guide": {
+        "name": "國內生產毛額",
+        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
+        "below": "經濟放緩 → 衰退疑慮 → 偏空",
+        "watch": "初值影響最大，修正值/終值影響遞減"
       }
+    },
+    {
+      "date": "2026-05-29",
+      "event": "PCE（4月）",
+      "importance": "high",
+      "source": "BEA",
+      "days_away": 14,
+      "label": "🔴 PCE（4月）（14天後）",
+      "impact_guide": {
+        "name": "個人消費支出物價指數",
+        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
+        "below": "通膨降溫 → 鴿派 → 偏多",
+        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
+      },
+      "previous": "3.2%",
+      "previous_date": "2026-03-01"
     }
   ]
 }

@@ -1,105 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 96.62,
-    "change_pct": 2.85,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T02:30:11.320666+08:00",
-    "epoch": 1778437808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 96.87,
-    "change_pct": 2.17,
-    "direction": "🔺 急漲（3h）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T03:30:09.666745+08:00",
-    "epoch": 1778441407
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 94.77,
-    "change_pct": -2.21,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T04:45:09.445331+08:00",
-    "epoch": 1778445907
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2313.78,
-    "change_pct": 2.52,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
-    "timestamp": "2026-05-11T04:50:09.131913+08:00",
-    "epoch": 1778446206
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 649.3,
-    "change_pct": 2.17,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T04:50:09.771534+08:00",
-    "epoch": 1778446206
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 94.73,
-    "change_pct": -2.49,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T05:15:09.829064+08:00",
-    "epoch": 1778447707
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 95.41,
-    "change_pct": -2.49,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T05:50:09.021834+08:00",
-    "epoch": 1778449804
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 95.53,
-    "change_pct": 2.57,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T06:20:09.186368+08:00",
-    "epoch": 1778451607
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 662.1,
-    "change_pct": 2.13,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-11T06:25:02.950908+08:00",
-    "epoch": 1778451900
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2355.63,
-    "change_pct": 2.19,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Decrypt] 在比特幣、以太坊網路迎頭趕上之前，加密貨幣公司競相開發「量子證明」錢包 - Decrypt\n- [Cointelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？\n- [CoinTelegraph] 以太幣相對於比特幣一年內下跌 35%：ETH 價格下跌趨勢會持續嗎？",
-    "timestamp": "2026-05-11T06:30:10.080009+08:00",
-    "epoch": 1778452207
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 82023.5,
@@ -498,5 +398,105 @@
     "news": "- [CoinDesk] 由於人工智慧公司稱首次公開募股前的股份轉讓無效，Anthropic、OpenAI 代幣暴跌",
     "timestamp": "2026-05-14T00:30:11.325339+08:00",
     "epoch": 1778689809
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 80880.9,
+    "change_pct": 2.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Investopedia] 比特幣以外的 10 種重要加密貨幣 - Investopedia\n- [CoinDesk] 為什麼比特幣最近攀升至 8 萬美元可能只是暫時的流動性緊縮\n- [Cointelegraph] BTC 跌破 8 萬美元，比特幣 ETF 損失 6.35 億美元",
+    "timestamp": "2026-05-14T22:55:10.929788+08:00",
+    "epoch": 1778770508
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 92.49,
+    "change_pct": 2.06,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-14T23:20:10.483220+08:00",
+    "epoch": 1778772008
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2287.9,
+    "change_pct": 2.08,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Tether 支援的 Oobit 將加密支付平台擴展到哥倫比亞\n- [CoinTelegraph] Tether 支援的 Oobit 將加密支付平台擴展到哥倫比亞\n- [Fortune] 2026 年 5 月 14 日以太坊當前價格 - 財富",
+    "timestamp": "2026-05-14T23:25:04.453086+08:00",
+    "epoch": 1778772302
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 81015.2,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Investopedia] 比特幣以外的 10 種重要加密貨幣 - Investopedia\n- [Bitcoin Magazine] Strive 的 SATA 創下美國第一，每日 13% 比特幣支持股息優先 - Bitcoin Magazine\n- [Cointelegraph] Strategy的比特幣引擎面臨$28B STRC上限：Delphi Digital",
+    "timestamp": "2026-05-14T23:30:10.884684+08:00",
+    "epoch": 1778772608
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2298.57,
+    "change_pct": 2.36,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Tether 支援的 Oobit 將加密支付平台擴展到哥倫比亞\n- [CoinTelegraph] Tether 支援的 Oobit 將加密支付平台擴展到哥倫比亞\n- [Fortune] 2026 年 5 月 14 日以太坊當前價格 - 財富",
+    "timestamp": "2026-05-14T23:55:11.589776+08:00",
+    "epoch": 1778774108
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 93.2,
+    "change_pct": 2.87,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-14T23:55:12.121902+08:00",
+    "epoch": 1778774108
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 81414.9,
+    "change_pct": 2.41,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Investopedia] 比特幣以外的 10 種重要加密貨幣 - Investopedia\n- [PYMNTS.com] 加密代幣 ZCash 吸引了懷舊的比特幣愛好者 - PYMNTS.com\n- [Bitcoin Magazine] Strive 的 SATA 創下美國第一，每日 13% 比特幣支持股息優先 - Bitcoin Magazine",
+    "timestamp": "2026-05-15T00:00:11.858785+08:00",
+    "epoch": 1778774408
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2306.51,
+    "change_pct": 2.96,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] Tether 支援的 Oobit 將加密支付平台擴展到哥倫比亞\n- [CoinTelegraph] Tether 支援的 Oobit 將加密支付平台擴展到哥倫比亞\n- [Yahoo Finance] 以太坊應用程式建構器 Consensys 推遲 IPO - 雅虎財經",
+    "timestamp": "2026-05-15T00:25:11.496742+08:00",
+    "epoch": 1778775909
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 93.14,
+    "change_pct": 3.35,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Geopolitical] Rep. Golden signals support for Iran war powers resolution - Maine Public",
+    "timestamp": "2026-05-15T00:25:12.578014+08:00",
+    "epoch": 1778775909
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 81445.1,
+    "change_pct": 2.57,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Investopedia] 比特幣以外的 10 種重要加密貨幣 - Investopedia\n- [Cointelegraph] 隨著標普 500 指數創下歷史新高，比特幣為突破 8.5 萬美元提供關鍵支撐\n- [CoinTelegraph] 標普 500 指數創下歷史新高，比特幣為突破 8.5 萬美元提供關鍵支撐",
+    "timestamp": "2026-05-15T00:35:11.123290+08:00",
+    "epoch": 1778776508
   }
 ]
