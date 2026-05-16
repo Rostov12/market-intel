@@ -1,41 +1,41 @@
 {
-  "date": "2026-05-15",
-  "updated_at": "2026-05-15 07:50",
+  "date": "2026-05-16",
+  "updated_at": "2026-05-16 08:00",
   "count": 30,
   "sources": [
-    "cointelegraph-rss",
+    "cointelegraph",
     "coindesk",
     "google-news-crypto",
-    "cointelegraph"
+    "cointelegraph-rss"
   ],
   "news": [
     {
-      "id": "gn-58563",
+      "id": "gn-93475",
       "title": "Charles Schwab: Launches Bitcoin, Ethereum Trading for US - blockchain.news",
       "source": "blockchain.news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNzE3Q0lTeUdlU2dlMTk5UUVvMzdTNlhjWTNmRWlwVUgtSlk2SUR2bGZ0VkJNdEhWMmY3MlIxcG5iTmgySGxkdUdEMlBIRWdxbWpMdUthSVc3X1RPcDZHbU0wb1Q0RUpnbUxRSHdZenZBeldBdlFydE1mR3dQWXpJRlk3Y0hfNUpNczFpclJR?oc=5",
       "published": "Wed, 13 May 2026 16:58:56 GMT",
       "coins": [
-        "ETH",
-        "BTC"
+        "BTC",
+        "ETH"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-89776",
+      "id": "gn-10303",
       "title": "Why Bitcoin, Ethereum, XRP could extend rebound? - FXStreet",
       "source": "FXStreet",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQc0lENTF5UEs3MWlhMXBFbkEwQUh1WGZfR0NfQ2kzSVdWcTZCUnRGRFZ1RENRY0V3S2hpYXY0Y1VuRm1tZjNmc1AxNWJKRTR0WWxlaFVlcVRxcjlVODdSRDJuVTdXXzNIMUZLa0VCalZETi16SGo3ZW5iTGRCdFRCM3ZZbWl2V2gzdkVHMW91bzVYSG0zRDlFT3FSZE1aZG54dFY5ZGhoWnRzZnkxaTJlaDlkVFlYS1F2dmRValRiOC14VzNYc3Vmc1pkMmttNHptS2JBOHhWbG1nektod28yd2VOT0g?oc=5",
       "published": "Wed, 13 May 2026 11:00:00 GMT",
       "coins": [
-        "ETH",
         "BTC",
-        "XRP"
+        "XRP",
+        "ETH"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-44314",
+      "id": "gn-71969",
       "title": "10 Important Cryptocurrencies Other Than Bitcoin - Investopedia",
       "source": "Investopedia",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWlBxWU5fdzgxRHNGNTRLaXl0M19QZlNCdzhXMDlNalcwQVRNMkN4Tl9TbVZkdndIaGRwbWpiNDJBQWdJN2ZuUXIzaUYxdzBZcnhfbFZ2NUJaNXBVRV9obEw1V1J5VTZyNWxPbFl4Z2xsZDBQeHU3Sk9NMFNSZFAwUTV1RElLWHh4dktMM2t3?oc=5",
@@ -46,281 +46,287 @@
       "provider": "google-news-crypto"
     },
     {
-      "id": "gn-21546",
+      "id": "gn-28572",
       "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC consolidates, ETH holds support, XRP eyes breakout - FXStreet",
       "source": "FXStreet",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWjJJNVhxSzdUNkVHVHVPTmQtWEM2SEdJWDlETHZ2Vkw2U0hCRkNtdHJpdGdJSUdFVDd3UWxwVzQzbTNHUk1Id000Mjd2LTBsY0duSDVGVEpxeVF5UzRRWk4wcTdoT0V4aW8zTktkOGp6NENHUVhDNFc0VmNvT0t4ZC1FczFwOHg3ZVBveG5ieFBYZzhpYktRNng1Nm53ZWl2OFFqVWZ2N0ZIc2kwblhiRGkydkJ2cFFkcHhTM1FkcFM0eFZqQ1JIYUw2QndKdWdYUXlsczlVZ2h2Z3dld1dwUXZtNkhzZ3paS1NRVHNYMTU?oc=5",
       "published": "Wed, 13 May 2026 03:42:51 GMT",
       "coins": [
-        "ETH",
         "BTC",
-        "XRP"
+        "XRP",
+        "ETH"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-50304",
-      "title": " UK politician Nigel Farage bought $1.8M house after a $6.7M crypto gift",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/nigel-farage-house-crypto-gift?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 22:32:33 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-87769",
-      "title": " UK politician Nigel Farage bought $1.8M house after a $6.7M crypto gift",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/nigel-farage-house-crypto-gift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 22:32:33 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-11479",
-      "title": "Dartmouth endowment invests in Solana ETF, holds $14M in crypto exposure",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 22:04:12 +0000",
-      "coins": [
-        "SOL"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-96777",
-      "title": "Dartmouth endowment invests in Solana ETF, holds $14M in crypto exposure",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 22:04:12 +0000",
-      "coins": [
-        "SOL"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-29359",
-      "title": "Onramp Raises $12.5M Series A To Scale Multi-Institution Bitcoin Custody Platform - Bitcoin Magazine",
-      "source": "Bitcoin Magazine",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmNmRnQU1KRVpBSXd5cGVFV2JfLU5heFhJdnQyNV9kWWR1VVBSRGZOcnp4eHBSTUxDZXhoaVltZUtVUUZNa2pPc082SVZUY3o5dV9NNVd6eTdtWHhxRU9lM01VLXp0T25OYm9GLU1R?oc=5",
-      "published": "Thu, 14 May 2026 21:12:56 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-56923",
-      "title": "Here is why Wall Street is racing to tokenize the entire stock market",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/business/2026/05/14/here-is-why-wall-street-is-racing-to-tokenize-the-entire-stock-market",
-      "published": "Thu, 14 May 2026 20:36:13 +0000",
-      "summary": "Tokenization has been the narrative of 2026. Executing on that narrative is trickier, but proponents say the benefits are massive if they pull it off.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-58554",
-      "title": "Ex-Celsius exec sentenced to time served after guilty plea",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/celsius-roni-cohen-pavon-sentenced-guilty-plea?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 19:46:55 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-90272",
-      "title": "Ex-Celsius exec sentenced to time served after guilty plea",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/celsius-roni-cohen-pavon-sentenced-guilty-plea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 19:46:55 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-1107",
-      "title": "Bitcoin trades at a 'discount' on Coinbase: Is a $76K retest next?",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-trades-discount-coinbase-is-76k-retest-next?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 19:42:44 +0000",
-      "coins": [
-        "BIT"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-37384",
-      "title": "Bitcoin trades at a 'discount' on Coinbase: Is a $76K retest next?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-trades-discount-coinbase-is-76k-retest-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 19:42:44 +0000",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "ct-rss-74418",
-      "title": "Crypto losses from North Korea hackers in 2025 rose 51% YoY: Report",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/losses-dprk-hacks-2025-rose-51-year-over-year?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 19:01:17 +0000",
-      "coins": [],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-99010",
-      "title": "Crypto losses from North Korea hackers in 2025 rose 51% YoY: Report",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/losses-dprk-hacks-2025-rose-51-year-over-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 19:01:17 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "gn-63118",
+      "id": "gn-60419",
       "title": "Bitcoin, Ethereum Up 2%, XRP Skyrockets 6% On Clarity Act Advancement - Benzinga",
       "source": "Benzinga",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY0FYdG1hdENHMmFyS1kwZlk5VWtnLUQ5OExkNHp5c1RmdkE1ZFYxckJ6TDFxWVNud21qa04yQjBRa3RwaXF1REVlNk9EeWZfX2ZUOVVqM0tmc05VdkdVckVyejd0M0FMY2JnTHZKbzFlMi1sMUp5VUhlemNVWGxDS3prV0g0U01xaGh4a0dOZlNVLWVoOGVjVDVFZnd4eUY3ZkJtblV5cndqclpZVnp1TnJCS0R3LW1fcEtYYWEzelZGVWZhQUE?oc=5",
       "published": "Thu, 14 May 2026 18:29:07 GMT",
       "coins": [
-        "ETH",
         "BTC",
-        "XRP"
+        "XRP",
+        "ETH"
       ],
       "provider": "google-news-crypto"
     },
     {
-      "id": "ct-rss-55439",
-      "title": "US Senate Banking Committee votes to advance CLARITY Act",
+      "id": "gn-51411",
+      "title": "Crypto Today: Bitcoin, Ethereum, XRP face recovery headwinds amid declining risk appetite - FXStreet",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ05Uam1mM1dMS3ZHVFo3UlVBSnAtQlBLcEVKYWtldnMxelctU3Vrem5MM0FfMXp2THBZMHB6azU1RWx4a0RJbDZ5UEM5SGtqWnRJb05VQlRRd2lfLW1MeVBHZEpNbVgzdURReVlLZ1BBaHUyUC1PRnZ1NHcxRjF1X2tmOWhER2Z0bFZHa3NIbUxMQldKVHZuV05Qc1RiQkZRUEwtTEpncmUwS2dNSVktX1dSU2ItdFN0T0pyR3RLTy1NM2pZd2VncXV0M3NLRUN1X1ZjSkhhS21CZ1JkZDJn?oc=5",
+      "published": "Thu, 14 May 2026 12:00:00 GMT",
+      "coins": [
+        "BTC",
+        "XRP",
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-56301",
+      "title": "Bitcoin, Ethereum, XRP Fall, But Dogecoin Gains Ahead Of Crypto Act Markup In Senate: This Analyst Is Bracing For More BTC Pain Ahead - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVm90YnVheXVyb0dRVnhYU1V6Y3dwV3ZPYUQtUEljNmJCU0dUMjNtdXprWUIwRE4tSjlzMWotU0xRcDN1eDdPQ0FsRHplM1ZoQV9tc0xkajg3aTF6dU1GZXcwOGFWOFZaSzNnZDJhMnNzbE5zeGpjaVNGd2w4dGtKZVVuQWdVdGFrd25lXzItVURwS2RldktVQ0d4QTZDVWdT?oc=5",
+      "published": "Thu, 14 May 2026 01:48:00 GMT",
+      "coins": [
+        "BTC",
+        "XRP",
+        "ETH"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-89558",
+      "title": "House committee leaders urge Trump to nominate CFTC members, citing CLARITY Act",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 18:18:01 +0000",
+      "url": "https://cointelegraph.com/news/house-committee-nominate-cftc-commissioners-clarity-act?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 23:10:35 +0000",
       "coins": [],
       "provider": "cointelegraph-rss"
     },
     {
-      "id": "ct-60292",
-      "title": "US Senate Banking Committee votes to advance CLARITY Act",
+      "id": "ct-10949",
+      "title": "House committee leaders urge Trump to nominate CFTC members, citing CLARITY Act",
       "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 18:18:01 +0000",
+      "url": "https://cointelegraph.com/news/house-committee-nominate-cftc-commissioners-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 23:10:35 +0000",
       "coins": [],
       "provider": "cointelegraph"
     },
     {
-      "id": "gn-92958",
-      "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances - CoinDesk",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaEYyeDNLTy1VN3p6dGZSS0lGSU9SbHZId09kM1ZGWWRWY2NFRzR4aWNjYnRtSzYzSFQ0eUZrQW94UHg5TnRJOWJJbWxpcU1ES1lrdkpySG4xVHR0azFBVnRHMTA5ZlZiLW8zV0Y4RVZiZ1g2THJ1cTR3cEdSdk1HV1Zac1o2RlktMGRpVWE0UWJiMWZQSTlad0c3N3ZGT2ZHc3Z2S1BuMHNMOU50V0U4NFc1OGJ3bW4tNVdsUUpRT0JBQQ?oc=5",
-      "published": "Thu, 14 May 2026 17:51:51 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-13396",
-      "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances",
-      "published": "Thu, 14 May 2026 17:51:00 +0000",
-      "summary": "The upbeat public debut of AI chipmaker Cerebras is also helping to lift both crypto and traditional markets.",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-51962",
-      "title": "US Senate committee advances crypto bill in milestone for digital assets - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOck5sSTR3MEhWMC1ydmZQSG1vMEdBdmpxT2lLUkY1Q0hoeDZTLVA5ajQyVUkzUDRJb0lUZ3JOYWhRV2oxWHNtb1dUaVlMYllTX2N6OTZSLVUwOGxfTlFsWUppS0hxMVRwNUxpR2x5MTg0dllRS0dQT2VMb1NvVGRzM1ZIZ3h2QlVjQUs2VGtyQW1wM3A0RjVEUjZ2RTY3NVZlSm56RFBIbmlzVUVIX1ZSNWN0SU83Y013Qnc?oc=5",
-      "published": "Thu, 14 May 2026 17:13:37 GMT",
-      "coins": [],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-65495",
-      "title": "Cerebras shares skyrocket 100% after $5.5 billion IPO amid AI stock frenzy",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy",
-      "published": "Thu, 14 May 2026 17:12:17 +0000",
-      "summary": "The AI infrastructure company began trading Thursday as investors continue pouring capital into artificial intelligence stocks.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "gn-84258",
-      "title": "Webcast: Bitcoin, Bitcoin Mining, and Digital Power - ETF Trends",
-      "source": "ETF Trends",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdlFBY1h4c0VraXo1WEJENW9fYXZTN2JMWWhjRmpoNkctOEJteXZrZGlWUTRNNHRDT3hGRG1rQjdLV285MkxzZXVkbmlfeTBHZFoyZnFwODhPT1Eydi1HYmd2T2hCUEh6WGdHYWZuMFRtMlBfUVVxX1Q0TXFiekFlMC1oOUloZTJDdDNXMGRSblRMNGRJdmFCRk1ad21mQQ?oc=5",
-      "published": "Thu, 14 May 2026 17:11:02 GMT",
-      "coins": [
-        "BTC"
-      ],
-      "provider": "google-news-crypto"
-    },
-    {
-      "id": "cd-87933",
-      "title": "Clarity Act clears U.S. Senate committee, on its way to a final test in Congress ",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/05/14/clarity-act-clears-u-s-senate-committee-on-its-way-to-a-final-test-in-congress",
-      "published": "Thu, 14 May 2026 17:08:07 +0000",
-      "summary": "After a bipartisan approval in the Senate Banking Committee, the crypto market structure bill now advances to a final overhaul aimed at Senate and House passage.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-36484",
-      "title": "XRP whale wallets hit all-time highs: Will it push price above $1.50?",
+      "id": "ct-rss-27850",
+      "title": "Bitcoin Depot filing casts doubt on company’s future amid lawsuits",
       "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/xrp-whale-wallets-all-time-highs-will-it-push-price-above-1-50?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 16:41:36 +0000",
-      "coins": [
-        "XRP"
-      ],
-      "provider": "cointelegraph-rss"
-    },
-    {
-      "id": "ct-56024",
-      "title": "XRP whale wallets hit all-time highs: Will it push price above $1.50?",
-      "source": "CoinTelegraph",
-      "url": "https://cointelegraph.com/markets/xrp-whale-wallets-all-time-highs-will-it-push-price-above-1-50?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 16:41:36 +0000",
-      "coins": [],
-      "provider": "cointelegraph"
-    },
-    {
-      "id": "cd-79964",
-      "title": "CME dives further into $85 trillion digital assets market with Nasdaq CME Crypto Index futures",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/05/14/cme-dives-further-into-usd85-trillion-digital-assets-market-with-nasdaq-cme-crypto-index-futures",
-      "published": "Thu, 14 May 2026 16:25:45 +0000",
-      "summary": "A CME group executive said the demand grew with average daily trading volume in his firms’ suite increasing by 43% year-to date.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "cd-74223",
-      "title": "U.S. senators lament failure to win bipartisan support, yet, on crypto Clarity Act ",
-      "source": "CoinDesk",
-      "url": "https://www.coindesk.com/policy/2026/05/14/u-s-senators-lament-failure-to-win-bipartisan-support-yet-on-crypto-clarity-act",
-      "published": "Thu, 14 May 2026 15:57:34 +0000",
-      "summary": "In the hearing to advance the market structure bill to its next stage, lawmakers from both parties granted lengthy talks hadn't yet found needed common ground.",
-      "coins": [],
-      "provider": "coindesk"
-    },
-    {
-      "id": "ct-rss-63567",
-      "title": "Bitcoin holds key support for $85K breakout as S&amp;P 500 hits new all-time high",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/markets/bitcoin-holds-support-for-85k-breakout-sp-500-new-all-time-high?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
-      "published": "Thu, 14 May 2026 15:52:40 +0000",
+      "url": "https://cointelegraph.com/news/bitcoin-depot-future-legal-judgments-litigation?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 22:17:38 +0000",
       "coins": [
         "BIT"
       ],
       "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-96748",
+      "title": "Bitcoin Depot filing casts doubt on company’s future amid lawsuits",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitcoin-depot-future-legal-judgments-litigation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 22:17:38 +0000",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-34844",
+      "title": "ICE, CME press US regulators to 'rein in' Hyperliquid energy trading: Report",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ice-cme-press-us-regulators-rein-hyperliquid-dex?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 21:42:18 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-86255",
+      "title": "ICE, CME press US regulators to 'rein in' Hyperliquid energy trading: Report",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/ice-cme-press-us-regulators-rein-hyperliquid-dex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 21:42:18 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-64895",
+      "title": "U.S. House lawmakers who oversee the CFTC are urging Trump to fill the commission ",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/15/u-s-house-lawmakers-who-oversee-the-cftc-are-urging-trump-to-fill-the-commission",
+      "published": "Fri, 15 May 2026 21:35:57 +0000",
+      "summary": "As the Commodity Futures Trading Commission takes on a growing task to police U.S. crypto trading, senior lawmakers are saying it needs bipartisan leadership.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "ct-rss-22390",
+      "title": "Solayer launches Visa-compatible card for USDC payments",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 21:11:19 +0000",
+      "coins": [
+        "SOL"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-75389",
+      "title": "Solayer launches Visa-compatible card for USDC payments",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/solayer-launches-visa-compatible-card-for-usdc-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 21:11:19 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-35904",
+      "title": "SpaceX targets June 11 IPO pricing, picks Nasdaq for historic market debut",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/05/15/spacex-targets-june-11-ipo-pricing-picks-nasdaq-for-historic-market-debut",
+      "published": "Fri, 15 May 2026 19:50:00 +0000",
+      "summary": "Elon Musk’s rocket and satellite company has accelerated plans for its blockbuster public offering, with trading expected to begin as early as June 12 after a faster-than-expected SEC review.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "gn-88003",
+      "title": "President Trump Discloses Coinbase, Robinhood and Bitcoin Mining Stock Trades - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR21UMWNOU3p0emhRVjNKSnk5bC1OeW8zendhRkhfamFZR2tyUmQ4SUhUSVhETHpJQS1RNU5iV3VMd1NYaVE4T0x6NmpwOHJIdTdoTDJCQ0E2VzgtV1VHZFNqTGZTNm1KMzRTQlJqMXRXZVJ2aWxXZDhrLWNaRDFYendDTlNGbElVYlZQLUItRTE4X2tVMzVMdUN2REh4YnhWaXBiMl9scmRPc25BSWc?oc=5",
+      "published": "Fri, 15 May 2026 19:48:45 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "gn-65092",
+      "title": "Trump administration curbs state oversight of crypto industry - International Consortium of Investigative Journalists - ICIJ",
+      "source": "International Consortium of Investigative Journalists - ICIJ",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON0JCTG1lSGgweW9sa1JOVXJCdllXWW1GcjU4TXNBalpGQ2gwbUJSdTd1bkR1cjNPckQ5TFhlSk54dWh0UnpScGFYVHRNTGlxeWdKakZNSUtYWXlWeFF3V0FtN2ZhNzBxaGN4X1BBLTJlME15dmd0Vk9EajFYdzNjNmZib2twSGZsaFB1dDZRWDZQQ2VYNFdmZWhMOUtSbnJtR1A0QTF2OHVWd3lhSWx5Qw?oc=5",
+      "published": "Fri, 15 May 2026 19:27:47 GMT",
+      "coins": [],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-2166",
+      "title": "US law firm files motion requesting redistribution of $344M USDt linked to Iran ",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/us-law-firm-motion-redistribution-344m-usdt-iran?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 18:41:57 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-46511",
+      "title": "US law firm files motion requesting redistribution of $344M USDt linked to Iran ",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/us-law-firm-motion-redistribution-344m-usdt-iran?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 18:41:57 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "gn-29882",
+      "title": "Abu Dhabi's Mubadala Raises Bitcoin ETF Stake 16% To $566 Million In Q1 2026 - Bitcoin Magazine",
+      "source": "Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRlFuX3NvSzVpbHMzeW1TUFZFNUhNb0JaZ2RadC1KVnRPVGM3S3JUT2NlSzJlUDZ6N0ZDZzByc2JDUkJCaFJxcXhfcWF5Zml2LXdvQXpHWklYQTh3R2w5TjEzdFhEdUZKeU1yRjVhcE91enBCMUJUbmRQTDRQQQ?oc=5",
+      "published": "Fri, 15 May 2026 18:13:17 GMT",
+      "coins": [
+        "BTC"
+      ],
+      "provider": "google-news-crypto"
+    },
+    {
+      "id": "ct-rss-90249",
+      "title": "Price predictions 5/15: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/price-predictions-515-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 18:09:38 +0000",
+      "coins": [
+        "BTC",
+        "XRP",
+        "SOL",
+        "ETH",
+        "BNB"
+      ],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-26824",
+      "title": "Price predictions 5/15: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/markets/price-predictions-515-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 18:09:38 +0000",
+      "coins": [
+        "BTC",
+        "BNB",
+        "ETH"
+      ],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-79075",
+      "title": "Bitwise launches US-listed Hyperliquid fund with staking rewards",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 17:56:47 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-21553",
+      "title": "Bitwise launches US-listed Hyperliquid fund with staking rewards",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/bitwise-asset-management-us-listed-hyperliquid-fund-staking-reward?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 17:56:47 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "ct-rss-40828",
+      "title": "Myanmar’s military government proposes life in prison for crypto scammers",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/myanmar-government-life-death-crypto-scammers?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 17:08:51 +0000",
+      "coins": [],
+      "provider": "cointelegraph-rss"
+    },
+    {
+      "id": "ct-63683",
+      "title": "Myanmar’s military government proposes life in prison for crypto scammers",
+      "source": "CoinTelegraph",
+      "url": "https://cointelegraph.com/news/myanmar-government-life-death-crypto-scammers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published": "Fri, 15 May 2026 17:08:51 +0000",
+      "coins": [],
+      "provider": "cointelegraph"
+    },
+    {
+      "id": "cd-63328",
+      "title": "Saudi Arabia is tokenizing its multi-trillion dollar economy to protect its wealth from global shocks",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/15/saudi-arabia-is-tokenizing-its-multi-trillion-dollar-economy-to-protect-its-wealth-from-global-shocks",
+      "published": "Fri, 15 May 2026 16:37:31 +0000",
+      "summary": "The chairman of droppRWA has secured $12.5 billion in mandates to tokenized real estate and his plans are to go beyond properties to bring trillions of dollars onchain.",
+      "coins": [],
+      "provider": "coindesk"
+    },
+    {
+      "id": "cd-93591",
+      "title": "Lombard joins LayerZero exodus as $4 billion in assets switch to Chainlink's bridge",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/05/15/lombard-joins-layerzero-exodus-as-usd4-billion-in-assets-switch-to-chainlink-s-bridge",
+      "published": "Fri, 15 May 2026 16:00:00 +0000",
+      "summary": "The shift comes after the Kelp DAO exploit drained $292 million from its LayerZero-powered bridge, increasing concerns over the security of cross-chain infrastructure.",
+      "coins": [],
+      "provider": "coindesk"
     }
   ]
 }

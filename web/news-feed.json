@@ -1,167 +1,167 @@
 {
-  "date": "2026-05-15",
-  "fetched_at": "2026-05-15 07:07",
+  "date": "2026-05-16",
+  "fetched_at": "2026-05-16 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Is the US running out of weapons in the Iran War? - NPR",
+      "title": "Stocks and bonds get swept up in a selloff, as Trump&#x2019;s China visit fails to pry open the Strait of Hormuz",
       "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "美國在伊朗戰爭中武器耗盡了嗎？ - 美國國家公共電台",
+      "source": "MarketWatch",
+      "title_cn": "由於川普訪華未能撬開霍爾木茲海峽，股市和債券遭遇拋售",
       "time": "05:00",
-      "detected_at": "2026-05-15T05:00:19.075708+08:00"
+      "detected_at": "2026-05-16T05:00:15.729556+08:00"
     },
     {
-      "title": "Tensions flare near Strait of Hormuz as a ship is seized and another is sunk - AP News",
+      "title": "〈美股盤後〉川習會缺乏重大突破 債市暴跌 道瓊挫逾530點 - cnyes.com",
+      "impact": "bearish",
+      "source": "鉅亨網",
+      "title_cn": "〈美股盤後〉川習會缺乏重大突破 債市暴跌 道瓊挫超過530點 - cnyes.com. 〈美股盤後〉川習會缺乏重大突破 債市暴跌 道瓊挫超過530點 &nbsp;&nbsp;cnyes.com",
+      "time": "05:00",
+      "detected_at": "2026-05-16T05:00:15.729556+08:00"
+    },
+    {
+      "title": "Don&#x2019;t fear a summer stock crash: Market history shows this massive spring rally isn&#x2019;t a trap",
       "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "美聯社新聞稱，霍爾木茲海峽附近一艘船被扣押，另一艘船被擊沉，緊張局勢加劇",
-      "time": "05:00",
-      "detected_at": "2026-05-15T05:00:19.075708+08:00"
+      "source": "MarketWatch",
+      "title_cn": "不要擔心夏季股市崩盤：市場歷史表明，春季的大規模反彈並不是陷阱",
+      "time": "04:00",
+      "detected_at": "2026-05-16T04:00:18.884968+08:00"
     },
     {
-      "title": "Trump’s ‘financial situation’ gaffe underscores his Iran war problem - CNN",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "川普的「財務狀況」失誤凸顯了他的伊朗戰爭問題 - CNN",
-      "time": "05:00",
-      "detected_at": "2026-05-15T05:00:19.075708+08:00"
-    },
-    {
-      "title": "A Fact Check of Trump’s Claims on Inflation and Gas Prices in Iran War - The New York Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "對川普關於伊朗戰爭中通貨膨脹和天然氣價格的說法進行事實查核 - 紐約時報",
-      "time": "05:00",
-      "detected_at": "2026-05-15T05:00:19.075708+08:00"
-    },
-    {
-      "title": "Oil prices dip after Iran says some vessels are crossing Hormuz By Reuters - Investing.com",
+      "title": "Wall Street pushes back Fed rate-cut expectations. Here is why - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "路透社-Investing.com，伊朗稱一些船隻正在穿越霍爾木茲，導致油價下跌",
+      "title_cn": "華爾街推遲了聯準會降息的預期",
       "time": "04:00",
-      "detected_at": "2026-05-15T04:00:18.368709+08:00"
+      "detected_at": "2026-05-16T04:00:18.884968+08:00"
     },
     {
-      "title": "Gold Holds Decline as US Inflation Jump Lowers Rate Cut Odds - Bloomberg.com",
+      "title": "Russia’s Wartime Economy Shrinks for First Time Since 2023 - Bloomberg.com",
       "impact": "bearish",
       "source": "Bloomberg-via-GN",
-      "title_cn": "由於美國通膨飆升降低了降息可能性，黃金保持下跌 - Bloomberg.com",
+      "title_cn": "俄羅斯戰時經濟自 2023 年以來首次萎縮 - Bloomberg.com",
       "time": "04:00",
-      "detected_at": "2026-05-15T04:00:18.368709+08:00"
+      "detected_at": "2026-05-16T04:00:18.884968+08:00"
     },
     {
-      "title": "Trump funding for Iran war in ‘big trouble’ amid growing GOP concerns - The Hill",
+      "title": "Pentagon considering renaming Iran war ‘Sledgehammer’ if ceasefire collapses - NBC News",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "在共和黨日益擔憂的情況下，川普為伊朗戰爭提供的資金陷入了「大麻煩」——國會山莊",
+      "title_cn": "如果停火失敗，五角大廈考慮將伊朗戰爭重新命名為“大錘” - NBC新聞",
       "time": "04:00",
-      "detected_at": "2026-05-15T04:00:18.368709+08:00"
-    },
-    {
-      "title": "China and U.S. agree Hormuz should not be ‘militarized,’ Marco Rubio says - NBC News",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "馬可·盧比奧 (Marco Rubio) 表示，中國和美國一致認為霍爾木茲不應「軍事化」——NBC 新聞",
-      "time": "04:00",
-      "detected_at": "2026-05-15T04:00:18.368709+08:00"
-    },
-    {
-      "title": "Five ways the Iran war will forever alter the Middle East - Atlantic Council",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭將在五個方面永遠改變中東 - 大西洋理事會",
-      "time": "04:00",
-      "detected_at": "2026-05-15T04:00:18.368709+08:00"
-    },
-    {
-      "title": "Chinese supertanker exits Gulf, crossing Hormuz after months of delay - The Jerusalem Post",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "《耶路撒冷郵報》稱，中國超級油輪在拖延數月後離開海灣，穿越霍爾木茲海峽",
-      "time": "03:00",
-      "detected_at": "2026-05-15T03:00:17.462469+08:00"
-    },
-    {
-      "title": "Iran War Saps Money From Other Pentagon Needs, Leaders Warn - WSJ",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "領導人警告稱，伊朗戰爭將耗盡五角大樓其他需求的資金 - 華爾街日報",
-      "time": "03:00",
-      "detected_at": "2026-05-15T03:00:17.462469+08:00"
-    },
-    {
-      "title": "輝達Q1財報將登場 華爾街期待什麼？ - news.cnyes.com",
-      "impact": "neutral",
-      "source": "鉅亨網",
-      "title_cn": "辉达Q1财报将登场华尔街期待什么？ - news.cnyes.com. 輝達Q1財報將登場華爾街期待什麼？ &nbsp;&nbsp;news.cnyes.com",
-      "time": "03:00",
-      "detected_at": "2026-05-15T03:00:17.462469+08:00"
-    },
-    {
-      "title": "Goldman says tech stock 'up crash' is sign of even more gains to come",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "高盛表示，科技股“暴跌”是未来进一步上涨的迹象",
-      "time": "02:00",
-      "detected_at": "2026-05-15T02:00:17.768271+08:00"
-    },
-    {
-      "title": "Costs tied to Iran war add to WA farm woes - Oregon Capital Chronicle",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "與伊朗戰爭相關的成本加劇了西澳農場的困境 - 俄勒岡州首都紀事報",
-      "time": "02:00",
-      "detected_at": "2026-05-15T02:00:17.768271+08:00"
-    },
-    {
-      "title": "Oil prices dip after Iran says some vessels are crossing Hormuz - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "伊朗稱一些船隻正在穿越霍爾木茲海峽後油價下跌 - 路透社",
-      "time": "01:00",
-      "detected_at": "2026-05-15T01:00:22.626958+08:00"
+      "detected_at": "2026-05-16T04:00:18.884968+08:00"
     },
     {
       "title": "Dollar’s Link to Oil Most Positive Ever as Iran Crisis Drags On - Bloomberg.com",
       "impact": "neutral",
       "source": "Bloomberg-via-GN",
       "title_cn": "隨著伊朗危機的持續，美元與石油的聯繫最為積極 - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-05-15T01:00:22.626958+08:00"
+      "time": "03:00",
+      "detected_at": "2026-05-16T03:00:15.218253+08:00"
     },
     {
       "title": "Rubio urges China to help US with Iran war - Semafor",
       "impact": "bearish",
       "source": "Semafor",
       "title_cn": "盧比奧敦促中國在伊朗戰爭中幫助美國 - Semafor",
-      "time": "01:00",
-      "detected_at": "2026-05-15T01:00:22.626958+08:00"
+      "time": "03:00",
+      "detected_at": "2026-05-16T03:00:15.218253+08:00"
     },
     {
-      "title": "Exclusive: CBS’ Tony Dokoupil to broadcast from Taiwan after failing to get China visa in time - Semafor",
+      "title": "Traders now see next Fed interest rate move as a hike following inflation surge",
       "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "交易員現在認為聯準會的下一次利率變動將是通膨飆升後的升息",
+      "time": "02:00",
+      "detected_at": "2026-05-16T02:00:18.584278+08:00"
+    },
+    {
+      "title": "Stocks and bonds are swept up in selloff as Trump&#x2019;s China visit fails to pry open Strait of Hormuz",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "由於川普訪華未能撬開霍爾木茲海峽，股市和債券遭遇拋售",
+      "time": "02:00",
+      "detected_at": "2026-05-16T02:00:18.584278+08:00"
+    },
+    {
+      "title": "BRICS talks end without joint statement as divisions over Iran war deepen - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "半島電視台稱，隨著伊朗戰爭分歧加深，金磚國家會談在沒有發表聯合聲明的情況下結束",
+      "time": "02:00",
+      "detected_at": "2026-05-16T02:00:18.584278+08:00"
+    },
+    {
+      "title": "Farmers Are Collateral Damage in Trump’s Iran War - Mother Jones",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "農民是川普伊朗戰爭的附帶損害 - 瓊斯媽媽",
+      "time": "02:00",
+      "detected_at": "2026-05-16T02:00:18.584278+08:00"
+    },
+    {
+      "title": "Dollar climbs for fifth straight day as Fed rate hike bets grow - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "隨著聯準會升息預期的增加，美元連續第五天上漲 - 路透中文網隨著聯準會升息預期增加，美元連續第五天上漲 路透社",
+      "time": "01:00",
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
+    },
+    {
+      "title": "Exclusive / Iran war, ballroom funding debates hang over GOP agenda - Semafor",
+      "impact": "bearish",
       "source": "Semafor",
-      "title_cn": "獨家報導：哥倫比亞廣播公司 (CBS) 的托尼·多庫皮爾 (Tony Dokoupil) 在未能及時獲得中國簽證後從台灣轉播 - Semafor",
+      "title_cn": "獨家/伊朗戰爭、舞廳資金辯論懸在共和黨議程上 - Semafor",
       "time": "01:00",
-      "detected_at": "2026-05-15T01:00:22.626958+08:00"
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
     },
     {
-      "title": "When will the Iran war end? The US can’t even decide when it began | Lawrence Douglas - The Guardian",
+      "title": "Republicans Waited to Challenge Trump on the Iran War. Now It May Be Too Late. - The New York Times",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭什麼時候結束？美國甚至無法決定它何時開始 |勞倫斯道格拉斯 - 《衛報》",
+      "title_cn": "共和黨人等待在伊朗戰爭問題上挑戰川普",
       "time": "01:00",
-      "detected_at": "2026-05-15T01:00:22.626958+08:00"
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
     },
     {
-      "title": "Exclusive: Iraq seeking financial assistance from IMF, World Bank as result of Iran war - Reuters",
+      "title": "In Kentucky, the Iran War Complicates a Republican Primary - The New York Times",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Exclusive: Iraq seeking financial assistance from IMF, World Bank as result of Iran war - Reuters",
+      "title_cn": "在肯塔基州，伊朗戰爭使共和黨初選變得複雜 - 《紐約時報》",
       "time": "01:00",
-      "detected_at": "2026-05-15T01:00:22.626958+08:00"
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
+    },
+    {
+      "title": "India and UAE sign defence pacts, as Iran war tensions simmer - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "隨著伊朗戰爭緊張局勢的加劇，印度和阿聯酋簽署國防協議 - 半島電視台",
+      "time": "01:00",
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
+    },
+    {
+      "title": "What the Iran War Tells Us About the Dollar’s Vulnerability - Council on Foreign Relations",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "What the Iran War Tells Us About the Dollar’s Vulnerability - Council on Foreign Relations",
+      "time": "01:00",
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
+    },
+    {
+      "title": "Araghchi: Iran doubts US ‘seriousness’ about talks amid nuclear deadlock - Al Jazeera",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "Araghchi: Iran doubts US ‘seriousness’ about talks amid nuclear deadlock - Al Jazeera",
+      "time": "01:00",
+      "detected_at": "2026-05-16T01:00:19.881018+08:00"
+    },
+    {
+      "title": "Indian shares log weekly losses hurt by oil surge, IT decline - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "印度股市因石油價格上漲和IT下跌而錄得每週下跌 - 路透社",
+      "time": "23:00",
+      "detected_at": "2026-05-15T23:00:22.074554+08:00"
     }
   ]
 }
