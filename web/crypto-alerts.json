@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 96.61,
-    "change_pct": 2.64,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試\n- [Barron's] 比特幣價格下跌，XRP 和 Solana 上漲。加密貨幣法案本周可能會引發分歧。 - 巴倫周刊",
-    "timestamp": "2026-05-12T00:05:11.322820+08:00",
-    "epoch": 1778515508
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 97.71,
-    "change_pct": 3.89,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
-    "timestamp": "2026-05-12T00:40:10.823500+08:00",
-    "epoch": 1778517608
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 97.2,
-    "change_pct": 2.72,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
-    "timestamp": "2026-05-12T01:15:07.192625+08:00",
-    "epoch": 1778519705
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 97.88,
-    "change_pct": 3.16,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] Solana 史上最大的共識改革正式上線測試",
-    "timestamp": "2026-05-12T01:45:07.333462+08:00",
-    "epoch": 1778521505
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 659.9,
-    "change_pct": -2.01,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA",
-    "timestamp": "2026-05-12T09:40:08.065105+08:00",
-    "epoch": 1778550005
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2308.06,
-    "change_pct": -2.0,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 隨著加密貨幣市場結構法案走向加價，道德仍然是個癥結所在\n- [CoinTelegraph] 隨著加密貨幣市場結構法案走向加價，道德仍然是個癥結所在\n- [Cointelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA",
-    "timestamp": "2026-05-12T09:45:11.102190+08:00",
-    "epoch": 1778550308
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 96.07,
-    "change_pct": 2.21,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] Solana ETF 流入顯示需求回升，交易員預計 SOL 將漲至 120 美元\n- [CoinTelegraph] Solana ETF 流入顯示需求回升，交易員預計 SOL 將漲至 120 美元\n- [Cointelegraph] 價格預測 5/11：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA",
-    "timestamp": "2026-05-12T09:45:12.019350+08:00",
-    "epoch": 1778550308
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 677.8,
-    "change_pct": 2.14,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 幣安首席行銷長雷切爾康蘭 (Rachel Conlan) 將離開該交易所",
-    "timestamp": "2026-05-13T09:25:07.181250+08:00",
-    "epoch": 1778635504
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 678.6,
-    "change_pct": 2.43,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [CoinDesk] 幣安首席行銷長雷切爾康蘭 (Rachel Conlan) 將離開該交易所",
-    "timestamp": "2026-05-13T09:55:07.412989+08:00",
-    "epoch": 1778637305
-  },
-  {
     "symbol": "BNB/USDT",
     "coin": "BNB",
     "price": 680.0,
@@ -498,5 +408,95 @@
     "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet",
     "timestamp": "2026-05-15T23:45:10.806880+08:00",
     "epoch": 1778859908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2191.66,
+    "change_pct": -2.02,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
+    "timestamp": "2026-05-16T15:15:07.974791+08:00",
+    "epoch": 1778915705
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 87.22,
+    "change_pct": -2.16,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Cointelegraph] Solayer 推出適用於 USDC 支付的 Visa 相容卡\n- [CoinTelegraph] Solayer 推出適用於 USDC 支付的 Visa 相容卡",
+    "timestamp": "2026-05-16T15:15:08.961084+08:00",
+    "epoch": 1778915705
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2198.66,
+    "change_pct": -2.04,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
+    "timestamp": "2026-05-16T15:45:11.866336+08:00",
+    "epoch": 1778917509
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 87.73,
+    "change_pct": -2.46,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%\n- [Cointelegraph] Solayer 推出適用於 USDC 支付的 Visa 相容卡",
+    "timestamp": "2026-05-16T15:45:13.623259+08:00",
+    "epoch": 1778917509
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2169.02,
+    "change_pct": -2.45,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
+    "timestamp": "2026-05-16T17:20:09.994290+08:00",
+    "epoch": 1778923207
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.94,
+    "change_pct": -2.45,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 隨著比特幣跌至 78,000 美元，SOL 和 XRP 下跌 5%，加密貨幣多頭損失 5 億美元 - CoinDesk\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%",
+    "timestamp": "2026-05-16T17:20:12.359388+08:00",
+    "epoch": 1778923207
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2175.64,
+    "change_pct": -2.45,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
+    "timestamp": "2026-05-16T17:55:09.869578+08:00",
+    "epoch": 1778925307
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.23,
+    "change_pct": -2.56,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 隨著比特幣跌至 78,000 美元，SOL 和 XRP 下跌 5%，加密貨幣多頭損失 5 億美元 - CoinDesk\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%",
+    "timestamp": "2026-05-16T17:55:11.034932+08:00",
+    "epoch": 1778925307
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.77,
+    "change_pct": -2.28,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 比特幣為何下跌？ BTC 跌至 78,000 美元，SOL、DOGE、XRP 下跌 5% - CoinDesk\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%",
+    "timestamp": "2026-05-16T18:25:11.334332+08:00",
+    "epoch": 1778927107
   }
 ]
