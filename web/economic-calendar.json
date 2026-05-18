@@ -1,35 +1,19 @@
 {
-  "date": "2026-05-15",
-  "generated_at": "2026-05-15 04:00",
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17 08:45",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 33,
-    "label": "下次 FOMC：06/17（33天後）"
+    "days_away": 31,
+    "label": "下次 FOMC：06/17（31天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-05-15",
-      "event": "零售銷售（4月）",
-      "importance": "medium",
-      "source": "Census",
-      "days_away": 0,
-      "label": "🟡 零售銷售（4月）（0天後）",
-      "impact_guide": {
-        "name": "零售銷售",
-        "above": "消費強勁 → 經濟韌性 → 短多",
-        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
-        "watch": "排除汽車的核心零售更能反映趨勢"
-      },
-      "previous": "+0.5%",
-      "previous_date": "2026-04-01"
-    },
     {
       "date": "2026-05-22",
       "event": "密西根消費者信心（5月終值）",
       "importance": "medium",
       "source": "UMich",
-      "days_away": 7,
-      "label": "🟡 密西根消費者信心（5月終值）（7天後）",
+      "days_away": 5,
+      "label": "🟡 密西根消費者信心（5月終值）（5天後）",
       "impact_guide": {
         "name": "密西根消費者信心指數",
         "above": "信心改善 → 消費預期樂觀 → 偏多",
@@ -42,28 +26,12 @@
   ],
   "next_14_days": [
     {
-      "date": "2026-05-15",
-      "event": "零售銷售（4月）",
-      "importance": "medium",
-      "source": "Census",
-      "days_away": 0,
-      "label": "🟡 零售銷售（4月）（0天後）",
-      "impact_guide": {
-        "name": "零售銷售",
-        "above": "消費強勁 → 經濟韌性 → 短多",
-        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
-        "watch": "排除汽車的核心零售更能反映趨勢"
-      },
-      "previous": "+0.5%",
-      "previous_date": "2026-04-01"
-    },
-    {
       "date": "2026-05-22",
       "event": "密西根消費者信心（5月終值）",
       "importance": "medium",
       "source": "UMich",
-      "days_away": 7,
-      "label": "🟡 密西根消費者信心（5月終值）（7天後）",
+      "days_away": 5,
+      "label": "🟡 密西根消費者信心（5月終值）（5天後）",
       "impact_guide": {
         "name": "密西根消費者信心指數",
         "above": "信心改善 → 消費預期樂觀 → 偏多",
@@ -78,22 +46,24 @@
       "event": "GDP Q1 修正值",
       "importance": "medium",
       "source": "BEA",
-      "days_away": 13,
-      "label": "🟡 GDP Q1 修正值（13天後）",
+      "days_away": 11,
+      "label": "🟡 GDP Q1 修正值（11天後）",
       "impact_guide": {
         "name": "國內生產毛額",
         "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
         "below": "經濟放緩 → 衰退疑慮 → 偏空",
         "watch": "初值影響最大，修正值/終值影響遞減"
-      }
+      },
+      "previous": "2.0",
+      "previous_date": "2026-01-01"
     },
     {
       "date": "2026-05-29",
       "event": "PCE（4月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 14,
-      "label": "🔴 PCE（4月）（14天後）",
+      "days_away": 12,
+      "label": "🔴 PCE（4月）（12天後）",
       "impact_guide": {
         "name": "個人消費支出物價指數",
         "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
