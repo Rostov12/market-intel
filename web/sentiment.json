@@ -1,64 +1,55 @@
 {
-  "date": "2026-05-16",
-  "generated_at": "2026-05-16 04:45",
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19 04:45",
   "composite": {
-    "score": 0.5,
+    "score": 1.0,
     "label": "散戶偏多",
     "contrarian_signal": "🟡小心追高"
   },
   "spy_pcr": {
     "source": "spy_pcr",
-    "status": "ok",
-    "expiries_used": [
-      "2026-05-15",
-      "2026-05-18",
-      "2026-05-19"
-    ],
-    "total_calls_vol": 4666513,
-    "total_puts_vol": 4415850,
-    "pcr": 0.946,
-    "label": "散戶中性",
-    "signal": "中性"
+    "status": "error",
+    "pcr": null
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 5,
-    "bear_words": 2,
-    "bull_pct": 71,
+    "bull_words": 6,
+    "bear_words": 4,
+    "bull_pct": 60,
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "POET",
+        "symbol": "NOW",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread Superbowl 5/18 - 5/22",
-        "score": 50,
-        "upvote_ratio": 0.95
-      },
-      {
-        "title": "Weekend Discussion Thread for the Weekend of May 15, 2026",
-        "score": 34,
-        "upvote_ratio": 0.91
-      },
-      {
-        "title": "Thanks for the Soft Landing See you Space Cowboy",
-        "score": 6483,
-        "upvote_ratio": 0.97
-      },
-      {
-        "title": "Welcome Master to your new role!",
-        "score": 6160,
-        "upvote_ratio": 0.97
-      },
-      {
-        "title": "Fat fingered $130k of 0 DTE SPX calls",
-        "score": 871,
+        "score": 210,
         "upvote_ratio": 0.96
+      },
+      {
+        "title": "What Are Your Moves Tomorrow, May 19, 2026",
+        "score": 33,
+        "upvote_ratio": 0.84
+      },
+      {
+        "title": "Finally someone gets arrested for insider trading",
+        "score": 10086,
+        "upvote_ratio": 0.96
+      },
+      {
+        "title": "SpaceX float is only about 4%",
+        "score": 849,
+        "upvote_ratio": 0.96
+      },
+      {
+        "title": "Is this insider trading?",
+        "score": 8313,
+        "upvote_ratio": 0.97
       }
     ]
   }
