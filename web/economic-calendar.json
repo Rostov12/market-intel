@@ -1,12 +1,48 @@
 {
   "date": "2026-05-19",
-  "generated_at": "2026-05-19 04:00",
+  "generated_at": "2026-05-20 16:30",
   "next_fomc": {
     "date": "2026-06-17",
     "days_away": 29,
     "label": "下次 FOMC：06/17（29天後）"
   },
+  "fomc_minutes_schedule": {
+    "rule": "FOMC Minutes 約於 FOMC 會議後 3 週公布（美東時間 14:00 = TST 隔日 02:00）",
+    "upcoming": [
+      {
+        "fomc_date": "2026-04-30",
+        "minutes_date": "2026-05-21",
+        "minutes_tst": "02:00 TST (05-21) / 14:00 ET (05-20)",
+        "status": "scheduled"
+      },
+      {
+        "fomc_date": "2026-06-17",
+        "minutes_date_estimate": "2026-07-09",
+        "minutes_tst_estimate": "約 02:00 TST (07-09) / 14:00 ET (07-08)",
+        "status": "estimated"
+      }
+    ],
+    "monitoring_rule": "每次 FOMC 結束後，自動排定 +3 週的 Minutes 監測；公布前 24h 推播提醒"
+  },
   "next_7_days": [
+    {
+      "date": "2026-05-21",
+      "event": "FOMC Minutes（4/30 會議紀要）",
+      "importance": "high",
+      "source": "Federal Reserve",
+      "days_away": 2,
+      "tst_time": "02:00 TST",
+      "us_et_date": "2026-05-20",
+      "us_et_time": "14:00 ET",
+      "label": "🔴 FOMC Minutes（4/30 會議紀要）（2天後，TST 02:00）",
+      "impact_guide": {
+        "name": "FOMC 會議紀要",
+        "above": "鷹派細節（內部對通膨更擔憂 / 不急降息）→ 殖利率升、美元升、黃金壓、股市壓",
+        "below": "鴿派細節（成員對成長更擔憂 / 可能 9-12 月降息）→ 殖利率降、美元降、黃金漲、股市漲",
+        "watch": "公布後第一小時量價反應比文字本身重要（浩投資 5/20 觀點）；同日 04:20 TST NVDA 財報 → 雙催化夜"
+      },
+      "previous": "2026-04-30 FOMC 維持 3.50-3.75%（鷹派）"
+    },
     {
       "date": "2026-05-22",
       "event": "密西根消費者信心（5月終值）",
@@ -27,6 +63,24 @@
     }
   ],
   "next_14_days": [
+    {
+      "date": "2026-05-21",
+      "event": "FOMC Minutes（4/30 會議紀要）",
+      "importance": "high",
+      "source": "Federal Reserve",
+      "days_away": 2,
+      "tst_time": "02:00 TST",
+      "us_et_date": "2026-05-20",
+      "us_et_time": "14:00 ET",
+      "label": "🔴 FOMC Minutes（4/30 會議紀要）（2天後，TST 02:00）",
+      "impact_guide": {
+        "name": "FOMC 會議紀要",
+        "above": "鷹派細節（內部對通膨更擔憂 / 不急降息）→ 殖利率升、美元升、黃金壓、股市壓",
+        "below": "鴿派細節（成員對成長更擔憂 / 可能 9-12 月降息）→ 殖利率降、美元降、黃金漲、股市漲",
+        "watch": "公布後第一小時量價反應比文字本身重要；同日 04:20 TST NVDA 財報 → 雙催化夜"
+      },
+      "previous": "2026-04-30 FOMC 維持 3.50-3.75%（鷹派）"
+    },
     {
       "date": "2026-05-22",
       "event": "密西根消費者信心（5月終值）",
