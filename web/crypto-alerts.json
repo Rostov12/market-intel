@@ -1,35 +1,5 @@
 [
   {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 79222.2,
-    "change_pct": -2.46,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 為何比特幣、以太幣、XRP能夠延續反彈？ - FXStreet\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet",
-    "timestamp": "2026-05-15T22:45:10.803025+08:00",
-    "epoch": 1778856308
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 675.3,
-    "change_pct": -2.4,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] CoinDesk 20 業績更新：BNB 是唯一上漲者，指數下跌 2%",
-    "timestamp": "2026-05-15T22:45:11.512710+08:00",
-    "epoch": 1778856308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2213.41,
-    "change_pct": -2.44,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 為何比特幣、以太幣、XRP能夠延續反彈？ - FXStreet\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet",
-    "timestamp": "2026-05-15T22:55:11.746564+08:00",
-    "epoch": 1778856909
-  },
-  {
     "symbol": "SOL/USDT",
     "coin": "SOL",
     "price": 88.72,
@@ -498,5 +468,35 @@
     "news": "- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網\n- [Geopolitical] 伊朗最新動態：隨著戰爭權力決議的臨近，伊朗展現實力 - LiveNOW from FOX\n- [Geopolitical] 參議院推動伊朗戰爭權力決議，眾議院即將投票 - NewsNation",
     "timestamp": "2026-05-21T00:40:12.447540+08:00",
     "epoch": 1779295207
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 87.79,
+    "change_pct": 2.4,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-22T01:25:10.501056+08:00",
+    "epoch": 1779384308
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 87.91,
+    "change_pct": 2.46,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 馬克庫班表示，在對沖失敗的敘述讓這位億萬富翁「失望」後，他賣掉了大部分比特幣\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-22T01:55:11.346179+08:00",
+    "epoch": 1779386109
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 87.58,
+    "change_pct": 2.01,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [CoinDesk] 馬克庫班表示，在對沖失敗的敘述讓這位億萬富翁「失望」後，他賣掉了大部分比特幣\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-22T02:30:11.509714+08:00",
+    "epoch": 1779388205
   }
 ]

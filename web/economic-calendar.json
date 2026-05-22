@@ -1,102 +1,26 @@
 {
-  "date": "2026-05-19",
-  "generated_at": "2026-05-20 16:30",
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22 04:00",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 29,
-    "label": "下次 FOMC：06/17（29天後）"
-  },
-  "fomc_minutes_schedule": {
-    "rule": "FOMC Minutes 約於 FOMC 會議後 3 週公布（美東時間 14:00 = TST 隔日 02:00）",
-    "upcoming": [
-      {
-        "fomc_date": "2026-04-30",
-        "minutes_date": "2026-05-21",
-        "minutes_tst": "02:00 TST (05-21) / 14:00 ET (05-20)",
-        "status": "scheduled"
-      },
-      {
-        "fomc_date": "2026-06-17",
-        "minutes_date_estimate": "2026-07-09",
-        "minutes_tst_estimate": "約 02:00 TST (07-09) / 14:00 ET (07-08)",
-        "status": "estimated"
-      }
-    ],
-    "monitoring_rule": "每次 FOMC 結束後，自動排定 +3 週的 Minutes 監測；公布前 24h 推播提醒"
+    "days_away": 26,
+    "label": "下次 FOMC：06/17（26天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-05-21",
-      "event": "FOMC Minutes（4/30 會議紀要）",
-      "importance": "high",
-      "source": "Federal Reserve",
-      "days_away": 2,
-      "tst_time": "02:00 TST",
-      "us_et_date": "2026-05-20",
-      "us_et_time": "14:00 ET",
-      "label": "🔴 FOMC Minutes（4/30 會議紀要）（2天後，TST 02:00）",
-      "impact_guide": {
-        "name": "FOMC 會議紀要",
-        "above": "鷹派細節（內部對通膨更擔憂 / 不急降息）→ 殖利率升、美元升、黃金壓、股市壓",
-        "below": "鴿派細節（成員對成長更擔憂 / 可能 9-12 月降息）→ 殖利率降、美元降、黃金漲、股市漲",
-        "watch": "公布後第一小時量價反應比文字本身重要（浩投資 5/20 觀點）；同日 04:20 TST NVDA 財報 → 雙催化夜"
-      },
-      "previous": "2026-04-30 FOMC 維持 3.50-3.75%（鷹派）"
-    },
-    {
       "date": "2026-05-22",
       "event": "密西根消費者信心（5月終值）",
       "importance": "medium",
       "source": "UMich",
-      "days_away": 3,
-      "label": "🟡 密西根消費者信心（5月終值）（3天後）",
+      "days_away": 0,
+      "label": "🟡 密西根消費者信心（5月終值）（0天後）",
       "impact_guide": {
         "name": "密西根消費者信心指數",
         "above": "信心改善 → 消費預期樂觀 → 偏多",
         "below": "信心下滑 → 消費可能放緩 → 偏空",
         "watch": "通膨預期分項影響 Fed 決策"
       },
-      "previous": "53.3",
-      "previous_date": "2026-03-01",
-      "forecast": "48.3",
-      "forecast_source": "ForexFactory"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-05-21",
-      "event": "FOMC Minutes（4/30 會議紀要）",
-      "importance": "high",
-      "source": "Federal Reserve",
-      "days_away": 2,
-      "tst_time": "02:00 TST",
-      "us_et_date": "2026-05-20",
-      "us_et_time": "14:00 ET",
-      "label": "🔴 FOMC Minutes（4/30 會議紀要）（2天後，TST 02:00）",
-      "impact_guide": {
-        "name": "FOMC 會議紀要",
-        "above": "鷹派細節（內部對通膨更擔憂 / 不急降息）→ 殖利率升、美元升、黃金壓、股市壓",
-        "below": "鴿派細節（成員對成長更擔憂 / 可能 9-12 月降息）→ 殖利率降、美元降、黃金漲、股市漲",
-        "watch": "公布後第一小時量價反應比文字本身重要；同日 04:20 TST NVDA 財報 → 雙催化夜"
-      },
-      "previous": "2026-04-30 FOMC 維持 3.50-3.75%（鷹派）"
-    },
-    {
-      "date": "2026-05-22",
-      "event": "密西根消費者信心（5月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 3,
-      "label": "🟡 密西根消費者信心（5月終值）（3天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "previous": "53.3",
-      "previous_date": "2026-03-01",
-      "forecast": "48.3",
+      "forecast": "48.2",
       "forecast_source": "ForexFactory"
     },
     {
@@ -104,8 +28,8 @@
       "event": "GDP Q1 修正值",
       "importance": "medium",
       "source": "BEA",
-      "days_away": 9,
-      "label": "🟡 GDP Q1 修正值（9天後）",
+      "days_away": 6,
+      "label": "🟡 GDP Q1 修正值（6天後）",
       "impact_guide": {
         "name": "國內生產毛額",
         "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
@@ -120,8 +44,58 @@
       "event": "PCE（4月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 10,
-      "label": "🔴 PCE（4月）（10天後）",
+      "days_away": 7,
+      "label": "🔴 PCE（4月）（7天後）",
+      "impact_guide": {
+        "name": "個人消費支出物價指數",
+        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
+        "below": "通膨降溫 → 鴿派 → 偏多",
+        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
+      },
+      "previous": "3.2%",
+      "previous_date": "2026-03-01"
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-05-22",
+      "event": "密西根消費者信心（5月終值）",
+      "importance": "medium",
+      "source": "UMich",
+      "days_away": 0,
+      "label": "🟡 密西根消費者信心（5月終值）（0天後）",
+      "impact_guide": {
+        "name": "密西根消費者信心指數",
+        "above": "信心改善 → 消費預期樂觀 → 偏多",
+        "below": "信心下滑 → 消費可能放緩 → 偏空",
+        "watch": "通膨預期分項影響 Fed 決策"
+      },
+      "forecast": "48.2",
+      "forecast_source": "ForexFactory"
+    },
+    {
+      "date": "2026-05-28",
+      "event": "GDP Q1 修正值",
+      "importance": "medium",
+      "source": "BEA",
+      "days_away": 6,
+      "label": "🟡 GDP Q1 修正值（6天後）",
+      "impact_guide": {
+        "name": "國內生產毛額",
+        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
+        "below": "經濟放緩 → 衰退疑慮 → 偏空",
+        "watch": "初值影響最大，修正值/終值影響遞減"
+      },
+      "previous": "2.0",
+      "previous_date": "2026-01-01"
+    },
+    {
+      "date": "2026-05-29",
+      "event": "PCE（4月）",
+      "importance": "high",
+      "source": "BEA",
+      "days_away": 7,
+      "label": "🔴 PCE（4月）（7天後）",
       "impact_guide": {
         "name": "個人消費支出物價指數",
         "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
@@ -136,14 +110,30 @@
       "event": "ISM 製造業 PMI（5月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 13,
-      "label": "🔴 ISM 製造業 PMI（5月）（13天後）",
+      "days_away": 10,
+      "label": "🔴 ISM 製造業 PMI（5月）（10天後）",
       "impact_guide": {
         "name": "ISM 製造業 PMI",
         "above": ">50 擴張，超預期 → 偏多",
         "below": "<50 收縮，低於預期 → 偏空",
         "watch": "新訂單和就業分項是領先指標"
       }
+    },
+    {
+      "date": "2026-06-05",
+      "event": "NFP（5月就業）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 14,
+      "label": "🔴 NFP（5月就業）（14天後）",
+      "impact_guide": {
+        "name": "非農就業人數",
+        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
+        "below": "就業疲弱 → 降息預期 → 偏多",
+        "watch": "同步關注失業率與時薪成長"
+      },
+      "previous": "+115K",
+      "previous_date": "2026-04-01"
     }
   ]
 }

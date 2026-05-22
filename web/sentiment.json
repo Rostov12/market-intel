@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-21",
-  "generated_at": "2026-05-21 04:45",
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22 04:45",
   "composite": {
-    "score": 0.0,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": 0.5,
+    "label": "散戶偏多",
+    "contrarian_signal": "🟡小心追高"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-20",
       "2026-05-21",
-      "2026-05-22"
+      "2026-05-22",
+      "2026-05-26"
     ],
-    "total_calls_vol": 4053023,
-    "total_puts_vol": 3392158,
-    "pcr": 0.837,
+    "total_calls_vol": 5496326,
+    "total_puts_vol": 4591664,
+    "pcr": 0.835,
     "label": "散戶中性",
     "signal": "中性"
   },
@@ -25,52 +25,35 @@
     "status": "ok",
     "post_count": 25,
     "bull_words": 3,
-    "bear_words": 3,
-    "bull_pct": 50,
-    "label": "中性",
-    "top_tickers": [
-      {
-        "symbol": "NVDA",
-        "count": 1
-      },
-      {
-        "symbol": "SLS",
-        "count": 1
-      },
-      {
-        "symbol": "RDDT",
-        "count": 1
-      },
-      {
-        "symbol": "META",
-        "count": 1
-      }
-    ],
+    "bear_words": 1,
+    "bull_pct": 75,
+    "label": "偏多情緒",
+    "top_tickers": [],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread Superbowl 5/18 - 5/22",
-        "score": 264,
-        "upvote_ratio": 0.96
-      },
-      {
-        "title": "What Are Your Moves Tomorrow, May 21, 2026",
-        "score": 60,
-        "upvote_ratio": 0.92
-      },
-      {
-        "title": "NVDA earnings 600k yolo",
-        "score": 2282,
-        "upvote_ratio": 0.96
-      },
-      {
-        "title": "OpenAI is preparing to file for an IPO, possibly as early as Friday",
-        "score": 1648,
+        "score": 280,
         "upvote_ratio": 0.97
       },
       {
-        "title": "China banned Nvidia’s gaming chip during Jensen Huang’s visit",
-        "score": 4464,
-        "upvote_ratio": 0.97
+        "title": "What Are Your Moves Tomorrow, May 22, 2026",
+        "score": 50,
+        "upvote_ratio": 0.95
+      },
+      {
+        "title": "Breaking: US–Iran deal reportedly finalised, announcement expected within hours",
+        "score": 2554,
+        "upvote_ratio": 0.89
+      },
+      {
+        "title": "$1,300,000 Gain in 2 Weeks",
+        "score": 1485,
+        "upvote_ratio": 0.95
+      },
+      {
+        "title": "whats the issue? I thought china loved being red",
+        "score": 528,
+        "upvote_ratio": 0.95
       }
     ]
   }

@@ -1,22 +1,42 @@
 [
   {
-    "symbol": "MSTR-USDT-SWAP",
+    "symbol": "SPACEX-USDT-SWAP",
+    "state": "running",
+    "grid_count": 50,
+    "range": {
+      "min": 2100.0,
+      "max": 2845.2
+    },
+    "investment": 2684.0,
+    "grid_profit": 2.824532,
+    "float_profit": 3.8495812,
+    "total_pnl": 6.695709075071,
+    "pnl_ratio_pct": 0.2495,
+    "arbitrage_count": 9,
+    "started_at": "2026-05-21 23:09",
+    "running_hours": 7.2,
+    "filled_orders": 51,
+    "algo_id": "3586088144766156800",
+    "updated_at": "2026-05-22 06:23:05"
+  },
+  {
+    "symbol": "ANTHROPIC-USDT-SWAP",
     "state": "running",
     "grid_count": 200,
     "range": {
-      "min": 172.0,
-      "max": 240.0
+      "min": 1340.8,
+      "max": 2011.2
     },
-    "investment": 453.83,
-    "grid_profit": 0.6183616,
-    "float_profit": -9.7247070502,
-    "total_pnl": -9.1026324701098,
-    "pnl_ratio_pct": -2.0057,
-    "arbitrage_count": 30,
-    "started_at": "2026-05-12 09:49",
-    "running_hours": 6.6,
+    "investment": 931.4,
+    "grid_profit": 5.0789988,
+    "float_profit": 26.7291627,
+    "total_pnl": 31.829637461734,
+    "pnl_ratio_pct": 3.4174,
+    "arbitrage_count": 110,
+    "started_at": "2026-05-21 14:21",
+    "running_hours": 16.0,
     "filled_orders": 100,
-    "algo_id": "3558386408664514560",
-    "updated_at": "2026-05-12 16:23:09"
+    "algo_id": "3585025304777093120",
+    "updated_at": "2026-05-22 06:23:05"
   }
 ]
