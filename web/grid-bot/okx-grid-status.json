@@ -1,5 +1,25 @@
 [
   {
+    "symbol": "OPENAI-USDT-SWAP",
+    "state": "running",
+    "grid_count": 20,
+    "range": {
+      "min": 1473.0,
+      "max": 1585.0
+    },
+    "investment": 1328.63,
+    "grid_profit": 6.8520574,
+    "float_profit": 17.5352852,
+    "total_pnl": 24.4123415675803,
+    "pnl_ratio_pct": 1.8374,
+    "arbitrage_count": 38,
+    "started_at": "2026-05-22 15:53",
+    "running_hours": 14.5,
+    "filled_orders": 100,
+    "algo_id": "3588110765561126912",
+    "updated_at": "2026-05-23 06:23:08"
+  },
+  {
     "symbol": "SPACEX-USDT-SWAP",
     "state": "running",
     "grid_count": 50,
@@ -8,35 +28,15 @@
       "max": 2845.2
     },
     "investment": 2684.0,
-    "grid_profit": 2.824532,
-    "float_profit": 3.8495812,
-    "total_pnl": 6.695709075071,
-    "pnl_ratio_pct": 0.2495,
-    "arbitrage_count": 9,
+    "grid_profit": 12.4291992,
+    "float_profit": 4.6068096,
+    "total_pnl": 17.1444119370326,
+    "pnl_ratio_pct": 0.6388,
+    "arbitrage_count": 38,
     "started_at": "2026-05-21 23:09",
-    "running_hours": 7.2,
-    "filled_orders": 51,
-    "algo_id": "3586088144766156800",
-    "updated_at": "2026-05-22 06:23:05"
-  },
-  {
-    "symbol": "ANTHROPIC-USDT-SWAP",
-    "state": "running",
-    "grid_count": 200,
-    "range": {
-      "min": 1340.8,
-      "max": 2011.2
-    },
-    "investment": 931.4,
-    "grid_profit": 5.0789988,
-    "float_profit": 26.7291627,
-    "total_pnl": 31.829637461734,
-    "pnl_ratio_pct": 3.4174,
-    "arbitrage_count": 110,
-    "started_at": "2026-05-21 14:21",
-    "running_hours": 16.0,
+    "running_hours": 31.2,
     "filled_orders": 100,
-    "algo_id": "3585025304777093120",
-    "updated_at": "2026-05-22 06:23:05"
+    "algo_id": "3586088144766156800",
+    "updated_at": "2026-05-23 06:23:08"
   }
 ]

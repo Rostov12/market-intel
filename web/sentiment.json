@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-22",
-  "generated_at": "2026-05-22 04:45",
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23 04:45",
   "composite": {
-    "score": 0.5,
-    "label": "散戶偏多",
-    "contrarian_signal": "🟡小心追高"
+    "score": 0.0,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-21",
       "2026-05-22",
-      "2026-05-26"
+      "2026-05-26",
+      "2026-05-27"
     ],
-    "total_calls_vol": 5496326,
-    "total_puts_vol": 4591664,
-    "pcr": 0.835,
+    "total_calls_vol": 4629604,
+    "total_puts_vol": 3887859,
+    "pcr": 0.84,
     "label": "散戶中性",
     "signal": "中性"
   },
@@ -24,35 +24,35 @@
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 3,
-    "bear_words": 1,
-    "bull_pct": 75,
-    "label": "偏多情緒",
+    "bull_words": 2,
+    "bear_words": 2,
+    "bull_pct": 50,
+    "label": "中性",
     "top_tickers": [],
     "top_posts": [
       {
-        "title": "Weekly Earnings Thread Superbowl 5/18 - 5/22",
-        "score": 280,
-        "upvote_ratio": 0.97
+        "title": "Weekly Earnings Thread 5/25 - 5/29",
+        "score": 26,
+        "upvote_ratio": 0.91
       },
       {
-        "title": "What Are Your Moves Tomorrow, May 22, 2026",
-        "score": 50,
+        "title": "Weekend Discussion Thread for the Weekend of May 22, 2026",
+        "score": 53,
+        "upvote_ratio": 0.93
+      },
+      {
+        "title": "The top is almost in DD: my harem of women",
+        "score": 4581,
+        "upvote_ratio": 0.86
+      },
+      {
+        "title": "What could have been.. $900,000 RKLB paper hands",
+        "score": 522,
         "upvote_ratio": 0.95
       },
       {
-        "title": "Breaking: US–Iran deal reportedly finalised, announcement expected within hours",
-        "score": 2554,
-        "upvote_ratio": 0.89
-      },
-      {
-        "title": "$1,300,000 Gain in 2 Weeks",
-        "score": 1485,
-        "upvote_ratio": 0.95
-      },
-      {
-        "title": "whats the issue? I thought china loved being red",
-        "score": 528,
+        "title": "As soon as the news came out on May 21st I chased RGTI 25 Call and today the pri",
+        "score": 238,
         "upvote_ratio": 0.95
       }
     ]

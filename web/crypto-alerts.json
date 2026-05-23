@@ -1,105 +1,5 @@
 [
   {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 88.72,
-    "change_pct": -2.16,
-    "direction": "🔻 急跌（3h）",
-    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet",
-    "timestamp": "2026-05-15T23:45:10.806880+08:00",
-    "epoch": 1778859908
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2191.66,
-    "change_pct": -2.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
-    "timestamp": "2026-05-16T15:15:07.974791+08:00",
-    "epoch": 1778915705
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 87.22,
-    "change_pct": -2.16,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Cointelegraph] Solayer 推出適用於 USDC 支付的 Visa 相容卡\n- [CoinTelegraph] Solayer 推出適用於 USDC 支付的 Visa 相容卡",
-    "timestamp": "2026-05-16T15:15:08.961084+08:00",
-    "epoch": 1778915705
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2198.66,
-    "change_pct": -2.04,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
-    "timestamp": "2026-05-16T15:45:11.866336+08:00",
-    "epoch": 1778917509
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 87.73,
-    "change_pct": -2.46,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%\n- [Cointelegraph] Solayer 推出適用於 USDC 支付的 Visa 相容卡",
-    "timestamp": "2026-05-16T15:45:13.623259+08:00",
-    "epoch": 1778917509
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2169.02,
-    "change_pct": -2.45,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
-    "timestamp": "2026-05-16T17:20:09.994290+08:00",
-    "epoch": 1778923207
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.94,
-    "change_pct": -2.45,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 隨著比特幣跌至 78,000 美元，SOL 和 XRP 下跌 5%，加密貨幣多頭損失 5 億美元 - CoinDesk\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%",
-    "timestamp": "2026-05-16T17:20:12.359388+08:00",
-    "epoch": 1778923207
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2175.64,
-    "change_pct": -2.45,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [blockchain.news] 嘉信理財：在美國推出比特幣、以太坊交易 - Blockchain.news\n- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [Benzinga] 澄清法案推動比特幣、以太幣上漲 2%，XRP 飆升 6% - Benzinga",
-    "timestamp": "2026-05-16T17:55:09.869578+08:00",
-    "epoch": 1778925307
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 86.23,
-    "change_pct": -2.56,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 隨著比特幣跌至 78,000 美元，SOL 和 XRP 下跌 5%，加密貨幣多頭損失 5 億美元 - CoinDesk\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%",
-    "timestamp": "2026-05-16T17:55:11.034932+08:00",
-    "epoch": 1778925307
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.77,
-    "change_pct": -2.28,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [FXStreet] 三大價格預測：比特幣、以太幣、瑞波幣 – BTC 盤整，ETH 保持支撐，XRP 突破 - FXStreet\n- [CoinDesk] 比特幣為何下跌？ BTC 跌至 78,000 美元，SOL、DOGE、XRP 下跌 5% - CoinDesk\n- [CoinDesk] 比特幣跌至 78,000 美元，加密貨幣多頭損失 5 億美元，SOL 和 XRP 下跌 5%",
-    "timestamp": "2026-05-16T18:25:11.334332+08:00",
-    "epoch": 1778927107
-  },
-  {
     "symbol": "BTC/USDT",
     "coin": "BTC",
     "price": 77199.9,
@@ -498,5 +398,105 @@
     "news": "- [CoinDesk] 馬克庫班表示，在對沖失敗的敘述讓這位億萬富翁「失望」後，他賣掉了大部分比特幣\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
     "timestamp": "2026-05-22T02:30:11.509714+08:00",
     "epoch": 1779388205
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2095.78,
+    "change_pct": -2.14,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會恢復存在不確定性 - Spectrum News\n- [Geopolitical] 美國表示，由於戰爭是否會恢復存在不確定性，伊朗談判取得「輕微進展」 - 美聯社新聞",
+    "timestamp": "2026-05-23T02:50:12.024725+08:00",
+    "epoch": 1779475808
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.16,
+    "change_pct": -2.97,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網\n- [Geopolitical] 伊朗戰爭決議 - LAist",
+    "timestamp": "2026-05-23T02:50:14.325192+08:00",
+    "epoch": 1779475808
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 651.9,
+    "change_pct": -2.01,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-23T02:50:14.780442+08:00",
+    "epoch": 1779475808
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2092.49,
+    "change_pct": -2.05,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會恢復存在不確定性 - Spectrum News\n- [Geopolitical] 美國表示，由於戰爭是否會恢復存在不確定性，伊朗談判取得「輕微進展」 - 美聯社新聞",
+    "timestamp": "2026-05-23T03:25:07.005906+08:00",
+    "epoch": 1779477904
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.25,
+    "change_pct": -2.57,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網\n- [Geopolitical] 伊朗戰爭決議 - LAist",
+    "timestamp": "2026-05-23T03:25:11.543985+08:00",
+    "epoch": 1779477904
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 650.7,
+    "change_pct": -2.01,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-23T03:45:10.128608+08:00",
+    "epoch": 1779479107
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2069.16,
+    "change_pct": -3.42,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會恢復存在不確定性 - Spectrum News\n- [Geopolitical] 美國表示，由於戰爭是否會恢復存在不確定性，伊朗談判取得「輕微進展」 - 美聯社新聞",
+    "timestamp": "2026-05-23T03:55:09.177367+08:00",
+    "epoch": 1779479707
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.81,
+    "change_pct": -3.66,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網\n- [Geopolitical] 伊朗戰爭決議 - LAist",
+    "timestamp": "2026-05-23T03:55:09.909610+08:00",
+    "epoch": 1779479707
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2072.04,
+    "change_pct": -2.69,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [MarketWatch] 更多20多歲的年輕人搬去與父母同住。以下是他們如何節省開支的方法：不讓爸爸媽媽破產",
+    "timestamp": "2026-05-23T04:30:12.002002+08:00",
+    "epoch": 1779481804
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.83,
+    "change_pct": -2.47,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-23T04:30:12.803036+08:00",
+    "epoch": 1779481804
   }
 ]

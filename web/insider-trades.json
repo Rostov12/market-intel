@@ -1,36 +1,36 @@
 {
-  "date": "2026-05-22",
-  "updated_at": "2026-05-22 04:42",
+  "date": "2026-05-23",
+  "updated_at": "2026-05-23 04:42",
   "total_scanned": 40,
   "watchlist_matches": 3,
   "status": "ok",
   "trades": [
     {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
+      "ticker": "CVX",
+      "company": "CHEVRON",
       "type": "未知",
-      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026060096/0001213900-26-060096-index.htm",
-      "date": "2026-05-21T16:40:56-04:00",
-      "summary": "Filed: 2026-05-21 AccNo: 0001213900-26-060096 Size: 2 MB"
+      "title": "4 - CHEVRON CORP (0000093410) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000121/0000093410-26-000121-index.htm",
+      "date": "2026-05-22T16:40:13-04:00",
+      "summary": "Filed: 2026-05-22 AccNo: 0000093410-26-000121 Size: 21 KB"
     },
     {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
       "type": "未知",
-      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026060096/0001213900-26-060096-index.htm",
-      "date": "2026-05-21T16:40:56-04:00",
-      "summary": "Filed: 2026-05-21 AccNo: 0001213900-26-060096 Size: 2 MB"
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526237065/0001193125-26-237065-index.htm",
+      "date": "2026-05-22T16:39:49-04:00",
+      "summary": "Filed: 2026-05-22 AccNo: 0001193125-26-237065 Size: 715 KB"
     },
     {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
       "type": "未知",
-      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000191870426013840/0001918704-26-013840-index.htm",
-      "date": "2026-05-21T16:40:37-04:00",
-      "summary": "Filed: 2026-05-21 AccNo: 0001918704-26-013840 Size: 434 KB"
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526237061/0001193125-26-237061-index.htm",
+      "date": "2026-05-22T16:39:07-04:00",
+      "summary": "Filed: 2026-05-22 AccNo: 0001193125-26-237061 Size: 718 KB"
     }
   ]
 }
