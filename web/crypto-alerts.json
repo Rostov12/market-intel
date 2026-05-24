@@ -1,275 +1,5 @@
 [
   {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 77199.9,
-    "change_pct": -2.28,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Investopedia] 比特幣以外的 10 種重要加密貨幣 - Investopedia\n- [Yahoo Finance] Saylor 表示將再次買入比特幣，策略推動 STRC 股息投票 - 雅虎財經\n- [Yahoo Finance] 安東尼·斯卡拉穆奇稱比特幣將像亞馬遜、微軟一樣遵循 S 曲線採用：“不能貶值” - 雅虎財經",
-    "timestamp": "2026-05-18T07:45:07.201101+08:00",
-    "epoch": 1779061504
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2118.29,
-    "change_pct": -5.04,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [24/7 Wall St.] 5,000 美元的 XRP 與 5,000 美元的以太坊：到 2028 年哪個回報更高？ - 24/7 華爾街\n- [Yahoo Finance] 日本最大券商為比特幣和以太坊投資打開新大門 - 雅虎財經\n- [Yahoo Finance] 哈佛放棄以太幣和比特幣 ETF 投資 - 雅虎財經",
-    "timestamp": "2026-05-18T07:45:11.533504+08:00",
-    "epoch": 1779061504
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.45,
-    "change_pct": -4.13,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-18T07:45:12.060832+08:00",
-    "epoch": 1779061504
-  },
-  {
-    "symbol": "BNB/USDT",
-    "coin": "BNB",
-    "price": 644.8,
-    "change_pct": -2.78,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-18T07:45:12.625587+08:00",
-    "epoch": 1779061504
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2120.83,
-    "change_pct": -3.64,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [24/7 Wall St.] 5,000 美元的 XRP 與 5,000 美元的以太坊：到 2028 年哪個回報更高？ - 24/7 華爾街\n- [Yahoo Finance] 日本最大券商為比特幣和以太坊投資打開新大門 - 雅虎財經\n- [Yahoo Finance] 哈佛放棄以太幣和比特幣 ETF 投資 - 雅虎財經",
-    "timestamp": "2026-05-18T08:15:11.247464+08:00",
-    "epoch": 1779063308
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.91,
-    "change_pct": -2.9,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-18T08:15:11.711684+08:00",
-    "epoch": 1779063308
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2108.71,
-    "change_pct": -3.97,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] 日本最大券商為比特幣和以太坊投資打開新大門 - 雅虎財經\n- [Yahoo Finance] 哈佛放棄以太幣和比特幣 ETF 投資 - 雅虎財經",
-    "timestamp": "2026-05-18T08:45:11.455570+08:00",
-    "epoch": 1779065109
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.9,
-    "change_pct": -2.9,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-18T08:45:11.925737+08:00",
-    "epoch": 1779065109
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2110.03,
-    "change_pct": -3.23,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] 日本最大券商為比特幣和以太坊投資打開新大門 - 雅虎財經\n- [Yahoo Finance] 哈佛放棄以太幣和比特幣 ETF 投資 - 雅虎財經",
-    "timestamp": "2026-05-18T09:20:11.354914+08:00",
-    "epoch": 1779067205
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.92,
-    "change_pct": 2.51,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-18T09:20:11.772407+08:00",
-    "epoch": 1779067205
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2112.37,
-    "change_pct": -3.35,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [24/7 Wall St.] 5,000 美元的 XRP 與 5,000 美元的以太坊：到 2028 年哪個回報更高？ - 24/7 華爾街\n- [Yahoo Finance] 日本最大券商為比特幣和以太坊投資打開新大門 - 雅虎財經\n- [Yahoo Finance] 哈佛放棄以太幣和比特幣 ETF 投資 - 雅虎財經",
-    "timestamp": "2026-05-18T09:50:12.300419+08:00",
-    "epoch": 1779069008
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.73,
-    "change_pct": 2.51,
-    "direction": "🔺 急漲（急拉）",
-    "news": "暫無明確消息面，可能為技術性波動",
-    "timestamp": "2026-05-18T09:50:13.735951+08:00",
-    "epoch": 1779069008
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2152.81,
-    "change_pct": 2.06,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Yahoo Finance] 今天，2026 年 5 月 18 日星期一，比特幣和以太坊價格：今天早上價格下跌並走低 - 雅虎財經\n- [Barron's] 比特幣、瑞波幣、以太坊價格下跌，澄清法案的成果迅速消失 - 《巴倫周刊》\n- [CoinDesk] 川普的伊朗警告擾亂風險資產，比特幣跌破 77,000 美元",
-    "timestamp": "2026-05-18T20:40:11.556192+08:00",
-    "epoch": 1779108007
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.68,
-    "change_pct": 2.0,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 高盛將於 2026 年第一季退出 XRP 和 Solana ETF 曝險\n- [CoinTelegraph] 高盛將於 2026 年第一季退出 XRP 和 Solana ETF 曝險",
-    "timestamp": "2026-05-18T20:45:10.115202+08:00",
-    "epoch": 1779108304
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2121.9,
-    "change_pct": -2.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Vitalik Buterin 表示人工智慧「形式驗證」實際上可以讓加密貨幣更安全\n- [CoinDesk] 儘管加密市場低迷，Kraken 母公司 Payward 第一季營收仍在攀升\n- [Fortune] 2026 年 5 月 18 日以太坊當前價格 - 財富",
-    "timestamp": "2026-05-18T22:20:07.642336+08:00",
-    "epoch": 1779114004
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.37,
-    "change_pct": -2.07,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions\n- [CoinTelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions",
-    "timestamp": "2026-05-18T22:20:08.375316+08:00",
-    "epoch": 1779114004
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 76511.3,
-    "change_pct": -2.02,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] 即時市場：比特幣回吐 5 月的全部漲幅，跌破 77,000 美元\n- [Investor's Business Daily] 比特幣價格觸及五月低點。 HIVE 在人工智慧計畫上飆升。 - 投資者商報\n- [Cointelegraph] Saylor’s Strategy 買進 20 億美元比特幣，持有量達到 843,738 BTC",
-    "timestamp": "2026-05-18T22:40:12.312262+08:00",
-    "epoch": 1779115208
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2110.21,
-    "change_pct": -2.78,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Vitalik Buterin 表示人工智慧「形式驗證」實際上可以讓加密貨幣更安全\n- [CoinDesk] 儘管加密市場低迷，Kraken 母公司 Payward 第一季營收仍在攀升\n- [Fortune] 2026 年 5 月 18 日以太坊當前價格 - 財富",
-    "timestamp": "2026-05-18T22:50:11.463683+08:00",
-    "epoch": 1779115808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.93,
-    "change_pct": -2.4,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions\n- [CoinTelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions",
-    "timestamp": "2026-05-18T22:50:12.206843+08:00",
-    "epoch": 1779115808
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 76145.2,
-    "change_pct": -2.03,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] 前 OpenAI 的 Leopold Aschenbrenner 在他的 $13.6B AI 遊戲中對加密貨幣礦工下了重註\n- [The Motley Fool] 投資者選擇比特幣而不是黃金來對抗通貨膨脹。這就是為什麼會適得其反。 - 雜七雜八的傻瓜\n- [CoinDesk] 即時市場：比特幣回吐 5 月的全部漲幅，跌破 77,000 美元",
-    "timestamp": "2026-05-18T23:20:11.496694+08:00",
-    "epoch": 1779117608
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2097.24,
-    "change_pct": -2.68,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [CoinDesk] Vitalik Buterin 表示人工智慧「形式驗證」實際上可以讓加密貨幣更安全\n- [CoinDesk] 儘管加密市場低迷，Kraken 母公司 Payward 第一季營收仍在攀升\n- [Fortune] 2026 年 5 月 18 日以太坊當前價格 - 財富",
-    "timestamp": "2026-05-18T23:25:07.121056+08:00",
-    "epoch": 1779117904
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 83.78,
-    "change_pct": -2.29,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions\n- [CoinTelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions",
-    "timestamp": "2026-05-18T23:25:07.935808+08:00",
-    "epoch": 1779117904
-  },
-  {
-    "symbol": "BTC/USDT",
-    "coin": "BTC",
-    "price": 76285.4,
-    "change_pct": -2.06,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] 以太坊與比特幣：了解主要差異 - 雅虎財經\n- [CoinDesk] HIVE 斥資 5,800 萬美元在多倫多購買人工智慧設施地塊；股價攀升\n- [CoinDesk] 前 OpenAI 的 Leopold Aschenbrenner 在加密貨幣礦工上押下重註，投入 136 億美元的 AI 投資",
-    "timestamp": "2026-05-18T23:50:13.821673+08:00",
-    "epoch": 1779119409
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2108.55,
-    "change_pct": -2.69,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Yahoo Finance] 以太坊與比特幣：了解主要差異 - 雅虎財經\n- [CoinDesk] Vitalik Buterin 表示人工智慧「形式驗證」實際上可以讓加密貨幣更安全\n- [CoinDesk] 儘管加密市場低迷，Kraken 母公司 Payward 第一季營收仍在攀升",
-    "timestamp": "2026-05-18T23:55:08.872797+08:00",
-    "epoch": 1779119705
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 84.3,
-    "change_pct": -2.29,
-    "direction": "🔻 急跌（閃崩）",
-    "news": "- [Cointelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions\n- [CoinTelegraph] 渣打銀行將吸收 Zodia Custody 的核心業務，並分拆 Zodia Solutions",
-    "timestamp": "2026-05-18T23:55:09.747199+08:00",
-    "epoch": 1779119705
-  },
-  {
-    "symbol": "ETH/USDT",
-    "coin": "ETH",
-    "price": 2121.57,
-    "change_pct": 2.27,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 5/18：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 5/18：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA\n- [CoinDesk] 隨著內部改組的加深，以太坊基金會正面臨一波備受矚目的離職潮",
-    "timestamp": "2026-05-19T03:50:11.042559+08:00",
-    "epoch": 1779133808
-  },
-  {
-    "symbol": "SOL/USDT",
-    "coin": "SOL",
-    "price": 85.06,
-    "change_pct": 2.07,
-    "direction": "🔺 急漲（急拉）",
-    "news": "- [Cointelegraph] 價格預測 5/18：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA\n- [CoinTelegraph] 價格預測 5/18：SPX、DXY、BTC、ETH、XRP、BNB、SOL、DOGE、HYPE、ADA\n- [CoinDesk] 隨著大型銀行將數十億美元投入其生態系統，Solana 正在失去其 memecoin 的聲譽",
-    "timestamp": "2026-05-19T03:55:11.323216+08:00",
-    "epoch": 1779134109
-  },
-  {
     "symbol": "ETH/USDT",
     "coin": "ETH",
     "price": 2127.55,
@@ -498,5 +228,275 @@
     "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
     "timestamp": "2026-05-23T04:30:12.803036+08:00",
     "epoch": 1779481804
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2034.19,
+    "change_pct": -2.03,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 數據顯示，以太幣仍然是一個不錯的長期買入對象：分析師\n- [CoinTelegraph] 數據顯示，以太幣仍然是一個不錯的長期買入對象：分析師\n- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-23T15:50:07.098881+08:00",
+    "epoch": 1779522604
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.56,
+    "change_pct": -2.63,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-23T15:50:11.493233+08:00",
+    "epoch": 1779522604
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 637.2,
+    "change_pct": -2.35,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-23T15:55:10.710709+08:00",
+    "epoch": 1779522908
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2030.38,
+    "change_pct": -2.08,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 數據顯示，以太幣仍然是一個不錯的長期買入對象：分析師\n- [CoinTelegraph] 數據顯示，以太幣仍然是一個不錯的長期買入對象：分析師\n- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-23T16:20:11.522576+08:00",
+    "epoch": 1779524409
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.16,
+    "change_pct": -3.07,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-23T16:20:12.350241+08:00",
+    "epoch": 1779524409
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 640.2,
+    "change_pct": -2.12,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-23T16:25:11.521764+08:00",
+    "epoch": 1779524709
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2029.82,
+    "change_pct": -2.15,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 數據顯示，以太幣仍然是一個不錯的長期買入對象：分析師\n- [CoinTelegraph] 數據顯示，以太幣仍然是一個不錯的長期買入對象：分析師\n- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH",
+    "timestamp": "2026-05-23T16:55:07.656401+08:00",
+    "epoch": 1779526505
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.05,
+    "change_pct": -3.33,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-23T16:55:08.442375+08:00",
+    "epoch": 1779526505
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 82.1,
+    "change_pct": -2.74,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "- [Cointelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [CoinTelegraph] 價格預測 5/22：BTC、ETH、BNB、XRP、SOL、DOGE、HYPE、ADA、ZEC、BCH\n- [Reuters-Biz] 伊朗正在通過島嶼檢查站、外交協議——有時甚至是“費用”——來鞏固對霍爾木茲的控制 - 路透社中文網",
+    "timestamp": "2026-05-23T17:25:11.537957+08:00",
+    "epoch": 1779528309
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.97,
+    "change_pct": 2.24,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-23T22:45:07.463436+08:00",
+    "epoch": 1779547505
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 84.34,
+    "change_pct": 2.49,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-23T23:15:09.211826+08:00",
+    "epoch": 1779549306
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 83.99,
+    "change_pct": 2.49,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-23T23:50:10.996479+08:00",
+    "epoch": 1779551408
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2119.09,
+    "change_pct": 3.09,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The Block] 以太坊基金連續 10 天流出，現貨比特幣 ETF 損失 12.6 億美元，這是自 1 月底以來最糟糕的一周 - The Block\n- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會重啟存在不確定性 - PBS",
+    "timestamp": "2026-05-24T04:40:11.551658+08:00",
+    "epoch": 1779568809
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.43,
+    "change_pct": 2.82,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-24T04:40:12.035494+08:00",
+    "epoch": 1779568809
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 77400.0,
+    "change_pct": 2.14,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Statista] 截至 2026 年 5 月 17 日的比特幣 BTC/USD 價格歷史記錄 - Statista\n- [Bitcoin Magazine] 馬克庫班賣掉了大部分比特幣，稱其為失敗的對沖 - 比特幣雜誌\n- [House.gov] 國會議員 Nick Begich 領導立法建立比特幣戰略儲備 - House.gov",
+    "timestamp": "2026-05-24T05:00:11.073672+08:00",
+    "epoch": 1779570008
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 661.9,
+    "change_pct": 2.06,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 幣安否認《華爾街日報》新報稱伊朗相關交易涉及 8.5 億美元\n- [CoinTelegraph] 幣安否認《華爾街日報》新報稱伊朗相關交易涉及 8.5 億美元",
+    "timestamp": "2026-05-24T05:05:11.668106+08:00",
+    "epoch": 1779570309
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2127.47,
+    "change_pct": 3.88,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The Block] 以太坊基金連續 10 天流出，現貨比特幣 ETF 損失 12.6 億美元，這是自 1 月底以來最糟糕的一周 - The Block\n- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會重啟存在不確定性 - PBS",
+    "timestamp": "2026-05-24T05:15:11.156705+08:00",
+    "epoch": 1779570908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.67,
+    "change_pct": 3.44,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-24T05:15:11.592234+08:00",
+    "epoch": 1779570908
+  },
+  {
+    "symbol": "BTC/USDT",
+    "coin": "BTC",
+    "price": 76832.0,
+    "change_pct": 2.14,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Statista] 截至 2026 年 5 月 17 日的比特幣 BTC/USD 價格歷史記錄 - Statista\n- [Bitcoin Magazine] 馬克庫班賣掉了大部分比特幣，稱其為失敗的對沖 - 比特幣雜誌\n- [House.gov] 國會議員 Nick Begich 領導立法建立比特幣戰略儲備 - House.gov",
+    "timestamp": "2026-05-24T05:35:10.751086+08:00",
+    "epoch": 1779572108
+  },
+  {
+    "symbol": "BNB/USDT",
+    "coin": "BNB",
+    "price": 656.8,
+    "change_pct": 2.06,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Cointelegraph] 幣安否認《華爾街日報》新報稱伊朗相關交易涉及 8.5 億美元\n- [CoinTelegraph] 幣安否認《華爾街日報》新報稱伊朗相關交易涉及 8.5 億美元",
+    "timestamp": "2026-05-24T05:40:10.935865+08:00",
+    "epoch": 1779572404
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2114.6,
+    "change_pct": 3.88,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [The Block] 以太坊基金連續 10 天流出，現貨比特幣 ETF 損失 12.6 億美元，這是自 1 月底以來最糟糕的一周 - The Block\n- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會重啟存在不確定性 - PBS",
+    "timestamp": "2026-05-24T05:50:07.760137+08:00",
+    "epoch": 1779573005
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.13,
+    "change_pct": 3.44,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-24T05:50:08.212381+08:00",
+    "epoch": 1779573005
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2113.32,
+    "change_pct": 2.2,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Yahoo Finance] BitMine 可能與以太坊財政部一起進入羅素 3000 指數 - 雅虎財經\n- [The Block] 以太坊基金連續 10 天流出，現貨比特幣 ETF 損失 12.6 億美元，這是自 1 月底以來最糟糕的一周 - The Block\n- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會重啟存在不確定性 - PBS",
+    "timestamp": "2026-05-24T06:25:08.309453+08:00",
+    "epoch": 1779575104
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 86.14,
+    "change_pct": 2.15,
+    "direction": "🔺 急漲（急拉）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-24T06:25:08.788011+08:00",
+    "epoch": 1779575104
+  },
+  {
+    "symbol": "ETH/USDT",
+    "coin": "ETH",
+    "price": 2116.81,
+    "change_pct": 2.2,
+    "direction": "🔺 急漲（急拉）",
+    "news": "- [Yahoo Finance] BitMine 可能與以太坊財政部一起進入羅素 3000 指數 - 雅虎財經\n- [The Block] 以太坊基金連續 10 天流出，現貨比特幣 ETF 損失 12.6 億美元，這是自 1 月底以來最糟糕的一周 - The Block\n- [Geopolitical] 美國稱伊朗談判“略有進展”，戰爭是否會重啟存在不確定性 - PBS",
+    "timestamp": "2026-05-24T06:55:11.219164+08:00",
+    "epoch": 1779576908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.85,
+    "change_pct": -2.25,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-24T06:55:11.873479+08:00",
+    "epoch": 1779576908
+  },
+  {
+    "symbol": "SOL/USDT",
+    "coin": "SOL",
+    "price": 85.72,
+    "change_pct": -2.1,
+    "direction": "🔻 急跌（閃崩）",
+    "news": "暫無明確消息面，可能為技術性波動",
+    "timestamp": "2026-05-24T07:30:11.458275+08:00",
+    "epoch": 1779579009
   }
 ]

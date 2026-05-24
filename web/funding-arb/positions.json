@@ -10,8 +10,21 @@
       "size_usdt": 500,
       "spot_order_id": "3463436125079658496",
       "perp_order_id": "3463436119140524032",
-      "funding_collected": 1.281134,
+      "funding_collected": 1.263264,
       "funding_count": 22
+    },
+    "XRP/USDT:USDT": {
+      "spot_symbol": "XRP/USDT",
+      "contracts": 3.77,
+      "contract_size": 100.0,
+      "amount": 377.0,
+      "entry_price": 1.3261,
+      "entry_time": "2026-05-23 15:47:14",
+      "size_usdt": 500,
+      "spot_order_id": "3590996492843798528",
+      "perp_order_id": "3590996490092335104",
+      "funding_collected": 0.095455,
+      "funding_count": 2
     }
   },
   "history": [

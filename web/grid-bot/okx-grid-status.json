@@ -8,16 +8,16 @@
       "max": 1585.0
     },
     "investment": 1328.63,
-    "grid_profit": 6.8520574,
-    "float_profit": 17.5352852,
-    "total_pnl": 24.4123415675803,
-    "pnl_ratio_pct": 1.8374,
-    "arbitrage_count": 38,
+    "grid_profit": 14.4303038,
+    "float_profit": 25.829618,
+    "total_pnl": 40.3278464625642,
+    "pnl_ratio_pct": 3.0353,
+    "arbitrage_count": 76,
     "started_at": "2026-05-22 15:53",
-    "running_hours": 14.5,
+    "running_hours": 38.5,
     "filled_orders": 100,
     "algo_id": "3588110765561126912",
-    "updated_at": "2026-05-23 06:23:08"
+    "updated_at": "2026-05-24 06:23:10"
   },
   {
     "symbol": "SPACEX-USDT-SWAP",
@@ -28,15 +28,15 @@
       "max": 2845.2
     },
     "investment": 2684.0,
-    "grid_profit": 12.4291992,
-    "float_profit": 4.6068096,
-    "total_pnl": 17.1444119370326,
-    "pnl_ratio_pct": 0.6388,
-    "arbitrage_count": 38,
+    "grid_profit": 15.77522,
+    "float_profit": 23.380402,
+    "total_pnl": 39.349668606909,
+    "pnl_ratio_pct": 1.4661,
+    "arbitrage_count": 50,
     "started_at": "2026-05-21 23:09",
-    "running_hours": 31.2,
+    "running_hours": 55.2,
     "filled_orders": 100,
     "algo_id": "3586088144766156800",
-    "updated_at": "2026-05-23 06:23:08"
+    "updated_at": "2026-05-24 06:23:10"
   }
 ]
