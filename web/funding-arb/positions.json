@@ -1,18 +1,5 @@
 {
   "positions": {
-    "DOGE/USDT:USDT": {
-      "spot_symbol": "DOGE/USDT",
-      "contracts": 5.46,
-      "contract_size": 1000.0,
-      "amount": 5460.0,
-      "entry_price": 0.09145,
-      "entry_time": "2026-04-09 15:47:17",
-      "size_usdt": 500,
-      "spot_order_id": "3463436125079658496",
-      "perp_order_id": "3463436119140524032",
-      "funding_collected": 1.263264,
-      "funding_count": 22
-    },
     "XRP/USDT:USDT": {
       "spot_symbol": "XRP/USDT",
       "contracts": 3.77,
@@ -23,8 +10,8 @@
       "size_usdt": 500,
       "spot_order_id": "3590996492843798528",
       "perp_order_id": "3590996490092335104",
-      "funding_collected": 0.095455,
-      "funding_count": 2
+      "funding_collected": 0.236899,
+      "funding_count": 5
     }
   },
   "history": [
@@ -324,7 +311,25 @@
       "price_pnl_pct": -4.4015,
       "total_funding": 0.32528,
       "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "DOGE/USDT",
+      "contracts": 5.46,
+      "contract_size": 1000.0,
+      "amount": 5460.0,
+      "entry_price": 0.09145,
+      "entry_time": "2026-04-09 15:47:17",
+      "size_usdt": 500,
+      "spot_order_id": "3463436125079658496",
+      "perp_order_id": "3463436119140524032",
+      "funding_collected": 1.25159,
+      "funding_count": 22,
+      "close_time": "2026-05-25 07:47:14",
+      "close_price": 0.1023,
+      "price_pnl_pct": 11.8644,
+      "total_funding": 1.25159,
+      "close_reason": "partial_perp_only"
     }
   ],
-  "total_funding_earned": 153.01691399999999
+  "total_funding_earned": 154.26850399999998
 }
