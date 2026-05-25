@@ -1,6 +1,6 @@
 {
   "date": "2026-05-25",
-  "fetched_at": "2026-05-25 20:30",
+  "fetched_at": "2026-05-25 21:00",
   "market_tone": "開盤不確定",
   "summary": {
     "bullish": 0,
@@ -35,11 +35,11 @@
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "prev_close": 16.64,
-      "premarket_price": 16.64,
+      "prev_close": 16.61,
+      "premarket_price": 16.61,
       "premarket_pct": 0.0,
       "premarket_vol": 0.0,
-      "premarket_time": "08:15 ET",
+      "premarket_time": "08:45 ET",
       "status": "ok"
     },
     {
@@ -117,11 +117,11 @@
     {
       "symbol": "BTC-USD",
       "name": "比特幣",
-      "prev_close": 77317.1406,
-      "premarket_price": 77317.1406,
+      "prev_close": 77271.9609,
+      "premarket_price": 77271.9609,
       "premarket_pct": 0.0,
-      "premarket_vol": 4846221312.0,
-      "premarket_time": "08:30 ET",
+      "premarket_vol": 5463185408.0,
+      "premarket_time": "09:00 ET",
       "status": "ok"
     }
   ]
