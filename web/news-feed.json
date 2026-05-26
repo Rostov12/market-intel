@@ -1,167 +1,167 @@
 {
-  "date": "2026-05-25",
-  "fetched_at": "2026-05-25 07:07",
+  "date": "2026-05-26",
+  "fetched_at": "2026-05-26 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Dollar near six-week high amid Iran war jitters By Reuters - Investing.com",
+      "title": "Trump’s deal to end Iran war appears ‘tilted’ in Tehran’s favor, foreign policy expert - NBC News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "外交政策專家 - NBC 新聞稱，川普結束伊朗戰爭的協議似乎「傾向於」對德黑蘭有利",
+      "time": "05:00",
+      "detected_at": "2026-05-26T05:00:13.156262+08:00"
+    },
+    {
+      "title": "Iran war: No deal close despite some progress — Tehran - dw.com",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭：儘管取得了一些進展，但仍未達成任何協議——德黑蘭 - dw.com",
+      "time": "05:00",
+      "detected_at": "2026-05-26T05:00:13.156262+08:00"
+    },
+    {
+      "title": "Trump honors family of service member killed in Iran war - NBC News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "（Trump honors family of service member killed in Iran war - N）",
+      "time": "04:00",
+      "detected_at": "2026-05-26T04:00:14.479371+08:00"
+    },
+    {
+      "title": "Crude oil falls 6%, tests $90 on optimism around potential Hormuz reopening - Investing.com",
       "impact": "bearish",
       "source": "Investing.com",
-      "title_cn": "伊朗戰爭緊張局勢加劇，美元接近六週高點 路透社 - Investing.com",
-      "time": "05:00",
-      "detected_at": "2026-05-25T05:00:16.920933+08:00"
-    },
-    {
-      "title": "Iran war: Trump says US won't 'rush into' deal with Tehran - DW.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭：川普表示美國不會「倉促」與德黑蘭達成協議 - DW.com",
-      "time": "05:00",
-      "detected_at": "2026-05-25T05:00:16.920933+08:00"
-    },
-    {
-      "title": "《美股》消息面：美伊和談傳新進展IEA籲荷姆茲海峽快開放- 國際 - 工商時報",
-      "impact": "neutral",
-      "source": "工商時報",
-      "title_cn": "《美股》消息：美伊和談傳新進展IEA呼籲荷姆茲海峽快開放-國際-工商時報",
-      "time": "05:00",
-      "detected_at": "2026-05-25T05:00:16.920933+08:00"
-    },
-    {
-      "title": "Trump asked Muslim leaders to sign peace deal with Israel after Iran war ends - Axios",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "川普要求穆斯林領導人在伊朗戰爭結束後與以色列簽署和平協議 - Axios",
-      "time": "04:00",
-      "detected_at": "2026-05-25T04:00:16.604770+08:00"
-    },
-    {
-      "title": "How will Iran war fallout impact upcoming US elections? - Al Jazeera",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭的後果將如何影響即將到來的美國大選？ - 半島電視台",
-      "time": "04:00",
-      "detected_at": "2026-05-25T04:00:16.604770+08:00"
-    },
-    {
-      "title": "Oil falls, stocks climb as investors hope for progress in Iran war talks By Reuters - Investing.com",
-      "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "投資人希望伊朗戰爭談判取得進展，油價下跌，股市上漲 路透社 - Investing.com投資者希望伊朗戰爭談判取得進展，油價下跌，股市上漲 路透社 Investing.com",
+      "title_cn": "由於對霍爾木茲海峽重新開放的樂觀情緒，原油價格下跌 6%，測試 90 美元 - Investing.com",
       "time": "03:00",
-      "detected_at": "2026-05-25T03:00:20.450045+08:00"
+      "detected_at": "2026-05-26T03:00:17.230867+08:00"
     },
     {
-      "title": "US Stocks Steady as Traders Await Hormuz Progress: Markets Wrap - Bloomberg.com",
+      "title": "How popular is the Iran War? - Silver Bulletin",
       "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "交易員等待霍爾木茲進展，美國股市穩定：市場總結 - Bloomberg.com",
-      "time": "03:00",
-      "detected_at": "2026-05-25T03:00:20.450045+08:00"
-    },
-    {
-      "title": "Iran war: Trump says deal 'largely negotiated' - dw.com",
-      "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭：川普稱協議「很大程度上是透過談判達成的」 - dw.com",
-      "time": "03:00",
-      "detected_at": "2026-05-25T03:00:20.450045+08:00"
-    },
-    {
-      "title": "'I never heard of the Strait of Hormuz before this': How one medical supply CEO is navigating the oil price shock",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "「在此之前我從未聽說過霍爾木茲海峽」：一位醫療供應執行長如何應對油價衝擊",
+      "title_cn": "伊朗戰爭有多受歡迎？ - 銀公告",
       "time": "02:00",
-      "detected_at": "2026-05-25T02:00:20.414420+08:00"
+      "detected_at": "2026-05-26T02:00:18.005663+08:00"
     },
     {
-      "title": "Nomura pivots away from Fed rate cuts in 2026 as inflation risks linger - Reuters",
+      "title": "Amid Iran War, Remembering Those Lost in Another Middle East Conflict - The New York Times",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "在伊朗戰爭中，紀念在另一場中東衝突中喪生的人們 - 紐約時報",
+      "time": "02:00",
+      "detected_at": "2026-05-26T02:00:18.005663+08:00"
+    },
+    {
+      "title": "Ukrainian mid-range strikes deal double blow to Russia's war effort - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "烏克蘭的中程打擊對俄羅斯的戰爭努力造成雙重打擊 - 路透社",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "What we know and don't know about the emerging deal to end the Iran war - PBS",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "關於結束伊朗戰爭的新協議，我們所知道和不知道的 - PBS",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "Iran war: No deal close despite some progress — Tehran - DW.com",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭：儘管取得了一些進展，但仍未達成任何協議——德黑蘭 - DW.com",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "How the Iran War Is Hitting America’s Farm Loans - WSJ",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭如何影響美國的農業貸款 - 華爾街日報",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "Trump signals Iran war deal push amid talks and threats - USA Today",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普暗示在談判和威脅中推動伊朗戰爭協議 - 《今日美國》",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "Could Brazilian oil emerge as one of the big winners of the Iran war? - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Could Brazilian oil emerge as one of the big winners of the Iran war? - Al Jazeera",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "Iran war poses new threat to harvests in hunger-stricken Sudan - Reuters",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Iran war poses new threat to harvests in hunger-stricken Sudan - Reuters",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "美股依舊強勁 市場重新定價 從預期降息轉向溫和升息 - news.cnyes.com",
+      "impact": "neutral",
+      "source": "鉅亨網",
+      "title_cn": "美股依舊強勁 市場重新定價 從預期降息轉向溫和升息 - news.cnyes.com",
+      "time": "01:00",
+      "detected_at": "2026-05-26T01:00:19.683343+08:00"
+    },
+    {
+      "title": "What we know and don't know about the emerging deal to end the Iran war - Spectrum News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "關於結束伊朗戰爭的新協議，我們所知道和不知道的 - Spectrum News",
+      "time": "23:00",
+      "detected_at": "2026-05-25T23:00:17.287452+08:00"
+    },
+    {
+      "title": "What’s in the proposed deal that could end the US-Iran War? - WPBF",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "擬議的協議中有哪些內容可以結束美伊戰爭？ - WPBF",
+      "time": "23:00",
+      "detected_at": "2026-05-25T23:00:17.287452+08:00"
+    },
+    {
+      "title": "Trump demands Arab countries sign Abraham Accords with Israel as part of deal to end Iran war - CBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普要求阿拉伯國家與以色列簽署《亞伯拉罕協議》，作為結束伊朗戰爭協議的一部分 - CBC",
+      "time": "23:00",
+      "detected_at": "2026-05-25T23:00:17.287452+08:00"
+    },
+    {
+      "title": "No full Hormuz flows until first half of 2027, UAE's oil giant says - Reuters",
       "impact": "neutral",
       "source": "Reuters-Biz",
-      "title_cn": "由於通膨風險揮之不去，野村證券放棄了 2026 年美聯儲降息的計劃 - 路透中文網由於通脹風險揮之不去，野村證券放棄了 2026 年美聯儲降息的計劃 路透",
-      "time": "02:00",
-      "detected_at": "2026-05-25T02:00:20.414420+08:00"
+      "title_cn": "阿聯酋石油巨頭表示，直到 2027 年上半年，霍爾木茲河才會完全通流 - 路透社",
+      "time": "22:00",
+      "detected_at": "2026-05-25T22:00:19.494145+08:00"
     },
     {
-      "title": "Oil prices slide as ships transit Hormuz, Trump says Iran talks in ’final stages’ - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "川普表示，伊朗談判已進入“最後階段”，隨著船隻過境霍爾木茲，油價下跌 - Investing.com川普表示，伊朗談判已進入“最後階段”，隨著船隻通過霍爾木茲海峽，油價下跌 Investing.com",
-      "time": "02:00",
-      "detected_at": "2026-05-25T02:00:20.414420+08:00"
-    },
-    {
-      "title": "Trump says a deal with Iran and opening of Strait of Hormuz are ‘largely negotiated’ - AP News",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "川普表示，與伊朗的協議和開放霍爾木茲海峽「很大程度上是透過談判達成的」——美聯社新聞",
-      "time": "02:00",
-      "detected_at": "2026-05-25T02:00:20.414420+08:00"
-    },
-    {
-      "title": "〈台股開盤〉輝達財報開出王炸 台股狂噴1300點站上4萬1 聯發科又見漲停 - news.cnyes.com",
-      "impact": "bullish",
-      "source": "鉅亨網",
-      "title_cn": "〈台股開盤〉輝達財報開出王炸台股狂噴1300點站上4萬1聯發科又見漲停 - news.cnyes.com. 〈台股開盤〉輝達財報開出王炸 台股狂噴1300點站上4萬1聯發科又見漲停停&nbsp;",
-      "time": "02:00",
-      "detected_at": "2026-05-25T02:00:20.414420+08:00"
-    },
-    {
-      "title": "Taiwan and China coast guards in standoff at top of South China Sea",
-      "impact": "neutral",
-      "source": "CNBC-World",
-      "title_cn": "台灣和中國海警在南海海域對峙",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
-    },
-    {
-      "title": "Trump says there&#x2019;s no rush as deal to end Iran war, reopen Strait of Hormuz appears close",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "川普表示，結束伊朗戰爭、重新開放霍爾木茲海峽的協議似乎即將達成，因此不急於達成",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
-    },
-    {
-      "title": "The World Loses Petrodollar Stimulus as Iran War Drains Gulf Wealth - Bloomberg.com",
+      "title": "BlackRock’s Saigal Sees ‘Sufficient Factors’ to Justify Fed Cut - Bloomberg.com",
       "impact": "neutral",
       "source": "Bloomberg-via-GN",
-      "title_cn": "由於伊朗戰爭耗盡了海灣財富，世界失去了石油美元刺激 - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
+      "title_cn": "貝萊德 (BlackRock) 的 Saigal 認為有「足夠的因素」證明聯準會降息是合理的 - Bloomberg.com",
+      "time": "22:00",
+      "detected_at": "2026-05-25T22:00:19.494145+08:00"
     },
     {
-      "title": "Iran war day 86: Trump announces potential deal amid ‘cloud of mistrust’ - Al Jazeera",
+      "title": "Trump’s emerging plan to end Iran war draws criticism from hard-line Republicans - PBS",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭第 86 天：川普在「不信任的陰雲」中宣布可能達成的協議 - 半島電視台",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
-    },
-    {
-      "title": "Bond Strategists Warn Yields to Stay High Even If Iran War Ends - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "債券策略師警告稱，即使伊朗戰爭結束，收益率仍將保持高位 - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
-    },
-    {
-      "title": "Iran did not win the war, it won something more dangerous - opinion - The Jerusalem Post",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Iran did not win the war, it won something more dangerous - opinion - The Jerusalem Post",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
-    },
-    {
-      "title": "U.S., Iran close to a deal to end war, official says - Axios",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "U.S., Iran close to a deal to end war, official says - Axios",
-      "time": "01:00",
-      "detected_at": "2026-05-25T01:00:19.089476+08:00"
+      "title_cn": "川普正在製定的結束伊朗戰爭的計劃招致了強硬派共和黨人的批評 - 美國公共廣播公司(PBS)",
+      "time": "22:00",
+      "detected_at": "2026-05-25T22:00:19.494145+08:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-23",
+  "date": "2026-05-26",
   "pairs": [
     {
       "pair": "黃金 vs 美元",
@@ -14,19 +14,19 @@
       "pair": "BTC vs 納指",
       "s1": "BTC-USD",
       "s2": "^IXIC",
-      "corr_20d": -0.076,
-      "corr_60d": 0.018,
-      "change_20d": 0.13,
-      "anomaly": false
+      "corr_20d": 0.044,
+      "corr_60d": -0.191,
+      "change_20d": 0.578,
+      "anomaly": true
     },
     {
       "pair": "S&P vs VIX",
       "s1": "^GSPC",
       "s2": "^VIX",
-      "corr_20d": -0.522,
-      "corr_60d": -0.791,
-      "change_20d": 0.365,
-      "anomaly": true
+      "corr_20d": 0.166,
+      "corr_60d": 0.024,
+      "change_20d": 0.078,
+      "anomaly": false
     },
     {
       "pair": "黃金 vs 殖利率",
@@ -41,10 +41,10 @@
       "pair": "能源股 vs 油價",
       "s1": "XLE",
       "s2": "CL=F",
-      "corr_20d": 0.802,
-      "corr_60d": 0.59,
-      "change_20d": 0.094,
-      "anomaly": false
+      "corr_20d": 0.035,
+      "corr_60d": -0.074,
+      "change_20d": 0.538,
+      "anomaly": true
     },
     {
       "pair": "半導體 vs 納指",
@@ -59,10 +59,10 @@
       "pair": "BTC vs 黃金",
       "s1": "BTC-USD",
       "s2": "GLD",
-      "corr_20d": 0.202,
-      "corr_60d": 0.215,
-      "change_20d": 0.026,
-      "anomaly": false
+      "corr_20d": 0.082,
+      "corr_60d": -0.188,
+      "change_20d": 0.563,
+      "anomaly": true
     },
     {
       "pair": "科技 vs 能源",
@@ -74,5 +74,5 @@
       "anomaly": false
     }
   ],
-  "anomaly_count": 2
+  "anomaly_count": 4
 }

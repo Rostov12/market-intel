@@ -1,19 +1,5 @@
 {
-  "positions": {
-    "XRP/USDT:USDT": {
-      "spot_symbol": "XRP/USDT",
-      "contracts": 3.77,
-      "contract_size": 100.0,
-      "amount": 377.0,
-      "entry_price": 1.3261,
-      "entry_time": "2026-05-23 15:47:14",
-      "size_usdt": 500,
-      "spot_order_id": "3590996492843798528",
-      "perp_order_id": "3590996490092335104",
-      "funding_collected": 0.236899,
-      "funding_count": 5
-    }
-  },
+  "positions": {},
   "history": [
     {
       "spot_symbol": "LINK/USDT",
@@ -329,7 +315,40 @@
       "price_pnl_pct": 11.8644,
       "total_funding": 1.25159,
       "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "XRP/USDT",
+      "contracts": 3.77,
+      "contract_size": 100.0,
+      "amount": 377.0,
+      "entry_price": 1.3261,
+      "entry_time": "2026-05-23 15:47:14",
+      "size_usdt": 500,
+      "spot_order_id": "3590996492843798528",
+      "perp_order_id": "3590996490092335104",
+      "funding_collected": 4.247425,
+      "funding_count": 6,
+      "close_time": "2026-05-25 15:47:13",
+      "close_price": 1.3551,
+      "price_pnl_pct": 2.1869,
+      "total_funding": 4.247425,
+      "close_reason": "partial_perp_only"
+    },
+    {
+      "spot_symbol": "DOT/USDT",
+      "contracts": 396.8,
+      "contract_size": 1.0,
+      "amount": 396.8,
+      "entry_price": 1.26,
+      "entry_time": "2026-05-25 15:47:14",
+      "size_usdt": 500,
+      "spot_order_id": "3596794731039866880",
+      "perp_order_id": "3596794727852195840",
+      "funding_collected": 0,
+      "funding_count": 0,
+      "close_time": "2026-05-25 23:47:12",
+      "close_reason": "sync_orphan"
     }
   ],
-  "total_funding_earned": 154.26850399999998
+  "total_funding_earned": 158.51592899999997
 }

@@ -1,35 +1,19 @@
 {
-  "date": "2026-05-22",
-  "generated_at": "2026-05-22 04:00",
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26 04:00",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 26,
-    "label": "下次 FOMC：06/17（26天後）"
+    "days_away": 22,
+    "label": "下次 FOMC：06/17（22天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-05-22",
-      "event": "密西根消費者信心（5月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 0,
-      "label": "🟡 密西根消費者信心（5月終值）（0天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "forecast": "48.2",
-      "forecast_source": "ForexFactory"
-    },
-    {
       "date": "2026-05-28",
       "event": "GDP Q1 修正值",
       "importance": "medium",
       "source": "BEA",
-      "days_away": 6,
-      "label": "🟡 GDP Q1 修正值（6天後）",
+      "days_away": 2,
+      "label": "🟡 GDP Q1 修正值（2天後）",
       "impact_guide": {
         "name": "國內生產毛額",
         "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
@@ -37,65 +21,17 @@
         "watch": "初值影響最大，修正值/終值影響遞減"
       },
       "previous": "2.0",
-      "previous_date": "2026-01-01"
-    },
-    {
-      "date": "2026-05-29",
-      "event": "PCE（4月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 7,
-      "label": "🔴 PCE（4月）（7天後）",
-      "impact_guide": {
-        "name": "個人消費支出物價指數",
-        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
-        "below": "通膨降溫 → 鴿派 → 偏多",
-        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
-      },
-      "previous": "3.2%",
-      "previous_date": "2026-03-01"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-05-22",
-      "event": "密西根消費者信心（5月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 0,
-      "label": "🟡 密西根消費者信心（5月終值）（0天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "forecast": "48.2",
+      "previous_date": "2026-01-01",
+      "forecast": "2.0%",
       "forecast_source": "ForexFactory"
     },
     {
-      "date": "2026-05-28",
-      "event": "GDP Q1 修正值",
-      "importance": "medium",
-      "source": "BEA",
-      "days_away": 6,
-      "label": "🟡 GDP Q1 修正值（6天後）",
-      "impact_guide": {
-        "name": "國內生產毛額",
-        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
-        "below": "經濟放緩 → 衰退疑慮 → 偏空",
-        "watch": "初值影響最大，修正值/終值影響遞減"
-      },
-      "previous": "2.0",
-      "previous_date": "2026-01-01"
-    },
-    {
       "date": "2026-05-29",
       "event": "PCE（4月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 7,
-      "label": "🔴 PCE（4月）（7天後）",
+      "days_away": 3,
+      "label": "🔴 PCE（4月）（3天後）",
       "impact_guide": {
         "name": "個人消費支出物價指數",
         "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
@@ -110,8 +46,58 @@
       "event": "ISM 製造業 PMI（5月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 10,
-      "label": "🔴 ISM 製造業 PMI（5月）（10天後）",
+      "days_away": 6,
+      "label": "🔴 ISM 製造業 PMI（5月）（6天後）",
+      "impact_guide": {
+        "name": "ISM 製造業 PMI",
+        "above": ">50 擴張，超預期 → 偏多",
+        "below": "<50 收縮，低於預期 → 偏空",
+        "watch": "新訂單和就業分項是領先指標"
+      }
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-05-28",
+      "event": "GDP Q1 修正值",
+      "importance": "medium",
+      "source": "BEA",
+      "days_away": 2,
+      "label": "🟡 GDP Q1 修正值（2天後）",
+      "impact_guide": {
+        "name": "國內生產毛額",
+        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
+        "below": "經濟放緩 → 衰退疑慮 → 偏空",
+        "watch": "初值影響最大，修正值/終值影響遞減"
+      },
+      "previous": "2.0",
+      "previous_date": "2026-01-01",
+      "forecast": "2.0%",
+      "forecast_source": "ForexFactory"
+    },
+    {
+      "date": "2026-05-29",
+      "event": "PCE（4月）",
+      "importance": "high",
+      "source": "BEA",
+      "days_away": 3,
+      "label": "🔴 PCE（4月）（3天後）",
+      "impact_guide": {
+        "name": "個人消費支出物價指數",
+        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
+        "below": "通膨降溫 → 鴿派 → 偏多",
+        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
+      },
+      "previous": "3.2%",
+      "previous_date": "2026-03-01"
+    },
+    {
+      "date": "2026-06-01",
+      "event": "ISM 製造業 PMI（5月）",
+      "importance": "high",
+      "source": "ISM",
+      "days_away": 6,
+      "label": "🔴 ISM 製造業 PMI（5月）（6天後）",
       "impact_guide": {
         "name": "ISM 製造業 PMI",
         "above": ">50 擴張，超預期 → 偏多",
@@ -124,8 +110,8 @@
       "event": "NFP（5月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 14,
-      "label": "🔴 NFP（5月就業）（14天後）",
+      "days_away": 10,
+      "label": "🔴 NFP（5月就業）（10天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",

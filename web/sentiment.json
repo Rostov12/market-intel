@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-23",
-  "generated_at": "2026-05-23 04:45",
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,50 +10,59 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-22",
       "2026-05-26",
-      "2026-05-27"
+      "2026-05-27",
+      "2026-05-28"
     ],
-    "total_calls_vol": 4629604,
-    "total_puts_vol": 3887859,
-    "pcr": 0.84,
-    "label": "散戶中性",
-    "signal": "中性"
+    "total_calls_vol": 649188,
+    "total_puts_vol": 750743,
+    "pcr": 1.156,
+    "label": "散戶偏空",
+    "signal": "略偏看多"
   },
   "wsb": {
     "source": "reddit_wsb",
     "status": "ok",
     "post_count": 25,
-    "bull_words": 2,
-    "bear_words": 2,
-    "bull_pct": 50,
-    "label": "中性",
-    "top_tickers": [],
+    "bull_words": 4,
+    "bear_words": 0,
+    "bull_pct": 100,
+    "label": "偏多情緒",
+    "top_tickers": [
+      {
+        "symbol": "NVDA",
+        "count": 1
+      },
+      {
+        "symbol": "ASTS",
+        "count": 1
+      }
+    ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 5/25 - 5/29",
-        "score": 26,
-        "upvote_ratio": 0.91
+        "score": 55,
+        "upvote_ratio": 0.88
       },
       {
-        "title": "Weekend Discussion Thread for the Weekend of May 22, 2026",
-        "score": 53,
-        "upvote_ratio": 0.93
+        "title": "What Are Your Moves Tomorrow, May 26, 2026",
+        "score": 51,
+        "upvote_ratio": 0.92
       },
       {
-        "title": "The top is almost in DD: my harem of women",
-        "score": 4581,
-        "upvote_ratio": 0.86
+        "title": "$67 invested in CS2 vs $NVDA in 2020",
+        "score": 8022,
+        "upvote_ratio": 0.96
       },
       {
-        "title": "What could have been.. $900,000 RKLB paper hands",
-        "score": 522,
-        "upvote_ratio": 0.95
+        "title": "This is the end fellow 🐻",
+        "score": 2015,
+        "upvote_ratio": 0.94
       },
       {
-        "title": "As soon as the news came out on May 21st I chased RGTI 25 Call and today the pri",
-        "score": 238,
-        "upvote_ratio": 0.95
+        "title": "Iran would open Strait of Hormuz 30 days after peace deal",
+        "score": 808,
+        "upvote_ratio": 0.94
       }
     ]
   }
