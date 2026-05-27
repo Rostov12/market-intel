@@ -8,35 +8,35 @@
       "max": 2247.8
     },
     "investment": 1500.0,
-    "grid_profit": 5.8948382,
-    "float_profit": -96.1763693999,
-    "total_pnl": -90.231264478123,
-    "pnl_ratio_pct": -6.0154,
-    "arbitrage_count": 41,
+    "grid_profit": 10.7875766,
+    "float_profit": -260.9684363999,
+    "total_pnl": -250.1010115773665,
+    "pnl_ratio_pct": -16.6734,
+    "arbitrage_count": 65,
     "started_at": "2026-05-25 09:43",
-    "running_hours": 20.7,
+    "running_hours": 32.7,
     "filled_orders": 100,
     "algo_id": "3596061408330420224",
-    "updated_at": "2026-05-26 06:23:06"
+    "updated_at": "2026-05-26 18:23:06"
   },
   {
     "symbol": "ANTHROPIC-USDT-SWAP",
     "state": "running",
-    "grid_count": 200,
+    "grid_count": 100,
     "range": {
       "min": 1498.4,
       "max": 2247.8
     },
     "investment": 1500.0,
-    "grid_profit": 3.8109272,
-    "float_profit": -87.0152095999,
-    "total_pnl": -83.1534110898542,
-    "pnl_ratio_pct": -5.5436,
-    "arbitrage_count": 126,
+    "grid_profit": 7.0007054,
+    "float_profit": -264.0817140999,
+    "total_pnl": -257.0003523088249,
+    "pnl_ratio_pct": -17.1334,
+    "arbitrage_count": 190,
     "started_at": "2026-05-25 09:35",
-    "running_hours": 20.8,
+    "running_hours": 32.8,
     "filled_orders": 100,
     "algo_id": "3596045886050168832",
-    "updated_at": "2026-05-26 06:23:06"
+    "updated_at": "2026-05-26 18:23:06"
   }
 ]

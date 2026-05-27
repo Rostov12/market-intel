@@ -1,10 +1,10 @@
 {
-  "date": "2026-05-26",
-  "generated_at": "2026-05-26 04:45",
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27 04:45",
   "composite": {
-    "score": 0.0,
-    "label": "散戶中性",
-    "contrarian_signal": "🟡觀望"
+    "score": 0.5,
+    "label": "散戶偏多",
+    "contrarian_signal": "🟡小心追高"
   },
   "spy_pcr": {
     "source": "spy_pcr",
@@ -14,11 +14,11 @@
       "2026-05-27",
       "2026-05-28"
     ],
-    "total_calls_vol": 649188,
-    "total_puts_vol": 750743,
-    "pcr": 1.156,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 4287473,
+    "total_puts_vol": 3638425,
+    "pcr": 0.849,
+    "label": "散戶中性",
+    "signal": "中性"
   },
   "wsb": {
     "source": "reddit_wsb",
@@ -30,39 +30,39 @@
     "label": "偏多情緒",
     "top_tickers": [
       {
-        "symbol": "NVDA",
+        "symbol": "LUNR",
         "count": 1
       },
       {
-        "symbol": "ASTS",
+        "symbol": "NVDA",
         "count": 1
       }
     ],
     "top_posts": [
       {
         "title": "Weekly Earnings Thread 5/25 - 5/29",
-        "score": 55,
-        "upvote_ratio": 0.88
-      },
-      {
-        "title": "What Are Your Moves Tomorrow, May 26, 2026",
-        "score": 51,
+        "score": 74,
         "upvote_ratio": 0.92
       },
       {
-        "title": "$67 invested in CS2 vs $NVDA in 2020",
-        "score": 8022,
+        "title": "What Are Your Moves Tomorrow, May 27, 2026",
+        "score": 66,
+        "upvote_ratio": 0.93
+      },
+      {
+        "title": "AMD +$11M",
+        "score": 8023,
+        "upvote_ratio": 0.94
+      },
+      {
+        "title": "Ferrari Stock Falls 6% After Electric Vehicle 'Luce' Debut",
+        "score": 1996,
+        "upvote_ratio": 0.98
+      },
+      {
+        "title": "MU made me a millionaire",
+        "score": 3220,
         "upvote_ratio": 0.96
-      },
-      {
-        "title": "This is the end fellow 🐻",
-        "score": 2015,
-        "upvote_ratio": 0.94
-      },
-      {
-        "title": "Iran would open Strait of Hormuz 30 days after peace deal",
-        "score": 808,
-        "upvote_ratio": 0.94
       }
     ]
   }
