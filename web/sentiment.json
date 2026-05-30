@@ -1,24 +1,24 @@
 {
-  "date": "2026-05-29",
-  "generated_at": "2026-05-29 04:45",
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30 04:45",
   "composite": {
-    "score": -1.0,
-    "label": "散戶偏空",
-    "contrarian_signal": "🟡注意反彈"
+    "score": 0.0,
+    "label": "散戶中性",
+    "contrarian_signal": "🟡觀望"
   },
   "spy_pcr": {
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-05-28",
       "2026-05-29",
-      "2026-06-01"
+      "2026-06-01",
+      "2026-06-02"
     ],
-    "total_calls_vol": 3457752,
-    "total_puts_vol": 3939418,
-    "pcr": 1.139,
-    "label": "散戶偏空",
-    "signal": "略偏看多"
+    "total_calls_vol": 4492943,
+    "total_puts_vol": 3607755,
+    "pcr": 0.803,
+    "label": "散戶中性",
+    "signal": "中性"
   },
   "wsb": {
     "source": "reddit_wsb",

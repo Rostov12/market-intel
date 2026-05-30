@@ -464,13 +464,20 @@
       "vip_members": 3,
       "free_growth": -1,
       "vip_growth": 0
+    },
+    {
+      "date": "2026-05-30",
+      "free_members": 3,
+      "vip_members": 3,
+      "free_growth": 0,
+      "vip_growth": 0
     }
   ],
   "latest": {
-    "date": "2026-05-29",
+    "date": "2026-05-30",
     "free_members": 3,
     "vip_members": 3,
-    "free_growth": -1,
+    "free_growth": 0,
     "vip_growth": 0
   },
   "conversion_rate": 100.0,
