@@ -1,134 +1,134 @@
 {
-  "date": "2026-05-23",
-  "week": "2026-05-18 ~ 2026-05-23",
-  "benchmark_pct": 0.9463196376280961,
-  "theme": "防禦型輪動（避險需求）, 科技回歸領漲（AI/成長股）",
+  "date": "2026-05-30",
+  "week": "2026-05-25 ~ 2026-05-30",
+  "benchmark_pct": 0.7847098152844764,
+  "theme": "科技承壓（去風險化）",
   "sectors": [
-    {
-      "symbol": "SMH",
-      "name": "半導體",
-      "desc": "Semiconductors",
-      "week_pct": 5.522197828969462,
-      "relative": 4.575878191341366,
-      "close": 576.3200073242188,
-      "avg_volume": 9778500.0
-    },
     {
       "symbol": "XLK",
       "name": "科技",
       "desc": "Technology",
-      "week_pct": 3.45836129742413,
-      "relative": 2.5120416597960338,
-      "close": 180.38999938964844,
-      "avg_volume": 13831480.0
-    },
-    {
-      "symbol": "XLU",
-      "name": "公用事業",
-      "desc": "Utilities",
-      "week_pct": 3.208921009285237,
-      "relative": 2.262601371657141,
-      "close": 45.349998474121094,
-      "avg_volume": 21082880.0
+      "week_pct": 3.175977585717365,
+      "relative": 2.3912677704328886,
+      "close": 191.02000427246094,
+      "avg_volume": 12749250.0
     },
     {
       "symbol": "XBI",
       "name": "生技",
       "desc": "Biotech",
-      "week_pct": 3.1252491191267198,
-      "relative": 2.1789294814986238,
-      "close": 131.66000366210938,
-      "avg_volume": 8831680.0
-    },
-    {
-      "symbol": "XLV",
-      "name": "醫療",
-      "desc": "Healthcare",
-      "week_pct": 2.8616512036872406,
-      "relative": 1.9153315660591446,
-      "close": 149.88999938964844,
-      "avg_volume": 8987500.0
+      "week_pct": 2.504684053255975,
+      "relative": 1.7199742379714986,
+      "close": 136.69000244140625,
+      "avg_volume": 6775200.0
     },
     {
       "symbol": "XLY",
       "name": "非必需消費",
       "desc": "Consumer Discretionary",
-      "week_pct": 2.458735056615394,
-      "relative": 1.512415418987298,
-      "close": 119.18000030517578,
-      "avg_volume": 8618100.0
-    },
-    {
-      "symbol": "XLRE",
-      "name": "不動產",
-      "desc": "Real Estate",
-      "week_pct": 1.8514317103794642,
-      "relative": 0.9051120727513681,
-      "close": 44.560001373291016,
-      "avg_volume": 4329620.0
-    },
-    {
-      "symbol": "XLI",
-      "name": "工業",
-      "desc": "Industrials",
-      "week_pct": 0.5973670702553074,
-      "relative": -0.3489525673727887,
-      "close": 171.77000427246094,
-      "avg_volume": 8433920.0
-    },
-    {
-      "symbol": "XLF",
-      "name": "金融",
-      "desc": "Financials",
-      "week_pct": 0.38654221444569925,
-      "relative": -0.5597774231823969,
-      "close": 51.939998626708984,
-      "avg_volume": 33546300.0
-    },
-    {
-      "symbol": "XLB",
-      "name": "原物料",
-      "desc": "Materials",
-      "week_pct": 0.13938608746063008,
-      "relative": -0.806933550167466,
-      "close": 50.290000915527344,
-      "avg_volume": 12016500.0
+      "week_pct": 1.1887868016900276,
+      "relative": 0.40407698640555123,
+      "close": 120.87000274658203,
+      "avg_volume": 8243275.0
     },
     {
       "symbol": "URNM",
       "name": "鈾礦",
       "desc": "Uranium",
-      "week_pct": -0.9021255817819149,
-      "relative": -1.848445219410011,
-      "close": 58.220001220703125,
-      "avg_volume": 671000.0
+      "week_pct": 0.6570264523059149,
+      "relative": -0.12768336297856142,
+      "close": 61.279998779296875,
+      "avg_volume": 1412975.0
     },
     {
-      "symbol": "XLP",
-      "name": "必需消費",
-      "desc": "Consumer Staples",
-      "week_pct": -1.28055699019947,
-      "relative": -2.2268766278275662,
-      "close": 84.80000305175781,
-      "avg_volume": 11795580.0
+      "symbol": "XLV",
+      "name": "醫療",
+      "desc": "Healthcare",
+      "week_pct": 0.6464256611517134,
+      "relative": -0.13828415413276296,
+      "close": 149.47000122070312,
+      "avg_volume": 10061525.0
+    },
+    {
+      "symbol": "XLB",
+      "name": "原物料",
+      "desc": "Materials",
+      "week_pct": 0.31378670748245474,
+      "relative": -0.4709231078020216,
+      "close": 51.150001525878906,
+      "avg_volume": 9886500.0
     },
     {
       "symbol": "XLC",
       "name": "通訊",
       "desc": "Communication",
-      "week_pct": -1.2993710282457813,
-      "relative": -2.2456906658738776,
-      "close": 115.45999908447266,
-      "avg_volume": 4880480.0
+      "week_pct": 0.12115913972388921,
+      "relative": -0.6635506755605871,
+      "close": 115.69000244140625,
+      "avg_volume": 4990375.0
+    },
+    {
+      "symbol": "XLF",
+      "name": "金融",
+      "desc": "Financials",
+      "week_pct": -0.5207264243241291,
+      "relative": -1.3054362396086054,
+      "close": 51.58000183105469,
+      "avg_volume": 36124550.0
+    },
+    {
+      "symbol": "SMH",
+      "name": "半導體",
+      "desc": "Semiconductors",
+      "week_pct": -0.5331022510653834,
+      "relative": -1.3178120663498598,
+      "close": 598.9299926757812,
+      "avg_volume": 9109650.0
+    },
+    {
+      "symbol": "XLI",
+      "name": "工業",
+      "desc": "Industrials",
+      "week_pct": -0.6712553921171679,
+      "relative": -1.4559652074016443,
+      "close": 173.1300048828125,
+      "avg_volume": 7483650.0
+    },
+    {
+      "symbol": "XLP",
+      "name": "必需消費",
+      "desc": "Consumer Staples",
+      "week_pct": -0.8609274362724764,
+      "relative": -1.6456372515569528,
+      "close": 82.91000366210938,
+      "avg_volume": 10281350.0
+    },
+    {
+      "symbol": "XLRE",
+      "name": "不動產",
+      "desc": "Real Estate",
+      "week_pct": -1.6103722226554626,
+      "relative": -2.395082037939939,
+      "close": 43.9900016784668,
+      "avg_volume": 4418150.0
+    },
+    {
+      "symbol": "XLU",
+      "name": "公用事業",
+      "desc": "Utilities",
+      "week_pct": -2.0075085491965488,
+      "relative": -2.792218364481025,
+      "close": 44.41999816894531,
+      "avg_volume": 18259775.0
     },
     {
       "symbol": "XLE",
       "name": "能源",
       "desc": "Energy",
-      "week_pct": -1.7992738851802605,
-      "relative": -2.7455935228083566,
-      "close": 59.4900016784668,
-      "avg_volume": 44523040.0
+      "week_pct": -2.6966250643750787,
+      "relative": -3.481334879659555,
+      "close": 56.290000915527344,
+      "avg_volume": 41519225.0
     }
   ]
 }
