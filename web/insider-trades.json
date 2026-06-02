@@ -1,72 +1,36 @@
 {
-  "date": "2026-05-30",
-  "updated_at": "2026-05-30 04:42",
+  "date": "2026-06-02",
+  "updated_at": "2026-06-02 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 7,
+  "watchlist_matches": 3,
   "status": "ok",
   "trades": [
     {
-      "ticker": "WMT",
-      "company": "WALMART",
-      "type": "未知",
-      "title": "4 - Walmart Inc. (0000104169) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929926000017/0001579299-26-000017-index.htm",
-      "date": "2026-05-29T16:41:52-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0001579299-26-000017 Size: 4 KB"
-    },
-    {
       "ticker": "GS",
       "company": "GOLDMAN SACHS",
       "type": "未知",
       "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526248508/0001193125-26-248508-index.htm",
-      "date": "2026-05-29T16:41:29-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0001193125-26-248508 Size: 588 KB"
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526251595/0001193125-26-251595-index.htm",
+      "date": "2026-06-01T16:41:25-04:00",
+      "summary": "Filed: 2026-06-01 AccNo: 0001193125-26-251595 Size: 308 KB"
     },
     {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
       "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526248507/0001193125-26-248507-index.htm",
-      "date": "2026-05-29T16:41:06-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0001193125-26-248507 Size: 858 KB"
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426014994/0001918704-26-014994-index.htm",
+      "date": "2026-06-01T16:41:17-04:00",
+      "summary": "Filed: 2026-06-01 AccNo: 0001918704-26-014994 Size: 895 KB"
     },
     {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
       "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526248505/0001193125-26-248505-index.htm",
-      "date": "2026-05-29T16:40:33-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0001193125-26-248505 Size: 618 KB"
-    },
-    {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
-      "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526248502/0001193125-26-248502-index.htm",
-      "date": "2026-05-29T16:40:10-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0001193125-26-248502 Size: 827 KB"
-    },
-    {
-      "ticker": "CVX",
-      "company": "CHEVRON",
-      "type": "未知",
-      "title": "4 - CHEVRON CORP (0000093410) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000146/0000093410-26-000146-index.htm",
-      "date": "2026-05-29T16:40:05-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0000093410-26-000146 Size: 10 KB"
-    },
-    {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
-      "type": "未知",
-      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026062883/0001213900-26-062883-index.htm",
-      "date": "2026-05-29T16:39:37-04:00",
-      "summary": "Filed: 2026-05-29 AccNo: 0001213900-26-062883 Size: 189 KB"
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426014992/0001918704-26-014992-index.htm",
+      "date": "2026-06-01T16:39:11-04:00",
+      "summary": "Filed: 2026-06-01 AccNo: 0001918704-26-014992 Size: 657 KB"
     }
   ]
 }

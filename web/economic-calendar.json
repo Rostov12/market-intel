@@ -1,49 +1,19 @@
 {
-  "date": "2026-05-29",
-  "generated_at": "2026-05-29 04:00",
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02 04:00",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 19,
-    "label": "下次 FOMC：06/17（19天後）"
+    "days_away": 15,
+    "label": "下次 FOMC：06/17（15天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-05-29",
-      "event": "PCE（4月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🔴 PCE（4月）（0天後）",
-      "impact_guide": {
-        "name": "個人消費支出物價指數",
-        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
-        "below": "通膨降溫 → 鴿派 → 偏多",
-        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
-      },
-      "previous": "3.3%",
-      "previous_date": "2026-04-01"
-    },
-    {
-      "date": "2026-06-01",
-      "event": "ISM 製造業 PMI（5月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 3,
-      "label": "🔴 ISM 製造業 PMI（5月）（3天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      }
-    },
     {
       "date": "2026-06-05",
       "event": "NFP（5月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 7,
-      "label": "🔴 NFP（5月就業）（7天後）",
+      "days_away": 3,
+      "label": "🔴 NFP（5月就業）（3天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
@@ -51,47 +21,19 @@
         "watch": "同步關注失業率與時薪成長"
       },
       "previous": "+115K",
-      "previous_date": "2026-04-01"
+      "previous_date": "2026-04-01",
+      "forecast": "87K",
+      "forecast_source": "ForexFactory"
     }
   ],
   "next_14_days": [
     {
-      "date": "2026-05-29",
-      "event": "PCE（4月）",
-      "importance": "high",
-      "source": "BEA",
-      "days_away": 0,
-      "label": "🔴 PCE（4月）（0天後）",
-      "impact_guide": {
-        "name": "個人消費支出物價指數",
-        "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
-        "below": "通膨降溫 → 鴿派 → 偏多",
-        "watch": "Core PCE（排除食品能源）是 Fed 2% 目標的核心指標"
-      },
-      "previous": "3.3%",
-      "previous_date": "2026-04-01"
-    },
-    {
-      "date": "2026-06-01",
-      "event": "ISM 製造業 PMI（5月）",
-      "importance": "high",
-      "source": "ISM",
-      "days_away": 3,
-      "label": "🔴 ISM 製造業 PMI（5月）（3天後）",
-      "impact_guide": {
-        "name": "ISM 製造業 PMI",
-        "above": ">50 擴張，超預期 → 偏多",
-        "below": "<50 收縮，低於預期 → 偏空",
-        "watch": "新訂單和就業分項是領先指標"
-      }
-    },
-    {
       "date": "2026-06-05",
       "event": "NFP（5月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 7,
-      "label": "🔴 NFP（5月就業）（7天後）",
+      "days_away": 3,
+      "label": "🔴 NFP（5月就業）（3天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
@@ -99,15 +41,17 @@
         "watch": "同步關注失業率與時薪成長"
       },
       "previous": "+115K",
-      "previous_date": "2026-04-01"
+      "previous_date": "2026-04-01",
+      "forecast": "87K",
+      "forecast_source": "ForexFactory"
     },
     {
       "date": "2026-06-11",
       "event": "CPI（5月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 13,
-      "label": "🔴 CPI（5月）（13天後）",
+      "days_away": 9,
+      "label": "🔴 CPI（5月）（9天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
@@ -115,6 +59,22 @@
         "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
       },
       "previous": "3.9%",
+      "previous_date": "2026-04-01"
+    },
+    {
+      "date": "2026-06-16",
+      "event": "零售銷售（5月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 14,
+      "label": "🟡 零售銷售（5月）（14天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+0.5%",
       "previous_date": "2026-04-01"
     }
   ]
