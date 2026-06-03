@@ -1,31 +1,47 @@
 {
-  "date": "2026-06-02",
-  "fetched_at": "2026-06-02 07:07",
+  "date": "2026-06-03",
+  "fetched_at": "2026-06-03 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "S&P 500 closes at a record to kick off June trading as tech rally overpowers oil spike: Live updates",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "標普 500 指數以創紀錄收盤價拉開 6 月交易序幕，科技股漲勢壓倒油價上漲：即時更新",
+      "title": "Oil prices rise to one-week high as Iran reviews US proposal to halt war By Reuters - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "路透社-Investing.com，伊朗審查美國停止戰爭的提議，油價升至一周高點",
       "time": "05:00",
-      "detected_at": "2026-06-02T05:00:17.123996+08:00"
+      "detected_at": "2026-06-03T05:00:19.230515+08:00"
     },
     {
-      "title": "Iran warns Israeli attacks in Lebanon threaten ceasefire with US - BBC",
+      "title": "Rubio grilled on Iran, says US won't swap sanctions relief for strait - Reuters",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗警告以色列對黎巴嫩的攻擊威脅與美國停火 - BBC",
+      "title_cn": "盧比奧就伊朗問題進行拷問，稱美國不會用海峽制裁來換取制裁 - 路透中文網盧比奧就伊朗問題進行拷問，稱美國不會用海峽制裁換取制裁 路透社",
       "time": "05:00",
-      "detected_at": "2026-06-02T05:00:17.123996+08:00"
+      "detected_at": "2026-06-03T05:00:19.230515+08:00"
     },
     {
-      "title": "Many big oil tankers remain stuck in Strait of Hormuz &#x2014; and may not return once they escape",
+      "title": "What Does the Iran War Mean for the Global Economy? - Defense Priorities",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭對全球經濟意味著什麼？ - 國防優先事項",
+      "time": "05:00",
+      "detected_at": "2026-06-03T05:00:19.230515+08:00"
+    },
+    {
+      "title": "Defense: Senate Dems take Iran war powers pause - Punchbowl News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "辯護：參議院民主黨暫停伊朗戰爭權力 - Punchbowl News",
+      "time": "05:00",
+      "detected_at": "2026-06-03T05:00:19.230515+08:00"
+    },
+    {
+      "title": "Oil prices rise to one-week high as Iran reviews US proposal to halt war - Reuters",
       "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "許多大型油輪仍滯留在霍爾木茲海峽一旦逃脫，可能就不會再回來了",
+      "source": "Reuters-Biz",
+      "title_cn": "隨著伊朗審查美國停止戰爭的提議，油價升至一周高點 - 路透社",
       "time": "04:00",
-      "detected_at": "2026-06-02T04:00:17.204493+08:00"
+      "detected_at": "2026-06-03T04:00:19.356856+08:00"
     },
     {
       "title": "Strait of Hormuz carries more than oil, handling 20% of global data flows - Investing.com",
@@ -33,135 +49,119 @@
       "source": "Investing.com",
       "title_cn": "霍爾木茲海峽承載的不僅是石油，還處理全球 20% 的資料流 - Investing.com",
       "time": "04:00",
-      "detected_at": "2026-06-02T04:00:17.204493+08:00"
+      "detected_at": "2026-06-03T04:00:19.356856+08:00"
     },
     {
-      "title": "The Iran war sparks partnership in Asia - The Christian Science Monitor",
+      "title": "‘Stuck in quicksand’: How the Iran war has reportedly stalled Trump’s agenda - The Independent",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭激發了亞洲夥伴關係 - 基督教科學箴言報",
+      "title_cn": "「陷入流沙」：據報道，伊朗戰爭如何阻礙了川普的議程 - 《獨立報》",
       "time": "04:00",
-      "detected_at": "2026-06-02T04:00:17.204493+08:00"
+      "detected_at": "2026-06-03T04:00:19.356856+08:00"
     },
     {
-      "title": "China Factory Activity Worsens in Warning Sign for Economy - Bloomberg.com",
+      "title": "Farmers seek fertilizer alternatives as Iran war drives up prices - PBS",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "中國工廠活動惡化是經濟的警訊 - Bloomberg.com",
-      "time": "03:00",
-      "detected_at": "2026-06-02T03:00:16.957573+08:00"
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭推高價格，農民尋求化肥替代品 - PBS",
+      "time": "04:00",
+      "detected_at": "2026-06-03T04:00:19.356856+08:00"
     },
     {
       "title": "US crude exports hit record high in May as Iran war tightens global oil supplies - Reuters",
       "impact": "bearish",
-      "source": "Geopolitical",
+      "source": "Reuters-Biz",
       "title_cn": "路透社稱，由於伊朗戰爭導致全球石油供應緊張，美國五月原油出口創歷史新高",
       "time": "03:00",
-      "detected_at": "2026-06-02T03:00:16.957573+08:00"
+      "detected_at": "2026-06-03T03:00:19.976158+08:00"
     },
     {
-      "title": "Sister surprises her brother at graduation after serving in Iran war - The Washington Post",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "姐姐在伊朗戰爭中服役後畢業時給哥哥帶來了驚喜 - 《華盛頓郵報》",
-      "time": "03:00",
-      "detected_at": "2026-06-02T03:00:16.957573+08:00"
-    },
-    {
-      "title": "Defense: Iran war cost concerns pile up - Punchbowl News",
+      "title": "Rubio: US has not offered Iran sanctions relief to reopen strait - Reuters",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "國防：伊朗戰爭成本擔憂不斷增加 - Punchbowl News",
+      "title_cn": "盧比奧：美國尚未向伊朗提出解除制裁以重新開放海峽 - 路透社",
       "time": "03:00",
-      "detected_at": "2026-06-02T03:00:16.957573+08:00"
+      "detected_at": "2026-06-03T03:00:19.976158+08:00"
     },
     {
-      "title": "S&P 500 rises to record to start June, dominated by tech as oil spike hits rest of market: Live updates",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "標普 500 指數從 6 月開始上漲至創紀錄水平，隨著油價飆升衝擊其他市場，科技股主導：即時更新",
-      "time": "02:00",
-      "detected_at": "2026-06-02T02:00:16.800189+08:00"
+      "title": "Trump and Netanyahu Are Clashing Over How to End the Iran War - WSJ",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普和內塔尼亞胡就如何結束伊朗戰爭發生衝突 - 華爾街日報",
+      "time": "03:00",
+      "detected_at": "2026-06-03T03:00:19.976158+08:00"
     },
     {
-      "title": "Oil jumps over $6 on Iran report of halted U.S.-Tehran exchanges, Hormuz blockade risk - Reuters",
+      "title": "Rubio says Iran ready to discuss nuclear deal as Tehran declares peace talks over - The Guardian",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "伊朗報告美德黑蘭交易所暫停，霍爾木茲封鎖風險，油價躍升至 6 美元以上 - 路透社",
-      "time": "02:00",
-      "detected_at": "2026-06-02T02:00:16.800189+08:00"
+      "source": "Geopolitical",
+      "title_cn": "盧比歐表示，隨著德黑蘭宣布和談結束，伊朗已準備好討論核協議──《衛報》",
+      "time": "03:00",
+      "detected_at": "2026-06-03T03:00:19.976158+08:00"
     },
     {
-      "title": "Oil jumps over $6 on Iran report of halted U.S.-Tehran exchanges, Hormuz blockade risk By Reuters - Investing.com",
+      "title": "The Threat of a Europe-China Trade War - Center for European Policy Analysis (CEPA)",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "中歐貿易戰的威脅 - 歐洲政策分析中心 (CEPA)",
+      "time": "03:00",
+      "detected_at": "2026-06-03T03:00:19.976158+08:00"
+    },
+    {
+      "title": "The last time the S&P 500 rose this rapidly — outside of recession periods — was before the 1987 crash",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "標普 500 指數上一次在經濟衰退期之外快速上漲是在 1987 年崩盤之前",
+      "time": "02:00",
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
+    },
+    {
+      "title": "The S&P 500 has only risen this quickly 4 times since WWII. Once, a historic stock-market crash followed.",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "自二戰以來，標準普爾 500 指數僅上漲了 4 次",
+      "time": "02:00",
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
+    },
+    {
+      "title": "Gold prices gain as oil price drop soothes inflation, rate hike worries - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "Investing.com，油價下跌緩解通膨和升息擔憂，金價上漲",
+      "time": "02:00",
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
+    },
+    {
+      "title": "Oil prices rise to one-week high as Iran reviews US deal to halt war By Reuters - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "伊朗報告美德黑蘭交易所暫停，霍爾木茲封鎖風險，油價躍升至 6 美元上方 路透社 - Investing.com",
+      "title_cn": "伊朗審查美國停止戰爭協議，油價上升至一週高點 路透社 - Investing.com伊朗審查美國停止戰爭協議，油價升至一周高點 路透社 Investing.com",
       "time": "02:00",
-      "detected_at": "2026-06-02T02:00:16.800189+08:00"
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
     },
     {
-      "title": "Iran says it is breaking off talks to end war after U.S. and Israeli strikes - The Washington Post",
+      "title": "Iran studying deal to halt war, as Trump says talks going on continuously - Reuters",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "《華盛頓郵報》稱，在美國和以色列發動攻擊後，伊朗表示將中斷結束戰爭的談判",
+      "title_cn": "川普表示，伊朗正在研究停止戰爭的協議 - 路透社",
       "time": "02:00",
-      "detected_at": "2026-06-02T02:00:16.800189+08:00"
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
     },
     {
-      "title": "OPEC+ likely to raise July oil output target despite Hormuz disruption, sources say - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "消息人士稱，儘管霍爾木茲海峽受阻，歐佩克+仍可能提高 7 月石油產量目標 - 路透社消息人士稱，儘管霍爾木茲海峽受阻，OPEC+仍可能提高 7 月石油產量目標 路透社",
-      "time": "01:00",
-      "detected_at": "2026-06-02T01:00:18.902194+08:00"
-    },
-    {
-      "title": "Global oil prices jump 7% to top $97 a barrel after Iran reportedly suspends talks with U.S. and fully closes Strait of Hormuz",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "據報道，伊朗暫停與美國的談判並完全關閉霍爾木茲海峽後，全球油價上漲 7%，達到每桶 97 美元",
-      "time": "01:00",
-      "detected_at": "2026-06-02T01:00:18.902194+08:00"
-    },
-    {
-      "title": "Apollo’s Slok Says AI Will Dash Warsh’s Hopes for Quick Rate Cut - Bloomberg.com",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Apollo 的 Slok 表示人工智慧將粉碎 Warsh 快速降息的希望 - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-06-02T01:00:18.902194+08:00"
-    },
-    {
-      "title": "Iran and U.S. trade strikes as deal to end war remains elusive - The Washington Post",
+      "title": "WATCH LIVE: White House briefing with Dr. Oz may address Pulte's new role, Iran war - PBS",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "《華盛頓郵報》稱，伊朗和美國之間的貿易打擊導致結束戰爭的協議仍然難以實現",
-      "time": "01:00",
-      "detected_at": "2026-06-02T01:00:18.902194+08:00"
+      "title_cn": "WATCH LIVE: White House briefing with Dr. Oz may address Pulte's new role, Iran war - PBS",
+      "time": "02:00",
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
     },
     {
-      "title": "U.S. oil jumps more than 7% on report Iran will halt talks with U.S. and completely block Hormuz",
+      "title": "Rubio says he's optimistic on eventual Iran nuclear talks, but status of negotiations is unclear - ABC News - Breaking News, Latest News and Videos",
       "impact": "neutral",
-      "source": "CNBC-World",
-      "title_cn": "有報告指出伊朗將停止與美國的談判並完全封鎖霍爾木茲海峽，美國石油價格上漲逾 7%",
-      "time": "23:00",
-      "detected_at": "2026-06-01T23:00:20.392815+08:00"
-    },
-    {
-      "title": "Oil prices rise as US, Iran trade strikes, Israel moves further into Lebanon - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著美國、伊朗貿易打擊、以色列進一步進軍黎巴嫩，油價上漲 - 路透社",
-      "time": "23:00",
-      "detected_at": "2026-06-01T23:00:20.392815+08:00"
-    },
-    {
-      "title": "Canada enters surprise technical recession amid tariff uncertainty - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "由於關稅不確定性，加拿大意外陷入技術衰退 - 路透社",
-      "time": "23:00",
-      "detected_at": "2026-06-01T23:00:20.392815+08:00"
+      "source": "Geopolitical",
+      "title_cn": "Rubio says he's optimistic on eventual Iran nuclear talks, but status of negotiations is unclear - ABC News - Breaking News, Latest News and Videos",
+      "time": "02:00",
+      "detected_at": "2026-06-03T02:00:18.594662+08:00"
     }
   ]
 }
