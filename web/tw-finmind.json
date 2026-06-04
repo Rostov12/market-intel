@@ -1,19 +1,19 @@
 {
-  "date": "2026-06-02",
-  "generated_at": "2026-06-02 17:37",
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03 17:37",
   "stocks": {
     "009816": {
       "name": "凱基台灣TOP50 ETF",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 827,
-        "margin_sell": 1377,
-        "margin_balance": 31959,
-        "margin_prev": 32571,
-        "short_sell": 60,
-        "short_buy": 26,
-        "short_balance": 841,
-        "margin_change": -612
+        "date": "2026-06-02",
+        "margin_buy": 990,
+        "margin_sell": 895,
+        "margin_balance": 32054,
+        "margin_prev": 31959,
+        "short_sell": 6,
+        "short_buy": 15,
+        "short_balance": 832,
+        "margin_change": 95
       },
       "institutional": {
         "foreign_net": -5913383,
@@ -22,23 +22,23 @@
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 0.84,
-        "remain_ratio": 99.15
+        "date": "2026-06-02",
+        "ratio": 0.78,
+        "remain_ratio": 99.21
       }
     },
     "00662": {
       "name": "富邦NASDAQ ETF",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 19,
-        "margin_sell": 4,
-        "margin_balance": 952,
-        "margin_prev": 941,
+        "date": "2026-06-02",
+        "margin_buy": 4,
+        "margin_sell": 17,
+        "margin_balance": 939,
+        "margin_prev": 952,
         "short_sell": 0,
         "short_buy": 0,
         "short_balance": 6,
-        "margin_change": 11
+        "margin_change": -13
       },
       "institutional": {
         "foreign_net": 77716,
@@ -47,123 +47,123 @@
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 0.71,
-        "remain_ratio": 99.28
+        "date": "2026-06-02",
+        "ratio": 0.63,
+        "remain_ratio": 99.36
       }
     },
     "2330": {
       "name": "台積電",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 2142,
-        "margin_sell": 967,
-        "margin_balance": 29079,
-        "margin_prev": 28164,
-        "short_sell": 2,
-        "short_buy": 9,
-        "short_balance": 99,
-        "margin_change": 915
+        "date": "2026-06-02",
+        "margin_buy": 1166,
+        "margin_sell": 1084,
+        "margin_balance": 29135,
+        "margin_prev": 29079,
+        "short_sell": 6,
+        "short_buy": 14,
+        "short_balance": 91,
+        "margin_change": 56
       },
       "institutional": {
         "foreign_net": 391294,
-        "trust_net": -305897,
         "dealer_net": 461739,
+        "trust_net": -67897,
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 70.37,
-        "remain_ratio": 29.62
+        "date": "2026-06-02",
+        "ratio": 70.38,
+        "remain_ratio": 29.61
       }
     },
     "3131": {
       "name": "弘塑",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 46,
-        "margin_sell": 32,
-        "margin_balance": 263,
-        "margin_prev": 249,
-        "short_sell": 2,
-        "short_buy": 0,
-        "short_balance": 24,
-        "margin_change": 14
+        "date": "2026-06-02",
+        "margin_buy": 32,
+        "margin_sell": 22,
+        "margin_balance": 273,
+        "margin_prev": 263,
+        "short_sell": 0,
+        "short_buy": 1,
+        "short_balance": 23,
+        "margin_change": 10
       },
       "institutional": {
-        "foreign_net": 9987,
-        "trust_net": -770,
-        "dealer_net": -4271,
-        "date": "2026-06-02"
+        "foreign_net": -136372,
+        "trust_net": 0,
+        "dealer_net": -4779,
+        "date": "2026-06-03"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 35.55,
-        "remain_ratio": 64.44
+        "date": "2026-06-02",
+        "ratio": 35.61,
+        "remain_ratio": 64.38
       }
     },
     "2345": {
       "name": "智邦",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 106,
-        "margin_sell": 120,
-        "margin_balance": 1616,
-        "margin_prev": 1632,
-        "short_sell": 1,
-        "short_buy": 1,
-        "short_balance": 28,
-        "margin_change": -16
+        "date": "2026-06-02",
+        "margin_buy": 112,
+        "margin_sell": 49,
+        "margin_balance": 1679,
+        "margin_prev": 1616,
+        "short_sell": 0,
+        "short_buy": 4,
+        "short_balance": 24,
+        "margin_change": 63
       },
       "institutional": {
         "foreign_net": 373206,
-        "trust_net": -511455,
         "dealer_net": -175340,
+        "trust_net": -512455,
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 58.23,
-        "remain_ratio": 41.76
+        "date": "2026-06-02",
+        "ratio": 58.28,
+        "remain_ratio": 41.71
       }
     },
     "3081": {
       "name": "聯亞",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 183,
-        "margin_sell": 82,
-        "margin_balance": 4578,
-        "margin_prev": 4478,
-        "short_sell": 3,
-        "short_buy": 3,
-        "short_balance": 86,
-        "margin_change": 100
+        "date": "2026-06-02",
+        "margin_buy": 242,
+        "margin_sell": 139,
+        "margin_balance": 4681,
+        "margin_prev": 4578,
+        "short_sell": 6,
+        "short_buy": 22,
+        "short_balance": 102,
+        "margin_change": 103
       },
       "institutional": {
-        "foreign_net": -291999,
-        "trust_net": -192100,
-        "dealer_net": -38591,
-        "date": "2026-06-02"
+        "foreign_net": 381569,
+        "trust_net": 72000,
+        "dealer_net": 161297,
+        "date": "2026-06-03"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 21.59,
-        "remain_ratio": 78.4
+        "date": "2026-06-02",
+        "ratio": 21.35,
+        "remain_ratio": 78.64
       }
     },
     "4967": {
       "name": "十銓",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 1617,
-        "margin_sell": 1338,
-        "margin_balance": 11193,
-        "margin_prev": 10923,
-        "short_sell": 126,
-        "short_buy": 12,
-        "short_balance": 457,
-        "margin_change": 270
+        "date": "2026-06-02",
+        "margin_buy": 2402,
+        "margin_sell": 2213,
+        "margin_balance": 11376,
+        "margin_prev": 11193,
+        "short_sell": 433,
+        "short_buy": 6,
+        "short_balance": 878,
+        "margin_change": 183
       },
       "institutional": {
         "foreign_net": 1905693,
@@ -172,48 +172,48 @@
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 9.18,
-        "remain_ratio": 90.81
+        "date": "2026-06-02",
+        "ratio": 11.58,
+        "remain_ratio": 88.41
       }
     },
     "3037": {
       "name": "欣興",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 1118,
-        "margin_sell": 1585,
-        "margin_balance": 35970,
-        "margin_prev": 36440,
-        "short_sell": 35,
-        "short_buy": 29,
-        "short_balance": 300,
-        "margin_change": -470
+        "date": "2026-06-02",
+        "margin_buy": 1701,
+        "margin_sell": 1496,
+        "margin_balance": 36148,
+        "margin_prev": 35970,
+        "short_sell": 28,
+        "short_buy": 133,
+        "short_balance": 195,
+        "margin_change": 178
       },
       "institutional": {
         "foreign_net": -2748858,
-        "trust_net": -4111000,
         "dealer_net": -358483,
+        "trust_net": -4189000,
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 38.61,
-        "remain_ratio": 61.38
+        "date": "2026-06-02",
+        "ratio": 38.48,
+        "remain_ratio": 61.51
       }
     },
     "1802": {
       "name": "台玻",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 10437,
-        "margin_sell": 14839,
-        "margin_balance": 59643,
-        "margin_prev": 64047,
-        "short_sell": 388,
-        "short_buy": 238,
-        "short_balance": 3107,
-        "margin_change": -4404
+        "date": "2026-06-02",
+        "margin_buy": 10567,
+        "margin_sell": 5464,
+        "margin_balance": 64742,
+        "margin_prev": 59643,
+        "short_sell": 125,
+        "short_buy": 837,
+        "short_balance": 2394,
+        "margin_change": 5099
       },
       "institutional": {
         "foreign_net": -47089851,
@@ -222,48 +222,48 @@
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 7.08,
-        "remain_ratio": 92.91
+        "date": "2026-06-02",
+        "ratio": 5.47,
+        "remain_ratio": 94.52
       }
     },
     "1815": {
       "name": "富喬",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 6050,
-        "margin_sell": 5872,
-        "margin_balance": 66185,
-        "margin_prev": 66008,
-        "short_sell": 139,
-        "short_buy": 46,
-        "short_balance": 238,
-        "margin_change": 177
+        "date": "2026-06-02",
+        "margin_buy": 2873,
+        "margin_sell": 3050,
+        "margin_balance": 65996,
+        "margin_prev": 66185,
+        "short_sell": 28,
+        "short_buy": 12,
+        "short_balance": 222,
+        "margin_change": -189
       },
       "institutional": {
-        "foreign_net": -3837030,
-        "trust_net": 85000,
-        "dealer_net": -327114,
-        "date": "2026-06-02"
+        "foreign_net": -2554815,
+        "trust_net": 120000,
+        "dealer_net": -189984,
+        "date": "2026-06-03"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 21.74,
-        "remain_ratio": 78.25
+        "date": "2026-06-02",
+        "ratio": 21.09,
+        "remain_ratio": 78.9
       }
     },
     "8150": {
       "name": "南茂",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 12221,
-        "margin_sell": 14986,
-        "margin_balance": 35086,
-        "margin_prev": 37851,
-        "short_sell": 39,
-        "short_buy": 210,
-        "short_balance": 327,
-        "margin_change": -2765
+        "date": "2026-06-02",
+        "margin_buy": 6420,
+        "margin_sell": 9690,
+        "margin_balance": 31816,
+        "margin_prev": 35086,
+        "short_sell": 32,
+        "short_buy": 98,
+        "short_balance": 261,
+        "margin_change": -3270
       },
       "institutional": {
         "foreign_net": -577221,
@@ -272,23 +272,23 @@
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 42.14,
-        "remain_ratio": 57.85
+        "date": "2026-06-02",
+        "ratio": 42.09,
+        "remain_ratio": 57.9
       }
     },
     "1560": {
       "name": "中砂",
       "margin": {
-        "date": "2026-06-01",
-        "margin_buy": 142,
-        "margin_sell": 43,
-        "margin_balance": 2067,
-        "margin_prev": 1969,
-        "short_sell": 0,
-        "short_buy": 2,
-        "short_balance": 142,
-        "margin_change": 98
+        "date": "2026-06-02",
+        "margin_buy": 55,
+        "margin_sell": 236,
+        "margin_balance": 1886,
+        "margin_prev": 2067,
+        "short_sell": 3,
+        "short_buy": 3,
+        "short_balance": 141,
+        "margin_change": -181
       },
       "institutional": {
         "foreign_net": -59809,
@@ -297,18 +297,13 @@
         "date": "2026-06-02"
       },
       "foreign_holding": {
-        "date": "2026-06-01",
-        "ratio": 38.71,
-        "remain_ratio": 61.28
+        "date": "2026-06-02",
+        "ratio": 37.79,
+        "remain_ratio": 62.2
       }
     }
   },
   "market_margin_trend": [
-    {
-      "date": "2026-05-26",
-      "margin_balance": 534592623000,
-      "short_balance": 0
-    },
     {
       "date": "2026-05-27",
       "margin_balance": 536269185000,
@@ -327,6 +322,11 @@
     {
       "date": "2026-06-01",
       "margin_balance": 565779103000,
+      "short_balance": 0
+    },
+    {
+      "date": "2026-06-02",
+      "margin_balance": 566970793000,
       "short_balance": 0
     }
   ]
