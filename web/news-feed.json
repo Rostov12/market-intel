@@ -1,167 +1,167 @@
 {
-  "date": "2026-06-04",
-  "fetched_at": "2026-06-04 07:07",
+  "date": "2026-06-05",
+  "fetched_at": "2026-06-05 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Oil prices rise to one-week high as Iran reviews US proposal to halt war - Reuters",
+      "title": "Rep. Marie Gluesenkamp Perez Statement on the Iran War Powers Resolution - House.gov",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "眾議員瑪麗·格魯森坎普·佩雷斯 (Marie Gluesenkamp Perez) 關於伊朗戰爭權力決議的聲明 - House.gov",
+      "time": "05:00",
+      "detected_at": "2026-06-05T05:00:14.293612+08:00"
+    },
+    {
+      "title": "Ships stranded in Persian Gulf quietly coordinate with U.S. Navy to exit Hormuz",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著伊朗審查美國停止戰爭的提議，油價升至一周高點 - 路透社",
-      "time": "05:00",
-      "detected_at": "2026-06-04T05:00:12.835535+08:00"
-    },
-    {
-      "title": "U.S.-Iran exchange strikes; Nvidia’s chips for Windows PCs - what’s moving markets - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "美國與伊朗的相互攻擊； Nvidia 用於 Windows PC 的晶片 - 市場動向 - Investing.com",
-      "time": "05:00",
-      "detected_at": "2026-06-04T05:00:12.835535+08:00"
-    },
-    {
-      "title": "WATCH LIVE: House expected to vote on Iran war powers bill - PBS",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "觀看直播：眾議院預計將對伊朗戰爭權力法案進行投票 - PBS",
-      "time": "05:00",
-      "detected_at": "2026-06-04T05:00:12.835535+08:00"
-    },
-    {
-      "title": "As Rubio Declares Iran War 'Over,' Lawmakers Prepare War Powers Vote - Reason Magazine",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "當盧比歐宣布伊朗戰爭「結束」時，立法者準備戰爭權力投票 - Reason 雜誌",
-      "time": "05:00",
-      "detected_at": "2026-06-04T05:00:12.835535+08:00"
-    },
-    {
-      "title": "Oil settles at highest price in over a week. &#x2018;Oil tanks are getting emptier each week Hormuz stays closed.&#x2019;",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "石油價格創下一周多來的最高價",
+      "source": "CNBC",
+      "title_cn": "滯留在波斯灣的船隻悄悄與美國海軍協調撤離霍爾木茲",
       "time": "04:00",
-      "detected_at": "2026-06-04T04:00:19.588452+08:00"
+      "detected_at": "2026-06-05T04:00:17.966410+08:00"
     },
     {
-      "title": "Watch live: Rubio testifies before Senate panel on State Department budget, Iran war - The Hill",
+      "title": "There are early signs of renewed labor market strength during Iran war - Axios",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "觀看直播：盧比歐在參議院就國務院預算、伊朗戰爭問題小組作證 - 國會山莊",
+      "title_cn": "伊朗戰爭期間出現了勞動市場重新走強的早期跡象 - Axios",
       "time": "04:00",
-      "detected_at": "2026-06-04T04:00:19.588452+08:00"
+      "detected_at": "2026-06-05T04:00:17.966410+08:00"
     },
     {
-      "title": "Pentagon’s watchdog named as Iran war lead inspector - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "五角大廈的監督機構被任命為伊朗戰爭首席檢查員－希爾",
-      "time": "04:00",
-      "detected_at": "2026-06-04T04:00:19.588452+08:00"
-    },
-    {
-      "title": "Iran war energy shock could slam global economy into recession, OECD warns - Los Angeles Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "經合組織警告稱，伊朗戰爭能源衝擊可能使全球經濟陷入衰退——《洛杉磯時報》",
-      "time": "04:00",
-      "detected_at": "2026-06-04T04:00:19.588452+08:00"
-    },
-    {
-      "title": "How the Iran War is Remaking the Global Economy - Council on Foreign Relations",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭如何重塑全球經濟 - 外交關係委員會",
-      "time": "04:00",
-      "detected_at": "2026-06-04T04:00:19.588452+08:00"
-    },
-    {
-      "title": "Iran strikes Kuwait's main airport and kills 1 as ceasefire is tested again - NPR",
+      "title": "Oil prices rise following new U.S.-Iran strikes; crude inventories in SPR slide - Investing.com",
       "impact": "bullish",
+      "source": "Investing.com",
+      "title_cn": "美伊新一輪襲擊導致油價上漲； SPR 中的原油庫存下滑 - Investing.com",
+      "time": "02:00",
+      "detected_at": "2026-06-05T02:00:18.584871+08:00"
+    },
+    {
+      "title": "Iran war: Hezbollah rejects Lebanon-Israel ceasefire terms - DW",
+      "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗襲擊科威特主要機場並造成 1 人死亡，停火協議再次受到考驗 - NPR",
-      "time": "03:00",
-      "detected_at": "2026-06-04T03:00:16.187362+08:00"
-    },
-    {
-      "title": "Stocks fall, oil prices nears $100 as Iran war escalates - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著伊朗戰爭升級，股市下跌，油價接近 100 美元 - 路透社",
+      "title_cn": "伊朗戰爭：真主黨拒絕黎巴嫩-以色列停火條款 - 德國之聲",
       "time": "02:00",
-      "detected_at": "2026-06-04T02:00:18.880815+08:00"
+      "detected_at": "2026-06-05T02:00:18.584871+08:00"
     },
     {
-      "title": "Iran hits Kuwait, US strikes near Hormuz in Gulf flare-up - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "伊朗襲擊科威特，美國在海灣衝突中襲擊霍爾木茲附近 - 路透社",
-      "time": "02:00",
-      "detected_at": "2026-06-04T02:00:18.880815+08:00"
-    },
-    {
-      "title": "Oil prices look to end at highest levels in over a week: &#x2018;Oil tanks are getting emptier each week Hormuz stays closed&#x2019;",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "油價預計將達到一周多來的最高水平：「霍爾木茲海峽關閉期間，油箱每週都在變空」",
-      "time": "02:00",
-      "detected_at": "2026-06-04T02:00:18.880815+08:00"
-    },
-    {
-      "title": "Fed Warned on Shrinking Balance Sheet in Lookback at Powell Era - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "回顧鮑威爾時代，聯準會警告要收縮資產負債表 - Bloomberg.com",
-      "time": "02:00",
-      "detected_at": "2026-06-04T02:00:18.880815+08:00"
-    },
-    {
-      "title": "Iran and the U.S. trade strikes in the Persian Gulf, further testing the ceasefire - NPR",
+      "title": "Trump bashes 'bad Republicans' who voted against Iran war - USA Today",
       "impact": "neutral",
       "source": "Geopolitical",
-      "title_cn": "伊朗和美國在波斯灣進行貿易打擊，進一步考驗停火協議 - NPR",
+      "title_cn": "川普抨擊投票反對伊朗戰爭的「壞共和黨人」——《今日美國》",
       "time": "02:00",
-      "detected_at": "2026-06-04T02:00:18.880815+08:00"
+      "detected_at": "2026-06-05T02:00:18.584871+08:00"
     },
     {
-      "title": "Netanyahu says he and Trump have 'tactical disagreements' but agree overall amid Iran war",
+      "title": "The Iran War and the End of the “Middle East” - The New Yorker",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭與「中東」的終結－《紐約客》",
+      "time": "01:00",
+      "detected_at": "2026-06-05T01:00:19.056315+08:00"
+    },
+    {
+      "title": "‘Unpatriotic’: Trump decries Republicans who voted to constrain Iran war - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "「不愛國」：川普譴責投票限制伊朗戰爭的共和黨人 - 半島電視台",
+      "time": "01:00",
+      "detected_at": "2026-06-05T01:00:19.056315+08:00"
+    },
+    {
+      "title": "Trump knocks Republicans who backed Iran war powers votes: ‘Grandstanders!’ - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普斥責支持伊朗戰爭權力投票的共和黨人：「譁眾取寵！」——國會山莊",
+      "time": "01:00",
+      "detected_at": "2026-06-05T01:00:19.056315+08:00"
+    },
+    {
+      "title": "Trump’s Iran war messaging is not winning over Americans – or their representatives - The Guardian",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普的伊朗戰爭訊息並沒有贏得美國人或其代表《衛報》的支持",
+      "time": "01:00",
+      "detected_at": "2026-06-05T01:00:19.056315+08:00"
+    },
+    {
+      "title": "Asia turns to U.S. oil and gas amid Iran war: ‘We get too much into that tree-hugging mode’ - Fortune",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "在伊朗戰爭期間，亞洲轉向美國石油和天然氣：「我們太過於陷入那種擁抱樹木的模式」—《財星》雜誌",
+      "time": "01:00",
+      "detected_at": "2026-06-05T01:00:19.056315+08:00"
+    },
+    {
+      "title": "Oil products shipments exit Hormuz, LNG tanker loads at UAE - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "石油產品出口霍爾木茲，液化天然氣油輪在阿聯酋裝載 - 路透社",
+      "time": "23:00",
+      "detected_at": "2026-06-04T23:00:19.007716+08:00"
+    },
+    {
+      "title": "Most Americans say the Iran war is bad for America - Brookings",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "大多數美國人表示伊朗戰爭對美國不利——布魯金斯學會",
+      "time": "23:00",
+      "detected_at": "2026-06-04T23:00:19.007716+08:00"
+    },
+    {
+      "title": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Reuters",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "真主黨的拒絕給黎巴嫩停火和結束伊朗戰爭的前景蒙上陰影 - 路透社",
+      "time": "23:00",
+      "detected_at": "2026-06-04T23:00:19.007716+08:00"
+    },
+    {
+      "title": "Fed’s Powell warns that politicizing the Fed would cost public trust By Reuters - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "路透社 - Investing.com 聯準會鮑威爾警告稱，將聯準會政治化將損害公眾信任",
+      "time": "22:00",
+      "detected_at": "2026-06-04T22:00:19.434778+08:00"
+    },
+    {
+      "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war - CNBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "根據 CNBC 報道，川普不願重啟伊朗戰爭，油價下跌 3%",
+      "time": "22:00",
+      "detected_at": "2026-06-04T22:00:19.434778+08:00"
+    },
+    {
+      "title": "Trump rips ‘meaningless’ House vote on resolution to end Iran war - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普撕毀了眾議院對結束伊朗戰爭決議的「毫無意義」的投票 - 國會山莊",
+      "time": "22:00",
+      "detected_at": "2026-06-04T22:00:19.434778+08:00"
+    },
+    {
+      "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war",
       "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "內塔尼亞胡表示，他和川普在伊朗戰爭中存在“戰術分歧”，但總體上意見一致",
-      "time": "01:00",
-      "detected_at": "2026-06-04T01:00:17.953477+08:00"
+      "title_cn": "有報導川普不願重啟伊朗戰爭，油價下跌 3%",
+      "time": "21:00",
+      "detected_at": "2026-06-04T21:00:19.908323+08:00"
     },
     {
-      "title": "Emerging Markets Lead Rate Hikes as Iran War Stokes Inflation - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "伊朗戰爭引發通膨，新興市場鉛利率上漲 - 彭博社",
-      "time": "01:00",
-      "detected_at": "2026-06-04T01:00:17.953477+08:00"
-    },
-    {
-      "title": "Treasuries Eye Biggest Drop In Two Weeks on Fed Rate-Hike Bets - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "由於聯準會升息押注，美國公債將出現兩週來最大跌幅 - 彭博",
-      "time": "01:00",
-      "detected_at": "2026-06-04T01:00:17.953477+08:00"
-    },
-    {
-      "title": "Fed Warned on Shrinking Balance Sheet in Lookback at Powell Era - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "聯準會在回顧鮑威爾時代時警告要收縮資產負債表 - 彭博社",
-      "time": "01:00",
-      "detected_at": "2026-06-04T01:00:17.953477+08:00"
-    },
-    {
-      "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport - BBC",
+      "title": "House votes for measure that would end Iran war, in blow to Trump",
       "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "伊朗無人機襲擊科威特機場，造成 1 人死亡、數十人受傷 - BBC",
-      "time": "01:00",
-      "detected_at": "2026-06-04T01:00:17.953477+08:00"
+      "source": "CNBC",
+      "title_cn": "眾議院投票通過了結束伊朗戰爭的措施，這對川普來說是一個打擊",
+      "time": "21:00",
+      "detected_at": "2026-06-04T21:00:19.908323+08:00"
+    },
+    {
+      "title": "Indian shares trim losses on foreign inflow hopes; IT sinks, oil surges - Reuters",
+      "impact": "bullish",
+      "source": "Reuters-Biz",
+      "title_cn": "印度股市因外資流入希望而減少跌幅； IT 衰退，石油飆升 - 路透社",
+      "time": "21:00",
+      "detected_at": "2026-06-04T21:00:19.908323+08:00"
     }
   ]
 }
