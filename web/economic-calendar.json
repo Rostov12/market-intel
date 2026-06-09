@@ -1,73 +1,19 @@
 {
-  "date": "2026-06-05",
-  "generated_at": "2026-06-05 04:00",
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09 04:00",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 12,
-    "label": "下次 FOMC：06/17（12天後）"
+    "days_away": 8,
+    "label": "下次 FOMC：06/17（8天後）"
   },
   "next_7_days": [
     {
-      "date": "2026-06-05",
-      "event": "NFP（5月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 0,
-      "label": "🔴 NFP（5月就業）（0天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "+115K",
-      "previous_date": "2026-04-01",
-      "forecast": "85K",
-      "forecast_source": "ForexFactory"
-    },
-    {
       "date": "2026-06-11",
       "event": "CPI（5月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 6,
-      "label": "🔴 CPI（5月）（6天後）",
-      "impact_guide": {
-        "name": "消費者物價指數",
-        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
-        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
-        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      },
-      "previous": "3.9%",
-      "previous_date": "2026-04-01"
-    }
-  ],
-  "next_14_days": [
-    {
-      "date": "2026-06-05",
-      "event": "NFP（5月就業）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 0,
-      "label": "🔴 NFP（5月就業）（0天後）",
-      "impact_guide": {
-        "name": "非農就業人數",
-        "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
-        "below": "就業疲弱 → 降息預期 → 偏多",
-        "watch": "同步關注失業率與時薪成長"
-      },
-      "previous": "+115K",
-      "previous_date": "2026-04-01",
-      "forecast": "85K",
-      "forecast_source": "ForexFactory"
-    },
-    {
-      "date": "2026-06-11",
-      "event": "CPI（5月）",
-      "importance": "high",
-      "source": "BLS",
-      "days_away": 6,
-      "label": "🔴 CPI（5月）（6天後）",
+      "days_away": 2,
+      "label": "🔴 CPI（5月）（2天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
@@ -82,8 +28,42 @@
       "event": "零售銷售（5月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 11,
-      "label": "🟡 零售銷售（5月）（11天後）",
+      "days_away": 7,
+      "label": "🟡 零售銷售（5月）（7天後）",
+      "impact_guide": {
+        "name": "零售銷售",
+        "above": "消費強勁 → 經濟韌性 → 短多",
+        "below": "消費疲弱 → 經濟放緩訊號 → 偏空",
+        "watch": "排除汽車的核心零售更能反映趨勢"
+      },
+      "previous": "+0.5%",
+      "previous_date": "2026-04-01"
+    }
+  ],
+  "next_14_days": [
+    {
+      "date": "2026-06-11",
+      "event": "CPI（5月）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 2,
+      "label": "🔴 CPI（5月）（2天後）",
+      "impact_guide": {
+        "name": "消費者物價指數",
+        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+      },
+      "previous": "3.9%",
+      "previous_date": "2026-04-01"
+    },
+    {
+      "date": "2026-06-16",
+      "event": "零售銷售（5月）",
+      "importance": "medium",
+      "source": "Census",
+      "days_away": 7,
+      "label": "🟡 零售銷售（5月）（7天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
@@ -98,8 +78,8 @@
       "event": "FOMC 利率決議",
       "importance": "high",
       "source": "Fed",
-      "days_away": 12,
-      "label": "🔴 FOMC 利率決議（12天後）",
+      "days_away": 8,
+      "label": "🔴 FOMC 利率決議（8天後）",
       "impact_guide": {
         "name": "聯準會利率決議",
         "above": "鷹派（升息/縮表）→ 偏空",

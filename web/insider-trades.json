@@ -1,18 +1,8 @@
 {
-  "date": "2026-06-06",
-  "updated_at": "2026-06-06 04:42",
+  "date": "2026-06-09",
+  "updated_at": "2026-06-09 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 1,
+  "watchlist_matches": 0,
   "status": "ok",
-  "trades": [
-    {
-      "ticker": "BAC",
-      "company": "BANK OF AMERICA",
-      "type": "未知",
-      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426015864/0001918704-26-015864-index.htm",
-      "date": "2026-06-05T16:41:25-04:00",
-      "summary": "Filed: 2026-06-05 AccNo: 0001918704-26-015864 Size: 795 KB"
-    }
-  ]
+  "trades": []
 }
