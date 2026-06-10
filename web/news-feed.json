@@ -1,47 +1,47 @@
 {
-  "date": "2026-06-09",
-  "fetched_at": "2026-06-09 07:07",
+  "date": "2026-06-10",
+  "fetched_at": "2026-06-10 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "S&P 500 closes higher as chips stage a comeback, Iran stops strikes on Israel: Live updates",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "隨著晶片捲土重來，標準普爾 500 指數收高，伊朗停止對以色列的攻擊：即時更新",
-      "time": "05:00",
-      "detected_at": "2026-06-09T05:00:20.340114+08:00"
-    },
-    {
-      "title": "Oil prices settle $1 higher after Iran and Israel say they have halted attacks By Reuters - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "伊朗和以色列表示已停止攻擊，油價收高 1 美元 路透社 - Investing.com",
-      "time": "05:00",
-      "detected_at": "2026-06-09T05:00:20.340114+08:00"
-    },
-    {
-      "title": "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot - Bloomberg.com",
+      "title": "Michael Saylor's Back: Strategy Buys 1,550 Bitcoin, MSTR Surges 6% - Strategy (NASDAQ:MSTR) - Benzinga",
       "impact": "bullish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "債券交易員押註消費者物價指數 (CPI) 飆升，為聯準會轉向提供支持 - Bloomberg.com",
+      "source": "Benzinga",
+      "title_cn": "Michael Saylor 回歸：Strategy 買入 1,550 比特幣，MSTR 飆升 6% - Strategy (NASDAQ:MSTR) - Benzinga",
       "time": "05:00",
-      "detected_at": "2026-06-09T05:00:20.340114+08:00"
+      "detected_at": "2026-06-10T05:00:17.628427+08:00"
     },
     {
-      "title": "Has Trump lost control of the Iran war? - BBC",
+      "title": "Behind the scenes: How Israel and Iran nearly pulled Trump back to war - Axios",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "川普是否已經失去了對伊朗戰爭的控制？ - 英國廣播公司",
+      "title_cn": "幕後花絮：以色列和伊朗如何差點讓川普重返戰爭 - Axios",
       "time": "05:00",
-      "detected_at": "2026-06-09T05:00:20.340114+08:00"
+      "detected_at": "2026-06-10T05:00:17.628427+08:00"
     },
     {
-      "title": "100 Days Since Iran War Started, NC Families Are Paying More While DC Insider Michael Whatley Profits - North Carolina Democratic Party",
+      "title": "Trump says US 'must' respond after Iran shot down US Army helicopter near Strait of Hormuz - AP News",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "川普表示，伊朗在霍爾木茲海峽附近擊落美國陸軍直升機後，美國「必須」做出回應 - 美聯社新聞",
+      "time": "05:00",
+      "detected_at": "2026-06-10T05:00:17.628427+08:00"
+    },
+    {
+      "title": "The political consequences of the Iran war - Brookings",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭爆發 100 天后，北卡羅來納州家庭支付更多費用，而華盛頓特區內部人士邁克爾沃特利 (Michael Whatley) 獲利 - 北卡羅來納州民主黨",
+      "title_cn": "伊朗戰爭的政治後果 - 布魯金斯學會",
       "time": "05:00",
-      "detected_at": "2026-06-09T05:00:20.340114+08:00"
+      "detected_at": "2026-06-10T05:00:17.628427+08:00"
+    },
+    {
+      "title": "Oil prices fall to seven-week low as Iran and Israel halt attacks - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "隨著伊朗和以色列停止襲擊，油價跌至七週低點 - 路透社",
+      "time": "04:00",
+      "detected_at": "2026-06-10T04:00:16.963804+08:00"
     },
     {
       "title": "Oil prices settle $1 higher after Iran and Israel say they have halted attacks - Reuters",
@@ -49,119 +49,119 @@
       "source": "Reuters-Biz",
       "title_cn": "伊朗和以色列表示已停止襲擊後，油價上漲 1 美元 - 路透社",
       "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
+      "detected_at": "2026-06-10T04:00:16.963804+08:00"
     },
     {
-      "title": "Trump’s Economy Polling Slides as Iran War Saps His Superpower - Bloomberg",
+      "title": "Traders Fully Price in Fed Rate Hike This Year After Jobs Data - Bloomberg.com",
       "impact": "bearish",
       "source": "Bloomberg-via-GN",
-      "title_cn": "由於伊朗戰爭削弱了川普的超級大國，川普的經濟民調下滑 - 彭博社",
+      "title_cn": "就業數據公佈後，交易員充分考慮​​了今年聯準會升息的可能性 - Bloomberg.com",
       "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
+      "detected_at": "2026-06-10T04:00:16.963804+08:00"
     },
     {
-      "title": "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot - Bloomberg",
+      "title": "US energy chief says oil exports through Strait of Hormuz, Gulf will 'continue to rise' - Reuters",
       "impact": "bullish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "債券交易員押注 CPI 飆升將支持聯準會轉向 - 彭博",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
+      "source": "Reuters-Biz",
+      "title_cn": "美國能源部長表示，通過霍爾木茲海峽和海灣的石油出口將「繼續增長」 - 路透社",
+      "time": "03:00",
+      "detected_at": "2026-06-10T03:00:18.116441+08:00"
     },
     {
-      "title": "Fed Faces Rising Rate Hike Expectations, Schwab Center’s Martin Says - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "施瓦布中心的馬丁表示，聯準會面臨升息預期 - 彭博",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
-    },
-    {
-      "title": "Trump Says Fed Rate Increase Would Be Wrong Ahead of Warsh Debut - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "川普表示，沃什首次亮相之前聯準會升息是錯誤的 - 彭博社",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
-    },
-    {
-      "title": "Goldman Sachs No Longer Expects Fed Interest-Rate Cut This Year - Bloomberg",
-      "impact": "bullish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Goldman Sachs No Longer Expects Fed Interest-Rate Cut This Year - Bloomberg",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
-    },
-    {
-      "title": "Watch Markets 'Terribly Wrong' to Price in Rate Hike, Kevin Hassett Says - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Watch Markets 'Terribly Wrong' to Price in Rate Hike, Kevin Hassett Says - Bloomberg",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
-    },
-    {
-      "title": "Citigroup Economists Maintain Lonely Call for Fed Rate Cuts - Bloomberg",
-      "impact": "bullish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Citigroup Economists Maintain Lonely Call for Fed Rate Cuts - Bloomberg",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
-    },
-    {
-      "title": "Behind the scenes: How Israel and Iran nearly pulled Trump back to war - Axios",
+      "title": "‘Anything but normal’: Uncertainty as Iranians try to get by amid US war - Al Jazeera",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Behind the scenes: How Israel and Iran nearly pulled Trump back to war - Axios",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
+      "title_cn": "「一切都不正常」：伊朗人試圖在美國戰爭中度過難關——半島電視台",
+      "time": "03:00",
+      "detected_at": "2026-06-10T03:00:18.116441+08:00"
     },
     {
-      "title": "Pope Leo calls war a ‘painful defeat’ of negotiations as Israel and Iran trade worst strikes in months - CNN",
+      "title": "Oil prices fall after U.S. Energy secretary says Hormuz ship traffic is increasing - CNBC",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Pope Leo calls war a ‘painful defeat’ of negotiations as Israel and Iran trade worst strikes in months - CNN",
-      "time": "04:00",
-      "detected_at": "2026-06-09T04:00:19.727835+08:00"
+      "title_cn": "美國能源部長稱霍爾木茲海峽船舶交通量增加後油價下跌 - CNBC",
+      "time": "03:00",
+      "detected_at": "2026-06-10T03:00:18.116441+08:00"
     },
     {
-      "title": "Kalshi traders say Strait of Hormuz traffic won't return to normal before January",
+      "title": "Fed Faces Rising Rate Hike Expectations, Schwab Center’s Martin Says - Bloomberg.com",
+      "impact": "bearish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "施瓦布中心的馬丁表示，聯準會面臨升息預期 - Bloomberg.com",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
+    },
+    {
+      "title": "Russia’s oil exports hit wartime high - Semafor",
+      "impact": "bearish",
+      "source": "Semafor",
+      "title_cn": "Semafor 稱，俄羅斯石油出口創戰時新高",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
+    },
+    {
+      "title": "How popular is the Iran War? - Silver Bulletin",
       "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "卡爾希貿易商表示，霍爾木茲海峽的交通在一月之前不會恢復正常",
-      "time": "03:00",
-      "detected_at": "2026-06-09T03:00:17.985283+08:00"
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭有多受歡迎？ - 銀公告",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
     },
     {
-      "title": "Trump Says Fed Rate Increase Would Be Wrong Ahead of Warsh Debut - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "川普表示，沃什首次亮相之前聯準會升息是錯誤的 - Bloomberg.com",
-      "time": "03:00",
-      "detected_at": "2026-06-09T03:00:17.985283+08:00"
-    },
-    {
-      "title": "Iran war: who is fighting and why? - The Guardian",
+      "title": "Why Lebanon may hold the key to the future of the Iran war - CNN",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭：誰在戰鬥，為什麼？ - 衛報",
-      "time": "03:00",
-      "detected_at": "2026-06-09T03:00:17.985283+08:00"
+      "title_cn": "為什麼黎巴嫩可能掌握著伊朗戰爭未來的關鍵 - CNN",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
     },
     {
-      "title": "〈台幣〉美升息擔憂再起 股匯雙殺貶逾1角收31.58元 - cnyes.com",
+      "title": "Trump says Iran shot down US helicopter over Hormuz, vows to respond - Al Jazeera",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "半島電視台稱，川普稱伊朗在霍爾木茲海峽上空擊落了美國直升機，並誓言做出回應",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
+    },
+    {
+      "title": "川普家族大賺5億美元 這檔加密貨幣概念股卻暴跌93% - news.cnyes.com",
       "impact": "bearish",
       "source": "鉅亨網",
-      "title_cn": "〈台幣〉美加息擔憂再起 股匯雙殺貶超1角收31.58元 - cnyes.com. 〈台幣〉美加息擔憂再起 股匯雙殺貶超1角收31.58元 &nbsp;&nbsp;cnyes.com",
-      "time": "03:00",
-      "detected_at": "2026-06-09T03:00:17.985283+08:00"
+      "title_cn": "川普家族大賺5億美元 這檔加密貨幣概念股卻暴跌93% - news.cnyes.com",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
     },
     {
-      "title": "S&P 500 and Nasdaq gain as chipmakers rebound from rout, Iran halts Israel attacks: Live updates",
+      "title": "台股恐慌式暴跌國家隊護駕 力抗外資賣壓 帶動跌點收斂守穩月線 - 經濟日報",
+      "impact": "bearish",
+      "source": "經濟日報",
+      "title_cn": "台股恐慌式暴跌國家隊護駕 力抗外資賣壓 帶動跌點收斂守穩月線 - 經濟日報",
+      "time": "02:00",
+      "detected_at": "2026-06-10T02:00:17.748701+08:00"
+    },
+    {
+      "title": "Trump says U.S. must 'respond' after Iran shoots down helicopter over Hormuz Strait",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "隨著晶片製造商從潰敗中反彈，標準普爾 500 指數和納斯達克指數上漲，伊朗停止以色列襲擊：即時更新",
-      "time": "02:00",
-      "detected_at": "2026-06-09T02:00:19.105597+08:00"
+      "title_cn": "川普表示，伊朗在霍爾木茲海峽擊落直升機後，美國必須「做出回應」",
+      "time": "01:00",
+      "detected_at": "2026-06-10T01:00:24.386055+08:00"
+    },
+    {
+      "title": "Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully'",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "能源部長克里斯·賴特表示，霍爾木茲海峽的交通量正在「顯著」增加",
+      "time": "01:00",
+      "detected_at": "2026-06-10T01:00:24.386055+08:00"
+    },
+    {
+      "title": "Oil prices fall nearly 4% after U.S. Energy secretary says Hormuz ship traffic is increasing",
+      "impact": "bearish",
+      "source": "CNBC-World",
+      "title_cn": "美國能源部長稱霍爾木茲海峽船舶交通量增加後，油價下跌近 4%",
+      "time": "01:00",
+      "detected_at": "2026-06-10T01:00:24.386055+08:00"
     }
   ]
 }
