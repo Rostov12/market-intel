@@ -1,27 +1,36 @@
 {
-  "date": "2026-06-11",
-  "updated_at": "2026-06-11 04:42",
+  "date": "2026-06-12",
+  "updated_at": "2026-06-12 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 2,
+  "watchlist_matches": 3,
   "status": "ok",
   "trades": [
     {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
       "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526265951/0001193125-26-265951-index.htm",
-      "date": "2026-06-10T16:41:13-04:00",
-      "summary": "Filed: 2026-06-10 AccNo: 0001193125-26-265951 Size: 620 KB"
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426016434/0001918704-26-016434-index.htm",
+      "date": "2026-06-11T16:41:42-04:00",
+      "summary": "Filed: 2026-06-11 AccNo: 0001918704-26-016434 Size: 1 MB"
     },
     {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
+      "ticker": "JPM",
+      "company": "JPMORGAN",
       "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526265946/0001193125-26-265946-index.htm",
-      "date": "2026-06-10T16:39:03-04:00",
-      "summary": "Filed: 2026-06-10 AccNo: 0001193125-26-265946 Size: 336 KB"
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026067872/0001213900-26-067872-index.htm",
+      "date": "2026-06-11T16:40:06-04:00",
+      "summary": "Filed: 2026-06-11 AccNo: 0001213900-26-067872 Size: 114 KB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026067872/0001213900-26-067872-index.htm",
+      "date": "2026-06-11T16:40:06-04:00",
+      "summary": "Filed: 2026-06-11 AccNo: 0001213900-26-067872 Size: 114 KB"
     }
   ]
 }

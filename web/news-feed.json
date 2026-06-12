@@ -1,23 +1,15 @@
 {
-  "date": "2026-06-11",
-  "fetched_at": "2026-06-11 07:07",
+  "date": "2026-06-12",
+  "fetched_at": "2026-06-12 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Dow drops more than 900 points as chip sell-off worsens, Trump threatens more Iran attacks: Live updates",
-      "impact": "bearish",
-      "source": "CNBC-World",
-      "title_cn": "隨著晶片拋售惡化，道瓊指數下跌逾 900 點，川普威脅發動更多伊朗攻擊：即時更新",
-      "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
-    },
-    {
-      "title": "Oil prices climb as Trump issues Iran warning following fresh strikes - Investing.com",
-      "impact": "bearish",
+      "title": "Gold prices march higher as oil slides after Trump cancels fresh Iran attacks - Investing.com",
+      "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "川普在新一輪襲擊後向伊朗發出警告，油價上漲 - Investing.com",
+      "title_cn": "川普取消新的伊朗攻擊後，隨著油價下跌，金價走高 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
+      "detected_at": "2026-06-12T05:00:19.466472+08:00"
     },
     {
       "title": "Oil prices settle $1 higher after Iran and Israel say they have halted attacks By Reuters - Investing.com",
@@ -25,143 +17,151 @@
       "source": "Investing.com",
       "title_cn": "伊朗和以色列表示已停止攻擊，油價收高 1 美元 路透社 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
+      "detected_at": "2026-06-12T05:00:19.466472+08:00"
     },
     {
-      "title": "Trump says ‘I love the inflation’ as Iran war continues to spike prices - NBC News",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "隨著伊朗戰爭繼續推高物價，川普表示「我喜歡通貨膨脹」 - NBC 新聞",
-      "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
-    },
-    {
-      "title": "Fresh strikes, surging inflation signal new phase of Iran war - Los Angeles Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "新的罷工、通膨飆升預示著伊朗戰爭進入新階段——《洛杉磯時報》",
-      "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
-    },
-    {
-      "title": "'I love the inflation,' Trump says as prices rise amid Iran war - Reuters",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "'I love the inflation,' Trump says as prices rise amid Iran war - Reuters",
-      "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
-    },
-    {
-      "title": "The political consequences of the Iran war - Brookings",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "The political consequences of the Iran war - Brookings",
-      "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
-    },
-    {
-      "title": "“I Love Inflation,” Trump Says, As Rates Rise Thanks to Iran War - Mother Jones",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "“I Love Inflation,” Trump Says, As Rates Rise Thanks to Iran War - Mother Jones",
-      "time": "05:00",
-      "detected_at": "2026-06-11T05:00:19.804668+08:00"
-    },
-    {
-      "title": "Trump says U.S. secretly moved more than 100 million barrels of oil through Strait of Hormuz",
+      "title": "Trump calls off Iran attacks, suggests final peace deal has been approved - Investing.com",
       "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "川普取消對伊朗的攻擊，暗示最終和平協議已獲得批准 - Investing.com",
+      "time": "05:00",
+      "detected_at": "2026-06-12T05:00:19.466472+08:00"
+    },
+    {
+      "title": "Military strikes on water facilities in Iran may constitute a war crime, experts say - The Guardian",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "《衛報》專家表示，對伊朗供水設施的軍事打擊可能構成戰爭罪",
+      "time": "05:00",
+      "detected_at": "2026-06-12T05:00:19.466472+08:00"
+    },
+    {
+      "title": "Trump claims Iran war settled 'subject to finalization,' expects signing in 'next few days' - CNBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普聲稱伊朗戰爭“有待最終確定”，預計將在“未來幾天”簽署 - CNBC",
+      "time": "05:00",
+      "detected_at": "2026-06-12T05:00:19.466472+08:00"
+    },
+    {
+      "title": "Trump claims Iran war settled 'subject to finalization,' expects signing in 'next few days'",
+      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "川普表示，美國透過霍爾木茲海峽秘密運輸了超過1億桶石油",
+      "title_cn": "川普聲稱伊朗戰爭“有待最終確定”，預計將在“未來幾天”簽署",
       "time": "04:00",
-      "detected_at": "2026-06-11T04:00:19.312998+08:00"
+      "detected_at": "2026-06-12T04:00:18.354528+08:00"
+    },
+    {
+      "title": "Equities rally, dollar dips with oil as Trump cancels Iran attacks - Reuters",
+      "impact": "bullish",
+      "source": "Reuters-Biz",
+      "title_cn": "川普取消對伊朗的攻擊，股市上漲，美元隨油價下跌 - 路透社",
+      "time": "04:00",
+      "detected_at": "2026-06-12T04:00:18.354528+08:00"
+    },
+    {
+      "title": "Oil slumps after Trump backtracks on Iran attacks, says final peace deal approved - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "Investing.com稱，最終和平協議已獲批准，川普在伊朗襲擊問題上出爾反爾，導致油價暴跌",
+      "time": "04:00",
+      "detected_at": "2026-06-12T04:00:18.354528+08:00"
+    },
+    {
+      "title": "Bond Traders Keep Bets on a Fed Hike This Year After CPI Report - Bloomberg.com",
+      "impact": "neutral",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "在 CPI 報告發布後，債券交易員仍押注聯準會今年將升息 - Bloomberg.com",
+      "time": "04:00",
+      "detected_at": "2026-06-12T04:00:18.354528+08:00"
     },
     {
       "title": "Trump says US will attack Iran 'very hard' and has taken oil through Hormuz - Reuters",
       "impact": "neutral",
       "source": "Reuters-Biz",
       "title_cn": "川普表示，美國將「非常嚴厲」地攻擊伊朗，並已通過霍爾木茲海峽獲取石油 - 路透社",
-      "time": "04:00",
-      "detected_at": "2026-06-11T04:00:19.312998+08:00"
-    },
-    {
-      "title": "Oil prices fall to seven-week low as Iran and Israel halt attacks - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著伊朗和以色列停止襲擊，油價跌至七週低點 - 路透社",
-      "time": "04:00",
-      "detected_at": "2026-06-11T04:00:19.312998+08:00"
+      "time": "03:00",
+      "detected_at": "2026-06-12T03:00:17.619435+08:00"
     },
     {
       "title": "Trump says US will attack Iran ’very hard’ and has taken oil through Hormuz By Reuters - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
       "title_cn": "川普表示，美國將「非常嚴厲」攻擊伊朗，並已透過霍爾木茲海峽取得石油",
-      "time": "04:00",
-      "detected_at": "2026-06-11T04:00:19.312998+08:00"
+      "time": "03:00",
+      "detected_at": "2026-06-12T03:00:17.619435+08:00"
     },
     {
-      "title": "Bond Traders Keep Bets on a Fed Hike This Year After CPI Report - Bloomberg",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "在 CPI 報告發布後，債券交易員仍押注聯準會今年將升息 - 彭博社",
-      "time": "04:00",
-      "detected_at": "2026-06-11T04:00:19.312998+08:00"
-    },
-    {
-      "title": "Crop and Fertilizer Markets Wipe Out Iran War Risk Premium - Bloomberg",
+      "title": "Iran threatens to widen scope of war with US as Trump cancels strikes on Tehran - Anadolu Ajansı",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Crop and Fertilizer Markets Wipe Out Iran War Risk Premium - Bloomberg",
-      "time": "04:00",
-      "detected_at": "2026-06-11T04:00:19.312998+08:00"
+      "source": "Geopolitical",
+      "title_cn": "隨著川普取消對德黑蘭的襲擊，伊朗威脅擴大與美國的戰爭範圍 - Anadolu Ajansı",
+      "time": "03:00",
+      "detected_at": "2026-06-12T03:00:17.619435+08:00"
+    },
+    {
+      "title": "Iran and proxies have carried out or threatened 14 attacks since war's start: Bulletin - ABC News - Breaking News, Latest News and Videos",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "自戰爭開始以來，伊朗及其代理人已實施或威脅發動了 14 次襲擊：公告 - ABC 新聞 - 突發新聞、最新新聞和影片",
+      "time": "03:00",
+      "detected_at": "2026-06-12T03:00:17.619435+08:00"
+    },
+    {
+      "title": "Trump cancels Iran strikes scheduled for Thursday evening",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "川普取消原定週四晚上對伊朗發動的攻擊",
+      "time": "02:00",
+      "detected_at": "2026-06-12T02:00:18.565536+08:00"
+    },
+    {
+      "title": "Oil tanker CEO sees Hormuz ship traffic quickly increasing if U.S. and Iran reach a deal",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "油輪執行長認為，如果美國和伊朗達成協議，霍爾木茲的船舶交通量將迅速增加",
+      "time": "02:00",
+      "detected_at": "2026-06-12T02:00:18.565536+08:00"
     },
     {
       "title": "US energy chief says oil exports through Strait of Hormuz, Gulf will 'continue to rise' - Reuters",
       "impact": "bullish",
       "source": "Reuters-Biz",
       "title_cn": "美國能源部長表示，通過霍爾木茲海峽和海灣的石油出口將「繼續增長」 - 路透社",
-      "time": "03:00",
-      "detected_at": "2026-06-11T03:00:18.416225+08:00"
-    },
-    {
-      "title": "When will the Iran war end? Here's what Trump has said. - CBS News",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭什麼時候結束？這是川普所說的",
-      "time": "03:00",
-      "detected_at": "2026-06-11T03:00:18.416225+08:00"
-    },
-    {
-      "title": "Trump says ‘I love the inflation’ as rate rises to 4.2% amid Iran war pressure - The Guardian",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "川普表示“我喜歡通膨”，因為在伊朗戰爭壓力下，通膨率升至 4.2%——《衛報》",
-      "time": "03:00",
-      "detected_at": "2026-06-11T03:00:18.416225+08:00"
-    },
-    {
-      "title": "川普家族大賺5億美元 這檔加密貨幣概念股卻暴跌93% - news.cnyes.com",
-      "impact": "bearish",
-      "source": "鉅亨網",
-      "title_cn": "家族大賺5億美元這檔加密貨幣概念股卻暴跌93% - news.cnyes.com",
-      "time": "03:00",
-      "detected_at": "2026-06-11T03:00:18.416225+08:00"
-    },
-    {
-      "title": "Trump pledges more Iran strikes, saying U.S. will be 'attacking them very hard'",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "川普承諾對伊朗發動更多打擊，稱美國將「嚴厲打擊他們」",
       "time": "02:00",
-      "detected_at": "2026-06-11T02:00:21.462629+08:00"
+      "detected_at": "2026-06-12T02:00:18.565536+08:00"
     },
     {
-      "title": "Global stock index down after data, oil rises after Iran-US strikes - Reuters",
-      "impact": "bullish",
+      "title": "US-Iran war to pull global economy to post-COVID low: World Bank - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "美伊戰爭將全球經濟拉至新冠疫情後低點：世界銀行 - 半島電視台",
+      "time": "02:00",
+      "detected_at": "2026-06-12T02:00:18.565536+08:00"
+    },
+    {
+      "title": "How popular is the Iran War? - Silver Bulletin",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭有多受歡迎？ - 銀公告",
+      "time": "02:00",
+      "detected_at": "2026-06-12T02:00:18.565536+08:00"
+    },
+    {
+      "title": "Iran has lost its fear of war - The Economist",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Iran has lost its fear of war - The Economist",
+      "time": "02:00",
+      "detected_at": "2026-06-12T02:00:18.565536+08:00"
+    },
+    {
+      "title": "Oil prices steady as investors weigh US-Iran war escalation - Reuters",
+      "impact": "bearish",
       "source": "Reuters-Biz",
-      "title_cn": "數據公佈後全球股指下跌，伊朗和美國罷工後油價上漲 - 路透社",
-      "time": "02:00",
-      "detected_at": "2026-06-11T02:00:21.462629+08:00"
+      "title_cn": "投資者權衡美伊戰爭升級，油價穩定 - 路透社",
+      "time": "01:00",
+      "detected_at": "2026-06-12T01:00:23.954752+08:00"
     }
   ]
 }
