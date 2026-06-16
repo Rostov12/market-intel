@@ -1,18 +1,8 @@
 {
-  "date": "2026-06-13",
-  "updated_at": "2026-06-13 04:42",
+  "date": "2026-06-16",
+  "updated_at": "2026-06-16 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 1,
+  "watchlist_matches": 0,
   "status": "ok",
-  "trades": [
-    {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
-      "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526269580/0001193125-26-269580-index.htm",
-      "date": "2026-06-12T16:40:35-04:00",
-      "summary": "Filed: 2026-06-12 AccNo: 0001193125-26-269580 Size: 922 KB"
-    }
-  ]
+  "trades": []
 }

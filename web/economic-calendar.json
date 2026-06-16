@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-12",
-  "generated_at": "2026-06-12 04:00",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16 04:00",
   "next_fomc": {
     "date": "2026-06-17",
-    "days_away": 5,
-    "label": "下次 FOMC：06/17（5天後）"
+    "days_away": 1,
+    "label": "下次 FOMC：06/17（1天後）"
   },
   "next_7_days": [
     {
@@ -12,8 +12,8 @@
       "event": "零售銷售（5月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 4,
-      "label": "🟡 零售銷售（5月）（4天後）",
+      "days_away": 0,
+      "label": "🟡 零售銷售（5月）（0天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
@@ -28,14 +28,16 @@
       "event": "FOMC 利率決議",
       "importance": "high",
       "source": "Fed",
-      "days_away": 5,
-      "label": "🔴 FOMC 利率決議（5天後）",
+      "days_away": 1,
+      "label": "🔴 FOMC 利率決議（1天後）",
       "impact_guide": {
         "name": "聯準會利率決議",
         "above": "鷹派（升息/縮表）→ 偏空",
         "below": "鴿派（降息/暫停）→ 偏多",
         "watch": "重點在點陣圖和鮑爾記者會措辭"
-      }
+      },
+      "forecast": "3.75%",
+      "forecast_source": "ForexFactory"
     }
   ],
   "next_14_days": [
@@ -44,8 +46,8 @@
       "event": "零售銷售（5月）",
       "importance": "medium",
       "source": "Census",
-      "days_away": 4,
-      "label": "🟡 零售銷售（5月）（4天後）",
+      "days_away": 0,
+      "label": "🟡 零售銷售（5月）（0天後）",
       "impact_guide": {
         "name": "零售銷售",
         "above": "消費強勁 → 經濟韌性 → 短多",
@@ -60,22 +62,24 @@
       "event": "FOMC 利率決議",
       "importance": "high",
       "source": "Fed",
-      "days_away": 5,
-      "label": "🔴 FOMC 利率決議（5天後）",
+      "days_away": 1,
+      "label": "🔴 FOMC 利率決議（1天後）",
       "impact_guide": {
         "name": "聯準會利率決議",
         "above": "鷹派（升息/縮表）→ 偏空",
         "below": "鴿派（降息/暫停）→ 偏多",
         "watch": "重點在點陣圖和鮑爾記者會措辭"
-      }
+      },
+      "forecast": "3.75%",
+      "forecast_source": "ForexFactory"
     },
     {
       "date": "2026-06-25",
       "event": "GDP Q1 終值",
       "importance": "medium",
       "source": "BEA",
-      "days_away": 13,
-      "label": "🟡 GDP Q1 終值（13天後）",
+      "days_away": 9,
+      "label": "🟡 GDP Q1 終值（9天後）",
       "impact_guide": {
         "name": "國內生產毛額",
         "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
@@ -90,8 +94,8 @@
       "event": "PCE（5月）",
       "importance": "high",
       "source": "BEA",
-      "days_away": 14,
-      "label": "🔴 PCE（5月）（14天後）",
+      "days_away": 10,
+      "label": "🔴 PCE（5月）（10天後）",
       "impact_guide": {
         "name": "個人消費支出物價指數",
         "above": "Fed 最愛通膨指標偏高 → 鷹派 → 偏空",
@@ -106,8 +110,8 @@
       "event": "密西根消費者信心（6月終值）",
       "importance": "medium",
       "source": "UMich",
-      "days_away": 14,
-      "label": "🟡 密西根消費者信心（6月終值）（14天後）",
+      "days_away": 10,
+      "label": "🟡 密西根消費者信心（6月終值）（10天後）",
       "impact_guide": {
         "name": "密西根消費者信心指數",
         "above": "信心改善 → 消費預期樂觀 → 偏多",

@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-13",
-  "generated_at": "2026-06-13 04:45",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16 04:45",
   "composite": {
     "score": 0.0,
     "label": "散戶中性",
@@ -10,13 +10,13 @@
     "source": "spy_pcr",
     "status": "ok",
     "expiries_used": [
-      "2026-06-12",
       "2026-06-15",
-      "2026-06-16"
+      "2026-06-16",
+      "2026-06-17"
     ],
-    "total_calls_vol": 6438744,
-    "total_puts_vol": 5469150,
-    "pcr": 0.849,
+    "total_calls_vol": 6091708,
+    "total_puts_vol": 5574222,
+    "pcr": 0.915,
     "label": "散戶中性",
     "signal": "中性"
   },
