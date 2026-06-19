@@ -1,6 +1,6 @@
 {
   "date": "2026-06-19",
-  "fetched_at": "2026-06-19 20:30",
+  "fetched_at": "2026-06-19 21:00",
   "market_tone": "開盤不確定",
   "summary": {
     "bullish": 0,
@@ -11,7 +11,7 @@
     {
       "symbol": "ES=F",
       "name": "S&P 500 期貨",
-      "prev_close": 7542.25,
+      "prev_close": 7540.5,
       "premarket_price": null,
       "premarket_pct": null,
       "status": "no_premarket"
@@ -19,7 +19,7 @@
     {
       "symbol": "NQ=F",
       "name": "Nasdaq 期貨",
-      "prev_close": 30574.75,
+      "prev_close": 30556.5,
       "premarket_price": null,
       "premarket_pct": null,
       "status": "no_premarket"
@@ -27,7 +27,7 @@
     {
       "symbol": "YM=F",
       "name": "道瓊期貨",
-      "prev_close": 51844.0,
+      "prev_close": 51833.0,
       "premarket_price": null,
       "premarket_pct": null,
       "status": "no_premarket"
@@ -35,11 +35,11 @@
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "prev_close": 17.13,
-      "premarket_price": 17.13,
+      "prev_close": 17.21,
+      "premarket_price": 17.21,
       "premarket_pct": 0.0,
       "premarket_vol": 0.0,
-      "premarket_time": "08:15 ET",
+      "premarket_time": "08:45 ET",
       "status": "ok"
     },
     {
@@ -117,11 +117,11 @@
     {
       "symbol": "BTC-USD",
       "name": "比特幣",
-      "prev_close": 62487.7109,
-      "premarket_price": 62487.7109,
+      "prev_close": 62767.6992,
+      "premarket_price": 62767.6992,
       "premarket_pct": 0.0,
-      "premarket_vol": 2617505792.0,
-      "premarket_time": "08:30 ET",
+      "premarket_vol": 2886905856.0,
+      "premarket_time": "09:00 ET",
       "status": "ok"
     }
   ]
