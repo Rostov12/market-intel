@@ -1,8 +1,27 @@
 {
-  "date": "2026-06-19",
-  "updated_at": "2026-06-19 04:42",
+  "date": "2026-06-20",
+  "updated_at": "2026-06-20 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 0,
+  "watchlist_matches": 2,
   "status": "ok",
-  "trades": []
+  "trades": [
+    {
+      "ticker": "INTC",
+      "company": "INTEL",
+      "type": "未知",
+      "title": "4 - INTELLINETICS, INC. (0001081745) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226029434/0001493152-26-029434-index.htm",
+      "date": "2026-06-18T21:30:12-04:00",
+      "summary": "Filed: 2026-06-18 AccNo: 0001493152-26-029434 Size: 6 KB"
+    },
+    {
+      "ticker": "INTC",
+      "company": "INTEL",
+      "type": "未知",
+      "title": "4 - INTELLINETICS, INC. (0001081745) (Issuer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226029432/0001493152-26-029432-index.htm",
+      "date": "2026-06-18T21:27:19-04:00",
+      "summary": "Filed: 2026-06-18 AccNo: 0001493152-26-029432 Size: 6 KB"
+    }
+  ]
 }
