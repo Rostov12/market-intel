@@ -1,7 +1,297 @@
 {
-  "updated_at": "2026-06-20 05:00",
+  "updated_at": "2026-06-20 23:00",
   "count": 30,
   "news": [
+    {
+      "title": "Iran closes Strait of Hormuz again and says its negotiating team is heading to Switzerland",
+      "title_cn": "伊朗再次關閉霍爾木茲海峽，並表示其談判小組正前往瑞士",
+      "time": "23:00",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/20/at-least-five-killed-in-israeli-strikes-on-lebanon-despite-ceasefire.html",
+      "summary": "Iran's joint military command said the Strait of Hormuz was closed, citing in part U.S. \"bad faith\" and \"its clear breach of its commitments.\"",
+      "detected_at": "2026-06-20T23:00:24.923421+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat - ABC7 Chicago",
+      "title_cn": "伊朗戰爭新聞：據報道，由於美伊協議受到威脅，以色列對黎巴嫩發動攻擊 - ABC7 芝加哥",
+      "time": "23:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN1JkOGwtUDNMV3BVQUJhSG00X1JyYkE1dE80amJiWDNKVmJjeENOU19zLXF3MzljZ1JkbXJDdVlwV0ZxSXNlQ1lyaTdFMk5nVk1zbFhwU1ZHSzhZUmhNYlJwaksxQnRUZkk1a21JQ1B0SkdRSy1MMWF1a0s2N2dCQUd6dGk4SURvUzlfVElYeVB3azdLN2FreGxIZGpkSTlPdHVxUUlUMEMwQmNZbnQxbdIBtgFBVV95cUxNTlJKaUtlUGVFc3hjZTk3QzZRSjhsSllmR0V0Uk5iUkREZWlRZV9SNnFDOUVxTHJ2Y29kSW5wbDE0Nkp4ZUY2S1E0OWFaUndrc1ZkdV9XMV9rR0hjVm1vdXR3UjFHZjRGbHZYWnpxdmtfOHlxZ2FwTUJWTmR4cUVWVk83RUdZSTZodjFkWF9nY1pwSVREUlN5MmV5TENnQjU4WjdmM0EyUWNYLUdvSUc2R2FCZnZrdw?oc=5",
+      "summary": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat&nbsp;&nbsp;ABC7 Chicago",
+      "detected_at": "2026-06-20T23:00:24.923421+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon - NBC News",
+      "title_cn": "伊朗表示，在以色列繼續襲擊黎巴嫩後，霍爾木茲海峽因違反停火而關閉 - NBC 新聞",
+      "time": "23:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYWZLRUlHdXhuQXlwNkpEVUlGa2tQSEs5WmJzQUQwRFVzT3lsOG43LWNyOWNlQlFxM2VrQ2VaQVIwR0RGTWljb0JYSkFJeU9FZ3dERzdONnVrdmhXSlZpTjd4WFNnWno0OUdRV2QzbWVMSllVekxQel9PYkZhWlN0VHNkVGJyMGw4RVFkbk1lZ3ZKem14LWU0eWVn?oc=5",
+      "summary": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon&nbsp;&nbsp;NBC News",
+      "detected_at": "2026-06-20T23:00:24.923421+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran closes Strait of Hormuz over ceasefire violations - MEHR - Reuters",
+      "title_cn": "伊朗因違反停火協議而關閉霍爾木茲海峽 - MEHR - 路透社",
+      "time": "23:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTEyTUU2Snk2NzBhWmZCcV9JMzlEV0hRbjNTU282RU5wV3FvNElISFk2ek5SaXU3YXJXR3l1ZFF2RGpsMElnTkpMUmc3Y084NldTRndXWGdLWDJuT05wd0JkY3VtSUxKdFZMLXdJYmVMZXROV2NOczE3b0pWNEZpaEN1UU1teHZyWmotTjdtNmU2RHRlVmtkMzNoZUN5aGpFZHhnRVRnanVxYkRtSnVz?oc=5",
+      "summary": "Iran closes Strait of Hormuz over ceasefire violations - MEHR&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-06-20T23:00:24.923421+08:00",
+      "level": "high"
+    },
+    {
+      "title": "升息陰霾未散也擋不住美股反攻 英特爾創新高 費半飆漲6.4% | 國際焦點 | 國際 - 經濟日報",
+      "title_cn": "升息陰霾未散也擋不住美股反攻英特爾創新高費半飆漲6.4% | 國際焦點| 國際-經濟日報. 加息陰霾未散也擋不住美股反攻英特爾創新高費半飆6.4% | 國際焦點| 國際經濟日報",
+      "time": "23:00",
+      "source": "經濟日報",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81MlZTRDRMRnpYdlZxSHdvNDJWNHhsZVptMFBfaVBPNWIzREE5RXJpd19yU3p0UC1FZmhnWDVTZTdORXRtUDE0QU56azlENkNsUnRZSWIwOXhUZw?oc=5",
+      "summary": "升息陰霾未散也擋不住美股反攻 英特爾創新高 費半飆漲6.4% | 國際焦點 | 國際&nbsp;&nbsp;經濟日報",
+      "detected_at": "2026-06-20T23:00:24.923421+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran's military command says Strait of Hormuz is closed again, citing Israeli attacks in Lebanon",
+      "title_cn": "伊朗軍事指揮部表示，以以色列襲擊黎巴嫩為由，霍爾木茲海峽再次關閉",
+      "time": "22:00",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/20/at-least-five-killed-in-israeli-strikes-on-lebanon-despite-ceasefire.html",
+      "summary": "Iran's joint military command said the Strait of Hormuz was closed, citing in part U.S. \"bad faith\" and \"its clear breach of its commitments.\"",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Why the Iran war brought the U.S. and UAE even closer together",
+      "title_cn": "為什麼伊朗戰爭會讓美國和阿聯酋的關係更加緊密",
+      "time": "22:00",
+      "source": "CNBC-World",
+      "url": "https://www.cnbc.com/video/2026/06/20/why-the-iran-war-brought-the-us-and-uae-even-closer-together.html",
+      "summary": "In February 2026, U.S. and Israeli strikes on Iran triggered a wider regional crisis, putting Gulf states under pressure. But instead of weakening the UAE’s relationship with Washington, the conflict ",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Russia says it repelled drone attack on oil refinery in Tyumen region - Reuters",
+      "title_cn": "俄羅斯稱其擊退了針對秋明地區煉油廠的無人機襲擊 - 路透社",
+      "time": "22:00",
+      "source": "Reuters-Biz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSzctMXc0YXRGUkFSci1CY1VoVXMtM2NRWjE5M180WFU2SERRaDZZc3I1eVVBSldqOHpFejF2cmU3Z2ZmSzh4RlNvQjVzbGlPcDNqVGMxM0o0Xy03ZUdHQlFhYWtMdWVfMDFkczFtYjN4RG5ORXNkT29sanF2R1hoSEUxZkdCeWZYT0JGQUVFZTJKV1dwMEtUUExHZ2ZDU3pFVXc1cmtHTlFFb1M2QWFBNVpFbjl5Zw?oc=5",
+      "summary": "Russia says it repelled drone attack on oil refinery in Tyumen region&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran War Fuels Renewables Interest, Multilateral Lender Says - Bloomberg.com",
+      "title_cn": "多邊貸款機構表示，伊朗戰爭激發了對再生能源的興趣 - Bloomberg.com",
+      "time": "22:00",
+      "source": "Bloomberg-via-GN",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORDZSa3d3SUVNVkFoSjVxbWRIV2doLW8yczAtSEtuV013c1hweERMMmVvRHhHZ1psdnV4NUZrZWxiMmVxMXk4dEFDYnRtT0ZDVGtUR3RtWEgxeVpqODNRenlfZ0xJbkpzVjAzMy1POUp3eDVfZXFkbDBDcnVMcUp2OXRncFhKN2U4cWhKc1BTYXctcnZVWDZCakNFZlp4eHpFdHVKYjdfZWl2ZXRKakhUWkdUMA?oc=5",
+      "summary": "Iran War Fuels Renewables Interest, Multilateral Lender Says&nbsp;&nbsp;Bloomberg.com",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "How the Iran war united, and then divided, Trump and Israel's Netanyahu - CBS News",
+      "title_cn": "伊朗戰爭如何讓川普和以色列內塔尼亞胡團結起來，然後又分裂——哥倫比亞廣播公司新聞",
+      "time": "22:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlo3QmFOY21GekpsUVh4cUtkVUdxSVZxbWVRWmtvaDlDMmU4ZGNMX0pzYktpZXdvWlljazFlLVFCRlV4bFdnMXdWeDg5bnBCRTBBRDhycEdXTTc5M01qR2tNSlR0REl6MDhIN3AteU9wMGdEa1A2SXgxaTctVHRVWEVxNkFUV1NzNG9wZw?oc=5",
+      "summary": "How the Iran war united, and then divided, Trump and Israel's Netanyahu&nbsp;&nbsp;CBS News",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat - ABC7 Los Angeles",
+      "title_cn": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat - ABC7 Los Angeles",
+      "time": "22:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ2NwdDl3eGlWTXBHYUZsdWRpMGJ5UmRBSDdWbmdYUlJSLTFLWWt2djFiTmlVUGZ6QWtKNzNqZC0tOEpMZHczdU84d0JrMWMwUHVwNVR0X0tVWVBjdExYYnBDR1NiUGw2QmlSVE9pTFpzQXUxdElFZUw0emhxRS1Cd0lxMXVvejVnR2w0Rm9seHB0U3pCYzdoUTZCWkVZejNiLVB4ZFBXZ9IBrAFBVV95cUxPNkdYNEZfeFNqTi1UdUpZTUVxb0xjVjUtTDA5U3Y2eENRaXdYWmRKbjYySnVZbjBIc21NVWdLOGdaa2pUQTFXMFlWc3pFUEFPVUN3TnZ3bU9abEMyNzBQLW1nUXpZaGhBZEVVa0Z6QzBjNWxjQ3NoS2dMbDVBRlNKUVFzeDBCMFZheUN1NWFBUXh6U2swc1pNWU1PNE52ZzlhNGpRT0JCVUdOYllr?oc=5",
+      "summary": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat&nbsp;&nbsp;ABC7 Los Angeles",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Pope Leo, USCCB hope end to Iran war is near after Trump, Iran reach agreement - National Catholic Reporter",
+      "title_cn": "Pope Leo, USCCB hope end to Iran war is near after Trump, Iran reach agreement - National Catholic Reporter",
+      "time": "22:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX3owdGFTNHF6MHVMT0hZTF9jSFNwaXNIWFhpSlQtSWFrSF81aGF4U2pHX1ItQm1VaGJTZWNGMXNxbl83Nnh5R0ZDMFNoVTVxei1mY2dNM0NJUHU5elhybzZXTE0wdVRjb2lXZU9yUzBiaUxDellNdkhvX0NjX1FDTG54NXRaMzlrTFdlQ0JuT0xOYnVnalk1RjRmaUx0S3NxMEdv?oc=5",
+      "summary": "Pope Leo, USCCB hope end to Iran war is near after Trump, Iran reach agreement&nbsp;&nbsp;National Catholic Reporter",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Trump May Be Drawing Down Iran War, But He’s Demanding Billions More for Bombs - Truthout",
+      "title_cn": "Trump May Be Drawing Down Iran War, But He’s Demanding Billions More for Bombs - Truthout",
+      "time": "22:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3AxaTRINjA4WEMzMXIzV3lQak1HOEI4QzVnR1RHNTR0UjB1eThwSVpsaEp1dXNlTEtOc2w1dzVHS2NrX1R4Q2pUbmxqZ2xJM0wtOVAxcnhSOFk5WVZmV3hrVm9iaXQ3eG9sdkFfWWJCODM1b0FrZzVlUnlQclh6dXlSX0o1Rlg5X0MtVkpYS2ZRMjEzN0g4SWp5ejNMdWdIbUlXQmNZdk1EOFU?oc=5",
+      "summary": "Trump May Be Drawing Down Iran War, But He’s Demanding Billions More for Bombs&nbsp;&nbsp;Truthout",
+      "detected_at": "2026-06-20T22:00:19.902976+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iranian Guards' business empire to win big if U.S. sanctions lifted - Reuters",
+      "title_cn": "如果美國解除制裁，伊朗衛隊的商業帝國將贏得巨大勝利 - 路透社",
+      "time": "21:00",
+      "source": "Reuters-Biz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeTVOWlpubWVJN3A4Rl9Wai1TNWRycWQwS1RrbXJCQndDZXIxaklsWV9idkhkRXI2SmN6cldIelBCNGVJNVNYWXhmUjNzeUx1VWhDbkNTdVJLNmwweUtzNmpobW5DSHNVc1BQM2xTc3plMzBpNVV6akI2X1AtVGkyN1l1Q0VIanZGNkctczJvSFM0WEtTdnZmNFlLdWg2LTVtUUxYTC00aEs0cG5qcERYSXBya1Y4dw?oc=5",
+      "summary": "Iranian Guards' business empire to win big if U.S. sanctions lifted&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-06-20T21:00:24.892768+08:00",
+      "level": "high"
+    },
+    {
+      "title": "View / Hormuz will never really be open again - Semafor",
+      "title_cn": "查看/霍爾木茲再也不會真正開放 - Semafor",
+      "time": "21:00",
+      "source": "Semafor",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ29xcm1faml2UVdLanpTTkdHRXBLODB0bk9DNklMOXJETC00bmJ1WGhIaWtIdzJ5TDBBZGFQdzlGamVMRFBwb21JZTdFRmhJaF9FZ2lVWjgyWVdkams2LUxYYm9JcnRWS0tBWmJzVXp0b1FzZW5zSFdpZXNiU081d3Z6ZUZwUFZk?oc=5",
+      "summary": "View / Hormuz will never really be open again&nbsp;&nbsp;Semafor",
+      "detected_at": "2026-06-20T21:00:24.892768+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Accenture Stock Crashes To 52-Week Low On Weak Outlook, Fed Jitters - Benzinga",
+      "title_cn": "埃森哲股價因前景疲軟、聯準會緊張情緒而跌至 52 週低點 - Benzinga",
+      "time": "21:00",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa21VSll0cDRPdXNyS3ZaQ2dpM0FvVXRHMnRmbm9PN0pybThtWllKSEo4WXROVjRhQzdIZ2ZpcmwxTng1aS05WXpnNnVsbFRQellaeVhBbDY2Y0dKSjV1bjVIUm9wZ1RTcVBqVmVjdTNnUGNIRk1mRlB0UW9oWWVWeXg5WU8xNzQwWUZhaUkxLXY5UDYybmRPa2FKcGZQaWNGSXowUHExbm9JUWFFeTBWQjlULUNPckk5Y0RjTTZUeGU?oc=5",
+      "summary": "Accenture Stock Crashes To 52-Week Low On Weak Outlook, Fed Jitters&nbsp;&nbsp;Benzinga",
+      "detected_at": "2026-06-20T21:00:24.892768+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Congress wonders as the Iran war draws to a close: Was it worth it? - AP News",
+      "title_cn": "隨著伊朗戰爭接近尾聲，國會想知道：值得嗎？ - 美聯社新聞",
+      "time": "21:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX2ZZbUI5MTlfaFUtZk0yTGtEbF9YeGN1SXd3SjBWUUtpM2lVQkVzcXdRbjhBLWV4azhJX3N3eE1ROTh6aDVzS1lWbnVLbDhIYjdNYjZOX2czSXdTMHBGcEVBNlAwWnFwOFVySVU5dDV2aGJHVmZyU2FBODZDTmwta0hqbl80ZmdhYTJuM1BQb2FzdGg2MDNNMndRUmlhR0hGb3ByRUttRQ?oc=5",
+      "summary": "Congress wonders as the Iran war draws to a close: Was it worth it?&nbsp;&nbsp;AP News",
+      "detected_at": "2026-06-20T21:00:24.892768+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Read the full text of Trump's preliminary U.S.-Iran agreement to end the war - NPR",
+      "title_cn": "閱讀川普美伊結束戰爭初步協議的全文 - NPR",
+      "time": "21:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYjZvaV90am9YWnNwSU83QTNBNWphWUlnbGwtTUV4X0Z1emxteURKTV8zMmVETkR5SUtjUmNHTFVvOHJvQ3NuZE00NFdpaGdQbjV3b0pWV0lGcmtKYzgzaE9ldjl5VVZNSmpqbng5WThHQWFmMWNFVzFRcUVER09yLVZZeWRjQU1JWnI5RG1UeU5TYUJfcUtvRTlucU0?oc=5",
+      "summary": "Read the full text of Trump's preliminary U.S.-Iran agreement to end the war&nbsp;&nbsp;NPR",
+      "detected_at": "2026-06-20T21:00:24.892768+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat - 6abc Philadelphia",
+      "title_cn": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat - 6abc Philadelphia",
+      "time": "21:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNejVwNTdoemVrTjhySjZNNGJ4T3QxQTVVNThwV2gtS0d5Zm1RMzdWWklMRXJSalpJYVkwN1VUaU1LUGVUX0Z4b3Ryanp3WFJfenh0d1hXYTBZV0I5SmdBNTBkVi1kRWdmc3N5YXV1SDlpeDhDUzkxYTZXeThsZTVUSWU0dDlEdGR5Ql9vVDA2MW1EVzBLdjI5eS11VHZCdkloajMzM2V6ONIBrAFBVV95cUxPQUlFWTdBMF93dnhqem1GX1Y1VEQ1UlpIZ05OOTlybnlDQVh1QWt2SUhQdGt0dzhDdzB5RVNfRHhVWkRXMG5GbXBVS0RPSXI2TTV3bXY5c3BtR0Z6OHBjbGRsVVd3REpVY1RhZ0ZMVG5mX2pVZjFLTW5RTDdDaXltcG9XQm9vSHFyemxvOXh6cm40NnBlNmg4N1NEZFdXT3V0OWE5Vm1NOVUwS3ls?oc=5",
+      "summary": "Iran war news: Israel reportedly carries out Lebanon attack as the US-Iran deal is under threat&nbsp;&nbsp;6abc Philadelphia",
+      "detected_at": "2026-06-20T21:00:24.892768+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iraq to export crude, naphtha through Syria after Hormuz shock - Reuters",
+      "title_cn": "霍爾木茲地震後伊拉克將透過敘利亞出口原油和石腦油 - 路透社",
+      "time": "20:00",
+      "source": "Reuters-Biz",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObjFTV0lGXzVST2l2Y05WQ2Nkcjl1OUM3NHBvMVFER1IxTlQ4V3JCZ2tVZmh0Zm51ajZJb1dkTWo5OHNOT3ItQ3VoNFB6YlZnVXZUTEdlYnBBb29KSU9IWHV3RkpRallIVkh3bkdXWHRKVFRJRGFoTi1YMnllbllLTjkyLURUNFJ1YU9kRm9JSXB1b1ViZW1FZ3JhdHA1elBoOHBYb2EzRXZrVXZaMFhn?oc=5",
+      "summary": "Iraq to export crude, naphtha through Syria after Hormuz shock&nbsp;&nbsp;Reuters",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "U.S. shortdated yields hold at one-year highs on Fed rate-hike fears - Investing.com",
+      "title_cn": "由於對聯準會升息的擔憂，美國短期收益率維持在一年高點 - Investing.com",
+      "time": "20:00",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2hhOXpCelZjdjZvWFlTZW1JMkctMjgyM0NOVDVmS244NEFObkhESnJDVzZtMW4wUVdWS0IxV1dRZ2ZnWm5rdHFNZXZOd1pEajEzTmFZLXktZTBic3oySDZJdGZlVEtqN0xlVkJ3UEozczV5RG5YTkc1UVppYUdBQkcxSWF3TDZVNmM2dk9EQV9RVVRobnVhRXBvaDlOWXJzR0VZcmtiOHI0QVhaMHRtVDBXUF9Ndw?oc=5",
+      "summary": "U.S. shortdated yields hold at one-year highs on Fed rate-hike fears&nbsp;&nbsp;Investing.com",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Jump After Sharp Sell-Off On Fed Rates Pause— Freeca - Benzinga",
+      "title_cn": "今日股市：聯準會利率暫停大幅拋售後，標普 500 指數、道瓊指數、納斯達克 100 指數期貨上漲 — Freeca - Benzinga",
+      "time": "20:00",
+      "source": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOamltU2ljX0I3cmRxWHFNNXFTSWJLbEpjNHFjdWxZZ0Jyb00wTnpwbmFQdkt6QnplVS1WdldwUlNacTduczUyMUdZZTJYSXd2dkJJd0hHWjdGOTFmc2xWN25RclR0WUF2TlNUSU5UallGMloyVFdRRVNqSzBoenlsc3BLV3pQa2VBVUc5aGRMZ2pkcnh4Y1JCWFZpenlYWnBVZVNSbl9kNUpSQWJKTVUxdnYzZFVlU0VaQWhBeVpGeThQeFcwaEhwUWY3b1k4N2c5VGQwUXJfZTZ3M0JYWDIyS1FvUzNCRUVpdFNpT3FYMVpRSDlwYmVYLXhIWTlSWTRweFhlZnlHaVdvZ3lLQmFrMTRIN3NMdmxndUVGZU9lMA?oc=5",
+      "summary": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Jump After Sharp Sell-Off On Fed Rates Pause— Freeca&nbsp;&nbsp;Benzinga",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Analysis: China is counting its wins from the Iran war - CNN",
+      "title_cn": "分析：中國正在計算伊朗戰爭的勝利 - CNN",
+      "time": "20:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMHl6dHdSMzEwWTVsVU1CYTRZcXlOLUJmdjVpcDdvc0ctSS1IQnQ2RzBoWFItUnc3Wm1FN3U5dlZ6WHREeFprSmtKdWFhM1JVcXIzYzNQNF9GRmZtbDdpV0VuY092QWJMOFI4ZXB6WUxIUDVzQ0RiLXBhUWhkODRUcG1DZVBQdw?oc=5",
+      "summary": "Analysis: China is counting its wins from the Iran war&nbsp;&nbsp;CNN",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Why the Iran war brought the U.S. and UAE even closer together - CNBC",
+      "title_cn": "為什麼伊朗戰爭會讓美國和阿聯酋關係更加緊密 - CNBC",
+      "time": "20:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWlhZUHFoS2xxbW9SVGVud2lDLXB3bmJRZzhTc3NSWDVrSklLWms3bGlLSGpzTlZJaVRXUEdEZXFsVXhOSF9WWWhRaWd3ZzZSME9hLVFxc1ZaU0NiRkJ4TG1iU2hKN25BU3ppcU5WUmtyWTRTeWh2c2RsbERvM0ZCWVVFd3JoSFZmRVM1dkZ6Yzg5WWFWeFpNYzhkQjJGR0pIa3hVdThn?oc=5",
+      "summary": "Why the Iran war brought the U.S. and UAE even closer together&nbsp;&nbsp;CNBC",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran war: Steve Witkoff heading to Switzerland for talks - DW.com",
+      "title_cn": "Iran war: Steve Witkoff heading to Switzerland for talks - DW.com",
+      "time": "20:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZUNlWkNTeDVkSzlNVW1aTWhzSlE2RlRuaHY4UFpoRkRYamtDTXdwdnluQUt3OXpwbHlqNFZNeEdmS1M2bEJhNjJXdjZCNGV5WnJ2UUhmUENSQkhCYi0zaTJGNi16LV9DNzBubFI4c3BXVlVqS0xQZklIY1BDZm1fNWRPLU83V240RUZFSGYzNkJnZGhjRlE?oc=5",
+      "summary": "Iran war: Steve Witkoff heading to Switzerland for talks&nbsp;&nbsp;DW.com",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Iran war day 113: Tehran presses US over Lebanon ceasefire - Al Jazeera",
+      "title_cn": "Iran war day 113: Tehran presses US over Lebanon ceasefire - Al Jazeera",
+      "time": "20:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPODRZaTBiZ1VQVFgzV1VLZzFlTlJiQVJKc1pRTS1GWDAzbUV3Z3IyWGw1MjdhUUlaSHBjNkpRdzVUZk1wd2N0dkZDUzFfMVhJMF9NaWJRS3ZsYm5pMHA0QTRmVVdLN29ZdmpjNEQ0QzVZemhxSUNCOW43OURsS29XX3pyb2xXa0o5Z3dPX3dtRzA2RUY1ZDhOdl8tR2tFSzjSAaQBQVVfeXFMUGhSYVdobmVSdDJwQnlYV2lQR3owM0VIa0RYWVk5VTB3UWtZVjdMZF84UzN5OGp2VjVuY0hCbUJvMVRUYkpMejBnUEQwaDE1Q3B5RVFTeEJtR3AyQjAydkdKM1J5NEdyMjNzNTJUT3ZRMHM2RHhWV19oWmJOQTh6SXNjRWtjR2J6T0gwVm11bHRjU3FCYXlldDNtLV9JRnpybi1tYnE?oc=5",
+      "summary": "Iran war day 113: Tehran presses US over Lebanon ceasefire&nbsp;&nbsp;Al Jazeera",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Clip: Is the world more dangerous after the Iran war? - PBS",
+      "title_cn": "Clip: Is the world more dangerous after the Iran war? - PBS",
+      "time": "20:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbmNSb3NxVHVOaGhuX3ZuOEtFZXM0QXlIcFpMeU55bmZ1c3liMTM4VllydXQyTk1GOWdGaXRKRXFfQlc2OTJDd0JabWtBVDhXNy1DZk5KSnZ5TjJ6ZEVlNXVBQXFzc0VPRThUbnRsUFFDamNHZUpTUlAzX3pqazlmV0pndUd4bGVOR2o5UE95cHQwalZjcHhMdGx3WlJOZFhnN1E?oc=5",
+      "summary": "Clip: Is the world more dangerous after the Iran war?&nbsp;&nbsp;PBS",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "The Spectacular Failure and Ruinous Costs of the Iran War - The New Yorker",
+      "title_cn": "The Spectacular Failure and Ruinous Costs of the Iran War - The New Yorker",
+      "time": "20:00",
+      "source": "Geopolitical",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUTRGRG8tTW5UeFdhX1V1bWFYcU9tc1lLNm9yaTlwQnpRZG9QSkwxUUNpdGJPWEkzeDVzSlJnX2tKTEViZ00zUmpMU2l4Y1RzT2pGM3VBVWpaWXhNTy1mNkF0V0dJV2hBdi0tczFrYXdFdHhHQzI0MEE4aW9ManBobUM3T1pINGJXNjFsek5BS2tid2lhLXF4eGZlN2pBeTMyTEo0?oc=5",
+      "summary": "The Spectacular Failure and Ruinous Costs of the Iran War&nbsp;&nbsp;The New Yorker",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
+    {
+      "title": "Fed 7月升息風險升！華許鷹派發言使交易員湧入美債期貨、交易量飆升創紀錄 - news.cnyes.com",
+      "title_cn": "Fed 7月升息風險升！華許鷹派發言使交易員湧入美債期貨、交易量飆升創紀錄 - news.cnyes.com",
+      "time": "20:00",
+      "source": "鉅亨網",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hNnBNX0J3ekl3bTRCdDdKN2pMRGFaMUtxWkJrVW5ZM0RXeDRJdGltMmhER0hCYURfWnBSbjNtRDJ1TlpiVXB3N1V0MA?oc=5",
+      "summary": "Fed 7月升息風險升！華許鷹派發言使交易員湧入美債期貨、交易量飆升創紀錄&nbsp;&nbsp;news.cnyes.com",
+      "detected_at": "2026-06-20T20:00:19.989634+08:00",
+      "level": "high"
+    },
     {
       "title": "OPEC chief dismisses IEA supply glut forecast as 'critical' Strait of Hormuz reopens",
       "title_cn": "歐佩克主席駁斥了國際能源署供應過剩的預測，因為「關鍵」的霍爾木茲海峽重新開放",
@@ -10,296 +300,6 @@
       "url": "https://www.cnbc.com/2026/06/18/opec-iea-supply-glut-forecast-critical-strait-hormuz-reopens-oil.html",
       "summary": "The IEA said on Wednesday that a lasting resolution to the conflict could drive a surge in supply volumes and trigger a major oil overhang next year.",
       "detected_at": "2026-06-20T05:00:15.779512+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Catholic leaders hope end to Iran war is near after Trump, Iran reach agreement - OSV News",
-      "title_cn": "天主教領導人希望川普與伊朗達成協議後伊朗戰爭即將結束 - OSV News",
-      "time": "05:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlA0WjhyWUcyOVpSMTFTMkloa2JiWTNoNHdQU2l2Z240bFR3RDlIa3NsZ3hrSXlYYzg4RUJYSHRvUF9oVm5LY2tYTV9rdWFWVVhNMmxPcEozSkd0M3BIZWhvOEQzb0lXay1Wa1lvMXNHTV9kZ3NmYklhZXRVYmtUODR2VVJkVkloTV9hdkxpMXhTUjQtWVBvZVNXbHFhdDVKUjRSRVVR?oc=5",
-      "summary": "Catholic leaders hope end to Iran war is near after Trump, Iran reach agreement&nbsp;&nbsp;OSV News",
-      "detected_at": "2026-06-20T05:00:15.779512+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Iran war: Success or disaster? Mehdi Hasan and David Des Roches - Al Jazeera",
-      "title_cn": "伊朗戰爭：成功還是災難？邁赫迪·哈桑和大衛·德羅什 - 半島電視台",
-      "time": "04:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX2piUFhnWXdfUF9iY3VXaTVxZ1dLSnR4ZWxjQlRYc09lMmc2UzdiQWdzaDlETnVpSEN6S21oTDF3aWVJdHpvWW85YmZOUTVndDAyN0ZDbzJjUUpFME04T2d2RHN3UHducFNmcGNTTlhlZkM3R2E0dUJHb3RCSDVMRk11cE92SFFMR1RqNWJzdXcyM0lRMWs2UlplZDVaWVU3RE94Uml0Sk53bzFzcnVWOV9ocTJ0WWvSAbwBQVVfeXFMTmpuLWZYb1d3YkE2MmlrSTRCTVFLeFlNVVZPUWtwNnhmY3N6X3pDYkJaOU5BR2NjbjY0V2dyWFRSRTRmdTFGXzQ3d1N4OEIzSkdtNUFSLVFXcDdrSEhTMExkZENOLXFSYUFKWkVCQ0l2N2ctSGd3SC1mcnh0b0I4NzBmbHBwRURQeVdoeEpsRk5faGpIRkN0NmVLMUEteWZhNlVNZzlHeDNDcGFNU1R3eUpiNU9WLVdMN2JwWVI?oc=5",
-      "summary": "Iran war: Success or disaster? Mehdi Hasan and David Des Roches&nbsp;&nbsp;Al Jazeera",
-      "detected_at": "2026-06-20T04:00:17.615981+08:00",
-      "level": "high"
-    },
-    {
-      "title": "How the Iran war united, and then divided Trump and Israel's Netanyahu - CBS News",
-      "title_cn": "伊朗戰爭如何讓川普和以色列內塔尼亞胡團結起來，又如何分裂 - 哥倫比亞廣播公司新聞",
-      "time": "02:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlo3QmFOY21GekpsUVh4cUtkVUdxSVZxbWVRWmtvaDlDMmU4ZGNMX0pzYktpZXdvWlljazFlLVFCRlV4bFdnMXdWeDg5bnBCRTBBRDhycEdXTTc5M01qR2tNSlR0REl6MDhIN3AteU9wMGdEa1A2SXgxaTctVHRVWEVxNkFUV1NzNG9wZw?oc=5",
-      "summary": "How the Iran war united, and then divided Trump and Israel's Netanyahu&nbsp;&nbsp;CBS News",
-      "detected_at": "2026-06-20T02:00:17.238532+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Obama: US may be ‘worse off’ than before Iran war started - The Hill",
-      "title_cn": "歐巴馬：美國的情況可能比伊朗戰爭爆發前“更糟” - 國會山奧巴馬：美國的情況可能比伊朗戰爭爆發前“更糟”",
-      "time": "02:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYWlDRHQ4V2t0UEFlekZNNW5QS0FrdFpPTkxZNzhCdVNleDRpM19HM0Rlc3lQZWktWFBmVnFySUVTSmtiVm42N2tHdEJEMUxEakcxdWJCeTFPY0VPU3JnOS1VdzVmM0h0STFQWXYyTEpfSlBGRkkxdG1FNWtpdGtnU1p5bDZENF9tazJVc1dXNG45WmdsNWJhMGZR0gGfAUFVX3lxTFBpNWxscFNFRjFsTVgtYnhHazEza0gzOGxSNm5SeG9OVXVpN1ZDMFR0cFdIMXRQd1hiOGNzbUU2ay13MS1LM29nNHNybFNQQ3ZsSHhDT1phbVJOb0ZGM0x2SWw5WmpFVzJYb3VPMjJrQWtNTk94d2tfdDRodmJLenpVeTBxbHR0aTJ4RkJLQXdKd2lVS0U5a3Nael9weFRZSQ?oc=5",
-      "summary": "Obama: US may be ‘worse off’ than before Iran war started&nbsp;&nbsp;The Hill",
-      "detected_at": "2026-06-20T02:00:17.238532+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Gold slips as hawkish Fed signals lift dollar, boost rate hike bets - Reuters",
-      "title_cn": "聯準會鷹派訊號提振美元，提振加息押注，金價下跌 - 路透中文網聯準會鷹派訊號提振美元，提振昇息押注 金價下跌 路透",
-      "time": "01:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa254NGd0TnM3NEliRVJYV2J3blZ4NzZ0b1dhMEMzSE9YWG9qQ2xmSzE3WHN1cEV1WXVrVGkzcUhFQVVnZXVtT2cyejY3UzdLM3JtRVlzaVpWNzNDZXdzOHlveGk3Wm13aXpaQVVTVnZYT0xZRmxHcXJtNTlsOEFYeXJaWEdKeHR0MWVnT3hJNkRYbFVCUEJEM0RCbjd6QQ?oc=5",
-      "summary": "Gold slips as hawkish Fed signals lift dollar, boost rate hike bets&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-06-20T01:00:17.035835+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil prices face fresh wave of volatility amid conflicting reports about Strait of Hormuz reopening and ongoing regional strife",
-      "title_cn": "由於有關霍爾木茲海峽重新開放和持續的地區衝突的相互矛盾的報道，油價面臨新一波波動",
-      "time": "01:00",
-      "source": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/oil-prices-under-new-wave-of-pressure-amid-lingering-questions-over-a-strait-of-hormuz-reopening-c58fc9e8?mod=mw_rss_topstories",
-      "summary": "A flurry of headlines on Friday point to an increasingly fragile deal between the U.S. and Iran.",
-      "detected_at": "2026-06-20T01:00:17.035835+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Dollar hits one-year high on Fed hike bets; Japan warns on yen By Reuters - Investing.com",
-      "title_cn": "聯準會升息押注美元觸及一年高點；路透社-Investing.com 日本對日圓發出警告",
-      "time": "01:00",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdGI4N2d0SU9tS3lEdi02XzFvaGN2NU5QVGNMWTQ4c3dpTmxfWHltcFZ0VTRkNFo4VGozaE1XV1Y4cHQ5eGtET0ZUYThEUDlCcVM0Rl9FSlBPRlU3RXRjSG1ETGRyNW93QUowX21QX1BQQ19KSHBQdENVcHpsa3l3UnFaTkdqZGxLejM1RGt4QzdPLW5NYzRxMERaTEkyQjlwemYxUmhsX05CNGdjS3Q0NUhEZ1lweTFFVnkwbQ?oc=5",
-      "summary": "Dollar hits one-year high on Fed hike bets; Japan warns on yen By Reuters&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-06-20T01:00:17.035835+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil falls to lowest since start of Iran war after ceasefire deal signed By Reuters - Investing.com",
-      "title_cn": "路透社 - Investing.com 簽署停火協議後，油價跌至伊朗戰爭爆發以來的最低點",
-      "time": "01:00",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTXVXZVhnYWxvQnJTdC0ta0tEU0UySGVDMFZ0OEExM3VUbDZmLTZRNGstWC1Kb1pWY1pLQzZWSkFXMXFsTEZMdV95SndCdHIta3A3SXpWZW50djYxYzlOZXBZSi1RX2ZmTWtQellrSy1OOVlwN0NJbzdhc3hXU3JGSDJ5ZUt6RXE2emx3NXR3WVJpaFFkU2hIZDI0V1M0Qlk?oc=5",
-      "summary": "Oil falls to lowest since start of Iran war after ceasefire deal signed By Reuters&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-06-20T01:00:17.035835+08:00",
-      "level": "high"
-    },
-    {
-      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
-      "title_cn": "2026年伊朗戰爭|交易、解釋、美國、以色列、霍爾木茲海峽、地圖和衝突 - 大英百科全書",
-      "time": "01:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "summary": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict&nbsp;&nbsp;Britannica",
-      "detected_at": "2026-06-20T01:00:17.035835+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
-      "title_cn": "美國和伊朗實施開放式海上航線協議後，霍爾木茲海峽的油輪運輸量激增",
-      "time": "00:00",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/iran-oil-tanker-traffic-strait-hormuz-gulf-vlcc.html",
-      "summary": "The U.S.-Iran deal has raised questions about how the Strait of Hormuz will be governed after the toll-free period ends.",
-      "detected_at": "2026-06-20T00:00:21.311011+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Morgan Stanley cuts European energy sector as Hormuz deal caps oil-price upside - Investing.com",
-      "title_cn": "摩根士丹利削減歐洲能源板塊，因霍爾木茲協議限製油價上漲 - Investing.com",
-      "time": "00:00",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMHRFdnhGMGpzSjd3V3lIcUZwUzU3cUstV1ZOUTBpWGc3bGhnZWtkSFRsQ0dpQkpXMWoySHZTcDdxcGpFRkpwdTU0MER4ekJwLUhWZ3c0VmF5SVQ3Y201YTNEQi1kR0NFb1NSd1ZmLTFpQVhWWlk3VHpUZGRYM2ozUWNTU0gwZnBOMWVCdzRKLUxuYjFmZmttdm1kTkh1VU1YVzREUGdGcVNuRHVrRnE5alZtMlRXZ3VXVGFGalFjMVBMbkFBTmZhcQ?oc=5",
-      "summary": "Morgan Stanley cuts European energy sector as Hormuz deal caps oil-price upside&nbsp;&nbsp;Investing.com",
-      "detected_at": "2026-06-20T00:00:21.311011+08:00",
-      "level": "high"
-    },
-    {
-      "title": "How popular is the Iran War? - Silver Bulletin",
-      "title_cn": "伊朗戰爭有多受歡迎？ - 銀公告",
-      "time": "00:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3eDNLS181RFBYRXRqMnpMYzA2VTQ2My01b2ZkaWZqRG5aSnVEMmRWeTQwU256N2ZXWkdNaTR2MTZ0Z2xBeVQ0ZTV5YWZpNlB2ZXdNMy1sVHBQMnc4dFJvaFFNZmsweWtIME01YmVBMzE?oc=5",
-      "summary": "How popular is the Iran War?&nbsp;&nbsp;Silver Bulletin",
-      "detected_at": "2026-06-20T00:00:21.311011+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Fears for US-Iran deal as talks delayed by Israeli strikes on Lebanon - Al Jazeera",
-      "title_cn": "由於以色列對黎巴嫩的襲擊推遲了談判，人們對美伊協議感到擔憂 - 半島電視台",
-      "time": "00:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMHpITlVGd2ZUMC1RQkRlMkFhaE04Q25LMnpXVjAyT1FzUU5tU19nMldrMkRueVpFR1dTN0x1X0k1d0l2S2lLdkZLeG9vVHpLNHp2aDRSZncwbUd3SFQxSzIxOUlPa1luTWdDQU9Tamx1VlNleDBwbHBGakFrdmZYWmRmX2o5T2tsRjdIU2kzZktYOEdK0gGaAUFVX3lxTFBxazh2cmtKVEw5LUo4ZXFhUW45cGtXeXkyUFRPUzVSZ28wSllRMFNYRlpQcE55bTZRNV9VSEVQS3J3RnplWnd4SGZILXJocGZfNUwzZFZqSEFUc1FPUmVzb2lhUHpndUIyVkR2Q0s3TlB1NDR0Q0ZMSjMzaFc1bTB2MFduVmVKcFN3U0lzMmo2UGJUdkxpZ1VmV0E?oc=5",
-      "summary": "Fears for US-Iran deal as talks delayed by Israeli strikes on Lebanon&nbsp;&nbsp;Al Jazeera",
-      "detected_at": "2026-06-20T00:00:21.311011+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Oil shipments rise in Hormuz although questions grow over Iran's transit terms - Reuters",
-      "title_cn": "路透社稱，儘管伊朗的過境條件受到質疑，但霍爾木茲的石油運輸量增加",
-      "time": "23:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONmxOVHFxZFJqT0MyRms0akxNMzFSVG45ZDFFVHFjZkZrMmh0anBuak5MYjlwWWw3Vy04LWl1b3oxbnZHSGRqQ2V0cWN5WUhxbHpZdXRCQmdpZGpsUk40RWl3dlVyTWtTUTRQOUtjbHM4NUJtTlpwZWtMMmx3REpQMWl6OWJEYzVhSHpIVkVicGVSdzdiaHd6WkU4ZENSaWZlUVVVUFNXYTktZDRDSVdZMmRuWXhPWFBBS2RLMk01OEo0eWFy?oc=5",
-      "summary": "Oil shipments rise in Hormuz although questions grow over Iran's transit terms&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-06-19T23:00:16.660663+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Dollar hits one-year high on Fed hike bets; Japan warns on yen - Reuters",
-      "title_cn": "聯準會升息押注美元觸及一年高點；日本對日圓發出警告 - 路透社",
-      "time": "22:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaDB0RVFwMXFkQjhPUWdNeVBFLUVIQV93YktaR01GR1Jpc2pDNmVJQW9vUGxnU0pCZE9NUW9tdmdUMW1KQkJmdVotLUx0UlZtcF8wMkY2YjhQWnZwS19WUlI4dENPQTdwMTFvQ1l6eFlXTGlwQmdSWWtOMmwzeTVWTjdiSDZsOXh5cFhKN3c0UUJzbi1lS2xSeTJuWWdRTzJUSl9wYlFCMFhvSGlIRXU3LXlmSQ?oc=5",
-      "summary": "Dollar hits one-year high on Fed hike bets; Japan warns on yen&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-06-19T22:00:25.029377+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Gulf exporters' quest to bypass Hormuz will reshape the region - Reuters",
-      "title_cn": "海灣出口商尋求繞過霍爾木茲海峽將重塑該地區 - 路透社",
-      "time": "22:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMzRlM3pLU0tDUDc4VnVLMVQxV2JBMWlPcV9jQURUb25ienRWeDMtUWRKNkRIdGpjczg5bll3VnJDUFNSMW10Z1IxQ2hiVXp5ZmVIREVNQnlDb0dXZXhSQjNnN2ppdVBtNHEyNHVSa0ktUlBGQzRZM3hrRUktSTZta1J6eHJwbUVvaEczTnBqT0luQzkyMFNuallCTFBwLWNJT0wtd1AxZ1hTQnBBREo1dTdVSUUwbHFNcmdNMW9kS3I?oc=5",
-      "summary": "Gulf exporters' quest to bypass Hormuz will reshape the region&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-06-19T22:00:25.029377+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Pimco Favors Australian Bonds, Betting on Rate Cuts Next Year - Bloomberg.com",
-      "title_cn": "Pimco看好澳洲債券，押註明年降息 - Bloomberg.com",
-      "time": "22:00",
-      "source": "Bloomberg-via-GN",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQX05JdGFUUDZnUW1yaDk1Y0ZvbDNfN3A5SllNd1lMbjJPRTg2MDhpdng1bXNybzVoTGROdWVmQ2pWMDZmWmZoLVgxalRROGczSkRua3BRc1NnREV3bllQczBvTTAxWXYyQ2xBM1MyaC16dkFqWHdmLUlwUHktX2RxSS1LWlAyU2llR2RzSXhVU3drV2F2T1RDQndmMXoxTHFHLTRYZGFqNEZUTkp4a3FMWA?oc=5",
-      "summary": "Pimco Favors Australian Bonds, Betting on Rate Cuts Next Year&nbsp;&nbsp;Bloomberg.com",
-      "detected_at": "2026-06-19T22:00:25.029377+08:00",
-      "level": "high"
-    },
-    {
-      "title": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon - BBC",
-      "title_cn": "由於以色列對黎巴嫩發動致命攻擊，美伊會談被推遲 - BBC",
-      "time": "22:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14WXlXWDJnRXlEQWx2TFFMMEVGN2RjN2E2Y3ZFa2doYjkyNTdZUjVlSG1Maks2ZXNULXhmOEZPT3BIV09tcjRoWUF2bmpsOVhibmFnUktXT1Rldw?oc=5",
-      "summary": "US-Iran talks postponed as Israel launches deadly strikes in Lebanon&nbsp;&nbsp;BBC",
-      "detected_at": "2026-06-19T22:00:25.029377+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Trump’s Military Budget Hits Snags Amid Questions on Iran War Costs - The New York Times",
-      "title_cn": "川普的軍事預算因伊朗戰爭費用問題而陷入困境 - 《紐約時報》",
-      "time": "22:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDdGaXFoWkhNS2cwSnA0Q1R5TlRSNjAzRUQyS25tSm84UGZ5VEFVN2FMYUxvV0l0RjZhUlJLSWxqTllLR2l6WUFJQlVXc1VEdVdLQU5PMkItVUIxN1ZuMHZjLTF5Sk1yOTU5V1VrMUwyb2kxLWNGdkhMN3JKYzI5R0loaGZZNVFzWVQxSVJVSXBITGtSMDN6WkdXSQ?oc=5",
-      "summary": "Trump’s Military Budget Hits Snags Amid Questions on Iran War Costs&nbsp;&nbsp;The New York Times",
-      "detected_at": "2026-06-19T22:00:25.029377+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Strait of Hormuz reopening may take weeks to ease shipping backlog and oil pressure",
-      "title_cn": "霍爾木茲海峽重新開放可能需要數週時間才能緩解航運積壓和石油壓力",
-      "time": "21:00",
-      "source": "CNBC-World",
-      "url": "https://www.cnbc.com/2026/06/18/strait-hormuz-reopening-shipping-oil.html",
-      "summary": "The Strait of Hormuz is set to reopen after Iran and the U.S. sign a peace deal, but experts warn backlogs and security checks could delay normal shipping.",
-      "detected_at": "2026-06-19T21:00:19.552502+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Hormuz reopening to release wave of oil supply, depress prices - Reuters",
-      "title_cn": "霍爾木茲重新開放釋放石油供應浪潮，壓低價格 - 路透社",
-      "time": "21:00",
-      "source": "Reuters-Biz",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQenZmRHpWRlpzMTVrZ0xtVTBEdGMxNVY1OVNjUWJyR01yd05YTGMyYkVVRkZramRfNnUxVVRmTEJoMG9Fbzd3VE4zODUzWks3MXZlS3I0UzlPLU9GeS1tMGVudFlIZDhOaEtUN1ZNNUpibjVjQWVSSlFVc1Z5a2M0YkNWNFcxbUhadi1BblJ1MC03dHVCRWhuc1VzLW9LdkZiVllLX08ySWhERmc?oc=5",
-      "summary": "Hormuz reopening to release wave of oil supply, depress prices&nbsp;&nbsp;Reuters",
-      "detected_at": "2026-06-19T21:00:19.552502+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Who won and who lost? Assessing the fallout of the Iran war - NPR",
-      "title_cn": "誰贏了誰輸了？評估伊朗戰爭的後果 - NPR",
-      "time": "21:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjlBZDRWem5kNVVmdWFDdURBS1hRU19DYUZXVTJHengxNTRkbkZ0UFFoY3RUZ1RqZHNRZHJvNEw4MTdGUVVVZTZxekVkT0piTmJfemw1Y3hKVnhUMlZWWTZZNHJxeEtjRkdSNHhZZlJFa0VJU19PazVKOXpiTmt5WUFlOUZSY3RQcFh1VXpEZHRKQk5meGZOZ1BvNGtKZlBtcmFtRTFn?oc=5",
-      "summary": "Who won and who lost? Assessing the fallout of the Iran war&nbsp;&nbsp;NPR",
-      "detected_at": "2026-06-19T21:00:19.552502+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Obama says U.S. may be ‘worse off’ now than before Iran war - NBC News",
-      "title_cn": "歐巴馬表示，美國現在的情況可能比伊朗戰爭前「更糟」——NBC新聞",
-      "time": "21:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVUhROG9oQ3VzQW50WGdNWXlCSzRMNTZwVlF3TkkwMTd0RFVjdTdXNE9VUGVfbE5DNFdJRlh6amptRXVBMDBYaFRnNzNCWWVpWVJHcFp3akktLU1aWjROSExDeGhCUDJPSHBKM0hzX1BJc2FTVWxFY2NRNE5KVVFUb2EzS0QyLUUwRUhUbFRFcnVmUHc?oc=5",
-      "summary": "Obama says U.S. may be ‘worse off’ now than before Iran war&nbsp;&nbsp;NBC News",
-      "detected_at": "2026-06-19T21:00:19.552502+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Hormuz relief may not ease the economic toll that's already 'baked in,' analysts warn",
-      "title_cn": "分析人士警告說，霍爾木茲海峽救援可能無法減輕已經「根深蒂固」的經濟損失",
-      "time": "20:00",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/19/hormuz-relief-may-not-ease-the-economic-toll-thats-already-baked-in-analysts-warn.html",
-      "summary": "Early signs of reopening of the Strait of Hormuz have lifted the most acute threat to global energy supplies but economic damages from the war will take months to unwind.",
-      "detected_at": "2026-06-19T20:00:21.214916+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year - Bloomberg",
-      "title_cn": "由於聯準會今年沒有降息，高盛將黃金目標下調了 500 美元 - 彭博社",
-      "time": "20:00",
-      "source": "Bloomberg-via-GN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkZPZkRIS1ppU2wzTVpXTXZFRFNIYnhYS3pHSWMyVWFkUGZHRFNremdxM0hkLUhNeWVyN0RPSl9hb2x4VXJGSk9TT1FlSHVyb0pfVndjTnJqVGhoWGpoRnZlaXYweU9ORkFUQ2ZEVHdVWDJVdjExNERLeDhHbnFsRlB5Vnozb0xrVjNaVkkyVzEtOEMwZkZtcE93OC13ZW1lQzJkV01xQUhSLTZkMFUyU3NTNDk?oc=5",
-      "summary": "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year&nbsp;&nbsp;Bloomberg",
-      "detected_at": "2026-06-19T20:00:21.214916+08:00",
-      "level": "high"
-    },
-    {
-      "title": "US Bond Futures Surge to Drive Wagers on a July Fed Rate Hike - Bloomberg",
-      "title_cn": "美國債券期貨飆升，推動 7 月聯準會升息的押注 - 彭博社",
-      "time": "20:00",
-      "source": "Bloomberg-via-GN",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaDBFNTZiVlFSSDJ3LWI5eEdPNkF3NzNrT1NmS2M3amhRTlpoSTltSVBFNzdXRUpMWXlkSHZ0emVtcldxSnhoaTJSM2ZkeF8yWGZyTzlXSlNnNG5vdHpXME9SLVhyQzNCZ3c3NWlxX1dkdmhzSXZETTF5ZEVRMDh6U0tMUE84OTZxM09MaXZZSzJBMVlneFBxRmU4LVItZnVHOVU0Y2pCQUZGUkl6OHdMdWFn?oc=5",
-      "summary": "US Bond Futures Surge to Drive Wagers on a July Fed Rate Hike&nbsp;&nbsp;Bloomberg",
-      "detected_at": "2026-06-19T20:00:21.214916+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Was It Worth It? The True Cost of Trump’s Iran War - Council on Foreign Relations",
-      "title_cn": "值得嗎？川普伊朗戰爭的真正代價 - 外交關係委員會",
-      "time": "20:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeWZ0bHBNQXNkaUVUUUpFY2tBOGE1SEJGZmJ1cDZybklOR1FMQXdyenp1RzRDdGMzTF84TEVzZUpHME1ONzRVRWpUV096Unl3VDFlUGlmSjBGdzhZSDBrWTZUb24taGotWHVqMS1ZQ1dodEFwYXJlMllkWnk3YTlQUERvVQ?oc=5",
-      "summary": "Was It Worth It? The True Cost of Trump’s Iran War&nbsp;&nbsp;Council on Foreign Relations",
-      "detected_at": "2026-06-19T20:00:21.214916+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Approval of Iran War in Historical Context - Gallup News",
-      "title_cn": "歷史背景下對伊朗戰爭的認可 - 蓋洛普新聞",
-      "time": "20:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT2VHWmhWc0VCZEN3UDBvNFBFd21mMVlGSHR4UnBrTFdxZUppdDFWQ1MyMUU5OWtWNlEwQWRsS3RENnBDU2VFSXhyaTJVb3MxZzdiQmlpQzR3X2JubUIzVkx5eGNWaXlTT3ZFMDBTeUFSbWtzclV3ejhfUW5zdU1LUEY5SQ?oc=5",
-      "summary": "Approval of Iran War in Historical Context&nbsp;&nbsp;Gallup News",
-      "detected_at": "2026-06-19T20:00:21.214916+08:00",
-      "level": "high"
-    },
-    {
-      "title": "Iran war: Switzerland talks called off, Vance stays in US - dw.com",
-      "title_cn": "Iran war: Switzerland talks called off, Vance stays in US - dw.com",
-      "time": "20:00",
-      "source": "Geopolitical",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTE1QN2xIYzFaeDdxVUh6M2VqdlNkc1hHbG5oMUhEY2VHSHI2SmFJTmVlOFlTWW1TY1h3OW1NUWlaOU1KVk1GRlM4bHNMdE5YQkxIZkJ6U25RTEJmdmdKODl4V2FSWk82YXdGTlN4TUdsS3E2TlllLVhmMS1jN2hfTUo4OUt3aHY3Z3Zqd004eDYxVHpCMXc?oc=5",
-      "summary": "Iran war: Switzerland talks called off, Vance stays in US&nbsp;&nbsp;dw.com",
-      "detected_at": "2026-06-19T20:00:21.214916+08:00",
       "level": "high"
     }
   ]
