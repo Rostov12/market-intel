@@ -1,27 +1,72 @@
 {
-  "date": "2026-06-20",
-  "updated_at": "2026-06-20 04:42",
+  "date": "2026-06-23",
+  "updated_at": "2026-06-23 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 2,
+  "watchlist_matches": 7,
   "status": "ok",
   "trades": [
     {
-      "ticker": "INTC",
-      "company": "INTEL",
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
       "type": "未知",
-      "title": "4 - INTELLINETICS, INC. (0001081745) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226029434/0001493152-26-029434-index.htm",
-      "date": "2026-06-18T21:30:12-04:00",
-      "summary": "Filed: 2026-06-18 AccNo: 0001493152-26-029434 Size: 6 KB"
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526277602/0001193125-26-277602-index.htm",
+      "date": "2026-06-22T16:39:12-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001193125-26-277602 Size: 816 KB"
     },
     {
-      "ticker": "INTC",
-      "company": "INTEL",
+      "ticker": "JPM",
+      "company": "JPMORGAN",
       "type": "未知",
-      "title": "4 - INTELLINETICS, INC. (0001081745) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1081745/000149315226029432/0001493152-26-029432-index.htm",
-      "date": "2026-06-18T21:27:19-04:00",
-      "summary": "Filed: 2026-06-18 AccNo: 0001493152-26-029432 Size: 6 KB"
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000191870426017252/0001918704-26-017252-index.htm",
+      "date": "2026-06-22T16:38:34-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001918704-26-017252 Size: 544 KB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426017252/0001918704-26-017252-index.htm",
+      "date": "2026-06-22T16:38:34-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001918704-26-017252 Size: 544 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526277600/0001193125-26-277600-index.htm",
+      "date": "2026-06-22T16:38:30-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001193125-26-277600 Size: 627 KB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000191870426017251/0001918704-26-017251-index.htm",
+      "date": "2026-06-22T16:37:29-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001918704-26-017251 Size: 682 KB"
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMORGAN",
+      "type": "未知",
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426017251/0001918704-26-017251-index.htm",
+      "date": "2026-06-22T16:37:29-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001918704-26-017251 Size: 682 KB"
+    },
+    {
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
+      "type": "未知",
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426017250/0001918704-26-017250-index.htm",
+      "date": "2026-06-22T16:37:22-04:00",
+      "summary": "Filed: 2026-06-22 AccNo: 0001918704-26-017250 Size: 1 MB"
     }
   ]
 }
