@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-25",
-  "fetched_at": "2026-06-25 07:07",
+  "date": "2026-06-26",
+  "fetched_at": "2026-06-26 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "White House requests $87.6 billion supplemental spending for Iran war, farm aid",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "白宮要求為伊朗戰爭和農業援助追加876億美元支出",
+      "title": "UN pauses Hormuz evacuation plan after ship reports attack - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "根據路透社報道，在船隻報告遭到襲擊後，聯合國暫停了霍爾木茲海峽的撤離計畫",
       "time": "05:00",
-      "detected_at": "2026-06-25T05:00:18.492051+08:00"
+      "detected_at": "2026-06-26T05:00:17.374058+08:00"
     },
     {
       "title": "US dollar strengthens to 13-month high on Fed rate hike expectations - Reuters",
@@ -17,15 +17,7 @@
       "source": "Reuters-Biz",
       "title_cn": "因聯準會升息預期，美元走強至 13 個月高點 - 路透聯準會升息預期推動美元升至 13 個月高點 路透",
       "time": "05:00",
-      "detected_at": "2026-06-25T05:00:18.492051+08:00"
-    },
-    {
-      "title": "These hidden PCE triggers could force a Fed rate hike &#x2014; and shock the market",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "這些隱藏的個人消費支出觸發因素可能會迫使聯準會升息——並震撼市場",
-      "time": "05:00",
-      "detected_at": "2026-06-25T05:00:18.492051+08:00"
+      "detected_at": "2026-06-26T05:00:17.374058+08:00"
     },
     {
       "title": "Dollar remains at over one-year high as Fed rate hike bets surge from a week ago - Investing.com",
@@ -33,7 +25,7 @@
       "source": "Investing.com",
       "title_cn": "由於一周前聯準會升息預期激增，美元仍處於一年多高位 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-06-25T05:00:18.492051+08:00"
+      "detected_at": "2026-06-26T05:00:17.374058+08:00"
     },
     {
       "title": "Oil prices finish 1% lower as investors focus on Hormuz flows after peace talks By Reuters - Investing.com",
@@ -41,47 +33,47 @@
       "source": "Investing.com",
       "title_cn": "和談後投資人關注霍爾木茲油流，油價收低 1% 路透社 - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-06-25T05:00:18.492051+08:00"
+      "detected_at": "2026-06-26T05:00:17.374058+08:00"
     },
     {
-      "title": "Opinion | 7 Lessons and Consequences of the Iran War - The New York Times",
+      "title": "Trump works to woo farmers in aftermath of Iran war - NPR",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Opinion | 7 Lessons and Consequences of the Iran War - The New York Times",
+      "title_cn": "（Trump works to woo farmers in aftermath of Iran war - NPR）",
       "time": "05:00",
-      "detected_at": "2026-06-25T05:00:18.492051+08:00"
+      "detected_at": "2026-06-26T05:00:17.374058+08:00"
     },
     {
-      "title": "New meme stock Wendy's soars 27% with trading halted at one point",
+      "title": "Iran behind attack on cargo vessel near Oman in Strait of Hormuz, U.S. official tells MS NOW",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "新的 meme 股票 Wendy’s 飆升 27%，交易一度暫停",
+      "title_cn": "美國官員告訴《MS NOW》，伊朗是霍爾木茲海峽阿曼附近貨船攻擊的幕後黑手",
       "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
     },
     {
-      "title": "Oil markets start to signal near-term oversupply as tankers exit Strait of Hormuz - Reuters",
+      "title": "Oil reverses losses, rises after an Iran attack on cargo vessel",
+      "impact": "bullish",
+      "source": "CNBC-World",
+      "title_cn": "伊朗襲擊貨船後，油價扭轉跌勢並上漲",
+      "time": "04:00",
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
+    },
+    {
+      "title": "UN pauses Hormuz evacuation plan after ship reports suspected attack - Reuters",
       "impact": "neutral",
       "source": "Reuters-Biz",
-      "title_cn": "隨著油輪駛出霍爾木茲海峽，石油市場開始發出近期供應過剩的信號 - 路透社",
+      "title_cn": "路透社稱，在船隻報告疑似遭受攻擊後，聯合國暫停了霍爾木茲撤離計畫",
       "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
     },
     {
-      "title": "US airline stocks rise as oil retreats to pre-Iran war levels - Reuters",
+      "title": "IMF sees solid momentum in US economy; says Fed right to hold interest rate steady - Reuters",
       "impact": "neutral",
       "source": "Reuters-Biz",
-      "title_cn": "隨著油價回落至伊朗戰爭前的水平，美國航空股上漲 - 路透社",
+      "title_cn": "國際貨幣基金組織認為美國經濟動能強勁；表示聯準會有權維持利率穩定——路透社",
       "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
-    },
-    {
-      "title": "Inflation is about more than oil. These two hidden triggers could force a Fed rate hike.",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "通貨膨脹不僅與石油有關",
-      "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
     },
     {
       "title": "Oil slips as Hormuz ship activity ticks up following temporary sanctions easing - Investing.com",
@@ -89,79 +81,87 @@
       "source": "Investing.com",
       "title_cn": "臨時制裁放鬆後，霍爾木茲船舶活動增加，油價下跌 - Investing.com",
       "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
     },
     {
-      "title": "Senate votes to block Trump from resuming Iran war - The Washington Post",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Senate votes to block Trump from resuming Iran war - The Washington Post",
-      "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
-    },
-    {
-      "title": "Donald Trump blows up at Bill Cassidy over Iran war powers resolution - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Donald Trump blows up at Bill Cassidy over Iran war powers resolution - The Hill",
-      "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
-    },
-    {
-      "title": "Oil falls below $75 per barrel for first time since start of Iran war - Yahoo Finance",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Oil falls below $75 per barrel for first time since start of Iran war - Yahoo Finance",
-      "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
-    },
-    {
-      "title": "〈美股盤後〉獲利了結潮湧現 美光財報前夕暴跌超13% 費半下殺近8% - news.cnyes.com",
-      "impact": "bearish",
-      "source": "鉅亨網",
-      "title_cn": "〈美股盤後〉獲利了結潮湧現 美光財報前夕暴跌超13% 費半下殺近8% - news.cnyes.com",
-      "time": "04:00",
-      "detected_at": "2026-06-25T04:00:20.480819+08:00"
-    },
-    {
-      "title": "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "能源部長表示，美國已經終止了伊朗關閉霍爾木茲海峽的能力",
-      "time": "03:00",
-      "detected_at": "2026-06-25T03:00:19.527177+08:00"
-    },
-    {
-      "title": "U.S. crude oil briefly dips below $70 as tankers transit Strait of Hormuz",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "隨著油輪通過霍爾木茲海峽，美國原油短暫跌破 70 美元",
-      "time": "03:00",
-      "detected_at": "2026-06-25T03:00:19.527177+08:00"
-    },
-    {
-      "title": "Hormuz Reopening Is Quickly Flooding Oil Markets With Supply - Bloomberg",
+      "title": "Treasuries Gain as Inflation Gauge Cools Fed Rate-Hike Bets - Bloomberg",
       "impact": "neutral",
       "source": "Bloomberg-via-GN",
-      "title_cn": "霍爾木茲油田的重新開放正在迅速使石油市場充滿供應 - 彭博社",
-      "time": "03:00",
-      "detected_at": "2026-06-25T03:00:19.527177+08:00"
+      "title_cn": "Treasuries Gain as Inflation Gauge Cools Fed Rate-Hike Bets - Bloomberg",
+      "time": "04:00",
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
     },
     {
-      "title": "Dollar Jumps to Highest Since November on Fed Rate Hike Bets - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "聯準會升息押注推動美元躍升至 11 月以來最高水準 - 彭博社",
-      "time": "03:00",
-      "detected_at": "2026-06-25T03:00:19.527177+08:00"
-    },
-    {
-      "title": "In symbolic rebuke of Trump, Senate signals support for ending Iran war - USA Today",
+      "title": "Senate Republicans reject Iran war powers measure after Trump pressure - The Guardian",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "參議院象徵性地譴責川普，表示支持結束伊朗戰爭 - 《今日美國》",
+      "title_cn": "Senate Republicans reject Iran war powers measure after Trump pressure - The Guardian",
+      "time": "04:00",
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
+    },
+    {
+      "title": "White House seeks extra funds for Iran war as part of $87.6bn request - The Guardian",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "White House seeks extra funds for Iran war as part of $87.6bn request - The Guardian",
+      "time": "04:00",
+      "detected_at": "2026-06-26T04:00:18.109999+08:00"
+    },
+    {
+      "title": "Oil reverses losses, turns higher after an Iran attack on cargo vessel",
+      "impact": "neutral",
+      "source": "CNBC-World",
+      "title_cn": "伊朗貨船遇襲後，油價扭轉跌勢並走高",
       "time": "03:00",
-      "detected_at": "2026-06-25T03:00:19.527177+08:00"
+      "detected_at": "2026-06-26T03:00:19.651400+08:00"
+    },
+    {
+      "title": "May US PCE inflation tops 4%, leaves Fed hike on the table - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "5 月美國個人消費支出 (PCE) 通膨率突破 4%，聯準會升息成為可能 - 路透中文網美國 5 月個人消費支出 (PCE) 通膨率突破 4%，聯準會升息成為可能 路透",
+      "time": "03:00",
+      "detected_at": "2026-06-26T03:00:19.651400+08:00"
+    },
+    {
+      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "2026年伊朗戰爭|交易、解釋、美國、以色列、霍爾木茲海峽、地圖和衝突 - 大英百科全書",
+      "time": "03:00",
+      "detected_at": "2026-06-26T03:00:19.651400+08:00"
+    },
+    {
+      "title": "Iran accuses NATO of ‘complicity’ in US war: What role did EU nations play? - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗指責北約在美國戰爭中「共謀」：歐盟國家扮演了什麼角色？ - 半島電視台",
+      "time": "03:00",
+      "detected_at": "2026-06-26T03:00:19.651400+08:00"
+    },
+    {
+      "title": "Few in US say Iran war was worth it; Trump approval ties lowest of term, Reuters/Ipsos poll finds - Reuters",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "在美國，很少人認為伊朗戰爭值得；路透社/益普索民調發現，川普的支持率創任期最低 - 路透社",
+      "time": "03:00",
+      "detected_at": "2026-06-26T03:00:19.651400+08:00"
+    },
+    {
+      "title": "Iran warns against Hormuz crossings without authorisation - Al Jazeera",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "Iran warns against Hormuz crossings without authorisation - Al Jazeera",
+      "time": "03:00",
+      "detected_at": "2026-06-26T03:00:19.651400+08:00"
+    },
+    {
+      "title": "Iran tightens its grip on Strait of Hormuz, sending oil prices higher",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "伊朗加強對霍爾木茲海峽的控制，導致油價走高",
+      "time": "02:00",
+      "detected_at": "2026-06-26T02:00:19.990677+08:00"
     }
   ]
 }
