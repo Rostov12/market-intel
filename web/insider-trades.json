@@ -1,63 +1,8 @@
 {
-  "date": "2026-06-26",
-  "updated_at": "2026-06-26 04:42",
+  "date": "2026-06-27",
+  "updated_at": "2026-06-27 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 6,
+  "watchlist_matches": 0,
   "status": "ok",
-  "trades": [
-    {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
-      "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526282892/0001193125-26-282892-index.htm",
-      "date": "2026-06-25T16:38:37-04:00",
-      "summary": "Filed: 2026-06-25 AccNo: 0001193125-26-282892 Size: 574 KB"
-    },
-    {
-      "ticker": "GS",
-      "company": "GOLDMAN SACHS",
-      "type": "未知",
-      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526282891/0001193125-26-282891-index.htm",
-      "date": "2026-06-25T16:38:34-04:00",
-      "summary": "Filed: 2026-06-25 AccNo: 0001193125-26-282891 Size: 1 MB"
-    },
-    {
-      "ticker": "BAC",
-      "company": "BANK OF AMERICA",
-      "type": "未知",
-      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426017770/0001918704-26-017770-index.htm",
-      "date": "2026-06-25T16:38:28-04:00",
-      "summary": "Filed: 2026-06-25 AccNo: 0001918704-26-017770 Size: 700 KB"
-    },
-    {
-      "ticker": "BAC",
-      "company": "BANK OF AMERICA",
-      "type": "未知",
-      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426017769/0001918704-26-017769-index.htm",
-      "date": "2026-06-25T16:37:41-04:00",
-      "summary": "Filed: 2026-06-25 AccNo: 0001918704-26-017769 Size: 1 MB"
-    },
-    {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
-      "type": "未知",
-      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000191870426017768/0001918704-26-017768-index.htm",
-      "date": "2026-06-25T16:37:02-04:00",
-      "summary": "Filed: 2026-06-25 AccNo: 0001918704-26-017768 Size: 893 KB"
-    },
-    {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
-      "type": "未知",
-      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/19617/000191870426017768/0001918704-26-017768-index.htm",
-      "date": "2026-06-25T16:37:02-04:00",
-      "summary": "Filed: 2026-06-25 AccNo: 0001918704-26-017768 Size: 893 KB"
-    }
-  ]
+  "trades": []
 }
