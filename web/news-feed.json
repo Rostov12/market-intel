@@ -1,167 +1,167 @@
 {
-  "date": "2026-06-28",
-  "fetched_at": "2026-06-28 07:07",
+  "date": "2026-06-29",
+  "fetched_at": "2026-06-29 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "In symbolic vote, Congress directs Trump to remove forces from Iran war - NPR",
+      "title": "U.S. and Iran agree to halt strikes and meet this week, U.S. official says - Axios",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "美國官員稱，美國和伊朗同意停止襲擊並於本週舉行會面 - Axios",
+      "time": "05:00",
+      "detected_at": "2026-06-29T05:00:17.570048+08:00"
+    },
+    {
+      "title": "US and Iran trade strikes days after peace agreement - Al Jazeera",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "美國和伊朗在和平協議幾天後進行貿易打擊 - 半島電視台",
+      "time": "05:00",
+      "detected_at": "2026-06-29T05:00:17.570048+08:00"
+    },
+    {
+      "title": "美股恐崩盤？「興登堡凶兆」一個月狂響7次、AI牛市修正風險升 - news.cnyes.com",
       "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "在像徵性投票中，國會指示川普從伊朗戰爭中撤軍 - NPR",
-      "time": "23:00",
-      "detected_at": "2026-06-27T23:00:17.787904+08:00"
-    },
-    {
-      "title": "Deal with Trump hands Iran economic lifeline as leaders eye postwar gains - The Washington Post",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "《華盛頓郵報》稱，隨著領導人關注戰後成果，與川普的協議將賦予伊朗經濟生命線",
-      "time": "23:00",
-      "detected_at": "2026-06-27T23:00:17.787904+08:00"
-    },
-    {
-      "title": "Iran war news: Iranian drones attack Bahrain and a ship is struck in the Strait of Hormuz after US Iran strikes - ABC7 Los Angeles",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭新聞：美國伊朗襲擊後，伊朗無人機襲擊巴林，一艘船隻在霍爾木茲海峽被擊中 - ABC7 洛杉磯",
-      "time": "22:00",
-      "detected_at": "2026-06-27T22:00:24.539317+08:00"
-    },
-    {
-      "title": "Iran says it hit US targets as tensions over Strait of Hormuz strain agreement. - CNN",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "伊朗表示，由於霍爾木茲海峽的緊張局勢導致協議緊張，它襲擊了美國的目標",
-      "time": "22:00",
-      "detected_at": "2026-06-27T22:00:24.539317+08:00"
-    },
-    {
-      "title": "〈美股盤後〉伊朗砲擊荷姆茲貨輪 美光飆、蘋果瀉 那指四連黑 - news.cnyes.com",
-      "impact": "neutral",
       "source": "鉅亨網",
-      "title_cn": "〈美股盤後〉伊朗砲擊荷姆茲貨輪美光飆、蘋果瀉那指四連黑 - news.cnyes.com. 〈美股盤後〉伊朗砲擊荷姆茲貨輪美光輪、蘋果瀉那指四連黑&nbsp;&nbsp;news.cnyes.com",
-      "time": "22:00",
-      "detected_at": "2026-06-27T22:00:24.539317+08:00"
+      "title_cn": "美股恐崩盤？ 「興登堡兇兆」一個月狂響7次、AI牛市修正風險升 - news.cnyes.com. 美股恐崩盤？ 「興登堡兇兆」一個月狂響7次、AI牛市修正風險升&nbsp;&nbsp;news.cnyes.com",
+      "time": "05:00",
+      "detected_at": "2026-06-29T05:00:17.570048+08:00"
     },
     {
-      "title": "Iran targets Bahrain, vessel attacked in Strait of Hormuz as tensions flare - Investing.com",
+      "title": "House Republican says Congress ‘probably’ will have to use reconciliation for Iran war funding - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "眾議院共和黨人表示，國會「可能」將不得不對伊朗戰爭資金進行和解 - 國會山莊",
+      "time": "04:00",
+      "detected_at": "2026-06-29T04:00:16.761138+08:00"
+    },
+    {
+      "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "由於緊張局勢加劇，伊朗瞄準巴林，一艘船隻在霍爾木茲海峽遭到襲擊 - Investing.com緊張局勢加劇，伊朗瞄準巴林，船隻在霍爾木茲海峽遭到襲擊 Investing.com",
-      "time": "21:00",
-      "detected_at": "2026-06-27T21:00:20.105195+08:00"
+      "title_cn": "美國銀行上調全球成長前景，預計儘管通膨有所緩解，但聯準會將升息 75 個基點 - Investing.com",
+      "time": "03:00",
+      "detected_at": "2026-06-29T03:00:15.962023+08:00"
     },
     {
-      "title": "Hormuz Reopening Is Quickly Flooding Oil Markets With Supply - Bloomberg.com",
+      "title": "U.S. carries out fresh strikes on Iran, Trump warns of further military action - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "美國對伊朗發動新的打擊，川普警告將採取進一步軍事行動 - Investing.com美國對伊朗發動新的打擊，川普警告將採取進一步軍事行動 Investing.com",
+      "time": "02:00",
+      "detected_at": "2026-06-29T02:00:18.840181+08:00"
+    },
+    {
+      "title": "Hormuz Crisis Exposed Fragility of How the World Keeps Planes Flying - Bloomberg",
       "impact": "neutral",
       "source": "Bloomberg-via-GN",
-      "title_cn": "霍爾木茲油田的重新開放使石油市場供應迅速湧入 - Bloomberg.com",
-      "time": "21:00",
-      "detected_at": "2026-06-27T21:00:20.105195+08:00"
+      "title_cn": "霍爾木茲危機暴露了世界如何維持飛機飛行的脆弱性 - 彭博社",
+      "time": "02:00",
+      "detected_at": "2026-06-29T02:00:18.840181+08:00"
     },
     {
-      "title": "Can the US waive sanctions on Iranian oil? - Semafor",
+      "title": "美股科技股暴跌 VIX卻沒失控？這指標正揭開「AI股壓力鍋」 - 工商時報",
       "impact": "bearish",
-      "source": "Semafor",
-      "title_cn": "美國能否放棄對伊朗石油的製裁？ - 塞馬福爾",
-      "time": "21:00",
-      "detected_at": "2026-06-27T21:00:20.105195+08:00"
+      "source": "工商時報",
+      "title_cn": "美股科技股暴跌VIX卻沒失控？這個指標正揭開「AI股壓力鍋」 - 工商時報. 美股科技股暴跌VIX卻沒失控？這個指標正揭開「AI股壓力鍋」",
+      "time": "02:00",
+      "detected_at": "2026-06-29T02:00:18.840181+08:00"
     },
     {
-      "title": "US and Iran may have agreed in negotiating rooms, but at sea, Hormuz remains “chaotic” - CNN",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "美國和伊朗可能在談判室達成了一致，但在海上，霍爾木茲仍然「混亂」——CNN",
-      "time": "21:00",
-      "detected_at": "2026-06-27T21:00:20.105195+08:00"
-    },
-    {
-      "title": "Oil flows through Hormuz Strait close to normal, US energy secretary says - Reuters",
+      "title": "Gulf markets mixed as US-Iran trade attacks - Reuters",
       "impact": "neutral",
       "source": "Reuters-Biz",
-      "title_cn": "美國能源部長稱，霍爾木茲海峽的石油流量接近正常 - 路透社",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
+      "title_cn": "海灣市場因美伊貿易襲擊而漲跌互現 - 路透社",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
     },
     {
-      "title": "Fed&#x2019;s Kashkari now projects one interest-rate hike this year. Here&#x2019;s what changed his mind.",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "聯準會卡什卡里目前預計今年將升息一次",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
-    },
-    {
-      "title": "Gold prices notch weekly decline as Fed rate hike bets outweigh sliding oil prices - Investing.com",
+      "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment - Investing.com",
       "impact": "bearish",
       "source": "Investing.com",
-      "title_cn": "Investing.com，因聯準會升息預期超過油價下滑，金價每週下跌",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
+      "title_cn": "由於 ETF 流出，Fed前景打壓市場情緒，比特幣跌破 60,000 美元 - Investing.com",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
     },
     {
-      "title": "European stocks fall on OpenAI delay, Fed hike bets - Investing.com",
+      "title": "Oil prices fall as tankers exit Strait of Hormuz By Reuters - Investing.com",
       "impact": "bearish",
       "source": "Investing.com",
-      "title_cn": "歐洲股市因 OpenAI 延遲、聯準會升息押注而下跌 - Investing.com",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
+      "title_cn": "路透社-Investing.com，隨著油輪退出霍爾木茲海峽，油價下跌",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
     },
     {
-      "title": "Morgan Stanley flags Fed hike risk if unemployment drops below 4% - Investing.com",
+      "title": "Dollar retreats as US inflation data eases rate hike expectations By Reuters - Investing.com",
       "impact": "bearish",
       "source": "Investing.com",
-      "title_cn": "摩根士丹利 (Morgan Stanley) 表示，如果失業率降至 4% 以下，聯準會將面臨升息風險 - Investing.com",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
+      "title_cn": "路透社-Investing.com，美國通膨數據緩解升息預期，美元回落",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
     },
     {
-      "title": "Brent hits lowest since just before start of Iran war as more ships transit Hormuz - Investing.com",
+      "title": "US dollar strengthens to 13-month high on Fed rate hike expectations By Reuters - Investing.com",
       "impact": "bearish",
       "source": "Investing.com",
-      "title_cn": "Brent hits lowest since just before start of Iran war as more ships transit Hormuz - Investing.com",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
+      "title_cn": "路透社-Investing.com 因聯準會升息預期，美元走強至 13 個月高點",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
     },
     {
-      "title": "Dollar pinned at over 1-yr high even as rate hike bets slightly ease, yields slide - Investing.com",
-      "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "Dollar pinned at over 1-yr high even as rate hike bets slightly ease, yields slide - Investing.com",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
-    },
-    {
-      "title": "Dollar set for weekly gain on rate hike bets even as inflationary concerns recede - Investing.com",
-      "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "Dollar set for weekly gain on rate hike bets even as inflationary concerns recede - Investing.com",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
-    },
-    {
-      "title": "Hormuz Crisis Exposed Fragility of How the World Keeps Planes Flying - Bloomberg.com",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Hormuz Crisis Exposed Fragility of How the World Keeps Planes Flying - Bloomberg.com",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
-    },
-    {
-      "title": "Iran war day 120: Tehran condemns US strikes, says it violates MoU - Al Jazeera",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Iran war day 120: Tehran condemns US strikes, says it violates MoU - Al Jazeera",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
-    },
-    {
-      "title": "US Forces Strike Iran In Response to Tehran's Attack On Hormuz Shipping - Radio Free Europe/Radio Liberty",
+      "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - AP News",
       "impact": "neutral",
       "source": "Geopolitical",
-      "title_cn": "US Forces Strike Iran In Response to Tehran's Attack On Hormuz Shipping - Radio Free Europe/Radio Liberty",
-      "time": "20:00",
-      "detected_at": "2026-06-27T20:00:19.928890+08:00"
+      "title_cn": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - AP News",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
+    },
+    {
+      "title": "What is Article 5 of Iran-US MoU, and why is it blamed for Hormuz strikes? - Al Jazeera",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "What is Article 5 of Iran-US MoU, and why is it blamed for Hormuz strikes? - Al Jazeera",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
+    },
+    {
+      "title": "Iran war fallout puts UAE on tightrope between Jerusalem and Tehran - The Times of Israel",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Iran war fallout puts UAE on tightrope between Jerusalem and Tehran - The Times of Israel",
+      "time": "01:00",
+      "detected_at": "2026-06-29T01:00:19.931984+08:00"
+    },
+    {
+      "title": "Trump again threatens Iran with annihilation as Kuwait and Bahrain report attacks",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "隨著科威特和巴林通報攻擊事件，川普再次威脅要消滅伊朗",
+      "time": "00:00",
+      "detected_at": "2026-06-29T00:00:20.107382+08:00"
+    },
+    {
+      "title": "Brent settles at lowest since before start of Iran war as more tankers exit Hormuz - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "隨著更多油輪離開霍爾木茲海峽，布蘭特原油價格跌至伊朗戰爭爆發前以來的最低水平 - 路透社隨著更多油輪離開霍爾木茲海峽，布倫特原油價格跌至伊朗戰爭爆發前以來的最低水平 路透社",
+      "time": "00:00",
+      "detected_at": "2026-06-29T00:00:20.107382+08:00"
+    },
+    {
+      "title": "Bitcoin holds above $60,000 as ETF outflows, Fed outlook weigh on sentiment - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "由於 ETF 流出，Fed前景打壓市場情緒，比特幣維持在 60,000 美元以上 - Investing.com",
+      "time": "00:00",
+      "detected_at": "2026-06-29T00:00:20.107382+08:00"
+    },
+    {
+      "title": "Iran strikes Kuwait and Bahrain as escalating attacks threaten to unravel peace efforts - NBC News",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "伊朗襲擊科威特和巴林，不斷升級的襲擊威脅到和平努力 - NBC 新聞",
+      "time": "00:00",
+      "detected_at": "2026-06-29T00:00:20.107382+08:00"
     }
   ]
 }
