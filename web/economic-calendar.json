@@ -1,51 +1,35 @@
 {
-  "date": "2026-06-26",
-  "generated_at": "2026-06-26 04:00",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30 04:00",
   "next_fomc": {
     "date": "2026-07-29",
-    "days_away": 33,
-    "label": "下次 FOMC：07/29（33天後）"
+    "days_away": 29,
+    "label": "下次 FOMC：07/29（29天後）"
   },
   "next_7_days": [
-    {
-      "date": "2026-06-26",
-      "event": "密西根消費者信心（6月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 0,
-      "label": "🟡 密西根消費者信心（6月終值）（0天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "previous": "49.8",
-      "previous_date": "2026-04-01",
-      "forecast": "50.0",
-      "forecast_source": "ForexFactory"
-    },
     {
       "date": "2026-07-01",
       "event": "ISM 製造業 PMI（6月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 5,
-      "label": "🔴 ISM 製造業 PMI（6月）（5天後）",
+      "days_away": 1,
+      "label": "🔴 ISM 製造業 PMI（6月）（1天後）",
       "impact_guide": {
         "name": "ISM 製造業 PMI",
         "above": ">50 擴張，超預期 → 偏多",
         "below": "<50 收縮，低於預期 → 偏空",
         "watch": "新訂單和就業分項是領先指標"
-      }
+      },
+      "forecast": "53.7",
+      "forecast_source": "ForexFactory"
     },
     {
       "date": "2026-07-02",
       "event": "NFP（6月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 6,
-      "label": "🔴 NFP（6月就業）（6天後）",
+      "days_away": 2,
+      "label": "🔴 NFP（6月就業）（2天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
@@ -53,49 +37,35 @@
         "watch": "同步關注失業率與時薪成長"
       },
       "previous": "+172K",
-      "previous_date": "2026-05-01"
+      "previous_date": "2026-05-01",
+      "forecast": "114K",
+      "forecast_source": "ForexFactory"
     }
   ],
   "next_14_days": [
     {
-      "date": "2026-06-26",
-      "event": "密西根消費者信心（6月終值）",
-      "importance": "medium",
-      "source": "UMich",
-      "days_away": 0,
-      "label": "🟡 密西根消費者信心（6月終值）（0天後）",
-      "impact_guide": {
-        "name": "密西根消費者信心指數",
-        "above": "信心改善 → 消費預期樂觀 → 偏多",
-        "below": "信心下滑 → 消費可能放緩 → 偏空",
-        "watch": "通膨預期分項影響 Fed 決策"
-      },
-      "previous": "49.8",
-      "previous_date": "2026-04-01",
-      "forecast": "50.0",
-      "forecast_source": "ForexFactory"
-    },
-    {
       "date": "2026-07-01",
       "event": "ISM 製造業 PMI（6月）",
       "importance": "high",
       "source": "ISM",
-      "days_away": 5,
-      "label": "🔴 ISM 製造業 PMI（6月）（5天後）",
+      "days_away": 1,
+      "label": "🔴 ISM 製造業 PMI（6月）（1天後）",
       "impact_guide": {
         "name": "ISM 製造業 PMI",
         "above": ">50 擴張，超預期 → 偏多",
         "below": "<50 收縮，低於預期 → 偏空",
         "watch": "新訂單和就業分項是領先指標"
-      }
+      },
+      "forecast": "53.7",
+      "forecast_source": "ForexFactory"
     },
     {
       "date": "2026-07-02",
       "event": "NFP（6月就業）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 6,
-      "label": "🔴 NFP（6月就業）（6天後）",
+      "days_away": 2,
+      "label": "🔴 NFP（6月就業）（2天後）",
       "impact_guide": {
         "name": "非農就業人數",
         "above": "就業強勁 → 經濟過熱 → 偏空（升息壓力）",
@@ -103,7 +73,9 @@
         "watch": "同步關注失業率與時薪成長"
       },
       "previous": "+172K",
-      "previous_date": "2026-05-01"
+      "previous_date": "2026-05-01",
+      "forecast": "114K",
+      "forecast_source": "ForexFactory"
     }
   ]
 }
