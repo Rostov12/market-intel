@@ -1,167 +1,167 @@
 {
-  "date": "2026-06-30",
-  "fetched_at": "2026-06-30 07:07",
+  "date": "2026-07-01",
+  "fetched_at": "2026-07-01 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
+    {
+      "title": "BofA raises global growth outlook, sees 75 bps Fed hikes despite easing inflation - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "美國銀行上調全球成長前景，預計儘管通膨有所緩解，但聯準會將升息 75 個基點 - Investing.com",
+      "time": "05:00",
+      "detected_at": "2026-07-01T05:00:21.048451+08:00"
+    },
+    {
+      "title": "Evolution under fire: Iran’s ‘axis of resistance’ in a post-war era - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "（Evolution under fire: Iran’s ‘axis of resistance’ in a post-）",
+      "time": "05:00",
+      "detected_at": "2026-07-01T05:00:21.048451+08:00"
+    },
+    {
+      "title": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "儘管伊朗戰爭，標準普爾 500 指數和納斯達克指數仍錄得 2020 年以來最好的季度業績 - 路透社",
+      "time": "05:00",
+      "detected_at": "2026-07-01T05:00:21.048451+08:00"
+    },
+    {
+      "title": "Oil posts worst quarter in more than 6 years despite Iran war - CNBC",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "儘管伊朗爆發戰爭，油價仍錄得六年多來最糟糕的季度 - CNBC",
+      "time": "05:00",
+      "detected_at": "2026-07-01T05:00:21.048451+08:00"
+    },
+    {
+      "title": "不是聯準會惹禍！高盛揭全球股市暴跌真相AI概念股面臨大洗牌- 國際 - 工商時報",
+      "impact": "bearish",
+      "source": "工商時報",
+      "title_cn": "不是聯準會惹禍！高盛揭秘全球股市暴跌真相AI概念股面臨大洗牌-國際-工商時報",
+      "time": "05:00",
+      "detected_at": "2026-07-01T05:00:21.048451+08:00"
+    },
+    {
+      "title": "Oil ticks up after new U.S.-Iran strikes; crude in SPR falls to lowest since 1983 - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "美伊新一輪襲擊後油價上漲； SPR 原油價格跌至 1983 年以來的最低水準 - Investing.com",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "由於 ETF 流出，Fed前景打壓市場情緒，比特幣跌破 60,000 美元 - Investing.com",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "Gold declines nearly 2% as rate jitters resurface after fresh U.S.-Iran strikes - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "Investing.com，美國與伊朗新一輪罷工後，利率緊張再度浮現，金價下跌近 2%",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "S&P 500, Nasdaq set for best quarter since 2020 despite Iran war By Reuters - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "儘管伊朗戰爭，標準普爾 500 指數和納斯達克指數仍創下 2020 年以來最佳季度表現（路透社 - Investing.com）",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "The Dollar, Safe-Haven Demand, and the Iran War - American Enterprise Institute - AEI",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "美元、避險需求和伊朗戰爭 - 美國企業研究所 - AEI",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "Nearly three quarters of MA residents disapprove of Trump and Iran war - The Patriot Ledger",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Nearly three quarters of MA residents disapprove of Trump and Iran war - The Patriot Ledger",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "Strait of Hormuz oil flowing back to pre-Iran war levels, Vance says - New York Post",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Strait of Hormuz oil flowing back to pre-Iran war levels, Vance says - New York Post",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
+    {
+      "title": "S&P 500, Nasdaq set for best quarter since 2020 despite Iran war - Reuters",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "S&P 500, Nasdaq set for best quarter since 2020 despite Iran war - Reuters",
+      "time": "04:00",
+      "detected_at": "2026-07-01T04:00:20.545369+08:00"
+    },
     {
       "title": "Oil settles up on US-Iran strikes; cautious hopes for shipping cap gains By Reuters - Investing.com",
       "impact": "bullish",
       "source": "Investing.com",
       "title_cn": "油價因美伊罷工而穩定；路透社 - Investing.com 對航運上限上漲抱持謹慎希望",
-      "time": "05:00",
-      "detected_at": "2026-06-30T05:00:12.911358+08:00"
+      "time": "03:00",
+      "detected_at": "2026-07-01T03:00:17.054252+08:00"
     },
     {
-      "title": "In flare-up over Hormuz, a hint at US-Iran rollercoaster to come - The Christian Science Monitor",
+      "title": "Maritime Traffic In Hormuz Strait Slows Sharply - Radio Free Europe/Radio Liberty",
       "impact": "neutral",
       "source": "Geopolitical",
-      "title_cn": "霍爾木茲上空的衝突預示著美國與伊朗之間的過山車即將到來 - 基督教科學箴言報",
-      "time": "05:00",
-      "detected_at": "2026-06-30T05:00:12.911358+08:00"
-    },
-    {
-      "title": "Oil rises on US-Iran strikes, cautious hopes for shipping cap gains - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "油價因美國和伊朗罷工而上漲，對航運上限上漲的謹慎希望 - 路透社",
-      "time": "04:00",
-      "detected_at": "2026-06-30T04:00:16.236094+08:00"
-    },
-    {
-      "title": "Gold slips as US-Iran tensions spark inflation, rate hike fears - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "由於美伊緊張局勢引發通膨和升息擔憂，金價下跌 - 路透社",
+      "title_cn": "霍爾木茲海峽的海上交通急劇放緩 - 自由歐洲電台/自由電台",
       "time": "03:00",
-      "detected_at": "2026-06-30T03:00:21.191039+08:00"
+      "detected_at": "2026-07-01T03:00:17.054252+08:00"
     },
     {
-      "title": "Citadel Securities Warns of ‘Shifting Landscape’ Under Warsh Fed - Bloomberg",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Citadel 證券警告稱，Warsh 聯準會領導下的「格局正在改變」 - 彭博社",
-      "time": "03:00",
-      "detected_at": "2026-06-30T03:00:21.191039+08:00"
-    },
-    {
-      "title": "Traffic In Strait Of Hormuz Drops Sharply - Radio Free Europe/Radio Liberty",
+      "title": "OMB Says Iran War Cost $30B, Stays Mum on Supplemental - Air & Space Forces Magazine",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "霍爾木茲海峽的交通量急劇下降 - 自由歐洲電台/自由電台",
+      "title_cn": "OMB 表示伊朗戰爭花費了 30B 美元，但對補充資料保持沉默 - 《空軍與太空部隊》雜誌",
       "time": "03:00",
-      "detected_at": "2026-06-30T03:00:21.191039+08:00"
+      "detected_at": "2026-07-01T03:00:17.054252+08:00"
+    },
+    {
+      "title": "Cleveland Fed President Hammack says AI could fuel inflation, rate hikes may be necessary",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "克利夫蘭聯邦儲備銀行主席哈馬克表示，人工智慧可能會加劇通膨，升息可能是必要的",
+      "time": "02:00",
+      "detected_at": "2026-07-01T02:00:17.647061+08:00"
+    },
+    {
+      "title": "Israel faced ‘unprecedented, sustained’ bombardment during Iran war, official says - Anadolu Ajansı",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "官員稱，以色列在伊朗戰爭期間面臨「前所未有的持續」轟炸",
+      "time": "02:00",
+      "detected_at": "2026-07-01T02:00:17.647061+08:00"
     },
     {
       "title": "Iran war has cost Americans $1,000 per household, economist estimates - CBS News",
       "impact": "bearish",
       "source": "Geopolitical",
       "title_cn": "經濟學家估計，伊朗戰爭已使美國人每戶損失 1,000 美元 - CBS 新聞",
-      "time": "03:00",
-      "detected_at": "2026-06-30T03:00:21.191039+08:00"
-    },
-    {
-      "title": "Oil rises on US-Iran strikes; cautious hopes for shipping cap gains By Reuters - Investing.com",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "title_cn": "美伊攻擊導致油價上漲；路透社 - Investing.com 對航運上限上漲抱持謹慎希望",
       "time": "02:00",
-      "detected_at": "2026-06-30T02:00:17.397791+08:00"
+      "detected_at": "2026-07-01T02:00:17.647061+08:00"
     },
     {
-      "title": "Oil rises on US-Iran strikes; cautious hopes for shipping cap gains - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "美伊攻擊導致油價上漲；對航運上限上漲持謹慎態度－路透社",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Gold slips as U.S-Iran tensions spark inflation, rate hike fears - Reuters",
+      "title": "Gold slips as US-Iran tensions spark inflation, rate hike fears - Reuters",
       "impact": "bearish",
       "source": "Reuters-Biz",
-      "title_cn": "由於美國和伊朗的緊張局勢引發通膨和升息擔憂，金價下跌 - 路透社",
+      "title_cn": "由於美伊緊張局勢引發通膨和升息擔憂，金價下跌 - 路透社",
       "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Iraq's push for bigger OPEC quota driven by revenue pressures, new oil investment - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "伊拉克因收入壓力和新的石油投資而推動擴大歐佩克配額​​ - 路透社",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Wall Street is bracing for a wave of Fed rate hikes that may never come. These sectors stand to gain.&#xa0;",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "華爾街正在為聯準會可能永遠不會到來的一波升息做好準備",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Stocks rise as communication services names surge, U.S. and Iran halt attacks - Investing.com",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "title_cn": "隨著通訊服務名稱激增、美國和伊朗停止攻擊，股市上漲 - Investing.com",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Citadel Securities Warns of ‘Shifting Landscape’ Under Warsh Fed - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "Citadel Securities Warns of ‘Shifting Landscape’ Under Warsh Fed - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Can the US waive sanctions on Iranian oil? - Semafor",
-      "impact": "bearish",
-      "source": "Semafor",
-      "title_cn": "Can the US waive sanctions on Iranian oil? - Semafor",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Haberman: Vance’s opposition to Iran war cost him with Trump - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Haberman: Vance’s opposition to Iran war cost him with Trump - The Hill",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Oil Prices Rise Again After US, Iran Exchange Strikes - Radio Free Europe/Radio Liberty",
-      "impact": "bullish",
-      "source": "Geopolitical",
-      "title_cn": "Oil Prices Rise Again After US, Iran Exchange Strikes - Radio Free Europe/Radio Liberty",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Israel could go to war with Iran 'tomorrow,' Katz warns - Ynetnews",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Israel could go to war with Iran 'tomorrow,' Katz warns - Ynetnews",
-      "time": "01:00",
-      "detected_at": "2026-06-30T01:00:23.661076+08:00"
-    },
-    {
-      "title": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "隨著美國和伊朗達成協議停止攻擊，油價上漲，美國油價再次突破每桶 70 美元",
-      "time": "23:00",
-      "detected_at": "2026-06-29T23:00:21.616695+08:00"
-    },
-    {
-      "title": "Tanker struck in Hormuz as Iran, US trade attacks in worst escalation since peace deal - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "伊朗和美國的貿易攻擊發生自和平協議以來最嚴重的升級，油輪在霍爾木茲喪生 - 路透社",
-      "time": "23:00",
-      "detected_at": "2026-06-29T23:00:21.616695+08:00"
+      "detected_at": "2026-07-01T01:00:15.684691+08:00"
     }
   ]
 }
