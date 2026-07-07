@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-07",
   "sample_size": 53,
   "errors": 0,
-  "advancing": 40,
-  "declining": 13,
+  "advancing": 26,
+  "declining": 27,
   "unchanged": 0,
-  "ad_ratio": 3.08,
+  "ad_ratio": 0.96,
   "above_ma50": 27,
   "above_ma200": 37,
   "pct_above_ma50": 50.9,
   "pct_above_ma200": 69.8,
-  "new_52w_highs": 10,
+  "new_52w_highs": 7,
   "new_52w_lows": 1,
-  "breadth_score": 72,
-  "grade": "🟢 健康"
+  "breadth_score": 62,
+  "grade": "🟡 中性"
 }

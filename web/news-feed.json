@@ -1,167 +1,167 @@
 {
-  "date": "2026-07-06",
-  "fetched_at": "2026-07-06 07:07",
+  "date": "2026-07-07",
+  "fetched_at": "2026-07-07 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "As Hormuz opens, oil markets are awash in supply - Semafor",
-      "impact": "neutral",
-      "source": "Semafor",
-      "title_cn": "Semafor 表示，隨著霍爾木茲海峽開放，石油市場供應充足",
-      "time": "04:00",
-      "detected_at": "2026-07-06T04:00:14.429979+08:00"
-    },
-    {
-      "title": "Exhausted by Iran War, Tehran Transforms for Khamenei’s Funeral - The New York Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "因伊朗戰爭而精疲力竭的德黑蘭為哈梅內伊的葬禮進行了改造 - 紐約時報",
-      "time": "03:00",
-      "detected_at": "2026-07-06T03:00:16.905603+08:00"
-    },
-    {
-      "title": "IRAN WAR WEEK 19, Ceasefire Day #23: Iran continues threats and force on vessels to transit their traffic separation scheme - Daily Kos",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "（IRAN WAR WEEK 19, Ceasefire Day #23: Iran continues threats ）",
-      "time": "03:00",
-      "detected_at": "2026-07-06T03:00:16.905603+08:00"
-    },
-    {
-      "title": "UBS cuts 2026-27 oil price forecasts as Hormuz flows recover - Investing.com",
+      "title": "Oil prices slip as OPEC+ raises output targets, Hormuz traffic remains resilient - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "隨著霍爾木茲油流量恢復，瑞銀下調 2026-27 年油價預測 - Investing.com",
-      "time": "02:00",
-      "detected_at": "2026-07-06T02:00:18.624903+08:00"
+      "title_cn": "Investing.com，隨著歐佩克+提高產量目標，油價下滑，霍爾木茲交通維持彈性",
+      "time": "05:00",
+      "detected_at": "2026-07-07T05:00:15.232905+08:00"
     },
     {
-      "title": "Spot gold climbs more than 2% as weak jobs data eases Fed rate hike concerns - Investing.com",
+      "title": "Iran war accelerates the race for mobile military data centers - Washington Times",
       "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "Investing.com，就業數據疲軟緩解聯準會升息擔憂，現貨黃金上漲逾 2%",
-      "time": "02:00",
-      "detected_at": "2026-07-06T02:00:18.624903+08:00"
-    },
-    {
-      "title": "本週操盤筆記：美國聯準會會議紀要、中國通膨、紐西蘭利率決議 - news.cnyes.com",
-      "impact": "bearish",
-      "source": "鉅亨網",
-      "title_cn": "本週操盤筆記：美國聯準會會議紀錄、中國通膨、紐西蘭利率決議 - news.cnyes.com",
-      "time": "02:00",
-      "detected_at": "2026-07-06T02:00:18.624903+08:00"
+      "source": "Geopolitical",
+      "title_cn": "（Iran war accelerates the race for mobile military data cente）",
+      "time": "05:00",
+      "detected_at": "2026-07-07T05:00:15.232905+08:00"
     },
     {
       "title": "美股｜道瓊登高、費半重挫 美光、台積ADR跌跌不休 蘋果逆勢大漲近5％ - 工商時報",
       "impact": "neutral",
       "source": "工商時報",
       "title_cn": "美股｜道瓊登高、費半重挫 美光、台積ADR跌跌不休 蘋果逆勢大漲近5％ - 工商時報",
-      "time": "02:00",
-      "detected_at": "2026-07-06T02:00:18.624903+08:00"
+      "time": "05:00",
+      "detected_at": "2026-07-07T05:00:15.232905+08:00"
     },
     {
-      "title": "OPEC+ approves further oil output increase as Hormuz exports start to recover",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "隨著霍爾木茲出口開始復甦，歐佩克+批准進一步增加石油產量",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "OPEC+ approves further oil output increase as Hormuz exports start to recover - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著霍爾木茲出口開始復甦，歐佩克+批准進一步增加石油產量 - 路透社隨著霍爾木茲出口開始復蘇，OPEC+批准進一步增加石油產量 路透社",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "Breakingviews - Tanker data is better Hormuz gauge than oil prices - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "Breakingviews - 油輪數據比石油價格更能反映霍爾木茲海峽 - 路透社",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
+      "title": "Iran War Strengthens the Case for Renewables and Storage - Crude Oil Prices Today | OilPrice.com",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭強化了再生能源和儲存的理由—今日原油價格| OilPrice.com",
+      "time": "04:00",
+      "detected_at": "2026-07-07T04:00:15.420112+08:00"
     },
     {
       "title": "OPEC+ approves further oil output increase as Hormuz exports start to recover By Reuters - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
       "title_cn": "隨著霍爾木茲出口開始復甦，OPEC+批准進一步增加石油產量 路透社 - Investing.com隨著霍爾木茲出口開始復甦，OPEC+批准進一步增加石油產量 路透社 Investing.com",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
+      "time": "03:00",
+      "detected_at": "2026-07-07T03:00:11.634507+08:00"
     },
     {
-      "title": "Oil Terminal in Russia’s St. Petersburg Comes Under Attack - Bloomberg.com",
+      "title": "OPEC+ approves further oil output increase as Hormuz exports start to recover - Reuters",
       "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "隨著霍爾木茲出口開始復甦，歐佩克+批准進一步增加石油產量 - 路透社隨著霍爾木茲出口開始復蘇，OPEC+批准進一步增加石油產量 路透社",
+      "time": "02:00",
+      "detected_at": "2026-07-07T02:00:12.749732+08:00"
+    },
+    {
+      "title": "《金融》央行預期Fed 9月升息機率低台幣走勢仍看美元與股市- 金融 - 工商時報",
+      "impact": "bearish",
+      "source": "工商時報",
+      "title_cn": "《金融》央行預期聯準會9月升息機率低台幣走勢仍看美元與股市-金融-工商時報",
+      "time": "02:00",
+      "detected_at": "2026-07-07T02:00:12.749732+08:00"
+    },
+    {
+      "title": "《美股掃瞄》壓寶降息 美股收高 機器人上攻、微軟帶衰AI - 工商時報",
+      "impact": "bullish",
+      "source": "工商時報",
+      "title_cn": "《美股掃瞄》壓寶降息 美股收高機器人上攻、微軟帶衰AI - 工商時報",
+      "time": "01:00",
+      "detected_at": "2026-07-07T01:00:16.144613+08:00"
+    },
+    {
+      "title": "美股崩盤倒數？「巴菲特指標」飆恐怖數字玩火警報大響- 國際 - 工商時報",
+      "impact": "bearish",
+      "source": "工商時報",
+      "title_cn": "美股崩盤倒數？ 「巴菲特指標」飆恐怖數字玩火警示大響-國際-工商時報",
+      "time": "01:00",
+      "detected_at": "2026-07-07T01:00:16.144613+08:00"
+    },
+    {
+      "title": "美伊戰爭即將進入第四周美股開低- 國際 - 工商時報",
+      "impact": "neutral",
+      "source": "工商時報",
+      "title_cn": "美伊戰爭即將進入第四週美股開低-國際-工商時報",
+      "time": "01:00",
+      "detected_at": "2026-07-07T01:00:16.144613+08:00"
+    },
+    {
+      "title": "Defense: Iran war cost questions headed to Senate - Punchbowl News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "國防：伊朗戰爭成本問題已提交參議院 - Punchbowl News",
+      "time": "00:00",
+      "detected_at": "2026-07-07T00:00:16.308043+08:00"
+    },
+    {
+      "title": "Oil prices steady at pre-Iran war levels - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "油價穩定在伊朗戰爭前的水平 - 路透社",
+      "time": "23:00",
+      "detected_at": "2026-07-06T23:00:22.889536+08:00"
+    },
+    {
+      "title": "Ukrainian drones hit Russia's largest refinery, in one of deepest strikes yet - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "烏克蘭無人機襲擊了俄羅斯最大的煉油廠，這是迄今為止最嚴重的襲擊之一 - 路透社",
+      "time": "23:00",
+      "detected_at": "2026-07-06T23:00:22.889536+08:00"
+    },
+    {
+      "title": "Oil prices steady at pre-Iran war levels By Reuters - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "（Oil prices steady at pre-Iran war levels By Reuters - Invest）",
+      "time": "23:00",
+      "detected_at": "2026-07-06T23:00:22.889536+08:00"
+    },
+    {
+      "title": "After U.S.-Iran War, Oman Is Said to Propose Strait of Hormuz Fee Plan - The New York Times",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "美伊戰爭後，據稱阿曼提出霍爾木茲海峽收費計劃 - 《紐約時報》美伊戰爭後阿曼擬提出霍爾木茲海峽收費計劃&nbsp;&nbsp;紐約時報",
+      "time": "23:00",
+      "detected_at": "2026-07-06T23:00:22.889536+08:00"
+    },
+    {
+      "title": "Ukraine's military strikes Russian oil refineries, oil terminal in Vysotsk - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "（Ukraine's military strikes Russian oil refineries, oil termi）",
+      "time": "22:00",
+      "detected_at": "2026-07-06T22:00:17.936133+08:00"
+    },
+    {
+      "title": "US Stocks Advance as Jobs Data Dims Prospect of Fed Rate Hike - Bloomberg.com",
+      "impact": "bearish",
       "source": "Bloomberg-via-GN",
-      "title_cn": "俄羅斯聖彼得堡石油碼頭遭到攻擊 - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
+      "title_cn": "由於就業數據使聯準會升息前景黯淡，美國股市上漲 - Bloomberg.com",
+      "time": "22:00",
+      "detected_at": "2026-07-06T22:00:17.936133+08:00"
     },
     {
-      "title": "Trump Compared Chicago Shootings to Iran War. Here’s What the Data Shows - Newsweek",
+      "title": "盤中速報 - 台積電ADR(TSM-US)大漲5.03%，報456美元 - 鉅亨網",
+      "impact": "bullish",
+      "source": "鉅亨網",
+      "title_cn": "盤中速報 - 台積電ADR(TSM-US)大漲5.03%，報456美元 - 鉅亨網.盤中速報 - 台積電ADR(TSM-US)大漲5.03%，報456美元&nbsp;&nbsp;鉅亨網",
+      "time": "22:00",
+      "detected_at": "2026-07-06T22:00:17.936133+08:00"
+    },
+    {
+      "title": "Oil rises more than $1/bbl as OPEC+ mulls extending output cuts - Reuters",
+      "impact": "bullish",
+      "source": "Reuters-Biz",
+      "title_cn": "OPEC+ 考慮延長減產，油價上漲逾 1 美元/桶 - 路透社OPEC+考慮延長減產，油價上漲逾 1 美元/桶 路透",
+      "time": "21:00",
+      "detected_at": "2026-07-06T21:00:20.627896+08:00"
+    },
+    {
+      "title": "Oil prices slip 1% to two-week low on recession worries - Reuters",
       "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Trump Compared Chicago Shootings to Iran War. Here’s What the Data Shows - Newsweek",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "Israel sent IDF soldiers, Iron Dome system to Abu Dhabi during Iran war - The Jerusalem Post",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Israel sent IDF soldiers, Iron Dome system to Abu Dhabi during Iran war - The Jerusalem Post",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "Watch Iran War Looms Over NATO Summit - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Watch Iran War Looms Over NATO Summit - Bloomberg.com",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "US voters say Trump’s Iran war not worth the cost — FT poll - Financial Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "US voters say Trump’s Iran war not worth the cost — FT poll - Financial Times",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "Trump highlights Chicago shootings since Iran war started - Washington Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Trump highlights Chicago shootings since Iran war started - Washington Times",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "Iranian Insists 'Service Fees' Will Be Charged For Hormuz Passage - Radio Free Europe/Radio Liberty",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "Iranian Insists 'Service Fees' Will Be Charged For Hormuz Passage - Radio Free Europe/Radio Liberty",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "Iran’s China envoy vows ‘special’ Hormuz treatment for ‘friendly’ countries - Al Jazeera",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "Iran’s China envoy vows ‘special’ Hormuz treatment for ‘friendly’ countries - Al Jazeera",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
-    },
-    {
-      "title": "America’s thirst for gasoline may not recover after Iran war - The Seattle Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "America’s thirst for gasoline may not recover after Iran war - The Seattle Times",
-      "time": "01:00",
-      "detected_at": "2026-07-06T01:00:18.793793+08:00"
+      "source": "Reuters-Biz",
+      "title_cn": "因經濟衰退擔憂，油價下跌 1% 至兩週低點 - 路透社",
+      "time": "21:00",
+      "detected_at": "2026-07-06T21:00:20.627896+08:00"
     }
   ]
 }
