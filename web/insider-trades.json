@@ -1,117 +1,27 @@
 {
-  "date": "2026-07-07",
-  "updated_at": "2026-07-07 04:42",
+  "date": "2026-07-08",
+  "updated_at": "2026-07-08 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 12,
+  "watchlist_matches": 2,
   "status": "ok",
   "trades": [
     {
-      "ticker": "UNH",
-      "company": "UNITEDHEALTH",
+      "ticker": "JPM",
+      "company": "JPMORGAN",
       "type": "未知",
-      "title": "4 - UNITEDHEALTH GROUP INC (0000731766) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000175/0000731766-26-000175-index.htm",
-      "date": "2026-07-06T16:41:40-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0000731766-26-000175 Size: 5 KB"
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026075998/0001213900-26-075998-index.htm",
+      "date": "2026-07-07T16:38:19-04:00",
+      "summary": "Filed: 2026-07-07 AccNo: 0001213900-26-075998 Size: 677 KB"
     },
     {
-      "ticker": "BA",
-      "company": "BOEING",
+      "ticker": "JPM",
+      "company": "JPMORGAN",
       "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006514/0001225208-26-006514-index.htm",
-      "date": "2026-07-06T16:40:56-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006514 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006513/0001225208-26-006513-index.htm",
-      "date": "2026-07-06T16:40:54-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006513 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006512/0001225208-26-006512-index.htm",
-      "date": "2026-07-06T16:40:52-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006512 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006511/0001225208-26-006511-index.htm",
-      "date": "2026-07-06T16:40:51-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006511 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006510/0001225208-26-006510-index.htm",
-      "date": "2026-07-06T16:40:49-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006510 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006509/0001225208-26-006509-index.htm",
-      "date": "2026-07-06T16:40:48-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006509 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006508/0001225208-26-006508-index.htm",
-      "date": "2026-07-06T16:40:46-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006508 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006507/0001225208-26-006507-index.htm",
-      "date": "2026-07-06T16:40:45-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006507 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006506/0001225208-26-006506-index.htm",
-      "date": "2026-07-06T16:40:43-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006506 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006505/0001225208-26-006505-index.htm",
-      "date": "2026-07-06T16:40:41-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006505 Size: 5 KB"
-    },
-    {
-      "ticker": "BA",
-      "company": "BOEING",
-      "type": "未知",
-      "title": "4 - BOEING CO (0000012927) (Issuer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826006504/0001225208-26-006504-index.htm",
-      "date": "2026-07-06T16:40:40-04:00",
-      "summary": "Filed: 2026-07-06 AccNo: 0001225208-26-006504 Size: 5 KB"
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026075998/0001213900-26-075998-index.htm",
+      "date": "2026-07-07T16:38:19-04:00",
+      "summary": "Filed: 2026-07-07 AccNo: 0001213900-26-075998 Size: 677 KB"
     }
   ]
 }

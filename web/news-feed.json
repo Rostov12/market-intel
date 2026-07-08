@@ -1,167 +1,167 @@
 {
-  "date": "2026-07-07",
-  "fetched_at": "2026-07-07 07:07",
+  "date": "2026-07-08",
+  "fetched_at": "2026-07-08 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Oil prices slip as OPEC+ raises output targets, Hormuz traffic remains resilient - Investing.com",
+      "title": "AI worries weigh on Wall Street, Hormuz tensions push up oil as NATO meets - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "人工智慧擔憂令華爾街承壓，北約會議期間霍爾木茲緊張局勢推高油價 - 路透社",
+      "time": "05:00",
+      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+    },
+    {
+      "title": "Hormuz shipping risk raised to severe after tankers hit, reviving U.S.-Iran tensions - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "油輪撞擊後霍爾木茲航運風險上升至嚴重，美國與伊朗的緊張局勢再度加劇 - 路透社",
+      "time": "05:00",
+      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+    },
+    {
+      "title": "Wall Street ends lower, Nasdaq drops 1% as AI trade takes a hit, oil prices spike - Investing.com",
+      "impact": "bearish",
+      "source": "Investing.com",
+      "title_cn": "由於人工智慧交易受到打擊，油價飆升，華爾街收低，納斯達克指數下跌 1% - Investing.com",
+      "time": "05:00",
+      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+    },
+    {
+      "title": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "Investing.com，隨著歐佩克+提高產量目標，油價下滑，霍爾木茲交通維持彈性",
+      "title_cn": "海灣地區船隻遭遇新一輪襲擊後，緊張局勢升級，油價飆升 5% - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-07-07T05:00:15.232905+08:00"
+      "detected_at": "2026-07-08T05:00:21.783157+08:00"
     },
     {
-      "title": "Iran war accelerates the race for mobile military data centers - Washington Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "（Iran war accelerates the race for mobile military data cente）",
-      "time": "05:00",
-      "detected_at": "2026-07-07T05:00:15.232905+08:00"
-    },
-    {
-      "title": "美股｜道瓊登高、費半重挫 美光、台積ADR跌跌不休 蘋果逆勢大漲近5％ - 工商時報",
+      "title": "3 tankers hit in Strait of Hormuz as U.S. revokes license au­tho­rizing sale of Iranian oil - Spectrum News",
       "impact": "neutral",
-      "source": "工商時報",
-      "title_cn": "美股｜道瓊登高、費半重挫 美光、台積ADR跌跌不休 蘋果逆勢大漲近5％ - 工商時報",
+      "source": "Geopolitical",
+      "title_cn": "美國吊銷伊朗石油銷售許可證，三艘油輪在霍爾木茲海峽遭遇攻擊 - Spectrum News",
       "time": "05:00",
-      "detected_at": "2026-07-07T05:00:15.232905+08:00"
+      "detected_at": "2026-07-08T05:00:21.783157+08:00"
     },
     {
-      "title": "Iran War Strengthens the Case for Renewables and Storage - Crude Oil Prices Today | OilPrice.com",
+      "title": "BP drove up European jet fuel output by 30% during Iran war - Transport Topics",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "伊朗戰爭強化了再生能源和儲存的理由—今日原油價格| OilPrice.com",
+      "title_cn": "BP drove up European jet fuel output by 30% during Iran war - Transport Topics",
+      "time": "05:00",
+      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+    },
+    {
+      "title": "U.S. revokes Iran oil sales authorization after tanker attacks",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "油輪遇襲後美國撤銷伊朗石油銷售授權",
       "time": "04:00",
-      "detected_at": "2026-07-07T04:00:15.420112+08:00"
+      "detected_at": "2026-07-08T04:00:18.555343+08:00"
     },
     {
-      "title": "OPEC+ approves further oil output increase as Hormuz exports start to recover By Reuters - Investing.com",
-      "impact": "neutral",
+      "title": "Dow falls back below 53,000, Nasdaq loses 1% as chip stocks tank, oil spikes: Live updates",
+      "impact": "bearish",
+      "source": "CNBC-World",
+      "title_cn": "道瓊指數回落至 53,000 點下方，那斯達克指數因晶片股下跌而下跌 1%，油價飆升：即時更新",
+      "time": "04:00",
+      "detected_at": "2026-07-08T04:00:18.555343+08:00"
+    },
+    {
+      "title": "Oil prices gain as UKMTO says tanker struck by projectile in Hormuz - Investing.com",
+      "impact": "bullish",
       "source": "Investing.com",
-      "title_cn": "隨著霍爾木茲出口開始復甦，OPEC+批准進一步增加石油產量 路透社 - Investing.com隨著霍爾木茲出口開始復甦，OPEC+批准進一步增加石油產量 路透社 Investing.com",
+      "title_cn": "UKMTO稱油輪在霍爾木茲被彈丸擊中，油價上漲 - Investing.com UKMTO 稱油輪在霍爾木茲被射彈擊中，油價上漲 Investing.com",
+      "time": "04:00",
+      "detected_at": "2026-07-08T04:00:18.555343+08:00"
+    },
+    {
+      "title": "Three tankers hit in the Strait of Hormuz as US revokes license authorizing sale of Iranian oil - AP News",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "美聯社新聞稱，美國吊銷了授權出售伊朗石油的許可證，三艘油輪在霍爾木茲海峽遭遇攻擊",
+      "time": "04:00",
+      "detected_at": "2026-07-08T04:00:18.555343+08:00"
+    },
+    {
+      "title": "Strait of Hormuz threat level raised to 'severe' after Iran attacks tankers using U.S. Navy route - CNBC",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "伊朗利用美國海軍航線襲擊油輪後，霍爾木茲海峽的威脅等級升至「嚴重」 - CNBC",
+      "time": "04:00",
+      "detected_at": "2026-07-08T04:00:18.555343+08:00"
+    },
+    {
+      "title": "Strait of Hormuz threat level raised to 'severe' after Iran attacks tankers using U.S. Navy route",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "伊朗襲擊使用美國海軍航線的油輪後，霍爾木茲海峽的威脅等級升至「嚴重」",
       "time": "03:00",
-      "detected_at": "2026-07-07T03:00:11.634507+08:00"
+      "detected_at": "2026-07-08T03:00:20.821538+08:00"
     },
     {
-      "title": "OPEC+ approves further oil output increase as Hormuz exports start to recover - Reuters",
+      "title": "Three tankers hit in latest attacks in the Strait of Hormuz, British military says - AP News",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "隨著霍爾木茲出口開始復甦，歐佩克+批准進一步增加石油產量 - 路透社隨著霍爾木茲出口開始復蘇，OPEC+批准進一步增加石油產量 路透社",
-      "time": "02:00",
-      "detected_at": "2026-07-07T02:00:12.749732+08:00"
+      "source": "Geopolitical",
+      "title_cn": "英國軍方稱，三艘油輪在霍爾木茲海峽最近的襲擊中被擊中 - 美聯社新聞",
+      "time": "03:00",
+      "detected_at": "2026-07-08T03:00:20.821538+08:00"
     },
     {
-      "title": "《金融》央行預期Fed 9月升息機率低台幣走勢仍看美元與股市- 金融 - 工商時報",
-      "impact": "bearish",
-      "source": "工商時報",
-      "title_cn": "《金融》央行預期聯準會9月升息機率低台幣走勢仍看美元與股市-金融-工商時報",
-      "time": "02:00",
-      "detected_at": "2026-07-07T02:00:12.749732+08:00"
-    },
-    {
-      "title": "《美股掃瞄》壓寶降息 美股收高 機器人上攻、微軟帶衰AI - 工商時報",
-      "impact": "bullish",
-      "source": "工商時報",
-      "title_cn": "《美股掃瞄》壓寶降息 美股收高機器人上攻、微軟帶衰AI - 工商時報",
-      "time": "01:00",
-      "detected_at": "2026-07-07T01:00:16.144613+08:00"
-    },
-    {
-      "title": "美股崩盤倒數？「巴菲特指標」飆恐怖數字玩火警報大響- 國際 - 工商時報",
-      "impact": "bearish",
-      "source": "工商時報",
-      "title_cn": "美股崩盤倒數？ 「巴菲特指標」飆恐怖數字玩火警示大響-國際-工商時報",
-      "time": "01:00",
-      "detected_at": "2026-07-07T01:00:16.144613+08:00"
-    },
-    {
-      "title": "美伊戰爭即將進入第四周美股開低- 國際 - 工商時報",
-      "impact": "neutral",
-      "source": "工商時報",
-      "title_cn": "美伊戰爭即將進入第四週美股開低-國際-工商時報",
-      "time": "01:00",
-      "detected_at": "2026-07-07T01:00:16.144613+08:00"
-    },
-    {
-      "title": "Defense: Iran war cost questions headed to Senate - Punchbowl News",
+      "title": "Dozens of countries have lowered energy taxes or taken other policy steps in response to Iran war - Pew Research Center",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "國防：伊朗戰爭成本問題已提交參議院 - Punchbowl News",
-      "time": "00:00",
-      "detected_at": "2026-07-07T00:00:16.308043+08:00"
+      "title_cn": "皮尤研究中心稱，數十個國家已降低能源稅或採取其他政策措施來應對伊朗戰爭",
+      "time": "03:00",
+      "detected_at": "2026-07-08T03:00:20.821538+08:00"
     },
     {
-      "title": "Oil prices steady at pre-Iran war levels - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "油價穩定在伊朗戰爭前的水平 - 路透社",
-      "time": "23:00",
-      "detected_at": "2026-07-06T23:00:22.889536+08:00"
+      "title": "Oil prices rise as attacks revive safety concerns in the Strait of Hormuz - NBC News",
+      "impact": "bullish",
+      "source": "Geopolitical",
+      "title_cn": "霍爾木茲海峽的襲擊事件再次引發安全擔憂，油價上漲 - NBC 新聞",
+      "time": "03:00",
+      "detected_at": "2026-07-08T03:00:20.821538+08:00"
     },
     {
-      "title": "Ukrainian drones hit Russia's largest refinery, in one of deepest strikes yet - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "烏克蘭無人機襲擊了俄羅斯最大的煉油廠，這是迄今為止最嚴重的襲擊之一 - 路透社",
-      "time": "23:00",
-      "detected_at": "2026-07-06T23:00:22.889536+08:00"
-    },
-    {
-      "title": "Oil prices steady at pre-Iran war levels By Reuters - Investing.com",
-      "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "（Oil prices steady at pre-Iran war levels By Reuters - Invest）",
-      "time": "23:00",
-      "detected_at": "2026-07-06T23:00:22.889536+08:00"
-    },
-    {
-      "title": "After U.S.-Iran War, Oman Is Said to Propose Strait of Hormuz Fee Plan - The New York Times",
+      "title": "Indiana farmers already faced a hard financial year. The Iran war made it worse. - wndu.com",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "美伊戰爭後，據稱阿曼提出霍爾木茲海峽收費計劃 - 《紐約時報》美伊戰爭後阿曼擬提出霍爾木茲海峽收費計劃&nbsp;&nbsp;紐約時報",
-      "time": "23:00",
-      "detected_at": "2026-07-06T23:00:22.889536+08:00"
-    },
-    {
-      "title": "Ukraine's military strikes Russian oil refineries, oil terminal in Vysotsk - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "（Ukraine's military strikes Russian oil refineries, oil termi）",
-      "time": "22:00",
-      "detected_at": "2026-07-06T22:00:17.936133+08:00"
-    },
-    {
-      "title": "US Stocks Advance as Jobs Data Dims Prospect of Fed Rate Hike - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "由於就業數據使聯準會升息前景黯淡，美國股市上漲 - Bloomberg.com",
-      "time": "22:00",
-      "detected_at": "2026-07-06T22:00:17.936133+08:00"
-    },
-    {
-      "title": "盤中速報 - 台積電ADR(TSM-US)大漲5.03%，報456美元 - 鉅亨網",
-      "impact": "bullish",
-      "source": "鉅亨網",
-      "title_cn": "盤中速報 - 台積電ADR(TSM-US)大漲5.03%，報456美元 - 鉅亨網.盤中速報 - 台積電ADR(TSM-US)大漲5.03%，報456美元&nbsp;&nbsp;鉅亨網",
-      "time": "22:00",
-      "detected_at": "2026-07-06T22:00:17.936133+08:00"
+      "title_cn": "印第安納州的農民已經面臨艱難的財政年度",
+      "time": "03:00",
+      "detected_at": "2026-07-08T03:00:20.821538+08:00"
     },
     {
       "title": "Oil rises more than $1/bbl as OPEC+ mulls extending output cuts - Reuters",
       "impact": "bullish",
       "source": "Reuters-Biz",
       "title_cn": "OPEC+ 考慮延長減產，油價上漲逾 1 美元/桶 - 路透社OPEC+考慮延長減產，油價上漲逾 1 美元/桶 路透",
-      "time": "21:00",
-      "detected_at": "2026-07-06T21:00:20.627896+08:00"
+      "time": "02:00",
+      "detected_at": "2026-07-08T02:00:16.630733+08:00"
     },
     {
       "title": "Oil prices slip 1% to two-week low on recession worries - Reuters",
       "impact": "bearish",
       "source": "Reuters-Biz",
       "title_cn": "因經濟衰退擔憂，油價下跌 1% 至兩週低點 - 路透社",
-      "time": "21:00",
-      "detected_at": "2026-07-06T21:00:20.627896+08:00"
+      "time": "02:00",
+      "detected_at": "2026-07-08T02:00:16.630733+08:00"
+    },
+    {
+      "title": "Fed reform may move markets more than Powell ouster - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "聯準會改革可能比鮑威爾下台更能推動市場 - 路透中文網聯準會改革可能比鮑威爾下台對市場的影響更大&nbsp;&nbsp;路透",
+      "time": "02:00",
+      "detected_at": "2026-07-08T02:00:16.630733+08:00"
+    },
+    {
+      "title": "Oil prices slide 1% after U.S. Fed raises interest rates - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "聯準會升息後油價下跌 1% - 路透社",
+      "time": "02:00",
+      "detected_at": "2026-07-08T02:00:16.630733+08:00"
     }
   ]
 }
