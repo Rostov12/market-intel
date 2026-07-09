@@ -1,27 +1,63 @@
 {
-  "date": "2026-07-08",
-  "updated_at": "2026-07-08 04:42",
+  "date": "2026-07-09",
+  "updated_at": "2026-07-09 04:42",
   "total_scanned": 40,
-  "watchlist_matches": 2,
+  "watchlist_matches": 6,
   "status": "ok",
   "trades": [
     {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
       "type": "未知",
-      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1665650/000121390026075998/0001213900-26-075998-index.htm",
-      "date": "2026-07-07T16:38:19-04:00",
-      "summary": "Filed: 2026-07-07 AccNo: 0001213900-26-075998 Size: 677 KB"
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426019618/0001918704-26-019618-index.htm",
+      "date": "2026-07-08T16:41:34-04:00",
+      "summary": "Filed: 2026-07-08 AccNo: 0001918704-26-019618 Size: 1 MB"
     },
     {
-      "ticker": "JPM",
-      "company": "JPMORGAN",
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
       "type": "未知",
-      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
-      "url": "https://www.sec.gov/Archives/edgar/data/19617/000121390026075998/0001213900-26-075998-index.htm",
-      "date": "2026-07-07T16:38:19-04:00",
-      "summary": "Filed: 2026-07-07 AccNo: 0001213900-26-075998 Size: 677 KB"
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000121390026076404/0001213900-26-076404-index.htm",
+      "date": "2026-07-08T16:40:02-04:00",
+      "summary": "Filed: 2026-07-08 AccNo: 0001213900-26-076404 Size: 77 KB"
+    },
+    {
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
+      "type": "未知",
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426019616/0001918704-26-019616-index.htm",
+      "date": "2026-07-08T16:39:36-04:00",
+      "summary": "Filed: 2026-07-08 AccNo: 0001918704-26-019616 Size: 673 KB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526298607/0001193125-26-298607-index.htm",
+      "date": "2026-07-08T16:39:21-04:00",
+      "summary": "Filed: 2026-07-08 AccNo: 0001193125-26-298607 Size: 738 KB"
+    },
+    {
+      "ticker": "BAC",
+      "company": "BANK OF AMERICA",
+      "type": "未知",
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000191870426019613/0001918704-26-019613-index.htm",
+      "date": "2026-07-08T16:39:01-04:00",
+      "summary": "Filed: 2026-07-08 AccNo: 0001918704-26-019613 Size: 1 MB"
+    },
+    {
+      "ticker": "GS",
+      "company": "GOLDMAN SACHS",
+      "type": "未知",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "url": "https://www.sec.gov/Archives/edgar/data/886982/000119312526298601/0001193125-26-298601-index.htm",
+      "date": "2026-07-08T16:37:59-04:00",
+      "summary": "Filed: 2026-07-08 AccNo: 0001193125-26-298601 Size: 518 KB"
     }
   ]
 }

@@ -1,23 +1,39 @@
 {
-  "date": "2026-07-08",
-  "fetched_at": "2026-07-08 07:07",
+  "date": "2026-07-09",
+  "fetched_at": "2026-07-09 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "AI worries weigh on Wall Street, Hormuz tensions push up oil as NATO meets - Reuters",
+      "title": "U.S. military launches new Iran strikes as Trump says 'not sure' he wants deal",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "人工智慧擔憂令華爾街承壓，北約會議期間霍爾木茲緊張局勢推高油價 - 路透社",
+      "source": "CNBC",
+      "title_cn": "川普表示「不確定」他是否希望達成協議，美國軍方對伊朗發動了新的打擊",
       "time": "05:00",
-      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
     },
     {
-      "title": "Hormuz shipping risk raised to severe after tankers hit, reviving U.S.-Iran tensions - Reuters",
+      "title": "Dow slides more than 570 points as oil spikes and Trump threatens another attack on Iran: Live updates",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "油輪撞擊後霍爾木茲航運風險上升至嚴重，美國與伊朗的緊張局勢再度加劇 - 路透社",
+      "source": "CNBC",
+      "title_cn": "隨著油價飆升以及川普威脅再次襲擊伊朗：即時更新，道瓊斯指數下跌超過 570 點",
       "time": "05:00",
-      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+    },
+    {
+      "title": "US reinstates sanctions on Iranian oil sales after LNG, oil tanker attacks - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "液化天然氣和油輪遇襲後，美國恢復對伊朗石油銷售的製裁 - 路透社",
+      "time": "05:00",
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+    },
+    {
+      "title": "The Strait of Hormuz is back under &#x2018;full-conflict conditions&#x2019; &#x2014; and energy markets are scrambling",
+      "impact": "bullish",
+      "source": "MarketWatch",
+      "title_cn": "霍尔木兹海峡再次陷入“全面冲突”状态&#x2014;能源市场正陷入混乱",
+      "time": "05:00",
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
     },
     {
       "title": "Wall Street ends lower, Nasdaq drops 1% as AI trade takes a hit, oil prices spike - Investing.com",
@@ -25,143 +41,127 @@
       "source": "Investing.com",
       "title_cn": "由於人工智慧交易受到打擊，油價飆升，華爾街收低，納斯達克指數下跌 1% - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
     },
     {
       "title": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf - Investing.com",
       "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "海灣地區船隻遭遇新一輪襲擊後，緊張局勢升級，油價飆升 5% - Investing.com",
+      "title_cn": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf - Investing.com",
       "time": "05:00",
-      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
     },
     {
-      "title": "3 tankers hit in Strait of Hormuz as U.S. revokes license au­tho­rizing sale of Iranian oil - Spectrum News",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "美國吊銷伊朗石油銷售許可證，三艘油輪在霍爾木茲海峽遭遇攻擊 - Spectrum News",
-      "time": "05:00",
-      "detected_at": "2026-07-08T05:00:21.783157+08:00"
-    },
-    {
-      "title": "BP drove up European jet fuel output by 30% during Iran war - Transport Topics",
+      "title": "Iran war: US launches new round of strikes on Iran - DW.com",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "BP drove up European jet fuel output by 30% during Iran war - Transport Topics",
+      "title_cn": "Iran war: US launches new round of strikes on Iran - DW.com",
       "time": "05:00",
-      "detected_at": "2026-07-08T05:00:21.783157+08:00"
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
     },
     {
-      "title": "U.S. revokes Iran oil sales authorization after tanker attacks",
+      "title": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens - CNBC",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens - CNBC",
+      "time": "05:00",
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+    },
+    {
+      "title": "CNN live on USS Abraham Lincoln as Iran war escalates - CNN",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "CNN live on USS Abraham Lincoln as Iran war escalates - CNN",
+      "time": "05:00",
+      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+    },
+    {
+      "title": "Traders Are Most Positive on Dollar Since 2015 as Fed Hike Looms - Bloomberg",
+      "impact": "neutral",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "隨著聯準會升息的臨近，交易者對美元自 2015 年以來最為樂觀 - 彭博社",
+      "time": "04:00",
+      "detected_at": "2026-07-09T04:00:23.498287+08:00"
+    },
+    {
+      "title": "LNG Tanker Attack Threatens Qatar’s Efforts to Revive Hormuz Exports - Bloomberg",
+      "impact": "neutral",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "液化天然氣油輪襲擊威脅卡達振興霍爾木茲出口的努力 - 彭博社",
+      "time": "04:00",
+      "detected_at": "2026-07-09T04:00:23.498287+08:00"
+    },
+    {
+      "title": "IMF expects world economy to grow a sluggish 3% this year, weighed down by Iran war but helped by AI - AP News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "國際貨幣基金組織預計，今年世界經濟將成長 3%，受到伊朗戰爭的拖累，但受到人工智慧的幫助 - 美聯社新聞",
+      "time": "04:00",
+      "detected_at": "2026-07-09T04:00:23.498287+08:00"
+    },
+    {
+      "title": "The Strait of Hormuz Already Faces a Tough Recovery. Now Trump’s Iran Deal Is Unraveling. - Council on Foreign Relations",
+      "impact": "bullish",
+      "source": "Geopolitical",
+      "title_cn": "霍爾木茲海峽已經面臨艱難的復甦",
+      "time": "04:00",
+      "detected_at": "2026-07-09T04:00:23.498287+08:00"
+    },
+    {
+      "title": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "油輪遇襲後美國撤銷伊朗石油銷售授權",
-      "time": "04:00",
-      "detected_at": "2026-07-08T04:00:18.555343+08:00"
+      "title_cn": "川普表示，隨著霍爾木茲海峽衝突加深，他「不確定」是否希望與伊朗達成協議",
+      "time": "03:00",
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     },
     {
-      "title": "Dow falls back below 53,000, Nasdaq loses 1% as chip stocks tank, oil spikes: Live updates",
-      "impact": "bearish",
-      "source": "CNBC-World",
-      "title_cn": "道瓊指數回落至 53,000 點下方，那斯達克指數因晶片股下跌而下跌 1%，油價飆升：即時更新",
-      "time": "04:00",
-      "detected_at": "2026-07-08T04:00:18.555343+08:00"
-    },
-    {
-      "title": "Oil prices gain as UKMTO says tanker struck by projectile in Hormuz - Investing.com",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "title_cn": "UKMTO稱油輪在霍爾木茲被彈丸擊中，油價上漲 - Investing.com UKMTO 稱油輪在霍爾木茲被射彈擊中，油價上漲 Investing.com",
-      "time": "04:00",
-      "detected_at": "2026-07-08T04:00:18.555343+08:00"
-    },
-    {
-      "title": "Three tankers hit in the Strait of Hormuz as US revokes license authorizing sale of Iranian oil - AP News",
+      "title": "Fed officials were split on direction of interest rates at last meeting, minutes show",
       "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "美聯社新聞稱，美國吊銷了授權出售伊朗石油的許可證，三艘油輪在霍爾木茲海峽遭遇攻擊",
-      "time": "04:00",
-      "detected_at": "2026-07-08T04:00:18.555343+08:00"
-    },
-    {
-      "title": "Strait of Hormuz threat level raised to 'severe' after Iran attacks tankers using U.S. Navy route - CNBC",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "伊朗利用美國海軍航線襲擊油輪後，霍爾木茲海峽的威脅等級升至「嚴重」 - CNBC",
-      "time": "04:00",
-      "detected_at": "2026-07-08T04:00:18.555343+08:00"
-    },
-    {
-      "title": "Strait of Hormuz threat level raised to 'severe' after Iran attacks tankers using U.S. Navy route",
-      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "伊朗襲擊使用美國海軍航線的油輪後，霍爾木茲海峽的威脅等級升至「嚴重」",
+      "title_cn": "會議紀錄顯示，聯準會官員在上次會議上對利率方向有分歧",
       "time": "03:00",
-      "detected_at": "2026-07-08T03:00:20.821538+08:00"
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     },
     {
-      "title": "Three tankers hit in latest attacks in the Strait of Hormuz, British military says - AP News",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "英國軍方稱，三艘油輪在霍爾木茲海峽最近的襲擊中被擊中 - 美聯社新聞",
-      "time": "03:00",
-      "detected_at": "2026-07-08T03:00:20.821538+08:00"
-    },
-    {
-      "title": "Dozens of countries have lowered energy taxes or taken other policy steps in response to Iran war - Pew Research Center",
+      "title": "A &#x2018;few&#x2019; Fed officials said there was a case for a rate hike in June, minutes from Warsh&#x2019;s first meeting show",
       "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "皮尤研究中心稱，數十個國家已降低能源稅或採取其他政策措施來應對伊朗戰爭",
+      "source": "MarketWatch",
+      "title_cn": "「一些」沃什第一次會議紀錄顯示，聯準會官員表示，6 月有升息的理由",
       "time": "03:00",
-      "detected_at": "2026-07-08T03:00:20.821538+08:00"
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     },
     {
-      "title": "Oil prices rise as attacks revive safety concerns in the Strait of Hormuz - NBC News",
+      "title": "Oil surges as Strait of Hormuz is back into &#x2018;full conflict conditions&#x2019;",
       "impact": "bullish",
-      "source": "Geopolitical",
-      "title_cn": "霍爾木茲海峽的襲擊事件再次引發安全擔憂，油價上漲 - NBC 新聞",
+      "source": "MarketWatch",
+      "title_cn": "隨著霍爾木茲海峽重新陷入“全面衝突狀態”，石油價格飆升",
       "time": "03:00",
-      "detected_at": "2026-07-08T03:00:20.821538+08:00"
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     },
     {
-      "title": "Indiana farmers already faced a hard financial year. The Iran war made it worse. - wndu.com",
+      "title": "Trump threatens Iran with more strikes but says recent fighting does not mean a return to war - AP News",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "印第安納州的農民已經面臨艱難的財政年度",
+      "title_cn": "川普威脅對伊朗發動更多打擊，但表示最近的戰鬥並不意味著戰爭會重新爆發——美聯社新聞",
       "time": "03:00",
-      "detected_at": "2026-07-08T03:00:20.821538+08:00"
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     },
     {
-      "title": "Oil rises more than $1/bbl as OPEC+ mulls extending output cuts - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "OPEC+ 考慮延長減產，油價上漲逾 1 美元/桶 - 路透社OPEC+考慮延長減產，油價上漲逾 1 美元/桶 路透",
-      "time": "02:00",
-      "detected_at": "2026-07-08T02:00:16.630733+08:00"
+      "title": "Trump Strikes Iran and Threatens War Crimes — Again - Mother Jones",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "Trump Strikes Iran and Threatens War Crimes — Again - Mother Jones",
+      "time": "03:00",
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     },
     {
-      "title": "Oil prices slip 1% to two-week low on recession worries - Reuters",
+      "title": "Trump rejects Iran war restart after calling peace agreement ‘waste’ - NewsNation",
       "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "因經濟衰退擔憂，油價下跌 1% 至兩週低點 - 路透社",
-      "time": "02:00",
-      "detected_at": "2026-07-08T02:00:16.630733+08:00"
-    },
-    {
-      "title": "Fed reform may move markets more than Powell ouster - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "聯準會改革可能比鮑威爾下台更能推動市場 - 路透中文網聯準會改革可能比鮑威爾下台對市場的影響更大&nbsp;&nbsp;路透",
-      "time": "02:00",
-      "detected_at": "2026-07-08T02:00:16.630733+08:00"
-    },
-    {
-      "title": "Oil prices slide 1% after U.S. Fed raises interest rates - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "聯準會升息後油價下跌 1% - 路透社",
-      "time": "02:00",
-      "detected_at": "2026-07-08T02:00:16.630733+08:00"
+      "source": "Geopolitical",
+      "title_cn": "Trump rejects Iran war restart after calling peace agreement ‘waste’ - NewsNation",
+      "time": "03:00",
+      "detected_at": "2026-07-09T03:00:20.930318+08:00"
     }
   ]
 }
