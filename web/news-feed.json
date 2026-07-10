@@ -1,167 +1,167 @@
 {
-  "date": "2026-07-09",
-  "fetched_at": "2026-07-09 07:07",
+  "date": "2026-07-10",
+  "fetched_at": "2026-07-10 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "U.S. military launches new Iran strikes as Trump says 'not sure' he wants deal",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "川普表示「不確定」他是否希望達成協議，美國軍方對伊朗發動了新的打擊",
+      "title": "A slower AI payoff risks tipping the economy into recession, Apollo says",
+      "impact": "bearish",
+      "source": "MarketWatch",
+      "title_cn": "阿波羅表示，人工智慧回報放緩可能導致經濟陷入衰退",
       "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+      "detected_at": "2026-07-10T05:00:17.516990+08:00"
     },
     {
-      "title": "Dow slides more than 570 points as oil spikes and Trump threatens another attack on Iran: Live updates",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "隨著油價飆升以及川普威脅再次襲擊伊朗：即時更新，道瓊斯指數下跌超過 570 點",
+      "title": "Rogan: Trump ‘might’ve f‑‑‑ed it up’ with Iran war - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "羅根：川普可能對伊朗戰爭「搞砸了」——國會山莊",
       "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+      "detected_at": "2026-07-10T05:00:17.516990+08:00"
     },
     {
-      "title": "US reinstates sanctions on Iranian oil sales after LNG, oil tanker attacks - Reuters",
+      "title": "Trump reopens the Iran war — and a political problem he can’t shake - The Washington Post",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普重新開啟伊朗戰爭──這是他無法擺脫的政治議題──《華盛頓郵報》",
+      "time": "04:00",
+      "detected_at": "2026-07-10T04:00:16.081547+08:00"
+    },
+    {
+      "title": "Iran War sees surge of US-led strikes - USA Today",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "伊朗戰爭導緻美國領導的襲擊激增 - 《今日美國》",
+      "time": "04:00",
+      "detected_at": "2026-07-10T04:00:16.081547+08:00"
+    },
+    {
+      "title": "Kalshi traders see roughly 50% odds of a rate hike in 2026 as Fed is split on policy",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "由於聯準會在政策上存在分歧，Kalshi 交易員預計 2026 年升息的可能性約為 50%",
+      "time": "03:00",
+      "detected_at": "2026-07-10T03:00:21.000825+08:00"
+    },
+    {
+      "title": "Fed's Williams expects energy prices to abate even as Iran war flares - Reuters",
       "impact": "bearish",
       "source": "Reuters-Biz",
-      "title_cn": "液化天然氣和油輪遇襲後，美國恢復對伊朗石油銷售的製裁 - 路透社",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
+      "title_cn": "聯準會威廉斯預計，即使伊朗戰爭爆發，能源價格也會下跌 - 路透社",
+      "time": "03:00",
+      "detected_at": "2026-07-10T03:00:21.000825+08:00"
     },
     {
-      "title": "The Strait of Hormuz is back under &#x2018;full-conflict conditions&#x2019; &#x2014; and energy markets are scrambling",
-      "impact": "bullish",
-      "source": "MarketWatch",
-      "title_cn": "霍尔木兹海峡再次陷入“全面冲突”状态&#x2014;能源市场正陷入混乱",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
-    },
-    {
-      "title": "Wall Street ends lower, Nasdaq drops 1% as AI trade takes a hit, oil prices spike - Investing.com",
+      "title": "Oil prices fall more than 2% as mediators try to prevent U.S. and Iran from returning to war",
       "impact": "bearish",
-      "source": "Investing.com",
-      "title_cn": "由於人工智慧交易受到打擊，油價飆升，華爾街收低，納斯達克指數下跌 1% - Investing.com",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
-    },
-    {
-      "title": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "Oil prices spike 5% as tensions escalate after fresh attacks on ships in the Gulf - Investing.com",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
-    },
-    {
-      "title": "Iran war: US launches new round of strikes on Iran - DW.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Iran war: US launches new round of strikes on Iran - DW.com",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
-    },
-    {
-      "title": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens - CNBC",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens - CNBC",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
-    },
-    {
-      "title": "CNN live on USS Abraham Lincoln as Iran war escalates - CNN",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "CNN live on USS Abraham Lincoln as Iran war escalates - CNN",
-      "time": "05:00",
-      "detected_at": "2026-07-09T05:00:22.708175+08:00"
-    },
-    {
-      "title": "Traders Are Most Positive on Dollar Since 2015 as Fed Hike Looms - Bloomberg",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "隨著聯準會升息的臨近，交易者對美元自 2015 年以來最為樂觀 - 彭博社",
-      "time": "04:00",
-      "detected_at": "2026-07-09T04:00:23.498287+08:00"
-    },
-    {
-      "title": "LNG Tanker Attack Threatens Qatar’s Efforts to Revive Hormuz Exports - Bloomberg",
-      "impact": "neutral",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "液化天然氣油輪襲擊威脅卡達振興霍爾木茲出口的努力 - 彭博社",
-      "time": "04:00",
-      "detected_at": "2026-07-09T04:00:23.498287+08:00"
-    },
-    {
-      "title": "IMF expects world economy to grow a sluggish 3% this year, weighed down by Iran war but helped by AI - AP News",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "國際貨幣基金組織預計，今年世界經濟將成長 3%，受到伊朗戰爭的拖累，但受到人工智慧的幫助 - 美聯社新聞",
-      "time": "04:00",
-      "detected_at": "2026-07-09T04:00:23.498287+08:00"
-    },
-    {
-      "title": "The Strait of Hormuz Already Faces a Tough Recovery. Now Trump’s Iran Deal Is Unraveling. - Council on Foreign Relations",
-      "impact": "bullish",
-      "source": "Geopolitical",
-      "title_cn": "霍爾木茲海峽已經面臨艱難的復甦",
-      "time": "04:00",
-      "detected_at": "2026-07-09T04:00:23.498287+08:00"
-    },
-    {
-      "title": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens",
-      "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "川普表示，隨著霍爾木茲海峽衝突加深，他「不確定」是否希望與伊朗達成協議",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
+      "title_cn": "由於調解人試圖阻止美國和伊朗重返戰爭，油價下跌超過 2%",
+      "time": "02:00",
+      "detected_at": "2026-07-10T02:00:20.611442+08:00"
     },
     {
-      "title": "Fed officials were split on direction of interest rates at last meeting, minutes show",
+      "title": "Oil prices slide over 1% as US-Iran conflict clouds Hormuz reopening - Reuters",
       "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "路透社稱，由於美伊衝突使霍爾木茲海峽重新開放蒙上陰影，油價下跌超過 1%",
+      "time": "02:00",
+      "detected_at": "2026-07-10T02:00:20.611442+08:00"
+    },
+    {
+      "title": "Oil prices slide over 1% as US-Iran conflict clouds Hormuz reopening By Reuters - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "（Oil prices slide over 1% as US-Iran conflict clouds Hormuz r）",
+      "time": "02:00",
+      "detected_at": "2026-07-10T02:00:20.611442+08:00"
+    },
+    {
+      "title": "Carney Gets High Marks on Economy Despite Recession Talk, Poll Says - Bloomberg.com",
+      "impact": "bearish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "民調顯示，儘管有經濟衰退的言論，卡尼在經濟方面仍獲得高分 - Bloomberg.com",
+      "time": "02:00",
+      "detected_at": "2026-07-10T02:00:20.611442+08:00"
+    },
+    {
+      "title": "Rogan: Trump ‘might’ve f—ed it up’ with Iran war - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "羅根：川普可能對伊朗戰爭「搞砸了」 - 國會山莊",
+      "time": "02:00",
+      "detected_at": "2026-07-10T02:00:20.611442+08:00"
+    },
+    {
+      "title": "The Iran war's limited boost for energy transition - Axios",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "The Iran war's limited boost for energy transition - Axios",
+      "time": "02:00",
+      "detected_at": "2026-07-10T02:00:20.611442+08:00"
+    },
+    {
+      "title": "EU drafts 'electrification' plan to curb oil and gas use, after Iran war disruption - Reuters",
+      "impact": "bearish",
+      "source": "Reuters-Biz",
+      "title_cn": "伊朗戰爭中斷後，歐盟起草「電氣化」計畫以限製石油和天然氣的使用 - 路透社",
+      "time": "01:00",
+      "detected_at": "2026-07-10T01:00:18.269514+08:00"
+    },
+    {
+      "title": "Oil prices fall as market bets U.S.-Iran fighting won't escalate into wider war",
+      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "會議紀錄顯示，聯準會官員在上次會議上對利率方向有分歧",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
+      "title_cn": "由於市場押注美國與伊朗的戰鬥不會升級為更廣泛的戰爭，油價下跌",
+      "time": "00:00",
+      "detected_at": "2026-07-10T00:00:19.461661+08:00"
     },
     {
-      "title": "A &#x2018;few&#x2019; Fed officials said there was a case for a rate hike in June, minutes from Warsh&#x2019;s first meeting show",
-      "impact": "bearish",
-      "source": "MarketWatch",
-      "title_cn": "「一些」沃什第一次會議紀錄顯示，聯準會官員表示，6 月有升息的理由",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
-    },
-    {
-      "title": "Oil surges as Strait of Hormuz is back into &#x2018;full conflict conditions&#x2019;",
+      "title": "Bank of America's No. 1 way to play the Strait of Hormuz closing again",
       "impact": "bullish",
-      "source": "MarketWatch",
-      "title_cn": "隨著霍爾木茲海峽重新陷入“全面衝突狀態”，石油價格飆升",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
+      "source": "CNBC",
+      "title_cn": "美國銀行應對霍爾木茲海峽再次關閉的第一要務",
+      "time": "00:00",
+      "detected_at": "2026-07-10T00:00:19.461661+08:00"
     },
     {
-      "title": "Trump threatens Iran with more strikes but says recent fighting does not mean a return to war - AP News",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "川普威脅對伊朗發動更多打擊，但表示最近的戰鬥並不意味著戰爭會重新爆發——美聯社新聞",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
-    },
-    {
-      "title": "Trump Strikes Iran and Threatens War Crimes — Again - Mother Jones",
+      "title": "US-Iran war leaves shipping at near-standstill in Hormuz again - UN News",
       "impact": "neutral",
       "source": "Geopolitical",
-      "title_cn": "Trump Strikes Iran and Threatens War Crimes — Again - Mother Jones",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
+      "title_cn": "美伊戰爭導致霍爾木茲航運再次接近停滯 - 聯合國新聞",
+      "time": "00:00",
+      "detected_at": "2026-07-10T00:00:19.461661+08:00"
     },
     {
-      "title": "Trump rejects Iran war restart after calling peace agreement ‘waste’ - NewsNation",
+      "title": "Tanker traffic through Strait of Hormuz slows after Iranian attacks trigger renewed fighting with U.S.",
       "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "伊朗襲擊引發與美國新一輪交戰後，通過霍爾木茲海峽的油輪運輸放緩",
+      "time": "23:00",
+      "detected_at": "2026-07-09T23:00:27.235270+08:00"
+    },
+    {
+      "title": "Oil tanker traffic through Hormuz at near standstill as attacks strain Iran truce - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "路透社稱，由於攻擊事件導致伊朗停戰協議緊張，通過霍爾木茲的油輪交通幾乎停滯",
+      "time": "23:00",
+      "detected_at": "2026-07-09T23:00:27.235270+08:00"
+    },
+    {
+      "title": "Iran strikes two tankers in Strait of Hormuz - Semafor",
+      "impact": "neutral",
+      "source": "Semafor",
+      "title_cn": "伊朗在霍爾木茲海峽襲擊了兩艘油輪 - Semafor",
+      "time": "23:00",
+      "detected_at": "2026-07-09T23:00:27.235270+08:00"
+    },
+    {
+      "title": "US and Iran exchange more attacks across the Mideast, threatening ceasefire deal - AP News",
+      "impact": "neutral",
       "source": "Geopolitical",
-      "title_cn": "Trump rejects Iran war restart after calling peace agreement ‘waste’ - NewsNation",
-      "time": "03:00",
-      "detected_at": "2026-07-09T03:00:20.930318+08:00"
+      "title_cn": "美國和伊朗在中東地區發生更多攻擊，威脅達成停火協議 - 美聯社新聞",
+      "time": "23:00",
+      "detected_at": "2026-07-09T23:00:27.235270+08:00"
     }
   ]
 }

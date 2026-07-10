@@ -1,20 +1,37 @@
 {
-  "date": "2026-07-07",
-  "generated_at": "2026-07-07 04:00",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10 04:00",
   "next_fomc": {
     "date": "2026-07-29",
-    "days_away": 22,
-    "label": "下次 FOMC：07/29（22天後）"
+    "days_away": 19,
+    "label": "下次 FOMC：07/29（19天後）"
   },
-  "next_7_days": [],
+  "next_7_days": [
+    {
+      "date": "2026-07-15",
+      "event": "CPI（6月）",
+      "importance": "high",
+      "source": "BLS",
+      "days_away": 5,
+      "label": "🔴 CPI（6月）（5天後）",
+      "impact_guide": {
+        "name": "消費者物價指數",
+        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
+        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
+        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
+      },
+      "previous": "4.3%",
+      "previous_date": "2026-05-01"
+    }
+  ],
   "next_14_days": [
     {
       "date": "2026-07-15",
       "event": "CPI（6月）",
       "importance": "high",
       "source": "BLS",
-      "days_away": 8,
-      "label": "🔴 CPI（6月）（8天後）",
+      "days_away": 5,
+      "label": "🔴 CPI（6月）（5天後）",
       "impact_guide": {
         "name": "消費者物價指數",
         "above": "通膨高於預期 → 升息預期升溫 → 偏空",
