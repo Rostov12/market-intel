@@ -1,11 +1,5 @@
 [
   {
-    "date": "2026-03-19（抓取 2026-03-18 數據）",
-    "margin_balance": 393467032,
-    "margin_units": 8074444,
-    "short_balance": 215077
-  },
-  {
     "date": "2026-03-20（抓取 2026-03-19 數據）",
     "margin_balance": 399772079,
     "margin_units": 8109019,
@@ -358,5 +352,11 @@
     "margin_balance": 610945242,
     "margin_units": 9531898,
     "short_balance": 213844
+  },
+  {
+    "date": "2026-07-10（抓取 2026-07-09 數據）",
+    "margin_balance": 613815722,
+    "margin_units": 9590604,
+    "short_balance": 205830
   }
 ]
