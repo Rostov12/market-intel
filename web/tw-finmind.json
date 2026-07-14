@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-10",
-  "generated_at": "2026-07-10 17:37",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13 17:37",
   "stocks": {
     "009816": {
       "name": "凱基台灣TOP50 ETF",
@@ -16,10 +16,10 @@
         "margin_change": -24
       },
       "institutional": {
-        "foreign_net": 5676508,
+        "foreign_net": -8216092,
         "trust_net": 0,
-        "dealer_net": -24731196,
-        "date": "2026-07-09"
+        "dealer_net": -37943381,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -41,10 +41,10 @@
         "margin_change": -4
       },
       "institutional": {
-        "foreign_net": 9220,
+        "foreign_net": -100874,
         "trust_net": 0,
-        "dealer_net": -432678,
-        "date": "2026-07-09"
+        "dealer_net": 488480,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -66,10 +66,10 @@
         "margin_change": 778
       },
       "institutional": {
-        "foreign_net": -12748541,
-        "dealer_net": 89863,
-        "trust_net": 43225,
-        "date": "2026-07-09"
+        "foreign_net": -2044802,
+        "trust_net": 530076,
+        "dealer_net": 622810,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -91,10 +91,10 @@
         "margin_change": 7
       },
       "institutional": {
-        "foreign_net": -69911,
-        "trust_net": 51600,
-        "dealer_net": 6032,
-        "date": "2026-07-09"
+        "foreign_net": -48218,
+        "trust_net": 24207,
+        "dealer_net": -214,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -116,10 +116,10 @@
         "margin_change": -49
       },
       "institutional": {
-        "foreign_net": -205622,
-        "dealer_net": -37077,
-        "trust_net": 90050,
-        "date": "2026-07-09"
+        "foreign_net": -63383,
+        "trust_net": -63541,
+        "dealer_net": -96515,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -141,10 +141,10 @@
         "margin_change": -34
       },
       "institutional": {
-        "foreign_net": -453275,
-        "trust_net": 84000,
-        "dealer_net": 191,
-        "date": "2026-07-09"
+        "foreign_net": -291875,
+        "trust_net": 52308,
+        "dealer_net": 21385,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -166,10 +166,10 @@
         "margin_change": 111
       },
       "institutional": {
-        "foreign_net": -411623,
-        "trust_net": 100000,
-        "dealer_net": -11328,
-        "date": "2026-07-09"
+        "foreign_net": 290099,
+        "trust_net": 120000,
+        "dealer_net": -59245,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -191,10 +191,10 @@
         "margin_change": 1082
       },
       "institutional": {
-        "foreign_net": -5611868,
-        "dealer_net": 78296,
-        "trust_net": 2705259,
-        "date": "2026-07-09"
+        "foreign_net": -1793611,
+        "trust_net": 1498619,
+        "dealer_net": 47688,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -216,10 +216,10 @@
         "margin_change": 386
       },
       "institutional": {
-        "foreign_net": -2696776,
-        "trust_net": -3000,
-        "dealer_net": -267845,
-        "date": "2026-07-09"
+        "foreign_net": -5740964,
+        "trust_net": -159000,
+        "dealer_net": -20060,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -241,10 +241,10 @@
         "margin_change": 60
       },
       "institutional": {
-        "foreign_net": -1974700,
-        "trust_net": 0,
-        "dealer_net": -93267,
-        "date": "2026-07-09"
+        "foreign_net": -244173,
+        "trust_net": 9000,
+        "dealer_net": -264204,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -266,10 +266,10 @@
         "margin_change": 3562
       },
       "institutional": {
-        "foreign_net": 9364709,
-        "trust_net": -1000,
-        "dealer_net": 505352,
-        "date": "2026-07-09"
+        "foreign_net": -8155908,
+        "trust_net": 2005000,
+        "dealer_net": -356811,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -291,10 +291,10 @@
         "margin_change": 19
       },
       "institutional": {
-        "foreign_net": -50961,
-        "trust_net": 3000,
-        "dealer_net": -3798,
-        "date": "2026-07-09"
+        "foreign_net": -159609,
+        "trust_net": 52000,
+        "dealer_net": -10138,
+        "date": "2026-07-13"
       },
       "foreign_holding": {
         "date": "2026-07-09",
@@ -304,11 +304,6 @@
     }
   },
   "market_margin_trend": [
-    {
-      "date": "2026-07-03",
-      "margin_balance": 630812485000,
-      "short_balance": 0
-    },
     {
       "date": "2026-07-06",
       "margin_balance": 631344856000,
