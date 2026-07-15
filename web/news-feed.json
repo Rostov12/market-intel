@@ -1,167 +1,167 @@
 {
-  "date": "2026-07-14",
-  "fetched_at": "2026-07-14 07:07",
+  "date": "2026-07-15",
+  "fetched_at": "2026-07-15 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
-    {
-      "title": "Stocks end lower as oil prices surge on renewed Hormuz tensions, SK Hynix leads chip stock sell-off",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "由於霍爾木茲緊張局勢再升級，油價飆升，股市收低，SK 海力士引領晶片股拋售",
-      "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
-    },
     {
       "title": "Fed's Waller says rate hike may be needed if core inflation stays hot - Reuters",
       "impact": "bearish",
       "source": "Reuters-Biz",
       "title_cn": "聯準會沃勒表示，如果核心通膨持續走高，可能需要升息 - 路透中文網聯準會沃勒表示，如果核心通膨持續走高，可能需要升息 路透",
       "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
     },
     {
-      "title": "Trump formally informs Congress of Iran war resumption - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "川普正式通知國會伊朗戰爭重啟 - 國會山莊",
-      "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
-    },
-    {
-      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Encyclopedia Britannica",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "2026年伊朗戰爭|交易解釋、美國、以色列、霍爾木茲海峽、地圖和衝突 - 大英百科全書",
-      "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
-    },
-    {
-      "title": "‘Iran War Participation Trophy’ on National Mall mocks Trump - The Washington Post",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "國家廣場上的「伊朗戰爭參與獎盃」嘲笑川普——《華盛頓郵報》",
-      "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
-    },
-    {
-      "title": "Texas oil firms increase production, amidst elevated prices during U.S.-Iran War - Houston Public Media",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Texas oil firms increase production, amidst elevated prices during U.S.-Iran War - Houston Public Media",
-      "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
-    },
-    {
-      "title": "Iran war highlights the vulnerabilities of AI data centers - dw.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "Iran war highlights the vulnerabilities of AI data centers - dw.com",
-      "time": "05:00",
-      "detected_at": "2026-07-14T05:00:18.596872+08:00"
-    },
-    {
-      "title": "Oil prices jump more than 9% after Trump reinstates Strait of Hormuz blockade on Iranian ships",
-      "impact": "neutral",
-      "source": "CNBC-World",
-      "title_cn": "特朗普恢复对伊朗船只的霍尔木兹海峡封锁后，油价上涨逾 9%",
-      "time": "04:00",
-      "detected_at": "2026-07-14T04:00:16.582647+08:00"
-    },
-    {
-      "title": "Oil up 9% to one-month high as US says it will blockade entire Iranian coastline, all vessels - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "（Oil up 9% to one-month high as US says it will blockade enti）",
-      "time": "04:00",
-      "detected_at": "2026-07-14T04:00:16.582647+08:00"
-    },
-    {
-      "title": "Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "全球油價突破每桶 83 美元，創下川普重新實施霍爾木茲海峽封鎖後 6 年來的最大漲幅",
-      "time": "04:00",
-      "detected_at": "2026-07-14T04:00:16.582647+08:00"
-    },
-    {
-      "title": "UN maritime agency opposes Hormuz transit fees after Trump demands protection money",
-      "impact": "neutral",
-      "source": "CNBC",
-      "title_cn": "在川普要求保護費後，聯合國海事機構反對霍爾木茲過境費",
-      "time": "03:00",
-      "detected_at": "2026-07-14T03:00:20.795282+08:00"
-    },
-    {
-      "title": "Global oil prices top $82 a barrel, heading for biggest jump in 3 months after Trump reimposes Strait of Hormuz blockade",
-      "impact": "neutral",
-      "source": "MarketWatch",
-      "title_cn": "川普重新實施霍爾木茲海峽封鎖後，全球油價突破每桶 82 美元，創 3 個月來最大漲幅",
-      "time": "03:00",
-      "detected_at": "2026-07-14T03:00:20.795282+08:00"
-    },
-    {
-      "title": "US and Iran trade fire as tensions rise over Strait of Hormuz - BBC",
+      "title": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption By Reuters - Investing.com",
       "impact": "bullish",
-      "source": "Geopolitical",
-      "title_cn": "隨著霍爾木茲海峽緊張局勢升級，美國和伊朗交火 - BBC",
-      "time": "03:00",
-      "detected_at": "2026-07-14T03:00:20.795282+08:00"
-    },
-    {
-      "title": "Political Scientist Dominic Tierney Says Iran War Another Example of U.S. Military Quagmire :: News & Events - Swarthmore College",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "政治學家多明尼克·蒂爾尼稱伊朗戰爭是美國軍事泥潭的另一個例子 :: 新聞與活動 - 斯沃斯莫爾學院",
-      "time": "03:00",
-      "detected_at": "2026-07-14T03:00:20.795282+08:00"
-    },
-    {
-      "title": "Opinion | Iran war is no longer a contest over just the Strait of Hormuz - South China Morning Post",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "意見 | 《南華早報》稱，伊朗戰爭不再只是霍爾木茲海峽的爭奪",
-      "time": "03:00",
-      "detected_at": "2026-07-14T03:00:20.795282+08:00"
-    },
-    {
-      "title": "A July rate hike from the Fed? The odds are rising",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "聯準會7月升息？幾率正在上升",
-      "time": "02:00",
-      "detected_at": "2026-07-14T02:00:20.462278+08:00"
-    },
-    {
-      "title": "Oil prices jump nearly 8% after Trump reinstates Strait of Hormuz blockade on Iranian ships",
-      "impact": "neutral",
-      "source": "CNBC-World",
-      "title_cn": "川普恢復伊朗船隻的霍爾木茲海峽封鎖後，油價上漲近 8%",
-      "time": "02:00",
-      "detected_at": "2026-07-14T02:00:20.462278+08:00"
+      "source": "Investing.com",
+      "title_cn": "美伊襲擊加劇供應中斷，油價上漲 2% 至一個月高點 路透社 - Investing.com美伊襲擊加劇供應中斷，油價上漲 2% 至一個月高點 路透 Investing.com",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
     },
     {
       "title": "Gold Declines as Renewed US-Iran Strikes Raise Rate-Hike Bets - Bloomberg.com",
       "impact": "bearish",
       "source": "Bloomberg-via-GN",
       "title_cn": "隨著美國和伊朗再次罷工增加升息押注，金價下跌 - Bloomberg.com",
-      "time": "02:00",
-      "detected_at": "2026-07-14T02:00:20.462278+08:00"
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
     },
     {
-      "title": "Carney Gets High Marks on Economy Despite Recession Talk, Poll Says - Bloomberg.com",
+      "title": "Senate Dems block defense bill in protest of Iran war - Politico",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "民調顯示，儘管有經濟衰退的言論，卡尼在經濟方面仍獲得高分 - Bloomberg.com",
-      "time": "02:00",
-      "detected_at": "2026-07-14T02:00:20.462278+08:00"
+      "source": "Geopolitical",
+      "title_cn": "參議院民主黨阻止國防法案以抗議伊朗戰爭 - Politico",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
     },
     {
-      "title": "Iran strikes two tankers in Strait of Hormuz - Semafor",
+      "title": "US military restores blockade in response to Iran’s attacks on ships on the Strait of Hormuz - AP News",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "美國軍方恢復封鎖，以回應伊朗襲擊霍爾木茲海峽的船隻 - 美聯社新聞",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+    },
+    {
+      "title": "Senate Democrats block defence bill over Iran war, Israel provisions - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Senate Democrats block defence bill over Iran war, Israel provisions - Al Jazeera",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+    },
+    {
+      "title": "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping - Al Jazeera",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping - Al Jazeera",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+    },
+    {
+      "title": "Senate Democrats block must-pass defense policy bill over Iran war objections - CBS News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "Senate Democrats block must-pass defense policy bill over Iran war objections - CBS News",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+    },
+    {
+      "title": "油價大跌送大禮！美6月CPI意外全面降溫 Fed本月升息壓力減輕 - news.cnyes.com",
+      "impact": "bearish",
+      "source": "鉅亨網",
+      "title_cn": "油價大跌送大禮！美6月CPI意外全面降溫 Fed本月升息壓力減輕 - news.cnyes.com",
+      "time": "05:00",
+      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+    },
+    {
+      "title": "U.S. strikes Iran before Hormuz Strait blockade restarts",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "美國在霍爾木茲海峽封鎖重啟之前襲擊伊朗",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "隨著美國對伊朗發動新的空襲，而川普放棄霍爾木茲海峽費用，油價上漲",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption - Reuters",
+      "impact": "bullish",
+      "source": "Reuters-Biz",
+      "title_cn": "路透社稱，隨著美國和伊朗的攻擊加劇供應中斷，油價上漲 2%，至一個月高點",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Oil up 9% to one-month high as US says it will blockade entire Iranian coastline, all vessels - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "油價上漲 9%，創一個月高位，因美國表示將封鎖伊朗整個海岸線和所有船隻 - 路透社",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Global oil prices notch back-to-back rise, remain &#x2018;tethered to the Hormuz narrative&#x2019;",
+      "impact": "bullish",
+      "source": "MarketWatch",
+      "title_cn": "全球油價連續上漲，仍然「與霍爾木茲的敘事掛鉤」",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Oil at one-month high as U.S.-Iran strikes continue; Trump scraps Hormuz fee plan - Investing.com",
+      "impact": "neutral",
+      "source": "Investing.com",
+      "title_cn": "Oil at one-month high as U.S.-Iran strikes continue; Trump scraps Hormuz fee plan - Investing.com",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Trump announces new blockade, Hormuz fee - Semafor",
       "impact": "neutral",
       "source": "Semafor",
-      "title_cn": "伊朗在霍爾木茲海峽襲擊了兩艘油輪 - Semafor",
-      "time": "02:00",
-      "detected_at": "2026-07-14T02:00:20.462278+08:00"
+      "title_cn": "Trump announces new blockade, Hormuz fee - Semafor",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "The Iran War Is Almost Over. The Iran War Will Never End - Rolling Stone",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "The Iran War Is Almost Over. The Iran War Will Never End - Rolling Stone",
+      "time": "04:00",
+      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+    },
+    {
+      "title": "Oil hits one-month high as US-Iran attacks deepen supply disruption - Reuters",
+      "impact": "neutral",
+      "source": "Reuters-Biz",
+      "title_cn": "路透社稱，隨著美國和伊朗的攻擊加劇供應中斷，油價觸及一個月高點",
+      "time": "03:00",
+      "detected_at": "2026-07-15T03:00:23.222876+08:00"
+    },
+    {
+      "title": "Trump pivots from 20 percent Strait of Hormuz fee amid Iran war escalation - Al Jazeera",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "在伊朗戰爭升級之際，川普放棄了 20% 的霍爾木茲海峽費 - 半島電視台",
+      "time": "03:00",
+      "detected_at": "2026-07-15T03:00:23.222876+08:00"
+    },
+    {
+      "title": "Watch live: Trump meets Iraqi prime minister as Iran war intensifies - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "觀看直播：隨著伊朗戰爭加劇，川普會見伊拉克總理 - 國會山莊",
+      "time": "03:00",
+      "detected_at": "2026-07-15T03:00:23.222876+08:00"
     }
   ]
 }
