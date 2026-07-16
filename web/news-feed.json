@@ -1,167 +1,167 @@
 {
-  "date": "2026-07-15",
-  "fetched_at": "2026-07-15 07:07",
+  "date": "2026-07-16",
+  "fetched_at": "2026-07-16 07:07",
   "mode": "bridge_from_breaking_news",
   "news": [
     {
-      "title": "Fed's Waller says rate hike may be needed if core inflation stays hot - Reuters",
+      "title": "Trump says Iran wants to meet as U.S. fires more strikes; analysts warn of 'forever war' risk",
+      "impact": "bearish",
+      "source": "CNBC-World",
+      "title_cn": "川普表示，隨著美國發動更多攻擊，伊朗希望會面；分析人士警告稱，存在「永遠的戰爭」風險",
+      "time": "05:00",
+      "detected_at": "2026-07-16T05:00:16.841447+08:00"
+    },
+    {
+      "title": "Western Fuel Markets Flash Record Tightness on Hormuz Escalation - Bloomberg.com",
+      "impact": "bullish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "霍爾木茲海峽升級導致西方燃料市場緊張程度創歷史新高 - Bloomberg.com",
+      "time": "05:00",
+      "detected_at": "2026-07-16T05:00:16.841447+08:00"
+    },
+    {
+      "title": "US strikes Iran again as Tehran warns of 'existential war' with America - Reuters",
+      "impact": "neutral",
+      "source": "Geopolitical",
+      "title_cn": "德黑蘭警告與美國發生“生存戰爭”，美國再次襲擊伊朗 - 路透社",
+      "time": "05:00",
+      "detected_at": "2026-07-16T05:00:16.841447+08:00"
+    },
+    {
+      "title": "Traders expect Fed to skip July rate hike as inflation cools - Reuters",
       "impact": "bearish",
       "source": "Reuters-Biz",
-      "title_cn": "聯準會沃勒表示，如果核心通膨持續走高，可能需要升息 - 路透中文網聯準會沃勒表示，如果核心通膨持續走高，可能需要升息 路透",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+      "title_cn": "交易商預計，隨著通膨降溫，聯準會將跳過 7 月升息 - 路透中文網交易員預計，隨著通膨降溫，聯準會將跳過 7 月升息 路透",
+      "time": "04:00",
+      "detected_at": "2026-07-16T04:00:16.981116+08:00"
     },
     {
-      "title": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption By Reuters - Investing.com",
-      "impact": "bullish",
+      "title": "Iran war has already cost households in Michigan $502 in higher gas prices - The Michigan Independent",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "根據《密西根獨立報》報道，伊朗戰爭已經導緻密西根州家庭因汽油價格上漲而損失了 502 美元",
+      "time": "04:00",
+      "detected_at": "2026-07-16T04:00:16.981116+08:00"
+    },
+    {
+      "title": "House G.O.P. Releases Budget to Unlock $95 Billion for Iran War and SAVE Act - The New York Times",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "眾議院共和黨發布預算為伊朗戰爭和 SAVE 法案釋放 950 億美元 - 紐約時報",
+      "time": "04:00",
+      "detected_at": "2026-07-16T04:00:16.981116+08:00"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang Dismisses Vera Rubin Hardware Delay Report, Affirms 'Giant' Production Volumes - Benzinga",
+      "impact": "bearish",
+      "source": "Benzinga",
+      "title_cn": "Nvidia 執行長 Jensen Huang 駁回了 Vera Rubin 硬體延遲報告，並肯定了「巨大」的產量 - Benzinga",
+      "time": "03:00",
+      "detected_at": "2026-07-16T03:00:16.349887+08:00"
+    },
+    {
+      "title": "Trump on ending Iran war: ‘I don’t want to negotiate now’ - The Hill",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "川普談結束伊朗戰爭：「我現在不想談判」—國會山莊",
+      "time": "03:00",
+      "detected_at": "2026-07-16T03:00:16.349887+08:00"
+    },
+    {
+      "title": "Booker Condemns Senate Inaction to Stop ICE and Iran War - US Senator Cory Booker (.gov)",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "布克譴責參議院在阻止 ICE 和伊朗戰爭方面不採取行動 - 美國參議員科里·布克 (.gov)",
+      "time": "03:00",
+      "detected_at": "2026-07-16T03:00:16.349887+08:00"
+    },
+    {
+      "title": "Historic IBM stock crash sets up unique options strategy",
+      "impact": "bearish",
+      "source": "CNBC",
+      "title_cn": "歷史性的 IBM 股票崩盤制定了獨特的選擇權策略",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
+    },
+    {
+      "title": "Gold erases some losses as weak U.S. producer prices boost Fed cut hopes - Investing.com",
+      "impact": "neutral",
       "source": "Investing.com",
-      "title_cn": "美伊襲擊加劇供應中斷，油價上漲 2% 至一個月高點 路透社 - Investing.com美伊襲擊加劇供應中斷，油價上漲 2% 至一個月高點 路透 Investing.com",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+      "title_cn": "Investing.com，因美國生產者價格疲軟提振聯準會降息希望，黃金收復部分跌幅",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
     },
     {
-      "title": "Gold Declines as Renewed US-Iran Strikes Raise Rate-Hike Bets - Bloomberg.com",
+      "title": "Dollar steadies as softer inflation curbs Fed hike bets despite PPI drop - Investing.com",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "隨著美國和伊朗再次罷工增加升息押注，金價下跌 - Bloomberg.com",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+      "source": "Investing.com",
+      "title_cn": "儘管 PPI 下降，但通膨疲軟抑制了聯準會升息押注，美元穩定 - Investing.com",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
     },
     {
-      "title": "Senate Dems block defense bill in protest of Iran war - Politico",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "參議院民主黨阻止國防法案以抗議伊朗戰爭 - Politico",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
-    },
-    {
-      "title": "US military restores blockade in response to Iran’s attacks on ships on the Strait of Hormuz - AP News",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "美國軍方恢復封鎖，以回應伊朗襲擊霍爾木茲海峽的船隻 - 美聯社新聞",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
-    },
-    {
-      "title": "Senate Democrats block defence bill over Iran war, Israel provisions - Al Jazeera",
+      "title": "Vance, House GOP Push Ahead on Politically Risky Iran War Funds - Bloomberg.com",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Senate Democrats block defence bill over Iran war, Israel provisions - Al Jazeera",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+      "title_cn": "萬斯和眾議院共和黨推動具有政治風險的伊朗戰爭基金 - Bloomberg.com",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
     },
     {
-      "title": "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping - Al Jazeera",
-      "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping - Al Jazeera",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
-    },
-    {
-      "title": "Senate Democrats block must-pass defense policy bill over Iran war objections - CBS News",
+      "title": "'Enough Is Enough': Lawmakers Criticize Trump Over Resumption of Iran War - Time Magazine",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "Senate Democrats block must-pass defense policy bill over Iran war objections - CBS News",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+      "title_cn": "「夠了」：立法者批評川普重啟伊朗戰爭 - 時代雜誌",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
     },
     {
-      "title": "油價大跌送大禮！美6月CPI意外全面降溫 Fed本月升息壓力減輕 - news.cnyes.com",
+      "title": "House Republicans unveil a $95 billion plan for the Iran war, farm aid and elections - AP News",
+      "impact": "bearish",
+      "source": "Geopolitical",
+      "title_cn": "House Republicans unveil a $95 billion plan for the Iran war, farm aid and elections - AP News",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
+    },
+    {
+      "title": "〈美股早盤〉通膨降溫削弱Fed升息押注 主要指數開高、科技股領漲 - anuenews.cnyes.com",
       "impact": "bearish",
       "source": "鉅亨網",
-      "title_cn": "油價大跌送大禮！美6月CPI意外全面降溫 Fed本月升息壓力減輕 - news.cnyes.com",
-      "time": "05:00",
-      "detected_at": "2026-07-15T05:00:20.057624+08:00"
+      "title_cn": "〈美股早盤〉通膨降溫削弱Fed升息押注 主要指數開高、科技股領漲 - anuenews.cnyes.com",
+      "time": "02:00",
+      "detected_at": "2026-07-16T02:00:17.985864+08:00"
     },
     {
-      "title": "U.S. strikes Iran before Hormuz Strait blockade restarts",
-      "impact": "neutral",
+      "title": "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits on economy, interest rates",
+      "impact": "bearish",
       "source": "CNBC",
-      "title_cn": "美國在霍爾木茲海峽封鎖重啟之前襲擊伊朗",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+      "title_cn": "聯準會主席凱文沃什在參議院銀行委員會的證詞對經濟和利率造成了打擊",
+      "time": "01:00",
+      "detected_at": "2026-07-16T01:00:23.360650+08:00"
     },
     {
-      "title": "Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee",
-      "impact": "bullish",
-      "source": "CNBC",
-      "title_cn": "隨著美國對伊朗發動新的空襲，而川普放棄霍爾木茲海峽費用，油價上漲",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
-    },
-    {
-      "title": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "路透社稱，隨著美國和伊朗的攻擊加劇供應中斷，油價上漲 2%，至一個月高點",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
-    },
-    {
-      "title": "Oil up 9% to one-month high as US says it will blockade entire Iranian coastline, all vessels - Reuters",
+      "title": "America&#x2019;s oil refiners could more than triple profits as Iran war sparks massive boom",
       "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "油價上漲 9%，創一個月高位，因美國表示將封鎖伊朗整個海岸線和所有船隻 - 路透社",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
-    },
-    {
-      "title": "Global oil prices notch back-to-back rise, remain &#x2018;tethered to the Hormuz narrative&#x2019;",
-      "impact": "bullish",
       "source": "MarketWatch",
-      "title_cn": "全球油價連續上漲，仍然「與霍爾木茲的敘事掛鉤」",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+      "title_cn": "隨著伊朗戰爭引發大規模繁榮，美國煉油商的利潤可能增加兩倍以上",
+      "time": "01:00",
+      "detected_at": "2026-07-16T01:00:23.360650+08:00"
     },
     {
-      "title": "Oil at one-month high as U.S.-Iran strikes continue; Trump scraps Hormuz fee plan - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "Oil at one-month high as U.S.-Iran strikes continue; Trump scraps Hormuz fee plan - Investing.com",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
+      "title": "Treasuries Rally as Cool CPI Data Cuts July Fed Hike Bets to 20% - Bloomberg.com",
+      "impact": "bullish",
+      "source": "Bloomberg-via-GN",
+      "title_cn": "酷 CPI 數據將 7 月聯準會升息預期下調至 20%，國債上漲 - Bloomberg.com",
+      "time": "01:00",
+      "detected_at": "2026-07-16T01:00:23.360650+08:00"
     },
     {
-      "title": "Trump announces new blockade, Hormuz fee - Semafor",
-      "impact": "neutral",
-      "source": "Semafor",
-      "title_cn": "Trump announces new blockade, Hormuz fee - Semafor",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
-    },
-    {
-      "title": "The Iran War Is Almost Over. The Iran War Will Never End - Rolling Stone",
+      "title": "House Republicans unveil $95 billion plan for the Iran war, farm aid and elections - ABC News - Breaking News, Latest News and Videos",
       "impact": "bearish",
       "source": "Geopolitical",
-      "title_cn": "The Iran War Is Almost Over. The Iran War Will Never End - Rolling Stone",
-      "time": "04:00",
-      "detected_at": "2026-07-15T04:00:17.616524+08:00"
-    },
-    {
-      "title": "Oil hits one-month high as US-Iran attacks deepen supply disruption - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "路透社稱，隨著美國和伊朗的攻擊加劇供應中斷，油價觸及一個月高點",
-      "time": "03:00",
-      "detected_at": "2026-07-15T03:00:23.222876+08:00"
-    },
-    {
-      "title": "Trump pivots from 20 percent Strait of Hormuz fee amid Iran war escalation - Al Jazeera",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "在伊朗戰爭升級之際，川普放棄了 20% 的霍爾木茲海峽費 - 半島電視台",
-      "time": "03:00",
-      "detected_at": "2026-07-15T03:00:23.222876+08:00"
-    },
-    {
-      "title": "Watch live: Trump meets Iraqi prime minister as Iran war intensifies - The Hill",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "觀看直播：隨著伊朗戰爭加劇，川普會見伊拉克總理 - 國會山莊",
-      "time": "03:00",
-      "detected_at": "2026-07-15T03:00:23.222876+08:00"
+      "title_cn": "眾議院共和黨公佈了 950 億美元的伊朗戰爭、農業援助和選舉計劃 - ABC 新聞 - 突發新聞、最新新聞和影片",
+      "time": "01:00",
+      "detected_at": "2026-07-16T01:00:23.360650+08:00"
     }
   ]
 }
