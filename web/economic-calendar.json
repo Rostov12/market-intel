@@ -1,49 +1,42 @@
 {
-  "date": "2026-07-14",
-  "generated_at": "2026-07-14 04:00",
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17 04:00",
   "next_fomc": {
     "date": "2026-07-29",
-    "days_away": 15,
-    "label": "下次 FOMC：07/29（15天後）"
+    "days_away": 12,
+    "label": "下次 FOMC：07/29（12天後）"
   },
   "next_7_days": [],
   "next_14_days": [
     {
-      "date": "2026-07-15",
-      "event": "CPI（6月）",
+      "date": "2026-07-29",
+      "event": "FOMC 利率決議",
       "importance": "high",
-      "source": "BLS",
-      "days_away": 1,
-      "label": "🔴 CPI（6月）（1天後）",
+      "source": "Fed",
+      "days_away": 12,
+      "label": "🔴 FOMC 利率決議（12天後）",
       "impact_guide": {
-        "name": "消費者物價指數",
-        "above": "通膨高於預期 → 升息預期升溫 → 偏空",
-        "below": "通膨低於預期 → 降息預期升溫 → 偏多",
-        "watch": "核心 CPI（排除食品能源）更受 Fed 關注"
-      },
-      "previous": "4.3%",
-      "previous_date": "2026-05-01"
-    }
-  ],
-  "recent_events": [
+        "name": "聯準會利率決議",
+        "above": "鷹派（升息/縮表）→ 偏空",
+        "below": "鴿派（降息/暫停）→ 偏多",
+        "watch": "重點在點陣圖和鮑爾記者會措辭"
+      }
+    },
     {
-      "date": "2026-07-14",
-      "time_tst": "20:30",
-      "event": "CPI（6月）",
-      "actual": {
-        "headline_yoy": 3.5,
-        "headline_mom": -0.4,
-        "core_yoy": 2.6,
-        "core_mom": 0.0
+      "date": "2026-07-29",
+      "event": "GDP Q2 初值",
+      "importance": "high",
+      "source": "BEA",
+      "days_away": 12,
+      "label": "🔴 GDP Q2 初值（12天後）",
+      "impact_guide": {
+        "name": "國內生產毛額",
+        "above": "經濟成長超預期 → 偏多（但過熱則偏空）",
+        "below": "經濟放緩 → 衰退疑慮 → 偏空",
+        "watch": "初值影響最大，修正值/終值影響遞減"
       },
-      "consensus": {
-        "headline_mom": 0.2,
-        "core_yoy": 2.9
-      },
-      "read": "鴿派（cooler than expected）",
-      "source": "BLS",
-      "note": "2026-07-14 20:30 TST 發布，非 07-15。calendar 已更正"
+      "previous": "2.1",
+      "previous_date": "2026-01-01"
     }
-  ],
-  "last_updated": "2026-07-15 08:40 TST"
+  ]
 }
