@@ -1,17 +1,17 @@
 {
-  "date": "2026-07-18",
-  "fetched_at": "2026-07-18 21:05",
-  "market_tone": "開盤不確定",
+  "date": "2026-07-20",
+  "fetched_at": "2026-07-20 08:05",
+  "market_tone": "盤前數據不足",
   "summary": {
     "bullish": 0,
     "bearish": 0,
-    "neutral": 1
+    "neutral": 0
   },
   "movers": [
     {
       "symbol": "ES=F",
       "name": "S&P 500 期貨",
-      "prev_close": 7497.75,
+      "prev_close": 7500.25,
       "premarket_price": null,
       "premarket_pct": null,
       "status": "no_premarket"
@@ -19,7 +19,7 @@
     {
       "symbol": "NQ=F",
       "name": "Nasdaq 期貨",
-      "prev_close": 28773.25,
+      "prev_close": 28842.75,
       "premarket_price": null,
       "premarket_pct": null,
       "status": "no_premarket"
@@ -27,7 +27,7 @@
     {
       "symbol": "YM=F",
       "name": "道瓊期貨",
-      "prev_close": 52375.0,
+      "prev_close": 52343.0,
       "premarket_price": null,
       "premarket_pct": null,
       "status": "no_premarket"
@@ -115,12 +115,10 @@
     {
       "symbol": "BTC-USD",
       "name": "比特幣",
-      "prev_close": 64103.1797,
-      "premarket_price": 64103.1797,
-      "premarket_pct": 0.0,
-      "premarket_vol": 2810142720.0,
-      "premarket_time": "09:05 ET",
-      "status": "ok"
+      "prev_close": 64609.3594,
+      "premarket_price": null,
+      "premarket_pct": null,
+      "status": "no_premarket"
     }
   ]
 }
