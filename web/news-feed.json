@@ -1,167 +1,55 @@
 {
-  "date": "2026-07-16",
-  "fetched_at": "2026-07-16 17:07",
-  "mode": "bridge_from_breaking_news",
+  "date": "2026-07-23",
+  "fetched_at": "2026-07-23 08:07",
+  "mode": "intraday",
   "news": [
     {
-      "title": "Dollar near one-month low as cooling inflation curbs Fed hike bets - Reuters",
-      "impact": "bearish",
-      "source": "Reuters-Biz",
-      "title_cn": "因通膨降溫抑制聯準會升息押注，美元接近一個月低點 - 路透中文網通膨降溫抑制聯準會升息押注，美元接近一個月低點 路透",
-      "time": "14:00",
-      "detected_at": "2026-07-16T14:00:17.203020+08:00"
-    },
-    {
-      "title": "Fed Rate-Hike Bets Mount Before Inflation Data, Warsh Testimony - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "沃什的證詞顯示，在通膨數據公佈之前，聯準會升息的押注不斷增加 - Bloomberg.com",
-      "time": "14:00",
-      "detected_at": "2026-07-16T14:00:17.203020+08:00"
-    },
-    {
-      "title": "United warns of nearly $6 billion fuel hit as oil-price surge weighs on outlook By Reuters - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "美聯航警告稱，由於油價飆升打壓前景，近 60 億美元的燃油損失將受到影響 路透社 - Investing.com",
-      "time": "13:00",
-      "detected_at": "2026-07-16T13:00:18.250585+08:00"
-    },
-    {
-      "title": "Iran war: Tehran says it 'never welcomed war' - dw.com",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "伊朗戰爭：德黑蘭表示「從不歡迎戰爭」 - dw.com",
-      "time": "13:00",
-      "detected_at": "2026-07-16T13:00:18.250585+08:00"
-    },
-    {
-      "title": "Iran says peace deal voided, fighting ‘existential war’ after US attacks - Al Jazeera",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "半島電視台稱，伊朗稱和平協議無效，在美國攻擊後進行「生存戰爭」",
-      "time": "13:00",
-      "detected_at": "2026-07-16T13:00:18.250585+08:00"
-    },
-    {
-      "title": "In Iran, Trump Risks Another American ‘Forever War’ - The New York Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "在伊朗，川普冒著另一場美國「永遠的戰爭」的風險 - 紐約時報",
-      "time": "13:00",
-      "detected_at": "2026-07-16T13:00:18.250585+08:00"
-    },
-    {
-      "title": "Oil traders call Trump's Hormuz bluff at their peril - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "石油交易商稱川普的霍爾木茲虛張聲勢是危險的 - 路透社",
-      "time": "12:00",
-      "detected_at": "2026-07-16T12:00:19.302054+08:00"
-    },
-    {
-      "title": "Column: The Iran war could shape American policy for decades - Los Angeles Times",
-      "impact": "bearish",
-      "source": "Geopolitical",
-      "title_cn": "專欄：伊朗戰爭可能影響美國數十年的政策—《洛杉磯時報》",
-      "time": "12:00",
-      "detected_at": "2026-07-16T12:00:19.302054+08:00"
-    },
-    {
-      "title": "《美股掃瞄》SK海力士、美光又暴跌資金逃向巨型股- 證券 - 工商時報",
-      "impact": "bearish",
-      "source": "工商時報",
-      "title_cn": "《美股掃瞄》SK海力士、美光又暴跌資金逃向巨型股-證券-工商時報",
-      "time": "12:00",
-      "detected_at": "2026-07-16T12:00:19.302054+08:00"
-    },
-    {
-      "title": "United warns of nearly $6 billion fuel hit as oil-price surge weighs on outlook - Reuters",
-      "impact": "neutral",
-      "source": "Reuters-Biz",
-      "title_cn": "美聯航警告稱，由於油價飆升打壓前景，近 60 億美元的燃油受到打擊 - 路透社",
-      "time": "11:00",
-      "detected_at": "2026-07-16T11:00:23.616517+08:00"
-    },
-    {
-      "title": "Gold rises more than 1% as soft U.S. CPI data prompts easing in rate hike odds - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "Investing.com，美國疲軟的消費者物價指數(CPI)數據促使升息可能性降低，金價上漲逾1%",
-      "time": "11:00",
-      "detected_at": "2026-07-16T11:00:23.616517+08:00"
-    },
-    {
-      "title": "Gold Steadies as Soft Inflation, War Risk Cloud Fed Rate Outlook - Bloomberg.com",
-      "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "通膨疲軟、戰爭風險籠罩聯準會利率前景，金價穩定 - Bloomberg.com",
-      "time": "11:00",
-      "detected_at": "2026-07-16T11:00:23.616517+08:00"
-    },
-    {
-      "title": "CNBC Daily Open: Big Tech rally drowns out Iran war fears — Buffett urges caution",
+      "title": "Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike",
       "impact": "bullish",
-      "source": "CNBC-World",
-      "title_cn": "CNBC 每日開盤：大型科技股的上漲掩蓋了對伊朗戰爭的擔憂——巴菲特敦促謹慎行事",
-      "time": "10:00",
-      "detected_at": "2026-07-16T10:00:24.600431+08:00"
+      "source": "CNBC",
+      "title_cn": "Alphabet 財報重點：第二季營收超預期，GOOGL 股價因 2026 年資本支出上漲而下跌"
     },
     {
-      "title": "Yields hover near multi-month highs as Iran escalation locks in Fed hike fears - Investing.com",
-      "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "由於伊朗局勢升級引發聯準會升息擔憂，殖利率徘徊在數月高點附近 - Investing.com",
-      "time": "10:00",
-      "detected_at": "2026-07-16T10:00:24.600431+08:00"
-    },
-    {
-      "title": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption By Reuters - Investing.com",
-      "impact": "bullish",
-      "source": "Investing.com",
-      "title_cn": "美伊襲擊加劇供應中斷，油價上漲 2% 至一個月高點 路透社 - Investing.com美伊襲擊加劇供應中斷，油價上漲 2% 至一個月高點 路透 Investing.com",
-      "time": "10:00",
-      "detected_at": "2026-07-16T10:00:24.600431+08:00"
-    },
-    {
-      "title": "IEA Boss Warns Global Economy in Peril If Hormuz Crisis Persists - Bloomberg.com",
+      "title": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
       "impact": "bearish",
-      "source": "Bloomberg-via-GN",
-      "title_cn": "國際能源總署總裁警告稱，如果霍爾木茲危機持續下去，全球經濟將面臨危險 - Bloomberg.com",
-      "time": "10:00",
-      "detected_at": "2026-07-16T10:00:24.600431+08:00"
+      "source": "CNBC",
+      "title_cn": "由於自由現金流轉為負且利潤率下滑，特斯拉獲利未達標"
     },
     {
-      "title": "Trump said leaning toward expanding military offensive against Iran, which he warns ‘better behave’ - The Times of Israel",
+      "title": "IBM lowers full-year forecast after earnings warning",
       "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "川普表示傾向擴大對伊朗的軍事攻勢，並警告伊朗「要表現得更好」——《以色列時報》",
-      "time": "10:00",
-      "detected_at": "2026-07-16T10:00:24.600431+08:00"
+      "source": "CNBC",
+      "title_cn": "IBM 在獲利預警後下調全年預期"
     },
     {
-      "title": "CNBC Daily Open: Big Tech rally drowns out Iran war fears — Buffett urges caution - CNBC",
+      "title": "Oil prices rise after Rubio says Iran is not serious about a deal",
       "impact": "neutral",
-      "source": "Geopolitical",
-      "title_cn": "CNBC Daily Open: Big Tech rally drowns out Iran war fears — Buffett urges caution - CNBC",
-      "time": "10:00",
-      "detected_at": "2026-07-16T10:00:24.600431+08:00"
+      "source": "CNBC",
+      "title_cn": "盧比歐表示伊朗並不認真看待達成協議後油價上漲"
     },
     {
-      "title": "Oil prices rise 2% to one-month high as US-Iran attacks deepen supply disruption - Reuters",
-      "impact": "bullish",
-      "source": "Reuters-Biz",
-      "title_cn": "路透社稱，隨著美國和伊朗的攻擊加劇供應中斷，油價上漲 2%，至一個月高點",
-      "time": "09:00",
-      "detected_at": "2026-07-16T09:00:20.921036+08:00"
-    },
-    {
-      "title": "Oil at one-month high as U.S.-Iran strikes continue; Trump scraps Hormuz fee plan - Investing.com",
+      "title": "Stocks making the biggest moves after hours: Alphabet, Tesla, IBM, Las Vegas Sands, ServiceNow & more",
       "impact": "neutral",
-      "source": "Investing.com",
-      "title_cn": "隨著美國與伊朗的罷工持續，油價創一個月新高；川普廢除霍爾木茲收費計畫 - Investing.com",
-      "time": "09:00",
-      "detected_at": "2026-07-16T09:00:20.921036+08:00"
+      "source": "CNBC",
+      "title_cn": "盤後漲幅最大的股票：Alphabet、特斯拉、IBM、拉斯維加斯金沙集團、ServiceNow 等"
+    },
+    {
+      "title": "Biotech remains compelling even after major comeback. Here’s what investors say",
+      "impact": "neutral",
+      "source": "CNBC",
+      "title_cn": "即使在重大復甦之後，生物技術仍然引人注目。這是投資者的評價"
+    },
+    {
+      "title": "&#x2018;I have a $2,000 deductible&#x2019;: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "「我有 2,000 美元的免賠額」：我報告了我的 Hertz 租賃汽車的擋風玻璃破裂。他們可以向我收費嗎？"
+    },
+    {
+      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "impact": "neutral",
+      "source": "MarketWatch",
+      "title_cn": "我想轉移 17,000 美元的信用卡債務。為什麼富國銀行只提供我 4,000 美元的信用額度？"
     }
   ]
 }
