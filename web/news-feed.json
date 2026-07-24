@@ -1,55 +1,55 @@
 {
-  "date": "2026-07-23",
-  "fetched_at": "2026-07-23 08:07",
-  "mode": "intraday",
+  "date": "2026-07-24",
+  "fetched_at": "2026-07-24 21:08",
+  "mode": "preopen",
   "news": [
     {
-      "title": "Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike",
+      "title": "Dow futures rebound by 150 points as oil surge eases, Intel gains after earnings: Live updates",
       "impact": "bullish",
       "source": "CNBC",
-      "title_cn": "Alphabet 財報重點：第二季營收超預期，GOOGL 股價因 2026 年資本支出上漲而下跌"
+      "title_cn": "隨著油價上漲放緩，道瓊指數期貨反彈 150 點，英特爾財報公佈後上漲：即時更新"
     },
     {
-      "title": "Tesla misses on earnings, as free cash flow turns negative and margins slide",
-      "impact": "bearish",
-      "source": "CNBC",
-      "title_cn": "由於自由現金流轉為負且利潤率下滑，特斯拉獲利未達標"
-    },
-    {
-      "title": "IBM lowers full-year forecast after earnings warning",
+      "title": "Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "IBM 在獲利預警後下調全年預期"
+      "title_cn": "全球關稅到期後，川普將對 60 個貿易夥伴徵收「全面」新關稅"
     },
     {
-      "title": "Oil prices rise after Rubio says Iran is not serious about a deal",
+      "title": "Intel's stock jumps as chipmaker rides AI boom to fastest revenue growth in almost 15 years",
+      "impact": "bullish",
+      "source": "CNBC",
+      "title_cn": "晶片製造商乘著人工智慧熱潮實現近 15 年來最快營收成長，英特爾股價上漲"
+    },
+    {
+      "title": "Trump considering a ‘massive attack’ on Iran as Tehran labels UK ‘accomplice’ to America",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "盧比歐表示伊朗並不認真看待達成協議後油價上漲"
+      "title_cn": "川普考慮對伊朗進行“大規模襲擊”，德黑蘭將英國稱為美國的“同謀”"
     },
     {
-      "title": "Stocks making the biggest moves after hours: Alphabet, Tesla, IBM, Las Vegas Sands, ServiceNow & more",
+      "title": "Stocks making the biggest moves premarket: Intel, Oracle, American Express & more",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "盤後漲幅最大的股票：Alphabet、特斯拉、IBM、拉斯維加斯金沙集團、ServiceNow 等"
+      "title_cn": "盤前漲幅最大的股票：英特爾、甲骨文、美國運通等"
     },
     {
-      "title": "Biotech remains compelling even after major comeback. Here’s what investors say",
+      "title": "Here are Friday's biggest analyst calls of the day: Nvidia, SpaceX, Tesla, AMD, Intel, Dell, Apple, Meta & more",
       "impact": "neutral",
       "source": "CNBC",
-      "title_cn": "即使在重大復甦之後，生物技術仍然引人注目。這是投資者的評價"
+      "title_cn": "以下是周五當天最大的分析師電話會議：Nvidia、SpaceX、Tesla、AMD、Intel、Dell、Apple、Meta 等"
     },
     {
-      "title": "&#x2018;I have a $2,000 deductible&#x2019;: I reported a cracked windshield on my Hertz rental car. Can they charge me?",
+      "title": "My second husband and I have kids from previous relationships. Should my house go to him or my children if I die first?",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "「我有 2,000 美元的免賠額」：我報告了我的 Hertz 租賃汽車的擋風玻璃破裂。他們可以向我收費嗎？"
+      "title_cn": "我和我的第二任丈夫在之前的關係中育有孩子。如果我先死，我的房子該歸他還是我的孩子？"
     },
     {
-      "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
+      "title": "A panicking Fed is just what the bond market needs, says Bank of America&#x2019;s chief strategist",
       "impact": "neutral",
       "source": "MarketWatch",
-      "title_cn": "我想轉移 17,000 美元的信用卡債務。為什麼富國銀行只提供我 4,000 美元的信用額度？"
+      "title_cn": "美國銀行首席策略師表示，恐慌的聯準會正是債券市場所需要的"
     }
   ]
 }
